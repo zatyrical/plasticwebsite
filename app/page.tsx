@@ -98,7 +98,10 @@ export default function Home() {
     <main>
       <nav className="nav">
         <div className="nav-inner">
-          <Link href="/" className="brand">Dr Jeremy Sun</Link>
+          <Link href="/" className="brand" aria-label="Dr Sun Plastic Surgery home">
+            <Image src="/images/brand/dr-sun-logo-nav.jpg" alt="Dr Sun Plastic Surgery logo" width={150} height={150} priority />
+            <span>Dr Sun Plastic Surgery</span>
+          </Link>
           <div className="nav-links">
             <a href="#about">About</a>
             <a href="#procedures">Procedures</a>
