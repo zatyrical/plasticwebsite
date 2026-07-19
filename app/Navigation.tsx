@@ -5,11 +5,12 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const navItems = [
-  { href: '#about', label: 'About' },
-  { href: '#procedures', label: 'Procedures' },
-  { href: '#training', label: 'Training' },
-  { href: '#reconstruction', label: 'Reconstruction' },
-  { href: '#articles', label: 'Articles' }
+  { href: '/#about', label: 'About' },
+  { href: '/#procedures', label: 'Procedures' },
+  { href: '/lymphedema-surgery-singapore', label: 'Lymphedema' },
+  { href: '/#training', label: 'Training' },
+  { href: '/#reconstruction', label: 'Reconstruction' },
+  { href: '/#articles', label: 'Articles' }
 ];
 
 export default function Navigation() {
@@ -40,12 +41,12 @@ export default function Navigation() {
         </button>
         <div className="nav-links desktop-nav">
           {navItems.map((item) => <a href={item.href} key={item.href}>{item.label}</a>)}
-          <a href="#contact" className="btn btn-primary">Enquire</a>
+          <a href="/#contact" className="btn btn-primary">Enquire</a>
         </div>
       </div>
       <div id="mobile-navigation" className={`mobile-nav ${open ? 'open' : ''}`}>
         {navItems.map((item) => <a href={item.href} key={item.href} onClick={closeMenu}>{item.label}</a>)}
-        <a href="#contact" className="btn btn-primary" onClick={closeMenu}>Enquire</a>
+        <a href="/#contact" className="btn btn-primary" onClick={closeMenu}>Enquire</a>
       </div>
     </nav>
   );
