@@ -19,6 +19,45 @@ const reconstruction = [
   'Microsurgical reconstruction and perforator flap surgery including SCIP and anteromedial thigh flap work'
 ];
 
+const trainingMentorship = [
+  {
+    area: 'Lymphatic surgery',
+    mentor: 'Dedicated MOH-accredited training program in Tokyo',
+    focus: 'Lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.',
+    note: 'Structured subspecialty training program rather than a brief observership.'
+  },
+  {
+    area: 'Body contouring & liposuction',
+    mentor: 'Dr David Sieber and Mexican body-contouring surgical groups',
+    focus: 'High-definition liposuction, abdominoplasty, cosmetic body contouring and breast augmentation principles.',
+    note: 'ASAPS travelling fellowship exposure.'
+  },
+  {
+    area: 'Breast aesthetic surgery',
+    mentor: 'Dr William Adams and Dr Dennis Hammond',
+    focus: 'Breast augmentation, rapid-recovery concepts and advanced breast shaping approaches.',
+    note: 'Mentored international aesthetic surgery training.'
+  },
+  {
+    area: 'Asian rhinoplasty',
+    mentor: 'Dr Jeong Jae Yong, Dr Charles Lee and Dr Yasushi Sugawara',
+    focus: 'Asian rhinoplasty, structural rhinoplasty and rib cartilage techniques.',
+    note: 'Training exposure across South Korea, Japan and Los Angeles.'
+  },
+  {
+    area: 'Eyelid surgery',
+    mentor: 'Dr Moon Seop Choi, Dr Cho In Chang and Dr Keizo Fukuta',
+    focus: 'Asian blepharoplasty and oculoplastic/aesthetic eyelid surgery concepts.',
+    note: 'Procedure-specific mentorship and observership exposure.'
+  },
+  {
+    area: 'Facial rejuvenation',
+    mentor: 'Dr Tim Martyn, Dr Giovanni Botti and Dr Zekeriya Kul',
+    focus: 'Sub-SMAS and deep-plane facelift concepts, facial rejuvenation and aesthetic facial surgery.',
+    note: 'International facelift training exposure in the USA, Italy and Türkiye.'
+  }
+];
+
 const publications = [
   'Venous anatomy of the superficial circumflex iliac artery perforator flap: a cadaveric and clinical study. JPRAS, 2024.',
   'Utilizing the subunit concept to achieve better outcomes in lower limb reconstruction. PRS Global Open, 2024.',
@@ -63,7 +102,7 @@ export default function Home() {
               <Image src="/images/dr-jeremy-sun-hero.jpg" alt="Portrait of Dr Jeremy Sun, plastic surgeon in Singapore" width={896} height={1280} priority />
               <div className="credential-strip">
                 <div className="metric"><strong>MOH Accredited</strong><span>Dedicated lymphatic surgery training program in Tokyo</span></div>
-                <div className="metric"><strong>American Society for Aesthetic Plastic Surgery</strong><span>International aesthetic surgery fellowship grant</span></div>
+                <div className="metric"><strong>American Society for Aesthetic Plastic Surgery</strong><span>Annual travelling fellowship awarded to one international plastic surgeon</span></div>
                 <div className="metric"><strong>Duke-NUS</strong><span>Assistant Clinical Professor</span></div>
               </div>
             </div>
@@ -94,13 +133,21 @@ export default function Home() {
 
       <section id="training" className="section">
         <div className="container">
+          <div className="eyebrow">Training gallery</div>
           <h2>International training & mentorship</h2>
-          <p className="section-intro">A dedicated training gallery can showcase verified fellowships, observerships and training photographs where permissions are available. The language should be factual: who, where, what area of training.</p>
-          <div className="timeline">
-            <div className="timeline-item"><h3>ASAPS international fellowship grant</h3><p>Training exposure with aesthetic plastic surgeons in the United States, including body contouring, breast aesthetic surgery and facial aesthetic surgery.</p></div>
-            <div className="timeline-item"><h3>MOH HMDP lymphatic surgery training, Tokyo</h3><p>Led a multidisciplinary team to Tokyo to specialise in lymphedema management and lymphatic surgery.</p></div>
-            <div className="timeline-item"><h3>Body contouring</h3><p>Training with Mexican body-contouring surgical groups in Tijuana and with Dr David Sieber in San Francisco for cosmetic body contouring, high-definition liposuction, abdominoplasty and breast augmentation.</p></div>
-            <div className="timeline-item"><h3>Breast, rhinoplasty, eyelid and facelift training</h3><p>Training exposure with Dr William Adams, Dr Dennis Hammond, Dr Jeong Jae Yong, Dr Charles Lee, Dr Yasushi Sugawara, Dr Moon Seop Choi, Dr Cho In Chang, Dr Keizo Fukuta, Dr Tim Martyn, Dr Giovanni Botti and Dr Zekeriya Kul.</p></div>
+          <p className="section-intro">This section can be structured like a visual mentorship gallery: each card pairs a procedure area with the mentor or training program, the specific surgical focus and — once uploaded — a photograph from that training experience.</p>
+          <div className="mentor-grid">
+            {trainingMentorship.map((x) => (
+              <article className="mentor-card" key={x.area}>
+                <div className="mentor-photo-placeholder"><span>Mentor photo</span></div>
+                <div className="mentor-content">
+                  <small>{x.area}</small>
+                  <h3>{x.mentor}</h3>
+                  <p>{x.focus}</p>
+                  <span className="mentor-note">{x.note}</span>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </section>
