@@ -5,7 +5,7 @@ const aesthetic = [
   { title: 'Body contouring & liposuction', text: 'Abdominoplasty, arm/thigh/trunk contouring, post-bariatric body contouring and high-definition liposuction techniques, informed by international aesthetic body-contouring training.' },
   { title: 'Breast aesthetic surgery', text: 'Breast augmentation, reduction mammoplasty and mastopexy, including training exposure to rapid-recovery breast augmentation and advanced breast shaping approaches.' },
   { title: 'Asian rhinoplasty', text: 'Asian rhinoplasty and structural rib rhinoplasty training with surgeons in South Korea, Japan and Los Angeles.' },
-  { title: 'Eyelid surgery', text: 'Asian blepharoplasty training with Korean and Japanese oculoplastic/aesthetic surgeons.' },
+  { title: 'Eyelid surgery', text: 'Asian blepharoplasty training with Korean and Japanese plastic/aesthetic surgeons.' },
   { title: 'Facial rejuvenation', text: 'Sub-SMAS and deep-plane facelift concepts from international facelift training in the USA, Italy and Türkiye.' },
   { title: 'Lymphedema surgery', text: 'Lymphatic surgery training through MOH HMDP in Tokyo, with focus on lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.' }
 ];
@@ -64,7 +64,7 @@ const trainingMentorship = [
   {
     area: 'Eyelid surgery',
     mentor: 'Dr Moon Seop Choi and Dr Keizo Fukuta',
-    focus: 'Asian blepharoplasty and oculoplastic/aesthetic eyelid surgery concepts.',
+    focus: 'Asian blepharoplasty and plastic/aesthetic eyelid surgery concepts.',
     note: 'Procedure-specific mentorship and observership exposure.',
     photos: [
       { src: '/images/mentors/moon-seop-choi.jpg', alt: 'Dr Jeremy Sun with Dr Moon Seop Choi during eyelid surgery training', className: 'photo-moon-seop-choi' },
