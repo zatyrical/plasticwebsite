@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import ContactForm from './ContactForm';
+import Navigation from './Navigation';
 
 const aesthetic = [
   { title: 'Body contouring & liposuction', text: 'Abdominoplasty, arm/thigh/trunk contouring, post-bariatric body contouring and high-definition liposuction techniques, informed by international aesthetic body-contouring training.' },
@@ -98,22 +98,7 @@ const publications = [
 export default function Home() {
   return (
     <main>
-      <nav className="nav">
-        <div className="nav-inner">
-          <Link href="/" className="brand" aria-label="Dr Sun Plastic Surgery home">
-            <Image src="/images/brand/dr-sun-logo-nav.jpg" alt="Dr Sun Plastic Surgery logo" width={150} height={150} priority />
-            <span>Dr Sun Plastic Surgery</span>
-          </Link>
-          <div className="nav-links">
-            <a href="#about">About</a>
-            <a href="#procedures">Procedures</a>
-            <a href="#training">Training</a>
-            <a href="#reconstruction">Reconstruction</a>
-            <a href="#articles">Articles</a>
-            <a href="#contact" className="btn btn-primary">Enquire</a>
-          </div>
-        </div>
-      </nav>
+      <Navigation />
 
       <section className="hero">
         <div className="container hero-grid">
