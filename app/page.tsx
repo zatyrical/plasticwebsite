@@ -159,7 +159,7 @@ export default function Home() {
           <div className="surgical-feature-copy">
             <div className="eyebrow">Surgical practice</div>
             <h2>Precision, planning and microsurgical discipline.</h2>
-            <p className="section-intro">A calm operating-room image works well here because it shows clinical focus without relying on before-and-after claims or patient testimonials. The surrounding copy keeps the tone educational and professional.</p>
+            <p className="section-intro">Dr Sun’s surgical approach is grounded in careful assessment, detailed operative planning and a microsurgical foundation developed through aesthetic, reconstructive and lymphatic surgery practice.</p>
             <div className="feature-points">
               <span>Microsurgical foundation</span>
               <span>Structured operative planning</span>
@@ -173,7 +173,7 @@ export default function Home() {
         <div className="container">
           <div className="eyebrow">Clinical focus areas</div>
           <h2>Aesthetic surgery</h2>
-          <p className="section-intro">Procedure pages should remain educational, balanced and compliance-safe: indications, suitability, alternatives, recovery and risks — without guarantees, superlatives or sensational before-and-after claims.</p>
+          <p className="section-intro">Dr Sun’s aesthetic surgery practice includes body contouring, breast surgery, Asian rhinoplasty, eyelid surgery, facial rejuvenation and lymphedema surgery, informed by international fellowship and mentorship exposure.</p>
           <div className="grid-3">{aesthetic.map((x) => <div className="card" key={x.title}><h3>{x.title}</h3><p>{x.text}</p></div>)}</div>
         </div>
       </section>
@@ -182,7 +182,7 @@ export default function Home() {
         <div className="container">
           <div className="eyebrow">Training gallery</div>
           <h2>International training & mentorship</h2>
-          <p className="section-intro">This section can be structured like a visual mentorship gallery: each card pairs a procedure area with the mentor or training program, the specific surgical focus and — once uploaded — a photograph from that training experience.</p>
+          <p className="section-intro">Dr Sun has pursued focused international training across lymphatic surgery, aesthetic surgery and facial procedures, with mentorship from surgeons and surgical units in Tokyo, South Korea, Japan, the United States, Italy, Türkiye and Mexico.</p>
           <div className="mentor-grid">
             {trainingMentorship.map((x) => (
               <article className="mentor-card" key={x.area}>
@@ -206,7 +206,7 @@ export default function Home() {
       <section id="reconstruction" className="section">
         <div className="container">
           <h2>Reconstructive surgery</h2>
-          <p className="section-intro">Dr Sun’s reconstructive practice spans breast, lower limb, lymphatic, head and neck, and trauma reconstruction. His reconstructive experience includes the reconstruction component for Singapore’s first robotic mastectomy, MD Anderson head-and-neck observership exposure, lower-limb reconstruction academic work and invited lymphedema surgery talks at local and international meetings.</p>
+          <p className="section-intro">Dr Sun’s reconstructive practice spans breast, lower limb, lymphatic, head and neck, and trauma reconstruction. His experience includes the reconstruction component for Singapore’s first robotic mastectomy, MD Anderson head-and-neck observership exposure, lower-limb reconstruction academic work and invited lymphedema surgery talks at local and international meetings.</p>
           <div className="grid-2">{reconstruction.map((x) => <div className="card" key={x}><h3>{x.split(',')[0]}</h3><p>{x}</p></div>)}</div>
         </div>
       </section>
@@ -214,7 +214,7 @@ export default function Home() {
       <section className="section dark">
         <div className="container">
           <h2>Selected publications</h2>
-          <p className="section-intro">Academic work reinforces credibility without relying on advertising claims.</p>
+          <p className="section-intro">Selected peer-reviewed publications and academic work across microsurgery, perforator flaps, lower-limb reconstruction and lymphedema surgery.</p>
           <ol className="pub-list">{publications.map((p) => <li key={p}>{p}</li>)}</ol>
         </div>
       </section>
@@ -222,7 +222,7 @@ export default function Home() {
       <section id="articles" className="section">
         <div className="container">
           <h2>Educational articles</h2>
-          <p className="section-intro">A blog section for search-optimised, compliance-safe patient education.</p>
+          <p className="section-intro">Clear, patient-focused articles on procedure planning, recovery considerations, risks and treatment options in plastic, reconstructive and lymphatic surgery.</p>
           <div className="grid-3">
             <article className="card blog-card"><small>Body contouring</small><h3>What to know before abdominoplasty</h3><p>A balanced article covering suitability, recovery, scars and risks.</p></article>
             <article className="card blog-card"><small>Lymphedema</small><h3>Lymphatic surgery options explained</h3><p>Educational overview of lymphovenous bypass and lymph node transfer concepts.</p></article>
@@ -235,12 +235,9 @@ export default function Home() {
         <div className="container grid-2">
           <div>
             <h2>Contact</h2>
-            <p className="section-intro">Clinic details, Google Business Profile, appointment enquiry form and map embed can be added once final clinic information is confirmed.</p>
-            <div style={{display:'flex',gap:8,flexWrap:'wrap',marginTop:20}}>
-              <span className="tag">Google Business Profile ready</span><span className="tag">SEO structured data</span><span className="tag">Blog enabled</span>
-            </div>
+            <p className="section-intro">For appointments, clinic enquiries and referral information, consultation details will be provided through the official clinic contact channels.</p>
           </div>
-          <div className="compliance"><h3>Medical information notice</h3><p>This website is intended to provide general information and should not replace consultation with a qualified medical practitioner. Procedure suitability, risks and recovery vary between individuals. Final wording should be reviewed against current Singapore medical advertising regulations before launch.</p></div>
+          <div className="compliance"><h3>Medical information notice</h3><p>This website provides general information and does not replace consultation with a qualified medical practitioner. Procedure suitability, risks, recovery and outcomes vary between individuals and should be assessed through a formal clinical consultation.</p></div>
         </div>
       </section>
 
