@@ -146,6 +146,25 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="section surgical-feature">
+        <div className="container surgical-feature-grid">
+          <div className="surgical-image-card">
+            <Image src="/images/dr-jeremy-sun-surgery.jpg" alt="Dr Jeremy Sun operating in a surgical theatre" width={1200} height={1500} />
+            <div className="surgical-image-caption">Operative focus across aesthetic, reconstructive microsurgery and lymphatic surgery.</div>
+          </div>
+          <div className="surgical-feature-copy">
+            <div className="eyebrow">Surgical practice</div>
+            <h2>Precision, planning and microsurgical discipline.</h2>
+            <p className="section-intro">A calm operating-room image works well here because it shows clinical focus without relying on before-and-after claims or patient testimonials. The surrounding copy keeps the tone educational and professional.</p>
+            <div className="feature-points">
+              <span>Microsurgical foundation</span>
+              <span>Structured operative planning</span>
+              <span>Academic surgical practice</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="procedures" className="section dark">
         <div className="container">
           <div className="eyebrow">Clinical focus areas</div>
