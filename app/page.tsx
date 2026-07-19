@@ -95,9 +95,45 @@ const publications = [
   'Vascular anatomy of the anteromedial thigh flap. JPRAS Open, 2017.'
 ];
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Physician',
+  '@id': 'https://www.drjeremysun.com/#physician',
+  name: 'Dr Jeremy Sun',
+  url: 'https://www.drjeremysun.com',
+  image: 'https://www.drjeremysun.com/images/dr-jeremy-sun-hero.jpg',
+  jobTitle: 'Senior Consultant Plastic Surgeon',
+  medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery'],
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Singapore',
+    addressCountry: 'SG'
+  },
+  areaServed: {
+    '@type': 'Country',
+    name: 'Singapore'
+  },
+  knowsAbout: [
+    'Aesthetic surgery',
+    'Reconstructive microsurgery',
+    'Lymphedema surgery',
+    'Lymphatic surgery',
+    'Body contouring',
+    'Breast surgery',
+    'Rhinoplasty',
+    'Eyelid surgery',
+    'Facial rejuvenation'
+  ],
+  affiliation: [
+    { '@type': 'Organization', name: 'Changi General Hospital' },
+    { '@type': 'CollegeOrUniversity', name: 'Duke-NUS Medical School' }
+  ]
+};
+
 export default function Home() {
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navigation />
 
       <section className="hero">
