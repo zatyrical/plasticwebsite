@@ -12,13 +12,13 @@ const aesthetic = [
 ];
 
 const reconstruction = [
-  'Breast reconstruction, including implant-based reconstruction, free DIEP flap reconstruction and the reconstruction component for Singapore’s first robotic mastectomy',
-  'Gender-affirming chest reconstruction / FTM top surgery experience in Singapore',
-  'Lower limb reconstruction using bespoke flap planning, SCIP flap expertise, authorship of a SCIP flap book chapter and keynote lecture experience on lower-limb subunit reconstruction at the European Federation of Societies for Microsurgery meeting in 2024',
-  'Head and neck reconstruction, including tongue, maxillary, mandibular and pharyngeal reconstruction, with observership exposure at MD Anderson Cancer Center',
-  'Facial, chest wall and limb trauma reconstruction including lacerations, nerves, soft tissue and facial fracture fixation',
-  'Microsurgical reconstruction and perforator flap surgery including SCIP and anteromedial thigh flap work',
-  'Lymphedema surgery, supported by dedicated Tokyo lymphatic surgery training and invited speaker experience at local and international conferences'
+  { text: 'Breast reconstruction, including implant-based reconstruction, free DIEP flap reconstruction and the reconstruction component for Singapore’s first robotic mastectomy', href: '' },
+  { text: 'Gender-affirming chest reconstruction / FTM top surgery experience in Singapore', href: '' },
+  { text: 'Lower limb reconstruction using bespoke flap planning, SCIP flap expertise, authorship of a SCIP flap book chapter and keynote lecture experience on lower-limb subunit reconstruction at the European Federation of Societies for Microsurgery meeting in 2024', href: '' },
+  { text: 'Head and neck reconstruction, including tongue, maxillary, mandibular and pharyngeal reconstruction, with observership exposure at MD Anderson Cancer Center', href: '' },
+  { text: 'Facial, chest wall and limb trauma reconstruction including lacerations, nerves, soft tissue and facial fracture fixation', href: '' },
+  { text: 'Microsurgical reconstruction and perforator flap surgery including SCIP and anteromedial thigh flap work', href: '' },
+  { text: 'Lymphedema surgery, supported by dedicated Tokyo lymphatic surgery training and invited speaker experience at local and international conferences', href: '/lymphedema-surgery-singapore' }
 ];
 
 const trainingMentorship = [
@@ -229,7 +229,7 @@ export default function Home() {
         <div className="container">
           <h2>Reconstructive surgery</h2>
           <p className="section-intro">Dr Sun’s reconstructive practice spans breast, lower limb, lymphatic, head and neck, and trauma reconstruction. His experience includes the reconstruction component for Singapore’s first robotic mastectomy, MD Anderson head-and-neck observership exposure, lower-limb reconstruction academic work and invited lymphedema surgery talks at local and international meetings.</p>
-          <div className="grid-2">{reconstruction.map((x) => <div className="card" key={x}><h3>{x.split(',')[0]}</h3><p>{x}</p></div>)}</div>
+          <div className="grid-2">{reconstruction.map((x) => x.href ? <a className="card linked-card" href={x.href} key={x.text}><h3>{x.text.split(',')[0]}</h3><p>{x.text}</p><span>Learn more</span></a> : <div className="card" key={x.text}><h3>{x.text.split(',')[0]}</h3><p>{x.text}</p></div>)}</div>
         </div>
       </section>
 
