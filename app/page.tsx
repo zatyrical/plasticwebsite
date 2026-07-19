@@ -22,10 +22,13 @@ const reconstruction = [
 const trainingMentorship = [
   {
     area: 'Lymphatic surgery',
-    mentor: 'Dedicated MOH-accredited training program in Tokyo',
-    focus: 'Lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.',
-    note: 'Structured subspecialty training program rather than a brief observership.',
-    photos: []
+    mentor: 'Dr Takumi Yamamoto and Dr Akitatsu Hayashi',
+    focus: 'Dedicated MOH-accredited training program in Tokyo, focused on lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.',
+    note: 'Structured subspecialty lymphatic surgery training program rather than a brief observership.',
+    photos: [
+      { src: '/images/mentors/takumi-yamamoto.jpg', alt: 'Dr Jeremy Sun with Dr Takumi Yamamoto during lymphatic surgery training in Tokyo', className: 'photo-takumi-yamamoto' },
+      { src: '/images/mentors/akitatsu-hayashi.jpg', alt: 'Dr Jeremy Sun with Dr Akitatsu Hayashi during lymphatic surgery training in Tokyo', className: 'photo-akitatsu-hayashi' }
+    ]
   },
   {
     area: 'Body contouring & liposuction',
