@@ -16,7 +16,7 @@ const reconstruction = [
   { text: 'Gender-affirming chest reconstruction / FTM top surgery experience in Singapore', href: '' },
   { text: 'Lower limb reconstruction using bespoke flap planning, SCIP flap expertise, authorship of a SCIP flap book chapter and keynote lecture experience on lower-limb subunit reconstruction at the European Federation of Societies for Microsurgery meeting in 2024', href: '' },
   { text: 'Head and neck reconstruction, including tongue, maxillary, mandibular and pharyngeal reconstruction, with observership exposure at MD Anderson Cancer Center', href: '' },
-  { text: 'Facial, chest wall and limb trauma reconstruction including lacerations, nerves, soft tissue and facial fracture fixation', href: '' },
+  { text: 'Trauma and lacerations, including facial, chest wall and limb trauma reconstruction, lacerations, nerves, soft tissue and facial fracture fixation', href: '' },
   { text: 'Microsurgical reconstruction and perforator flap surgery including SCIP and anteromedial thigh flap work', href: '' },
   { text: 'Lymphedema surgery, supported by dedicated Tokyo lymphatic surgery training and invited speaker experience at local and international conferences', href: '/lymphedema-surgery-singapore' }
 ];
