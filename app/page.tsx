@@ -26,7 +26,7 @@ const trainingMentorship = [
     focus: 'Dedicated MOH-accredited training program in Tokyo, focused on lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.',
     note: 'Structured subspecialty lymphatic surgery training program rather than a brief observership.',
     photos: [
-      { src: '/images/mentors/takumi-yamamoto.jpg', alt: 'Dr Jeremy Sun with Dr Takumi Yamamoto during lymphatic surgery training in Tokyo', className: 'photo-takumi-yamamoto' },
+      { src: '/images/mentors/takumi-yamamoto-lymphatic-group.jpg', alt: 'Dr Jeremy Sun with Dr Takumi Yamamoto during lymphatic surgery training in Tokyo', className: 'photo-takumi-yamamoto' },
       { src: '/images/mentors/akitatsu-hayashi.jpg', alt: 'Dr Jeremy Sun with Dr Akitatsu Hayashi during lymphatic surgery training in Tokyo', className: 'photo-akitatsu-hayashi' }
     ]
   },
