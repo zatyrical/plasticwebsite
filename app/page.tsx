@@ -24,37 +24,58 @@ const trainingMentorship = [
     area: 'Lymphatic surgery',
     mentor: 'Dedicated MOH-accredited training program in Tokyo',
     focus: 'Lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.',
-    note: 'Structured subspecialty training program rather than a brief observership.'
+    note: 'Structured subspecialty training program rather than a brief observership.',
+    photos: []
   },
   {
     area: 'Body contouring & liposuction',
     mentor: 'Dr David Sieber and Mexican body-contouring surgical groups',
     focus: 'High-definition liposuction, abdominoplasty, cosmetic body contouring and breast augmentation principles.',
-    note: 'ASAPS travelling fellowship exposure.'
+    note: 'ASAPS travelling fellowship exposure.',
+    photos: [
+      { src: '/images/mentors/david-sieber.jpg', alt: 'Dr Jeremy Sun with Dr David Sieber during aesthetic surgery training' }
+    ]
   },
   {
     area: 'Breast aesthetic surgery',
     mentor: 'Dr William Adams and Dr Dennis Hammond',
     focus: 'Breast augmentation, rapid-recovery concepts and advanced breast shaping approaches.',
-    note: 'Mentored international aesthetic surgery training.'
+    note: 'Mentored international aesthetic surgery training.',
+    photos: [
+      { src: '/images/mentors/william-adams.jpg', alt: 'Dr Jeremy Sun with Dr William Adams during breast aesthetic surgery training' },
+      { src: '/images/mentors/dennis-hammond.jpg', alt: 'Dr Jeremy Sun with Dr Dennis Hammond during breast aesthetic surgery training' }
+    ]
   },
   {
     area: 'Asian rhinoplasty',
-    mentor: 'Dr Jeong Jae Yong, Dr Charles Lee and Dr Yasushi Sugawara',
+    mentor: 'Dr Jeong Jae Yong, Dr Charles Lee, Dr Yasushi Sugawara and Dr Kim Taek Kyun',
     focus: 'Asian rhinoplasty, structural rhinoplasty and rib cartilage techniques.',
-    note: 'Training exposure across South Korea, Japan and Los Angeles.'
+    note: 'Training exposure across South Korea, Japan and Los Angeles.',
+    photos: [
+      { src: '/images/mentors/jeong-jae-yong.jpg', alt: 'Dr Jeremy Sun with Dr Jeong Jae Yong during rhinoplasty training' },
+      { src: '/images/mentors/charles-lee.jpg', alt: 'Dr Jeremy Sun with Dr Charles Lee during rhinoplasty training' },
+      { src: '/images/mentors/yasushi-sugawara.jpg', alt: 'Dr Jeremy Sun with Dr Yasushi Sugawara during rhinoplasty training' },
+      { src: '/images/mentors/kim-taek-kyun.jpg', alt: 'Dr Jeremy Sun with Dr Kim Taek Kyun during rhinoplasty training' }
+    ]
   },
   {
     area: 'Eyelid surgery',
-    mentor: 'Dr Moon Seop Choi, Dr Cho In Chang and Dr Keizo Fukuta',
+    mentor: 'Dr Moon Seop Choi and Dr Keizo Fukuta',
     focus: 'Asian blepharoplasty and oculoplastic/aesthetic eyelid surgery concepts.',
-    note: 'Procedure-specific mentorship and observership exposure.'
+    note: 'Procedure-specific mentorship and observership exposure.',
+    photos: [
+      { src: '/images/mentors/moon-seop-choi.jpg', alt: 'Dr Jeremy Sun with Dr Moon Seop Choi during eyelid surgery training' },
+      { src: '/images/mentors/keizo-fukuta.jpg', alt: 'Dr Jeremy Sun with Dr Keizo Fukuta during eyelid surgery training' }
+    ]
   },
   {
     area: 'Facial rejuvenation',
     mentor: 'Dr Tim Martyn, Dr Giovanni Botti and Dr Zekeriya Kul',
     focus: 'Sub-SMAS and deep-plane facelift concepts, facial rejuvenation and aesthetic facial surgery.',
-    note: 'International facelift training exposure in the USA, Italy and Türkiye.'
+    note: 'International facelift training exposure in the USA, Italy and Türkiye.',
+    photos: [
+      { src: '/images/mentors/tim-martyn.jpg', alt: 'Dr Jeremy Sun with Dr Tim Martyn during facial rejuvenation training' }
+    ]
   }
 ];
 
@@ -139,7 +160,11 @@ export default function Home() {
           <div className="mentor-grid">
             {trainingMentorship.map((x) => (
               <article className="mentor-card" key={x.area}>
-                <div className="mentor-photo-placeholder"><span>Mentor photo</span></div>
+                <div className={`mentor-collage collage-${Math.min(x.photos.length, 4)}`}>
+                  {x.photos.length > 0 ? x.photos.map((photo) => (
+                    <Image key={photo.src} src={photo.src} alt={photo.alt} width={640} height={520} />
+                  )) : <span>Mentor photo</span>}
+                </div>
                 <div className="mentor-content">
                   <small>{x.area}</small>
                   <h3>{x.mentor}</h3>
