@@ -33,7 +33,7 @@ const trainingMentorship = [
     focus: 'High-definition liposuction, abdominoplasty, cosmetic body contouring and breast augmentation principles.',
     note: 'ASAPS travelling fellowship exposure.',
     photos: [
-      { src: '/images/mentors/david-sieber.jpg', alt: 'Dr Jeremy Sun with Dr David Sieber during aesthetic surgery training' }
+      { src: '/images/mentors/david-sieber.jpg', alt: 'Dr Jeremy Sun with Dr David Sieber during aesthetic surgery training', className: 'photo-david-sieber' }
     ]
   },
   {
@@ -53,9 +53,9 @@ const trainingMentorship = [
     note: 'Training exposure across South Korea, Japan and Los Angeles.',
     photos: [
       { src: '/images/mentors/jeong-jae-yong.jpg', alt: 'Dr Jeremy Sun with Dr Jeong Jae Yong during rhinoplasty training' },
-      { src: '/images/mentors/charles-lee.jpg', alt: 'Dr Jeremy Sun with Dr Charles Lee during rhinoplasty training' },
-      { src: '/images/mentors/yasushi-sugawara.jpg', alt: 'Dr Jeremy Sun with Dr Yasushi Sugawara during rhinoplasty training' },
-      { src: '/images/mentors/kim-taek-kyun.jpg', alt: 'Dr Jeremy Sun with Dr Kim Taek Kyun during rhinoplasty training' }
+      { src: '/images/mentors/charles-lee.jpg', alt: 'Dr Jeremy Sun with Dr Charles Lee during rhinoplasty training', className: 'photo-charles-lee' },
+      { src: '/images/mentors/yasushi-sugawara.jpg', alt: 'Dr Jeremy Sun with Dr Yasushi Sugawara during rhinoplasty training', className: 'photo-yasushi-sugawara' },
+      { src: '/images/mentors/kim-taek-kyun.jpg', alt: 'Dr Jeremy Sun with Dr Kim Taek Kyun during rhinoplasty training', className: 'photo-kim-taek-kyun' }
     ]
   },
   {
@@ -64,7 +64,7 @@ const trainingMentorship = [
     focus: 'Asian blepharoplasty and oculoplastic/aesthetic eyelid surgery concepts.',
     note: 'Procedure-specific mentorship and observership exposure.',
     photos: [
-      { src: '/images/mentors/moon-seop-choi.jpg', alt: 'Dr Jeremy Sun with Dr Moon Seop Choi during eyelid surgery training' },
+      { src: '/images/mentors/moon-seop-choi.jpg', alt: 'Dr Jeremy Sun with Dr Moon Seop Choi during eyelid surgery training', className: 'photo-moon-seop-choi' },
       { src: '/images/mentors/keizo-fukuta.jpg', alt: 'Dr Jeremy Sun with Dr Keizo Fukuta during eyelid surgery training' }
     ]
   },
@@ -74,7 +74,7 @@ const trainingMentorship = [
     focus: 'Sub-SMAS and deep-plane facelift concepts, facial rejuvenation and aesthetic facial surgery.',
     note: 'International facelift training exposure in the USA, Italy and Türkiye.',
     photos: [
-      { src: '/images/mentors/tim-martyn.jpg', alt: 'Dr Jeremy Sun with Dr Tim Martyn during facial rejuvenation training' }
+      { src: '/images/mentors/tim-martyn.jpg', alt: 'Dr Jeremy Sun with Dr Tim Martyn during facial rejuvenation training', className: 'photo-tim-martyn' }
     ]
   }
 ];
@@ -162,7 +162,7 @@ export default function Home() {
               <article className="mentor-card" key={x.area}>
                 <div className={`mentor-collage collage-${Math.min(x.photos.length, 4)}`}>
                   {x.photos.length > 0 ? x.photos.map((photo) => (
-                    <Image key={photo.src} src={photo.src} alt={photo.alt} width={640} height={520} />
+                    <Image key={photo.src} src={photo.src} alt={photo.alt} className={photo.className} width={640} height={520} />
                   )) : <span>Mentor photo</span>}
                 </div>
                 <div className="mentor-content">
