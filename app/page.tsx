@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import ContactForm from './ContactForm';
 
 const aesthetic = [
   { title: 'Body contouring & liposuction', text: 'Abdominoplasty, arm/thigh/trunk contouring, post-bariatric body contouring and high-definition liposuction techniques, informed by international aesthetic body-contouring training.' },
@@ -235,7 +236,8 @@ export default function Home() {
         <div className="container grid-2">
           <div>
             <h2>Contact</h2>
-            <p className="section-intro">For appointments, clinic enquiries and referral information, consultation details will be provided through the official clinic contact channels.</p>
+            <p className="section-intro">For appointments, clinic enquiries and referral information, please submit the form below. The clinic email address is not displayed publicly to reduce automated spam.</p>
+            <ContactForm />
           </div>
           <div className="compliance"><h3>Medical information notice</h3><p>This website provides general information and does not replace consultation with a qualified medical practitioner. Procedure suitability, risks, recovery and outcomes vary between individuals and should be assessed through a formal clinical consultation.</p></div>
         </div>
