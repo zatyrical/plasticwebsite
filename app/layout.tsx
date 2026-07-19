@@ -4,13 +4,13 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.drjeremysun.com'),
   title: {
-    default: 'Dr Jeremy Sun | Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
+    default: 'Dr Jeremy Sun | Senior Consultant Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
     template: '%s | Dr Jeremy Sun'
   },
-  description: 'Dr Jeremy Sun is a Singapore plastic, reconstructive and aesthetic surgeon with expertise in microsurgical reconstruction, lymphatic surgery, aesthetic body contouring, breast surgery, rhinoplasty, eyelid surgery and facial rejuvenation.',
+  description: 'Dr Jeremy Sun is a Senior Consultant plastic, reconstructive and aesthetic surgeon in Singapore with expertise in microsurgical reconstruction, lymphatic surgery, aesthetic body contouring, breast surgery, rhinoplasty, eyelid surgery and facial rejuvenation.',
   keywords: ['plastic surgeon Singapore', 'reconstructive surgery Singapore', 'aesthetic surgery Singapore', 'lymphedema surgery Singapore', 'Dr Jeremy Sun'],
   openGraph: {
-    title: 'Dr Jeremy Sun | Plastic, Reconstructive & Aesthetic Surgeon',
+    title: 'Dr Jeremy Sun | Senior Consultant Plastic, Reconstructive & Aesthetic Surgeon',
     description: 'Professional profile, training, procedures and educational articles by Dr Jeremy Sun in Singapore.',
     images: ['/images/dr-jeremy-sun-hero.jpg'],
     type: 'website'

@@ -7,7 +7,7 @@ const aesthetic = [
   { title: 'Asian rhinoplasty', text: 'Asian rhinoplasty and structural rib rhinoplasty training with surgeons in South Korea, Japan and Los Angeles.' },
   { title: 'Eyelid surgery', text: 'Asian blepharoplasty training with Korean and Japanese plastic/aesthetic surgeons.' },
   { title: 'Facial rejuvenation', text: 'Sub-SMAS and deep-plane facelift concepts from international facelift training in the USA, Italy and Türkiye.' },
-  { title: 'Lymphedema surgery', text: 'Lymphatic surgery training through MOH HMDP in Tokyo, with focus on lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.' }
+  { title: 'Lymphedema surgery', text: 'Dr Sun completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo, focused specifically on lymphatic surgery and complex lymphedema care — distinct from broader microsurgical fellowships where lymphedema may be only one component of training.' }
 ];
 
 const reconstruction = [
@@ -23,8 +23,8 @@ const trainingMentorship = [
   {
     area: 'Lymphatic surgery',
     mentor: 'Dr Takumi Yamamoto and Dr Akitatsu Hayashi',
-    focus: 'Dedicated MOH-accredited training program in Tokyo, focused on lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.',
-    note: 'Structured subspecialty lymphatic surgery training program rather than a brief observership.',
+    focus: 'MOH-accredited dedicated lymphedema surgery training program in Tokyo, focused specifically on lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.',
+    note: 'Structured subspecialty lymphatic surgery training, distinct from broader microsurgical fellowships where lymphedema may be only one component of training.',
     photos: [
       { src: '/images/mentors/takumi-yamamoto-lymphatic-group.jpg', alt: 'Dr Jeremy Sun with Dr Takumi Yamamoto during lymphatic surgery training in Tokyo', className: 'photo-takumi-yamamoto' },
       { src: '/images/mentors/akitatsu-hayashi.jpg', alt: 'Dr Jeremy Sun with Dr Akitatsu Hayashi during lymphatic surgery training in Tokyo', className: 'photo-akitatsu-hayashi' }
@@ -116,9 +116,9 @@ export default function Home() {
       <section className="hero">
         <div className="container hero-grid">
           <div>
-            <div className="eyebrow">Plastic, Reconstructive & Aesthetic Surgery • Singapore</div>
+            <div className="eyebrow">Senior Consultant Plastic, Reconstructive & Aesthetic Surgeon • Singapore</div>
             <h1>Precision surgery with an academic foundation.</h1>
-            <p className="lead">Dr Jeremy Sun is a Singapore plastic surgeon with expertise across aesthetic surgery, microsurgical reconstruction and lymphatic surgery. This site provides factual information on his training, clinical focus areas and educational articles for patients.</p>
+            <p className="lead">Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with expertise across aesthetic surgery, microsurgical reconstruction and lymphatic surgery. This site provides factual information on his training, clinical focus areas and educational articles for patients.</p>
             <div className="hero-actions">
               <a href="#procedures" className="btn btn-primary">Explore procedures</a>
               <a href="#about" className="btn btn-ghost">About Dr Sun</a>
@@ -140,7 +140,7 @@ export default function Home() {
       <section id="about" className="section">
         <div className="container">
           <h2>About Dr Jeremy Sun</h2>
-          <p className="section-intro">Dr Sun graduated from the Yong Loo Lin School of Medicine at the National University of Singapore in 2007 and completed six years of residency training in Plastic, Reconstructive and Aesthetic Surgery. His clinical foundation is in microsurgical reconstruction, with experience in complex head and neck, breast and lower limb reconstruction.</p>
+          <p className="section-intro">Dr Sun is a Senior Consultant plastic surgeon. He graduated from the Yong Loo Lin School of Medicine at the National University of Singapore in 2007 and completed six years of residency training in Plastic, Reconstructive and Aesthetic Surgery. His clinical foundation is in microsurgical reconstruction, with experience in complex head and neck, breast and lower limb reconstruction.</p>
           <div className="grid-3">
             <div className="card"><h3>Leadership</h3><p>Head of Plastic, Reconstructive and Aesthetic Surgery Service at Changi General Hospital; Chairman, Chapter of Plastic Reconstructive and Aesthetic Surgeons, College of Surgeons, Academy of Medicine Singapore.</p></div>
             <div className="card"><h3>Education</h3><p>Core faculty of the SingHealth Plastic Surgery Residency Program, clinical teacher at Lee Kong Chian School of Medicine and Assistant Clinical Professor at Duke-NUS.</p></div>
