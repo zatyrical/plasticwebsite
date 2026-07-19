@@ -62,8 +62,8 @@ export default function Home() {
             <div className="portrait-wrap">
               <Image src="/images/dr-jeremy-sun-hero.jpg" alt="Portrait of Dr Jeremy Sun, plastic surgeon in Singapore" width={896} height={1280} priority />
               <div className="credential-strip">
-                <div className="metric"><strong>HMDP</strong><span>Lymphatic surgery training in Tokyo</span></div>
-                <div className="metric"><strong>ASAPS</strong><span>International aesthetic surgery fellowship grant</span></div>
+                <div className="metric"><strong>MOH Accredited</strong><span>Dedicated lymphatic surgery training program in Tokyo</span></div>
+                <div className="metric"><strong>American Society for Aesthetic Plastic Surgery</strong><span>International aesthetic surgery fellowship grant</span></div>
                 <div className="metric"><strong>Duke-NUS</strong><span>Assistant Clinical Professor</span></div>
               </div>
             </div>
