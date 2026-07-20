@@ -144,7 +144,7 @@ export default function LymphedemaSurgeryPage() {
 
             <h3>Lymphovenous bypass / lymphaticovenular anastomosis</h3>
             <p>
-              Lymphovenous bypass, also known as lymphaticovenular anastomosis or LVA, is a supermicrosurgical procedure that connects functioning lymphatic channels to nearby small veins. The aim is to create alternative drainage pathways for lymphatic fluid.
+              Lymphovenous bypass, also known as lymphaticovenular anastomosis or LVA, is a supermicrosurgical procedure that connects functioning lymphatic channels to nearby small veins. The aim is to create alternative drainage pathways for lymphatic fluid. A dedicated patient page on <Link href="/lymphovenous-bypass-lva-surgery-singapore">LVA surgery in Singapore</Link> is available for more detail.
             </p>
             <p>
               LVA is often described as a treatment for early-stage lymphedema, but disease stage alone does not determine suitability. In Dr Sun’s practice, even some patients with advanced-stage lymphedema may be amenable to LVA if imaging and clinical assessment suggest that the limb remains more fluid-dominant rather than solid-tissue-dominant.
@@ -153,7 +153,7 @@ export default function LymphedemaSurgeryPage() {
               A fluid-dominant limb may still have lymphatic fluid that can be redirected through bypass surgery. By contrast, a limb dominated by scarring, fibrosis or solid tissue change may respond less predictably to LVA alone and may require different or additional treatment strategies.
             </p>
             <p>
-              For appropriately selected patients, LVA is often favoured as an initial surgical option because it is performed through small incisions, usually involves little downtime, may require only a short hospital stay if any, and can sometimes produce early decongestion. These are general observations rather than guarantees; recovery and results vary between patients. Earlier intervention may improve the likelihood of reducing reliance on compression garments, although some patients will still need compression as part of long-term care.
+              For appropriately selected patients, LVA is often favoured as an initial surgical option because it is performed through small incisions, usually involves little downtime, and can sometimes produce early decongestion. In Dr Sun’s practice, patients typically go home the next day after LVA surgery, depending on the surgical plan, anaesthetic recovery and individual clinical circumstances. These are general observations rather than guarantees; recovery and results vary between patients. Earlier intervention may improve the likelihood of reducing reliance on compression garments, although some patients will still need compression as part of long-term care.
             </p>
 
             <h3>Vascularised lymph node transfer</h3>

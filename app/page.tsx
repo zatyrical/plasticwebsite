@@ -8,7 +8,8 @@ const aesthetic = [
   { title: 'Asian rhinoplasty', text: 'Asian rhinoplasty and structural rib rhinoplasty training with surgeons in South Korea, Japan and Los Angeles.', href: '' },
   { title: 'Eyelid surgery', text: 'Asian blepharoplasty training with Korean and Japanese plastic/aesthetic surgeons.', href: '' },
   { title: 'Facial rejuvenation', text: 'Sub-SMAS and deep-plane facelift concepts from international facelift training in the USA, Italy and Türkiye.', href: '' },
-  { title: 'Lymphedema surgery', text: 'Dedicated lymphatic surgery care including LVA, lymphatic reconstruction and complex lymphedema assessment.', href: '/lymphedema-surgery-singapore' }
+  { title: 'Lymphedema surgery', text: 'Dedicated lymphatic surgery care including LVA, lymphatic reconstruction and complex lymphedema assessment.', href: '/lymphedema-surgery-singapore' },
+  { title: 'Lymphovenous bypass / LVA', text: 'Supermicrosurgical lymphovenous bypass assessment for selected patients with lymphedema, recurrent cellulitis or fluid-dominant swelling.', href: '/lymphovenous-bypass-lva-surgery-singapore' }
 ];
 
 const reconstruction = [
@@ -246,7 +247,7 @@ export default function Home() {
           <h2>Educational articles</h2>
           <p className="section-intro">Clear, patient-focused articles on procedure planning, recovery considerations, risks and treatment options in plastic, reconstructive and lymphatic surgery.</p>
           <div className="grid-3">
-            <article className="card blog-card"><small>Body contouring</small><h3>What to know before abdominoplasty</h3><p>A balanced article covering suitability, recovery, scars and risks.</p></article>
+            <a className="card blog-card linked-card" href="/lymphovenous-bypass-lva-surgery-singapore"><small>LVA surgery</small><h3>Lymphovenous bypass / LVA surgery in Singapore</h3><p>Focused patient information on suitability, imaging, recovery, cellulitis risk and compression after LVA.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/lymphedema-surgery-singapore"><small>Lymphedema</small><h3>Lymphedema surgery in Singapore</h3><p>Educational overview of lymphovenous bypass, assessment, infection risk and recovery.</p><span>Read page</span></a>
             <article className="card blog-card"><small>Breast surgery</small><h3>Breast augmentation recovery principles</h3><p>General recovery education without promising specific outcomes.</p></article>
           </div>
