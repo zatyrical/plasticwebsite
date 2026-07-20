@@ -13,7 +13,7 @@ const aesthetic = [
 ];
 
 const reconstruction = [
-  { text: 'Breast reconstruction, including implant-based reconstruction, free DIEP flap reconstruction and the reconstruction component for Singapore’s first robotic mastectomy', href: '' },
+  { text: 'Breast reconstruction, including implant-based reconstruction, free DIEP flap reconstruction and the reconstruction component for Singapore’s first robotic mastectomy', href: '/breast-reconstruction-singapore' },
   { text: 'Gender-affirming chest reconstruction / FTM top surgery experience in Singapore', href: '' },
   { text: 'Lower limb reconstruction using bespoke flap planning, SCIP flap expertise, authorship of a SCIP flap book chapter and keynote lecture experience on lower-limb subunit reconstruction at the European Federation of Societies for Microsurgery meeting in 2024', href: '' },
   { text: 'Head and neck reconstruction, including tongue, maxillary, mandibular and pharyngeal reconstruction, with observership exposure at MD Anderson Cancer Center', href: '' },
@@ -249,7 +249,7 @@ export default function Home() {
           <div className="grid-3">
             <a className="card blog-card linked-card" href="/lymphovenous-bypass-lva-surgery-singapore"><small>LVA surgery</small><h3>Lymphovenous bypass / LVA surgery in Singapore</h3><p>Focused patient information on suitability, imaging, recovery, cellulitis risk and compression after LVA.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/lymphedema-surgery-singapore"><small>Lymphedema</small><h3>Lymphedema surgery in Singapore</h3><p>Educational overview of lymphovenous bypass, assessment, infection risk and recovery.</p><span>Read page</span></a>
-            <article className="card blog-card"><small>Breast surgery</small><h3>Breast augmentation recovery principles</h3><p>General recovery education without promising specific outcomes.</p></article>
+            <a className="card blog-card linked-card" href="/breast-reconstruction-singapore"><small>Breast reconstruction</small><h3>Breast reconstruction in Singapore</h3><p>Patient information on implant-based reconstruction, DIEP flap reconstruction, timing, recovery and risks.</p><span>Read page</span></a>
           </div>
         </div>
       </section>

@@ -19,6 +19,8 @@ Breast reconstruction is surgery to restore breast shape after mastectomy, breas
 
 The aim is to help restore form, symmetry and body confidence while keeping cancer treatment, safety, recovery and long-term health as the priorities. Breast reconstruction is highly individual. The most appropriate option depends on cancer treatment plans, body shape, previous surgery, radiotherapy, medical conditions, lifestyle, personal preferences and the availability of suitable donor tissue.
 
+A reconstructive surgeon should be comfortable with both implant-based and autologous, or own-tissue, breast reconstruction. This is important because the choice should not be driven by a single preferred technique. For some patients, autologous reconstruction may be the most suitable option. For others, implant-based reconstruction may better match their priorities, anatomy, recovery needs or treatment plan. The decision is made together with the patient, in a personalised and bespoke way, after aligning medical considerations with the patient’s expectations and goals.
+
 Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with experience in breast reconstruction, microsurgical reconstruction and complex reconstructive surgery. His reconstructive work includes implant-based reconstruction, free DIEP flap reconstruction, and the reconstruction component for Singapore’s first robotic mastectomy.
 
 This page provides general information and should not replace consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.
@@ -48,7 +50,9 @@ Some patients may have staged reconstruction, where a temporary or initial recon
 
 ## Main types of breast reconstruction
 
-The main reconstructive options include implant-based reconstruction, autologous tissue reconstruction using the patient’s own tissue, or combined approaches. The most appropriate choice depends on anatomy, cancer treatment, radiotherapy, patient preference and risk profile.
+The main reconstructive options include implant-based reconstruction, autologous tissue reconstruction using the patient’s own tissue, or combined approaches. A reconstructive surgeon should be able to discuss and perform both implant and autologous reconstruction where appropriate, so that the recommendation can be tailored to the patient rather than limited by a single technique.
+
+For some patients, autologous reconstruction may feel more aligned with their goals because it uses their own tissue and can provide a more natural-feeling reconstruction. For others, implant reconstruction may be more suitable because it avoids a larger donor-site operation, may involve a different recovery profile, or better fits their personal priorities. Careful alignment of expectations, lifestyle, recovery concerns and cancer treatment plans can improve satisfaction after reconstruction.
 
 ### Implant-based breast reconstruction
 
@@ -75,6 +79,8 @@ The choice of donor site should be individualised and discussed in detail during
 ### Oncoplastic and partial breast reconstruction
 
 Some patients undergoing breast-conserving surgery may benefit from oncoplastic reconstruction. This uses plastic surgery principles to reshape the remaining breast tissue, reduce contour deformity, or improve symmetry after tumour removal.
+
+After breast-conserving surgery, some patients may notice small divots, depressions or contour irregularities in the treated breast. In selected cases, these areas may be improved with fat grafting performed by a plastic surgeon, where fat is taken from another part of the body and carefully injected to soften or fill the contour defect. Suitability depends on the breast tissue, previous radiotherapy, scar quality, cancer follow-up considerations and the patient’s goals.
 
 Oncoplastic approaches depend on tumour location, breast size, expected tissue removal, radiotherapy plans and patient goals. In some cases, surgery on the opposite breast may be discussed for symmetry.
 
@@ -104,9 +110,10 @@ A breast reconstruction consultation may include:
 - explanation of implant and flap reconstruction options
 - discussion of timing: immediate, delayed or staged reconstruction
 - discussion of likely scars, recovery, risks and limitations
+- alignment of patient priorities, expectations and preferred trade-offs
 - coordination with the breast surgeon and oncology team where needed
 
-Patients may be asked about their priorities, such as breast size, natural feel, recovery time, willingness to have donor-site scars, and comfort with implants or microsurgery.
+Patients may be asked about their priorities, such as breast size, natural feel, recovery time, willingness to have donor-site scars, and comfort with implants or microsurgery. The process is personalised and bespoke: the surgeon and patient work through the available options together, balancing medical suitability with what matters most to the patient.
 
 ## Recovery after breast reconstruction
 
@@ -149,7 +156,7 @@ It can be. Immediate reconstruction is performed at the same operation as mastec
 
 ### Is implant or DIEP flap reconstruction better?
 
-There is no single option that suits every patient. Implant reconstruction and DIEP flap reconstruction have different advantages, limitations, risks and recovery patterns. The right choice depends on cancer treatment plans, anatomy, radiotherapy, donor tissue availability, medical factors and patient preference.
+There is no single option that suits every patient. Implant reconstruction and DIEP flap reconstruction have different advantages, limitations, risks and recovery patterns. For some patients, autologous reconstruction may be the most suitable choice. For others, implant reconstruction may better match their priorities. The right choice depends on cancer treatment plans, anatomy, radiotherapy, donor tissue availability, medical factors and patient preference.
 
 ### What is DIEP flap breast reconstruction?
 

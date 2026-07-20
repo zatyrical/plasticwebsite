@@ -11,6 +11,7 @@ const navItems = [
   { href: '/lymphovenous-bypass-lva-surgery-singapore', label: 'LVA' },
   { href: '/#training', label: 'Training' },
   { href: '/#reconstruction', label: 'Reconstruction' },
+  { href: '/breast-reconstruction-singapore', label: 'Breast reconstruction' },
   { href: '/#articles', label: 'Articles' }
 ];
 
