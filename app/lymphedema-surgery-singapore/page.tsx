@@ -36,7 +36,7 @@ const faqJsonLd = {
       name: 'Is lymphedema surgery a cure?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Lymphedema surgery is not usually described as a guaranteed cure. It may improve drainage, symptoms or long-term management in selected patients, but many patients still require compression, therapy and follow-up.'
+        text: 'Lymphedema surgery is not usually described as curative. It may improve drainage, symptoms or long-term management in selected patients, but many patients still require compression, therapy and follow-up.'
       }
     },
     {
@@ -85,6 +85,7 @@ export default function LymphedemaSurgeryPage() {
                 <li><a href="#when-surgery">When surgery may be considered</a></li>
                 <li><a href="#types">Types of surgery</a></li>
                 <li><a href="#training">Dedicated training</a></li>
+                <li><a href="#education">Further education</a></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
             </aside>
@@ -131,7 +132,7 @@ export default function LymphedemaSurgeryPage() {
               <li>there are recurrent episodes of cellulitis or infection</li>
               <li>imaging shows lymphatic channels that may be suitable for bypass surgery</li>
               <li>the condition is affecting daily activity, comfort or quality of life</li>
-              <li>the patient understands that surgery is part of long-term lymphedema management, not a guaranteed cure</li>
+              <li>the patient understands that surgery is part of long-term lymphedema management rather than a complete cure</li>
             </ul>
             <p>
               Recurrent cellulitis is an important reason to consider surgical assessment. In appropriately selected patients, lymphatic surgery may significantly reduce the risk or frequency of infection, although individual results vary and patients should continue appropriate skin care and medical treatment when infection occurs.
@@ -139,7 +140,7 @@ export default function LymphedemaSurgeryPage() {
 
             <h2 id="types">Types of lymphedema surgery</h2>
             <p>
-              The best approach depends on disease stage, imaging findings, tissue changes and patient goals. Options may include physiological lymphatic surgery, reductive surgery, or a combination of approaches.
+              The most suitable approach depends on disease stage, imaging findings, tissue changes and patient goals. Options may include physiological lymphatic surgery, reductive surgery, or a combination of approaches.
             </p>
 
             <h3>Lymphovenous bypass / lymphaticovenular anastomosis</h3>
@@ -190,7 +191,7 @@ export default function LymphedemaSurgeryPage() {
               Lymphedema surgery aims to improve lymphatic drainage, symptoms and long-term management in appropriately selected patients. Some patients may experience reduction in swelling, heaviness or infection frequency, but results vary. A key goal of lymphatic surgery is also to reduce episodes of cellulitis or infection where recurrent infection is part of the patient’s disease pattern.
             </p>
             <p>
-              Surgery does not guarantee complete resolution of lymphedema. Many patients still require compression, therapy, skin care and long-term monitoring after surgery. The best outcomes usually depend on correct patient selection, careful imaging, realistic expectations and ongoing lymphedema care.
+              Surgery does not guarantee complete resolution of lymphedema. Many patients still require compression, therapy, skin care and long-term monitoring after surgery. Outcomes usually depend on correct patient selection, careful imaging, realistic expectations and ongoing lymphedema care.
             </p>
 
             <h2>Recovery after lymphedema surgery</h2>
@@ -235,10 +236,18 @@ export default function LymphedemaSurgeryPage() {
               Patients considering lymphedema surgery should feel comfortable asking their care provider about the nature, duration and focus of their lymphatic surgery training. This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment. These credentials are presented to help patients understand the nature of Dr Sun’s training and clinical focus. They do not imply guaranteed outcomes or that surgery is suitable for every patient.
             </p>
 
+            <h2 id="education">Further lymphedema education</h2>
+            <p>
+              Dr Jeremy Sun also maintains <a href="https://www.lymphedasia.com" target="_blank" rel="noopener noreferrer">LymphedAsia</a>, an educational resource on lymphedema, lymphatic surgery and long-term lymphedema care. Patients who would like to understand more about lymphedema, conservative management, lymphovenous bypass and related topics may find the site useful as a general information resource.
+            </p>
+            <p className="notice-text">
+              Information on LymphedAsia is educational and should not replace personalised assessment by a qualified medical practitioner.
+            </p>
+
             <h2 id="faq">Frequently asked questions</h2>
             <h3>Is lymphedema surgery a cure?</h3>
             <p>
-              Lymphedema surgery is not usually described as a guaranteed cure. It may improve drainage, symptoms or long-term management in selected patients, but many patients still require compression, therapy and follow-up.
+              Lymphedema surgery is not usually described as curative. It may improve drainage, symptoms or long-term management in selected patients, but many patients still require compression, therapy and follow-up.
             </p>
             <h3>Am I suitable for LVA surgery?</h3>
             <p>
