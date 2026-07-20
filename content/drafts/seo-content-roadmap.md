@@ -12,17 +12,26 @@ Status: internal draft. Do not publish until reviewed and approved.
 
 ## Priority procedure pages
 
+### Current status
+
+- Published: `Lymphedema Surgery Singapore`
+- Published: `Lymphovenous Bypass / LVA Surgery Singapore`
+- Drafted for clinical review: `Breast Reconstruction Singapore`
+
 ### Tier 1 — strategic / highest differentiation
 
 1. Lymphedema Surgery Singapore
+   - Status: published
    - Target: `lymphedema surgery Singapore`, `lymphatic surgery Singapore`, `lymphovenous bypass Singapore`, `lymphoedema surgeon Singapore`
    - Differentiator: MOH-accredited dedicated Tokyo lymphedema surgery training; invited local/international speaker; academic publications.
 
 2. Lymphovenous Bypass / LVA Surgery Singapore
+   - Status: published
    - Target: `lymphovenous bypass Singapore`, `LVA surgery Singapore`, `lymphatic bypass surgery Singapore`
    - Differentiator: technical lymphatic microsurgery focus and academic work.
 
 3. Breast Reconstruction Singapore
+   - Status: drafted for clinical review
    - Target: `breast reconstruction Singapore`, `DIEP flap Singapore`, `reconstruction after mastectomy Singapore`
    - Differentiator: reconstruction component for Singapore’s first robotic mastectomy; microsurgical reconstruction experience.
 
