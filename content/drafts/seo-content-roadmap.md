@@ -16,7 +16,7 @@ Status: internal draft. Do not publish until reviewed and approved.
 
 - Published: `Lymphedema Surgery Singapore`
 - Published: `Lymphovenous Bypass / LVA Surgery Singapore`
-- Drafted for clinical review: `Breast Reconstruction Singapore`
+- Published: `Breast Reconstruction Singapore`
 
 ### Tier 1 — strategic / highest differentiation
 
@@ -31,7 +31,7 @@ Status: internal draft. Do not publish until reviewed and approved.
    - Differentiator: technical lymphatic microsurgery focus and academic work.
 
 3. Breast Reconstruction Singapore
-   - Status: drafted for clinical review
+   - Status: published
    - Target: `breast reconstruction Singapore`, `DIEP flap Singapore`, `reconstruction after mastectomy Singapore`
    - Differentiator: reconstruction component for Singapore’s first robotic mastectomy; microsurgical reconstruction experience.
 
