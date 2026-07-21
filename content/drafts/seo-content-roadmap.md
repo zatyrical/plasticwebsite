@@ -19,6 +19,7 @@ Status: internal draft. Do not publish until reviewed and approved.
 - Published: `Breast Reconstruction Singapore`
 - Drafted for clinical review: `Asian Eyelid Surgery Singapore`
 - Drafted for clinical review: `Rhinoplasty Singapore`
+- Drafted for clinical review: `Body Contouring & Liposuction Singapore`
 
 ### Tier 1 — strategic / highest differentiation
 
@@ -50,7 +51,9 @@ Status: internal draft. Do not publish until reviewed and approved.
    - Differentiator: Asian rhinoplasty and facial aesthetic training exposure; reconstructive-plastic-surgery background balancing nasal form and function.
 
 6. Body Contouring & Liposuction Singapore
+   - Status: drafted for clinical review
    - Target: `body contouring Singapore`, `liposuction Singapore`, `abdominoplasty Singapore`, `tummy tuck Singapore`
+   - Differentiator: plastic-surgery approach to contour, scars, tissue quality and staged planning after weight change.
 
 7. Breast Aesthetic Surgery Singapore
    - Target: `breast augmentation Singapore`, `breast reduction Singapore`, `breast lift Singapore`
@@ -98,4 +101,5 @@ Status: internal draft. Do not publish until reviewed and approved.
 3. Breast Reconstruction Singapore — published reconstructive authority page
 4. Asian Eyelid Surgery Singapore — drafted aesthetic demand page for clinical review
 5. Rhinoplasty Singapore — drafted aesthetic demand page for clinical review
-6. Body Contouring & Liposuction Singapore — next aesthetic demand page
+6. Body Contouring & Liposuction Singapore — drafted aesthetic demand page for clinical review
+7. Breast Aesthetic Surgery Singapore — next aesthetic demand page
