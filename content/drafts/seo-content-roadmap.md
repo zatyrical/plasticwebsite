@@ -17,6 +17,7 @@ Status: internal draft. Do not publish until reviewed and approved.
 - Published: `Lymphedema Surgery Singapore`
 - Published: `Lymphovenous Bypass / LVA Surgery Singapore`
 - Published: `Breast Reconstruction Singapore`
+- Drafted for clinical review: `Asian Eyelid Surgery Singapore`
 
 ### Tier 1 — strategic / highest differentiation
 
@@ -38,7 +39,9 @@ Status: internal draft. Do not publish until reviewed and approved.
 ### Tier 2 — aesthetic search demand
 
 4. Asian Eyelid Surgery Singapore
-   - Target: `eyelid surgery Singapore`, `Asian blepharoplasty Singapore`, `double eyelid surgery Singapore`
+   - Status: drafted for clinical review
+   - Target: `eyelid surgery Singapore`, `Asian blepharoplasty Singapore`, `double eyelid surgery Singapore`, `ptosis surgery Singapore`
+   - Differentiator: Asian eyelid and facial aesthetic training exposure; plastic-surgery background balancing eyelid form and function.
 
 5. Rhinoplasty Singapore
    - Target: `rhinoplasty Singapore`, `Asian rhinoplasty Singapore`, `rib rhinoplasty Singapore`
@@ -87,8 +90,8 @@ Status: internal draft. Do not publish until reviewed and approved.
 
 ## Recommended first draft sequence
 
-1. Lymphedema Surgery Singapore — cornerstone procedure page
-2. Lymphovenous Bypass / LVA Surgery Singapore — technical subpage
-3. Breast Reconstruction Singapore — reconstructive authority page
-4. Asian Eyelid Surgery Singapore — aesthetic demand page
-5. Rhinoplasty Singapore — aesthetic demand page
+1. Lymphedema Surgery Singapore — published cornerstone procedure page
+2. Lymphovenous Bypass / LVA Surgery Singapore — published technical subpage
+3. Breast Reconstruction Singapore — published reconstructive authority page
+4. Asian Eyelid Surgery Singapore — drafted aesthetic demand page for clinical review
+5. Rhinoplasty Singapore — next aesthetic demand page
