@@ -89,6 +89,8 @@ A careful eyelid examination may assess:
 - dry eye or ocular surface symptoms
 - previous surgery or contact lens history
 
+In Singapore, Ministry of Health regulations require patients to be assessed independently by an eye doctor before a plastic surgeon can operate on the patient as a medical case. This is particularly relevant when eyelid surgery is being considered for functional concerns such as ptosis or visual-field obstruction.
+
 If ptosis is present, crease creation alone may not address the main problem. Ptosis correction may need to be planned as part of the operation, and the risks, recovery and symmetry considerations should be discussed separately.
 
 ## Revision Asian eyelid surgery
@@ -114,7 +116,7 @@ Photos may be taken for clinical documentation and planning. Patients may also b
 
 ## Recovery after eyelid surgery
 
-Recovery varies according to the procedure performed and the patient’s healing response. Swelling and bruising are common after eyelid surgery, especially in the first one to two weeks. Some patients may take longer for swelling, firmness or scar redness to settle.
+Recovery varies according to the procedure performed and the patient’s healing response. Swelling and bruising are common after eyelid surgery. For non-incisional procedures, swelling may take around two weeks to one month to subside. For incisional procedures, swelling and scar maturation may continue to improve over three to six months, sometimes longer depending on the individual patient and the extent of surgery.
 
 Patients may be advised to use cold compresses, keep the head elevated, avoid strenuous activity temporarily, attend follow-up appointments and avoid contact lens use or eye makeup for a period of time. The exact instructions depend on the operation and surgeon’s assessment.
 
@@ -160,7 +162,7 @@ Yes. Ptosis surgery addresses drooping of the upper eyelid related to eyelid mus
 
 ### How long does swelling last?
 
-Most visible swelling and bruising improves over the first few weeks, but subtle swelling, firmness and scar maturation can continue for months. Recovery varies between patients and procedures.
+Most visible swelling after non-incisional eyelid procedures may take around two weeks to one month to subside. After incisional eyelid surgery, swelling and scar maturation may continue to improve over three to six months. Individual recovery varies.
 
 ### Can revision eyelid surgery fix a previous result?
 
