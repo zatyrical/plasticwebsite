@@ -9,6 +9,7 @@ const navItems = [
   { href: '/#procedures', label: 'Procedures' },
   { href: '/lymphedema-surgery-singapore', label: 'Lymphedema' },
   { href: '/lymphovenous-bypass-lva-surgery-singapore', label: 'LVA' },
+  { href: '/asian-eyelid-surgery-singapore', label: 'Eyelid surgery' },
   { href: '/#training', label: 'Training' },
   { href: '/#reconstruction', label: 'Reconstruction' },
   { href: '/breast-reconstruction-singapore', label: 'Breast reconstruction' },

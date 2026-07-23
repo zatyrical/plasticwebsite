@@ -6,7 +6,7 @@ const aesthetic = [
   { title: 'Body contouring & liposuction', text: 'Abdominoplasty, arm/thigh/trunk contouring, post-bariatric body contouring and high-definition liposuction techniques, informed by international aesthetic body-contouring training.', href: '' },
   { title: 'Breast aesthetic surgery', text: 'Breast augmentation, reduction mammoplasty and mastopexy, including training exposure to rapid-recovery breast augmentation and advanced breast shaping approaches.', href: '' },
   { title: 'Asian rhinoplasty', text: 'Asian rhinoplasty and structural rib rhinoplasty training with surgeons in South Korea, Japan and Los Angeles.', href: '' },
-  { title: 'Eyelid surgery', text: 'Asian blepharoplasty training with Korean and Japanese plastic/aesthetic surgeons.', href: '' },
+  { title: 'Eyelid surgery', text: 'Asian eyelid surgery, upper blepharoplasty and ptosis assessment, informed by Korean and Japanese plastic/aesthetic eyelid surgery training.', href: '/asian-eyelid-surgery-singapore' },
   { title: 'Facial rejuvenation', text: 'Sub-SMAS and deep-plane facelift concepts from international facelift training in the USA, Italy and Türkiye.', href: '' },
   { title: 'Lymphedema surgery', text: 'Dedicated lymphatic surgery care including LVA, lymphatic reconstruction and complex lymphedema assessment.', href: '/lymphedema-surgery-singapore' },
   { title: 'Lymphovenous bypass / LVA', text: 'Supermicrosurgical lymphovenous bypass assessment for selected patients with lymphedema, recurrent cellulitis or fluid-dominant swelling.', href: '/lymphovenous-bypass-lva-surgery-singapore' }
@@ -250,6 +250,7 @@ export default function Home() {
             <a className="card blog-card linked-card" href="/lymphovenous-bypass-lva-surgery-singapore"><small>LVA surgery</small><h3>Lymphovenous bypass / LVA surgery in Singapore</h3><p>Focused patient information on suitability, imaging, recovery, cellulitis risk and compression after LVA.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/lymphedema-surgery-singapore"><small>Lymphedema</small><h3>Lymphedema surgery in Singapore</h3><p>Educational overview of lymphovenous bypass, assessment, infection risk and recovery.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/breast-reconstruction-singapore"><small>Breast reconstruction</small><h3>Breast reconstruction in Singapore</h3><p>Patient information on implant-based reconstruction, DIEP flap reconstruction, timing, recovery and risks.</p><span>Read page</span></a>
+            <a className="card blog-card linked-card" href="/asian-eyelid-surgery-singapore"><small>Asian eyelid surgery</small><h3>Asian eyelid surgery in Singapore</h3><p>Patient information on double eyelid surgery, ptosis assessment, recovery, risks and revision eyelid surgery.</p><span>Read page</span></a>
           </div>
         </div>
       </section>
