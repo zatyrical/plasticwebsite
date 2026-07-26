@@ -24,17 +24,6 @@ const reconstruction = [
   { title: 'Gender-affirming chest reconstruction', href: '' }
 ];
 
-const publications = [
-  'Venous anatomy of the superficial circumflex iliac artery perforator flap: a cadaveric and clinical study. JPRAS, 2024.',
-  'Utilizing the subunit concept to achieve better outcomes in lower limb reconstruction. PRS Global Open, 2024.',
-  'Current Insights into Post-Traumatic Lymphedema. Trauma Care, 2025.',
-  'The 1+X Technique: A Novel Microsurgical Approach for Secondary Lymphedema. JPRAS, 2025 in press.',
-  'Lymphovenous shunts in the treatment of lymphedema. Journal of the Chinese Medical Association, 2024.',
-  'Primary surgical prevention of lymphedema. Journal of the Chinese Medical Association, 2024.',
-  'Genital Elephantiasis: Surgical treatment and reconstruction. Journal of the Chinese Medical Association, 2024.',
-  'Vascular anatomy of the anteromedial thigh flap. JPRAS Open, 2017.'
-];
-
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Physician',
@@ -157,14 +146,6 @@ export default function Home() {
           <h2>Reconstructive surgery</h2>
           <p className="section-intro">Breast, lymphatic, microsurgical and trauma reconstruction.</p>
           <div className="grid-2 focus-grid">{reconstruction.map((x) => x.href ? <a className="card linked-card focus-card" href={x.href} key={x.title}><h3>{x.title}</h3><span>View page</span></a> : <div className="card focus-card" key={x.title}><h3>{x.title}</h3></div>)}</div>
-        </div>
-      </section>
-
-      <section className="section dark mobile-transition">
-        <div className="container">
-          <h2>Selected publications</h2>
-          <p className="section-intro">Selected peer-reviewed publications and academic work across microsurgery, perforator flaps, lower-limb reconstruction and lymphedema surgery.</p>
-          <ol className="pub-list">{publications.map((p) => <li key={p}>{p}</li>)}</ol>
         </div>
       </section>
 
