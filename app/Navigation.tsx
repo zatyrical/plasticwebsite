@@ -6,14 +6,11 @@ import { useState } from 'react';
 
 const navItems = [
   { href: '/#about', label: 'About' },
-  { href: '/#procedures', label: 'Procedures' },
-  { href: '/lymphedema-surgery-singapore', label: 'Lymphedema' },
-  { href: '/lymphovenous-bypass-lva-surgery-singapore', label: 'LVA' },
-  { href: '/asian-eyelid-surgery-singapore', label: 'Eyelid surgery' },
+  { href: '/#aesthetic-surgery', label: 'Aesthetic' },
+  { href: '/#reconstructive-surgery', label: 'Reconstructive' },
   { href: '/#training', label: 'Training' },
-  { href: '/#reconstruction', label: 'Reconstruction' },
-  { href: '/breast-reconstruction-singapore', label: 'Breast reconstruction' },
-  { href: '/#articles', label: 'Articles' }
+  { href: '/#articles', label: 'Articles' },
+  { href: '/#contact', label: 'Contact' }
 ];
 
 export default function Navigation() {

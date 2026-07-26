@@ -3,23 +3,22 @@ import ContactForm from './ContactForm';
 import Navigation from './Navigation';
 
 const aesthetic = [
-  { title: 'Body contouring & liposuction', text: 'Abdominoplasty, arm/thigh/trunk contouring, post-bariatric body contouring and high-definition liposuction techniques, informed by international aesthetic body-contouring training.', href: '' },
-  { title: 'Breast aesthetic surgery', text: 'Breast augmentation, reduction mammoplasty and mastopexy, including training exposure to rapid-recovery breast augmentation and advanced breast shaping approaches.', href: '' },
-  { title: 'Asian rhinoplasty', text: 'Asian rhinoplasty and structural rib rhinoplasty training with surgeons in South Korea, Japan and Los Angeles.', href: '' },
-  { title: 'Eyelid surgery', text: 'Asian eyelid surgery, upper blepharoplasty and ptosis assessment, informed by Korean and Japanese plastic/aesthetic eyelid surgery training.', href: '/asian-eyelid-surgery-singapore' },
-  { title: 'Facial rejuvenation', text: 'Sub-SMAS and deep-plane facelift concepts from international facelift training in the USA, Italy and Türkiye.', href: '' },
-  { title: 'Lymphedema surgery', text: 'Dedicated lymphatic surgery care including LVA, lymphatic reconstruction and complex lymphedema assessment.', href: '/lymphedema-surgery-singapore' },
-  { title: 'Lymphovenous bypass / LVA', text: 'Supermicrosurgical lymphovenous bypass assessment for selected patients with lymphedema, recurrent cellulitis or fluid-dominant swelling.', href: '/lymphovenous-bypass-lva-surgery-singapore' }
+  { title: 'Body contouring & liposuction', href: '' },
+  { title: 'Breast aesthetic surgery', href: '' },
+  { title: 'Asian rhinoplasty', href: '' },
+  { title: 'Eyelid surgery', href: '/asian-eyelid-surgery-singapore' },
+  { title: 'Facial rejuvenation', href: '' }
 ];
 
 const reconstruction = [
-  { text: 'Breast reconstruction, including implant-based reconstruction, free DIEP flap reconstruction and the reconstruction component for Singapore’s first robotic mastectomy', href: '/breast-reconstruction-singapore' },
-  { text: 'Gender-affirming chest reconstruction / FTM top surgery experience in Singapore', href: '' },
-  { text: 'Lower limb reconstruction using bespoke flap planning, SCIP flap expertise, authorship of a SCIP flap book chapter and keynote lecture experience on lower-limb subunit reconstruction at the European Federation of Societies for Microsurgery meeting in 2024', href: '' },
-  { text: 'Head and neck reconstruction, including tongue, maxillary, mandibular and pharyngeal reconstruction, with observership exposure at MD Anderson Cancer Center', href: '' },
-  { text: 'Trauma and lacerations, including facial, chest wall and limb trauma reconstruction, lacerations, nerves, soft tissue and facial fracture fixation', href: '' },
-  { text: 'Microsurgical reconstruction and perforator flap surgery including SCIP and anteromedial thigh flap work', href: '' },
-  { text: 'Lymphedema surgery, supported by dedicated Tokyo lymphatic surgery training and invited speaker experience at local and international conferences', href: '/lymphedema-surgery-singapore' }
+  { title: 'Breast reconstruction', href: '/breast-reconstruction-singapore' },
+  { title: 'Lymphedema surgery', href: '/lymphedema-surgery-singapore' },
+  { title: 'Lymphovenous bypass / LVA', href: '/lymphovenous-bypass-lva-surgery-singapore' },
+  { title: 'Lower limb reconstruction', href: '' },
+  { title: 'Head and neck reconstruction', href: '' },
+  { title: 'Trauma and lacerations', href: '' },
+  { title: 'Microsurgical reconstruction', href: '' },
+  { title: 'Gender-affirming chest reconstruction', href: '' }
 ];
 
 const trainingMentorship = [
@@ -142,9 +141,9 @@ export default function Home() {
           <div>
             <div className="eyebrow">Senior Consultant Plastic, Reconstructive & Aesthetic Surgeon • Singapore</div>
             <h1>Precision surgery with an academic foundation.</h1>
-            <p className="lead">Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with expertise across aesthetic surgery, microsurgical reconstruction and lymphatic surgery. This site provides factual information on his training, clinical focus areas and educational articles for patients.</p>
+            <p className="lead">Aesthetic surgery, reconstructive microsurgery and lymphatic surgery in Singapore.</p>
             <div className="hero-actions">
-              <a href="#procedures" className="btn btn-primary">Explore procedures</a>
+              <a href="#aesthetic-surgery" className="btn btn-primary">Explore procedures</a>
               <a href="#about" className="btn btn-ghost">About Dr Sun</a>
             </div>
           </div>
@@ -192,12 +191,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="procedures" className="section dark">
+      <section id="aesthetic-surgery" className="section dark">
         <div className="container">
           <div className="eyebrow">Clinical focus areas</div>
           <h2>Aesthetic surgery</h2>
-          <p className="section-intro">Dr Sun’s aesthetic surgery practice includes body contouring, breast surgery, Asian rhinoplasty, eyelid surgery, facial rejuvenation and lymphedema surgery, informed by international fellowship and mentorship exposure.</p>
-          <div className="grid-3">{aesthetic.map((x) => x.href ? <a className="card linked-card" href={x.href} key={x.title}><h3>{x.title}</h3><p>{x.text}</p><span>Learn more</span></a> : <div className="card" key={x.title}><h3>{x.title}</h3><p>{x.text}</p></div>)}</div>
+          <p className="section-intro">Focused procedure pages for patients considering aesthetic surgery.</p>
+          <div className="grid-3 focus-grid">{aesthetic.map((x) => x.href ? <a className="card linked-card focus-card" href={x.href} key={x.title}><h3>{x.title}</h3><span>View page</span></a> : <div className="card focus-card" key={x.title}><h3>{x.title}</h3></div>)}</div>
         </div>
       </section>
 
@@ -226,11 +225,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="reconstruction" className="section">
+      <section id="reconstructive-surgery" className="section">
         <div className="container">
           <h2>Reconstructive surgery</h2>
-          <p className="section-intro">Dr Sun’s reconstructive practice spans breast, lower limb, lymphatic, head and neck, and trauma reconstruction. His experience includes the reconstruction component for Singapore’s first robotic mastectomy, MD Anderson head-and-neck observership exposure, lower-limb reconstruction academic work and invited lymphedema surgery talks at local and international meetings.</p>
-          <div className="grid-2">{reconstruction.map((x) => x.href ? <a className="card linked-card" href={x.href} key={x.text}><h3>{x.text.split(',')[0]}</h3><p>{x.text}</p><span>Learn more</span></a> : <div className="card" key={x.text}><h3>{x.text.split(',')[0]}</h3><p>{x.text}</p></div>)}</div>
+          <p className="section-intro">Breast, lymphatic, microsurgical and trauma reconstruction.</p>
+          <div className="grid-2 focus-grid">{reconstruction.map((x) => x.href ? <a className="card linked-card focus-card" href={x.href} key={x.title}><h3>{x.title}</h3><span>View page</span></a> : <div className="card focus-card" key={x.title}><h3>{x.title}</h3></div>)}</div>
         </div>
       </section>
 
