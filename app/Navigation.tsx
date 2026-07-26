@@ -8,7 +8,7 @@ const navItems = [
   { href: '/#about', label: 'About' },
   { href: '/#aesthetic-surgery', label: 'Aesthetic' },
   { href: '/#reconstructive-surgery', label: 'Reconstructive' },
-  { href: '/#training', label: 'Training' },
+  { href: '/training-and-fellowships', label: 'Training' },
   { href: '/#articles', label: 'Articles' },
   { href: '/#contact', label: 'Contact' }
 ];

@@ -21,69 +21,6 @@ const reconstruction = [
   { title: 'Gender-affirming chest reconstruction', href: '' }
 ];
 
-const trainingMentorship = [
-  {
-    area: 'Lymphatic surgery',
-    mentor: 'Dr Takumi Yamamoto and Dr Akitatsu Hayashi',
-    focus: 'MOH-accredited dedicated lymphedema surgery training program in Tokyo, focused specifically on lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.',
-    note: 'Structured subspecialty lymphatic surgery training, distinct from broader microsurgical fellowships where lymphedema may be only one component of training.',
-    photos: [
-      { src: '/images/mentors/takumi-yamamoto-lymphatic-group.jpg', alt: 'Dr Jeremy Sun with Dr Takumi Yamamoto during lymphatic surgery training in Tokyo', className: 'photo-takumi-yamamoto' },
-      { src: '/images/mentors/akitatsu-hayashi.jpg', alt: 'Dr Jeremy Sun with Dr Akitatsu Hayashi during lymphatic surgery training in Tokyo', className: 'photo-akitatsu-hayashi' }
-    ]
-  },
-  {
-    area: 'Body contouring & liposuction',
-    mentor: 'Dr David Sieber and Mexican body-contouring surgical groups',
-    focus: 'High-definition liposuction, abdominoplasty, cosmetic body contouring and breast augmentation principles.',
-    note: 'ASAPS travelling fellowship exposure.',
-    photos: [
-      { src: '/images/mentors/david-sieber.jpg', alt: 'Dr Jeremy Sun with Dr David Sieber during aesthetic surgery training', className: 'photo-david-sieber' }
-    ]
-  },
-  {
-    area: 'Breast aesthetic surgery',
-    mentor: 'Dr William Adams and Dr Dennis Hammond',
-    focus: 'Breast augmentation, rapid-recovery concepts and advanced breast shaping approaches.',
-    note: 'Mentored international aesthetic surgery training.',
-    photos: [
-      { src: '/images/mentors/william-adams.jpg', alt: 'Dr Jeremy Sun with Dr William Adams during breast aesthetic surgery training' },
-      { src: '/images/mentors/dennis-hammond.jpg', alt: 'Dr Jeremy Sun with Dr Dennis Hammond during breast aesthetic surgery training' }
-    ]
-  },
-  {
-    area: 'Asian rhinoplasty',
-    mentor: 'Dr Jeong Jae Yong, Dr Charles Lee, Dr Yasushi Sugawara and Dr Kim Taek Kyun',
-    focus: 'Asian rhinoplasty, structural rhinoplasty and rib cartilage techniques.',
-    note: 'Training exposure across South Korea, Japan and Los Angeles.',
-    photos: [
-      { src: '/images/mentors/jeong-jae-yong.jpg', alt: 'Dr Jeremy Sun with Dr Jeong Jae Yong during rhinoplasty training' },
-      { src: '/images/mentors/charles-lee.jpg', alt: 'Dr Jeremy Sun with Dr Charles Lee during rhinoplasty training', className: 'photo-charles-lee' },
-      { src: '/images/mentors/yasushi-sugawara.jpg', alt: 'Dr Jeremy Sun with Dr Yasushi Sugawara during rhinoplasty training', className: 'photo-yasushi-sugawara' },
-      { src: '/images/mentors/kim-taek-kyun.jpg', alt: 'Dr Jeremy Sun with Dr Kim Taek Kyun during rhinoplasty training', className: 'photo-kim-taek-kyun' }
-    ]
-  },
-  {
-    area: 'Eyelid surgery',
-    mentor: 'Dr Moon Seop Choi and Dr Keizo Fukuta',
-    focus: 'Asian blepharoplasty and plastic/aesthetic eyelid surgery concepts.',
-    note: 'Procedure-specific mentorship and observership exposure.',
-    photos: [
-      { src: '/images/mentors/moon-seop-choi.jpg', alt: 'Dr Jeremy Sun with Dr Moon Seop Choi during eyelid surgery training', className: 'photo-moon-seop-choi' },
-      { src: '/images/mentors/keizo-fukuta.jpg', alt: 'Dr Jeremy Sun with Dr Keizo Fukuta during eyelid surgery training' }
-    ]
-  },
-  {
-    area: 'Facial rejuvenation',
-    mentor: 'Dr Tim Martyn, Dr Giovanni Botti and Dr Zekeriya Kul',
-    focus: 'Sub-SMAS and deep-plane facelift concepts, facial rejuvenation and aesthetic facial surgery.',
-    note: 'International facelift training exposure in the USA, Italy and Türkiye.',
-    photos: [
-      { src: '/images/mentors/tim-martyn.jpg', alt: 'Dr Jeremy Sun with Dr Tim Martyn during facial rejuvenation training', className: 'photo-tim-martyn' }
-    ]
-  }
-];
-
 const publications = [
   'Venous anatomy of the superficial circumflex iliac artery perforator flap: a cadaveric and clinical study. JPRAS, 2024.',
   'Utilizing the subunit concept to achieve better outcomes in lower limb reconstruction. PRS Global Open, 2024.',
@@ -202,25 +139,20 @@ export default function Home() {
 
       <section id="training" className="section">
         <div className="container">
-          <div className="eyebrow">Training gallery</div>
-          <h2>International training & mentorship</h2>
-          <p className="section-intro">Dr Sun has pursued focused international training across lymphatic surgery, aesthetic surgery and facial procedures, with mentorship from surgeons and surgical units in Tokyo, South Korea, Japan, the United States, Italy, Türkiye and Mexico.</p>
-          <div className="mentor-grid">
-            {trainingMentorship.map((x) => (
-              <article className="mentor-card" key={x.area}>
-                <div className={`mentor-collage collage-${Math.min(x.photos.length, 4)}`}>
-                  {x.photos.length > 0 ? x.photos.map((photo) => (
-                    <Image key={photo.src} src={photo.src} alt={photo.alt} className={photo.className} width={640} height={520} />
-                  )) : <span>Mentor photo</span>}
-                </div>
-                <div className="mentor-content">
-                  <small>{x.area}</small>
-                  <h3>{x.mentor}</h3>
-                  <p>{x.focus}</p>
-                  <span className="mentor-note">{x.note}</span>
-                </div>
-              </article>
-            ))}
+          <div className="eyebrow">Training & fellowships</div>
+          <h2>Extensive international plastic surgery training.</h2>
+          <p className="section-intro">Dr Sun’s plastic surgery training includes Singapore specialist training and focused international fellowship and mentorship exposure across Tokyo, South Korea, Japan, the United States, Italy, Türkiye and Mexico.</p>
+          <div className="feature-points">
+            <span>Lymphatic surgery</span>
+            <span>Aesthetic surgery</span>
+            <span>Asian rhinoplasty</span>
+            <span>Eyelid surgery</span>
+            <span>Body contouring</span>
+            <span>Breast surgery</span>
+            <span>Facial rejuvenation</span>
+          </div>
+          <div className="hero-actions">
+            <a href="/training-and-fellowships" className="btn btn-primary">View training details and photos</a>
           </div>
         </div>
       </section>
