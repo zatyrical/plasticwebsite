@@ -110,6 +110,8 @@ export default function Home() {
               <div className="about-stat"><strong>Head of Service</strong><span>Changi General Hospital</span></div>
               <div className="about-stat"><strong>Duke-NUS</strong><span>Assistant Clinical Professor</span></div>
               <div className="about-stat"><strong>Tokyo training</strong><span>MOH-accredited lymphatic surgery</span></div>
+              <div className="about-stat"><strong>Aesthetic surgery training</strong><span>American Society of Aesthetic Plastic Surgeons</span></div>
+              <div className="about-stat"><strong>Chapter Chairman</strong><span>College of Surgeons Singapore</span></div>
             </div>
           </div>
         </div>

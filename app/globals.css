@@ -33,11 +33,11 @@
   .portrait-wrap img{height:clamp(200px,32svh,280px);object-position:center 5%}
   .credential-strip{position:absolute;left:10px;right:10px;bottom:10px;margin-top:0;padding:8px;gap:6px;grid-template-columns:repeat(2,1fr);border-radius:14px}
   .metric strong{font-size:11px;letter-spacing:-.03em}.metric span{display:none}
-  .about-section{padding:20px 0}.about-grid{gap:14px}.about-image-card{border-radius:22px}.about-image-card img{height:25svh;object-position:center 45%}
-  .about-section h2,.section h2{font-size:clamp(32px,9vw,44px);line-height:.95;margin:10px 0 10px}
-  .about-section .section-intro{font-size:15px;line-height:1.45;margin:0 0 12px}
-  .compact-highlights{grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px}
-  .about-stat{min-height:78px;border-radius:18px;padding:14px}.about-stat:after{width:72px;height:72px;right:-28px;top:-28px}.about-stat strong{font-size:18px;line-height:1}.about-stat span{font-size:11px;line-height:1.25;margin-top:8px}
+  .about-section{padding:16px 0}.about-grid{gap:10px}.about-image-card{border-radius:22px}.about-image-card img{height:20svh;object-position:center 45%}
+  .about-section h2,.section h2{font-size:clamp(30px,8.4vw,42px);line-height:.95;margin:8px 0 8px}
+  .about-section .section-intro{font-size:14px;line-height:1.35;margin:0 0 10px}
+  .compact-highlights{grid-template-columns:repeat(2,1fr);gap:8px;margin-top:10px}
+  .about-stat{min-height:66px;border-radius:16px;padding:12px}.about-stat:after{width:64px;height:64px;right:-26px;top:-26px}.about-stat strong{font-size:16px;line-height:1}.about-stat span{font-size:10px;line-height:1.2;margin-top:6px}
   #aesthetic-surgery .container,#reconstructive-surgery .container,#training .container{width:100%}
   #aesthetic-surgery .section-intro,#reconstructive-surgery .section-intro{font-size:15px;line-height:1.4;margin:0}
   .focus-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px}
