@@ -46,7 +46,33 @@
 }
 @supports (animation-timeline: view()){
   @media(max-width:900px){
-    .mobile-screen,.mobile-transition{animation:segment-fade both linear;animation-timeline:view();animation-range:exit 0% exit 72%}
-    @keyframes segment-fade{from{opacity:1;transform:scale(1)}to{opacity:.58;transform:scale(.985)}}
+    .mobile-screen,.mobile-transition{
+      animation:atelier-reveal both cubic-bezier(.22,1,.36,1);
+      animation-timeline:view();
+      animation-range:entry 0% exit 100%;
+      transform-origin:center top;
+      will-change:opacity,transform,filter;
+    }
+    .mobile-screen:before,.mobile-transition:before{
+      content:"";
+      pointer-events:none;
+      position:absolute;
+      left:22px;
+      right:22px;
+      top:0;
+      height:1px;
+      background:linear-gradient(90deg,transparent,rgba(184,154,94,.58),transparent);
+      opacity:.42;
+    }
+    .hero.mobile-screen:before{display:none}
+    @keyframes atelier-reveal{
+      0%{opacity:.32;transform:translateY(18px) scale(.985);filter:blur(8px)}
+      24%{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}
+      68%{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}
+      100%{opacity:.74;transform:translateY(-14px) scale(.992);filter:blur(1.5px)}
+    }
   }
+}
+@media(prefers-reduced-motion:reduce){
+  .mobile-screen,.mobile-transition{animation:none!important;transition:none!important;filter:none!important;transform:none!important}
 }
