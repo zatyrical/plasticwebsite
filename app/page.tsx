@@ -97,14 +97,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="section">
-        <div className="container">
-          <h2>About Dr Jeremy Sun</h2>
-          <p className="section-intro">Dr Sun is a Senior Consultant plastic surgeon. He graduated from the Yong Loo Lin School of Medicine at the National University of Singapore in 2007 and completed six years of residency training in Plastic, Reconstructive and Aesthetic Surgery. His clinical foundation is in microsurgical reconstruction, with experience in complex head and neck, breast and lower limb reconstruction.</p>
-          <div className="grid-3">
-            <div className="card"><h3>Leadership</h3><p>Head of Plastic, Reconstructive and Aesthetic Surgery Service at Changi General Hospital; Chairman, Chapter of Plastic Reconstructive and Aesthetic Surgeons, College of Surgeons, Academy of Medicine Singapore.</p></div>
-            <div className="card"><h3>Education</h3><p>Core faculty of the SingHealth Plastic Surgery Residency Program, clinical teacher at Lee Kong Chian School of Medicine and Assistant Clinical Professor at Duke-NUS.</p></div>
-            <div className="card"><h3>Subspecialty focus</h3><p>Aesthetic surgery, microsurgical reconstruction, lymphatic surgery and complex reconstructive surgery for breast, lower limb, head and neck, and trauma cases.</p></div>
+      <section id="about" className="section about-section">
+        <div className="container about-grid">
+          <div>
+            <div className="eyebrow">About Dr Sun</div>
+            <h2>Senior Consultant Plastic Surgeon in Singapore.</h2>
+            <p className="section-intro">Plastic, reconstructive and aesthetic surgeon with a microsurgical foundation and focused expertise in lymphatic surgery.</p>
+          </div>
+          <div className="about-highlights">
+            <div className="about-stat"><strong>Senior Consultant</strong><span>Plastic, Reconstructive & Aesthetic Surgery</span></div>
+            <div className="about-stat"><strong>Head of Service</strong><span>Changi General Hospital</span></div>
+            <div className="about-stat"><strong>Assistant Clinical Professor</strong><span>Duke-NUS Medical School</span></div>
+            <div className="about-stat"><strong>MOH-accredited training</strong><span>Dedicated lymphatic surgery program in Tokyo</span></div>
           </div>
         </div>
       </section>
