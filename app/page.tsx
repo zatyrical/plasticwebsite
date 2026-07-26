@@ -144,7 +144,7 @@ export default function Home() {
             <span>Eyelid surgery</span>
             <span>Body contouring</span>
             <span>Breast surgery</span>
-            <span>Facial rejuvenation</span>
+            <span>Face and neck lift</span>
           </div>
           <div className="hero-actions">
             <a href="/training-and-fellowships" className="btn btn-primary">View training details and photos</a>
