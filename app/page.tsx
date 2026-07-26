@@ -62,7 +62,10 @@ const jsonLd = {
     'Breast surgery',
     'Rhinoplasty',
     'Eyelid surgery',
-    'Facial rejuvenation'
+    'Face and neck lift',
+    'Lasers and injectables',
+    'Fat grafting',
+    'Thread lifting'
   ],
   affiliation: [
     { '@type': 'Organization', name: 'Changi General Hospital' },
