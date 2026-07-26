@@ -73,7 +73,7 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navigation />
 
-      <section className="hero">
+      <section className="hero mobile-screen">
         <div className="container hero-grid">
           <div>
             <div className="eyebrow">Senior Consultant Plastic, Reconstructive & Aesthetic Surgeon • Singapore</div>
@@ -97,42 +97,26 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="section about-section">
+      <section id="about" className="section about-section mobile-screen">
         <div className="container about-grid">
+          <div className="about-image-card">
+            <Image src="/images/dr-jeremy-sun-surgery.jpg" alt="Dr Jeremy Sun operating in a surgical theatre" width={1200} height={1500} />
+          </div>
           <div>
             <div className="eyebrow">About Dr Sun</div>
             <h2>Senior Consultant Plastic Surgeon in Singapore.</h2>
-            <p className="section-intro">Plastic, reconstructive and aesthetic surgeon with a microsurgical foundation and focused expertise in lymphatic surgery.</p>
-          </div>
-          <div className="about-highlights">
-            <div className="about-stat"><strong>Senior Consultant</strong><span>Plastic, Reconstructive & Aesthetic Surgery</span></div>
-            <div className="about-stat"><strong>Head of Service</strong><span>Changi General Hospital</span></div>
-            <div className="about-stat"><strong>Assistant Clinical Professor</strong><span>Duke-NUS Medical School</span></div>
-            <div className="about-stat"><strong>MOH-accredited training</strong><span>Dedicated lymphatic surgery program in Tokyo</span></div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section surgical-feature">
-        <div className="container surgical-feature-grid">
-          <div className="surgical-image-card">
-            <Image src="/images/dr-jeremy-sun-surgery.jpg" alt="Dr Jeremy Sun operating in a surgical theatre" width={1200} height={1500} />
-            <div className="surgical-image-caption">Operative focus across aesthetic, reconstructive microsurgery and lymphatic surgery.</div>
-          </div>
-          <div className="surgical-feature-copy">
-            <div className="eyebrow">Surgical practice</div>
-            <h2>Precision, planning and microsurgical discipline.</h2>
-            <p className="section-intro">Dr Sun’s surgical approach is grounded in careful assessment, detailed operative planning and a microsurgical foundation developed through aesthetic, reconstructive and lymphatic surgery practice.</p>
-            <div className="feature-points">
-              <span>Microsurgical foundation</span>
-              <span>Structured operative planning</span>
-              <span>Academic surgical practice</span>
+            <p className="section-intro">Aesthetic surgery, reconstructive microsurgery and lymphatic surgery — grounded in academic surgical practice.</p>
+            <div className="about-highlights compact-highlights">
+              <div className="about-stat"><strong>Senior Consultant</strong><span>Plastic Surgery</span></div>
+              <div className="about-stat"><strong>Head of Service</strong><span>Changi General Hospital</span></div>
+              <div className="about-stat"><strong>Duke-NUS</strong><span>Assistant Clinical Professor</span></div>
+              <div className="about-stat"><strong>Tokyo training</strong><span>MOH-accredited lymphatic surgery</span></div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="aesthetic-surgery" className="section dark">
+      <section id="aesthetic-surgery" className="section dark mobile-screen">
         <div className="container">
           <div className="eyebrow">Clinical focus areas</div>
           <h2>Aesthetic surgery</h2>
@@ -141,7 +125,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="training" className="section">
+      <section id="training" className="section mobile-screen">
         <div className="container">
           <div className="eyebrow">Training & fellowships</div>
           <h2>Extensive international plastic surgery training.</h2>
@@ -161,7 +145,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="reconstructive-surgery" className="section">
+      <section id="reconstructive-surgery" className="section mobile-screen">
         <div className="container">
           <h2>Reconstructive surgery</h2>
           <p className="section-intro">Breast, lymphatic, microsurgical and trauma reconstruction.</p>
