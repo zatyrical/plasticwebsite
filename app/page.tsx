@@ -7,7 +7,10 @@ const aesthetic = [
   { title: 'Breast aesthetic surgery', href: '' },
   { title: 'Asian rhinoplasty', href: '' },
   { title: 'Eyelid surgery', href: '/asian-eyelid-surgery-singapore' },
-  { title: 'Facial rejuvenation', href: '' }
+  { title: 'Face and neck lift', href: '' },
+  { title: 'Lasers and injectables', href: '' },
+  { title: 'Fat grafting', href: '' },
+  { title: 'Thread lifting', href: '' }
 ];
 
 const reconstruction = [
