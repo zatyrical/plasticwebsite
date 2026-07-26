@@ -11,7 +11,7 @@ primaryKeywords:
   - nasal tip refinement Singapore
   - revision rhinoplasty Singapore
   - rib rhinoplasty Singapore
-lastUpdated: "2026-07-21"
+lastUpdated: "2026-07-26"
 ---
 
 # Rhinoplasty in Singapore
@@ -71,7 +71,9 @@ In many Asian patients, the bridge and tip need to be assessed together. Increas
 
 Rhinoplasty may use implants, the patient’s own cartilage, or a combination of materials depending on the indication and anatomy.
 
-Autologous cartilage may be taken from the septum, ear or rib. Rib cartilage may be considered when stronger structural support is needed, when there is limited septal or ear cartilage, or in selected revision cases. Rib grafting involves a donor-site incision and its own recovery considerations.
+Autologous cartilage may be taken from the septum, ear or rib. In many Asian noses, the septal cartilage inside the nose is not thick or strong enough to provide major support for augmentation rhinoplasty. That is why rib cartilage is often preferred — it provides a stronger framework for structural rhinoplasty, allowing better nasal height, projection, tip definition, and long-term support.
+
+Rib cartilage may be considered when stronger structural support is needed, when there is limited septal or ear cartilage, or in selected revision cases. Rib grafting involves a donor-site incision and its own recovery considerations.
 
 Implants may be considered in selected patients, particularly for nasal bridge augmentation. The choice of material should be discussed carefully, including the benefits, limitations and risks of each option. These may include infection, movement, visibility, warping, resorption, extrusion, donor-site scarring or the need for future revision surgery.
 
