@@ -124,6 +124,14 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="reconstructive-surgery" className="section mobile-screen mobile-transition">
+        <div className="container">
+          <h2>Reconstructive surgery</h2>
+          <p className="section-intro">Breast, lymphatic, microsurgical and trauma reconstruction.</p>
+          <div className="grid-2 focus-grid">{reconstruction.map((x) => x.href ? <a className="card linked-card focus-card" href={x.href} key={x.title}><h3>{x.title}</h3><span>View page</span></a> : <div className="card focus-card" key={x.title}><h3>{x.title}</h3></div>)}</div>
+        </div>
+      </section>
+
       <section id="training" className="section mobile-screen">
         <div className="container">
           <div className="eyebrow">Training & fellowships</div>
@@ -141,14 +149,6 @@ export default function Home() {
           <div className="hero-actions">
             <a href="/training-and-fellowships" className="btn btn-primary">View training details and photos</a>
           </div>
-        </div>
-      </section>
-
-      <section id="reconstructive-surgery" className="section mobile-screen mobile-transition">
-        <div className="container">
-          <h2>Reconstructive surgery</h2>
-          <p className="section-intro">Breast, lymphatic, microsurgical and trauma reconstruction.</p>
-          <div className="grid-2 focus-grid">{reconstruction.map((x) => x.href ? <a className="card linked-card focus-card" href={x.href} key={x.title}><h3>{x.title}</h3><span>View page</span></a> : <div className="card focus-card" key={x.title}><h3>{x.title}</h3></div>)}</div>
         </div>
       </section>
 
