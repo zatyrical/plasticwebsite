@@ -3,14 +3,14 @@ import ContactForm from './ContactForm';
 import Navigation from './Navigation';
 
 const aesthetic = [
-  { title: 'Body contouring & liposuction', href: '' },
-  { title: 'Breast aesthetic surgery', href: '' },
-  { title: 'Asian rhinoplasty', href: '' },
-  { title: 'Eyelid surgery', href: '/asian-eyelid-surgery-singapore' },
-  { title: 'Face and neck lift', href: '' },
-  { title: 'Lasers and injectables', href: '' },
-  { title: 'Fat grafting', href: '' },
-  { title: 'Thread lifting', href: '' }
+  { title: 'Body contouring & liposuction', href: '', image: '/images/aesthetic/body-contouring.svg', alt: 'Abstract waist and abdomen contour illustration for body contouring and liposuction' },
+  { title: 'Breast aesthetic surgery', href: '', image: '/images/aesthetic/breast-aesthetic.svg', alt: 'Tasteful cropped inframammary fold illustration for breast aesthetic surgery' },
+  { title: 'Asian rhinoplasty', href: '', image: '/images/aesthetic/asian-rhinoplasty.svg', alt: 'Side profile nose illustration for Asian rhinoplasty' },
+  { title: 'Eyelid surgery', href: '/asian-eyelid-surgery-singapore', image: '/images/aesthetic/eyelid-surgery.svg', alt: 'Upper eyelid surgical marking illustration for eyelid surgery' },
+  { title: 'Face and neck lift', href: '', image: '/images/aesthetic/face-neck-lift.svg', alt: 'Jawline and neck lift-vector illustration for face and neck lift' },
+  { title: 'Lasers and injectables', href: '', image: '/images/aesthetic/lasers-injectables.svg', alt: 'Aesthetic laser handpiece illustration for lasers and injectables' },
+  { title: 'Fat grafting', href: '', image: '/images/aesthetic/fat-grafting.svg', alt: 'Abstract cannula and contour illustration for fat grafting' },
+  { title: 'Thread lifting', href: '', image: '/images/aesthetic/thread-lifting.svg', alt: 'Cheek and jawline thread-vector illustration for thread lifting' }
 ];
 
 const reconstruction = [
@@ -117,7 +117,10 @@ export default function Home() {
           <div className="eyebrow">Clinical focus areas</div>
           <h2>Aesthetic surgery</h2>
           <p className="section-intro">Focused procedure pages for patients considering aesthetic surgery.</p>
-          <div className="grid-3 focus-grid">{aesthetic.map((x) => x.href ? <a className="card linked-card focus-card" href={x.href} key={x.title}><h3>{x.title}</h3><span>View page</span></a> : <div className="card focus-card" key={x.title}><h3>{x.title}</h3></div>)}</div>
+          <div className="grid-3 focus-grid visual-focus-grid">{aesthetic.map((x) => {
+            const content = <><div className="visual-card-image"><img src={x.image} alt={x.alt} /></div><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</>;
+            return x.href ? <a className="card linked-card focus-card visual-focus-card" href={x.href} key={x.title}>{content}</a> : <div className="card focus-card visual-focus-card" key={x.title}>{content}</div>;
+          })}</div>
         </div>
       </section>
 
