@@ -144,7 +144,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="reconstructive-surgery" className="section mobile-screen">
+      <section id="reconstructive-surgery" className="section mobile-screen mobile-transition">
         <div className="container">
           <h2>Reconstructive surgery</h2>
           <p className="section-intro">Breast, lymphatic, microsurgical and trauma reconstruction.</p>
@@ -152,7 +152,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section dark">
+      <section className="section dark mobile-transition">
         <div className="container">
           <h2>Selected publications</h2>
           <p className="section-intro">Selected peer-reviewed publications and academic work across microsurgery, perforator flaps, lower-limb reconstruction and lymphedema surgery.</p>
@@ -160,7 +160,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="articles" className="section">
+      <section id="articles" className="section mobile-transition">
         <div className="container">
           <h2>Educational articles</h2>
           <p className="section-intro">Clear, patient-focused articles on procedure planning, recovery considerations, risks and treatment options in plastic, reconstructive and lymphatic surgery.</p>
@@ -173,7 +173,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="section">
+      <section id="contact" className="section mobile-transition">
         <div className="container grid-2">
           <div>
             <h2>Contact</h2>
