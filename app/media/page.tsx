@@ -13,20 +13,10 @@ type MediaFeature = {
   imageWidth?: number;
   imageHeight?: number;
   portrait?: boolean;
+  wide?: boolean;
 };
 
 const featuredMedia: MediaFeature[] = [
-  {
-    source: 'CNA',
-    title: 'Plastic surgery trends in Singapore',
-    description: 'CNA feature on younger patients, cosmetic procedures and safety considerations in Singapore.',
-    href: 'https://www.channelnewsasia.com/singapore/plastic-surgery-beauty-enhancements-botched-jobs-younger-addiction-5295756',
-    label: 'Read feature',
-    image: '/images/media/cna-plastic-surgery-feature.jpg',
-    imageAlt: 'CNA feature image on plastic surgery trends',
-    imageWidth: 1200,
-    imageHeight: 676
-  },
   {
     source: 'The Straits Times',
     title: 'New surgery to treat Alzheimer’s disease',
@@ -37,6 +27,29 @@ const featuredMedia: MediaFeature[] = [
     imageAlt: 'The Straits Times feature image on lymphatic bypass research',
     imageWidth: 1140,
     imageHeight: 760
+  },
+  {
+    source: 'CNA interview',
+    title: 'Treating swelling of limbs',
+    description: 'CNA interview segment on lymphedema screening and treatment, including CGH screening work for patients with limb swelling.',
+    href: '/media',
+    label: 'View feature',
+    image: '/images/media/cna-lymphedema-interview-screenshot.jpg',
+    imageAlt: 'CNA interview screenshot showing Dr Jeremy Sun discussing treatment for swelling of limbs',
+    imageWidth: 1280,
+    imageHeight: 500,
+    wide: true
+  },
+  {
+    source: 'NHK documentary',
+    title: 'Lymphedema surgeons in Japan',
+    description: 'Featured in an NHK documentary segment on lymphedema surgeons and lymphatic surgery in Japan.',
+    href: 'https://lymphedasia.com/educational-resources/',
+    label: 'View resource',
+    image: '/images/media/nhk-lymphedema-documentary.jpg',
+    imageAlt: 'Thumbnail for NHK documentary feature on lymphedema surgeons in Japan',
+    imageWidth: 1024,
+    imageHeight: 600
   }
 ];
 
@@ -108,7 +121,7 @@ export default function MediaPage() {
           <div className="media-list">
             {featuredMedia.map((item) => (
               <a className="card linked-card media-feature-card media-visual-card" href={item.href} key={item.title} target="_blank" rel="noreferrer">
-                {item.image && item.imageAlt && item.imageWidth && item.imageHeight ? <div className={`media-card-image ${item.portrait ? 'portrait-media-image' : ''}`}><Image src={item.image!} alt={item.imageAlt!} width={item.imageWidth!} height={item.imageHeight!} /></div> : null}
+                {item.image && item.imageAlt && item.imageWidth && item.imageHeight ? <div className={`media-card-image ${item.portrait ? 'portrait-media-image' : ''} ${item.wide ? 'wide-media-image' : ''}`}><Image src={item.image!} alt={item.imageAlt!} width={item.imageWidth!} height={item.imageHeight!} /></div> : null}
                 <small>{item.source}</small>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
@@ -121,7 +134,7 @@ export default function MediaPage() {
           <div className="media-list">
             {educationFeatures.map((item) => (
               <a className="card linked-card media-feature-card media-visual-card" href={item.href} key={item.title} target="_blank" rel="noreferrer">
-                {item.image && item.imageAlt && item.imageWidth && item.imageHeight ? <div className={`media-card-image ${item.portrait ? 'portrait-media-image' : ''}`}><Image src={item.image!} alt={item.imageAlt!} width={item.imageWidth!} height={item.imageHeight!} /></div> : null}
+                {item.image && item.imageAlt && item.imageWidth && item.imageHeight ? <div className={`media-card-image ${item.portrait ? 'portrait-media-image' : ''} ${item.wide ? 'wide-media-image' : ''}`}><Image src={item.image!} alt={item.imageAlt!} width={item.imageWidth!} height={item.imageHeight!} /></div> : null}
                 <small>{item.source}</small>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>

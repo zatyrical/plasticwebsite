@@ -112,6 +112,8 @@
 .media-visual-card:hover .media-card-image img{transform:scale(1.045);filter:saturate(1.03) contrast(1.04)}
 .portrait-media-image{background:linear-gradient(135deg,#173d36,#f2eee6);display:flex;align-items:center;justify-content:center}
 .portrait-media-image img{width:auto;max-width:62%;object-fit:contain;box-shadow:0 18px 45px rgba(0,0,0,.22);border-radius:14px}
+.wide-media-image{background:#0b0f0f}
+.wide-media-image img{object-fit:contain}
 .media-card small,.media-feature-card small,.media-card h3,.media-feature-card h3,.media-card p,.media-feature-card p,.media-card span,.media-feature-card span{margin-left:24px;margin-right:24px}
 .media-card small,.media-feature-card small{display:block;margin-bottom:10px;color:var(--gold);font-size:12px;font-weight:700;letter-spacing:.11em;text-transform:uppercase}
 .media-card h3,.media-feature-card h3{margin-top:0;margin-bottom:12px;font-size:24px;line-height:1.05;letter-spacing:-.045em}
