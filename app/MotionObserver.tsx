@@ -12,7 +12,7 @@ export default function MotionObserver() {
     const sections = Array.from(document.querySelectorAll<HTMLElement>('.segmented-section'));
     const cards = Array.from(
       document.querySelectorAll<HTMLElement>(
-        '.segmented-section .about-image-card, .segmented-section .aesthetic-photo-card, .segmented-section .focus-grid:not(.aesthetic-photo-grid) .focus-card, .segmented-section .media-visual-card, .segmented-section .training-image-strip div, .segmented-section .blog-card, .segmented-section .compliance'
+        '.segmented-section .about-image-card, .segmented-section .aesthetic-photo-card, .segmented-section .focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card, .segmented-section .media-visual-card, .segmented-section .training-image-strip div, .segmented-section .blog-card, .segmented-section .compliance'
       )
     );
 
@@ -20,9 +20,16 @@ export default function MotionObserver() {
       section.classList.add('motion-section');
       if (section.matches('#about, #contact')) section.classList.add('motion-iris');
     });
-    cards.forEach((card, index) => {
-      card.classList.add('motion-card');
-      card.style.setProperty('--motion-delay', `${Math.min(index % 4, 3) * 90}ms`);
+    sections.forEach((section) => {
+      const sectionCards = Array.from(
+        section.querySelectorAll<HTMLElement>(
+          '.about-image-card, .aesthetic-photo-card, .focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card, .media-visual-card, .training-image-strip div, .blog-card, .compliance'
+        )
+      );
+      sectionCards.forEach((card, index) => {
+        card.classList.add('motion-card');
+        card.style.setProperty('--motion-delay', `${Math.min(index % 4, 3) * 80}ms`);
+      });
     });
 
     const sectionObserver = new IntersectionObserver(

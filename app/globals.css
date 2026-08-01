@@ -55,7 +55,7 @@
 .aesthetic-photo-overlay span{display:inline-flex;margin-top:10px;color:#ead7a8;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
 .aesthetic-photo-card:hover img{transform:scale(1.06);filter:saturate(1.02) contrast(1.06)}
 .reconstructive-photo-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;perspective:1200px}
-.reconstructive-photo-card{min-height:220px;aspect-ratio:1/1.05;background:#10201d;box-shadow:0 22px 54px rgba(16,32,29,.16),0 0 0 1px rgba(255,255,255,.48)}
+.reconstructive-photo-card{min-height:260px;aspect-ratio:1/1.12;background:#10201d;box-shadow:0 22px 54px rgba(0,0,0,.22),0 0 0 1px rgba(255,255,255,.10)}
 .reconstructive-photo-card:after{background:linear-gradient(180deg,rgba(7,17,15,.00) 8%,rgba(7,17,15,.16) 48%,rgba(7,17,15,.76) 100%),linear-gradient(135deg,rgba(14,58,51,.14),rgba(184,154,94,.12));z-index:1}
 .reconstructive-photo-card img{filter:saturate(.96) contrast(1.02)}
 .reconstructive-photo-overlay h3{font-size:clamp(20px,1.65vw,28px)}
@@ -64,6 +64,7 @@
 @media(max-width:900px){
   .aesthetic-photo-grid,.reconstructive-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
   .aesthetic-photo-card{min-height:0;aspect-ratio:1/1.05;border-radius:16px}
+  .reconstructive-photo-card{min-height:0;aspect-ratio:1/1.05}
   .aesthetic-photo-overlay{left:10px;right:10px;bottom:10px}
   .aesthetic-photo-overlay h3{font-size:clamp(16px,4.3vw,20px);line-height:.96}
   .aesthetic-photo-overlay span{font-size:10px;margin-top:6px}
