@@ -42,12 +42,14 @@ export default function MotionObserver() {
     );
 
     const cardObserver = new IntersectionObserver(
-      (entries) => {
+      (entries, observer) => {
         entries.forEach((entry) => {
-          entry.target.classList.toggle('motion-in', entry.isIntersecting);
+          if (!entry.isIntersecting) return;
+          requestAnimationFrame(() => entry.target.classList.add('motion-in'));
+          observer.unobserve(entry.target);
         });
       },
-      { threshold: 0.22, rootMargin: '0px 0px -10% 0px' }
+      { threshold: 0.12, rootMargin: '0px 0px -4% 0px' }
     );
 
     sections.forEach((section) => sectionObserver.observe(section));

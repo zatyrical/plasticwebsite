@@ -136,7 +136,7 @@ export default function Home() {
           <h2>Reconstructive surgery</h2>
           <p className="section-intro">Breast, lymphatic, microsurgical and trauma reconstruction.</p>
           <div className="grid-3 focus-grid reconstructive-photo-grid">{reconstruction.map((x) => {
-            const content = <><Image src={x.image} alt={x.alt} width={720} height={720} /><div className="aesthetic-photo-overlay reconstructive-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
+            const content = <><Image src={x.image} alt={x.alt} width={720} height={720} loading="eager" sizes="(max-width: 900px) 50vw, 25vw" /><div className="aesthetic-photo-overlay reconstructive-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
             return x.href ? <a className="card linked-card focus-card aesthetic-photo-card reconstructive-photo-card" href={x.href} key={x.title}>{content}</a> : <div className="card focus-card aesthetic-photo-card reconstructive-photo-card" key={x.title}>{content}</div>;
           })}</div>
         </div>

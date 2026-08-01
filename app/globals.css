@@ -156,8 +156,8 @@
 .about-image-card,.aesthetic-photo-card,.media-visual-card{border-radius:30px}
 .about-image-card img,.aesthetic-photo-card img,.media-card-image img,.training-image-strip img{transition:transform .9s cubic-bezier(.22,1,.36,1),filter .9s cubic-bezier(.22,1,.36,1)}
 .about-image-card:hover img,.training-image-strip div:hover img{transform:scale(1.045);filter:saturate(1.02) contrast(1.04)}
-.focus-grid:not(.aesthetic-photo-grid) .focus-card{background:linear-gradient(135deg,rgba(255,255,255,.96),rgba(242,238,230,.86));border:1px solid rgba(16,32,29,.10);box-shadow:0 20px 60px rgba(16,32,29,.07);transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}
-.focus-grid:not(.aesthetic-photo-grid) .focus-card:hover{transform:translateY(-5px);box-shadow:0 30px 80px rgba(16,32,29,.12);border-color:rgba(184,154,94,.42)}
+.focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card{background:linear-gradient(135deg,rgba(255,255,255,.96),rgba(242,238,230,.86));border:1px solid rgba(16,32,29,.10);box-shadow:0 20px 60px rgba(16,32,29,.07);transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease}
+.focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card:hover{transform:translateY(-5px);box-shadow:0 30px 80px rgba(16,32,29,.12);border-color:rgba(184,154,94,.42)}
 .training-showcase{display:grid;grid-template-columns:minmax(0,.88fr) minmax(360px,1fr);gap:34px;align-items:end;margin-top:30px}
 .training-copy{align-self:center}
 .training-image-strip{display:grid;grid-template-columns:1fr .82fr;grid-template-rows:150px 150px;gap:14px;perspective:1000px}
@@ -172,10 +172,10 @@
 .media-visual-card:hover{transform:translateY(-7px);box-shadow:0 34px 90px rgba(16,32,29,.14)}
 @supports (animation-timeline: view()){
   @media(min-width:901px){
-    .about-image-card,.focus-card,.media-visual-card,.training-image-strip div,.blog-card,.compliance{animation:nimas-flip-in both cubic-bezier(.22,1,.36,1);animation-timeline:view();animation-range:entry 0% cover 34%;transform-origin:center 62%;transform-style:preserve-3d;backface-visibility:hidden;will-change:opacity,transform,filter}
+    .about-image-card,.focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card,.media-visual-card,.training-image-strip div,.blog-card,.compliance{animation:nimas-flip-in both cubic-bezier(.22,1,.36,1);animation-timeline:view();animation-range:entry 0% cover 34%;transform-origin:center 62%;transform-style:preserve-3d;backface-visibility:hidden;will-change:opacity,transform,filter}
     .aesthetic-photo-card,.media-visual-card,.training-image-strip div{animation-name:nimas-picture-flip;perspective:1000px}
-    .focus-card:nth-child(2n),.media-visual-card:nth-child(2n),.training-image-strip div:nth-child(2n){animation-range:entry 6% cover 40%}
-    .focus-card:nth-child(3n),.media-visual-card:nth-child(3n),.training-image-strip div:nth-child(3n){animation-range:entry 10% cover 44%}
+    .focus-grid:not(.reconstructive-photo-grid) .focus-card:nth-child(2n),.media-visual-card:nth-child(2n),.training-image-strip div:nth-child(2n){animation-range:entry 6% cover 40%}
+    .focus-grid:not(.reconstructive-photo-grid) .focus-card:nth-child(3n),.media-visual-card:nth-child(3n),.training-image-strip div:nth-child(3n){animation-range:entry 10% cover 44%}
     @keyframes nimas-flip-in{0%{opacity:.10;transform:perspective(900px) translateY(36px) rotateX(-54deg) rotateY(-8deg) scale(.94);filter:blur(10px)}48%{opacity:1;transform:perspective(900px) translateY(0) rotateX(4deg) rotateY(1deg) scale(1.012);filter:blur(0)}100%{opacity:1;transform:perspective(900px) translateY(0) rotateX(0) rotateY(0) scale(1);filter:blur(0)}}
     @keyframes nimas-picture-flip{0%{opacity:.08;transform:perspective(850px) translateY(44px) rotateX(-72deg) rotateY(-16deg) scale(.90);filter:blur(12px)}44%{opacity:.96;transform:perspective(850px) translateY(2px) rotateX(7deg) rotateY(2deg) scale(1.018);filter:blur(.5px)}100%{opacity:1;transform:perspective(850px) translateY(0) rotateX(0) rotateY(0) scale(1);filter:blur(0)}}
   }
@@ -329,7 +329,7 @@
   }
   .about-image-card,
   .aesthetic-photo-card,
-  .focus-grid:not(.aesthetic-photo-grid) .focus-card,
+  .focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card,
   .media-visual-card,
   .training-image-strip div,
   .blog-card,
@@ -340,7 +340,7 @@
   }
   @media(max-width:900px){
     .about-image-card,
-    .focus-grid:not(.aesthetic-photo-grid) .focus-card,
+    .focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card,
     .media-visual-card,
     .training-image-strip div,
     .blog-card,
@@ -350,11 +350,11 @@
       animation-range:entry 4% cover 36%;
       transform-origin:center 68%;
     }
-    .focus-grid:not(.aesthetic-photo-grid) .focus-card:nth-child(2n),
+    .focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card:nth-child(2n),
     .media-visual-card:nth-child(2n),
     .training-image-strip div:nth-child(2n),
     .blog-card:nth-child(2n){animation-range:entry 8% cover 40%}
-    .focus-grid:not(.aesthetic-photo-grid) .focus-card:nth-child(3n),
+    .focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card:nth-child(3n),
     .media-visual-card:nth-child(3n),
     .training-image-strip div:nth-child(3n),
     .blog-card:nth-child(3n){animation-range:entry 12% cover 44%}
@@ -411,7 +411,7 @@
   }
   .segmented-section .about-image-card,
   .segmented-section .aesthetic-photo-card,
-  .segmented-section .focus-grid:not(.aesthetic-photo-grid) .focus-card,
+  .segmented-section .focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card,
   .segmented-section .media-visual-card,
   .segmented-section .training-image-strip div,
   .segmented-section .blog-card,
@@ -459,7 +459,7 @@
       animation-range:entry 0% exit 100%;
     }
     .segmented-section .aesthetic-photo-card,
-    .segmented-section .focus-grid:not(.aesthetic-photo-grid) .focus-card,
+    .segmented-section .focus-grid:not(.aesthetic-photo-grid):not(.reconstructive-photo-grid) .focus-card,
     .segmented-section .media-visual-card,
     .segmented-section .training-image-strip div{
       animation-range:entry 0% cover 58%;
