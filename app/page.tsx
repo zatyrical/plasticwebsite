@@ -26,40 +26,92 @@ const reconstruction = [
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Physician',
-  '@id': 'https://www.drjeremysun.com/#physician',
-  name: 'Dr Jeremy Sun',
-  url: 'https://www.drjeremysun.com',
-  image: 'https://www.drjeremysun.com/images/dr-jeremy-sun-hero.jpg',
-  jobTitle: 'Senior Consultant Plastic Surgeon',
-  medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery'],
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Singapore',
-    addressCountry: 'SG'
-  },
-  areaServed: {
-    '@type': 'Country',
-    name: 'Singapore'
-  },
-  knowsAbout: [
-    'Aesthetic surgery',
-    'Reconstructive microsurgery',
-    'Scar reconstruction',
-    'Lymphedema surgery',
-    'Lymphatic surgery',
-    'Body contouring',
-    'Breast surgery',
-    'Rhinoplasty',
-    'Eyelid surgery',
-    'Face and neck lift',
-    'Lasers and injectables',
-    'Fat grafting',
-    'Thread lifting'
-  ],
-  affiliation: [
-    { '@type': 'Organization', name: 'Changi General Hospital' },
-    { '@type': 'CollegeOrUniversity', name: 'Duke-NUS Medical School' }
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://www.drjeremysun.com/#website',
+      name: 'Dr Jeremy Sun Plastic Surgery',
+      url: 'https://www.drjeremysun.com',
+      inLanguage: 'en-SG',
+      description: 'Patient education by Dr Jeremy Sun, a plastic, reconstructive and aesthetic surgeon in Singapore.',
+      publisher: { '@id': 'https://www.drjeremysun.com/#physician' },
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: 'https://www.drjeremysun.com/?s={search_term_string}',
+        'query-input': 'required name=search_term_string'
+      }
+    },
+    {
+      '@type': 'MedicalWebPage',
+      '@id': 'https://www.drjeremysun.com/#webpage',
+      url: 'https://www.drjeremysun.com',
+      name: 'Dr Jeremy Sun | Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
+      headline: 'Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
+      description: 'Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, reconstructive microsurgery and lymphedema surgery.',
+      inLanguage: 'en-SG',
+      isPartOf: { '@id': 'https://www.drjeremysun.com/#website' },
+      about: [
+        'Plastic surgery in Singapore',
+        'Aesthetic surgery',
+        'Reconstructive microsurgery',
+        'Lymphedema surgery',
+        'Asian rhinoplasty',
+        'Asian eyelid surgery',
+        'Body contouring',
+        'Breast surgery'
+      ],
+      reviewedBy: { '@id': 'https://www.drjeremysun.com/#physician' },
+      author: { '@id': 'https://www.drjeremysun.com/#physician' }
+    },
+    {
+      '@type': 'Physician',
+      '@id': 'https://www.drjeremysun.com/#physician',
+      name: 'Dr Jeremy Sun',
+      alternateName: ['Dr Sun Mingfa Jeremy', 'Sun Mingfa Jeremy'],
+      url: 'https://www.drjeremysun.com',
+      image: 'https://www.drjeremysun.com/images/dr-jeremy-sun-hero.jpg',
+      jobTitle: 'Senior Consultant Plastic Surgeon',
+      medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery', 'CosmeticSurgery'],
+      sameAs: [
+        'https://www.cgh.com.sg/profile/Sun-Mingfa-Jeremy',
+        'https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy',
+        'https://lymphedasia.com/dr-jeremy-sun/',
+        'https://lymphedasia.com/dr-jeremy-sun-mingfa/'
+      ],
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Singapore',
+        addressCountry: 'SG'
+      },
+      areaServed: {
+        '@type': 'Country',
+        name: 'Singapore'
+      },
+      knowsAbout: [
+        'Aesthetic surgery',
+        'Reconstructive microsurgery',
+        'Scar reconstruction',
+        'Lymphedema surgery',
+        'Lymphatic surgery',
+        'Lymphovenous bypass',
+        'Body contouring',
+        'Liposuction',
+        'Breast surgery',
+        'Breast reconstruction',
+        'Rhinoplasty',
+        'Asian rhinoplasty',
+        'Eyelid surgery',
+        'Asian blepharoplasty',
+        'Face and neck lift',
+        'Lasers and injectables',
+        'Fat grafting',
+        'Thread lifting'
+      ],
+      affiliation: [
+        { '@type': 'Organization', name: 'Changi General Hospital', url: 'https://www.cgh.com.sg' },
+        { '@type': 'CollegeOrUniversity', name: 'Duke-NUS Medical School', url: 'https://www.duke-nus.edu.sg' }
+      ]
+    }
   ]
 };
 
