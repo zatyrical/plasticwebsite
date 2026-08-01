@@ -79,13 +79,18 @@ export default function Home() {
               <a href="#about" className="btn btn-ghost">About Dr Sun</a>
             </div>
           </div>
-          <div className="hero-card">
-            <div className="portrait-wrap">
+          <div className="hero-card hero-visual-stage">
+            <div className="portrait-wrap hero-main-portrait">
               <Image src="/images/dr-jeremy-sun-hero.jpg" alt="Portrait of Dr Jeremy Sun, plastic surgeon in Singapore" width={896} height={1280} priority />
               <div className="credential-strip">
                 <div className="metric"><strong>MOH specialist</strong><span>Plastic, reconstructive and aesthetic surgery</span></div>
                 <div className="metric"><strong>Aesthetic surgery fellowship</strong><span>American Society for Aesthetic Plastic Surgery travelling fellowship</span></div>
               </div>
+            </div>
+            <div className="hero-image-stack" aria-hidden="true">
+              <div className="stack-tile stack-tile-a"><Image src="/images/aesthetic-ai/lasers-injectables.jpg" alt="" width={420} height={420} /></div>
+              <div className="stack-tile stack-tile-b"><Image src="/images/media/cna-lymphedema-interview-screenshot.jpg" alt="" width={1280} height={500} /></div>
+              <div className="stack-tile stack-tile-c"><Image src="/images/dr-jeremy-sun-surgery.jpg" alt="" width={1200} height={1500} /></div>
             </div>
           </div>
         </div>
@@ -137,17 +142,26 @@ export default function Home() {
           <div className="eyebrow">Training & fellowships</div>
           <h2>Extensive international plastic surgery training.</h2>
           <p className="section-intro">Dr Sun’s plastic surgery training includes Singapore specialist training and focused international fellowship and mentorship exposure across Tokyo, South Korea, Japan, the United States, Italy, Türkiye and Mexico.</p>
-          <div className="feature-points">
-            <span>Lymphatic surgery</span>
-            <span>Aesthetic surgery</span>
-            <span>Asian rhinoplasty</span>
-            <span>Eyelid surgery</span>
-            <span>Body contouring</span>
-            <span>Breast surgery</span>
-            <span>Face and neck lift</span>
-          </div>
-          <div className="hero-actions">
-            <a href="/training-and-fellowships" className="btn btn-primary">View training details and photos</a>
+          <div className="training-showcase">
+            <div className="training-copy">
+              <div className="feature-points">
+                <span>Lymphatic surgery</span>
+                <span>Aesthetic surgery</span>
+                <span>Asian rhinoplasty</span>
+                <span>Eyelid surgery</span>
+                <span>Body contouring</span>
+                <span>Breast surgery</span>
+                <span>Face and neck lift</span>
+              </div>
+              <div className="hero-actions">
+                <a href="/training-and-fellowships" className="btn btn-primary">View training details and photos</a>
+              </div>
+            </div>
+            <div className="training-image-strip" aria-hidden="true">
+              <div><Image src="/images/mentors/takumi-yamamoto-lymphatic-group.jpg" alt="" width={900} height={700} /></div>
+              <div><Image src="/images/mentors/david-sieber.jpg" alt="" width={900} height={700} /></div>
+              <div><Image src="/images/mentors/moon-seop-choi.jpg" alt="" width={900} height={700} /></div>
+            </div>
           </div>
         </div>
       </section>
