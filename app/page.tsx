@@ -14,14 +14,14 @@ const aesthetic = [
 ];
 
 const reconstruction = [
-  { title: 'Breast reconstruction', href: '/breast-reconstruction-singapore', image: '/images/reconstructive-tiles/breast-reconstruction.svg', alt: 'Abstract clinical image tile for breast reconstruction surgery' },
-  { title: 'Lymphedema surgery', href: '/lymphedema-surgery-singapore', image: '/images/reconstructive-tiles/lymphedema-surgery.svg', alt: 'Abstract clinical image tile for lymphedema surgery' },
-  { title: 'Lymphovenous bypass / LVA', href: '/lymphovenous-bypass-lva-surgery-singapore', image: '/images/reconstructive-tiles/lva-surgery.svg', alt: 'Abstract clinical image tile for lymphovenous bypass and LVA surgery' },
-  { title: 'Lower limb reconstruction', href: '', image: '/images/reconstructive-tiles/lower-limb-reconstruction.svg', alt: 'Abstract clinical image tile for lower limb reconstruction' },
-  { title: 'Head and neck reconstruction', href: '', image: '/images/reconstructive-tiles/head-neck-reconstruction.svg', alt: 'Abstract clinical image tile for head and neck reconstruction' },
-  { title: 'Trauma and lacerations', href: '', image: '/images/reconstructive-tiles/trauma-lacerations.svg', alt: 'Abstract clinical image tile for trauma and laceration reconstruction' },
-  { title: 'Microsurgical reconstruction', href: '', image: '/images/reconstructive-tiles/microsurgical-reconstruction.svg', alt: 'Abstract clinical image tile for microsurgical reconstruction' },
-  { title: 'Gender-affirming chest reconstruction', href: '', image: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.svg', alt: 'Abstract clinical image tile for gender-affirming chest reconstruction' }
+  { title: 'Breast reconstruction', href: '/breast-reconstruction-singapore', image: '/images/reconstructive-tiles/breast-reconstruction.jpg', alt: 'Abstract clinical image tile for breast reconstruction surgery' },
+  { title: 'Lymphedema surgery', href: '/lymphedema-surgery-singapore', image: '/images/reconstructive-tiles/lymphedema-surgery.jpg', alt: 'Abstract clinical image tile for lymphedema surgery' },
+  { title: 'Lymphovenous bypass / LVA', href: '/lymphovenous-bypass-lva-surgery-singapore', image: '/images/reconstructive-tiles/lva-surgery.jpg', alt: 'Abstract clinical image tile for lymphovenous bypass and LVA surgery' },
+  { title: 'Lower limb reconstruction', href: '', image: '/images/reconstructive-tiles/lower-limb-reconstruction.jpg', alt: 'Abstract clinical image tile for lower limb reconstruction' },
+  { title: 'Head and neck reconstruction', href: '', image: '/images/reconstructive-tiles/head-neck-reconstruction.jpg', alt: 'Abstract clinical image tile for head and neck reconstruction' },
+  { title: 'Trauma and lacerations', href: '', image: '/images/reconstructive-tiles/trauma-lacerations.jpg', alt: 'Abstract clinical image tile for trauma and laceration reconstruction' },
+  { title: 'Microsurgical reconstruction', href: '', image: '/images/reconstructive-tiles/microsurgical-reconstruction.jpg', alt: 'Abstract clinical image tile for microsurgical reconstruction' },
+  { title: 'Gender-affirming chest reconstruction', href: '', image: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.jpg', alt: 'Abstract clinical image tile for gender-affirming chest reconstruction' }
 ];
 
 const jsonLd = {
