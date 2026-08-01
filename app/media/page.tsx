@@ -32,7 +32,7 @@ const featuredMedia: MediaFeature[] = [
     source: 'CNA interview',
     title: 'Treating swelling of limbs',
     description: 'CNA interview segment on lymphedema screening and treatment, including CGH screening work for patients with limb swelling.',
-    href: 'https://www.channelnewsasia.com/watch/early-screening-able-provide-relief-lymphoedema-patients-4772006',
+    href: 'https://youtu.be/l0aKzwLbhKM?is=6yeOKGDbJLhfljmH',
     label: 'Watch feature',
     image: '/images/media/cna-lymphedema-interview-screenshot.jpg',
     imageAlt: 'CNA interview screenshot showing Dr Jeremy Sun discussing treatment for swelling of limbs',
