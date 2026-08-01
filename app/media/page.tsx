@@ -67,6 +67,17 @@ const educationFeatures: MediaFeature[] = [
     portrait: true
   },
   {
+    source: 'The Straits Times Forum',
+    title: 'All medical procedures carry risks, including injectable treatments',
+    description: 'Co-signed professional commentary on patient safety, aesthetic treatments and balanced decision-making in medical procedures.',
+    href: 'https://www.straitstimes.com/opinion/forum/forum-all-medical-procedures-carry-risks-including-injectable-treatments',
+    label: 'Read forum letter',
+    image: '/images/media/straits-times-forum-injectables-risk.webp',
+    imageAlt: 'The Straits Times Forum article image for commentary on injectable treatment risks',
+    imageWidth: 1140,
+    imageHeight: 760
+  },
+  {
     source: 'LymphedAsia',
     title: 'Lymphedema education resource',
     description: 'Patient-facing educational resource on lymphedema, lymphatic surgery and specialist assessment.',
@@ -130,7 +141,7 @@ export default function MediaPage() {
             ))}
           </div>
 
-          <h2>Public education and professional platforms</h2>
+          <h2>Professional commentary and education platforms</h2>
           <div className="media-list">
             {educationFeatures.map((item) => (
               <a className="card linked-card media-feature-card media-visual-card" href={item.href} key={item.title} target="_blank" rel="noreferrer">
