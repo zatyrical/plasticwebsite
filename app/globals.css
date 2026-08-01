@@ -93,9 +93,10 @@
     .aesthetic-photo-card:nth-child(2n){animation-range:entry 9% cover 38%}
     .aesthetic-photo-card:nth-child(3n){animation-range:entry 13% cover 42%}
     @keyframes photo-card-reveal{
-      0%{opacity:.12;transform:translateY(36px) rotateX(16deg) rotateY(-22deg) scale(.92);filter:blur(10px)}
-      58%{opacity:1;transform:translateY(0) rotateX(0) rotateY(0) scale(1.012);filter:blur(0)}
-      100%{opacity:1;transform:translateY(0) rotateX(0) rotateY(0) scale(1);filter:blur(0)}
+      0%{opacity:.08;transform:perspective(800px) translateY(42px) rotateX(-68deg) rotateY(-18deg) scale(.88);filter:blur(12px);box-shadow:0 6px 22px rgba(0,0,0,.08)}
+      38%{opacity:.88;transform:perspective(800px) translateY(6px) rotateX(6deg) rotateY(2deg) scale(1.018);filter:blur(1px)}
+      72%{opacity:1;transform:perspective(800px) translateY(0) rotateX(0) rotateY(0) scale(1.006);filter:blur(0)}
+      100%{opacity:1;transform:perspective(800px) translateY(0) rotateX(0) rotateY(0) scale(1);filter:blur(0);box-shadow:0 22px 54px rgba(0,0,0,.22),0 0 0 1px rgba(255,255,255,.10)}
     }
     @keyframes atelier-reveal{
       0%{opacity:.32;transform:translateY(18px) scale(.985);filter:blur(8px)}
@@ -163,10 +164,12 @@
 .media-visual-card:hover{transform:translateY(-7px);box-shadow:0 34px 90px rgba(16,32,29,.14)}
 @supports (animation-timeline: view()){
   @media(min-width:901px){
-    .about-image-card,.focus-card,.media-visual-card,.training-image-strip div,.blog-card,.compliance{animation:nimas-rise both cubic-bezier(.22,1,.36,1);animation-timeline:view();animation-range:entry 0% cover 34%;will-change:opacity,transform,filter}
+    .about-image-card,.focus-card,.media-visual-card,.training-image-strip div,.blog-card,.compliance{animation:nimas-flip-in both cubic-bezier(.22,1,.36,1);animation-timeline:view();animation-range:entry 0% cover 34%;transform-origin:center 62%;transform-style:preserve-3d;backface-visibility:hidden;will-change:opacity,transform,filter}
+    .aesthetic-photo-card,.media-visual-card,.training-image-strip div{animation-name:nimas-picture-flip;perspective:1000px}
     .focus-card:nth-child(2n),.media-visual-card:nth-child(2n),.training-image-strip div:nth-child(2n){animation-range:entry 6% cover 40%}
-    .focus-card:nth-child(3n),.media-visual-card:nth-child(3n){animation-range:entry 10% cover 44%}
-    @keyframes nimas-rise{0%{opacity:.08;transform:translateY(42px) scale(.96);filter:blur(10px)}70%{opacity:1;transform:translateY(0) scale(1.01);filter:blur(0)}100%{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}}
+    .focus-card:nth-child(3n),.media-visual-card:nth-child(3n),.training-image-strip div:nth-child(3n){animation-range:entry 10% cover 44%}
+    @keyframes nimas-flip-in{0%{opacity:.10;transform:perspective(900px) translateY(36px) rotateX(-54deg) rotateY(-8deg) scale(.94);filter:blur(10px)}48%{opacity:1;transform:perspective(900px) translateY(0) rotateX(4deg) rotateY(1deg) scale(1.012);filter:blur(0)}100%{opacity:1;transform:perspective(900px) translateY(0) rotateX(0) rotateY(0) scale(1);filter:blur(0)}}
+    @keyframes nimas-picture-flip{0%{opacity:.08;transform:perspective(850px) translateY(44px) rotateX(-72deg) rotateY(-16deg) scale(.90);filter:blur(12px)}44%{opacity:.96;transform:perspective(850px) translateY(2px) rotateX(7deg) rotateY(2deg) scale(1.018);filter:blur(.5px)}100%{opacity:1;transform:perspective(850px) translateY(0) rotateX(0) rotateY(0) scale(1);filter:blur(0)}}
   }
 }
 @media(max-width:900px){
