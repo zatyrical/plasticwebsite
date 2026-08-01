@@ -14,14 +14,14 @@ const aesthetic = [
 ];
 
 const reconstruction = [
-  { title: 'Breast reconstruction', href: '/breast-reconstruction-singapore' },
-  { title: 'Lymphedema surgery', href: '/lymphedema-surgery-singapore' },
-  { title: 'Lymphovenous bypass / LVA', href: '/lymphovenous-bypass-lva-surgery-singapore' },
-  { title: 'Lower limb reconstruction', href: '' },
-  { title: 'Head and neck reconstruction', href: '' },
-  { title: 'Trauma and lacerations', href: '' },
-  { title: 'Microsurgical reconstruction', href: '' },
-  { title: 'Gender-affirming chest reconstruction', href: '' }
+  { title: 'Breast reconstruction', href: '/breast-reconstruction-singapore', image: '/images/reconstructive-tiles/breast-reconstruction.svg', alt: 'Abstract clinical image tile for breast reconstruction surgery' },
+  { title: 'Lymphedema surgery', href: '/lymphedema-surgery-singapore', image: '/images/reconstructive-tiles/lymphedema-surgery.svg', alt: 'Abstract clinical image tile for lymphedema surgery' },
+  { title: 'Lymphovenous bypass / LVA', href: '/lymphovenous-bypass-lva-surgery-singapore', image: '/images/reconstructive-tiles/lva-surgery.svg', alt: 'Abstract clinical image tile for lymphovenous bypass and LVA surgery' },
+  { title: 'Lower limb reconstruction', href: '', image: '/images/reconstructive-tiles/lower-limb-reconstruction.svg', alt: 'Abstract clinical image tile for lower limb reconstruction' },
+  { title: 'Head and neck reconstruction', href: '', image: '/images/reconstructive-tiles/head-neck-reconstruction.svg', alt: 'Abstract clinical image tile for head and neck reconstruction' },
+  { title: 'Trauma and lacerations', href: '', image: '/images/reconstructive-tiles/trauma-lacerations.svg', alt: 'Abstract clinical image tile for trauma and laceration reconstruction' },
+  { title: 'Microsurgical reconstruction', href: '', image: '/images/reconstructive-tiles/microsurgical-reconstruction.svg', alt: 'Abstract clinical image tile for microsurgical reconstruction' },
+  { title: 'Gender-affirming chest reconstruction', href: '', image: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.svg', alt: 'Abstract clinical image tile for gender-affirming chest reconstruction' }
 ];
 
 const jsonLd = {
@@ -134,7 +134,10 @@ export default function Home() {
           <div className="eyebrow">Reconstructive practice</div>
           <h2>Reconstructive surgery</h2>
           <p className="section-intro">Breast, lymphatic, microsurgical and trauma reconstruction.</p>
-          <div className="grid-2 focus-grid">{reconstruction.map((x) => x.href ? <a className="card linked-card focus-card" href={x.href} key={x.title}><h3>{x.title}</h3><span>View page</span></a> : <div className="card focus-card" key={x.title}><h3>{x.title}</h3></div>)}</div>
+          <div className="grid-3 focus-grid reconstructive-photo-grid">{reconstruction.map((x) => {
+            const content = <><Image src={x.image} alt={x.alt} width={720} height={720} /><div className="aesthetic-photo-overlay reconstructive-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
+            return x.href ? <a className="card linked-card focus-card aesthetic-photo-card reconstructive-photo-card" href={x.href} key={x.title}>{content}</a> : <div className="card focus-card aesthetic-photo-card reconstructive-photo-card" key={x.title}>{content}</div>;
+          })}</div>
         </div>
       </section>
 
