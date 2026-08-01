@@ -96,7 +96,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="section about-section mobile-screen">
+      <section id="about" className="section about-section segmented-section segment-about mobile-screen">
         <div className="container about-grid">
           <div className="about-image-card">
             <Image src="/images/dr-jeremy-sun-surgery.jpg" alt="Dr Jeremy Sun operating in a surgical theatre" width={1200} height={1500} />
@@ -117,7 +117,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="aesthetic-surgery" className="section dark mobile-screen">
+      <section id="aesthetic-surgery" className="section dark segmented-section segment-aesthetic mobile-screen">
         <div className="container">
           <div className="eyebrow">Clinical focus areas</div>
           <h2>Aesthetic surgery</h2>
@@ -129,15 +129,16 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="reconstructive-surgery" className="section mobile-screen mobile-transition">
+      <section id="reconstructive-surgery" className="section segmented-section segment-reconstructive mobile-screen mobile-transition">
         <div className="container">
+          <div className="eyebrow">Reconstructive practice</div>
           <h2>Reconstructive surgery</h2>
           <p className="section-intro">Breast, lymphatic, microsurgical and trauma reconstruction.</p>
           <div className="grid-2 focus-grid">{reconstruction.map((x) => x.href ? <a className="card linked-card focus-card" href={x.href} key={x.title}><h3>{x.title}</h3><span>View page</span></a> : <div className="card focus-card" key={x.title}><h3>{x.title}</h3></div>)}</div>
         </div>
       </section>
 
-      <section id="training" className="section mobile-screen">
+      <section id="training" className="section segmented-section segment-training mobile-screen">
         <div className="container">
           <div className="eyebrow">Training & fellowships</div>
           <h2>Extensive international plastic surgery training.</h2>
@@ -166,7 +167,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="media" className="section media-home-section mobile-transition">
+      <section id="media" className="section segmented-section segment-media media-home-section mobile-transition">
         <div className="container">
           <div className="eyebrow">Media & public education</div>
           <h2>Selected media and education features.</h2>
@@ -179,8 +180,9 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="articles" className="section mobile-transition">
+      <section id="articles" className="section segmented-section segment-articles mobile-transition">
         <div className="container">
+          <div className="eyebrow">Patient education</div>
           <h2>Educational articles</h2>
           <p className="section-intro">Clear, patient-focused articles on procedure planning, recovery considerations, risks and treatment options in plastic, reconstructive and lymphatic surgery.</p>
           <div className="grid-3">
@@ -192,9 +194,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="contact" className="section mobile-transition">
+      <section id="contact" className="section segmented-section segment-contact mobile-transition">
         <div className="container grid-2">
           <div>
+            <div className="eyebrow">Appointments & referrals</div>
             <h2>Contact</h2>
             <p className="section-intro">For appointments, clinic enquiries and referral information, please submit the form below. The clinic email address is not displayed publicly to reduce automated spam.</p>
             <ContactForm />
