@@ -2,12 +2,57 @@ import Link from 'next/link';
 import Navigation from './Navigation';
 import ContactForm from './ContactForm';
 import type { ProcedureArticle } from './procedureArticles';
+import { procedureArticleList } from './procedureArticles';
 
 type Props = {
   article: ProcedureArticle;
 };
 
+const baseUrl = 'https://www.drjeremysun.com';
+
+const establishedArticles = [
+  {
+    title: 'Asian Eyelid Surgery in Singapore',
+    href: '/asian-eyelid-surgery-singapore',
+    category: 'Aesthetic surgery',
+    group: 'aesthetic'
+  },
+  {
+    title: 'Breast Reconstruction in Singapore',
+    href: '/breast-reconstruction-singapore',
+    category: 'Breast reconstruction',
+    group: 'reconstructive'
+  },
+  {
+    title: 'Lymphedema Surgery in Singapore',
+    href: '/lymphedema-surgery-singapore',
+    category: 'Lymphedema surgery',
+    group: 'reconstructive'
+  },
+  {
+    title: 'Lymphovenous Bypass / LVA Surgery in Singapore',
+    href: '/lymphovenous-bypass-lva-surgery-singapore',
+    category: 'Lymphatic surgery',
+    group: 'reconstructive'
+  }
+];
+
 export default function ProcedureArticlePage({ article }: Props) {
+  const articleUrl = `${baseUrl}/${article.slug}`;
+  const group = article.backHref.includes('aesthetic') ? 'aesthetic' : 'reconstructive';
+  const generatedRelated = procedureArticleList
+    .filter((item) => item.slug !== article.slug)
+    .filter((item) => (item.backHref.includes('aesthetic') ? 'aesthetic' : 'reconstructive') === group)
+    .map((item) => ({
+      title: item.title,
+      href: `/${item.slug}`,
+      category: item.eyebrow,
+      group
+    }));
+  const relatedArticles = [...establishedArticles.filter((item) => item.group === group), ...generatedRelated]
+    .filter((item) => item.href !== `/${article.slug}`)
+    .slice(0, 4);
+
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -21,8 +66,69 @@ export default function ProcedureArticlePage({ article }: Props) {
     }))
   };
 
+  const medicalPageJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: baseUrl
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: group === 'aesthetic' ? 'Aesthetic Surgery' : 'Reconstructive Surgery',
+            item: `${baseUrl}/${article.backHref.replace('/#', '#')}`
+          },
+          {
+            '@type': 'ListItem',
+            position: 3,
+            name: article.title,
+            item: articleUrl
+          }
+        ]
+      },
+      {
+        '@type': 'Physician',
+        '@id': `${baseUrl}/#dr-jeremy-sun`,
+        name: 'Dr Jeremy Sun',
+        url: baseUrl,
+        image: `${baseUrl}/images/dr-jeremy-sun-hero.jpg`,
+        medicalSpecialty: ['PlasticSurgery', 'Surgical'],
+        address: {
+          '@type': 'PostalAddress',
+          addressCountry: 'SG',
+          addressLocality: 'Singapore'
+        }
+      },
+      {
+        '@type': 'MedicalWebPage',
+        '@id': `${articleUrl}#webpage`,
+        url: articleUrl,
+        name: article.title,
+        headline: article.title,
+        description: article.description,
+        inLanguage: 'en-SG',
+        isPartOf: {
+          '@type': 'WebSite',
+          name: 'Dr Jeremy Sun Plastic Surgery',
+          url: baseUrl
+        },
+        about: article.keywords,
+        reviewedBy: { '@id': `${baseUrl}/#dr-jeremy-sun` },
+        author: { '@id': `${baseUrl}/#dr-jeremy-sun` },
+        publisher: { '@id': `${baseUrl}/#dr-jeremy-sun` }
+      }
+    ]
+  };
+
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalPageJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Navigation />
 
@@ -30,6 +136,11 @@ export default function ProcedureArticlePage({ article }: Props) {
         <section className="article-hero">
           <div className="container article-hero-grid">
             <div>
+              <nav className="breadcrumb" aria-label="Breadcrumb">
+                <Link href="/">Home</Link>
+                <span>/</span>
+                <Link href={article.backHref}>{group === 'aesthetic' ? 'Aesthetic surgery' : 'Reconstructive surgery'}</Link>
+              </nav>
               <div className="eyebrow">{article.eyebrow}</div>
               <h1>{article.title}</h1>
               <p className="lead">{article.lead}</p>
@@ -45,6 +156,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <li key={section.id}><a href={`#${section.id}`}>{section.heading}</a></li>
                 ))}
                 <li><a href="#faq">FAQs</a></li>
+                <li><a href="#related">Related pages</a></li>
               </ul>
             </aside>
           </div>
@@ -72,6 +184,17 @@ export default function ProcedureArticlePage({ article }: Props) {
                 <p>{faq.answer}</p>
               </section>
             ))}
+
+            <h2 id="related">Related pages</h2>
+            <div className="related-grid">
+              {relatedArticles.map((item) => (
+                <Link href={item.href} className="related-card" key={item.href}>
+                  <small>{item.category}</small>
+                  <strong>{item.title}</strong>
+                  <span>Read page</span>
+                </Link>
+              ))}
+            </div>
 
             <h2 id="enquire">Enquire about assessment</h2>
             <p>

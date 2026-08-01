@@ -90,7 +90,7 @@ export default function AsianEyelidSurgeryPage() {
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
-                <Link href="/#procedures" className="btn btn-ghost">Back to procedures</Link>
+                <Link href="/#aesthetic-surgery" className="btn btn-ghost">Back to aesthetic surgery</Link>
               </div>
             </div>
             <aside className="article-summary-card">
@@ -285,6 +285,13 @@ export default function AsianEyelidSurgeryPage() {
             <p>
               Revision surgery may improve selected concerns, but it is usually more complex than first-time surgery. Scar tissue, previous tissue removal and eyelid function affect what can be safely changed. A consultation is needed to assess realistic options.
             </p>
+            <h2 id="related">Related aesthetic surgery pages</h2>
+            <div className="related-grid">
+              <Link href="/asian-rhinoplasty-singapore" className="related-card"><small>Asian rhinoplasty</small><strong>Asian Rhinoplasty in Singapore</strong><span>Read page</span></Link>
+              <Link href="/face-neck-lift-singapore" className="related-card"><small>Face and neck lift</small><strong>Face and Neck Lift in Singapore</strong><span>Read page</span></Link>
+              <Link href="/lasers-injectables-singapore" className="related-card"><small>Lasers and injectables</small><strong>Lasers and Injectables in Singapore</strong><span>Read page</span></Link>
+              <Link href="/fat-grafting-singapore" className="related-card"><small>Fat grafting</small><strong>Fat Grafting in Singapore</strong><span>Read page</span></Link>
+            </div>
           </div>
         </section>
 

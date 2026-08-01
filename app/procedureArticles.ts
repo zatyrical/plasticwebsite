@@ -52,6 +52,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Consultation includes discussion of the patient’s goals, examination of the treatment areas, assessment of skin quality and review of medical history. The surgeon may discuss whether liposuction alone is reasonable or whether skin-tightening or excisional surgery is more appropriate.', 'Photographs may be taken for medical documentation and planning. Patients should be prepared to discuss medications, smoking, previous procedures, weight changes and any medical conditions that may affect safety or healing.']
       },
       {
+        id: 'singapore-planning',
+        heading: 'Body contouring consultation in Singapore',
+        paragraphs: ['Patients searching for liposuction in Singapore often compare surgical and non-surgical contouring options. A plastic surgery consultation should clarify whether the concern is excess fat, loose skin, muscle separation, cellulite, weight fluctuation or a combination of factors.', 'For some patients, liposuction may be part of a broader body contouring plan. For others, a non-surgical option, weight stabilisation, abdominoplasty or no procedure may be more appropriate. The discussion should include anaesthesia, recovery time, compression garments, scars, revision risk and realistic contour limits.']
+      },
+      {
         id: 'procedure',
         heading: 'How liposuction is performed',
         paragraphs: ['Liposuction is usually performed through small incisions. Fluid may be placed into the tissues before fat is removed with fine cannulas. The technique and anaesthesia depend on the number of areas treated, the expected volume, patient factors and surgical plan.', 'The goal is controlled contour change, not maximal fat removal. Over-aggressive treatment can increase risks and may lead to contour irregularity, skin laxity or prolonged swelling.']
@@ -100,6 +105,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Assessment includes breast measurements, skin and soft-tissue evaluation, nipple-areola position, chest wall shape, previous scars and discussion of pregnancy, breastfeeding, weight changes and screening history.', 'Patients may be advised to complete age-appropriate breast screening or specialist breast assessment before elective surgery where clinically indicated. This is especially important when there are breast symptoms, family history or imaging concerns.']
       },
       {
+        id: 'singapore-consultation',
+        heading: 'Breast aesthetic surgery consultation in Singapore',
+        paragraphs: ['A breast aesthetic consultation should be more detailed than choosing an implant size. Planning includes breast measurements, soft-tissue thickness, chest wall shape, nipple position, desired proportions, lifestyle, future pregnancy considerations and breast-screening history.', 'In Singapore, patients may also be balancing discretion, downtime, work commitments and family responsibilities. These practical factors should be discussed alongside surgical safety, scars, implant choices, revision possibilities and long-term follow-up.']
+      },
+      {
         id: 'implants',
         heading: 'Implants, fat grafting and trade-offs',
         paragraphs: ['Implants can increase breast volume and shape, but involve implant-specific considerations such as capsular contracture, implant visibility, rupture, malposition, infection and possible future revision surgery.', 'Fat grafting uses the patient’s own fat and may be useful in selected circumstances, but the amount of reliable volume increase is limited and some transferred fat may not persist. It may be more suitable for contour refinement than large-volume enlargement.']
@@ -140,6 +150,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         id: 'assessment',
         heading: 'Assessment for Asian rhinoplasty',
         paragraphs: ['Assessment includes facial proportions, nasal bridge height, tip support, nostril shape, septal deviation, airway symptoms, skin thickness and previous fillers or surgery.', 'Photographs and clinical examination help determine whether the concern is primarily bridge height, tip projection, nostril shape, asymmetry, breathing, revision issues or a combination of factors.']
+      },
+      {
+        id: 'singapore-asian-nose',
+        heading: 'Asian rhinoplasty planning in Singapore',
+        paragraphs: ['Patients considering rhinoplasty in Singapore often seek bridge refinement, tip projection, nostril balance or revision after fillers, implants or previous surgery. Asian rhinoplasty planning should consider the patient’s ethnic anatomy, skin thickness, cartilage strength, facial proportions and airway symptoms.', 'A structural plan may be preferred when the nose needs support rather than surface camouflage alone. However, the operation should still be proportionate: not every patient needs rib cartilage, major augmentation or an open approach.']
       },
       {
         id: 'structural',
@@ -185,6 +200,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     sections: [
       { id: 'suitability', heading: 'Who may be suitable?', paragraphs: ['Face and neck lift surgery may be considered when there is lower-face laxity, jowling, neck skin laxity, platysmal banding or loss of jawline definition. Suitability depends on anatomy, skin quality, medical fitness and expectations.'] },
       { id: 'assessment', heading: 'Consultation and facial analysis', paragraphs: ['Consultation includes assessment of the face, jawline, neck, skin quality, hairline, scars, facial asymmetry and previous treatments. Medical history, smoking status and medications are important for safety planning.', 'A careful plan distinguishes between skin laxity, deeper tissue descent, fat distribution, volume loss and skin-surface changes because these require different treatments.'] },
+      { id: 'singapore-options', heading: 'Face lift, neck lift and non-surgical options in Singapore', paragraphs: ['Patients often compare face and neck lift surgery with injectables, thread lifting, lasers or device-based skin tightening. These options are not interchangeable. Non-surgical treatments may help selected texture, volume or mild laxity concerns, while surgery is considered when tissue laxity and neck contour changes are more significant.', 'A consultation should define the main problem before choosing treatment. This helps avoid using repeated minor treatments for a concern that is fundamentally surgical, while also avoiding surgery when a smaller or non-surgical approach is more appropriate.'] },
       { id: 'procedure', heading: 'Surgical approach', paragraphs: ['A face and neck lift may involve incisions around the ear and hairline, lifting and repositioning of deeper tissues, neck contouring and skin redraping. The exact technique depends on anatomy and goals.', 'Adjuncts such as fat grafting, eyelid surgery or skin resurfacing may be discussed for selected patients, but combining procedures increases planning complexity and recovery considerations.'] },
       { id: 'recovery', heading: 'Recovery after face and neck lift', paragraphs: ['Bruising, swelling, tightness, numbness and scar maturation are expected after surgery. Patients usually need time away from strenuous activity and should follow wound-care instructions closely.', 'Final refinement takes time. Scars usually mature over months and may be positioned to reduce visibility, but they do not disappear completely.'] },
       { id: 'risks', heading: 'Risks and limitations', paragraphs: ['Risks include bleeding, haematoma, infection, wound healing problems, visible scars, altered sensation, hairline changes, asymmetry, facial nerve weakness, skin loss, prolonged swelling and need for revision surgery. Outcomes vary and continued ageing occurs.'] }
