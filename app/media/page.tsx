@@ -1,23 +1,57 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Navigation from '../Navigation';
 
-const featuredMedia = [
+type MediaFeature = {
+  source: string;
+  title: string;
+  description: string;
+  href: string;
+  label: string;
+  image?: string;
+  imageAlt?: string;
+  imageWidth?: number;
+  imageHeight?: number;
+  portrait?: boolean;
+};
+
+const featuredMedia: MediaFeature[] = [
+  {
+    source: 'CNA',
+    title: 'Plastic surgery trends in Singapore',
+    description: 'CNA feature on younger patients, cosmetic procedures and safety considerations in Singapore.',
+    href: 'https://www.channelnewsasia.com/singapore/plastic-surgery-beauty-enhancements-botched-jobs-younger-addiction-5295756',
+    label: 'Read feature',
+    image: '/images/media/cna-plastic-surgery-feature.jpg',
+    imageAlt: 'CNA feature image on plastic surgery trends',
+    imageWidth: 1200,
+    imageHeight: 676
+  },
   {
     source: 'The Straits Times',
-    title: 'New surgical procedure shown to improve symptoms of moderate Alzheimer’s disease',
+    title: 'New surgery to treat Alzheimer’s disease',
     description: 'Quoted as a clinical co-investigator on lymphatic bypass principles and the potential role of neck lymphatic-to-vein connections in brain waste-clearance research.',
     href: 'https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease',
-    label: 'Read feature'
+    label: 'Read feature',
+    image: '/images/media/straits-times-alzheimers-feature.webp',
+    imageAlt: 'The Straits Times feature image on lymphatic bypass research',
+    imageWidth: 1140,
+    imageHeight: 760
   }
 ];
 
-const educationFeatures = [
+const educationFeatures: MediaFeature[] = [
   {
-    source: 'SingHealth Duke-NUS Scientific Congress 2025',
-    title: 'Speaker profile',
+    source: 'Invited speaker',
+    title: 'SingHealth Duke-NUS Scientific Congress 2025',
     description: 'Professional speaker profile covering Dr Sun’s plastic, reconstructive, aesthetic and lymphatic surgery work.',
     href: 'https://www.singhealthdukenus.com.sg/conference/sdc2025/our-speakers/Jeremy-Sun',
-    label: 'View profile'
+    label: 'View profile',
+    image: '/images/media/singhealth-speaker-jeremy-sun.jpg',
+    imageAlt: 'Dr Jeremy Sun speaker profile photograph for SingHealth Duke-NUS Scientific Congress',
+    imageWidth: 295,
+    imageHeight: 354,
+    portrait: true
   },
   {
     source: 'LymphedAsia',
@@ -73,7 +107,8 @@ export default function MediaPage() {
           <h2>Featured media</h2>
           <div className="media-list">
             {featuredMedia.map((item) => (
-              <a className="card linked-card media-feature-card" href={item.href} key={item.title} target="_blank" rel="noreferrer">
+              <a className="card linked-card media-feature-card media-visual-card" href={item.href} key={item.title} target="_blank" rel="noreferrer">
+                {item.image && item.imageAlt && item.imageWidth && item.imageHeight ? <div className={`media-card-image ${item.portrait ? 'portrait-media-image' : ''}`}><Image src={item.image!} alt={item.imageAlt!} width={item.imageWidth!} height={item.imageHeight!} /></div> : null}
                 <small>{item.source}</small>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
@@ -85,7 +120,8 @@ export default function MediaPage() {
           <h2>Public education and professional platforms</h2>
           <div className="media-list">
             {educationFeatures.map((item) => (
-              <a className="card linked-card media-feature-card" href={item.href} key={item.title} target="_blank" rel="noreferrer">
+              <a className="card linked-card media-feature-card media-visual-card" href={item.href} key={item.title} target="_blank" rel="noreferrer">
+                {item.image && item.imageAlt && item.imageWidth && item.imageHeight ? <div className={`media-card-image ${item.portrait ? 'portrait-media-image' : ''}`}><Image src={item.image!} alt={item.imageAlt!} width={item.imageWidth!} height={item.imageHeight!} /></div> : null}
                 <small>{item.source}</small>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
