@@ -152,6 +152,19 @@ export default function Home() {
         </div>
       </section>
 
+      <section id="media" className="section media-home-section mobile-transition">
+        <div className="container">
+          <div className="eyebrow">Media & public education</div>
+          <h2>Selected media and education features.</h2>
+          <p className="section-intro">Dr Jeremy Sun has contributed to public education and expert commentary on plastic, reconstructive and lymphatic surgery topics through selected media features, interviews and professional platforms.</p>
+          <div className="grid-3 media-home-grid">
+            <a className="card linked-card media-card" href="https://www.straitstimes.com/singapore/health/new-surgical-procedure-shown-to-improve-symptoms-of-moderate-alzheimers-disease" target="_blank" rel="noreferrer"><small>The Straits Times</small><h3>Clinical commentary on lymphatic bypass research</h3><p>Quoted as a clinical co-investigator on lymphatic bypass principles and brain waste-clearance research.</p><span>Read feature</span></a>
+            <a className="card linked-card media-card" href="https://www.singhealthdukenus.com.sg/conference/sdc2025/our-speakers/Jeremy-Sun" target="_blank" rel="noreferrer"><small>SingHealth Duke-NUS Scientific Congress</small><h3>Professional speaker profile</h3><p>Speaker profile covering Dr Sun’s plastic, reconstructive, aesthetic and lymphatic surgery work.</p><span>View profile</span></a>
+            <a className="card linked-card media-card" href="/media"><small>Media & Education</small><h3>Full media and education page</h3><p>Selected media interviews, expert commentary, professional features and educational resources.</p><span>View media page</span></a>
+          </div>
+        </div>
+      </section>
+
       <section id="articles" className="section mobile-transition">
         <div className="container">
           <h2>Educational articles</h2>

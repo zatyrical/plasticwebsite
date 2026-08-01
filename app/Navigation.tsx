@@ -9,6 +9,7 @@ const navItems = [
   { href: '/#aesthetic-surgery', label: 'Aesthetic' },
   { href: '/#reconstructive-surgery', label: 'Reconstructive' },
   { href: '/training-and-fellowships', label: 'Training' },
+  { href: '/media', label: 'Media' },
   { href: '/publications', label: 'Publications' },
   { href: '/#articles', label: 'Articles' },
   { href: '/#contact', label: 'Contact' }
