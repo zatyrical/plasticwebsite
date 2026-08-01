@@ -41,6 +41,17 @@ const featuredMedia: MediaFeature[] = [
     wide: true
   },
   {
+    source: 'The Straits Times Forum',
+    title: 'All medical procedures carry risks, including injectable treatments',
+    description: 'Co-signed professional commentary on patient safety, aesthetic treatments and balanced decision-making in medical procedures.',
+    href: 'https://www.straitstimes.com/opinion/forum/forum-all-medical-procedures-carry-risks-including-injectable-treatments',
+    label: 'Read forum letter',
+    image: '/images/media/straits-times-forum-injectables-risk.webp',
+    imageAlt: 'The Straits Times Forum article image for commentary on injectable treatment risks',
+    imageWidth: 1140,
+    imageHeight: 760
+  },
+  {
     source: 'NHK documentary',
     title: 'Lymphedema surgeons in Japan',
     description: 'Featured in an NHK documentary segment on lymphedema surgeons and lymphatic surgery in Japan.',
@@ -65,17 +76,6 @@ const educationFeatures: MediaFeature[] = [
     imageWidth: 295,
     imageHeight: 354,
     portrait: true
-  },
-  {
-    source: 'The Straits Times Forum',
-    title: 'All medical procedures carry risks, including injectable treatments',
-    description: 'Co-signed professional commentary on patient safety, aesthetic treatments and balanced decision-making in medical procedures.',
-    href: 'https://www.straitstimes.com/opinion/forum/forum-all-medical-procedures-carry-risks-including-injectable-treatments',
-    label: 'Read forum letter',
-    image: '/images/media/straits-times-forum-injectables-risk.webp',
-    imageAlt: 'The Straits Times Forum article image for commentary on injectable treatment risks',
-    imageWidth: 1140,
-    imageHeight: 760
   },
   {
     source: 'LymphedAsia',
