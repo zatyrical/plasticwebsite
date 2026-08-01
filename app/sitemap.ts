@@ -1,62 +1,35 @@
 import type { MetadataRoute } from 'next';
+import { procedureArticleList } from './procedureArticles';
 
 const baseUrl = 'https://www.drjeremysun.com';
 
+const coreRoutes = [
+  { path: '', priority: 1, changeFrequency: 'weekly' as const },
+  { path: '/lymphedema-surgery-singapore', priority: 0.9, changeFrequency: 'monthly' as const },
+  { path: '/lymphovenous-bypass-lva-surgery-singapore', priority: 0.85, changeFrequency: 'monthly' as const },
+  { path: '/breast-reconstruction-singapore', priority: 0.85, changeFrequency: 'monthly' as const },
+  { path: '/asian-eyelid-surgery-singapore', priority: 0.85, changeFrequency: 'monthly' as const },
+  { path: '/training-and-fellowships', priority: 0.75, changeFrequency: 'monthly' as const },
+  { path: '/media', priority: 0.73, changeFrequency: 'monthly' as const },
+  { path: '/publications', priority: 0.72, changeFrequency: 'monthly' as const },
+  { path: '/blog', priority: 0.7, changeFrequency: 'weekly' as const }
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
+  const procedureRoutes = procedureArticleList.map((article) => ({
+    url: `${baseUrl}/${article.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: article.backHref.includes('aesthetic') ? 0.82 : 0.8
+  }));
+
   return [
-    {
-      url: baseUrl,
+    ...coreRoutes.map((route) => ({
+      url: `${baseUrl}${route.path}`,
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 1
-    },
-    {
-      url: `${baseUrl}/lymphedema-surgery-singapore`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.9
-    },
-    {
-      url: `${baseUrl}/lymphovenous-bypass-lva-surgery-singapore`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.85
-    },
-    {
-      url: `${baseUrl}/breast-reconstruction-singapore`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.85
-    },
-    {
-      url: `${baseUrl}/asian-eyelid-surgery-singapore`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.85
-    },
-    {
-      url: `${baseUrl}/training-and-fellowships`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.75
-    },
-    {
-      url: `${baseUrl}/media`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.73
-    },
-    {
-      url: `${baseUrl}/publications`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.72
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.7
-    }
+      changeFrequency: route.changeFrequency,
+      priority: route.priority
+    })),
+    ...procedureRoutes
   ];
 }

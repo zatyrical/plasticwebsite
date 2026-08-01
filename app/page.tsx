@@ -3,25 +3,25 @@ import ContactForm from './ContactForm';
 import Navigation from './Navigation';
 
 const aesthetic = [
-  { title: 'Body contouring & liposuction', href: '', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused body contouring image showing waist and abdominal contour' },
-  { title: 'Breast aesthetic surgery', href: '', image: '/images/aesthetic-ai/breast-aesthetic.jpg', alt: 'Tasteful inframammary fold and upper abdomen concept image for breast aesthetic surgery' },
-  { title: 'Asian rhinoplasty', href: '', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image for rhinoplasty' },
+  { title: 'Body contouring & liposuction', href: '/body-contouring-liposuction-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused body contouring image showing waist and abdominal contour' },
+  { title: 'Breast aesthetic surgery', href: '/breast-aesthetic-surgery-singapore', image: '/images/aesthetic-ai/breast-aesthetic.jpg', alt: 'Tasteful inframammary fold and upper abdomen concept image for breast aesthetic surgery' },
+  { title: 'Asian rhinoplasty', href: '/asian-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image for rhinoplasty' },
   { title: 'Eyelid surgery', href: '/asian-eyelid-surgery-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Asian eyelid image with surgical planning markings' },
-  { title: 'Face and neck lift', href: '', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Asian lower face, jawline and neck image for face and neck lift' },
-  { title: 'Lasers and injectables', href: '', image: '/images/aesthetic-ai/lasers-injectables.jpg', alt: 'Asian facial skin image with aesthetic laser handpiece' },
-  { title: 'Fat grafting', href: '', image: '/images/aesthetic-ai/fat-grafting.jpg', alt: 'Clinical tray image representing fat grafting precision' },
-  { title: 'Thread lifting', href: '', image: '/images/aesthetic-ai/thread-lifting.jpg', alt: 'Asian cheek and jawline image with subtle thread lift guide lines' }
+  { title: 'Face and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Asian lower face, jawline and neck image for face and neck lift' },
+  { title: 'Lasers and injectables', href: '/lasers-injectables-singapore', image: '/images/aesthetic-ai/lasers-injectables.jpg', alt: 'Asian facial skin image with aesthetic laser handpiece' },
+  { title: 'Fat grafting', href: '/fat-grafting-singapore', image: '/images/aesthetic-ai/fat-grafting.jpg', alt: 'Clinical tray image representing fat grafting precision' },
+  { title: 'Thread lifting', href: '/thread-lifting-singapore', image: '/images/aesthetic-ai/thread-lifting.jpg', alt: 'Asian cheek and jawline image with subtle thread lift guide lines' }
 ];
 
 const reconstruction = [
   { title: 'Breast reconstruction', href: '/breast-reconstruction-singapore', image: '/images/reconstructive-tiles/breast-reconstruction.jpg', alt: 'Silicone breast implant image representing breast reconstruction surgery' },
   { title: 'Lymphedema surgery', href: '/lymphedema-surgery-singapore', image: '/images/reconstructive-tiles/lymphedema-surgery.jpg', alt: 'Swollen arm image representing lymphedema surgery' },
   { title: 'Lymphovenous bypass / LVA', href: '/lymphovenous-bypass-lva-surgery-singapore', image: '/images/reconstructive-tiles/lva-surgery.jpg', alt: 'Microsurgery instrument image representing lymphovenous bypass and LVA surgery' },
-  { title: 'Lower limb reconstruction', href: '', image: '/images/reconstructive-tiles/lower-limb-reconstruction.jpg', alt: 'Leg image representing lower limb reconstruction' },
-  { title: 'Head and neck reconstruction', href: '', image: '/images/reconstructive-tiles/head-neck-reconstruction.jpg', alt: 'Face image representing head and neck reconstruction' },
-  { title: 'Trauma and lacerations', href: '', image: '/images/reconstructive-tiles/trauma-lacerations.jpg', alt: 'Face with subtle scar image representing trauma and laceration reconstruction' },
-  { title: 'Scar reconstruction', href: '', image: '/images/reconstructive-tiles/scar-reconstruction.jpg', alt: 'Keloid scar image representing scar reconstruction' },
-  { title: 'Gender-affirming chest reconstruction', href: '', image: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.jpg', alt: 'Chest binder image representing gender-affirming chest reconstruction' }
+  { title: 'Lower limb reconstruction', href: '/lower-limb-reconstruction-singapore', image: '/images/reconstructive-tiles/lower-limb-reconstruction.jpg', alt: 'Leg image representing lower limb reconstruction' },
+  { title: 'Head and neck reconstruction', href: '/head-neck-reconstruction-singapore', image: '/images/reconstructive-tiles/head-neck-reconstruction.jpg', alt: 'Face image representing head and neck reconstruction' },
+  { title: 'Trauma and lacerations', href: '/trauma-lacerations-singapore', image: '/images/reconstructive-tiles/trauma-lacerations.jpg', alt: 'Face with subtle scar image representing trauma and laceration reconstruction' },
+  { title: 'Scar reconstruction', href: '/scar-reconstruction-singapore', image: '/images/reconstructive-tiles/scar-reconstruction.jpg', alt: 'Keloid scar image representing scar reconstruction' },
+  { title: 'Gender-affirming chest reconstruction', href: '/gender-affirming-chest-reconstruction-singapore', image: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.jpg', alt: 'Chest binder image representing gender-affirming chest reconstruction' }
 ];
 
 const jsonLd = {
