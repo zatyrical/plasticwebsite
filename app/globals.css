@@ -379,6 +379,95 @@
     opacity:.44;
   }
 }
+/* Make the NIMAS-style motion visible on the homepage itself, not only the media page.
+   We disable whole-section fading on segmented panels and let the cards/images flip individually. */
+@supports (animation-timeline:view()){
+  .segmented-section.mobile-screen,
+  .segmented-section.mobile-transition{
+    animation:none!important;
+    opacity:1!important;
+    transform:none!important;
+    filter:none!important;
+  }
+  .segmented-section > .container{
+    isolation:isolate;
+    overflow:visible;
+  }
+  .segmented-section > .container:after{
+    width:clamp(340px,54vw,760px);
+    right:clamp(-210px,-8vw,-54px);
+    top:clamp(-170px,-7vw,-42px);
+    opacity:.88;
+    background:
+      radial-gradient(circle at 50% 50%,rgba(255,255,255,.10) 0 22%,rgba(255,255,255,.72) 23% 30%,rgba(234,215,168,.54) 31% 48%,rgba(14,58,51,.22) 49% 66%,transparent 67%),
+      radial-gradient(circle,rgba(184,154,94,.22),transparent 70%);
+    animation:nimas-homepage-iris both cubic-bezier(.22,1,.36,1)!important;
+    animation-timeline:view();
+    animation-range:entry 0% exit 100%;
+  }
+  .segment-aesthetic > .container:after{
+    background:
+      radial-gradient(circle at 50% 50%,rgba(255,255,255,.06) 0 22%,rgba(234,215,168,.34) 23% 42%,rgba(67,189,198,.34) 43% 62%,transparent 63%),
+      radial-gradient(circle,rgba(234,215,168,.18),transparent 72%);
+    mix-blend-mode:screen;
+  }
+  .segmented-section .about-image-card,
+  .segmented-section .aesthetic-photo-card,
+  .segmented-section .focus-grid:not(.aesthetic-photo-grid) .focus-card,
+  .segmented-section .media-visual-card,
+  .segmented-section .training-image-strip div,
+  .segmented-section .blog-card,
+  .segmented-section .compliance{
+    animation:nimas-homepage-card-flip both cubic-bezier(.22,1,.36,1)!important;
+    animation-timeline:view();
+    animation-range:entry 0% cover 42%;
+    transform-origin:center 68%;
+    transform-style:preserve-3d;
+    backface-visibility:hidden;
+    will-change:opacity,transform,filter;
+  }
+  .segmented-section .aesthetic-photo-card:nth-child(2n),
+  .segmented-section .focus-card:nth-child(2n),
+  .segmented-section .media-visual-card:nth-child(2n),
+  .segmented-section .training-image-strip div:nth-child(2n),
+  .segmented-section .blog-card:nth-child(2n){animation-range:entry 5% cover 48%}
+  .segmented-section .aesthetic-photo-card:nth-child(3n),
+  .segmented-section .focus-card:nth-child(3n),
+  .segmented-section .media-visual-card:nth-child(3n),
+  .segmented-section .training-image-strip div:nth-child(3n),
+  .segmented-section .blog-card:nth-child(3n){animation-range:entry 10% cover 54%}
+}
+@keyframes nimas-homepage-iris{
+  0%{clip-path:circle(0% at 86% 8%);opacity:0;transform:scale(.52) rotate(-12deg);filter:blur(10px)}
+  28%{clip-path:circle(34% at 78% 16%);opacity:.82;transform:scale(.88) rotate(-4deg);filter:blur(1.5px)}
+  48%{clip-path:circle(76% at 76% 18%);opacity:.92;transform:scale(1) rotate(0deg);filter:blur(0)}
+  74%{clip-path:circle(80% at 74% 22%);opacity:.64;transform:scale(1.04) rotate(3deg);filter:blur(0)}
+  100%{clip-path:circle(0% at 14% 92%);opacity:0;transform:scale(.72) rotate(10deg);filter:blur(9px)}
+}
+@keyframes nimas-homepage-card-flip{
+  0%{opacity:.03;transform:perspective(900px) translateY(58px) rotateX(-82deg) rotateY(-18deg) scale(.86);filter:blur(14px)}
+  38%{opacity:.92;transform:perspective(900px) translateY(4px) rotateX(9deg) rotateY(3deg) scale(1.025);filter:blur(.8px)}
+  72%{opacity:1;transform:perspective(900px) translateY(0) rotateX(0) rotateY(0) scale(1.006);filter:blur(0)}
+  100%{opacity:1;transform:perspective(900px) translateY(0) rotateX(0) rotateY(0) scale(1);filter:blur(0)}
+}
+@media(max-width:900px){
+  @supports (animation-timeline:view()){
+    .segmented-section > .container:after{
+      width:86vw;
+      right:-36vw;
+      top:-42px;
+      opacity:.78;
+      animation-range:entry 0% exit 100%;
+    }
+    .segmented-section .aesthetic-photo-card,
+    .segmented-section .focus-grid:not(.aesthetic-photo-grid) .focus-card,
+    .segmented-section .media-visual-card,
+    .segmented-section .training-image-strip div{
+      animation-range:entry 0% cover 58%;
+    }
+  }
+}
 @media(prefers-reduced-motion:reduce){
   .segmented-section > .container:after{animation:none!important;clip-path:none!important;filter:none!important;transform:scale(.78)!important}
+  .segmented-section .about-image-card,.segmented-section .aesthetic-photo-card,.segmented-section .focus-card,.segmented-section .media-visual-card,.segmented-section .training-image-strip div,.segmented-section .blog-card,.segmented-section .compliance{animation:none!important;filter:none!important;transform:none!important}
 }
