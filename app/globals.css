@@ -182,10 +182,12 @@
 /* Strong homepage segmentation: clearer NIMAS-like section breaks without forced snap scrolling */
 .segmented-section{
   position:relative;
-  padding:118px 0;
-  border-top:1px solid rgba(16,32,29,.10);
-  border-bottom:1px solid rgba(255,255,255,.62);
+  padding:128px 0;
+  border-top:8px solid rgba(184,154,94,.34);
+  border-bottom:1px solid rgba(16,32,29,.08);
+  box-shadow:inset 0 34px 70px rgba(16,32,29,.045),0 -1px 0 rgba(255,255,255,.82);
   isolation:isolate;
+  scroll-margin-top:82px;
 }
 .segmented-section > .container{
   position:relative;
@@ -196,10 +198,11 @@
   position:absolute;
   left:clamp(22px,5vw,72px);
   right:clamp(22px,5vw,72px);
-  top:0;
-  height:1px;
-  background:linear-gradient(90deg,transparent,rgba(184,154,94,.82),rgba(14,58,51,.22),transparent);
-  z-index:1;
+  top:-8px;
+  height:8px;
+  border-radius:999px;
+  background:linear-gradient(90deg,transparent 0%,rgba(184,154,94,.95) 16%,rgba(14,58,51,.42) 52%,rgba(184,154,94,.72) 84%,transparent 100%);
+  z-index:2;
 }
 .segmented-section:after{
   content:"";
@@ -229,22 +232,22 @@
   margin-top:16px;
 }
 .segment-about{
-  background:linear-gradient(135deg,#fbfaf7 0%,#efe8dc 100%) !important;
+  background:linear-gradient(135deg,#fffdf8 0%,#eadfcd 100%) !important;
 }
 .segment-reconstructive{
-  background:radial-gradient(circle at 12% 18%,rgba(14,58,51,.10),transparent 28%),linear-gradient(180deg,#fffdf8 0%,#f5f1e9 100%) !important;
+  background:radial-gradient(circle at 12% 18%,rgba(14,58,51,.14),transparent 28%),linear-gradient(180deg,#fffaf0 0%,#e8efe9 100%) !important;
 }
 .segment-training{
-  background:radial-gradient(circle at 90% 16%,rgba(184,154,94,.16),transparent 30%),linear-gradient(135deg,#f8f4ec 0%,#eef4f1 100%) !important;
+  background:radial-gradient(circle at 90% 16%,rgba(184,154,94,.24),transparent 30%),linear-gradient(135deg,#f2eadc 0%,#e7f1ed 100%) !important;
 }
 .segment-media{
-  background:radial-gradient(circle at 85% 12%,rgba(67,189,198,.13),transparent 28%),linear-gradient(180deg,#fbfaf7 0%,#eee7db 100%) !important;
+  background:radial-gradient(circle at 85% 12%,rgba(67,189,198,.18),transparent 28%),linear-gradient(180deg,#fffdf8 0%,#e9ddca 100%) !important;
 }
 .segment-articles{
-  background:linear-gradient(180deg,#fffefa 0%,#f4efe6 100%) !important;
+  background:linear-gradient(180deg,#fffaf0 0%,#eadfcd 100%) !important;
 }
 .segment-contact{
-  background:radial-gradient(circle at 15% 18%,rgba(14,58,51,.12),transparent 30%),linear-gradient(135deg,#f5f0e7 0%,#e8f0ed 100%) !important;
+  background:radial-gradient(circle at 15% 18%,rgba(14,58,51,.16),transparent 30%),linear-gradient(135deg,#efe5d4 0%,#dfece7 100%) !important;
 }
 .segment-aesthetic{
   border-top-color:rgba(184,154,94,.34);
@@ -261,9 +264,9 @@
 }
 @media(max-width:900px){
   .segmented-section{
-    padding:34px 0;
-    border-top:1px solid rgba(16,32,29,.14);
-    box-shadow:inset 0 18px 44px rgba(16,32,29,.035);
+    padding:48px 0;
+    border-top:7px solid rgba(184,154,94,.42);
+    box-shadow:inset 0 24px 54px rgba(16,32,29,.055);
   }
   .segmented-section:before{
     left:22px;
