@@ -471,3 +471,83 @@
   .segmented-section > .container:after{animation:none!important;clip-path:none!important;filter:none!important;transform:scale(.78)!important}
   .segmented-section .about-image-card,.segmented-section .aesthetic-photo-card,.segmented-section .focus-card,.segmented-section .media-visual-card,.segmented-section .training-image-strip div,.segmented-section .blog-card,.segmented-section .compliance{animation:none!important;filter:none!important;transform:none!important}
 }
+
+/* JS-backed NIMAS motion fallback: works in Safari/iPhone where CSS view timelines may not run. */
+.motion-js .segmented-section.mobile-screen,
+.motion-js .segmented-section.mobile-transition{
+  animation:none!important;
+  opacity:1!important;
+  transform:none!important;
+  filter:none!important;
+}
+.motion-js .motion-section > .container:after{
+  animation:none!important;
+  width:clamp(360px,58vw,820px);
+  opacity:0;
+  clip-path:circle(0% at 86% 8%);
+  transform:scale(.50) rotate(-12deg);
+  filter:blur(10px);
+  transition:
+    clip-path 1050ms cubic-bezier(.22,1,.36,1),
+    opacity 1050ms cubic-bezier(.22,1,.36,1),
+    transform 1050ms cubic-bezier(.22,1,.36,1),
+    filter 1050ms cubic-bezier(.22,1,.36,1);
+  background:
+    radial-gradient(circle at 50% 50%,rgba(255,255,255,.10) 0 22%,rgba(255,255,255,.82) 23% 30%,rgba(234,215,168,.62) 31% 48%,rgba(14,58,51,.28) 49% 66%,transparent 67%),
+    radial-gradient(circle,rgba(184,154,94,.26),transparent 72%);
+}
+.motion-js .motion-section.motion-in > .container:after{
+  opacity:.92;
+  clip-path:circle(82% at 74% 18%);
+  transform:scale(1) rotate(0deg);
+  filter:blur(0);
+}
+.motion-js .segment-aesthetic.motion-section > .container:after{
+  background:
+    radial-gradient(circle at 50% 50%,rgba(255,255,255,.06) 0 22%,rgba(234,215,168,.42) 23% 42%,rgba(67,189,198,.42) 43% 62%,transparent 63%),
+    radial-gradient(circle,rgba(234,215,168,.22),transparent 72%);
+  mix-blend-mode:screen;
+}
+.motion-js .motion-card{
+  animation:none!important;
+  opacity:.04;
+  transform:perspective(900px) translateY(64px) rotateX(-84deg) rotateY(-18deg) scale(.84)!important;
+  filter:blur(14px);
+  transition:
+    opacity 850ms cubic-bezier(.22,1,.36,1) var(--motion-delay,0ms),
+    transform 850ms cubic-bezier(.22,1,.36,1) var(--motion-delay,0ms),
+    filter 850ms cubic-bezier(.22,1,.36,1) var(--motion-delay,0ms),
+    box-shadow 850ms cubic-bezier(.22,1,.36,1) var(--motion-delay,0ms);
+  transform-origin:center 68%;
+  transform-style:preserve-3d;
+  backface-visibility:hidden;
+}
+.motion-js .motion-card.motion-in{
+  opacity:1;
+  transform:perspective(900px) translateY(0) rotateX(0deg) rotateY(0deg) scale(1)!important;
+  filter:blur(0);
+}
+@media(max-width:900px){
+  .motion-js .motion-section > .container:after{
+    width:92vw;
+    right:-38vw;
+    top:-42px;
+  }
+  .motion-js .motion-card{
+    transform:perspective(850px) translateY(52px) rotateX(-78deg) rotateY(-15deg) scale(.86)!important;
+  }
+  .motion-js .motion-card.motion-in{
+    transform:perspective(850px) translateY(0) rotateX(0deg) rotateY(0deg) scale(1)!important;
+  }
+}
+@media(prefers-reduced-motion:reduce){
+  .motion-js .motion-section > .container:after,
+  .motion-js .motion-card{
+    transition:none!important;
+    animation:none!important;
+    opacity:1!important;
+    transform:none!important;
+    filter:none!important;
+    clip-path:none!important;
+  }
+}
