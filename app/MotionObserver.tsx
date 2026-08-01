@@ -16,7 +16,10 @@ export default function MotionObserver() {
       )
     );
 
-    sections.forEach((section) => section.classList.add('motion-section'));
+    sections.forEach((section) => {
+      section.classList.add('motion-section');
+      if (section.matches('#about, #contact')) section.classList.add('motion-iris');
+    });
     cards.forEach((card, index) => {
       card.classList.add('motion-card');
       card.style.setProperty('--motion-delay', `${Math.min(index % 4, 3) * 90}ms`);
