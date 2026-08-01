@@ -5,7 +5,7 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.drjeremysun.com'),
   title: {
-    default: 'Dr Jeremy Sun | Plastic Surgeon Singapore | Aesthetic, Reconstructive & Lymphedema Surgery',
+    default: 'Dr Jeremy Sun | Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
     template: '%s | Dr Jeremy Sun'
   },
   description: 'Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, microsurgical reconstruction, lymphedema surgery, body contouring, breast surgery, rhinoplasty, eyelid surgery and facial rejuvenation.',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     }
   },
   openGraph: {
-    title: 'Dr Jeremy Sun | Plastic Surgeon Singapore',
+    title: 'Dr Jeremy Sun | Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
     description: 'Senior Consultant plastic surgeon in Singapore with focus in aesthetic surgery, reconstructive microsurgery and lymphedema surgery.',
     url: '/',
     siteName: 'Dr Jeremy Sun Plastic Surgery',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dr Jeremy Sun | Plastic Surgeon Singapore',
+    title: 'Dr Jeremy Sun | Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
     description: 'Aesthetic, reconstructive and lymphedema surgery information by Dr Jeremy Sun in Singapore.',
     images: ['/images/dr-jeremy-sun-hero.jpg']
   }
