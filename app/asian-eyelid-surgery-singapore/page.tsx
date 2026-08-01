@@ -26,6 +26,49 @@ export const metadata: Metadata = {
   ]
 };
 
+const baseUrl = 'https://www.drjeremysun.com';
+const pageUrl = `${baseUrl}/asian-eyelid-surgery-singapore`;
+
+const medicalPageJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+        { '@type': 'ListItem', position: 2, name: 'Aesthetic Surgery', item: `${baseUrl}/#aesthetic-surgery` },
+        { '@type': 'ListItem', position: 3, name: 'Asian Eyelid Surgery in Singapore', item: pageUrl }
+      ]
+    },
+    {
+      '@type': 'Physician',
+      '@id': `${baseUrl}/#dr-jeremy-sun`,
+      name: 'Dr Jeremy Sun',
+      url: baseUrl,
+      image: `${baseUrl}/images/dr-jeremy-sun-hero.jpg`,
+      medicalSpecialty: ['PlasticSurgery', 'Surgical'],
+      address: {
+        '@type': 'PostalAddress',
+        addressCountry: 'SG',
+        addressLocality: 'Singapore'
+      }
+    },
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: 'Asian Eyelid Surgery in Singapore',
+      headline: 'Asian Eyelid Surgery in Singapore',
+      description: metadata.description,
+      inLanguage: 'en-SG',
+      about: metadata.keywords,
+      author: { '@id': `${baseUrl}/#dr-jeremy-sun` },
+      reviewedBy: { '@id': `${baseUrl}/#dr-jeremy-sun` },
+      publisher: { '@id': `${baseUrl}/#dr-jeremy-sun` }
+    }
+  ]
+};
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -76,6 +119,7 @@ const faqJsonLd = {
 export default function AsianEyelidSurgeryPage() {
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalPageJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Navigation />
 
@@ -83,6 +127,11 @@ export default function AsianEyelidSurgeryPage() {
         <section className="article-hero">
           <div className="container article-hero-grid">
             <div>
+              <nav className="breadcrumb" aria-label="Breadcrumb">
+                <Link href="/">Home</Link>
+                <span>/</span>
+                <Link href="/#aesthetic-surgery">Aesthetic surgery</Link>
+              </nav>
               <div className="eyebrow">Asian eyelid surgery</div>
               <h1>Asian Eyelid Surgery in Singapore</h1>
               <p className="lead">
@@ -99,6 +148,7 @@ export default function AsianEyelidSurgeryPage() {
                 <li><a href="#what-is-asian-eyelid-surgery">What is Asian eyelid surgery?</a></li>
                 <li><a href="#double-eyelid-surgery">Double eyelid surgery</a></li>
                 <li><a href="#approaches">Incisional and non-incisional approaches</a></li>
+                <li><a href="#singapore-consultation">Singapore consultation planning</a></li>
                 <li><a href="#ptosis-assessment">Ptosis assessment</a></li>
                 <li><a href="#recovery">Recovery</a></li>
                 <li><a href="#faq">FAQs</a></li>
@@ -181,6 +231,17 @@ export default function AsianEyelidSurgeryPage() {
             </p>
             <p>
               These techniques may involve a different recovery profile, but they are not suitable for everyone. The crease may weaken or change over time, and some patients may later require revision or an incisional approach.
+            </p>
+
+            <h2 id="singapore-consultation">Asian eyelid surgery consultation in Singapore</h2>
+            <p>
+              Patients in Singapore often compare double eyelid surgery, upper blepharoplasty, ptosis correction and revision eyelid surgery using similar search terms, but these are not the same operation. The consultation should first identify whether the concern is crease definition, excess skin, eyelid heaviness, true ptosis, brow compensation, asymmetry or a previous surgical issue.
+            </p>
+            <p>
+              For cosmetic eyelid surgery, planning should include crease height, eyelid skin thickness, fat distribution, brow position, desired subtlety, scars and recovery time. For functional concerns such as ptosis or visual-field obstruction, the medical pathway is different and may require independent eye-doctor assessment before a plastic surgeon can operate as a medical case under Singapore Ministry of Health requirements.
+            </p>
+            <p>
+              A careful consultation also helps avoid overcorrection. A crease that is too high, too fixed or poorly matched to the patient’s natural anatomy may look unnatural or create functional discomfort.
             </p>
 
             <h2 id="ptosis-assessment">Ptosis assessment and eyelid function</h2>

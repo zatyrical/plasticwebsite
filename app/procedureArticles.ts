@@ -29,22 +29,33 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     slug: 'body-contouring-liposuction-singapore',
     title: 'Body Contouring & Liposuction in Singapore',
     eyebrow: 'Body contouring & liposuction',
-    lead: 'Patient information on liposuction, body contouring, assessment, recovery, limitations and risks.',
-    description: 'Patient information on body contouring and liposuction in Singapore, including suitability, consultation, recovery, risks and realistic limitations.',
-    keywords: ['body contouring Singapore', 'liposuction Singapore', 'plastic surgeon liposuction Singapore'],
+    lead: 'A detailed guide to liposuction and body contouring in Singapore, including suitability, surgical planning, recovery, scars, limitations and risks.',
+    description: 'Detailed patient information on body contouring and liposuction in Singapore, including suitability, consultation, technique selection, recovery, risks and realistic limitations.',
+    keywords: ['body contouring Singapore', 'liposuction Singapore', 'plastic surgeon liposuction Singapore', 'body sculpting Singapore', 'abdominal liposuction Singapore'],
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Body contouring refers to procedures that reshape selected areas of the body. Liposuction is one commonly used technique that removes localised fat deposits through small incisions using cannulas and suction.',
       'Liposuction is not a weight-loss operation. It is usually considered when a patient has relatively stable weight, reasonable skin quality and specific areas of disproportion or contour concern that do not respond adequately to lifestyle measures.',
-      'Planning should be individualised. The safest and most appropriate approach depends on anatomy, skin elasticity, medical history, previous surgery, treatment areas and expectations.'
+      'The decision is not simply whether fat can be removed. Safe planning considers skin elasticity, muscle tone, previous scars, weight stability, medical fitness, anaesthesia, recovery time and the patient’s expectations about what contour change can realistically achieve.'
     ],
     sections: [
       {
         id: 'suitability',
-        heading: 'Who may be suitable?',
-        paragraphs: ['Suitability depends on a clinical assessment rather than a fixed body size or single photograph. A consultation helps determine whether liposuction, another body contouring operation, non-surgical treatment or no procedure is the most appropriate option.'],
+        heading: 'Who may be suitable for liposuction?',
+        paragraphs: ['Suitability depends on a clinical assessment rather than a fixed body size or a single photograph. A consultation helps determine whether liposuction, another body contouring operation, non-surgical treatment or no procedure is the most appropriate option.', 'Patients who do well with liposuction usually understand that the operation changes contour, not overall body weight. The most appropriate candidates often have localised fullness with enough skin recoil for the treated area to settle smoothly.'],
         items: ['localised fat deposits or contour imbalance', 'stable weight and realistic expectations', 'adequate skin elasticity in the treatment area', 'good general health for surgery and anaesthesia', 'understanding that loose skin, cellulite and stretch marks may not improve with liposuction alone']
+      },
+      {
+        id: 'not-weight-loss',
+        heading: 'Liposuction is not weight-loss surgery',
+        paragraphs: ['Patients searching for liposuction in Singapore may be looking for abdominal, waist, arm, thigh, back or chin contouring. These are contour concerns, not substitutes for medical weight management.', 'If the main issue is general weight gain, unstable weight, visceral fat around the organs, or significant loose skin, liposuction alone may disappoint. In those situations, weight stabilisation, lifestyle treatment, abdominoplasty, skin excision or no procedure may be discussed instead.']
+      },
+      {
+        id: 'areas',
+        heading: 'Common areas discussed during body contouring consultation',
+        paragraphs: ['The areas assessed depend on the patient’s anatomy and goals. Treatment should be planned in a way that respects natural body proportions rather than chasing maximal fat removal.'],
+        items: ['abdomen, waist and flanks', 'upper arms', 'inner or outer thighs', 'back rolls or bra-line fullness', 'male chest contour in selected cases', 'neck or submental fullness in selected patients']
       },
       {
         id: 'consultation',
@@ -54,43 +65,55 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'singapore-planning',
         heading: 'Body contouring consultation in Singapore',
-        paragraphs: ['Patients searching for liposuction in Singapore often compare surgical and non-surgical contouring options. A plastic surgery consultation should clarify whether the concern is excess fat, loose skin, muscle separation, cellulite, weight fluctuation or a combination of factors.', 'For some patients, liposuction may be part of a broader body contouring plan. For others, a non-surgical option, weight stabilisation, abdominoplasty or no procedure may be more appropriate. The discussion should include anaesthesia, recovery time, compression garments, scars, revision risk and realistic contour limits.']
+        paragraphs: ['Patients in Singapore often compare surgical liposuction with non-surgical fat reduction, radiofrequency, ultrasound or device-based contouring. These options are not interchangeable. Non-surgical treatments may be reasonable for selected minor concerns, while surgery may be considered when a more direct contour change is appropriate.', 'A plastic surgery consultation should clarify whether the concern is excess fat, loose skin, muscle separation, cellulite, weight fluctuation or a combination of factors. The discussion should include anaesthesia, recovery time, compression garments, scars, revision risk and realistic contour limits.']
       },
       {
         id: 'procedure',
         heading: 'How liposuction is performed',
-        paragraphs: ['Liposuction is usually performed through small incisions. Fluid may be placed into the tissues before fat is removed with fine cannulas. The technique and anaesthesia depend on the number of areas treated, the expected volume, patient factors and surgical plan.', 'The goal is controlled contour change, not maximal fat removal. Over-aggressive treatment can increase risks and may lead to contour irregularity, skin laxity or prolonged swelling.']
+        paragraphs: ['Liposuction is usually performed through small incisions. Fluid may be placed into the tissues before fat is removed with fine cannulas. The technique and anaesthesia depend on the number of areas treated, the expected volume, patient factors and surgical plan.', 'The goal is controlled contour change, not maximal fat removal. Over-aggressive treatment can increase risks and may lead to contour irregularity, skin laxity, prolonged swelling or unevenness.']
+      },
+      {
+        id: 'skin-quality',
+        heading: 'Skin quality, loose skin and contour irregularity',
+        paragraphs: ['Skin quality is one of the main limits of liposuction. If the skin has poor elasticity, stretch marks, previous pregnancy-related laxity or major weight-loss changes, removing fat may make looseness more obvious.', 'Contour irregularity can occur even with careful technique, especially when tissue quality is uneven or previous procedures have changed the fat layer. The consultation should address these limitations before surgery.']
       },
       {
         id: 'recovery',
         heading: 'Recovery after body contouring',
-        paragraphs: ['Recovery varies with the number of areas treated and the extent of surgery. Bruising, swelling, numbness, tenderness and temporary firmness are common early changes. Compression garments may be recommended.', 'Many patients return gradually to light activities first, with exercise and heavier activity resumed only when advised. Final contour changes take time as swelling settles.']
+        paragraphs: ['Recovery varies with the number of areas treated and the extent of surgery. Bruising, swelling, numbness, tenderness and temporary firmness are common early changes. Compression garments may be recommended.', 'Many patients return gradually to light activities first, with exercise and heavier activity resumed only when advised. Final contour changes take time as swelling settles, and some firmness or unevenness can continue to change over months.']
       },
       {
         id: 'risks',
         heading: 'Risks and limitations',
-        paragraphs: ['Risks include bleeding, infection, fluid collection, contour irregularity, asymmetry, altered sensation, skin laxity, scarring, pigmentation change, delayed healing, anaesthetic risks and need for revision surgery. Liposuction cannot guarantee a particular body shape and does not replace weight management.']
+        paragraphs: ['Risks include bleeding, infection, fluid collection, contour irregularity, asymmetry, altered sensation, skin laxity, scarring, pigmentation change, delayed healing, anaesthetic risks and need for revision surgery. Liposuction cannot guarantee a particular body shape and does not replace weight management.', 'Patients should seek prompt medical advice if they develop concerning symptoms after surgery such as increasing pain, shortness of breath, chest pain, fever, spreading redness, one-sided leg swelling or sudden deterioration.']
+      },
+      {
+        id: 'questions',
+        heading: 'Questions to ask before liposuction',
+        items: ['Is my concern mainly fat, loose skin, muscle separation or weight-related change?', 'What contour change is realistic for my anatomy?', 'Where will the scars be placed?', 'What compression garment and activity restrictions are expected?', 'What complications should prompt urgent medical attention?', 'What are the alternatives if liposuction alone is unlikely to help?']
       }
     ],
     faqs: [
       { question: 'Is liposuction a weight-loss procedure?', answer: 'No. Liposuction is intended for contouring selected areas. It is not a treatment for obesity or a substitute for weight management.' },
       { question: 'Will liposuction tighten loose skin?', answer: 'Liposuction primarily removes fat. Skin tightening is variable and depends on skin quality, age, genetics, pregnancy history and the amount of fat removed. Loose skin may need a different procedure.' },
-      { question: 'When will the final result be visible?', answer: 'Swelling improves gradually over weeks to months. The timeline varies by area treated, extent of surgery, garment use and individual healing.' }
+      { question: 'Which areas can be treated with liposuction?', answer: 'Common areas include the abdomen, waist, flanks, arms, thighs, back, male chest and selected neck concerns. Suitability depends on anatomy, skin quality and safety considerations.' },
+      { question: 'When will the final result be visible?', answer: 'Swelling improves gradually over weeks to months. The timeline varies by area treated, extent of surgery, garment use and individual healing.' },
+      { question: 'Can liposuction be combined with other procedures?', answer: 'Sometimes, but combination surgery increases planning complexity and may affect anaesthesia, recovery and risk. The decision should be individualised.' }
     ]
   },
   'breast-aesthetic-surgery-singapore': {
     slug: 'breast-aesthetic-surgery-singapore',
     title: 'Breast Aesthetic Surgery in Singapore',
     eyebrow: 'Breast aesthetic surgery',
-    lead: 'Patient information on breast augmentation, lift, reduction, asymmetry correction, planning, recovery and risks.',
-    description: 'Patient information on breast aesthetic surgery in Singapore, including augmentation, lift, reduction, asymmetry correction, consultation, recovery and risks.',
-    keywords: ['breast aesthetic surgery Singapore', 'breast augmentation Singapore', 'breast lift Singapore', 'breast reduction Singapore'],
+    lead: 'A detailed guide to breast augmentation, lift, reduction and asymmetry correction in Singapore, including planning, screening considerations, recovery and risks.',
+    description: 'Detailed patient information on breast aesthetic surgery in Singapore, including augmentation, lift, reduction, asymmetry correction, consultation, screening considerations, recovery and risks.',
+    keywords: ['breast aesthetic surgery Singapore', 'breast augmentation Singapore', 'breast lift Singapore', 'breast reduction Singapore', 'breast implant Singapore', 'breast asymmetry surgery Singapore'],
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Breast aesthetic surgery includes procedures that change breast size, shape, position or symmetry. Common operations include breast augmentation, breast lift, breast reduction and correction of asymmetry.',
       'The right operation depends on the patient’s anatomy, skin quality, breast volume, nipple position, chest wall shape, personal goals and health factors. Some patients need a single procedure, while others may need a combined or staged plan.',
-      'Breast surgery planning should be balanced and realistic. The goal is to choose an option that is medically appropriate and proportionate to the patient’s frame, rather than aiming for a standardised size or look.'
+      'Planning should be medically careful as well as aesthetic. Breast symptoms, family history, previous imaging, pregnancy plans, breastfeeding goals and long-term follow-up all matter when choosing an operation.'
     ],
     sections: [
       {
@@ -105,9 +128,29 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Assessment includes breast measurements, skin and soft-tissue evaluation, nipple-areola position, chest wall shape, previous scars and discussion of pregnancy, breastfeeding, weight changes and screening history.', 'Patients may be advised to complete age-appropriate breast screening or specialist breast assessment before elective surgery where clinically indicated. This is especially important when there are breast symptoms, family history or imaging concerns.']
       },
       {
+        id: 'augmentation',
+        heading: 'Breast augmentation planning',
+        paragraphs: ['Breast augmentation is not only a question of implant size. Planning includes base width, soft-tissue thickness, chest wall shape, nipple position, desired upper-pole fullness, cleavage goals and how the breast may age over time.', 'Implant selection may involve discussion of shape, projection, surface, placement plane and incision. The plan should avoid choosing a size that exceeds what the tissues can safely support.']
+      },
+      {
+        id: 'lift-reduction',
+        heading: 'Breast lift and breast reduction',
+        paragraphs: ['A breast lift addresses drooping by reshaping the breast and repositioning the nipple-areola complex. It may be considered when breast volume is adequate but position and skin envelope are the main concerns.', 'Breast reduction removes breast tissue and skin to reduce size and weight. It may be considered for heavy breasts, discomfort, posture symptoms, skin irritation or proportion concerns. Scars, sensation changes and breastfeeding considerations should be discussed carefully.']
+      },
+      {
+        id: 'asymmetry',
+        heading: 'Breast asymmetry and combined procedures',
+        paragraphs: ['Most patients have some natural breast asymmetry. Surgery may improve selected differences in volume, fold height, nipple position or breast shape, but perfect symmetry is not realistic.', 'Asymmetry correction may require different procedures on each side, such as augmentation on one side, reduction or lift on the other, or staged surgery. This should be explained clearly before surgery.']
+      },
+      {
         id: 'singapore-consultation',
         heading: 'Breast aesthetic surgery consultation in Singapore',
         paragraphs: ['A breast aesthetic consultation should be more detailed than choosing an implant size. Planning includes breast measurements, soft-tissue thickness, chest wall shape, nipple position, desired proportions, lifestyle, future pregnancy considerations and breast-screening history.', 'In Singapore, patients may also be balancing discretion, downtime, work commitments and family responsibilities. These practical factors should be discussed alongside surgical safety, scars, implant choices, revision possibilities and long-term follow-up.']
+      },
+      {
+        id: 'screening',
+        heading: 'Breast screening and medical safety',
+        paragraphs: ['Elective breast aesthetic surgery should not bypass appropriate medical assessment. Patients with breast lumps, nipple discharge, skin changes, strong family history, abnormal imaging or unexplained symptoms may need breast specialist review or imaging before cosmetic surgery is considered.', 'Patients should keep future breast screening in mind. Implants and previous surgery can affect imaging technique and follow-up, so long-term communication with screening providers is important.']
       },
       {
         id: 'implants',
@@ -117,39 +160,46 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'recovery',
         heading: 'Recovery after breast aesthetic surgery',
-        paragraphs: ['Recovery depends on the operation performed. Swelling, bruising, tightness, temporary altered sensation and scar maturation are expected after surgery. Activity restrictions, supportive garments and follow-up vary by procedure.', 'Patients should avoid judging the final shape too early. Implants, scars and breast tissues may settle over weeks to months.']
+        paragraphs: ['Recovery depends on the operation performed. Swelling, bruising, tightness, temporary altered sensation and scar maturation are expected after surgery. Activity restrictions, supportive garments and follow-up vary by procedure.', 'Patients should avoid judging the final shape too early. Implants, scars and breast tissues may settle over weeks to months. Revision decisions, if needed, are usually considered only after adequate healing unless there is an urgent complication.']
       },
       {
         id: 'risks',
         heading: 'Risks and limitations',
-        paragraphs: ['Risks include bleeding, infection, wound healing problems, scarring, asymmetry, altered nipple or skin sensation, implant-related problems, fat grafting changes, inability to breastfeed in some situations, need for future surgery and anaesthetic risks. Outcomes vary and cannot be guaranteed.']
+        paragraphs: ['Risks include bleeding, infection, wound healing problems, scarring, asymmetry, altered nipple or skin sensation, implant-related problems, fat grafting changes, inability to breastfeed in some situations, need for future surgery and anaesthetic risks. Outcomes vary and cannot be guaranteed.', 'Implants are medical devices and may require monitoring or future surgery. Breast tissues also change with ageing, weight change, pregnancy and hormonal factors.']
+      },
+      {
+        id: 'questions',
+        heading: 'Questions to ask before breast aesthetic surgery',
+        items: ['Which operation matches my anatomy: augmentation, lift, reduction, asymmetry correction or a combination?', 'Do I need breast imaging or specialist review before elective surgery?', 'Where will the scars be and how may they mature?', 'What are the implant-specific risks and long-term follow-up needs?', 'How might pregnancy, breastfeeding or weight change affect the result?', 'What revision risks should I understand before proceeding?']
       }
     ],
     faqs: [
       { question: 'Is breast augmentation always done with implants?', answer: 'Not always. Implants are a common option for volume increase, while fat grafting may be considered in selected patients. Each has different limitations and risks.' },
       { question: 'Can a breast lift be combined with implants?', answer: 'Sometimes. A lift and implant can be combined when both breast position and volume need to be addressed, but this may increase complexity and requires careful planning.' },
-      { question: 'Will scars disappear?', answer: 'No surgical scar disappears completely. Scars usually mature over months and vary depending on the procedure, skin type, wound healing and individual biology.' }
+      { question: 'Do I need breast screening before cosmetic breast surgery?', answer: 'Some patients may need age-appropriate screening, imaging or breast specialist review before elective surgery, especially if there are symptoms, family history or previous imaging concerns.' },
+      { question: 'Will scars disappear?', answer: 'No surgical scar disappears completely. Scars usually mature over months and vary depending on the procedure, skin type, wound healing and individual biology.' },
+      { question: 'Will implants need to be replaced in the future?', answer: 'Not every implant requires replacement at a fixed time, but implants are not lifetime devices for every patient. Monitoring and possible future surgery should be discussed before augmentation.' }
     ]
   },
   'asian-rhinoplasty-singapore': {
     slug: 'asian-rhinoplasty-singapore',
     title: 'Asian Rhinoplasty in Singapore',
     eyebrow: 'Asian rhinoplasty',
-    lead: 'Patient information on Asian rhinoplasty, structural support, rib cartilage considerations, recovery and risks.',
-    description: 'Patient information on Asian rhinoplasty in Singapore, including consultation, structural rhinoplasty, rib cartilage, recovery, risks and limitations.',
-    keywords: ['Asian rhinoplasty Singapore', 'rhinoplasty Singapore', 'rib cartilage rhinoplasty Singapore'],
+    lead: 'A detailed guide to Asian rhinoplasty in Singapore, including nasal bridge and tip planning, structural support, rib cartilage considerations, recovery and risks.',
+    description: 'Detailed patient information on Asian rhinoplasty in Singapore, including consultation, structural rhinoplasty, rib cartilage, revision planning, recovery, risks and limitations.',
+    keywords: ['Asian rhinoplasty Singapore', 'rhinoplasty Singapore', 'rib cartilage rhinoplasty Singapore', 'nose surgery Singapore', 'structural rhinoplasty Singapore'],
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Asian rhinoplasty is nose reshaping surgery planned around the anatomy and goals commonly seen in Asian patients, including nasal bridge height, tip projection, tip definition, nostril shape and facial balance.',
-      'In many Asian noses, native septal cartilage may be limited in strength or quantity for major structural support. When stronger framework is needed for nasal height, projection, tip definition or long-term support, rib cartilage may be discussed as one option.',
-      'Not every patient needs rib cartilage or a large structural operation. The plan should be tailored to the patient’s anatomy, skin thickness, existing cartilage support, previous surgery and goals.'
+      'In many Asian noses, the septal cartilage inside the nose is not thick or strong enough to provide major support for augmentation rhinoplasty. That is why rib cartilage is often preferred when stronger framework is needed — it can support nasal height, projection, tip definition and long-term structural stability.',
+      'Not every patient needs rib cartilage or a large structural operation. The plan should be tailored to the patient’s anatomy, skin thickness, existing cartilage support, previous surgery, airway symptoms and goals.'
     ],
     sections: [
       {
         id: 'assessment',
         heading: 'Assessment for Asian rhinoplasty',
-        paragraphs: ['Assessment includes facial proportions, nasal bridge height, tip support, nostril shape, septal deviation, airway symptoms, skin thickness and previous fillers or surgery.', 'Photographs and clinical examination help determine whether the concern is primarily bridge height, tip projection, nostril shape, asymmetry, breathing, revision issues or a combination of factors.']
+        paragraphs: ['Assessment includes facial proportions, nasal bridge height, tip support, nostril shape, septal deviation, airway symptoms, skin thickness and previous fillers or surgery.', 'Photographs and clinical examination help determine whether the concern is primarily bridge height, tip projection, nostril shape, asymmetry, breathing, revision issues or a combination of factors. A careful plan should balance appearance with nasal function and long-term support.']
       },
       {
         id: 'singapore-asian-nose',
@@ -157,9 +207,25 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Patients considering rhinoplasty in Singapore often seek bridge refinement, tip projection, nostril balance or revision after fillers, implants or previous surgery. Asian rhinoplasty planning should consider the patient’s ethnic anatomy, skin thickness, cartilage strength, facial proportions and airway symptoms.', 'A structural plan may be preferred when the nose needs support rather than surface camouflage alone. However, the operation should still be proportionate: not every patient needs rib cartilage, major augmentation or an open approach.']
       },
       {
+        id: 'goals',
+        heading: 'Common concerns in Asian nose surgery',
+        paragraphs: ['The requested change is often described in simple terms, but the surgical issue may involve several structures. Bridge height, radix shape, tip projection, nostril show, alar width, columella support and nasal airway should be assessed together.'],
+        items: ['low or underprojected bridge', 'poor tip projection or definition', 'wide or flared nostrils', 'short nose appearance or poor support', 'asymmetry after previous surgery or fillers', 'airway concerns from septal deviation or structural narrowing']
+      },
+      {
         id: 'structural',
-        heading: 'Structural support and cartilage choices',
-        paragraphs: ['Structural rhinoplasty uses cartilage framework to support the nose rather than relying only on surface augmentation. Cartilage sources may include septal cartilage, ear cartilage or rib cartilage depending on the required support.', 'Rib cartilage can provide stronger material when major augmentation or revision support is needed. It also adds a donor-site scar and recovery considerations, so the decision should be made carefully.']
+        heading: 'Structural rhinoplasty and cartilage support',
+        paragraphs: ['Structural rhinoplasty uses cartilage framework to support the nose rather than relying only on surface augmentation. Cartilage sources may include septal cartilage, ear cartilage or rib cartilage depending on the required support.', 'In many Asian noses, septal cartilage may be limited in amount or strength for major augmentation. Rib cartilage can provide stronger material when substantial bridge, tip or revision support is needed. It also adds a donor-site incision, chest-wall discomfort and a small risk of donor-site issues, so the decision should be made carefully.']
+      },
+      {
+        id: 'materials',
+        heading: 'Implants, cartilage grafts and rib cartilage',
+        paragraphs: ['Some rhinoplasty plans use implants, some use autologous cartilage and some use a combination. The discussion should include the patient’s anatomy, previous treatments, desired degree of change, infection risk, long-term support and revision considerations.', 'Rib cartilage may be considered when stronger structural support is needed for nasal height, projection, tip definition or revision surgery. Ear cartilage may be useful for selected contour or support needs, but it is usually softer and more curved. Septal cartilage can be useful when available, particularly for internal support and septal correction.']
+      },
+      {
+        id: 'revision-fillers',
+        heading: 'Revision rhinoplasty and previous fillers',
+        paragraphs: ['Revision rhinoplasty can be more complex because previous surgery, implants, grafts, scar tissue or filler can alter normal planes and blood supply. The limits of safe change may be different from a first-time operation.', 'Patients who have had nose fillers should disclose the product used, timing and any complications. Filler history can affect surgical planning, even if the filler is no longer obvious on the surface.']
       },
       {
         id: 'procedure',
@@ -169,18 +235,25 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'recovery',
         heading: 'Recovery after rhinoplasty',
-        paragraphs: ['Swelling, bruising, nasal blockage, tip firmness and numbness can occur after rhinoplasty. A splint or taping may be used early. Most swelling improves gradually, but tip definition can continue to refine over many months.', 'Patients should avoid trauma to the nose during healing and follow specific instructions on exercise, glasses, wound care and follow-up.']
+        paragraphs: ['Swelling, bruising, nasal blockage, tip firmness and numbness can occur after rhinoplasty. A splint or taping may be used early. Most swelling improves gradually, but tip definition can continue to refine over many months.', 'Rib cartilage harvest, when used, adds a separate donor-site recovery. Patients should avoid trauma to the nose during healing and follow specific instructions on exercise, glasses, wound care and follow-up.']
       },
       {
         id: 'risks',
         heading: 'Risks and limitations',
-        paragraphs: ['Risks include bleeding, infection, scarring, asymmetry, contour irregularity, graft warping or visibility, implant or graft problems, breathing changes, altered sensation, donor-site scar if cartilage is harvested, and need for revision surgery. Perfect symmetry is not realistic.']
+        paragraphs: ['Risks include bleeding, infection, scarring, asymmetry, contour irregularity, graft warping or visibility, implant or graft problems, breathing changes, altered sensation, donor-site scar if cartilage is harvested, and need for revision surgery. Perfect symmetry is not realistic.', 'A rhinoplasty result also depends on skin thickness and healing biology. Thick skin, scar tissue and previous procedures can limit how much definition is visible even when the underlying framework is changed.']
+      },
+      {
+        id: 'questions',
+        heading: 'Questions to ask before rhinoplasty',
+        items: ['Is my goal mainly bridge height, tip projection, nostril refinement, airway improvement or revision?', 'What graft or implant material is being considered, and why?', 'Is rib cartilage needed in my case, or are other options reasonable?', 'How will the plan protect nasal breathing and long-term support?', 'What donor-site scar or recovery should I expect if rib cartilage is used?', 'What are the limits created by my skin thickness or previous procedures?']
       }
     ],
     faqs: [
-      { question: 'Do all Asian rhinoplasty patients need rib cartilage?', answer: 'No. Rib cartilage is considered when stronger structural support is needed. Some patients may be suitable for other cartilage sources or more limited approaches.' },
+      { question: 'Do all Asian rhinoplasty patients need rib cartilage?', answer: 'No. Rib cartilage is considered when stronger structural support is needed. Some patients may be suitable for other cartilage sources, implants, limited grafting or a different approach.' },
+      { question: 'Why is rib cartilage often discussed in Asian rhinoplasty?', answer: 'In many Asian noses, septal cartilage may not provide enough strength or quantity for major augmentation. Rib cartilage can provide a stronger framework for height, projection, tip definition and support when those goals are appropriate.' },
       { question: 'Can rhinoplasty improve breathing?', answer: 'If there is septal deviation or structural airway obstruction, functional correction may be discussed. Cosmetic rhinoplasty alone is not the same as airway surgery.' },
-      { question: 'How long does swelling last?', answer: 'Early swelling improves over weeks, but nasal tip swelling and refinement can take months. Revision cases and thicker skin may take longer.' }
+      { question: 'How long does swelling last?', answer: 'Early swelling improves over weeks, but nasal tip swelling and refinement can take months. Revision cases and thicker skin may take longer.' },
+      { question: 'Is revision rhinoplasty more complex?', answer: 'Often yes. Scar tissue, previous implants, fillers, grafts and altered anatomy can make revision surgery more complex and may limit what can be safely changed.' }
     ]
   },
   'face-neck-lift-singapore': {
