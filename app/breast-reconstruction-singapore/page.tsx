@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Breast Reconstruction Singapore | Implant & DIEP Flap | Dr Jeremy Sun',
+  title: 'Breast Reconstruction Singapore | Implant & DIEP Flap',
   description:
     'Patient information on breast reconstruction in Singapore after mastectomy or breast cancer surgery, including implant reconstruction, DIEP flap reconstruction, timing, recovery and risks.',
   alternates: {

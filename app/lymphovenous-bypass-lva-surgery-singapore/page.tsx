@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 
 export const metadata: Metadata = {
-  title: 'LVA Surgery Singapore | Lymphovenous Bypass | Dr Jeremy Sun',
+  title: 'LVA Surgery Singapore | Lymphovenous Bypass',
   description:
     'Patient information on lymphovenous bypass and LVA surgery in Singapore, including suitability, imaging, recovery, cellulitis risk and compression after surgery.',
   alternates: {
@@ -215,7 +215,7 @@ export default function LvaSurgeryPage() {
               The degree and timing of improvement vary. Some patients notice early improvement, while others improve more gradually. Some patients may not experience meaningful volume reduction despite technically successful surgery.
             </p>
             <p>
-              Compression remains an important part of lymphedema care for many patients. Earlier LVA may improve the likelihood of reducing compression dependence, but this is not guaranteed. After surgery, compression plans should be individualised.
+              Compression remains an important part of lymphedema care for many patients. Earlier LVA may improve the likelihood of reducing compression dependence, but this cannot be promised in advance. After surgery, compression plans should be individualised.
             </p>
 
             <h2>Risks and limitations</h2>

@@ -5,11 +5,11 @@ import { procedureArticles } from '../procedureArticles';
 const article = procedureArticles['gender-affirming-chest-reconstruction-singapore'];
 
 export const metadata: Metadata = {
-  title: article.title + ' | Dr Jeremy Sun',
+  title: article.title,
   description: article.description,
   alternates: { canonical: '/gender-affirming-chest-reconstruction-singapore' },
   openGraph: {
-    title: article.title + ' | Dr Jeremy Sun',
+    title: article.title,
     description: article.description,
     url: '/gender-affirming-chest-reconstruction-singapore',
     type: 'article'

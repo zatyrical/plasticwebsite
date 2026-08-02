@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Asian Eyelid Surgery Singapore | Blepharoplasty | Dr Jeremy Sun',
+  title: 'Asian Eyelid Surgery Singapore | Blepharoplasty',
   description:
     'Patient information on Asian eyelid surgery in Singapore, including double eyelid surgery, upper blepharoplasty, ptosis assessment, recovery, risks and consultation planning.',
   alternates: {

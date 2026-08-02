@@ -5,11 +5,11 @@ import { procedureArticles } from '../procedureArticles';
 const article = procedureArticles['thread-lifting-singapore'];
 
 export const metadata: Metadata = {
-  title: article.title + ' | Dr Jeremy Sun',
+  title: article.title,
   description: article.description,
   alternates: { canonical: '/thread-lifting-singapore' },
   openGraph: {
-    title: article.title + ' | Dr Jeremy Sun',
+    title: article.title,
     description: article.description,
     url: '/thread-lifting-singapore',
     type: 'article'

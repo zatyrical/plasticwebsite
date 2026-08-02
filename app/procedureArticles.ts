@@ -165,7 +165,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'risks',
         heading: 'Risks and limitations',
-        paragraphs: ['Risks include bleeding, infection, wound healing problems, scarring, asymmetry, altered nipple or skin sensation, implant-related problems, fat grafting changes, inability to breastfeed in some situations, need for future surgery and anaesthetic risks. Outcomes vary and cannot be guaranteed.', 'Implants are medical devices and may require monitoring or future surgery. Breast tissues also change with ageing, weight change, pregnancy and hormonal factors.']
+        paragraphs: ['Risks include bleeding, infection, wound healing problems, scarring, asymmetry, altered nipple or skin sensation, implant-related problems, fat grafting changes, inability to breastfeed in some situations, need for future surgery and anaesthetic risks. Outcomes vary and cannot be promised in advance.', 'Implants are medical devices and may require monitoring or future surgery. Breast tissues also change with ageing, weight change, pregnancy and hormonal factors.']
       },
       {
         id: 'questions',
@@ -260,28 +260,71 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     slug: 'face-neck-lift-singapore',
     title: 'Face and Neck Lift in Singapore',
     eyebrow: 'Face and neck lift',
-    lead: 'Patient information on face lift and neck lift surgery, assessment, recovery, scars, risks and alternatives.',
-    description: 'Patient information on face and neck lift surgery in Singapore, including suitability, consultation, recovery, scarring, risks and limitations.',
-    keywords: ['face lift Singapore', 'neck lift Singapore', 'facelift Singapore'],
+    lead: 'A detailed guide to face lift and neck lift surgery in Singapore, including suitability, facial analysis, scars, recovery, risks and non-surgical alternatives.',
+    description: 'Detailed patient information on face lift and neck lift surgery in Singapore, including suitability, consultation, surgical planning, recovery, scarring, risks and realistic limitations.',
+    keywords: ['face lift Singapore', 'neck lift Singapore', 'facelift Singapore', 'lower face lift Singapore', 'jowl surgery Singapore', 'neck tightening surgery Singapore'],
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Face and neck lift surgery addresses selected age-related changes in the lower face, jawline and neck. It may improve laxity of deeper tissues and skin, but it does not stop ageing or create a standardised appearance.',
-      'Modern planning focuses on facial balance, skin quality, tissue descent, neck anatomy and natural-looking proportions. The most appropriate approach varies between patients.',
-      'Some patients benefit from surgery, while others may be better served by non-surgical treatments, skin treatments, volume restoration or no procedure.'
+      'Modern planning focuses on facial balance, skin quality, tissue descent, neck anatomy and natural-looking proportions. The most appropriate approach varies between patients and should be based on examination rather than a package label.',
+      'Some patients benefit from surgery, while others may be better served by non-surgical treatments, skin treatments, volume restoration or no procedure. A consultation should clarify which concern is actually driving the visible change.'
     ],
     sections: [
-      { id: 'suitability', heading: 'Who may be suitable?', paragraphs: ['Face and neck lift surgery may be considered when there is lower-face laxity, jowling, neck skin laxity, platysmal banding or loss of jawline definition. Suitability depends on anatomy, skin quality, medical fitness and expectations.'] },
-      { id: 'assessment', heading: 'Consultation and facial analysis', paragraphs: ['Consultation includes assessment of the face, jawline, neck, skin quality, hairline, scars, facial asymmetry and previous treatments. Medical history, smoking status and medications are important for safety planning.', 'A careful plan distinguishes between skin laxity, deeper tissue descent, fat distribution, volume loss and skin-surface changes because these require different treatments.'] },
-      { id: 'singapore-options', heading: 'Face lift, neck lift and non-surgical options in Singapore', paragraphs: ['Patients often compare face and neck lift surgery with injectables, thread lifting, lasers or device-based skin tightening. These options are not interchangeable. Non-surgical treatments may help selected texture, volume or mild laxity concerns, while surgery is considered when tissue laxity and neck contour changes are more significant.', 'A consultation should define the main problem before choosing treatment. This helps avoid using repeated minor treatments for a concern that is fundamentally surgical, while also avoiding surgery when a smaller or non-surgical approach is more appropriate.'] },
-      { id: 'procedure', heading: 'Surgical approach', paragraphs: ['A face and neck lift may involve incisions around the ear and hairline, lifting and repositioning of deeper tissues, neck contouring and skin redraping. The exact technique depends on anatomy and goals.', 'Adjuncts such as fat grafting, eyelid surgery or skin resurfacing may be discussed for selected patients, but combining procedures increases planning complexity and recovery considerations.'] },
-      { id: 'recovery', heading: 'Recovery after face and neck lift', paragraphs: ['Bruising, swelling, tightness, numbness and scar maturation are expected after surgery. Patients usually need time away from strenuous activity and should follow wound-care instructions closely.', 'Final refinement takes time. Scars usually mature over months and may be positioned to reduce visibility, but they do not disappear completely.'] },
-      { id: 'risks', heading: 'Risks and limitations', paragraphs: ['Risks include bleeding, haematoma, infection, wound healing problems, visible scars, altered sensation, hairline changes, asymmetry, facial nerve weakness, skin loss, prolonged swelling and need for revision surgery. Outcomes vary and continued ageing occurs.'] }
+      {
+        id: 'suitability',
+        heading: 'Who may be suitable for a face and neck lift?',
+        paragraphs: ['Face and neck lift surgery may be considered when there is lower-face laxity, jowling, neck skin laxity, platysmal banding or loss of jawline definition. Suitability depends on anatomy, skin quality, medical fitness and expectations.', 'The operation is usually less appropriate when the main concern is fine skin texture, pigmentation, early volume loss or mild laxity that may be better addressed by non-surgical or skin-focused treatments.']
+      },
+      {
+        id: 'assessment',
+        heading: 'Consultation and facial analysis',
+        paragraphs: ['Consultation includes assessment of the face, jawline, neck, skin quality, hairline, scars, facial asymmetry and previous treatments. Medical history, smoking status and medications are important for safety planning.', 'A careful plan distinguishes between skin laxity, deeper tissue descent, fat distribution, volume loss, platysmal bands and skin-surface changes because these require different treatments. Photographs may be used for documentation and planning.']
+      },
+      {
+        id: 'singapore-options',
+        heading: 'Face lift, neck lift and non-surgical options in Singapore',
+        paragraphs: ['Patients often compare face and neck lift surgery with injectables, thread lifting, lasers or device-based skin tightening. These options are not interchangeable. Non-surgical treatments may help selected texture, volume or mild laxity concerns, while surgery is considered when tissue laxity and neck contour changes are more significant.', 'A consultation should define the main problem before choosing treatment. This helps avoid repeated minor treatments for a concern that is fundamentally surgical, while also avoiding surgery when a smaller or non-surgical approach is more appropriate.']
+      },
+      {
+        id: 'anatomy',
+        heading: 'What a face and neck lift can and cannot address',
+        paragraphs: ['A face and neck lift may improve selected lower-face and neck contour concerns by repositioning deeper tissues and redraping skin. It does not change every sign of facial ageing.', 'Skin pigmentation, fine lines, acne scarring, eyelid heaviness, brow position and midface volume loss may need different treatments or no treatment depending on the patient’s goals. Combining procedures can be considered in selected patients but increases planning complexity and recovery.'],
+        items: ['jowls and jawline soft-tissue descent', 'neck laxity or platysmal banding in selected cases', 'skin excess that cannot be corrected by devices alone', 'selected neck contour concerns where surgery is appropriate']
+      },
+      {
+        id: 'procedure',
+        heading: 'Surgical approach and scar planning',
+        paragraphs: ['A face and neck lift may involve incisions around the ear and hairline, lifting and repositioning of deeper tissues, neck contouring and skin redraping. The exact technique depends on anatomy and goals.', 'Scar placement is planned around hairline, ear anatomy and the direction of tissue movement. Scars usually mature over months and are positioned to reduce visibility where possible, but no surgical scar disappears completely.']
+      },
+      {
+        id: 'recovery',
+        heading: 'Recovery after face and neck lift',
+        paragraphs: ['Bruising, swelling, tightness, numbness and scar maturation are expected after surgery. Patients usually need time away from strenuous activity and should follow wound-care instructions closely.', 'Early swelling and bruising improve gradually, but final refinement takes time. Numbness, firmness and scar redness may continue to change over months. Patients should avoid judging the final result too early.']
+      },
+      {
+        id: 'safety',
+        heading: 'Safety and medical planning',
+        paragraphs: ['Safety planning includes review of blood pressure, bleeding risk, smoking or nicotine exposure, diabetes, medications, supplements and previous procedures. Some patients may need optimisation before elective surgery.', 'Patients should seek prompt medical attention after surgery if they develop rapidly increasing swelling, severe pain, shortness of breath, fever, spreading redness, wound concerns, facial weakness or sudden deterioration.']
+      },
+      {
+        id: 'risks',
+        heading: 'Risks and limitations',
+        paragraphs: ['Risks include bleeding, haematoma, infection, wound healing problems, visible scars, altered sensation, hairline changes, asymmetry, facial nerve weakness, skin loss, prolonged swelling, contour irregularity and need for revision surgery.', 'Outcomes vary and continued ageing occurs. Surgery cannot guarantee symmetry, a particular degree of tightening or a permanent result.']
+      },
+      {
+        id: 'questions',
+        heading: 'Questions to ask before face and neck lift surgery',
+        items: ['Is my main concern skin laxity, deeper tissue descent, neck bands, volume loss or skin quality?', 'Which concerns are likely to improve with surgery and which may not?', 'Where will the scars be placed and how will they mature?', 'What downtime and activity restrictions should I expect?', 'Would a non-surgical treatment, smaller procedure or no treatment be more appropriate?', 'What complications should prompt urgent medical attention?']
+      }
     ],
     faqs: [
-      { question: 'Is a face lift the same as skin tightening?', answer: 'No. A face lift may address deeper tissue laxity as well as skin redraping. Skin quality and surface texture may require separate treatments.' },
+      { question: 'Is a face lift the same as skin tightening?', answer: 'No. A face lift may address deeper tissue laxity as well as skin redraping. Skin quality, pigmentation and surface texture may require separate treatments.' },
       { question: 'Will a face lift change how I look?', answer: 'The aim is usually refreshed facial contour rather than a different identity. The degree of change depends on anatomy, technique and healing.' },
-      { question: 'Can non-surgical treatments replace surgery?', answer: 'Non-surgical treatments can help selected concerns, but they cannot reproduce the tissue repositioning of surgery in patients with significant laxity.' }
+      { question: 'Can non-surgical treatments replace surgery?', answer: 'Non-surgical treatments can help selected concerns, but they cannot reproduce the tissue repositioning and skin redraping of surgery in patients with significant laxity.' },
+      { question: 'Where are face lift scars placed?', answer: 'Scar placement depends on the technique and anatomy, but incisions are commonly planned around the ear and hairline. Scars mature over months and do not disappear completely.' },
+      { question: 'How long is recovery after a face and neck lift?', answer: 'Recovery varies. Bruising, swelling, tightness and numbness are common early changes, while scar maturation and final contour refinement continue over months.' },
+      { question: 'Can a neck lift be done without a face lift?', answer: 'Sometimes. The decision depends on whether the main concern is isolated to the neck or also involves the jawline and lower face. A consultation is needed to assess this properly.' }
     ]
   },
   'lasers-injectables-singapore': {
@@ -306,7 +349,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { id: 'risks', heading: 'Risks and limitations', paragraphs: ['Risks include bruising, swelling, infection, allergic reaction, nodules, asymmetry, overcorrection, undercorrection, pigment change, burns, scarring, vascular compromise with fillers and need for further treatment. Results are variable and not permanent.'] }
     ],
     faqs: [
-      { question: 'Are injectables risk-free because they are non-surgical?', answer: 'No. Injectables are medical procedures and can have complications. Safe treatment depends on anatomy, indication, product choice and technique.' },
+      { question: 'Are injectables low-risk because they are non-surgical?', answer: 'No. Injectables are medical procedures and can have complications. Safe treatment depends on anatomy, indication, product choice and technique.' },
       { question: 'Can lasers treat all pigmentation?', answer: 'No. Pigmentation has different causes. Some pigment can worsen if the diagnosis or settings are inappropriate, especially in darker Asian skin types.' },
       { question: 'How often are treatments needed?', answer: 'This depends on the treatment type, indication, dose, device, skin response and patient goals. Maintenance should be discussed individually.' }
     ]
@@ -322,7 +365,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Fat grafting, also called fat transfer, uses a patient’s own fat to improve selected contour, volume or soft-tissue quality concerns. Fat is usually harvested with liposuction, processed and placed into the target area in small amounts.',
-      'Fat grafting may be used in aesthetic surgery, reconstructive surgery or revision surgery. It is not a guaranteed volume replacement method because some transferred fat may not survive.',
+      'Fat grafting may be used in aesthetic surgery, reconstructive surgery or revision surgery. It is not a fully predictable volume replacement method because some transferred fat may not survive.',
       'The plan depends on donor-site availability, tissue quality, the recipient area, previous surgery or radiotherapy and realistic goals.'
     ],
     sections: [
@@ -335,7 +378,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     faqs: [
       { question: 'Does all transferred fat survive?', answer: 'No. Some fat may be reabsorbed. Survival varies depending on technique, tissue quality, recipient blood supply and individual healing.' },
       { question: 'Can fat grafting replace implants?', answer: 'Sometimes fat grafting can provide modest volume or contour refinement, but it usually cannot match the predictable large-volume change of an implant.' },
-      { question: 'Is fat grafting permanent?', answer: 'Fat that survives may persist, but volume can change with weight change, ageing and individual biology. Results cannot be guaranteed.' }
+      { question: 'Is fat grafting permanent?', answer: 'Fat that survives may persist, but volume can change with weight change, ageing and individual biology. Results vary between individuals.' }
     ]
   },
   'thread-lifting-singapore': {
@@ -443,7 +486,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     faqs: [
       { question: 'Will a plastic surgeon repair leave no scar?', answer: 'No. Any cut through the skin heals with a scar. Careful repair and scar care can help, but scars cannot be eliminated.' },
       { question: 'When should a facial cut be seen?', answer: 'Deep cuts, wounds near the eyelid, lip, nose or eyebrow, bites, contaminated wounds, numbness, weakness or heavy bleeding should be assessed promptly.' },
-      { question: 'Can an old trauma scar be improved?', answer: 'Sometimes. Options depend on scar maturity, location, thickness, colour, tightness and symptoms. Improvement cannot be guaranteed.' }
+      { question: 'Can an old trauma scar be improved?', answer: 'Sometimes. Options depend on scar maturity, location, thickness, colour, tightness and symptoms. The degree of improvement varies between individuals.' }
     ]
   },
   'scar-reconstruction-singapore': {

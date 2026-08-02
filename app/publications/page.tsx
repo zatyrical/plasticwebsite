@@ -13,7 +13,7 @@ const publications = [
 ];
 
 export const metadata: Metadata = {
-  title: 'Selected Publications | Dr Jeremy Sun',
+  title: 'Selected Publications',
   description: 'Selected peer-reviewed publications and academic work by Dr Jeremy Sun across microsurgery, perforator flaps, lower-limb reconstruction and lymphedema surgery.',
   alternates: {
     canonical: '/publications'

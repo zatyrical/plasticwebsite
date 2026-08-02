@@ -39,7 +39,7 @@ const newArticles = procedureArticleList.map((article) => ({
 const articles = [...existingArticles, ...newArticles];
 
 export const metadata: Metadata = {
-  title: 'Educational Articles | Dr Jeremy Sun',
+  title: 'Educational Articles',
   description: 'Patient education articles on aesthetic, reconstructive and lymphatic surgery by Dr Jeremy Sun, Plastic, Reconstructive and Aesthetic Surgeon in Singapore.',
   alternates: {
     canonical: '/blog'

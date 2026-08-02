@@ -5,11 +5,11 @@ import { procedureArticles } from '../procedureArticles';
 const article = procedureArticles['face-neck-lift-singapore'];
 
 export const metadata: Metadata = {
-  title: article.title + ' | Dr Jeremy Sun',
+  title: article.title,
   description: article.description,
   alternates: { canonical: '/face-neck-lift-singapore' },
   openGraph: {
-    title: article.title + ' | Dr Jeremy Sun',
+    title: article.title,
     description: article.description,
     url: '/face-neck-lift-singapore',
     type: 'article'

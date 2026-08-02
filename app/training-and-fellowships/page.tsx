@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Training & International Fellowships | Dr Jeremy Sun',
+  title: 'Training & International Fellowships',
   description: 'International fellowship and mentorship training across lymphatic surgery, aesthetic surgery, rhinoplasty, eyelid surgery, body contouring, breast surgery and facial rejuvenation.',
   alternates: { canonical: '/training-and-fellowships' }
 };

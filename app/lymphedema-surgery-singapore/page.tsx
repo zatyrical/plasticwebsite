@@ -4,7 +4,7 @@ import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 
 export const metadata: Metadata = {
-  title: 'Lymphedema Surgery Singapore | LVA & Lymphatic Surgery | Dr Jeremy Sun',
+  title: 'Lymphedema Surgery Singapore | LVA & Lymphatic Surgery',
   description:
     'Patient information on lymphedema surgery in Singapore, including lymphovenous bypass, cellulitis risk, assessment, suitability, recovery and risks.',
   alternates: {
@@ -233,7 +233,7 @@ export default function LymphedemaSurgeryPage() {
               Dr Sun completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo focused specifically on lymphatic surgery and complex lymphedema care. His lymphatic surgery work is also supported by academic publications and invited speaker experience at local and international conferences.
             </p>
             <p>
-              Patients considering lymphedema surgery should feel comfortable asking their care provider about the nature, duration and focus of their lymphatic surgery training. This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment. These credentials are presented to help patients understand the nature of Dr Sun’s training and clinical focus. They do not imply guaranteed outcomes or that surgery is suitable for every patient.
+              Patients considering lymphedema surgery should feel comfortable asking their care provider about the nature, duration and focus of their lymphatic surgery training. This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment. These credentials are presented to help patients understand the nature of Dr Sun’s training and clinical focus. They do not imply assured outcomes or that surgery is suitable for every patient.
             </p>
 
             <h2 id="education">Further lymphedema education</h2>

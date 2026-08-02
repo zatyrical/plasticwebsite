@@ -94,7 +94,7 @@ const educationAreas = [
 ];
 
 export const metadata: Metadata = {
-  title: 'Media & Education | Dr Jeremy Sun',
+  title: 'Media & Education',
   description: 'Selected media features, expert commentary and public education contributions by Dr Jeremy Sun, Plastic, Reconstructive and Aesthetic Surgeon in Singapore.',
   alternates: {
     canonical: '/media'
