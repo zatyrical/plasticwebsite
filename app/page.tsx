@@ -140,11 +140,6 @@ export default function Home() {
                 <div className="metric"><strong>Aesthetic surgery fellowship</strong><span>American Society for Aesthetic Plastic Surgery travelling fellowship</span></div>
               </div>
             </div>
-            <div className="hero-image-stack" aria-hidden="true">
-              <div className="stack-tile stack-tile-a"><Image src="/images/aesthetic-ai/lasers-injectables.jpg" alt="" width={420} height={420} /></div>
-              <div className="stack-tile stack-tile-b"><Image src="/images/media/cna-lymphedema-interview-screenshot.jpg" alt="" width={1280} height={500} /></div>
-              <div className="stack-tile stack-tile-c"><Image src="/images/dr-jeremy-sun-surgery.jpg" alt="" width={1200} height={1500} /></div>
-            </div>
           </div>
         </div>
       </section>

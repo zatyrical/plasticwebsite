@@ -140,14 +140,6 @@
 .hero h1,.section h2,.article-hero h1{font-family:'Space Grotesk','Sora',Geist,ui-sans-serif,system-ui,sans-serif;text-transform:none;letter-spacing:-.085em}
 .hero-visual-stage{isolation:isolate;min-height:650px}
 .hero-main-portrait{position:relative;z-index:2;max-width:410px;margin-left:auto;border-radius:42px;transform:translateX(-10px);box-shadow:0 34px 90px rgba(7,17,15,.24)}
-.hero-image-stack{position:absolute;inset:0;z-index:3;pointer-events:none}
-.stack-tile{position:absolute;overflow:hidden;border-radius:26px;background:#07110f;box-shadow:0 24px 70px rgba(7,17,15,.22),0 0 0 1px rgba(255,255,255,.38);animation:float-card 8s ease-in-out infinite alternate}
-.stack-tile img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(.94) contrast(1.05)}
-.stack-tile-a{width:178px;height:178px;left:8px;top:62px;transform:rotate(-5deg);animation-delay:-1s}
-.stack-tile-b{width:270px;height:112px;right:-8px;top:22px;border-radius:22px;animation-delay:-3s}
-.stack-tile-b img{object-fit:contain;background:#090d0d}
-.stack-tile-c{width:184px;height:230px;left:0;bottom:112px;transform:rotate(4deg);animation-delay:-5s}
-@keyframes float-card{from{translate:0 0}to{translate:0 -12px}}
 .section{position:relative;overflow:hidden}
 .section:where(:not(.dark)):not(.media-home-section){background:linear-gradient(180deg,#fbfaf7 0%,#f6f2eb 100%)}
 .section.dark{background:radial-gradient(circle at 12% 14%,rgba(67,189,198,.16),transparent 28%),radial-gradient(circle at 92% 20%,rgba(184,154,94,.16),transparent 24%),linear-gradient(135deg,#06100e 0%,#102b26 52%,#07110f 100%)}
@@ -185,7 +177,7 @@
   .training-showcase{grid-template-columns:1fr;gap:14px;margin-top:16px}.training-image-strip{grid-template-columns:repeat(3,1fr);grid-template-rows:72px;gap:8px}.training-image-strip div:first-child{grid-row:auto}.training-image-strip div{border-radius:16px}
 }
 @media(prefers-reduced-motion:reduce){
-  .mobile-screen,.mobile-transition,.aesthetic-photo-card,.about-image-card,.focus-card,.media-visual-card,.training-image-strip div,.blog-card,.compliance,.stack-tile{animation:none!important;transition:none!important;filter:none!important;transform:none!important;translate:none!important}
+  .mobile-screen,.mobile-transition,.aesthetic-photo-card,.about-image-card,.focus-card,.media-visual-card,.training-image-strip div,.blog-card,.compliance{animation:none!important;transition:none!important;filter:none!important;transform:none!important;translate:none!important}
 }
 /* Strong homepage segmentation: clearer NIMAS-like section breaks without forced snap scrolling */
 .segmented-section{
