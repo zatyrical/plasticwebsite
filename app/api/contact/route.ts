@@ -48,10 +48,13 @@ export async function POST(request: NextRequest) {
   }
 
   const apiKey = process.env.RESEND_API_KEY;
-  const toEmail = process.env.CONTACT_TO_EMAIL;
-  const fromEmail = process.env.CONTACT_FROM_EMAIL || 'Dr Sun Plastic Surgery <onboarding@resend.dev>';
+  const toEmails = (process.env.CONTACT_TO_EMAIL || '')
+    .split(',')
+    .map((item) => item.trim())
+    .filter(Boolean);
+  const fromEmail = process.env.CONTACT_FROM_EMAIL || 'Dr Jeremy Sun Website <onboarding@resend.dev>';
 
-  if (!apiKey || !toEmail) {
+  if (!apiKey || !toEmails.length) {
     return NextResponse.json({ error: 'The enquiry form is not configured yet. Please try again later.' }, { status: 503 });
   }
 
@@ -59,7 +62,7 @@ export async function POST(request: NextRequest) {
   const ip = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim() || 'Not available';
 
   const html = `
-    <h2>New website enquiry</h2>
+    <h2>New Astrid / Dr Jeremy Sun website enquiry</h2>
     <p><strong>Submitted:</strong> ${escapeHtml(submittedAt)}</p>
     <p><strong>Name:</strong> ${escapeHtml(name)}</p>
     <p><strong>Email:</strong> ${escapeHtml(email)}</p>
@@ -68,23 +71,29 @@ export async function POST(request: NextRequest) {
     <p><strong>Message:</strong></p>
     <p>${escapeHtml(message).replaceAll('\n', '<br />')}</p>
     <hr />
-    <p style="color:#667; font-size:12px;">Source: Dr Sun Plastic Surgery website enquiry form. IP: ${escapeHtml(ip)}</p>
+    <p style="color:#667; font-size:12px;">Source: drjeremysun.com enquiry form. IP: ${escapeHtml(ip)}</p>
   `;
 
-  const resendResponse = await fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      from: fromEmail,
-      to: [toEmail],
-      reply_to: email,
-      subject: `Website enquiry: ${enquiryType}`,
-      html
-    })
-  });
+  let resendResponse: Response;
+  try {
+    resendResponse = await fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        from: fromEmail,
+        to: toEmails,
+        reply_to: email,
+        subject: `Astrid website enquiry: ${enquiryType}`,
+        html
+      })
+    });
+  } catch (error) {
+    console.error('Resend email request failed', error);
+    return NextResponse.json({ error: 'The enquiry could not be sent. Please try again later.' }, { status: 502 });
+  }
 
   if (!resendResponse.ok) {
     console.error('Resend email failed', await resendResponse.text());
