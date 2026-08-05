@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
+import { lastReviewedIso } from '../seoIdentity';
 
 export const metadata: Metadata = {
   title: 'Lymphedema Surgery Singapore | LVA & Lymphatic Surgery',
@@ -103,6 +104,10 @@ export default function LymphedemaSurgeryPage() {
             <p className="notice-text">
               This page provides general information on lymphedema surgery and should not replace a consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.
             </p>
+            <div className="reviewer-card" aria-label="Medical review information">
+              <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
+              <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
+            </div>
 
             <h2 id="what-is-lymphedema">What is lymphedema?</h2>
             <p>

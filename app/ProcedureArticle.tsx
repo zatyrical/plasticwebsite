@@ -3,12 +3,11 @@ import Navigation from './Navigation';
 import ContactForm from './ContactForm';
 import type { ProcedureArticle } from './procedureArticles';
 import { procedureArticleList } from './procedureArticles';
+import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from './seoIdentity';
 
 type Props = {
   article: ProcedureArticle;
 };
-
-const baseUrl = 'https://www.drjeremysun.com';
 
 const establishedArticles = [
   {
@@ -92,19 +91,7 @@ export default function ProcedureArticlePage({ article }: Props) {
           }
         ]
       },
-      {
-        '@type': 'Physician',
-        '@id': `${baseUrl}/#dr-jeremy-sun`,
-        name: 'Dr Jeremy Sun',
-        url: baseUrl,
-        image: `${baseUrl}/images/dr-jeremy-sun-hero.jpg`,
-        medicalSpecialty: ['PlasticSurgery', 'Surgical'],
-        address: {
-          '@type': 'PostalAddress',
-          addressCountry: 'SG',
-          addressLocality: 'Singapore'
-        }
-      },
+      physicianJsonLd,
       {
         '@type': 'MedicalWebPage',
         '@id': `${articleUrl}#webpage`,
@@ -119,9 +106,12 @@ export default function ProcedureArticlePage({ article }: Props) {
           url: baseUrl
         },
         about: article.keywords,
-        reviewedBy: { '@id': `${baseUrl}/#dr-jeremy-sun` },
-        author: { '@id': `${baseUrl}/#dr-jeremy-sun` },
-        publisher: { '@id': `${baseUrl}/#dr-jeremy-sun` }
+        datePublished: lastReviewedIso,
+        dateModified: lastReviewedIso,
+        lastReviewed: lastReviewedIso,
+        reviewedBy: { '@id': physicianId },
+        author: { '@id': physicianId },
+        publisher: { '@id': physicianId }
       }
     ]
   };
@@ -168,6 +158,10 @@ export default function ProcedureArticlePage({ article }: Props) {
             <p className="notice-text">
               This page provides general information and should not replace consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.
             </p>
+            <div className="reviewer-card" aria-label="Medical review information">
+              <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
+              <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
+            </div>
 
             {article.sections.map((section) => (
               <section key={section.id}>

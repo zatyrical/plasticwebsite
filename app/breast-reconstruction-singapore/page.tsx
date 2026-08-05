@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
+import { lastReviewedIso } from '../seoIdentity';
 
 export const metadata: Metadata = {
   title: 'Breast Reconstruction Singapore | Implant & DIEP Flap',
@@ -123,6 +124,10 @@ export default function BreastReconstructionPage() {
             <p className="notice-text">
               This page provides general information and should not replace consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.
             </p>
+            <div className="reviewer-card" aria-label="Medical review information">
+              <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
+              <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
+            </div>
 
             <h2 id="when-considered">When may breast reconstruction be considered?</h2>
             <p>Breast reconstruction may be considered for patients who have had, or are planning to undergo, breast surgery such as:</p>

@@ -1,0 +1,57 @@
+export const baseUrl = 'https://www.drjeremysun.com';
+
+export const physicianId = `${baseUrl}/#physician`;
+
+export const lastReviewedIso = '2026-08-05';
+
+export const physicianSameAs = [
+  'https://www.cgh.com.sg/profile/Sun-Mingfa-Jeremy',
+  'https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy',
+  'https://lymphedasia.com/dr-jeremy-sun/',
+  'https://lymphedasia.com/dr-jeremy-sun-mingfa/'
+];
+
+export const physicianJsonLd = {
+  '@type': 'Physician',
+  '@id': physicianId,
+  name: 'Dr Jeremy Sun',
+  alternateName: ['Dr Sun Mingfa Jeremy', 'Sun Mingfa Jeremy'],
+  url: baseUrl,
+  image: `${baseUrl}/images/dr-jeremy-sun-hero.jpg`,
+  jobTitle: 'Senior Consultant Plastic Surgeon',
+  medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery', 'CosmeticSurgery'],
+  sameAs: physicianSameAs,
+  address: {
+    '@type': 'PostalAddress',
+    addressCountry: 'SG',
+    addressLocality: 'Singapore'
+  },
+  areaServed: {
+    '@type': 'Country',
+    name: 'Singapore'
+  },
+  knowsAbout: [
+    'Aesthetic surgery',
+    'Reconstructive microsurgery',
+    'Scar reconstruction',
+    'Lymphedema surgery',
+    'Lymphatic surgery',
+    'Lymphovenous bypass',
+    'Body contouring',
+    'Liposuction',
+    'Breast surgery',
+    'Breast reconstruction',
+    'Rhinoplasty',
+    'Asian rhinoplasty',
+    'Eyelid surgery',
+    'Asian blepharoplasty',
+    'Face and neck lift',
+    'Lasers and injectables',
+    'Fat grafting',
+    'Thread lifting'
+  ],
+  affiliation: [
+    { '@type': 'Organization', name: 'Changi General Hospital', url: 'https://www.cgh.com.sg' },
+    { '@type': 'CollegeOrUniversity', name: 'Duke-NUS Medical School', url: 'https://www.duke-nus.edu.sg' }
+  ]
+};
