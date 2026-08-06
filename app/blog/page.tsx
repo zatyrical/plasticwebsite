@@ -4,6 +4,12 @@ import { procedureArticleList } from '../procedureArticles';
 
 const existingArticles = [
   {
+    title: 'Choosing a lymphedema surgeon in Singapore',
+    href: '/how-to-choose-lymphedema-surgeon-singapore',
+    category: 'Lymphedema',
+    description: 'Questions patients can ask about dedicated training, ICG lymphography, ultrasound localisation and treatment planning.'
+  },
+  {
     title: 'Lymphovenous bypass / LVA surgery in Singapore',
     href: '/lymphovenous-bypass-lva-surgery-singapore',
     category: 'LVA surgery',

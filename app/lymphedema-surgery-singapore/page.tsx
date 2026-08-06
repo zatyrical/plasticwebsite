@@ -86,6 +86,7 @@ export default function LymphedemaSurgeryPage() {
                 <li><a href="#when-surgery">When surgery may be considered</a></li>
                 <li><a href="#types">Types of surgery</a></li>
                 <li><a href="#training">Dedicated training</a></li>
+                <li><Link href="/how-to-choose-lymphedema-surgeon-singapore">Choosing a surgeon</Link></li>
                 <li><a href="#education">Further education</a></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
@@ -238,7 +239,13 @@ export default function LymphedemaSurgeryPage() {
               Dr Sun completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo focused specifically on lymphatic surgery and complex lymphedema care. His lymphatic surgery work is also supported by academic publications and invited speaker experience at local and international conferences.
             </p>
             <p>
-              Patients considering lymphedema surgery should feel comfortable asking their care provider about the nature, duration and focus of their lymphatic surgery training. This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment. These credentials are presented to help patients understand the nature of Dr Sun’s training and clinical focus. They do not imply assured outcomes or that surgery is suitable for every patient.
+              Patients considering lymphedema surgery should feel comfortable asking their care provider about the nature, duration and focus of their lymphatic surgery training. This may include asking whether the surgeon has had several months of dedicated lymphatic surgery training, and whether that training included ICG lymphography, ultrasound localisation of lymphatic channels, LVA, lymph node transfer, reductive options, compression planning and cellulitis management.
+            </p>
+            <p>
+              A dedicated article on <Link href="/how-to-choose-lymphedema-surgeon-singapore">how to choose a lymphedema surgeon in Singapore</Link> outlines practical questions patients can ask before deciding where to seek assessment.
+            </p>
+            <p>
+              This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment. These credentials are presented to help patients understand the nature of Dr Sun’s training and clinical focus. They do not imply assured outcomes or that surgery is suitable for every patient.
             </p>
 
             <h2 id="education">Further lymphedema education</h2>

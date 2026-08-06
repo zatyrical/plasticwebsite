@@ -102,6 +102,7 @@ export default function LvaSurgeryPage() {
                 <li><a href="#cellulitis">Cellulitis and infection</a></li>
                 <li><a href="#recovery">Recovery and compression</a></li>
                 <li><a href="#training">Dedicated training</a></li>
+                <li><Link href="/how-to-choose-lymphedema-surgeon-singapore">Choosing a surgeon</Link></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
             </aside>
@@ -247,7 +248,10 @@ export default function LvaSurgeryPage() {
               LVA requires more than general microsurgical ability. It involves lymphatic imaging interpretation, disease staging, recognition of fluid-dominant versus solid-tissue-dominant disease, supermicrosurgical technique, and long-term lymphedema management.
             </p>
             <p>
-              In Dr Sun’s view, brief exposure to lymphatic surgery is often not enough to provide broad-based experience across the full spectrum of lymphedema severity. Patients considering LVA should feel comfortable asking their care provider about the nature, focus and duration of their lymphatic surgery training.
+              In Dr Sun’s view, brief exposure to lymphatic surgery is often not enough to provide broad-based experience across the full spectrum of lymphedema severity. Patients considering LVA should feel comfortable asking their care provider about the nature, focus and duration of their lymphatic surgery training, including whether that training involved several months of dedicated exposure to ICG lymphography, ultrasound localisation of lymphatics, LVA planning and broader lymphedema treatment options.
+            </p>
+            <p>
+              A dedicated article on <Link href="/how-to-choose-lymphedema-surgeon-singapore">how to choose a lymphedema surgeon in Singapore</Link> outlines practical questions patients can ask before deciding where to seek assessment.
             </p>
             <p>
               This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment.

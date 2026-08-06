@@ -5,6 +5,7 @@ const baseUrl = 'https://www.drjeremysun.com';
 
 const coreRoutes = [
   { path: '', priority: 1, changeFrequency: 'weekly' as const },
+  { path: '/how-to-choose-lymphedema-surgeon-singapore', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/lymphedema-surgery-singapore', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/lymphovenous-bypass-lva-surgery-singapore', priority: 0.85, changeFrequency: 'monthly' as const },
   { path: '/breast-reconstruction-singapore', priority: 0.85, changeFrequency: 'monthly' as const },
