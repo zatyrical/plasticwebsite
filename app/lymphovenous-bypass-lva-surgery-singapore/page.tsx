@@ -7,7 +7,7 @@ import { lastReviewedIso } from '../seoIdentity';
 export const metadata: Metadata = {
   title: 'LVA Surgery Singapore | Lymphovenous Bypass',
   description:
-    'Patient information on lymphovenous bypass and LVA surgery in Singapore, including suitability, imaging, recovery, cellulitis risk and compression after surgery.',
+    'Patient information on supermicrosurgical lymphovenous bypass and LVA surgery in Singapore, including imaging, ultrasound localisation, recovery and cellulitis risk.',
   alternates: {
     canonical: '/lymphovenous-bypass-lva-surgery-singapore'
   },
@@ -87,7 +87,7 @@ export default function LvaSurgeryPage() {
               <div className="eyebrow">Lymphovenous bypass</div>
               <h1>Lymphovenous Bypass / LVA Surgery in Singapore</h1>
               <p className="lead">
-                Patient information on LVA surgery, suitability, imaging, recovery, cellulitis risk and compression after surgery.
+                Patient information on supermicrosurgical LVA surgery, suitability, imaging, ultrasound localisation, recovery, cellulitis risk and compression after surgery.
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about LVA assessment</a>
@@ -112,13 +112,13 @@ export default function LvaSurgeryPage() {
         <section className="section article-content">
           <div className="container article-narrow">
             <p>
-              Lymphovenous bypass, also known as lymphaticovenular anastomosis or LVA, is a supermicrosurgical procedure used in selected patients with lymphedema. It involves connecting tiny lymphatic channels to nearby small veins, creating alternative drainage pathways for lymphatic fluid.
+              Lymphovenous bypass, also known as lymphaticovenular anastomosis or LVA, is a supermicrosurgical procedure used in selected patients with lymphedema. It involves connecting tiny lymphatic channels to nearby small veins, creating alternative drainage pathways for lymphatic fluid. These vessels are often less than a millimetre in diameter, which is why LVA requires specialised supermicrosurgical training and careful pre-operative localisation.
             </p>
             <p>
               LVA is one of the main physiological operations used in lymphatic surgery. It aims to improve lymphatic drainage rather than remove tissue. In appropriately selected patients, it may help reduce swelling, heaviness, recurrent cellulitis or infection frequency, and dependence on compression garments. Outcomes vary between individuals, and careful assessment is required before any recommendation can be made.
             </p>
             <p>
-              Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo focused specifically on lymphatic surgery and complex lymphedema care.
+              Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo focused specifically on lymphatic surgery, supermicrosurgical LVA and complex lymphedema care.
             </p>
             <p className="notice-text">
               This page provides general information on LVA surgery and should not replace a consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.
@@ -136,6 +136,16 @@ export default function LvaSurgeryPage() {
               The operation is usually performed through small incisions. The number and location of bypasses depend on the patient’s lymphatic imaging, limb condition and operative findings.
             </p>
             <p>LVA may also be called lymphovenous bypass, lymphaticovenular anastomosis, lymphovenous anastomosis or lymphatic bypass surgery.</p>
+
+            <figure className="article-clinical-figure">
+              <img
+                src="/images/lva-supermicrosurgical-anastomosis.jpg"
+                alt="Intraoperative supermicrosurgical lymphovenous bypass showing tiny lymphatic and venous structures prepared for LVA"
+              />
+              <figcaption>
+                Supermicrosurgical LVA involves working with very small lymphatic channels and venules under high magnification. This type of surgery requires specialised fellowship-level training, careful imaging interpretation and precise localisation of suitable lymphatics before the incision is made.
+              </figcaption>
+            </figure>
 
             <h2 id="suitability">Who may be suitable for LVA?</h2>
             <p>
@@ -199,7 +209,7 @@ export default function LvaSurgeryPage() {
               <li>lymphatic imaging where appropriate</li>
             </ul>
             <p>
-              Imaging may include indocyanine green lymphography, lymphoscintigraphy or other investigations depending on availability and clinical need. Imaging helps identify whether lymphatic channels are present, how they function, and where bypasses may be planned.
+              Imaging may include indocyanine green lymphography, high-frequency ultrasound, lymphoscintigraphy or other investigations depending on availability and clinical need. Imaging helps identify whether lymphatic channels are present, how they function, and where bypasses may be planned. Ultrasound localisation is particularly useful for mapping small veins, identifying suitable lymphatic channels or fluid planes, and planning accurate incision sites for supermicrosurgical LVA.
             </p>
 
             <h2>What happens during LVA surgery?</h2>
@@ -207,7 +217,7 @@ export default function LvaSurgeryPage() {
               The exact operative plan is individualised. In general, LVA involves identifying suitable lymphatic channels and small veins, making small skin incisions over planned areas, using high magnification to connect lymphatic channels to venules, creating one or more bypasses depending on the patient’s anatomy, and closing the small incisions with dressings.
             </p>
             <p>
-              Because the vessels are extremely small, LVA requires supermicrosurgical technique and experience in lymphatic anatomy and imaging interpretation.
+              Because the vessels are extremely small, LVA requires supermicrosurgical technique, ultrasound-guided localisation where appropriate, and experience in lymphatic anatomy and imaging interpretation.
             </p>
 
             <h2 id="recovery">Recovery and compression after LVA</h2>
@@ -245,7 +255,10 @@ export default function LvaSurgeryPage() {
 
             <h2 id="training">Why dedicated lymphatic surgery training matters</h2>
             <p>
-              LVA requires more than general microsurgical ability. It involves lymphatic imaging interpretation, disease staging, recognition of fluid-dominant versus solid-tissue-dominant disease, supermicrosurgical technique, and long-term lymphedema management.
+              LVA requires more than general microsurgical ability. It involves lymphatic imaging interpretation, ultrasound localisation of suitable lymphatics and veins, disease staging, recognition of fluid-dominant versus solid-tissue-dominant disease, supermicrosurgical technique, and long-term lymphedema management.
+            </p>
+            <p>
+              The technical work is performed on vessels that may be smaller than those encountered in standard microsurgical reconstruction. Fellowship-level exposure to supermicrosurgical LVA helps a surgeon understand how to select incision sites, handle fragile lymphatic channels, choose suitable recipient venules, and decide when another lymphatic procedure or reductive strategy may be more appropriate.
             </p>
             <p>
               In Dr Sun’s view, brief exposure to lymphatic surgery is often not enough to provide broad-based experience across the full spectrum of lymphedema severity. Patients considering LVA should feel comfortable asking their care provider about the nature, focus and duration of their lymphatic surgery training, including whether that training involved several months of dedicated exposure to ICG lymphography, ultrasound localisation of lymphatics, LVA planning and broader lymphedema treatment options.

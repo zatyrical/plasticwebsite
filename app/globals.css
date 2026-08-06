@@ -593,3 +593,7 @@
     clip-path:none!important;
   }
 }
+.article-clinical-figure{margin:38px 0 48px;border-radius:28px;overflow:hidden;background:#07110f;box-shadow:0 24px 70px rgba(16,32,29,.16),0 0 0 1px rgba(16,32,29,.10)}
+.article-clinical-figure img{display:block;width:100%;max-height:620px;object-fit:cover;object-position:center 47%;filter:saturate(.96) contrast(1.03)}
+.article-clinical-figure figcaption{margin:0;padding:18px 20px;background:linear-gradient(135deg,rgba(255,255,255,.97),rgba(243,240,234,.92));color:#31413d;font-size:14px;line-height:1.55;border-top:1px solid rgba(184,154,94,.24)}
+@media(max-width:900px){.article-clinical-figure{margin:28px 0 36px;border-radius:20px}.article-clinical-figure img{max-height:500px}.article-clinical-figure figcaption{padding:15px 16px;font-size:13px}}
