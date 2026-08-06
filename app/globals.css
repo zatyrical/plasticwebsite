@@ -61,6 +61,11 @@
 .reconstructive-photo-overlay h3{font-size:clamp(20px,1.65vw,28px)}
 .reconstructive-photo-overlay span{color:#ead7a8}
 .reconstructive-photo-card:hover img{transform:scale(1.045);filter:saturate(1.04) contrast(1.04)}
+.signature-photo-grid{grid-template-columns:repeat(3,minmax(0,1fr));max-width:980px}
+.section-actions{display:flex;margin-top:28px;gap:12px;flex-wrap:wrap}
+.section.dark .section-actions .btn-ghost{background:rgba(255,255,255,.10);color:white;box-shadow:0 0 0 1px rgba(255,255,255,.18)}
+.treatment-listing-section{padding:84px 0 112px}
+.treatment-listing-grid{margin-top:28px}
 @media(max-width:900px){
   .aesthetic-photo-grid,.reconstructive-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
   .aesthetic-photo-card{min-height:0;aspect-ratio:1/1.05;border-radius:16px}

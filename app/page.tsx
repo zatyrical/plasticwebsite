@@ -2,28 +2,7 @@ import Image from 'next/image';
 import ContactForm from './ContactForm';
 import Navigation from './Navigation';
 import { physicianJsonLd } from './seoIdentity';
-
-const aesthetic = [
-  { title: 'Body contouring & liposuction', href: '/body-contouring-liposuction-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused body contouring image showing waist and abdominal contour' },
-  { title: 'Breast aesthetic surgery', href: '/breast-aesthetic-surgery-singapore', image: '/images/aesthetic-ai/breast-aesthetic.jpg', alt: 'Tasteful inframammary fold and upper abdomen concept image for breast aesthetic surgery' },
-  { title: 'Asian rhinoplasty', href: '/asian-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image for rhinoplasty' },
-  { title: 'Eyelid surgery', href: '/asian-eyelid-surgery-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Asian eyelid image with surgical planning markings' },
-  { title: 'Face and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Asian lower face, jawline and neck image for face and neck lift' },
-  { title: 'Lasers and injectables', href: '/lasers-injectables-singapore', image: '/images/aesthetic-ai/lasers-injectables.jpg', alt: 'Asian facial skin image with aesthetic laser handpiece' },
-  { title: 'Fat grafting', href: '/fat-grafting-singapore', image: '/images/aesthetic-ai/fat-grafting.jpg', alt: 'Clinical tray image representing fat grafting precision' },
-  { title: 'Thread lifting', href: '/thread-lifting-singapore', image: '/images/aesthetic-ai/thread-lifting.jpg', alt: 'Asian cheek and jawline image with subtle thread lift guide lines' }
-];
-
-const reconstruction = [
-  { title: 'Breast reconstruction', href: '/breast-reconstruction-singapore', image: '/images/reconstructive-tiles/breast-reconstruction.jpg', alt: 'Silicone breast implant image representing breast reconstruction surgery' },
-  { title: 'Lymphedema surgery', href: '/lymphedema-surgery-singapore', image: '/images/reconstructive-tiles/lymphedema-surgery.jpg', alt: 'Swollen arm image representing lymphedema surgery' },
-  { title: 'Lymphovenous bypass / LVA', href: '/lymphovenous-bypass-lva-surgery-singapore', image: '/images/reconstructive-tiles/lva-surgery.jpg', alt: 'Microsurgery instrument image representing lymphovenous bypass and LVA surgery' },
-  { title: 'Lower limb reconstruction', href: '/lower-limb-reconstruction-singapore', image: '/images/reconstructive-tiles/lower-limb-reconstruction.jpg', alt: 'Leg image representing lower limb reconstruction' },
-  { title: 'Head and neck reconstruction', href: '/head-neck-reconstruction-singapore', image: '/images/reconstructive-tiles/head-neck-reconstruction.jpg', alt: 'Face image representing head and neck reconstruction' },
-  { title: 'Trauma and lacerations', href: '/trauma-lacerations-singapore', image: '/images/reconstructive-tiles/trauma-lacerations.jpg', alt: 'Face with subtle scar image representing trauma and laceration reconstruction' },
-  { title: 'Scar reconstruction', href: '/scar-reconstruction-singapore', image: '/images/reconstructive-tiles/scar-reconstruction.jpg', alt: 'Keloid scar image representing scar reconstruction' },
-  { title: 'Gender-affirming chest reconstruction', href: '/gender-affirming-chest-reconstruction-singapore', image: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.jpg', alt: 'Chest binder image representing gender-affirming chest reconstruction' }
-];
+import { aestheticSignatureTreatments, reconstructiveSignatureTreatments } from './treatmentTiles';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -120,25 +99,27 @@ export default function Home() {
 
       <section id="aesthetic-surgery" className="section dark segmented-section segment-aesthetic mobile-screen">
         <div className="container">
-          <div className="eyebrow">Clinical focus areas</div>
+          <div className="eyebrow">Signature treatments</div>
           <h2>Aesthetic surgery</h2>
-          <p className="section-intro">Focused procedure pages for patients considering aesthetic surgery.</p>
-          <div className="grid-3 focus-grid aesthetic-photo-grid">{aesthetic.map((x) => {
+          <p className="section-intro">A focused selection of aesthetic procedures within Dr Sun’s practice.</p>
+          <div className="grid-3 focus-grid aesthetic-photo-grid signature-photo-grid">{aestheticSignatureTreatments.map((x) => {
             const content = <><Image src={x.image} alt={x.alt} width={720} height={720} /><div className="aesthetic-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
             return x.href ? <a className="card linked-card focus-card aesthetic-photo-card" href={x.href} key={x.title}>{content}</a> : <div className="card focus-card aesthetic-photo-card" key={x.title}>{content}</div>;
           })}</div>
+          <div className="section-actions"><a href="/aesthetic-surgery" className="btn btn-primary">View all aesthetic treatments</a></div>
         </div>
       </section>
 
       <section id="reconstructive-surgery" className="section segmented-section segment-reconstructive mobile-screen mobile-transition">
         <div className="container">
-          <div className="eyebrow">Reconstructive practice</div>
+          <div className="eyebrow">Signature treatments</div>
           <h2>Reconstructive surgery</h2>
-          <p className="section-intro">Breast, lymphatic, microsurgical and trauma reconstruction.</p>
-          <div className="grid-3 focus-grid reconstructive-photo-grid">{reconstruction.map((x) => {
-            const content = <><Image src={x.image} alt={x.alt} width={720} height={720} loading="eager" sizes="(max-width: 900px) 50vw, 25vw" /><div className="aesthetic-photo-overlay reconstructive-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
+          <p className="section-intro">Focused reconstructive, lymphatic and scar surgery areas within Dr Sun’s practice.</p>
+          <div className="grid-3 focus-grid reconstructive-photo-grid signature-photo-grid">{reconstructiveSignatureTreatments.map((x) => {
+            const content = <><Image src={x.image} alt={x.alt} width={720} height={720} loading="eager" sizes="(max-width: 900px) 50vw, 33vw" /><div className="aesthetic-photo-overlay reconstructive-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
             return x.href ? <a className="card linked-card focus-card aesthetic-photo-card reconstructive-photo-card" href={x.href} key={x.title}>{content}</a> : <div className="card focus-card aesthetic-photo-card reconstructive-photo-card" key={x.title}>{content}</div>;
           })}</div>
+          <div className="section-actions"><a href="/reconstructive-surgery" className="btn btn-primary">View all reconstructive treatments</a></div>
         </div>
       </section>
 
