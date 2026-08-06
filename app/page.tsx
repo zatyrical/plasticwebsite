@@ -78,7 +78,7 @@ export default function Home() {
         <div className="container hero-grid">
           <div>
             <div className="eyebrow">Senior Consultant Plastic, Reconstructive & Aesthetic Surgeon • Singapore</div>
-            <h1>Precision surgery with an academic foundation.</h1>
+            <h1>Rooted in science. Refined by art.</h1>
             <p className="lead">Aesthetic surgery, reconstructive microsurgery and lymphatic surgery in Singapore.</p>
             <div className="hero-actions">
               <a href="#aesthetic-surgery" className="btn btn-primary">Explore procedures</a>
