@@ -600,53 +600,78 @@
 .segmented-section .signature-eyebrow{
   position:relative;
   display:inline-flex;
-  align-items:center;
+  flex-direction:column;
+  align-items:flex-start;
   isolation:isolate;
-  margin-bottom:18px;
-  padding:12px 20px 11px;
-  border-radius:999px;
-  font-family:'Space Grotesk','Sora',Geist,ui-sans-serif,system-ui,sans-serif;
-  font-size:clamp(18px,2.1vw,30px);
-  line-height:1;
-  font-weight:800;
-  letter-spacing:.02em;
-  text-transform:uppercase;
-  color:#fff6df;
-  background:linear-gradient(135deg,rgba(184,154,94,.98),rgba(238,210,142,.92) 46%,rgba(14,58,51,.92));
-  border:1px solid rgba(255,246,223,.55);
-  box-shadow:0 18px 46px rgba(184,154,94,.22),0 0 0 7px rgba(184,154,94,.10),inset 0 1px 0 rgba(255,255,255,.36);
-  text-shadow:0 2px 12px rgba(7,17,15,.34);
-  overflow:hidden;
+  margin:0 0 18px;
+  padding:0 0 14px;
+  border-radius:0;
+  background:transparent;
+  border:0;
+  box-shadow:none;
+  color:inherit;
+  overflow:visible;
 }
 .segmented-section .signature-eyebrow:before{
   content:"";
   position:absolute;
-  inset:-40% auto -40% -28%;
-  width:38%;
-  transform:skewX(-18deg);
-  background:linear-gradient(90deg,transparent,rgba(255,255,255,.54),transparent);
-  animation:signature-shine 3.8s ease-in-out infinite;
+  left:-10px;
+  right:-34px;
+  bottom:1px;
+  height:12px;
+  border-radius:999px;
+  background:linear-gradient(90deg,rgba(184,154,94,.92),rgba(238,210,142,.72),transparent 88%);
+  opacity:.95;
+  transform:rotate(-1deg);
+  box-shadow:0 10px 30px rgba(184,154,94,.22);
   pointer-events:none;
 }
 .segmented-section .signature-eyebrow:after{
   content:"";
   position:absolute;
-  left:18px;
-  right:18px;
-  bottom:-8px;
-  height:2px;
+  left:-18px;
+  top:50%;
+  width:clamp(76px,9vw,132px);
+  height:clamp(76px,9vw,132px);
   border-radius:999px;
-  background:linear-gradient(90deg,transparent,#fff0bd,transparent);
-  opacity:.82;
+  background:radial-gradient(circle,rgba(184,154,94,.18),transparent 68%);
+  transform:translateY(-50%);
+  z-index:-1;
+  pointer-events:none;
 }
-.segment-aesthetic .signature-eyebrow{transform:rotate(-1deg)}
-.segment-reconstructive .signature-eyebrow{transform:rotate(.8deg)}
-@keyframes signature-shine{0%,56%{left:-36%;opacity:0}68%{opacity:.95}88%,100%{left:116%;opacity:0}}
+.signature-script{
+  display:block;
+  font-family:Georgia,'Times New Roman',serif;
+  font-style:italic;
+  font-weight:500;
+  font-size:clamp(58px,7.8vw,126px);
+  line-height:.72;
+  letter-spacing:-.105em;
+  text-transform:none;
+  color:#ead7a8;
+  text-shadow:0 18px 40px rgba(0,0,0,.28);
+}
+.segment-reconstructive .signature-script{color:#856c34;text-shadow:0 14px 32px rgba(184,154,94,.18)}
+.signature-kicker{
+  display:inline-flex;
+  margin:18px 0 0 6px;
+  font-family:'Space Grotesk','Sora',Geist,ui-sans-serif,system-ui,sans-serif;
+  font-size:clamp(13px,1.25vw,18px);
+  line-height:1;
+  font-weight:800;
+  letter-spacing:.32em;
+  text-transform:uppercase;
+  color:#fff6df;
+  background:linear-gradient(135deg,rgba(14,58,51,.94),rgba(184,154,94,.92));
+  border:1px solid rgba(255,246,223,.42);
+  border-radius:999px;
+  padding:9px 12px 8px 15px;
+  box-shadow:0 14px 34px rgba(16,32,29,.16),inset 0 1px 0 rgba(255,255,255,.24);
+}
+.segment-reconstructive .signature-kicker{background:linear-gradient(135deg,rgba(14,58,51,.95),rgba(184,154,94,.86));color:#fff8e7}
 @media(max-width:900px){
-  .segmented-section .signature-eyebrow{
-    margin-bottom:10px;
-    padding:10px 14px 9px;
-    font-size:clamp(17px,5.4vw,24px);
-    box-shadow:0 12px 32px rgba(184,154,94,.20),0 0 0 5px rgba(184,154,94,.10),inset 0 1px 0 rgba(255,255,255,.34);
-  }
+  .segmented-section .signature-eyebrow{margin-bottom:8px;padding-bottom:10px}
+  .segmented-section .signature-eyebrow:before{left:-5px;right:-18px;height:8px;bottom:0}
+  .signature-script{font-size:clamp(46px,16vw,72px);line-height:.74;letter-spacing:-.095em}
+  .signature-kicker{margin-top:13px;margin-left:3px;font-size:clamp(10px,3.2vw,13px);letter-spacing:.24em;padding:7px 9px 7px 11px}
 }
