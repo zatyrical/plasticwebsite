@@ -99,7 +99,7 @@ export default function Home() {
 
       <section id="aesthetic-surgery" className="section dark segmented-section segment-aesthetic mobile-screen">
         <div className="container">
-          <div className="eyebrow">Signature treatments</div>
+          <div className="eyebrow signature-eyebrow">Signature treatments</div>
           <h2>Aesthetic surgery</h2>
           <p className="section-intro">A focused selection of aesthetic procedures within Dr Sun’s practice.</p>
           <div className="grid-3 focus-grid aesthetic-photo-grid signature-photo-grid">{aestheticSignatureTreatments.map((x) => {
@@ -112,7 +112,7 @@ export default function Home() {
 
       <section id="reconstructive-surgery" className="section segmented-section segment-reconstructive mobile-screen mobile-transition">
         <div className="container">
-          <div className="eyebrow">Signature treatments</div>
+          <div className="eyebrow signature-eyebrow">Signature treatments</div>
           <h2>Reconstructive surgery</h2>
           <p className="section-intro">Focused reconstructive, lymphatic and scar surgery areas within Dr Sun’s practice.</p>
           <div className="grid-3 focus-grid reconstructive-photo-grid signature-photo-grid">{reconstructiveSignatureTreatments.map((x) => {
