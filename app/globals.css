@@ -654,24 +654,25 @@
 .segment-reconstructive .signature-script{color:#856c34;text-shadow:0 14px 32px rgba(184,154,94,.18)}
 .signature-kicker{
   display:inline-flex;
-  margin:18px 0 0 6px;
+  margin:18px 0 0 8px;
   font-family:'Space Grotesk','Sora',Geist,ui-sans-serif,system-ui,sans-serif;
   font-size:clamp(13px,1.25vw,18px);
   line-height:1;
   font-weight:800;
-  letter-spacing:.32em;
+  letter-spacing:.34em;
   text-transform:uppercase;
-  color:#fff6df;
-  background:linear-gradient(135deg,rgba(14,58,51,.94),rgba(184,154,94,.92));
-  border:1px solid rgba(255,246,223,.42);
-  border-radius:999px;
-  padding:9px 12px 8px 15px;
-  box-shadow:0 14px 34px rgba(16,32,29,.16),inset 0 1px 0 rgba(255,255,255,.24);
+  color:#ead7a8;
+  background:transparent;
+  border:0;
+  border-radius:0;
+  padding:0;
+  box-shadow:none;
+  text-shadow:0 10px 26px rgba(0,0,0,.22);
 }
-.segment-reconstructive .signature-kicker{background:linear-gradient(135deg,rgba(14,58,51,.95),rgba(184,154,94,.86));color:#fff8e7}
+.segment-reconstructive .signature-kicker{color:#856c34;text-shadow:0 10px 24px rgba(184,154,94,.18)}
 @media(max-width:900px){
   .segmented-section .signature-eyebrow{margin-bottom:8px;padding-bottom:10px}
   .segmented-section .signature-eyebrow:before{left:-5px;right:-18px;height:8px;bottom:0}
   .signature-script{font-size:clamp(46px,16vw,72px);line-height:.74;letter-spacing:-.095em}
-  .signature-kicker{margin-top:13px;margin-left:3px;font-size:clamp(10px,3.2vw,13px);letter-spacing:.24em;padding:7px 9px 7px 11px}
+  .signature-kicker{margin-top:13px;margin-left:4px;font-size:clamp(10px,3.2vw,13px);letter-spacing:.24em;padding:0}
 }
