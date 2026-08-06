@@ -105,9 +105,9 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     slug: 'breast-aesthetic-surgery-singapore',
     title: 'Breast Aesthetic Surgery in Singapore',
     eyebrow: 'Breast aesthetic surgery',
-    lead: 'A detailed guide to breast augmentation, lift, reduction and asymmetry correction in Singapore, including planning, screening considerations, recovery and risks.',
-    description: 'Detailed patient information on breast aesthetic surgery in Singapore, including augmentation, lift, reduction, asymmetry correction, consultation, screening considerations, recovery and risks.',
-    keywords: ['breast aesthetic surgery Singapore', 'breast augmentation Singapore', 'breast lift Singapore', 'breast reduction Singapore', 'breast implant Singapore', 'breast asymmetry surgery Singapore'],
+    lead: 'A detailed guide to breast augmentation, 24-hour rapid recovery principles, lift, reduction and asymmetry correction in Singapore, including planning, screening considerations, recovery and risks.',
+    description: 'Detailed patient information on breast aesthetic surgery in Singapore, including breast augmentation, 24-hour rapid recovery principles, lift, reduction, asymmetry correction, consultation and risks.',
+    keywords: ['breast aesthetic surgery Singapore', 'breast augmentation Singapore', '24 hour rapid recovery breast augmentation Singapore', 'rapid recovery breast augmentation Singapore', 'breast lift Singapore', 'breast reduction Singapore', 'breast implant Singapore', 'breast asymmetry surgery Singapore'],
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
@@ -131,6 +131,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         id: 'augmentation',
         heading: 'Breast augmentation planning',
         paragraphs: ['Breast augmentation is not only a question of implant size. Planning includes base width, soft-tissue thickness, chest wall shape, nipple position, desired upper-pole fullness, cleavage goals and how the breast may age over time.', 'Implant selection may involve discussion of shape, projection, surface, placement plane and incision. The plan should avoid choosing a size that exceeds what the tissues can safely support.']
+      },
+      {
+        id: 'rapid-recovery-augmentation',
+        heading: '24-hour rapid recovery breast augmentation',
+        paragraphs: ['For selected breast augmentation patients, Dr Sun may discuss a 24-hour rapid recovery approach based on principles taught by Dr William Adams, from whom Dr Sun learnt directly during aesthetic breast surgery training.', 'The concept combines careful tissue handling, precise implant-pocket planning, bloodless dissection where possible, appropriate implant selection and a strict post-surgery activity protocol. The aim is to reduce unnecessary downtime while still respecting surgical safety and individual healing.', 'Under this type of protocol, suitable patients may be encouraged to move early, use their arms in a controlled way, go out for dinner on the same day, and wash their hair on the same night. These examples are not guarantees of recovery for every patient; they depend on the operation performed, anaesthesia recovery, pain control, bleeding risk, patient confidence and the surgeon’s specific instructions.', 'Patients should follow the prescribed recovery protocol closely and seek medical advice promptly for concerning symptoms such as increasing pain, marked swelling, fever, spreading redness, shortness of breath or sudden deterioration.']
       },
       {
         id: 'lift-reduction',
@@ -160,7 +165,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'recovery',
         heading: 'Recovery after breast aesthetic surgery',
-        paragraphs: ['Recovery depends on the operation performed. Swelling, bruising, tightness, temporary altered sensation and scar maturation are expected after surgery. Activity restrictions, supportive garments and follow-up vary by procedure.', 'Patients should avoid judging the final shape too early. Implants, scars and breast tissues may settle over weeks to months. Revision decisions, if needed, are usually considered only after adequate healing unless there is an urgent complication.']
+        paragraphs: ['Recovery depends on the operation performed. Swelling, bruising, tightness, temporary altered sensation and scar maturation are expected after surgery. Activity restrictions, supportive garments and follow-up vary by procedure.', 'For selected breast augmentation cases using a rapid recovery protocol, early controlled arm movement and return to light daily activities may be encouraged rather than prolonged immobilisation. This is different from recovery after a lift, reduction, combined procedure or more complex revision, where restrictions may be more conservative.', 'Patients should avoid judging the final shape too early. Implants, scars and breast tissues may settle over weeks to months. Revision decisions, if needed, are usually considered only after adequate healing unless there is an urgent complication.']
       },
       {
         id: 'risks',
@@ -175,6 +180,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     ],
     faqs: [
       { question: 'Is breast augmentation always done with implants?', answer: 'Not always. Implants are a common option for volume increase, while fat grafting may be considered in selected patients. Each has different limitations and risks.' },
+      { question: 'What is 24-hour rapid recovery breast augmentation?', answer: 'It refers to a selected-patient breast augmentation protocol based on careful surgical technique and structured early recovery instructions. Dr Sun learnt these principles directly from Dr William Adams. Some suitable patients may be able to go out for dinner on the day of surgery and wash their hair that night, but this is not guaranteed and depends on the surgical plan, anaesthetic recovery, symptoms and individual circumstances.' },
       { question: 'Can a breast lift be combined with implants?', answer: 'Sometimes. A lift and implant can be combined when both breast position and volume need to be addressed, but this may increase complexity and requires careful planning.' },
       { question: 'Do I need breast screening before cosmetic breast surgery?', answer: 'Some patients may need age-appropriate screening, imaging or breast specialist review before elective surgery, especially if there are symptoms, family history or previous imaging concerns.' },
       { question: 'Will scars disappear?', answer: 'No surgical scar disappears completely. Scars usually mature over months and vary depending on the procedure, skin type, wound healing and individual biology.' },
