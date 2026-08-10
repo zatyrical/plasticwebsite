@@ -57,8 +57,8 @@ export default function Home() {
         <div className="container hero-grid">
           <div>
             <div className="eyebrow">Senior Consultant Plastic, Reconstructive & Aesthetic Surgeon • Singapore</div>
-            <h1>Rooted in science. Refined by art.</h1>
-            <p className="lead">Aesthetic surgery, reconstructive microsurgery and lymphatic surgery in Singapore.</p>
+            <h1>Plastic, Reconstructive & Aesthetic Surgeon in Singapore</h1>
+            <p className="lead">Rooted in science. Refined by art. Aesthetic surgery, reconstructive microsurgery and lymphatic surgery in Singapore by Dr Jeremy Sun.</p>
             <div className="hero-actions">
               <a href="#aesthetic-surgery" className="btn btn-primary">Explore procedures</a>
               <a href="#about" className="btn btn-ghost">About Dr Sun</a>
@@ -84,7 +84,7 @@ export default function Home() {
           <div>
             <div className="eyebrow">About Dr Sun</div>
             <h2>Senior Consultant Plastic Surgeon in Singapore.</h2>
-            <p className="section-intro">Aesthetic surgery, reconstructive microsurgery and lymphatic surgery — grounded in academic surgical practice.</p>
+            <p className="section-intro">Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, reconstructive microsurgery, breast reconstruction, lymphedema surgery and lymphatic surgery — grounded in academic surgical practice.</p>
             <div className="about-highlights compact-highlights">
               <div className="about-stat"><strong>Senior Consultant</strong><span>Plastic Surgery</span></div>
               <div className="about-stat"><strong>Head of Service</strong><span>Changi General Hospital</span></div>
@@ -171,6 +171,7 @@ export default function Home() {
           <h2>Educational articles</h2>
           <p className="section-intro">Clear, patient-focused articles on procedure planning, recovery considerations, risks and treatment options in plastic, reconstructive and lymphatic surgery.</p>
           <div className="grid-3">
+            <a className="card blog-card linked-card" href="/plastic-surgeon-singapore"><small>Patient guide</small><h3>Plastic surgeon in Singapore: how to choose safely</h3><p>Guidance on specialist credentials, aesthetic versus reconstructive training, consultation questions and procedure planning.</p><span>Read guide</span></a>
             <a className="card blog-card linked-card" href="/lymphovenous-bypass-lva-surgery-singapore"><small>LVA surgery</small><h3>Lymphovenous bypass / LVA surgery in Singapore</h3><p>Focused patient information on suitability, imaging, recovery, cellulitis risk and compression after LVA.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/lymphedema-surgery-singapore"><small>Lymphedema</small><h3>Lymphedema surgery in Singapore</h3><p>Educational overview of lymphovenous bypass, assessment, infection risk and recovery.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/breast-reconstruction-singapore"><small>Breast reconstruction</small><h3>Breast reconstruction in Singapore</h3><p>Patient information on implant-based reconstruction, DIEP flap reconstruction, timing, recovery and risks.</p><span>Read page</span></a>

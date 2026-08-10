@@ -25,6 +25,7 @@ This website is for general educational information. Suitability, risks, recover
 ## Priority patient-education pages
 
 - Plastic, Reconstructive & Aesthetic Surgeon in Singapore: ${baseUrl}/
+- Plastic Surgeon in Singapore — How to Choose Safely: ${baseUrl}/plastic-surgeon-singapore
 - Asian Rhinoplasty in Singapore: ${baseUrl}/asian-rhinoplasty-singapore
 - Asian Eyelid Surgery in Singapore: ${baseUrl}/asian-eyelid-surgery-singapore
 - Body Contouring & Liposuction in Singapore: ${baseUrl}/body-contouring-liposuction-singapore
