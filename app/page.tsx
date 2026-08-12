@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import ContactForm from './ContactForm';
 import Navigation from './Navigation';
-import { physicianJsonLd } from './seoIdentity';
+import { lastReviewedIso, physicianJsonLd } from './seoIdentity';
 import { aestheticSignatureTreatments, reconstructiveSignatureTreatments } from './treatmentTiles';
 
 const jsonLd = {
@@ -40,6 +40,9 @@ const jsonLd = {
         'Body contouring',
         'Breast surgery'
       ],
+      datePublished: lastReviewedIso,
+      dateModified: lastReviewedIso,
+      lastReviewed: lastReviewedIso,
       reviewedBy: { '@id': 'https://www.drjeremysun.com/#physician' },
       author: { '@id': 'https://www.drjeremysun.com/#physician' }
     },
@@ -85,6 +88,10 @@ export default function Home() {
             <div className="eyebrow">About Dr Sun</div>
             <h2>Senior Consultant Plastic Surgeon in Singapore.</h2>
             <p className="section-intro">Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, reconstructive microsurgery, breast reconstruction, lymphedema surgery and lymphatic surgery — grounded in academic surgical practice.</p>
+            <div className="reviewer-card" aria-label="Medical review information">
+              <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
+              <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
+            </div>
             <div className="about-highlights compact-highlights">
               <div className="about-stat"><strong>Senior Consultant</strong><span>Plastic Surgery</span></div>
               <div className="about-stat"><strong>Head of Service</strong><span>Changi General Hospital</span></div>
