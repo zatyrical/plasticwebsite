@@ -102,6 +102,7 @@ export default function LvaSurgeryPage() {
                 <li><a href="#cellulitis">Cellulitis and infection</a></li>
                 <li><a href="#recovery">Recovery and compression</a></li>
                 <li><a href="#training">Dedicated training</a></li>
+                <li><Link href="/journey-to-lymphedema-surgery-japan">Why Japan training mattered</Link></li>
                 <li><Link href="/how-to-choose-lymphedema-surgeon-singapore">Choosing a surgeon</Link></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
@@ -220,6 +221,20 @@ export default function LvaSurgeryPage() {
               Because the vessels are extremely small, LVA requires supermicrosurgical technique, ultrasound-guided localisation where appropriate, and experience in lymphatic anatomy and imaging interpretation.
             </p>
 
+            <h2>LVA is about flow, not just connections</h2>
+            <p>
+              Dr Sun’s approach to LVA was shaped by dedicated MOH-accredited fellowship training in lymphedema surgery in Japan. Earlier in his training, he had questioned whether lymphedema surgery could produce consistent results when issues such as patient selection, lymphatic imaging, pressure gradients, reflux risk and postoperative compression were not clearly addressed.
+            </p>
+            <p>
+              One important concept is that LVA should create useful forward drainage of lymphatic fluid, not simply a technically patent connection. If venous pressure is higher than lymphatic pressure, there may be a risk of reflux or limited effective drainage. For this reason, the recipient vein, flow direction, limb condition and compression plan all matter.
+            </p>
+            <p>
+              In Dr Sun’s practice, ultrasound-based planning can help identify suitable lymphatic channels and veins so that several appropriate bypasses may be performed in a single operation where anatomy permits. The number and location of bypasses should follow the patient’s imaging and operative findings rather than a fixed formula.
+            </p>
+            <p>
+              For the background to this approach, read <Link href="/journey-to-lymphedema-surgery-japan">why Dr Sun trained in lymphedema surgery in Japan</Link>.
+            </p>
+
             <h2 id="recovery">Recovery and compression after LVA</h2>
             <p>
               Recovery after LVA is usually shorter than after larger lymphatic or reconstructive operations. Many patients can mobilise early, although the exact plan depends on the limb treated, number of incisions, anaesthetic plan and surgeon’s advice.
@@ -264,7 +279,7 @@ export default function LvaSurgeryPage() {
               In Dr Sun’s view, brief exposure to lymphatic surgery is often not enough to provide broad-based experience across the full spectrum of lymphedema severity. Patients considering LVA should feel comfortable asking their care provider about the nature, focus and duration of their lymphatic surgery training, including whether that training involved several months of dedicated exposure to ICG lymphography, ultrasound localisation of lymphatics, LVA planning and broader lymphedema treatment options.
             </p>
             <p>
-              A dedicated article on <Link href="/how-to-choose-lymphedema-surgeon-singapore">how to choose a lymphedema surgeon in Singapore</Link> outlines practical questions patients can ask before deciding where to seek assessment.
+              A dedicated article on <Link href="/how-to-choose-lymphedema-surgeon-singapore">how to choose a lymphedema surgeon in Singapore</Link> outlines practical questions patients can ask before deciding where to seek assessment. Dr Sun has also written about <Link href="/journey-to-lymphedema-surgery-japan">how Japan fellowship training changed his view of LVA surgery</Link>, including pressure, flow, compression strategy and imaging-guided planning.
             </p>
             <p>
               This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment.

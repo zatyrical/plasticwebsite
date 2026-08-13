@@ -86,6 +86,7 @@ export default function LymphedemaSurgeryPage() {
                 <li><a href="#when-surgery">When surgery may be considered</a></li>
                 <li><a href="#types">Types of surgery</a></li>
                 <li><a href="#training">Dedicated training</a></li>
+                <li><Link href="/journey-to-lymphedema-surgery-japan">Why Japan training mattered</Link></li>
                 <li><Link href="/how-to-choose-lymphedema-surgeon-singapore">Choosing a surgeon</Link></li>
                 <li><a href="#education">Further education</a></li>
                 <li><a href="#faq">FAQs</a></li>
@@ -236,13 +237,13 @@ export default function LymphedemaSurgeryPage() {
               Lymphedema surgery requires assessment of lymphatic anatomy, disease stage, imaging patterns, microsurgical technique and long-term management. In Dr Sun’s view, brief exposure to lymphatic surgery is often not enough to provide broad-based experience across the full spectrum of lymphedema severity, from early fluid-dominant disease to advanced disease with fibrosis, scarring and recurrent infection.
             </p>
             <p>
-              Dr Sun completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo focused specifically on lymphatic surgery and complex lymphedema care. His lymphatic surgery work is also supported by academic publications and invited speaker experience at local and international conferences.
+              Dr Sun completed dedicated MOH-accredited fellowship training in lymphedema surgery in Japan. That training shaped his emphasis on patient selection, lymphatic imaging, pressure and flow considerations, compression strategy, and realistic long-term follow-up.
             </p>
             <p>
               Patients considering lymphedema surgery should feel comfortable asking their care provider about the nature, duration and focus of their lymphatic surgery training. This may include asking whether the surgeon has had several months of dedicated lymphatic surgery training, and whether that training included ICG lymphography, ultrasound localisation of lymphatic channels, LVA, lymph node transfer, reductive options, compression planning and cellulitis management.
             </p>
             <p>
-              A dedicated article on <Link href="/how-to-choose-lymphedema-surgeon-singapore">how to choose a lymphedema surgeon in Singapore</Link> outlines practical questions patients can ask before deciding where to seek assessment.
+              A dedicated article on <Link href="/how-to-choose-lymphedema-surgeon-singapore">how to choose a lymphedema surgeon in Singapore</Link> outlines practical questions patients can ask before deciding where to seek assessment. Dr Sun has also written about <Link href="/journey-to-lymphedema-surgery-japan">why he trained in lymphedema surgery in Japan</Link> and how that changed his approach to LVA planning.
             </p>
             <p>
               This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment. These credentials are presented to help patients understand the nature of Dr Sun’s training and clinical focus. They do not imply assured outcomes or that surgery is suitable for every patient.

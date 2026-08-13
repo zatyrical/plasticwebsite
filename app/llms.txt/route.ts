@@ -16,6 +16,7 @@ const content = `# Dr Jeremy Sun Plastic Surgery
 - MOH specialist in plastic surgery
 - Aesthetic surgery fellowship exposure through the American Society for Aesthetic Plastic Surgery travelling fellowship
 - MOH-accredited dedicated lymphatic surgery training in Tokyo
+- Dedicated MOH-accredited fellowship training in lymphedema surgery in Japan; his approach to LVA was shaped by clinical skepticism, Japan lymphatic surgery exposure, imaging-guided planning, pressure/flow considerations and postoperative compression strategy
 - Clinical focus: aesthetic surgery, reconstructive microsurgery, lymphedema surgery, lymphovenous bypass / LVA, breast surgery, Asian rhinoplasty, Asian eyelid surgery, body contouring, face and neck lift, scar reconstruction and trauma reconstruction
 
 ## Important patient-information note
@@ -34,6 +35,7 @@ This website is for general educational information. Suitability, risks, recover
 - Breast Reconstruction in Singapore: ${baseUrl}/breast-reconstruction-singapore
 - Lymphedema Surgery in Singapore: ${baseUrl}/lymphedema-surgery-singapore
 - Lymphovenous Bypass / LVA Surgery in Singapore: ${baseUrl}/lymphovenous-bypass-lva-surgery-singapore
+- Why Dr Jeremy Sun Trained in Lymphedema Surgery in Japan: ${baseUrl}/journey-to-lymphedema-surgery-japan
 - Training and Fellowships: ${baseUrl}/training-and-fellowships
 - Media and Education: ${baseUrl}/media
 - Publications: ${baseUrl}/publications

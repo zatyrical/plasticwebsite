@@ -7,6 +7,7 @@ const coreRoutes = [
   { path: '', priority: 1, changeFrequency: 'weekly' as const },
   { path: '/plastic-surgeon-singapore', priority: 0.92, changeFrequency: 'monthly' as const },
   { path: '/how-to-choose-lymphedema-surgeon-singapore', priority: 0.9, changeFrequency: 'monthly' as const },
+  { path: '/journey-to-lymphedema-surgery-japan', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/aesthetic-surgery', priority: 0.86, changeFrequency: 'monthly' as const },
   { path: '/reconstructive-surgery', priority: 0.86, changeFrequency: 'monthly' as const },
   { path: '/lymphedema-surgery-singapore', priority: 0.9, changeFrequency: 'monthly' as const },

@@ -4,6 +4,12 @@ import { procedureArticleList } from '../procedureArticles';
 
 const existingArticles = [
   {
+    title: 'Why I trained in lymphedema surgery in Japan',
+    href: '/journey-to-lymphedema-surgery-japan',
+    category: 'Lymphedema training',
+    description: 'Dr Jeremy Sun’s evolution from clinical skepticism to dedicated MOH-accredited fellowship training in lymphedema surgery in Japan.'
+  },
+  {
     title: 'Choosing a lymphedema surgeon in Singapore',
     href: '/how-to-choose-lymphedema-surgeon-singapore',
     category: 'Lymphedema',
