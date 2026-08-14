@@ -138,7 +138,7 @@ export default function PlasticSurgeonSingaporePage() {
                 <li>Ask about specialist registration and plastic surgery training.</li>
                 <li>Look for hospital appointments, academic or teaching roles, and relevant surgical focus areas.</li>
                 <li>Ask how often the surgeon manages the type of problem you have, including revision or complication scenarios.</li>
-                <li>Be cautious with claims that imply guaranteed results or superiority without objective context.</li>
+                <li>Be cautious with claims that imply assured results or superiority without objective context.</li>
               </ul>
             </section>
 
