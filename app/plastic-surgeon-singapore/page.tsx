@@ -114,6 +114,7 @@ export default function PlasticSurgeonSingaporePage() {
                 <li><a href="#aesthetic-reconstructive">Aesthetic and reconstructive training</a></li>
                 <li><a href="#consultation">Consultation questions</a></li>
                 <li><a href="#procedures">Related procedure pages</a></li>
+                <li><a href="#profiles">Professional profiles</a></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
             </aside>
@@ -168,6 +169,17 @@ export default function PlasticSurgeonSingaporePage() {
                 <Link href="/body-contouring-liposuction-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Body Contouring & Liposuction in Singapore</strong><span>Read page</span></Link>
                 <Link href="/face-neck-lift-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Face and Neck Lift in Singapore</strong><span>Read page</span></Link>
                 <Link href="/breast-reconstruction-singapore" className="related-card"><small>Reconstructive surgery</small><strong>Breast Reconstruction in Singapore</strong><span>Read page</span></Link>
+              </div>
+            </section>
+
+            <section id="profiles">
+              <h2>Professional profiles and public education links</h2>
+              <p>External and institutional profiles can help patients cross-check a surgeon’s public appointments, hospital association and professional education activity.</p>
+              <div className="related-grid">
+                <a href="https://www.cgh.com.sg/profile/Sun-Mingfa-Jeremy" target="_blank" rel="noreferrer" className="related-card"><small>Hospital profile</small><strong>Changi General Hospital profile</strong><span>View external profile</span></a>
+                <a href="https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy" target="_blank" rel="noreferrer" className="related-card"><small>Specialist listing</small><strong>CGH plastic surgery doctor listing</strong><span>View external listing</span></a>
+                <a href="https://www.singhealthdukenus.com.sg/conference/sdc2025/our-speakers/Jeremy-Sun" target="_blank" rel="noreferrer" className="related-card"><small>Education profile</small><strong>SingHealth Duke-NUS speaker profile</strong><span>View external profile</span></a>
+                <Link href="/media" className="related-card"><small>Media & education</small><strong>Selected public education features</strong><span>View media page</span></Link>
               </div>
             </section>
 

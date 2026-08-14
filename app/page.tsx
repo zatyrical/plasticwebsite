@@ -88,6 +88,10 @@ export default function Home() {
             <div className="eyebrow">About Dr Sun</div>
             <h2>Senior Consultant Plastic Surgeon in Singapore.</h2>
             <p className="section-intro">Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, reconstructive microsurgery, breast reconstruction, lymphedema surgery and lymphatic surgery — grounded in academic surgical practice.</p>
+            <div className="reviewer-card" aria-label="About Dr Jeremy Sun">
+              <strong>About Dr Jeremy Sun</strong>
+              <span>Dr Jeremy Sun is a Singapore Ministry of Health-accredited plastic surgeon with clinical interests in reconstructive microsurgery, lymphedema surgery, breast reconstruction, body contouring, eyelid surgery, rhinoplasty and facial rejuvenation. He is associated with Changi General Hospital and holds professional roles in plastic surgery education and specialist governance.</span>
+            </div>
             <div className="reviewer-card" aria-label="Medical review information">
               <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
