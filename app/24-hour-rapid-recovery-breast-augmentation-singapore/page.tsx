@@ -128,6 +128,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
               <h2>On this page</h2>
               <ul>
                 <li><a href="#short-answer">Short answer</a></li>
+                <li><a href="#why-recovery-concerns-matter">Why recovery concerns matter</a></li>
                 <li><a href="#adams-principles">William Adams principles</a></li>
                 <li><a href="#patient-selection">Who may be suitable</a></li>
                 <li><a href="#day-of-surgery">Same-day activity</a></li>
@@ -150,6 +151,13 @@ export default function RapidRecoveryBreastAugmentationPage() {
               <h2>Short answer: what does “24-hour rapid recovery” mean?</h2>
               <p>In breast augmentation, “24-hour rapid recovery” refers to a carefully selected and structured approach designed to reduce unnecessary downtime after implant surgery. It is not simply faster surgery or stronger painkillers. The concept depends on detailed preoperative planning, gentle technique, careful implant-pocket control, bleeding control and specific postoperative activity instructions.</p>
               <p>Some suitable patients may be encouraged to move their arms early, perform light daily activities, go out for dinner on the day of surgery, or wash their hair that night. These examples should be understood as protocol goals for selected cases — not assured results for every patient.</p>
+            </section>
+
+            <section id="why-recovery-concerns-matter">
+              <h2>Why recovery concerns matter</h2>
+              <p>Many women considering breast augmentation are understandably concerned about postoperative pain, stiffness, time away from work, caring for children, exercise restrictions and whether they will feel dependent on others during recovery. These concerns are valid and should be discussed openly during consultation.</p>
+              <p>The rapid recovery philosophy popularised by Dr William Adams was developed to make the breast augmentation process more predictable and less traumatic where appropriate — from implant selection and pocket planning to gentle tissue handling, bleeding control and structured early movement after surgery.</p>
+              <p>This does not mean painless surgery or unrestricted activity after 24 hours. It means that, in selected patients, the operation and recovery plan are designed to reduce unnecessary downtime while still prioritising safety.</p>
             </section>
 
             <section id="adams-principles">
