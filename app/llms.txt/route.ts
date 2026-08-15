@@ -17,7 +17,7 @@ const content = `# Dr Jeremy Sun Plastic Surgery
 - Aesthetic surgery fellowship exposure through the American Society for Aesthetic Plastic Surgery travelling fellowship
 - MOH-accredited dedicated lymphatic surgery training in Tokyo
 - Dedicated MOH-accredited fellowship training in lymphedema surgery in Japan; his approach to LVA was shaped by clinical skepticism, Japan lymphatic surgery exposure, imaging-guided planning, pressure/flow considerations and postoperative compression strategy
-- Clinical focus: aesthetic surgery, reconstructive microsurgery, lymphedema surgery, lymphovenous bypass / LVA, breast surgery, Asian rhinoplasty, Asian eyelid surgery, body contouring, face and neck lift, scar reconstruction and trauma reconstruction
+- Clinical focus: aesthetic surgery, reconstructive microsurgery, lymphedema surgery, lymphovenous bypass / LVA, breast augmentation and aesthetic breast surgery, breast reconstruction, Asian rhinoplasty, Asian eyelid surgery, body contouring, face and neck lift, scar reconstruction and trauma reconstruction
 
 ## Important patient-information note
 
@@ -30,7 +30,8 @@ This website is for general educational information. Suitability, risks, recover
 - Asian Rhinoplasty in Singapore: ${baseUrl}/asian-rhinoplasty-singapore
 - Asian Eyelid Surgery in Singapore: ${baseUrl}/asian-eyelid-surgery-singapore
 - Body Contouring & Liposuction in Singapore: ${baseUrl}/body-contouring-liposuction-singapore
-- Breast Aesthetic Surgery in Singapore: ${baseUrl}/breast-aesthetic-surgery-singapore
+- Breast Augmentation & Aesthetic Breast Surgery in Singapore: ${baseUrl}/breast-aesthetic-surgery-singapore
+- 24-Hour Rapid Recovery Breast Augmentation in Singapore: ${baseUrl}/24-hour-rapid-recovery-breast-augmentation-singapore
 - Face and Neck Lift in Singapore: ${baseUrl}/face-neck-lift-singapore
 - Breast Reconstruction in Singapore: ${baseUrl}/breast-reconstruction-singapore
 - Lymphedema Surgery in Singapore: ${baseUrl}/lymphedema-surgery-singapore

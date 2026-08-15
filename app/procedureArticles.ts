@@ -103,10 +103,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'breast-aesthetic-surgery-singapore': {
     slug: 'breast-aesthetic-surgery-singapore',
-    title: 'Breast Aesthetic Surgery in Singapore',
+    title: 'Breast Augmentation & Aesthetic Breast Surgery in Singapore',
     eyebrow: 'Breast aesthetic surgery',
     lead: 'A detailed guide to breast augmentation, 24-hour rapid recovery principles, lift, reduction and asymmetry correction in Singapore, including planning, screening considerations, recovery and risks.',
-    description: 'Detailed patient information on breast aesthetic surgery in Singapore, including breast augmentation, 24-hour rapid recovery principles, lift, reduction, asymmetry correction, consultation and risks.',
+    description: 'Detailed patient information on breast augmentation and aesthetic breast surgery in Singapore, including implants, 24-hour rapid recovery principles, lift, reduction, asymmetry correction, consultation and risks.',
     keywords: ['breast aesthetic surgery Singapore', 'breast augmentation Singapore', '24 hour rapid recovery breast augmentation Singapore', 'rapid recovery breast augmentation Singapore', 'breast lift Singapore', 'breast reduction Singapore', 'breast implant Singapore', 'breast asymmetry surgery Singapore'],
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',

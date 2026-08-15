@@ -9,6 +9,7 @@ const coreRoutes = [
   { path: '/how-to-choose-lymphedema-surgeon-singapore', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/journey-to-lymphedema-surgery-japan', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/aesthetic-surgery', priority: 0.86, changeFrequency: 'monthly' as const },
+  { path: '/24-hour-rapid-recovery-breast-augmentation-singapore', priority: 0.84, changeFrequency: 'monthly' as const },
   { path: '/reconstructive-surgery', priority: 0.86, changeFrequency: 'monthly' as const },
   { path: '/lymphedema-surgery-singapore', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/lymphovenous-bypass-lva-surgery-singapore', priority: 0.85, changeFrequency: 'monthly' as const },

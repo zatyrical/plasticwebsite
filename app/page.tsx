@@ -38,7 +38,9 @@ const jsonLd = {
         'Asian rhinoplasty',
         'Asian eyelid surgery',
         'Body contouring',
-        'Breast surgery'
+        'Breast surgery',
+        'Breast augmentation',
+        '24-hour rapid recovery breast augmentation'
       ],
       datePublished: lastReviewedIso,
       dateModified: lastReviewedIso,
@@ -87,10 +89,10 @@ export default function Home() {
           <div>
             <div className="eyebrow">About Dr Sun</div>
             <h2>Senior Consultant Plastic Surgeon in Singapore.</h2>
-            <p className="section-intro">Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, reconstructive microsurgery, breast reconstruction, lymphedema surgery and lymphatic surgery — grounded in academic surgical practice.</p>
+            <p className="section-intro">Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, breast augmentation and aesthetic breast surgery, reconstructive microsurgery, breast reconstruction, lymphedema surgery and lymphatic surgery — grounded in academic surgical practice.</p>
             <div className="reviewer-card" aria-label="About Dr Jeremy Sun">
               <strong>About Dr Jeremy Sun</strong>
-              <span>Dr Jeremy Sun is a Singapore Ministry of Health-accredited plastic surgeon with clinical interests in reconstructive microsurgery, lymphedema surgery, breast reconstruction, body contouring, eyelid surgery, rhinoplasty and facial rejuvenation. He is associated with Changi General Hospital and holds professional roles in plastic surgery education and specialist governance.</span>
+              <span>Dr Jeremy Sun is a Singapore Ministry of Health-accredited plastic surgeon with clinical interests in aesthetic breast surgery including breast augmentation, reconstructive microsurgery, lymphedema surgery, breast reconstruction, body contouring, eyelid surgery, rhinoplasty and facial rejuvenation. He is associated with Changi General Hospital and holds professional roles in plastic surgery education and specialist governance.</span>
             </div>
             <div className="reviewer-card" aria-label="Medical review information">
               <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
@@ -185,6 +187,8 @@ export default function Home() {
             <a className="card blog-card linked-card" href="/plastic-surgeon-singapore"><small>Patient guide</small><h3>Plastic surgeon in Singapore: how to choose safely</h3><p>Guidance on specialist credentials, aesthetic versus reconstructive training, consultation questions and procedure planning.</p><span>Read guide</span></a>
             <a className="card blog-card linked-card" href="/lymphovenous-bypass-lva-surgery-singapore"><small>LVA surgery</small><h3>Lymphovenous bypass / LVA surgery in Singapore</h3><p>Focused patient information on suitability, imaging, recovery, cellulitis risk and compression after LVA.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/lymphedema-surgery-singapore"><small>Lymphedema</small><h3>Lymphedema surgery in Singapore</h3><p>Educational overview of lymphovenous bypass, assessment, infection risk and recovery.</p><span>Read page</span></a>
+            <a className="card blog-card linked-card" href="/24-hour-rapid-recovery-breast-augmentation-singapore"><small>Breast augmentation</small><h3>24-hour rapid recovery breast augmentation</h3><p>Patient guide to Dr William Adams’ rapid recovery principles, suitability, early movement and realistic safety limits.</p><span>Read guide</span></a>
+            <a className="card blog-card linked-card" href="/breast-aesthetic-surgery-singapore"><small>Breast aesthetic surgery</small><h3>Breast aesthetic surgery in Singapore</h3><p>Breast augmentation, lift, reduction, asymmetry correction, implant planning, screening and recovery considerations.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/breast-reconstruction-singapore"><small>Breast reconstruction</small><h3>Breast reconstruction in Singapore</h3><p>Patient information on implant-based reconstruction, DIEP flap reconstruction, timing, recovery and risks.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/asian-eyelid-surgery-singapore"><small>Asian eyelid surgery</small><h3>Asian eyelid surgery in Singapore</h3><p>Patient information on double eyelid surgery, ptosis assessment, recovery, risks and revision eyelid surgery.</p><span>Read page</span></a>
           </div>
