@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import ContactForm from '../ContactForm';
 import Navigation from '../Navigation';
@@ -125,6 +126,10 @@ export default function RapidRecoveryBreastAugmentationPage() {
               </div>
             </div>
             <aside className="article-summary-card">
+              <figure className="article-hero-image-card">
+                <Image src="/images/aesthetic-ai/breast-aesthetic.jpg" alt="Editorial-style image representing breast augmentation consultation and recovery planning" width={720} height={860} priority sizes="(max-width: 900px) 100vw, 330px" />
+                <figcaption>Illustrative image for patient education; not a before-and-after result.</figcaption>
+              </figure>
               <h2>On this page</h2>
               <ul>
                 <li><a href="#short-answer">Short answer</a></li>

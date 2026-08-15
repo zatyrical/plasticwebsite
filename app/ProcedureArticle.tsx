@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import Navigation from './Navigation';
 import ContactForm from './ContactForm';
@@ -146,6 +147,12 @@ export default function ProcedureArticlePage({ article }: Props) {
               </div>
             </div>
             <aside className="article-summary-card">
+              {article.heroImage ? (
+                <figure className="article-hero-image-card">
+                  <Image src={article.heroImage.src} alt={article.heroImage.alt} width={720} height={860} priority sizes="(max-width: 900px) 100vw, 330px" />
+                  {article.heroImage.caption ? <figcaption>{article.heroImage.caption}</figcaption> : null}
+                </figure>
+              ) : null}
               <h2>On this page</h2>
               <ul>
                 {article.sections.map((section) => (

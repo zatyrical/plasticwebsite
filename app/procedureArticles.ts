@@ -17,6 +17,11 @@ export type ProcedureArticle = {
   lead: string;
   description: string;
   keywords: string[];
+  heroImage?: {
+    src: string;
+    alt: string;
+    caption?: string;
+  };
   backHref: string;
   backLabel: string;
   intro: string[];
@@ -32,6 +37,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'A detailed guide to liposuction and body contouring in Singapore, including suitability, surgical planning, recovery, scars, limitations and risks.',
     description: 'Detailed patient information on body contouring and liposuction in Singapore, including suitability, consultation, technique selection, recovery, risks and realistic limitations.',
     keywords: ['body contouring Singapore', 'liposuction Singapore', 'plastic surgeon liposuction Singapore', 'body sculpting Singapore', 'abdominal liposuction Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Editorial-style image representing body contouring and liposuction consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
@@ -108,6 +114,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'A detailed guide to breast augmentation, 24-hour rapid recovery principles, lift, reduction and asymmetry correction in Singapore, including planning, screening considerations, recovery and risks.',
     description: 'Detailed patient information on breast augmentation and aesthetic breast surgery in Singapore, including implants, 24-hour rapid recovery principles, lift, reduction, asymmetry correction, consultation and risks.',
     keywords: ['breast aesthetic surgery Singapore', 'breast augmentation Singapore', '24 hour rapid recovery breast augmentation Singapore', 'rapid recovery breast augmentation Singapore', 'breast lift Singapore', 'breast reduction Singapore', 'breast implant Singapore', 'breast asymmetry surgery Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/breast-aesthetic.jpg', alt: 'Editorial-style image representing breast aesthetic surgery consultation and planning', caption: 'Illustrative image for patient education; not a before-and-after result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
@@ -194,6 +201,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'A detailed guide to Asian rhinoplasty in Singapore, including nasal bridge and tip planning, structural support, rib cartilage considerations, recovery and risks.',
     description: 'Detailed patient information on Asian rhinoplasty in Singapore, including consultation, structural rhinoplasty, rib cartilage, revision planning, recovery, risks and limitations.',
     keywords: ['Asian rhinoplasty Singapore', 'rhinoplasty Singapore', 'rib cartilage rhinoplasty Singapore', 'nose surgery Singapore', 'structural rhinoplasty Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Editorial-style image representing Asian rhinoplasty consultation and facial profile planning', caption: 'Illustrative image for patient education; individual anatomy and outcomes vary.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
@@ -269,6 +277,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'A detailed guide to face lift and neck lift surgery in Singapore, including suitability, facial analysis, scars, recovery, risks and non-surgical alternatives.',
     description: 'Detailed patient information on face lift and neck lift surgery in Singapore, including suitability, consultation, surgical planning, recovery, scarring, risks and realistic limitations.',
     keywords: ['face lift Singapore', 'neck lift Singapore', 'facelift Singapore', 'lower face lift Singapore', 'jowl surgery Singapore', 'neck tightening surgery Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Editorial-style image representing face and neck lift consultation and ageing changes', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
@@ -340,6 +349,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'Patient information on aesthetic lasers, botulinum toxin, fillers, skin quality treatments, safety and risks.',
     description: 'Patient information on lasers and injectables in Singapore, including consultation, treatment planning, safety, recovery and risks.',
     keywords: ['lasers injectables Singapore', 'aesthetic laser Singapore', 'botulinum toxin filler Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/lasers-injectables.jpg', alt: 'Editorial-style image representing lasers and injectables consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
@@ -367,6 +377,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'Patient information on fat transfer for contour refinement, reconstructive and aesthetic uses, recovery and risks.',
     description: 'Patient information on fat grafting and fat transfer in Singapore, including indications, consultation, recovery, limitations and risks.',
     keywords: ['fat grafting Singapore', 'fat transfer Singapore', 'autologous fat grafting Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/fat-grafting.jpg', alt: 'Editorial-style image representing facial fat grafting and volume restoration planning', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
@@ -394,6 +405,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'Patient information on thread lifting, patient selection, expected limitations, recovery and risks.',
     description: 'Patient information on thread lifting in Singapore, including suitability, consultation, recovery, risks and how it compares with surgery.',
     keywords: ['thread lift Singapore', 'thread lifting Singapore', 'non surgical face lift Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/thread-lifting.jpg', alt: 'Editorial-style image representing thread lifting and facial rejuvenation consultation', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [

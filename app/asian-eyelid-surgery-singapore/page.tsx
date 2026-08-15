@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
@@ -144,6 +145,10 @@ export default function AsianEyelidSurgeryPage() {
               </div>
             </div>
             <aside className="article-summary-card">
+              <figure className="article-hero-image-card">
+                <Image src="/images/aesthetic-ai/eyelid-surgery.jpg" alt="Editorial-style image representing Asian eyelid surgery consultation and ptosis assessment" width={720} height={860} priority sizes="(max-width: 900px) 100vw, 330px" />
+                <figcaption>Illustrative image for patient education; not a before-and-after result.</figcaption>
+              </figure>
               <h2>On this page</h2>
               <ul>
                 <li><a href="#what-is-asian-eyelid-surgery">What is Asian eyelid surgery?</a></li>
