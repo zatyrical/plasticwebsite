@@ -91,7 +91,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'risks',
         heading: 'Risks and limitations',
-        paragraphs: ['Risks include bleeding, infection, fluid collection, contour irregularity, asymmetry, altered sensation, skin laxity, scarring, pigmentation change, delayed healing, anaesthetic risks and need for revision surgery. Liposuction cannot guarantee a particular body shape and does not replace weight management.', 'Patients should seek prompt medical advice if they develop concerning symptoms after surgery such as increasing pain, shortness of breath, chest pain, fever, spreading redness, one-sided leg swelling or sudden deterioration.']
+        paragraphs: ['Risks include bleeding, infection, fluid collection, contour irregularity, asymmetry, altered sensation, skin laxity, scarring, pigmentation change, delayed healing, anaesthetic risks and need for revision surgery. Liposuction cannot assure a particular body shape and does not replace weight management.', 'Patients should seek prompt medical advice if they develop concerning symptoms after surgery such as increasing pain, shortness of breath, chest pain, fever, spreading redness, one-sided leg swelling or sudden deterioration.']
       },
       {
         id: 'questions',
@@ -325,7 +325,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'risks',
         heading: 'Risks and limitations',
-        paragraphs: ['Risks include bleeding, haematoma, infection, wound healing problems, visible scars, altered sensation, hairline changes, asymmetry, facial nerve weakness, skin loss, prolonged swelling, contour irregularity and need for revision surgery.', 'Outcomes vary and continued ageing occurs. Surgery cannot guarantee symmetry, a particular degree of tightening or a permanent result.']
+        paragraphs: ['Risks include bleeding, haematoma, infection, wound healing problems, visible scars, altered sensation, hairline changes, asymmetry, facial nerve weakness, skin loss, prolonged swelling, contour irregularity and need for revision surgery.', 'Outcomes vary and continued ageing occurs. Surgery cannot assure symmetry, a particular degree of tightening or a permanent result.']
       },
       {
         id: 'questions',
