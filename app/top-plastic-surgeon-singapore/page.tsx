@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   keywords: [
     'top plastic surgeon Singapore',
     'plastic surgeon Singapore',
-    'best plastic surgeon Singapore',
     'how to choose plastic surgeon Singapore',
     'aesthetic plastic surgeon Singapore',
     'Dr Jeremy Sun plastic surgeon'
@@ -20,7 +19,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/top-plastic-surgeon-singapore' },
   openGraph: {
     title: 'Top Plastic Surgeon in Singapore: How to Choose Safely',
-    description: 'How patients can assess plastic surgery credentials, safety, judgement and suitability without relying on unsupported “best surgeon” claims.',
+    description: 'How patients can assess plastic surgery credentials, safety, judgement and suitability without relying on unsupported superiority claims.',
     url: '/top-plastic-surgeon-singapore',
     type: 'article',
     images: [{ url: '/images/dr-jeremy-sun-hero.jpg', width: 896, height: 1280, alt: 'Dr Jeremy Sun, plastic surgeon in Singapore' }]
@@ -119,7 +118,7 @@ export default function TopPlasticSurgeonSingaporePage() {
               <nav className="breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span>/</span><span>Top plastic surgeon Singapore</span></nav>
               <div className="eyebrow">Patient guide</div>
               <h1>Top Plastic Surgeon in Singapore: How to Choose Safely</h1>
-              <p className="lead">Many patients search for the “top” or “best” plastic surgeon in Singapore. A safer approach is to understand what markers of specialist training, judgement, safety and suitability actually matter.</p>
+              <p className="lead">Many patients search for the “top” plastic surgeon in Singapore. A safer approach is to understand what markers of specialist training, judgement, safety and suitability actually matter.</p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
                 <Link href="/plastic-surgeon-singapore" className="btn btn-ghost">Read credential guide</Link>
