@@ -17,7 +17,9 @@ const trainingMentorship = [
     note: 'Structured subspecialty lymphatic surgery training, distinct from broader microsurgical fellowships where lymphedema may be only one component of training.',
     photos: [
       { src: '/images/mentors/takumi-yamamoto-lymphatic-group.jpg', alt: 'Dr Jeremy Sun with Dr Takumi Yamamoto during lymphatic surgery training in Tokyo', className: 'photo-takumi-yamamoto' },
-      { src: '/images/mentors/akitatsu-hayashi.jpg', alt: 'Dr Jeremy Sun with Dr Akitatsu Hayashi during lymphatic surgery training in Tokyo', className: 'photo-akitatsu-hayashi' }
+      { src: '/images/mentors/dr-jeremy-sun-akitatsu-hayashi-lva-training-microscope.jpg', alt: 'Dr Jeremy Sun with Dr Akitatsu Hayashi during LVA and lymphatic surgery training in Tokyo', className: 'photo-akitatsu-hayashi' },
+      { src: '/images/mentors/akitatsu-hayashi-lymphatic-surgery-microscope-wide.jpg', alt: 'Microscope-based lymphatic surgery training with Dr Jeremy Sun and Dr Akitatsu Hayashi in Japan' },
+      { src: '/images/mentors/dr-jeremy-sun-akitatsu-hayashi-ramses-2025.jpg', alt: 'Dr Jeremy Sun with Dr Akitatsu Hayashi at RAMSES 2025 robotic assisted microsurgery symposium in Japan' }
     ]
   },
   {

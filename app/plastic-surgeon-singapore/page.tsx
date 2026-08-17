@@ -163,6 +163,7 @@ export default function PlasticSurgeonSingaporePage() {
             <section id="procedures">
               <h2>Related plastic surgery pages</h2>
               <div className="related-grid">
+                <Link href="/top-plastic-surgeon-singapore" className="related-card"><small>Patient guide</small><strong>Top Plastic Surgeon in Singapore: How to Choose Safely</strong><span>Read page</span></Link>
                 <Link href="/asian-rhinoplasty-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Asian Rhinoplasty in Singapore</strong><span>Read page</span></Link>
                 <Link href="/asian-eyelid-surgery-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Asian Eyelid Surgery in Singapore</strong><span>Read page</span></Link>
                 <Link href="/breast-aesthetic-surgery-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Breast Aesthetic Surgery in Singapore</strong><span>Read page</span></Link>
