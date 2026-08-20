@@ -240,7 +240,7 @@ export default function ChooseLymphedemaSurgeonPage() {
             </p>
             <h3>Lymphovenous bypass / LVA</h3>
             <p>
-              <Link href="/lymphovenous-bypass-lva-surgery-singapore">Lymphovenous bypass</Link>, also called LVA, connects small lymphatic channels to nearby veins to create alternative drainage pathways. It is often discussed for earlier fluid-dominant disease, but selected patients with more advanced lymphedema may still be suitable if imaging shows usable lymphatic channels and the limb remains more fluid-dominant than solid-tissue-dominant.
+              <Link href="/lymphovenous-bypass-lva-surgery-singapore">LVB / LVA lymphovenous bypass</Link> connects small lymphatic channels to nearby veins to create alternative drainage pathways. LVB is often used in American medical contexts, while LVA is commonly used in Singapore and Asia. It is often discussed for earlier fluid-dominant disease, but selected patients with more advanced lymphedema may still be suitable if imaging shows usable lymphatic channels and the limb remains more fluid-dominant than solid-tissue-dominant.
             </p>
             <h3>Vascularised lymph node transfer</h3>
             <p>
@@ -299,7 +299,7 @@ export default function ChooseLymphedemaSurgeonPage() {
             <h2>Related pages</h2>
             <ul>
               <li><Link href="/lymphedema-surgery-singapore">Lymphedema surgery in Singapore</Link></li>
-              <li><Link href="/lymphovenous-bypass-lva-surgery-singapore">Lymphovenous bypass / LVA surgery in Singapore</Link></li>
+              <li><Link href="/lymphovenous-bypass-lva-surgery-singapore">LVB / LVA lymphovenous bypass surgery in Singapore</Link></li>
               <li><Link href="/training-and-fellowships">Training and fellowships</Link></li>
             </ul>
           </div>

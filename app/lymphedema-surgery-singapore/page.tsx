@@ -152,7 +152,7 @@ export default function LymphedemaSurgeryPage() {
 
             <h3>Lymphovenous bypass / lymphaticovenular anastomosis</h3>
             <p>
-              Lymphovenous bypass, also known as lymphaticovenular anastomosis or LVA, is a supermicrosurgical procedure that connects functioning lymphatic channels to nearby small veins. The aim is to create alternative drainage pathways for lymphatic fluid. A dedicated patient page on <Link href="/lymphovenous-bypass-lva-surgery-singapore">LVA surgery in Singapore</Link> is available for more detail.
+              Lymphovenous bypass, also known as LVB, lymphaticovenular anastomosis or LVA, is a supermicrosurgical procedure that connects functioning lymphatic channels to nearby small veins. The aim is to create alternative drainage pathways for lymphatic fluid. A dedicated patient page on <Link href="/lymphovenous-bypass-lva-surgery-singapore">LVB / LVA surgery in Singapore</Link> is available for more detail.
             </p>
             <p>
               LVA is often described as a treatment for early-stage lymphedema, but disease stage alone does not determine suitability. In Dr Sun’s practice, even some patients with advanced-stage lymphedema may be amenable to LVA if imaging and clinical assessment suggest that the limb remains more fluid-dominant rather than solid-tissue-dominant.

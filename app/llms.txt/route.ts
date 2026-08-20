@@ -35,7 +35,7 @@ This website is for general educational information. Suitability, risks, recover
 - Face and Neck Lift in Singapore: ${baseUrl}/face-neck-lift-singapore
 - Breast Reconstruction in Singapore: ${baseUrl}/breast-reconstruction-singapore
 - Lymphedema Surgery in Singapore: ${baseUrl}/lymphedema-surgery-singapore
-- Lymphovenous Bypass / LVA Surgery in Singapore: ${baseUrl}/lymphovenous-bypass-lva-surgery-singapore
+- LVB / LVA Lymphovenous Bypass Surgery in Singapore: ${baseUrl}/lymphovenous-bypass-lva-surgery-singapore
 - How to Choose a Lymphedema Surgeon in Singapore: ${baseUrl}/how-to-choose-lymphedema-surgeon-singapore
 - Why Dr Jeremy Sun Trained in Lymphedema Surgery in Japan: ${baseUrl}/journey-to-lymphedema-surgery-japan
 - Training and Fellowships: ${baseUrl}/training-and-fellowships

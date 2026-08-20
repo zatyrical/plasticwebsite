@@ -5,21 +5,22 @@ import ContactForm from '../ContactForm';
 import { lastReviewedIso } from '../seoIdentity';
 
 export const metadata: Metadata = {
-  title: 'LVA Surgery Singapore | Lymphovenous Bypass',
+  title: 'LVB / LVA Surgery Singapore | Lymphovenous Bypass',
   description:
-    'Patient information on supermicrosurgical lymphovenous bypass and LVA surgery in Singapore, including imaging, ultrasound localisation, recovery and cellulitis risk.',
+    'Patient information on LVB / LVA surgery and supermicrosurgical lymphovenous bypass in Singapore, including imaging, ultrasound localisation, recovery and cellulitis risk.',
   alternates: {
     canonical: '/lymphovenous-bypass-lva-surgery-singapore'
   },
   openGraph: {
-    title: 'Lymphovenous Bypass / LVA Surgery in Singapore | Dr Jeremy Sun',
+    title: 'LVB / LVA Lymphovenous Bypass Surgery in Singapore | Dr Jeremy Sun',
     description:
-      'Learn about LVA surgery, lymphatic imaging, suitability, recovery, cellulitis risk and compression after lymphovenous bypass in Singapore.',
+      'Learn about LVB / LVA surgery, lymphatic imaging, suitability, recovery, cellulitis risk and compression after lymphovenous bypass in Singapore.',
     url: '/lymphovenous-bypass-lva-surgery-singapore',
     type: 'article'
   },
   keywords: [
     'LVA surgery Singapore',
+    'LVB surgery Singapore',
     'lymphovenous bypass Singapore',
     'lymphaticovenular anastomosis Singapore',
     'lymphedema surgery Singapore',
@@ -33,10 +34,10 @@ const faqJsonLd = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'Is LVA the same as lymphovenous bypass?',
+      name: 'Is LVA the same as LVB or lymphovenous bypass?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. LVA commonly refers to lymphaticovenular anastomosis, a type of lymphovenous bypass procedure connecting lymphatic channels to small veins.'
+        text: 'Yes. LVA and LVB are often used for closely related lymphatic bypass procedures. LVA usually means lymphaticovenous or lymphaticovenular anastomosis, while LVB means lymphovenous bypass. LVB is commonly used in American medical contexts and can help frame the operation as a recognised reconstructive medical treatment.'
       }
     },
     {
@@ -84,10 +85,10 @@ export default function LvaSurgeryPage() {
         <section className="article-hero">
           <div className="container article-hero-grid">
             <div>
-              <div className="eyebrow">Lymphovenous bypass</div>
-              <h1>Lymphovenous Bypass / LVA Surgery in Singapore</h1>
+              <div className="eyebrow">LVB / LVA lymphovenous bypass</div>
+              <h1>LVB / LVA Lymphovenous Bypass Surgery in Singapore</h1>
               <p className="lead">
-                Patient information on supermicrosurgical LVA surgery, suitability, imaging, ultrasound localisation, recovery, cellulitis risk and compression after surgery.
+                Patient information on supermicrosurgical LVB / LVA surgery, suitability, imaging, ultrasound localisation, recovery, cellulitis risk and compression after surgery.
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about LVA assessment</a>
@@ -97,7 +98,7 @@ export default function LvaSurgeryPage() {
             <aside className="article-summary-card">
               <h2>On this page</h2>
               <ul>
-                <li><a href="#what-is-lva">What is LVA?</a></li>
+                <li><a href="#what-is-lva">What is LVB / LVA?</a></li>
                 <li><a href="#suitability">Who may be suitable?</a></li>
                 <li><a href="#cellulitis">Cellulitis and infection</a></li>
                 <li><a href="#recovery">Recovery and compression</a></li>
@@ -113,7 +114,7 @@ export default function LvaSurgeryPage() {
         <section className="section article-content">
           <div className="container article-narrow">
             <p>
-              Lymphovenous bypass, also known as lymphaticovenular anastomosis or LVA, is a supermicrosurgical procedure used in selected patients with lymphedema. It involves connecting tiny lymphatic channels to nearby small veins, creating alternative drainage pathways for lymphatic fluid. These vessels are often less than a millimetre in diameter, which is why LVA requires specialised supermicrosurgical training and careful pre-operative localisation.
+              Lymphovenous bypass, also known as LVB, lymphaticovenular anastomosis or LVA, is a supermicrosurgical procedure used in selected patients with lymphedema. It involves connecting tiny lymphatic channels to nearby small veins, creating alternative drainage pathways for lymphatic fluid. These vessels are often less than a millimetre in diameter, which is why LVA requires specialised supermicrosurgical training and careful pre-operative localisation.
             </p>
             <p>
               LVA is one of the main physiological operations used in lymphatic surgery. It aims to improve lymphatic drainage rather than remove tissue. In appropriately selected patients, it may help reduce swelling, heaviness, recurrent cellulitis or infection frequency, and dependence on compression garments. Outcomes vary between individuals, and careful assessment is required before any recommendation can be made.
@@ -129,14 +130,17 @@ export default function LvaSurgeryPage() {
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
             </div>
 
-            <h2 id="what-is-lva">What is LVA surgery?</h2>
+            <h2 id="what-is-lva">What is LVB / LVA surgery?</h2>
+            <p>
+              LVB, LVA, lymphaticovenous anastomosis and lymphovenous bypass are overlapping terms for supermicrosurgical lymphatic bypass procedures. LVB is especially common in American medical contexts, where bypass terminology helps frame the operation as a recognised reconstructive medical treatment rather than a cosmetic procedure. In Singapore and much of Asia, surgeons often use LVA or lymphaticovenous anastomosis.
+            </p>
             <p>
               LVA is a form of supermicrosurgery. During the procedure, small lymphatic vessels are identified and connected to nearby venules under high magnification. These connections may allow lymphatic fluid to drain into the venous circulation, bypassing areas where lymphatic flow is impaired.
             </p>
             <p>
               The operation is usually performed through small incisions. The number and location of bypasses depend on the patient’s lymphatic imaging, limb condition and operative findings.
             </p>
-            <p>LVA may also be called lymphovenous bypass, lymphaticovenular anastomosis, lymphovenous anastomosis or lymphatic bypass surgery.</p>
+            <p>LVA may also be called LVB, lymphovenous bypass, lymphaticovenular anastomosis, lymphovenous anastomosis or lymphatic bypass surgery.</p>
 
             <figure className="article-clinical-figure">
               <img
@@ -286,8 +290,8 @@ export default function LvaSurgeryPage() {
             </p>
 
             <h2 id="faq">Frequently asked questions</h2>
-            <h3>Is LVA the same as lymphovenous bypass?</h3>
-            <p>Yes. LVA is commonly used to refer to lymphaticovenular anastomosis, a type of lymphovenous bypass procedure connecting lymphatic channels to small veins.</p>
+            <h3>Is LVA the same as LVB or lymphovenous bypass?</h3>
+            <p>Yes. LVA and LVB are often used for closely related lymphatic bypass procedures. LVA usually means lymphaticovenous or lymphaticovenular anastomosis, while LVB means lymphovenous bypass. LVB is common in American medical and insurance contexts; local coverage and suitability still depend on the patient’s diagnosis, insurer and specialist assessment.</p>
             <h3>Is LVA only useful for early lymphedema?</h3>
             <p>No. LVA is often associated with early-stage lymphedema, but some advanced-stage patients may still be suitable if their disease is more fluid-dominant and imaging shows usable lymphatic channels.</p>
             <h3>Can LVA reduce cellulitis?</h3>
