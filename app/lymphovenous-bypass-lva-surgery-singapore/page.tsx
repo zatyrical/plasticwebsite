@@ -193,7 +193,7 @@ export default function LvaSurgeryPage() {
 
             <h2>Why LVA is often considered first when suitable</h2>
             <p>
-              Where suitable lymphatic channels are present, LVA is often favoured as an initial surgical option because it is less invasive than larger reconstructive or reductive procedures. It is performed through small incisions and usually involves little downtime compared with larger operations.
+              Where suitable lymphatic channels are present, LVA is often favoured as an initial surgical option because it is less invasive than larger reconstructive or reductive procedures. It is performed through small incisions and usually involves a shorter recovery than larger operations.
             </p>
             <p>
               In Dr Sun’s practice, patients typically go home the next day after LVA surgery, depending on the surgical plan, anaesthetic recovery and individual clinical circumstances. Some patients may notice early decongestion, although timing and degree of improvement vary.
@@ -287,6 +287,9 @@ export default function LvaSurgeryPage() {
             </p>
             <p>
               This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment.
+            </p>
+            <p className="notice-text">
+              For a cleaner patient-education guide focused specifically on the procedure, see LymphedAsia: <a href="https://lymphedasia.com/lva-surgery-singapore/" target="_blank" rel="noopener noreferrer">LVA surgery in Singapore — lymphovenous bypass for lymphedema</a>.
             </p>
 
             <h2 id="faq">Frequently asked questions</h2>

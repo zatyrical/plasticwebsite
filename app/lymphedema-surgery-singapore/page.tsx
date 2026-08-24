@@ -251,7 +251,7 @@ export default function LymphedemaSurgeryPage() {
 
             <h2 id="education">Further lymphedema education</h2>
             <p>
-              Dr Jeremy Sun also maintains <a href="https://www.lymphedasia.com" target="_blank" rel="noopener noreferrer">LymphedAsia</a>, an educational resource on lymphedema, lymphatic surgery and long-term lymphedema care. Patients who would like to understand more about lymphedema, conservative management, lymphovenous bypass and related topics may find the site useful as a general information resource.
+              Dr Jeremy Sun also maintains <a href="https://www.lymphedasia.com" target="_blank" rel="noopener noreferrer">LymphedAsia</a>, an educational resource on lymphedema, lymphatic surgery and long-term lymphedema care. Patients who would like a deeper guide to bypass surgery can read <a href="https://lymphedasia.com/lva-surgery-singapore/" target="_blank" rel="noopener noreferrer">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>. The article explains ICG lymphography, LVB / LVA terminology, suitability, compression and why LVA should not be framed as a cure.
             </p>
             <p className="notice-text">
               Information on LymphedAsia is educational and should not replace personalised assessment by a qualified medical practitioner.
