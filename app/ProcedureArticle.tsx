@@ -12,6 +12,12 @@ type Props = {
 
 const establishedArticles = [
   {
+    title: 'Breast Augmentation in Singapore',
+    href: '/breast-augmentation-singapore',
+    category: 'Breast augmentation & implants',
+    group: 'aesthetic'
+  },
+  {
     title: '24-Hour Rapid Recovery Breast Augmentation in Singapore',
     href: '/24-hour-rapid-recovery-breast-augmentation-singapore',
     category: 'Breast augmentation recovery',

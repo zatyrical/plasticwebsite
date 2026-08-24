@@ -7,7 +7,7 @@ export type TreatmentTile = {
 
 export const aestheticTreatments: TreatmentTile[] = [
   { title: 'Body contouring & liposuction', href: '/body-contouring-liposuction-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused body contouring image showing waist and abdominal contour' },
-  { title: 'Breast aesthetic surgery', href: '/breast-aesthetic-surgery-singapore', image: '/images/aesthetic-ai/breast-aesthetic.jpg', alt: 'Tasteful inframammary fold and upper abdomen concept image for breast aesthetic surgery' },
+  { title: 'Breast augmentation & implants', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during breast augmentation consultation planning' },
   { title: 'Asian rhinoplasty', href: '/asian-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image for rhinoplasty' },
   { title: 'Eyelid surgery', href: '/asian-eyelid-surgery-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Asian eyelid image with surgical planning markings' },
   { title: 'Face and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Asian lower face, jawline and neck image for face and neck lift' },
@@ -28,7 +28,7 @@ export const reconstructiveTreatments: TreatmentTile[] = [
 ];
 
 export const aestheticSignatureTreatments: TreatmentTile[] = [
-  { title: 'Breast augmentation, reduction & lift', href: '/breast-aesthetic-surgery-singapore', image: '/images/aesthetic-ai/breast-aesthetic.jpg', alt: 'Tasteful inframammary fold and upper abdomen concept image for breast aesthetic surgery' },
+  { title: 'Breast augmentation & implants', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during breast augmentation consultation planning' },
   { title: 'Face and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Asian lower face, jawline and neck image for face and neck lift' },
   { title: 'Abdominoplasty & mommy makeover', href: '/body-contouring-liposuction-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused body contouring image showing waist and abdominal contour' }
 ];

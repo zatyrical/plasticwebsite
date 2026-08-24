@@ -107,6 +107,84 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { question: 'Can liposuction be combined with other procedures?', answer: 'Sometimes, but combination surgery increases planning complexity and may affect anaesthesia, recovery and risk. The decision should be individualised.' }
     ]
   },
+  'breast-augmentation-singapore': {
+    slug: 'breast-augmentation-singapore',
+    title: 'Breast Augmentation in Singapore',
+    eyebrow: 'Breast augmentation & implants',
+    lead: 'A patient guide to breast augmentation in Singapore, including implant selection, Motiva implant planning, fat grafting alternatives, recovery, screening, risks and long-term implant follow-up.',
+    description: 'Patient information on breast augmentation in Singapore, including breast implants, Motiva implant planning, implant size and profile, fat grafting alternatives, recovery, screening and risks.',
+    keywords: ['breast augmentation Singapore', 'breast implant Singapore', 'breast implants Singapore', 'breast enlargement Singapore', 'Motiva implants Singapore', 'boob job Singapore', 'aesthetic breast surgery Singapore'],
+    heroImage: { src: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant sizers and Motiva implant samples used during breast augmentation consultation planning in Singapore', caption: 'Breast implant samples used for patient education during consultation; not a before-and-after result or product endorsement.' },
+    backHref: '/#aesthetic-surgery',
+    backLabel: 'Back to aesthetic surgery',
+    intro: [
+      'Breast augmentation is surgery to increase or restore breast volume and refine breast shape. In Singapore, patients may consider breast augmentation for naturally small breast volume, postpartum volume loss, asymmetry, body proportion concerns or reconstruction-related goals.',
+      'The safest plan is not simply choosing a cup size. Breast augmentation planning should consider breast base width, soft-tissue thickness, chest wall shape, nipple position, skin quality, implant dimensions, incision, implant plane, recovery needs and long-term follow-up.',
+      'This page explains the main decisions patients should understand before breast augmentation, including implant selection, Motiva implant discussions, selected fat grafting alternatives, 24-hour rapid recovery principles and reasons breast screening or additional medical assessment may be needed before elective surgery.'
+    ],
+    sections: [
+      {
+        id: 'what-it-can-do',
+        heading: 'What breast augmentation can and cannot do',
+        paragraphs: ['Breast augmentation can increase breast volume, improve selected proportions and help address mild asymmetry in suitable patients. It may also restore some volume lost after pregnancy, breastfeeding or weight change.', 'It cannot guarantee a specific cup size, perfect symmetry or a fixed long-term breast shape. If the main issue is significant drooping, loose skin or low nipple position, an implant alone may not be enough and a breast lift may need to be discussed.']
+      },
+      {
+        id: 'consultation',
+        heading: 'Breast augmentation consultation and measurements',
+        paragraphs: ['Consultation includes breast measurements, skin and soft-tissue assessment, chest wall shape, nipple position, asymmetry, previous scars, pregnancy and breastfeeding history, weight changes, medical history and breast-screening history.', 'Implant planning should match the patient’s anatomy rather than forcing the tissues to fit a preferred size. Measurements such as breast base width and tissue thickness help narrow the range of implant dimensions that may be safer and more proportionate.']
+      },
+      {
+        id: 'implant-choices',
+        heading: 'Implant size, profile, shape and feel',
+        paragraphs: ['Breast implants differ in volume, base width, projection, profile, shell, gel characteristics and shape. During consultation, implant samples or sizers may help patients understand how these choices relate to their frame and goals.', 'The image on this page shows implant samples used for educational discussion. Brand names may come up during consultation, including Motiva implants, but implant choice should be based on anatomy, safety, device characteristics, surgeon judgement and patient goals rather than brand familiarity alone.'],
+        items: ['base width and implant diameter', 'projection and profile', 'round versus anatomical-style planning considerations', 'surface and shell characteristics', 'gel feel and cohesivity', 'long-term monitoring and possible future surgery']
+      },
+      {
+        id: 'plane-incision',
+        heading: 'Implant pocket and incision planning',
+        paragraphs: ['The implant may be placed in different planes depending on anatomy and goals, such as under breast tissue or under/partly under muscle. Each approach has trade-offs involving implant visibility, animation, recovery, soft-tissue coverage and revision considerations.', 'Incisions may be planned in different locations depending on anatomy and surgeon preference. Scar position, access, implant type, breast fold anatomy and long-term healing should be discussed before surgery.']
+      },
+      {
+        id: 'fat-grafting-lift',
+        heading: 'Implants, fat grafting and breast lift alternatives',
+        paragraphs: ['Implants are a common way to increase breast volume, but they are not the only aesthetic breast option. Fat grafting may be considered for selected contour refinement or modest volume goals, but it is limited by donor fat, tissue capacity and how much transferred fat persists.', 'A breast lift addresses nipple position and loose skin rather than simply adding volume. Some patients need a lift, an augmentation, or a combined/staged plan depending on breast position, skin quality and desired change.']
+      },
+      {
+        id: 'screening-safety',
+        heading: 'Breast screening and medical safety before cosmetic surgery',
+        paragraphs: ['Elective breast augmentation should not bypass appropriate breast assessment. Patients with breast lumps, nipple discharge, skin changes, strong family history, abnormal imaging or unexplained symptoms may need imaging or breast specialist review before cosmetic surgery is considered.', 'Patients should also understand that implants are medical devices. They may require monitoring, can affect some imaging techniques, and may need future surgery for rupture, capsular contracture, malposition, infection, size change or other concerns.']
+      },
+      {
+        id: 'rapid-recovery',
+        heading: '24-hour rapid recovery breast augmentation principles',
+        paragraphs: ['For selected primary breast augmentation patients, Dr Sun may discuss rapid recovery principles learnt directly from Dr William Adams during aesthetic breast surgery training. These principles emphasise careful planning, gentle tissue handling, pocket control, bleeding control and structured early movement.', 'This should not be understood as an assured 24-hour timeline for every patient. Suitability depends on anatomy, implant choice, surgical plan, anaesthesia recovery, symptoms, confidence with early movement and individual healing.']
+      },
+      {
+        id: 'recovery',
+        heading: 'Recovery after breast augmentation',
+        paragraphs: ['Recovery varies between patients. Swelling, tightness, bruising, temporary altered sensation and implant settling are expected early changes. Patients may need a supportive garment and should follow specific activity instructions.', 'Light daily activity may resume earlier in selected patients, but heavy lifting, strenuous exercise and contact activity should only resume when advised. Breast shape and scars continue to mature over weeks to months.']
+      },
+      {
+        id: 'risks',
+        heading: 'Risks and limitations',
+        paragraphs: ['Risks include bleeding, infection, haematoma, wound healing problems, visible scars, asymmetry, altered nipple or skin sensation, implant malposition, capsular contracture, implant rupture, rippling, need for revision surgery and anaesthetic risks. Outcomes vary and cannot be promised in advance.', 'Patients should seek medical advice promptly after surgery if they develop rapidly increasing swelling, severe one-sided pain, fever, spreading redness, shortness of breath, chest pain, fainting or sudden deterioration.']
+      },
+      {
+        id: 'questions',
+        heading: 'Questions to ask before breast augmentation',
+        items: ['Is my goal mainly volume increase, upper-pole fullness, symmetry, shape or correction of postpartum change?', 'What implant dimensions fit my breast base width and soft-tissue coverage?', 'Would implants, fat grafting, a breast lift or a staged plan best match my anatomy?', 'Do I need breast imaging or specialist review before elective surgery?', 'Where will the scar be and how may it mature?', 'What implant-specific risks and long-term follow-up should I understand?']
+      }
+    ],
+    faqs: [
+      { question: 'What is the difference between breast augmentation and breast implants?', answer: 'Breast augmentation is the procedure. Breast implants are one method used to increase breast volume. Selected patients may also discuss fat grafting, breast lift or other aesthetic breast options depending on anatomy and goals.' },
+      { question: 'Are Motiva implants the best option for everyone?', answer: 'No single implant brand or model is best for every patient. Motiva implants may be discussed during consultation, but implant choice should be based on anatomy, tissue quality, implant dimensions, safety considerations, surgeon judgement and patient goals.' },
+      { question: 'Can breast augmentation correct sagging?', answer: 'Implants may improve selected mild volume-related deflation, but significant sagging or low nipple position often requires discussion of a breast lift rather than implant alone.' },
+      { question: 'Do breast implants need to be replaced every 10 years?', answer: 'Not automatically. Implants are not lifetime devices for every patient, but replacement is usually based on symptoms, imaging findings, implant problems, patient preference or revision needs rather than a fixed date alone.' },
+      { question: 'Can breast augmentation be planned for rapid recovery?', answer: 'Selected primary breast augmentation patients may be suitable for rapid recovery principles, but this is not assured for every patient. Recovery depends on anatomy, implant choice, surgical plan, anaesthesia recovery and individual healing.' },
+      { question: 'Will breast augmentation affect breast screening?', answer: 'Breast implants can affect imaging technique and should be disclosed to screening providers. Patients with symptoms, family history or abnormal imaging may need assessment before elective cosmetic surgery.' }
+    ]
+  },
+
   'breast-aesthetic-surgery-singapore': {
     slug: 'breast-aesthetic-surgery-singapore',
     title: 'Breast Augmentation & Aesthetic Breast Surgery in Singapore',
