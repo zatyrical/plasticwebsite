@@ -162,7 +162,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
               <h2>Why recovery concerns matter</h2>
               <p>Many women considering breast augmentation are understandably concerned about postoperative pain, stiffness, time away from work, caring for children, exercise restrictions and whether they will feel dependent on others during recovery. These concerns are valid and should be discussed openly during consultation.</p>
               <p>The rapid recovery philosophy popularised by Dr William Adams was developed to make the breast augmentation process more predictable and less traumatic where appropriate — from implant selection and pocket planning to gentle tissue handling, bleeding control and structured early movement after surgery.</p>
-              <p>This does not mean painless surgery or unrestricted activity after 24 hours. It means that, in selected patients, the operation and recovery plan are designed to reduce unnecessary downtime while still prioritising safety.</p>
+              <p>This does not mean surgery without discomfort or unrestricted activity after 24 hours. It means that, in selected patients, the operation and recovery plan are designed to reduce unnecessary downtime while still prioritising safety.</p>
             </section>
 
             <section id="adams-principles">
