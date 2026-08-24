@@ -49,7 +49,7 @@ export default function AestheticSurgeryPage() {
             <ul>
               <li><a href="/breast-aesthetic-surgery-singapore">Breast augmentation, reduction & lift</a></li>
               <li><a href="/face-neck-lift-singapore">Face and neck lift</a></li>
-              <li><a href="/body-contouring-liposuction-singapore">Abdominoplasty & mommy makeover</a></li>
+              <li><a href="/tummy-tuck-singapore">Tummy tuck / abdominoplasty</a></li>
             </ul>
           </aside>
         </div>

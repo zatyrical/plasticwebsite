@@ -30,6 +30,7 @@ This website is for general educational information. Suitability, risks, recover
 - Asian Rhinoplasty in Singapore: ${baseUrl}/asian-rhinoplasty-singapore
 - Asian Eyelid Surgery in Singapore: ${baseUrl}/asian-eyelid-surgery-singapore
 - Body Contouring & Liposuction in Singapore: ${baseUrl}/body-contouring-liposuction-singapore
+- Tummy Tuck / Abdominoplasty in Singapore: ${baseUrl}/tummy-tuck-singapore
 - Breast Augmentation in Singapore — Breast Implants and Planning: ${baseUrl}/breast-augmentation-singapore
 - Breast Augmentation & Aesthetic Breast Surgery in Singapore: ${baseUrl}/breast-aesthetic-surgery-singapore
 - 24-Hour Rapid Recovery Breast Augmentation in Singapore: ${baseUrl}/24-hour-rapid-recovery-breast-augmentation-singapore

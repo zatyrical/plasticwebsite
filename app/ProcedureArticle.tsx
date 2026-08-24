@@ -12,6 +12,12 @@ type Props = {
 
 const establishedArticles = [
   {
+    title: 'Tummy Tuck / Abdominoplasty in Singapore',
+    href: '/tummy-tuck-singapore',
+    category: 'Tummy tuck & abdominoplasty',
+    group: 'aesthetic'
+  },
+  {
     title: 'Breast Augmentation in Singapore',
     href: '/breast-augmentation-singapore',
     category: 'Breast augmentation & implants',

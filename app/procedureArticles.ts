@@ -101,12 +101,91 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     ],
     faqs: [
       { question: 'Is liposuction a weight-loss procedure?', answer: 'No. Liposuction is intended for contouring selected areas. It is not a treatment for obesity or a substitute for weight management.' },
-      { question: 'Will liposuction tighten loose skin?', answer: 'Liposuction primarily removes fat. Skin tightening is variable and depends on skin quality, age, genetics, pregnancy history and the amount of fat removed. Loose skin may need a different procedure.' },
+      { question: 'Will liposuction tighten loose skin?', answer: 'Liposuction primarily removes fat. Skin tightening is variable and depends on skin quality, age, genetics, pregnancy history and the amount of fat removed. Loose skin may need a different procedure such as tummy tuck / abdominoplasty in selected patients.' },
       { question: 'Which areas can be treated with liposuction?', answer: 'Common areas include the abdomen, waist, flanks, arms, thighs, back, male chest and selected neck concerns. Suitability depends on anatomy, skin quality and safety considerations.' },
       { question: 'When will the final result be visible?', answer: 'Swelling improves gradually over weeks to months. The timeline varies by area treated, extent of surgery, garment use and individual healing.' },
       { question: 'Can liposuction be combined with other procedures?', answer: 'Sometimes, but combination surgery increases planning complexity and may affect anaesthesia, recovery and risk. The decision should be individualised.' }
     ]
   },
+  'tummy-tuck-singapore': {
+    slug: 'tummy-tuck-singapore',
+    title: 'Tummy Tuck / Abdominoplasty in Singapore',
+    eyebrow: 'Tummy tuck & abdominoplasty',
+    lead: 'A patient guide to tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
+    description: 'Patient information on tummy tuck and abdominoplasty in Singapore, including loose abdominal skin, diastasis recti, mini versus full tummy tuck, liposuction, recovery, scars and risks.',
+    keywords: ['tummy tuck Singapore', 'abdominoplasty Singapore', 'mini tummy tuck Singapore', 'diastasis recti repair Singapore', 'post pregnancy tummy tuck Singapore', 'loose abdominal skin surgery Singapore', 'mommy makeover Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Educational image representing abdominal contouring and tummy tuck consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
+    backHref: '/#aesthetic-surgery',
+    backLabel: 'Back to aesthetic surgery',
+    intro: [
+      'A tummy tuck, also called abdominoplasty, is surgery to improve selected abdominal concerns such as loose lower-abdominal skin, stretched skin after pregnancy or weight change, abdominal wall laxity and selected scar or fold problems.',
+      'It is different from liposuction. Liposuction removes localised fat, while tummy tuck surgery removes excess skin and may tighten the abdominal wall when diastasis recti or muscle separation is present. Some patients need liposuction, some need abdominoplasty, and some may need a combined or staged plan.',
+      'This page explains how tummy tuck planning is approached in Singapore, including mini versus full abdominoplasty, diastasis recti repair, C-section scar considerations, recovery, scars, limitations and safety.'
+    ],
+    sections: [
+      {
+        id: 'what-it-treats',
+        heading: 'What a tummy tuck can treat',
+        paragraphs: ['A tummy tuck may be considered when the main concern is loose abdominal skin, a persistent lower-abdominal fold, stretch-related skin excess, abdominal wall laxity or a combination of skin, fat and muscle changes.', 'The operation is not a weight-loss procedure. It is usually planned when weight is reasonably stable and the concern is abdominal contour, skin excess or abdominal wall support rather than overall body weight.'],
+        items: ['loose lower-abdominal skin after pregnancy or weight change', 'skin overhang or fold that does not respond to fat reduction alone', 'selected C-section scar tethering or lower-abdominal scar/fold concerns', 'diastasis recti or abdominal muscle separation in suitable patients', 'abdominal contour concerns where liposuction alone is unlikely to be enough']
+      },
+      {
+        id: 'liposuction-vs-tummy-tuck',
+        heading: 'Tummy tuck versus liposuction',
+        paragraphs: ['Liposuction is useful for selected localised fat deposits when skin quality is good enough to settle after fat removal. It does not reliably tighten loose skin or repair separated abdominal muscles.', 'A tummy tuck addresses skin excess and may repair abdominal wall laxity. If a patient has significant loose skin, stretch marks, skin fold, poor skin recoil or diastasis recti, liposuction alone may worsen looseness or disappoint.']
+      },
+      {
+        id: 'mini-full',
+        heading: 'Mini tummy tuck versus full tummy tuck',
+        paragraphs: ['A mini tummy tuck is usually limited to selected lower-abdominal skin excess below the belly button. It is not a smaller version of every tummy tuck and is only suitable for specific anatomy.', 'A full tummy tuck typically treats a larger area of abdominal skin and allows more comprehensive abdominal wall assessment and repair where appropriate. The belly button may need to be repositioned through the skin flap in a full abdominoplasty.'],
+        items: ['mini tummy tuck: limited lower-abdominal skin excess, selected patients only', 'full tummy tuck: broader skin excess and abdominal wall planning', 'extended tummy tuck: may be discussed after major weight change or wider skin excess', 'the safest choice depends on examination, not preference for a shorter scar alone']
+      },
+      {
+        id: 'diastasis',
+        heading: 'Diastasis recti and abdominal wall repair',
+        paragraphs: ['Diastasis recti is separation or stretching of the midline abdominal muscles, commonly after pregnancy or major abdominal distension. It may contribute to a persistent abdominal bulge even when body fat is not the main problem.', 'When clinically appropriate, tummy tuck surgery may include repair of abdominal wall laxity. This is different from treating a true hernia, which may require separate assessment or combined planning depending on the case.']
+      },
+      {
+        id: 'post-pregnancy',
+        heading: 'Post-pregnancy abdominal changes and mommy makeover discussions',
+        paragraphs: ['After pregnancy, patients may notice loose skin, stretch marks, a lower-abdominal fold, C-section scar tethering, separated abdominal muscles or changes in breast volume and shape. These concerns should be assessed separately rather than grouped automatically into a package.', 'A so-called mommy makeover may include abdominal and breast procedures in selected patients, but combination surgery increases anaesthesia time, recovery demands and risk. The decision should be individualised and safety-led.']
+      },
+      {
+        id: 'consultation',
+        heading: 'Consultation and planning',
+        paragraphs: ['Consultation includes weight history, pregnancy history, plans for future pregnancy, previous abdominal surgery, C-section scars, hernia symptoms, smoking status, medications, medical conditions, skin quality, fat distribution and abdominal wall assessment.', 'A formal examination helps determine whether the issue is mainly loose skin, fat, muscle separation, scar tethering, visceral abdominal fullness or a combination. This distinction matters because different problems require different treatments.']
+      },
+      {
+        id: 'scars-belly-button',
+        heading: 'Scars and belly button considerations',
+        paragraphs: ['Tummy tuck surgery leaves a lower-abdominal scar. The scar length and position depend on the amount and distribution of excess skin, previous scars and the surgical plan. A longer scar may sometimes be needed to avoid bunching or dog-ears.', 'In a full tummy tuck, the belly button is usually brought through the tightened skin flap. Belly button shape, scar visibility, asymmetry and healing changes should be discussed before surgery. No surgical scar can be expected to be invisible.']
+      },
+      {
+        id: 'recovery',
+        heading: 'Recovery after tummy tuck surgery',
+        paragraphs: ['Recovery is more involved than liposuction alone. Patients may need dressings, drains in selected cases, compression garments, a flexed posture initially, time away from work and help at home, especially if caring for young children.', 'Swelling, tightness, bruising, altered sensation and scar maturation are expected. Heavy lifting, strenuous exercise and abdominal strain are usually restricted until cleared. Final contour and scar maturation take months.']
+      },
+      {
+        id: 'risks',
+        heading: 'Risks and limitations',
+        paragraphs: ['Risks include bleeding, haematoma, infection, seroma, wound breakdown, delayed healing, skin or umbilical circulation problems, visible or widened scars, dog-ears, asymmetry, altered sensation, contour irregularity, recurrent laxity, venous thromboembolism, anaesthetic risks and need for revision surgery.', 'Smoking, diabetes, high BMI, unstable weight, poor nutrition, previous scars and extensive combination surgery may increase risk. Patients should seek prompt medical advice after surgery if they develop increasing pain, fever, spreading redness, sudden swelling, shortness of breath, chest pain, calf pain or sudden deterioration.']
+      },
+      {
+        id: 'questions',
+        heading: 'Questions to ask before tummy tuck surgery',
+        items: ['Is my concern mainly loose skin, fat, muscle separation, scar tethering or visceral fullness?', 'Am I a better candidate for liposuction, mini tummy tuck, full tummy tuck or staged surgery?', 'Do I have diastasis recti or a possible hernia that needs assessment?', 'Where will the scar sit and how long may it be?', 'Will the belly button be repositioned?', 'How much help at home will I need during recovery?', 'What factors increase my wound-healing or clot risk?']
+      }
+    ],
+    faqs: [
+      { question: 'Is tummy tuck the same as liposuction?', answer: 'No. Liposuction removes selected fat deposits. A tummy tuck removes excess skin and may repair abdominal wall laxity or diastasis recti in suitable patients.' },
+      { question: 'Can tummy tuck repair diastasis recti?', answer: 'In suitable patients, abdominoplasty may include repair of abdominal wall separation. A true hernia is different and may need separate or combined assessment.' },
+      { question: 'What is the difference between mini and full tummy tuck?', answer: 'A mini tummy tuck is limited to selected lower-abdominal skin excess. A full tummy tuck treats broader abdominal skin excess and may include more comprehensive abdominal wall repair and belly-button repositioning.' },
+      { question: 'When can I consider tummy tuck after pregnancy?', answer: 'Timing depends on recovery from pregnancy, breastfeeding, weight stability, childcare demands, medical fitness and whether future pregnancy is planned. This should be discussed in consultation.' },
+      { question: 'Will the tummy tuck scar be visible?', answer: 'Yes. A lower-abdominal scar is expected. Scar position and length depend on anatomy and skin excess, and scar maturation varies between individuals.' },
+      { question: 'Is tummy tuck a weight-loss operation?', answer: 'No. It is a body-contouring operation for selected skin, fat and abdominal wall concerns. Weight should usually be reasonably stable before surgery.' }
+    ]
+  },
+
   'breast-augmentation-singapore': {
     slug: 'breast-augmentation-singapore',
     title: 'Breast Augmentation in Singapore',
