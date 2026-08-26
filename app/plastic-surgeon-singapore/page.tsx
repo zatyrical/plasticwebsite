@@ -112,6 +112,7 @@ export default function PlasticSurgeonSingaporePage() {
               <ul>
                 <li><a href="#credentials">Credentials</a></li>
                 <li><a href="#aesthetic-reconstructive">Aesthetic and reconstructive training</a></li>
+                <li><a href="#scope">Scope of practice</a></li>
                 <li><a href="#consultation">Consultation questions</a></li>
                 <li><a href="#procedures">Related procedure pages</a></li>
                 <li><a href="#profiles">Professional profiles</a></li>
@@ -148,6 +149,17 @@ export default function PlasticSurgeonSingaporePage() {
               <p>For example, breast aesthetic surgery should still consider breast health and long-term follow-up. Rhinoplasty should consider nasal function as well as shape. Body contouring should distinguish fat, skin laxity and muscle separation. Eyelid surgery should consider ptosis, asymmetry and eyelid function.</p>
             </section>
 
+            <section id="scope">
+              <h2>Plastic, reconstructive and aesthetic surgery scope</h2>
+              <p>Patients searching for a plastic surgeon in Singapore may be considering aesthetic, reconstructive, or medically indicated procedures. Dr Jeremy Sun’s practice spans plastic, reconstructive and aesthetic surgery, with patient education covering breast, body, facial aesthetic surgery, reconstructive microsurgery and lymphatic surgery.</p>
+              <p>Suitability, risks, recovery and expected outcomes should be assessed during an individual consultation. This guide links to procedure-specific education pages so patients can prepare questions before seeking personalised medical advice.</p>
+              <div className="related-grid">
+                <Link href="/breast-augmentation-singapore" className="related-card"><small>Breast aesthetics</small><strong>Breast Augmentation in Singapore</strong><span>Read page</span></Link>
+                <Link href="/tummy-tuck-singapore" className="related-card"><small>Body contouring</small><strong>Tummy Tuck in Singapore</strong><span>Read page</span></Link>
+                <Link href="/lymphovenous-bypass-lva-surgery-singapore" className="related-card"><small>Lymphatic surgery</small><strong>LVB / LVA Lymphovenous Bypass Surgery</strong><span>Read page</span></Link>
+              </div>
+            </section>
+
             <section id="consultation">
               <h2>Questions to ask before plastic surgery</h2>
               <ul>
@@ -166,7 +178,9 @@ export default function PlasticSurgeonSingaporePage() {
                 <Link href="/top-plastic-surgeon-singapore" className="related-card"><small>Patient guide</small><strong>Top Plastic Surgeon in Singapore: How to Choose Safely</strong><span>Read page</span></Link>
                 <Link href="/asian-rhinoplasty-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Asian Rhinoplasty in Singapore</strong><span>Read page</span></Link>
                 <Link href="/asian-eyelid-surgery-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Asian Eyelid Surgery in Singapore</strong><span>Read page</span></Link>
+                <Link href="/breast-augmentation-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Breast Augmentation in Singapore</strong><span>Read page</span></Link>
                 <Link href="/breast-aesthetic-surgery-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Breast Aesthetic Surgery in Singapore</strong><span>Read page</span></Link>
+                <Link href="/tummy-tuck-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Tummy Tuck in Singapore</strong><span>Read page</span></Link>
                 <Link href="/body-contouring-liposuction-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Body Contouring & Liposuction in Singapore</strong><span>Read page</span></Link>
                 <Link href="/face-neck-lift-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Face and Neck Lift in Singapore</strong><span>Read page</span></Link>
                 <Link href="/breast-reconstruction-singapore" className="related-card"><small>Reconstructive surgery</small><strong>Breast Reconstruction in Singapore</strong><span>Read page</span></Link>

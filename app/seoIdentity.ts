@@ -2,13 +2,14 @@ export const baseUrl = 'https://www.drjeremysun.com';
 
 export const physicianId = `${baseUrl}/#physician`;
 
-export const lastReviewedIso = '2026-08-05';
+export const lastReviewedIso = '2026-08-26';
 
 export const physicianSameAs = [
   'https://www.cgh.com.sg/profile/Sun-Mingfa-Jeremy',
   'https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy',
-  'https://lymphedasia.com/dr-jeremy-sun/',
-  'https://lymphedasia.com/dr-jeremy-sun-mingfa/'
+  'https://www.linkedin.com/in/jeremy-sun-9131aa61/',
+  'https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/',
+  'https://lymphedasia.com/lva-surgery-singapore/'
 ];
 
 export const physicianJsonLd = {
