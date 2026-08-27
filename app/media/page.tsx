@@ -66,6 +66,18 @@ const featuredMedia: MediaFeature[] = [
 
 const educationFeatures: MediaFeature[] = [
   {
+    source: 'Invited panelist',
+    title: 'Executive Edge Series: Innovative AI-Powered CX Leadership',
+    description: 'Invited cross-industry panel discussion on AI-powered customer experience and customer-centric leadership, held at NUS in August 2026.',
+    href: '/images/media/executive-edge-ai-cx-leadership-jeremy-sun-2026.webp',
+    label: 'View event poster',
+    image: '/images/media/executive-edge-ai-cx-leadership-jeremy-sun-2026.webp',
+    imageAlt: 'Executive Edge Series poster listing Dr Jeremy Sun as Head of Plastic Surgery and invited panelist for Innovative AI-Powered CX Leadership',
+    imageWidth: 914,
+    imageHeight: 1280,
+    portrait: true
+  },
+  {
     source: 'Invited speaker',
     title: 'SingHealth Duke-NUS Scientific Congress 2025',
     description: 'Professional speaker profile covering Dr Sun’s plastic, reconstructive, aesthetic and lymphatic surgery work.',
