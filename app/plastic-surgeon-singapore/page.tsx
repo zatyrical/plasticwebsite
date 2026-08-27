@@ -110,6 +110,7 @@ export default function PlasticSurgeonSingaporePage() {
             <aside className="article-summary-card">
               <h2>On this page</h2>
               <ul>
+                <li><a href="#evaluate">How to evaluate a surgeon</a></li>
                 <li><a href="#credentials">Credentials</a></li>
                 <li><a href="#aesthetic-reconstructive">Aesthetic and reconstructive training</a></li>
                 <li><a href="#scope">Scope of practice</a></li>
@@ -131,6 +132,18 @@ export default function PlasticSurgeonSingaporePage() {
               <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
             </div>
+
+            <section id="evaluate">
+              <h2>How should patients evaluate a plastic surgeon in Singapore?</h2>
+              <p>Patients searching for a plastic surgeon in Singapore often compare credentials, procedure experience, consultation style and safety systems. A useful starting point is to check whether the doctor has recognised specialist plastic surgery training, whether the planned procedure is within the surgeon’s regular scope, and whether consultation includes a balanced discussion of suitability, alternatives, recovery and risks.</p>
+              <ul>
+                <li>Check MOH specialist accreditation and plastic surgery training background.</li>
+                <li>Ask about relevant reconstructive and aesthetic experience for the procedure being considered.</li>
+                <li>Clarify where surgery would be performed, the anaesthesia plan, follow-up arrangements and safety protocols.</li>
+                <li>Discuss realistic benefits, limitations, scars, recovery, possible complications and non-surgical or alternative options.</li>
+                <li>Be cautious with advertising that implies guaranteed results or unsupported “best” or “top” claims.</li>
+              </ul>
+            </section>
 
             <section id="credentials">
               <h2>Check specialist plastic surgery credentials</h2>
