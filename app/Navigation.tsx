@@ -5,9 +5,10 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const navItems = [
-  { href: '/#about', label: 'About' },
+  { href: '/plastic-surgeon-singapore', label: 'About' },
   { href: '/#aesthetic-surgery', label: 'Aesthetic' },
   { href: '/#reconstructive-surgery', label: 'Reconstructive' },
+  { href: '/lymphovenous-bypass-lva-surgery-singapore', label: 'LVA' },
   { href: '/training-and-fellowships', label: 'Training' },
   { href: '/media', label: 'Media' },
   { href: '/publications', label: 'Publications' },

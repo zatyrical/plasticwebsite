@@ -188,6 +188,18 @@ export default function ProcedureArticlePage({ article }: Props) {
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
             </div>
 
+            {article.slug.includes('lymphedema') || article.slug.includes('lymphovenous') ? (
+              <div className="reviewer-card" aria-label="Related LymphedAsia education links">
+                <strong>Related lymphedema education hub</strong>
+                <span>
+                  For broader patient education, see Dr Sun’s LymphedAsia resources on{' '}
+                  <a href="https://lymphedasia.com/lva-surgery-singapore/" target="_blank" rel="noreferrer">LVA / lymphovenous bypass surgery</a>,{' '}
+                  <a href="https://lymphedasia.com/lymphedema-surgery-singapore/" target="_blank" rel="noreferrer">lymphedema surgery options</a> and{' '}
+                  <a href="https://lymphedasia.com/private-lymphedema-consultation-singapore/" target="_blank" rel="noreferrer">private lymphedema consultation in Singapore</a>.
+                </span>
+              </div>
+            ) : null}
+
             {article.sections.map((section) => (
               <section key={section.id}>
                 <h2 id={section.id}>{section.heading}</h2>

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
-import { lastReviewedIso } from '../seoIdentity';
+import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 export const metadata: Metadata = {
   title: 'LVB / LVA Surgery Singapore | Lymphovenous Bypass',
@@ -25,6 +25,56 @@ export const metadata: Metadata = {
     'lymphaticovenular anastomosis Singapore',
     'lymphedema surgery Singapore',
     'lymphatic surgery Singapore'
+  ]
+};
+
+const pageUrl = `${baseUrl}/lymphovenous-bypass-lva-surgery-singapore`;
+
+const medicalPageJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+        { '@type': 'ListItem', position: 2, name: 'Lymphedema Surgery in Singapore', item: `${baseUrl}/lymphedema-surgery-singapore` },
+        { '@type': 'ListItem', position: 3, name: 'LVB / LVA Lymphovenous Bypass Surgery', item: pageUrl }
+      ]
+    },
+    physicianJsonLd,
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: 'LVB / LVA Lymphovenous Bypass Surgery in Singapore',
+      headline: 'LVB / LVA Lymphovenous Bypass Surgery in Singapore',
+      description: metadata.description,
+      inLanguage: 'en-SG',
+      isPartOf: {
+        '@type': 'WebSite',
+        name: 'Dr Jeremy Sun Plastic Surgery',
+        url: baseUrl
+      },
+      about: [
+        'LVA surgery Singapore',
+        'LVB surgery Singapore',
+        'lymphovenous bypass Singapore',
+        'lymphatic surgery Singapore',
+        'lymphedema surgery Singapore',
+        'ICG lymphography',
+        'supermicrosurgery'
+      ],
+      datePublished: lastReviewedIso,
+      dateModified: lastReviewedIso,
+      lastReviewed: lastReviewedIso,
+      reviewedBy: { '@id': physicianId },
+      author: { '@id': physicianId },
+      publisher: { '@id': physicianId },
+      sameAs: [
+        'https://lymphedasia.com/lva-surgery-singapore/',
+        'https://lymphedasia.com/lymphedema-surgery-singapore/'
+      ]
+    }
   ]
 };
 
@@ -78,6 +128,7 @@ const faqJsonLd = {
 export default function LvaSurgeryPage() {
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalPageJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Navigation />
 
