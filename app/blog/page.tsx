@@ -4,6 +4,12 @@ import { procedureArticleList } from '../procedureArticles';
 
 const existingArticles = [
   {
+    title: 'Breast Implant Illness: Is It Real? What the Evidence Says',
+    href: '/breast-implant-illness-singapore-evidence',
+    category: 'Breast implant safety',
+    description: 'A balanced guide to BII symptoms, regulator safety signals, explantation outcomes and what remains scientifically uncertain.'
+  },
+  {
     title: '24-hour rapid recovery breast augmentation in Singapore',
     href: '/24-hour-rapid-recovery-breast-augmentation-singapore',
     category: 'Breast augmentation',

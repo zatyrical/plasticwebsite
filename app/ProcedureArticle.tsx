@@ -30,6 +30,12 @@ const establishedArticles = [
     group: 'aesthetic'
   },
   {
+    title: 'Breast Implant Illness: Is It Real? What the Evidence Says',
+    href: '/breast-implant-illness-singapore-evidence',
+    category: 'Breast implant safety',
+    group: 'aesthetic'
+  },
+  {
     title: 'Asian Eyelid Surgery in Singapore',
     href: '/asian-eyelid-surgery-singapore',
     category: 'Aesthetic surgery',
