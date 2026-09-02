@@ -213,8 +213,8 @@ export default function RapidRecoveryBreastAugmentationPage() {
               <h2>Related pages</h2>
               <div className="related-grid">
                 <Link href="/breast-augmentation-singapore" className="related-card"><small>Breast augmentation</small><strong>Breast augmentation and implant planning in Singapore</strong><span>Read page</span></Link>
+                <Link href="/breast-implant-illness-singapore-evidence" className="related-card"><small>Breast implant safety</small><strong>Breast implant illness: what does the evidence say?</strong><span>Read evidence guide</span></Link>
                 <Link href="/breast-aesthetic-surgery-singapore" className="related-card"><small>Breast surgery</small><strong>Breast aesthetic surgery in Singapore</strong><span>Read page</span></Link>
-                <Link href="/aesthetic-surgery" className="related-card"><small>Aesthetic surgery</small><strong>Aesthetic surgery treatment pages</strong><span>View pages</span></Link>
                 <Link href="/plastic-surgeon-singapore" className="related-card"><small>Patient guide</small><strong>How to choose a plastic surgeon safely</strong><span>Read guide</span></Link>
               </div>
             </section>
