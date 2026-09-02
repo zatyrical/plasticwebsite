@@ -66,6 +66,13 @@ const featuredMedia: MediaFeature[] = [
 
 const educationFeatures: MediaFeature[] = [
   {
+    source: 'Invited speaker',
+    title: 'St Luke’s ElderCare CommCare Symposium 2026',
+    description: 'Invited Wound Care track lecture on recognition and management of lymphoedema and its impact on chronic wounds, scheduled for 4 September 2026.',
+    href: '/st-lukes-eldercare-symposium-lymphoedema-wound-care-2026',
+    label: 'View lecture note'
+  },
+  {
     source: 'Invited panelist',
     title: 'Executive Edge Series: Innovative AI-Powered CX Leadership',
     description: 'Invited cross-industry panel discussion on AI-powered customer experience and customer-centric leadership, held at NUS in August 2026.',
