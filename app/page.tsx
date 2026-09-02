@@ -40,7 +40,8 @@ const jsonLd = {
         'Body contouring',
         'Breast surgery',
         'Breast augmentation',
-        '24-hour rapid recovery breast augmentation'
+        '24-hour rapid recovery breast augmentation',
+        'Breast implant illness evidence'
       ],
       datePublished: lastReviewedIso,
       dateModified: lastReviewedIso,
@@ -190,6 +191,7 @@ export default function Home() {
             <a className="card blog-card linked-card" href="/lymphedema-surgery-singapore"><small>Lymphedema</small><h3>Lymphedema surgery in Singapore</h3><p>Educational overview of lymphovenous bypass, assessment, infection risk and recovery.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/breast-augmentation-singapore"><small>Breast augmentation</small><h3>Breast augmentation and implant planning in Singapore</h3><p>Patient guide to breast implants, Motiva implant discussions, sizing, screening, recovery principles and long-term implant follow-up.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/24-hour-rapid-recovery-breast-augmentation-singapore"><small>Breast augmentation recovery</small><h3>24-hour rapid recovery breast augmentation</h3><p>Patient guide to Dr William Adams’ rapid recovery principles, suitability, early movement and realistic safety limits.</p><span>Read guide</span></a>
+            <a className="card blog-card linked-card" href="/breast-implant-illness-singapore-evidence"><small>Breast implant safety</small><h3>Breast implant illness: what does the evidence say?</h3><p>Balanced patient guide to reported systemic symptoms, scientific uncertainty, explantation outcomes and how to discuss concerns before breast augmentation.</p><span>Read evidence guide</span></a>
             <a className="card blog-card linked-card" href="/tummy-tuck-singapore"><small>Tummy tuck</small><h3>Tummy tuck / abdominoplasty in Singapore</h3><p>Patient guide to loose abdominal skin, diastasis recti repair, mini versus full tummy tuck, scars, recovery and safety planning.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/breast-aesthetic-surgery-singapore"><small>Breast aesthetic surgery</small><h3>Breast aesthetic surgery in Singapore</h3><p>Breast augmentation, lift, reduction, asymmetry correction, implant planning, screening and recovery considerations.</p><span>Read page</span></a>
             <a className="card blog-card linked-card" href="/breast-reconstruction-singapore"><small>Breast reconstruction</small><h3>Breast reconstruction in Singapore</h3><p>Patient information on implant-based reconstruction, DIEP flap reconstruction, timing, recovery and risks.</p><span>Read page</span></a>

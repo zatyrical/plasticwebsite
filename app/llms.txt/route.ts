@@ -34,6 +34,7 @@ This website is for general educational information. Suitability, risks, recover
 - Breast Augmentation in Singapore — Breast Implants and Planning: ${baseUrl}/breast-augmentation-singapore
 - Breast Augmentation & Aesthetic Breast Surgery in Singapore: ${baseUrl}/breast-aesthetic-surgery-singapore
 - 24-Hour Rapid Recovery Breast Augmentation in Singapore: ${baseUrl}/24-hour-rapid-recovery-breast-augmentation-singapore
+- Breast Implant Illness — Evidence and Patient Decision Guide: ${baseUrl}/breast-implant-illness-singapore-evidence
 - Face and Neck Lift in Singapore: ${baseUrl}/face-neck-lift-singapore
 - Breast Reconstruction in Singapore: ${baseUrl}/breast-reconstruction-singapore
 - Lymphedema Surgery in Singapore: ${baseUrl}/lymphedema-surgery-singapore
