@@ -141,7 +141,7 @@ export default function PlasticSurgeonSingaporePage() {
                 <li>Ask about relevant reconstructive and aesthetic experience for the procedure being considered.</li>
                 <li>Clarify where surgery would be performed, the anaesthesia plan, follow-up arrangements and safety protocols.</li>
                 <li>Discuss realistic benefits, limitations, scars, recovery, possible complications and non-surgical or alternative options.</li>
-                <li>Be cautious with advertising that implies guaranteed results or unsupported “best” or “top” claims.</li>
+                <li>Be cautious with advertising that implies assured outcomes or unsupported “best” or “top” claims.</li>
               </ul>
             </section>
 
