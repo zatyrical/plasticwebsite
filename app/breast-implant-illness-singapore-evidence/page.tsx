@@ -63,7 +63,7 @@ const faqJsonLd = {
       name: 'Does removing breast implants cure breast implant illness?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Some patients report improvement after explantation, and a 2025 systematic review reported symptom improvement in many patients. However, improvement is not guaranteed and explantation should not be presented as a certain cure for systemic symptoms.'
+        text: 'Some patients report improvement after explantation, and a 2025 systematic review reported symptom improvement in many patients. However, improvement is not assured and explantation should not be presented as a certain treatment for systemic symptoms.'
       }
     },
     {
@@ -203,7 +203,7 @@ export default function BreastImplantIllnessPage() {
             <section id="explantation">
               <h2>Does removing implants help?</h2>
               <p>Some patients report meaningful improvement after implant removal. For a patient who strongly believes implants are contributing to symptoms, explantation may be part of a shared decision after proper counselling.</p>
-              <p>But explantation should not be marketed as a guaranteed cure. Studies vary in design, patient selection, symptom measurement, capsulectomy technique, follow-up duration and expectation effects. Some patients improve, some improve partially, and some may continue to have symptoms because another medical condition is present.</p>
+              <p>But explantation should not be marketed as an assured treatment for systemic symptoms. Studies vary in design, patient selection, symptom measurement, capsulectomy technique, follow-up duration and expectation effects. Some women improve, some partially improve, and some may continue to have symptoms because another condition is contributing.</p>
               <p>The decision should consider implant-related findings such as rupture, capsular contracture, pain, cosmetic concerns, anxiety about implants, personal values and the risks of further surgery.</p>
             </section>
 

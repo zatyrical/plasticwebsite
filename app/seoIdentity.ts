@@ -2,7 +2,7 @@ export const baseUrl = 'https://www.drjeremysun.com';
 
 export const physicianId = `${baseUrl}/#physician`;
 
-export const lastReviewedIso = '2026-09-01';
+export const lastReviewedIso = '2026-09-04';
 
 export const physicianSameAs = [
   'https://www.cgh.com.sg/profile/Sun-Mingfa-Jeremy',
