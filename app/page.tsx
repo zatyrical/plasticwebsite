@@ -38,6 +38,8 @@ const jsonLd = {
         'Asian rhinoplasty',
         'Asian eyelid surgery',
         'Body contouring',
+        'Tummy tuck / abdominoplasty',
+        'Thread lifting',
         'Breast surgery',
         'Breast augmentation',
         '24-hour rapid recovery breast augmentation',

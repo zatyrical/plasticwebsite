@@ -12,12 +12,6 @@ type Props = {
 
 const establishedArticles = [
   {
-    title: 'Tummy Tuck / Abdominoplasty in Singapore',
-    href: '/tummy-tuck-singapore',
-    category: 'Tummy tuck & abdominoplasty',
-    group: 'aesthetic'
-  },
-  {
     title: 'Breast Augmentation in Singapore',
     href: '/breast-augmentation-singapore',
     category: 'Breast augmentation & implants',
@@ -33,6 +27,24 @@ const establishedArticles = [
     title: 'Breast Implant Illness: Is It Real? What the Evidence Says',
     href: '/breast-implant-illness-singapore-evidence',
     category: 'Breast implant safety',
+    group: 'aesthetic'
+  },
+  {
+    title: 'Tummy Tuck / Abdominoplasty in Singapore',
+    href: '/tummy-tuck-singapore',
+    category: 'Tummy tuck & abdominoplasty',
+    group: 'aesthetic'
+  },
+  {
+    title: 'Body Contouring & Liposuction in Singapore',
+    href: '/body-contouring-liposuction-singapore',
+    category: 'Body contouring & liposuction',
+    group: 'aesthetic'
+  },
+  {
+    title: 'Thread Lifting in Singapore',
+    href: '/thread-lifting-singapore',
+    category: 'Facial rejuvenation',
     group: 'aesthetic'
   },
   {
