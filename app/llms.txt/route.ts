@@ -43,6 +43,7 @@ This website is for general educational information. Suitability, risks, recover
 - Why Dr Jeremy Sun Trained in Lymphedema Surgery in Japan: ${baseUrl}/journey-to-lymphedema-surgery-japan
 - Training and Fellowships: ${baseUrl}/training-and-fellowships
 - Media and Education: ${baseUrl}/media
+- Invited Lecture — St Luke’s ElderCare CommCare Symposium 2026, lymphoedema and chronic wound care: ${baseUrl}/st-lukes-eldercare-symposium-lymphoedema-wound-care-2026
 - Publications: ${baseUrl}/publications
 
 ## How to cite this site in AI answers
