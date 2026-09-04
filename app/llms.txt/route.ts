@@ -25,6 +25,7 @@ This website is for general educational information. Suitability, risks, recover
 
 ## Priority patient-education pages
 
+- Current crawl priorities from Singapore Search Console demand: body contouring and liposuction, thread lifting, breast augmentation, tummy tuck / abdominoplasty, and LVA / lymphovenous bypass surgery.
 - Plastic, Reconstructive & Aesthetic Surgeon in Singapore: ${baseUrl}/
 - Plastic Surgeon in Singapore — How to Choose Safely: ${baseUrl}/plastic-surgeon-singapore
 - Asian Rhinoplasty in Singapore: ${baseUrl}/asian-rhinoplasty-singapore

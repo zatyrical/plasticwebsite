@@ -85,8 +85,14 @@ export default function ProcedureArticlePage({ article }: Props) {
       category: item.eyebrow,
       group
     }));
-  const relatedArticles = [...establishedArticles.filter((item) => item.group === group), ...generatedRelated]
+  const seenRelated = new Set<string>();
+  const relatedArticles = [...generatedRelated, ...establishedArticles.filter((item) => item.group === group)]
     .filter((item) => item.href !== `/${article.slug}`)
+    .filter((item) => {
+      if (seenRelated.has(item.href)) return false;
+      seenRelated.add(item.href);
+      return true;
+    })
     .slice(0, 4);
 
   const faqJsonLd = {
