@@ -224,6 +224,17 @@ export default function ProcedureArticlePage({ article }: Props) {
               </div>
             ) : null}
 
+            {article.slug === 'breast-augmentation-singapore' ? (
+              <div className="reviewer-card" aria-label="Related breast implant safety and recovery guides">
+                <strong>Related breast implant safety and recovery guides</strong>
+                <span>
+                  For patients comparing implant choices and long-term follow-up, read the evidence guide on{' '}
+                  <Link href="/breast-implant-illness-singapore-evidence">breast implant illness and current evidence</Link>. For early post-operative planning, see{' '}
+                  <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore">24-hour rapid recovery breast augmentation principles</Link>.
+                </span>
+              </div>
+            ) : null}
+
             {article.sections.map((section) => (
               <section key={section.id}>
                 <h2 id={section.id}>{section.heading}</h2>
