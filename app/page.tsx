@@ -26,7 +26,7 @@ const jsonLd = {
       '@id': 'https://www.drjeremysun.com/#webpage',
       url: 'https://www.drjeremysun.com',
       name: 'Dr Jeremy Sun | Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
-      headline: 'Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
+      headline: 'Dr Jeremy Sun — Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
       description: 'Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, reconstructive microsurgery and lymphedema surgery.',
       inLanguage: 'en-SG',
       isPartOf: { '@id': 'https://www.drjeremysun.com/#website' },
@@ -65,7 +65,7 @@ export default function Home() {
         <div className="container hero-grid">
           <div>
             <div className="eyebrow">Senior Consultant Plastic, Reconstructive & Aesthetic Surgeon • Singapore</div>
-            <h1>Plastic, Reconstructive & Aesthetic Surgeon in Singapore</h1>
+            <h1>Dr Jeremy Sun — Plastic, Reconstructive & Aesthetic Surgeon in Singapore</h1>
             <p className="lead">Rooted in science. Refined by art. Aesthetic surgery, reconstructive microsurgery and lymphatic surgery in Singapore by Dr Jeremy Sun.</p>
             <div className="hero-actions">
               <a href="#aesthetic-surgery" className="btn btn-primary">Explore procedures</a>
