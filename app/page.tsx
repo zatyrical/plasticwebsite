@@ -27,7 +27,7 @@ const jsonLd = {
       url: 'https://www.drjeremysun.com',
       name: 'Dr Jeremy Sun | Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
       headline: 'Dr Jeremy Sun — Plastic, Reconstructive & Aesthetic Surgeon in Singapore',
-      description: 'Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, reconstructive microsurgery and lymphedema surgery.',
+      description: 'Dr Jeremy Sun, also listed professionally as Sun Mingfa Jeremy, is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, reconstructive microsurgery and lymphedema surgery.',
       inLanguage: 'en-SG',
       isPartOf: { '@id': 'https://www.drjeremysun.com/#website' },
       about: [
@@ -92,7 +92,7 @@ export default function Home() {
           <div>
             <div className="eyebrow">About Dr Sun</div>
             <h2>Senior Consultant Plastic Surgeon in Singapore.</h2>
-            <p className="section-intro">Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, breast augmentation and aesthetic breast surgery, reconstructive microsurgery, breast reconstruction, lymphedema surgery and lymphatic surgery — grounded in academic surgical practice.</p>
+            <p className="section-intro">Dr Jeremy Sun, also listed professionally as Sun Mingfa Jeremy, is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, breast augmentation and aesthetic breast surgery, reconstructive microsurgery, breast reconstruction, lymphedema surgery and lymphatic surgery — grounded in academic surgical practice.</p>
             <div className="reviewer-card" aria-label="About Dr Jeremy Sun">
               <strong>About Dr Jeremy Sun</strong>
               <span>Dr Jeremy Sun is a Singapore Ministry of Health-accredited plastic surgeon with clinical interests in aesthetic breast surgery including breast augmentation, reconstructive microsurgery, lymphedema surgery, breast reconstruction, body contouring, eyelid surgery, rhinoplasty and facial rejuvenation. He is associated with Changi General Hospital and holds professional roles in plastic surgery education and specialist governance.</span>
