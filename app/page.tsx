@@ -69,6 +69,7 @@ export default function Home() {
             <p className="lead">Rooted in science. Refined by art. Aesthetic surgery, reconstructive microsurgery and lymphatic surgery in Singapore by Dr Jeremy Sun.</p>
             <div className="hero-actions">
               <a href="#aesthetic-surgery" className="btn btn-primary">Explore procedures</a>
+              <a href="/plastic-surgeon-singapore" className="btn btn-ghost">Choosing a plastic surgeon</a>
               <a href="#about" className="btn btn-ghost">About Dr Sun</a>
             </div>
           </div>
