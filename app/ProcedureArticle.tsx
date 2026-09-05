@@ -235,6 +235,17 @@ export default function ProcedureArticlePage({ article }: Props) {
               </div>
             ) : null}
 
+            {article.slug === 'body-contouring-liposuction-singapore' ? (
+              <div className="reviewer-card" aria-label="Related body contouring decision guides">
+                <strong>Related body contouring decision guides</strong>
+                <span>
+                  If your main concern is loose abdominal skin or muscle separation rather than localised fat, compare{' '}
+                  <Link href="/tummy-tuck-singapore">tummy tuck / abdominoplasty planning</Link>. For broader procedure selection and safety questions, see the{' '}
+                  <Link href="/plastic-surgeon-singapore">plastic surgeon in Singapore consultation guide</Link>.
+                </span>
+              </div>
+            ) : null}
+
             {article.sections.map((section) => (
               <section key={section.id}>
                 <h2 id={section.id}>{section.heading}</h2>
