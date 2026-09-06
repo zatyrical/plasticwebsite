@@ -194,14 +194,15 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     title: 'Breast Augmentation in Singapore',
     eyebrow: 'Breast augmentation & implants',
     lead: 'A patient guide to breast augmentation in Singapore, including implant selection, Motiva implant planning, fat grafting alternatives, recovery, screening, risks and long-term implant follow-up.',
-    description: 'Patient information on breast augmentation in Singapore, including breast implants, Motiva implant planning, implant size and profile, fat grafting alternatives, recovery, screening and risks.',
-    keywords: ['breast augmentation Singapore', 'breast implant Singapore', 'breast implants Singapore', 'breast enlargement Singapore', 'Motiva implants Singapore', 'boob job Singapore', 'aesthetic breast surgery Singapore'],
+    description: 'Patient information on breast augmentation in Singapore, including breast implants, Motiva implant planning, implant placement, implant shape and profile, fat grafting alternatives, recovery, screening and risks.',
+    keywords: ['breast augmentation Singapore', 'breast implant Singapore', 'breast implants Singapore', 'breast enlargement Singapore', 'Motiva implants Singapore', 'Motiva breast augmentation Singapore', 'breast implant placement Singapore', 'breast implant shapes Singapore', 'boob job Singapore', 'aesthetic breast surgery Singapore'],
     heroImage: { src: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant sizers and Motiva implant samples used during breast augmentation consultation planning in Singapore', caption: 'Breast implant samples used for patient education during consultation; not a before-and-after result or product endorsement.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Breast augmentation is surgery to increase or restore breast volume and refine breast shape. In Singapore, patients may consider breast augmentation for naturally small breast volume, postpartum volume loss, asymmetry, body proportion concerns or reconstruction-related goals.',
       'The safest plan is not simply choosing a cup size. Breast augmentation planning should consider breast base width, soft-tissue thickness, chest wall shape, nipple position, skin quality, implant dimensions, incision, implant plane, recovery needs and long-term follow-up.',
+      'Patients searching for breast implant surgery in Singapore often compare implant placement, implant shape, projection, profile and brands such as Motiva. These choices should be narrowed by measurements and safety considerations rather than marketing labels alone.',
       'This page explains the main decisions patients should understand before breast augmentation, including implant selection, Motiva implant discussions, selected fat grafting alternatives, 24-hour rapid recovery principles and reasons breast screening or additional medical assessment may be needed before elective surgery.'
     ],
     sections: [
@@ -212,19 +213,19 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       },
       {
         id: 'consultation',
-        heading: 'Breast augmentation consultation and measurements',
-        paragraphs: ['Consultation includes breast measurements, skin and soft-tissue assessment, chest wall shape, nipple position, asymmetry, previous scars, pregnancy and breastfeeding history, weight changes, medical history and breast-screening history.', 'Implant planning should match the patient’s anatomy rather than forcing the tissues to fit a preferred size. Measurements such as breast base width and tissue thickness help narrow the range of implant dimensions that may be safer and more proportionate.']
+        heading: 'Breast augmentation consultation and measurements in Singapore',
+        paragraphs: ['Consultation includes breast measurements, skin and soft-tissue assessment, chest wall shape, nipple position, asymmetry, previous scars, pregnancy and breastfeeding history, weight changes, medical history and breast-screening history.', 'Implant planning should match the patient’s anatomy rather than forcing the tissues to fit a preferred size. Measurements such as breast base width and tissue thickness help narrow the range of implant dimensions that may be safer and more proportionate.', 'For patients comparing breast augmentation clinics in Singapore, this measurement-based discussion is one way to understand why two surgeons may recommend different implant sizes, planes or incision options for the same desired look.']
       },
       {
         id: 'implant-choices',
         heading: 'Implant size, profile, shape and feel',
-        paragraphs: ['Breast implants differ in volume, base width, projection, profile, shell, gel characteristics and shape. During consultation, implant samples or sizers may help patients understand how these choices relate to their frame and goals.', 'The image on this page shows implant samples used for educational discussion. Brand names may come up during consultation, including Motiva implants, but implant choice should be based on anatomy, safety, device characteristics, surgeon judgement and patient goals rather than brand familiarity alone.'],
+        paragraphs: ['Breast implants differ in volume, base width, projection, profile, shell, gel characteristics and shape. During consultation, implant samples or sizers may help patients understand how these choices relate to their frame and goals.', 'Patients may search for round versus anatomical-style breast implants, Motiva implants, implant projection or breast implant shapes in Singapore. These terms describe device and planning features, but the useful question is how the implant fits the breast envelope and chest wall safely.', 'The image on this page shows implant samples used for educational discussion. Brand names may come up during consultation, including Motiva implants, but implant choice should be based on anatomy, safety, device characteristics, surgeon judgement and patient goals rather than brand familiarity alone.'],
         items: ['base width and implant diameter', 'projection and profile', 'round versus anatomical-style planning considerations', 'surface and shell characteristics', 'gel feel and cohesivity', 'long-term monitoring and possible future surgery']
       },
       {
         id: 'plane-incision',
-        heading: 'Implant pocket and incision planning',
-        paragraphs: ['The implant may be placed in different planes depending on anatomy and goals, such as under breast tissue or under/partly under muscle. Each approach has trade-offs involving implant visibility, animation, recovery, soft-tissue coverage and revision considerations.', 'Incisions may be planned in different locations depending on anatomy and surgeon preference. Scar position, access, implant type, breast fold anatomy and long-term healing should be discussed before surgery.']
+        heading: 'Implant pocket, placement and incision planning',
+        paragraphs: ['Breast implant placement may be described as subglandular, subfascial, submuscular or dual-plane depending on the relationship between the implant, breast tissue, fascia and chest muscle. Each option has trade-offs involving implant visibility, animation, recovery, soft-tissue coverage and revision considerations.', 'There is no single best implant placement for every breast augmentation patient in Singapore. Thin soft-tissue coverage, athletic activity, desired shape, existing breast volume and revision risk may all influence the plane selected.', 'Incisions may be planned in different locations depending on anatomy and surgeon preference. Scar position, access, implant type, breast fold anatomy and long-term healing should be discussed before surgery.']
       },
       {
         id: 'fat-grafting-lift',
@@ -259,6 +260,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     ],
     faqs: [
       { question: 'What is the difference between breast augmentation and breast implants?', answer: 'Breast augmentation is the procedure. Breast implants are one method used to increase breast volume. Selected patients may also discuss fat grafting, breast lift or other aesthetic breast options depending on anatomy and goals.' },
+      { question: 'How is breast implant placement chosen?', answer: 'Breast implant placement depends on soft-tissue coverage, chest wall shape, existing breast volume, implant dimensions, lifestyle and revision considerations. Commonly discussed planes include subglandular, subfascial, submuscular and dual-plane approaches, each with trade-offs.' },
       { question: 'Are Motiva implants the best option for everyone?', answer: 'No single implant brand or model is best for every patient. Motiva implants may be discussed during consultation, but implant choice should be based on anatomy, tissue quality, implant dimensions, safety considerations, surgeon judgement and patient goals.' },
       { question: 'Can breast augmentation correct sagging?', answer: 'Implants may improve selected mild volume-related deflation, but significant sagging or low nipple position often requires discussion of a breast lift rather than implant alone.' },
       { question: 'Do breast implants need to be replaced every 10 years?', answer: 'Not automatically. Implants are not lifetime devices for every patient, but replacement is usually based on symptoms, imaging findings, implant problems, patient preference or revision needs rather than a fixed date alone.' },

@@ -45,6 +45,8 @@ export const physicianJsonLd = {
     'Breast surgery',
     'Breast augmentation',
     'Breast implants',
+    'Breast implant placement',
+    'Motiva breast implants',
     '24-hour rapid recovery breast augmentation',
     'Aesthetic breast surgery',
     'Breast reconstruction',
