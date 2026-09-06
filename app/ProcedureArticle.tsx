@@ -246,6 +246,17 @@ export default function ProcedureArticlePage({ article }: Props) {
               </div>
             ) : null}
 
+            {article.slug === 'tummy-tuck-singapore' ? (
+              <div className="reviewer-card" aria-label="Related tummy tuck and body contouring guides">
+                <strong>Related tummy tuck and body contouring guides</strong>
+                <span>
+                  If your concern is mainly localised fat rather than loose skin or abdominal wall separation, compare{' '}
+                  <Link href="/body-contouring-liposuction-singapore">body contouring and liposuction planning</Link>. For broader safety and credential questions, see the{' '}
+                  <Link href="/plastic-surgeon-singapore">plastic surgeon in Singapore consultation guide</Link>.
+                </span>
+              </div>
+            ) : null}
+
             {article.sections.map((section) => (
               <section key={section.id}>
                 <h2 id={section.id}>{section.heading}</h2>
