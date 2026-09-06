@@ -233,7 +233,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'screening-safety',
         heading: 'Breast screening and medical safety before cosmetic surgery',
-        paragraphs: ['Elective breast augmentation should not bypass appropriate breast assessment. Patients with breast lumps, nipple discharge, skin changes, strong family history, abnormal imaging or unexplained symptoms may need imaging or breast specialist review before cosmetic surgery is considered.', 'Patients should also understand that implants are medical devices. They may require monitoring, can affect some imaging techniques, and may need future surgery for rupture, capsular contracture, malposition, infection, size change or other concerns.']
+        paragraphs: ['Elective breast augmentation should not bypass appropriate breast assessment. Patients with breast lumps, nipple discharge, skin changes, strong family history, abnormal imaging or unexplained symptoms may need imaging or breast specialist review before cosmetic surgery is considered.', 'Patients should also understand that implants are medical devices. They may require monitoring, can affect some imaging techniques, and may need future surgery for rupture, capsular contracture, malposition, infection, size change or other concerns.', 'Patients who are specifically worried about systemic symptoms or breast implant illness can read the dedicated evidence guide on breast implant illness in Singapore before consultation. The guide discusses reported symptoms, current uncertainty and why implant removal should not be presented as an assured treatment for systemic symptoms.']
       },
       {
         id: 'rapid-recovery',

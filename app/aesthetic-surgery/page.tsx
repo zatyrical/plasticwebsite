@@ -48,6 +48,7 @@ export default function AestheticSurgeryPage() {
             <h2>Signature focus</h2>
             <ul>
               <li><a href="/breast-aesthetic-surgery-singapore">Breast augmentation, reduction & lift</a></li>
+              <li><a href="/breast-implant-illness-singapore-evidence">Breast implant illness evidence guide</a></li>
               <li><a href="/face-neck-lift-singapore">Face and neck lift</a></li>
               <li><a href="/tummy-tuck-singapore">Tummy tuck / abdominoplasty</a></li>
             </ul>
