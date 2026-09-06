@@ -166,6 +166,9 @@ export default function ChooseLymphedemaSurgeonPage() {
               Choosing a lymphedema surgeon can be difficult because patients are often comparing unfamiliar terms: lymphovenous bypass, lymphaticovenular anastomosis, lymph node transfer, ICG lymphography, compression therapy, liposuction and cellulitis prevention. A useful starting point is to ask how the surgeon assesses lymphedema and how they decide which treatment, if any, is appropriate.
             </p>
             <p>
+              For a broader patient-education hub on lymphedema treatment options in Singapore, see <a href="https://lymphedasia.com/lymphedema-treatment/">LymphedAsia’s lymphedema treatment guide</a> and <a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">Dr Jeremy Sun’s lymphedema specialist profile</a>. This page focuses on questions to ask when assessing a surgeon and treatment plan.
+            </p>
+            <p>
               A good consultation should not begin with one operation as the answer for every patient. Lymphedema varies widely. Some limbs are fluid-dominant and may be suitable for physiological lymphatic surgery. Others are more fibrotic or solid-tissue-dominant and may need different treatment strategies. Some patients are best managed without surgery.
             </p>
             <p className="notice-text">
