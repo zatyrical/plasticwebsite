@@ -47,6 +47,7 @@ export default function AestheticSurgeryPage() {
           <aside className="article-summary-card">
             <h2>Signature focus</h2>
             <ul>
+              <li><a href="/breast-augmentation-singapore">Breast augmentation in Singapore — implant planning</a></li>
               <li><a href="/breast-aesthetic-surgery-singapore">Breast augmentation, reduction & lift</a></li>
               <li><a href="/breast-implant-illness-singapore-evidence">Breast implant illness evidence guide</a></li>
               <li><a href="/face-neck-lift-singapore">Face and neck lift</a></li>
@@ -60,7 +61,7 @@ export default function AestheticSurgeryPage() {
         <div className="container">
           <div className="eyebrow">Full treatment list</div>
           <h2>Aesthetic treatment pages</h2>
-          <p className="section-intro">Each tile links to patient-focused information on planning, suitability, recovery, risks and realistic limitations.</p>
+          <p className="section-intro">Each tile links to patient-focused information on planning, suitability, recovery, risks and realistic limitations. Patients comparing high-intent procedures can start with the focused guides to <a href="/breast-augmentation-singapore">breast augmentation in Singapore</a>, <a href="/tummy-tuck-singapore">tummy tuck / abdominoplasty in Singapore</a>, and <a href="/body-contouring-liposuction-singapore">body contouring and liposuction in Singapore</a>.</p>
           <div className="grid-3 focus-grid aesthetic-photo-grid treatment-listing-grid">{aestheticTreatments.map((x) => (
             <a className="card linked-card focus-card aesthetic-photo-card" href={x.href} key={x.title}>
               <Image src={x.image} alt={x.alt} width={720} height={720} />

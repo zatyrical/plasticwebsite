@@ -133,7 +133,7 @@ export default function BreastImplantIllnessPage() {
               <p className="lead">A respectful, evidence-based guide for patients who are worried about systemic symptoms, autoimmune-like concerns, and the uncertainties around breast implants.</p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
-                <Link href="/breast-augmentation-singapore" className="btn btn-ghost">Breast augmentation page</Link>
+                <Link href="/breast-augmentation-singapore" className="btn btn-ghost">Breast augmentation implant guide</Link>
               </div>
             </div>
             <aside className="article-summary-card">
@@ -209,7 +209,7 @@ export default function BreastImplantIllnessPage() {
 
             <section id="before-augmentation">
               <h2>How should patients think about BII before breast augmentation?</h2>
-              <p>Patients considering <Link href="/breast-augmentation-singapore">breast augmentation</Link> should receive balanced information. Breast implants can be appropriate for many women, but they are not lifetime devices and they carry known risks such as capsular contracture, rupture, infection, implant malposition, altered sensation, scarring, need for revision surgery and rare implant-associated conditions.</p>
+              <p>Patients considering <Link href="/breast-augmentation-singapore">breast augmentation in Singapore</Link> should receive balanced information. Breast implants can be appropriate for many women, but they are not lifetime devices and they carry known risks such as capsular contracture, rupture, infection, implant malposition, altered sensation, scarring, need for revision surgery and rare implant-associated conditions.</p>
               <p>It is reasonable to discuss:</p>
               <ul>
                 <li>personal or family history of autoimmune disease</li>

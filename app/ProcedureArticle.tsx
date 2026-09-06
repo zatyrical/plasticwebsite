@@ -149,6 +149,15 @@ export default function ProcedureArticlePage({ article }: Props) {
           url: baseUrl
         },
         about: article.keywords,
+        ...(article.slug === 'breast-augmentation-singapore' ? {
+          mentions: [
+            { '@type': 'MedicalProcedure', name: 'Breast augmentation' },
+            { '@type': 'MedicalProcedure', name: 'Breast implant surgery' },
+            { '@type': 'MedicalDevice', name: 'Breast implant' },
+            { '@type': 'MedicalProcedure', name: 'Fat grafting' },
+            { '@type': 'Person', name: 'William P. Adams Jr.', url: 'https://www.dr-adams.com/dr-william-adams/' }
+          ]
+        } : {}),
         datePublished: lastReviewedIso,
         dateModified: lastReviewedIso,
         lastReviewed: lastReviewedIso,
