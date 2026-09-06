@@ -2,7 +2,7 @@ export const baseUrl = 'https://www.drjeremysun.com';
 
 export const physicianId = `${baseUrl}/#physician`;
 
-export const lastReviewedIso = '2026-09-04';
+export const lastReviewedIso = '2026-09-06';
 
 export const physicianSameAs = [
   'https://www.cgh.com.sg/profile/Sun-Mingfa-Jeremy',
@@ -47,8 +47,12 @@ export const physicianJsonLd = {
     'Breast implants',
     'Breast implant placement',
     'Motiva breast implants',
+    'Motiva breast augmentation Singapore',
     '24-hour rapid recovery breast augmentation',
     'Aesthetic breast surgery',
+    'Tummy tuck',
+    'Abdominoplasty',
+    'Diastasis recti repair',
     'Breast reconstruction',
     'Rhinoplasty',
     'Asian rhinoplasty',

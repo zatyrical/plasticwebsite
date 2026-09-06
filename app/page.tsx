@@ -118,7 +118,7 @@ export default function Home() {
         <div className="container">
           <div className="eyebrow signature-eyebrow"><span className="signature-script">Signature</span><span className="signature-kicker">Treatments</span></div>
           <h2>Aesthetic surgery</h2>
-          <p className="section-intro">A focused selection of aesthetic procedures within Dr Sun’s practice.</p>
+          <p className="section-intro">A focused selection of aesthetic procedures within Dr Sun’s practice, including detailed guides to <a href="/breast-augmentation-singapore">breast augmentation in Singapore</a>, <a href="/tummy-tuck-singapore">tummy tuck / abdominoplasty in Singapore</a> and <a href="/body-contouring-liposuction-singapore">body contouring and liposuction planning</a>.</p>
           <div className="grid-3 focus-grid aesthetic-photo-grid signature-photo-grid">{aestheticSignatureTreatments.map((x) => {
             const content = <><Image src={x.image} alt={x.alt} width={720} height={720} /><div className="aesthetic-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
             return x.href ? <a className="card linked-card focus-card aesthetic-photo-card" href={x.href} key={x.title}>{content}</a> : <div className="card focus-card aesthetic-photo-card" key={x.title}>{content}</div>;
