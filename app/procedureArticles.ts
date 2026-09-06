@@ -209,7 +209,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'what-it-can-do',
         heading: 'What breast augmentation can and cannot do',
-        paragraphs: ['Breast augmentation can increase breast volume, improve selected proportions and help address mild asymmetry in suitable patients. It may also restore some volume lost after pregnancy, breastfeeding or weight change.', 'It cannot guarantee a specific cup size, perfect symmetry or a fixed long-term breast shape. If the main issue is significant drooping, loose skin or low nipple position, an implant alone may not be enough and a breast lift may need to be discussed.']
+        paragraphs: ['Breast augmentation can increase breast volume, improve selected proportions and help address mild asymmetry in suitable patients. It may also restore some volume lost after pregnancy, breastfeeding or weight change.', 'It cannot assure a specific cup size, perfect symmetry or a fixed long-term breast shape. If the main issue is significant drooping, loose skin or low nipple position, an implant alone may not be enough and a breast lift may need to be discussed.']
       },
       {
         id: 'consultation',
