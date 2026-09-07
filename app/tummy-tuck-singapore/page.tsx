@@ -5,7 +5,7 @@ import { procedureArticles } from '../procedureArticles';
 const article = procedureArticles['tummy-tuck-singapore'];
 
 export const metadata: Metadata = {
-  title: `${article.title} | Abdominoplasty & Diastasis Repair`,
+  title: `${article.title} | Mini Tummy Tuck & Diastasis Repair`,
   description: article.description,
   alternates: { canonical: '/tummy-tuck-singapore' },
   openGraph: {
