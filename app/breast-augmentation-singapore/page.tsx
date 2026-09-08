@@ -5,7 +5,7 @@ import { procedureArticles } from '../procedureArticles';
 const article = procedureArticles['breast-augmentation-singapore'];
 
 export const metadata: Metadata = {
-  title: `${article.title} | Motiva Breast Implants & Aesthetic Breast Surgery`,
+  title: 'Breast Augmentation Singapore | Motiva Implants',
   description: article.description,
   alternates: { canonical: '/breast-augmentation-singapore' },
   openGraph: {
