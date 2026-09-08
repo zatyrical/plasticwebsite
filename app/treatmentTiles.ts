@@ -6,7 +6,7 @@ export type TreatmentTile = {
 };
 
 export const aestheticTreatments: TreatmentTile[] = [
-  { title: 'Tummy tuck & abdominoplasty', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused abdominal contouring image representing tummy tuck consultation' },
+  { title: 'Tummy tuck / abdominoplasty planning', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused abdominal contouring image representing tummy tuck, abdominoplasty and diastasis recti consultation in Singapore' },
   { title: 'Breast augmentation & implant planning', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during breast augmentation and Motiva implant consultation planning in Singapore' },
   { title: 'Asian rhinoplasty', href: '/asian-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image for rhinoplasty' },
   { title: 'Eyelid surgery', href: '/asian-eyelid-surgery-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Asian eyelid image with surgical planning markings' },
@@ -30,7 +30,7 @@ export const reconstructiveTreatments: TreatmentTile[] = [
 export const aestheticSignatureTreatments: TreatmentTile[] = [
   { title: 'Breast augmentation & implant planning', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during breast augmentation and Motiva implant consultation planning in Singapore' },
   { title: 'Face and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Asian lower face, jawline and neck image for face and neck lift' },
-  { title: 'Tummy tuck & abdominoplasty', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused abdominal contouring image representing tummy tuck consultation' }
+  { title: 'Tummy tuck / abdominoplasty planning', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused abdominal contouring image representing tummy tuck, abdominoplasty and diastasis recti consultation in Singapore' }
 ];
 
 export const reconstructiveSignatureTreatments: TreatmentTile[] = [

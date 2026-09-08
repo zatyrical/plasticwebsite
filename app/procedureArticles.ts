@@ -113,23 +113,23 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     slug: 'tummy-tuck-singapore',
     title: 'Tummy Tuck / Abdominoplasty in Singapore',
     eyebrow: 'Tummy tuck & abdominoplasty',
-    lead: 'A patient guide to tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
-    description: 'Patient information on tummy tuck and abdominoplasty in Singapore, including loose abdominal skin, diastasis recti, mini versus full tummy tuck, liposuction, recovery, scars and risks.',
-    keywords: ['tummy tuck Singapore', 'abdominoplasty Singapore', 'mini tummy tuck Singapore', 'diastasis recti repair Singapore', 'post pregnancy tummy tuck Singapore', 'loose abdominal skin surgery Singapore', 'mommy makeover Singapore'],
+    lead: 'A patient guide to tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti or divarication repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
+    description: 'Patient information on tummy tuck and abdominoplasty in Singapore, including loose abdominal skin, diastasis recti or divarication, mini versus full tummy tuck, liposuction, recovery, scars and risks.',
+    keywords: ['tummy tuck Singapore', 'abdominoplasty Singapore', 'mini tummy tuck Singapore', 'diastasis recti repair Singapore', 'divarication surgery Singapore', 'post pregnancy tummy tuck Singapore', 'loose abdominal skin surgery Singapore', 'mommy makeover Singapore'],
     heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Educational image representing abdominal contouring and tummy tuck consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'A tummy tuck, also called abdominoplasty, is surgery to improve selected abdominal concerns such as loose lower-abdominal skin, stretched skin after pregnancy or weight change, abdominal wall laxity and selected scar or fold problems.',
-      'It is different from liposuction. Liposuction removes localised fat, while tummy tuck surgery removes excess skin and may tighten the abdominal wall when diastasis recti or muscle separation is present. Some patients need liposuction, some need abdominoplasty, and some may need a combined or staged plan.',
-      'This page explains how tummy tuck planning is approached in Singapore, including mini versus full abdominoplasty, diastasis recti repair, C-section scar considerations, recovery, scars, limitations and safety.'
+      'It is different from liposuction. Liposuction removes localised fat, while tummy tuck surgery removes excess skin and may tighten the abdominal wall when diastasis recti, divarication or muscle separation is present. Some patients need liposuction, some need abdominoplasty, and some may need a combined or staged plan.',
+      'This page explains how tummy tuck planning is approached in Singapore, including mini versus full abdominoplasty, diastasis recti or divarication repair, C-section scar considerations, recovery, scars, limitations and safety.'
     ],
     sections: [
       {
         id: 'what-it-treats',
         heading: 'What a tummy tuck can treat',
         paragraphs: ['A tummy tuck may be considered when the main concern is loose abdominal skin, a persistent lower-abdominal fold, stretch-related skin excess, abdominal wall laxity or a combination of skin, fat and muscle changes.', 'The operation is not a weight-loss procedure. It is usually planned when weight is reasonably stable and the concern is abdominal contour, skin excess or abdominal wall support rather than overall body weight.'],
-        items: ['loose lower-abdominal skin after pregnancy or weight change', 'skin overhang or fold that does not respond to fat reduction alone', 'selected C-section scar tethering or lower-abdominal scar/fold concerns', 'diastasis recti or abdominal muscle separation in suitable patients', 'abdominal contour concerns where liposuction alone is unlikely to be enough']
+        items: ['loose lower-abdominal skin after pregnancy or weight change', 'skin overhang or fold that does not respond to fat reduction alone', 'selected C-section scar tethering or lower-abdominal scar/fold concerns', 'diastasis recti, divarication or abdominal muscle separation in suitable patients', 'abdominal contour concerns where liposuction alone is unlikely to be enough']
       },
       {
         id: 'liposuction-vs-tummy-tuck',
@@ -144,8 +144,8 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       },
       {
         id: 'diastasis',
-        heading: 'Diastasis recti and abdominal wall repair',
-        paragraphs: ['Diastasis recti is separation or stretching of the midline abdominal muscles, commonly after pregnancy or major abdominal distension. It may contribute to a persistent abdominal bulge even when body fat is not the main problem.', 'When clinically appropriate, tummy tuck surgery may include repair of abdominal wall laxity. This is different from treating a true hernia, which may require separate assessment or combined planning depending on the case.']
+        heading: 'Diastasis recti, divarication and abdominal wall repair',
+        paragraphs: ['Diastasis recti, also described by some patients as abdominal divarication, is separation or stretching of the midline abdominal muscles, commonly after pregnancy or major abdominal distension. It may contribute to a persistent abdominal bulge even when body fat is not the main problem.', 'When clinically appropriate, tummy tuck surgery may include repair of abdominal wall laxity or divarication. This is different from treating a true hernia, which may require separate assessment or combined planning depending on the case.']
       },
       {
         id: 'post-pregnancy',
