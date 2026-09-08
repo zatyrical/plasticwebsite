@@ -6,8 +6,8 @@ import Navigation from '../Navigation';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const slug = 'breast-implant-illness-singapore-evidence';
-const title = 'Breast Implant Illness: Is It Real? What the Evidence Says';
-const description = 'A balanced, evidence-based Singapore patient guide to breast implant illness symptoms, FDA safety communications, explantation outcomes, and what remains uncertain.';
+const title = 'Breast Implant Illness Singapore: Evidence, Symptoms & Explantation';
+const description = 'A balanced Singapore patient guide to breast implant illness symptoms, FDA safety communications, explantation outcomes, breast implant removal questions and what remains uncertain.';
 const articleUrl = `${baseUrl}/${slug}`;
 
 export const metadata: Metadata = {
