@@ -11,23 +11,18 @@ export const physicianSameAs = [
 ];
 
 export const physicianJsonLd = {
-  '@type': 'Physician',
+  '@type': 'Person',
   '@id': physicianId,
   name: 'Dr Jeremy Sun',
   alternateName: ['Dr Sun Mingfa Jeremy', 'Sun Mingfa Jeremy'],
   url: baseUrl,
   image: `${baseUrl}/images/dr-jeremy-sun-hero.jpg`,
   jobTitle: 'Senior Consultant Plastic Surgeon',
-  medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery', 'CosmeticSurgery'],
   sameAs: physicianSameAs,
   address: {
     '@type': 'PostalAddress',
     addressCountry: 'SG',
     addressLocality: 'Singapore'
-  },
-  areaServed: {
-    '@type': 'Country',
-    name: 'Singapore'
   },
   knowsAbout: [
     'Aesthetic surgery',
