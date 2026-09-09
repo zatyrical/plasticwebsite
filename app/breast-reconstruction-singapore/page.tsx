@@ -91,7 +91,7 @@ export default function BreastReconstructionPage() {
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
-                <Link href="/#reconstruction" className="btn btn-ghost">Back to reconstruction</Link>
+                <Link href="/#reconstructive-surgery" className="btn btn-ghost">Back to reconstruction</Link>
               </div>
             </div>
             <aside className="article-summary-card">
