@@ -8,9 +8,6 @@ export const physicianSameAs = [
   'https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy',
   'https://www.linkedin.com/in/jeremy-sun-9131aa61/',
   'https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/',
-  'https://lymphedasia.com/lva-surgery-singapore/',
-  'https://lymphedasia.com/lymphedema-surgery-singapore/',
-  'https://lymphedasia.com/private-lymphedema-consultation-singapore/'
 ];
 
 export const physicianJsonLd = {
