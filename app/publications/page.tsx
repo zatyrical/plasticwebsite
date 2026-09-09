@@ -12,6 +12,12 @@ const publications = [
   'Vascular anatomy of the anteromedial thigh flap. JPRAS Open, 2017.'
 ];
 
+const publicationSources: Record<string, string> = {
+  'Venous anatomy of the superficial circumflex iliac artery perforator flap: a cadaveric and clinical study. JPRAS, 2024.': 'https://pubmed.ncbi.nlm.nih.gov/37948880/',
+  'Current Insights into Post-Traumatic Lymphedema. Trauma Care, 2025.': 'https://doi.org/10.3390/traumacare5040024',
+  'Lymphovenous shunts in the treatment of lymphedema. Journal of the Chinese Medical Association, 2024.': 'https://pubmed.ncbi.nlm.nih.gov/37962114/'
+};
+
 export const metadata: Metadata = {
   title: 'Selected Publications',
   description: 'Selected peer-reviewed publications and academic work by Dr Jeremy Sun across microsurgery, perforator flaps, lower-limb reconstruction and lymphedema surgery.',
@@ -49,8 +55,8 @@ export default function PublicationsPage() {
             {publications.map((publication) => (
               <li key={publication}>
                 {publication}
-                {publication === 'Current Insights into Post-Traumatic Lymphedema. Trauma Care, 2025.' && (
-                  <> <a href="https://doi.org/10.3390/traumacare5040024">Read the published article</a></>
+                {publicationSources[publication] && (
+                  <> <a href={publicationSources[publication]}>View publication source</a></>
                 )}
               </li>
             ))}
