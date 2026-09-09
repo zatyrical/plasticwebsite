@@ -46,7 +46,14 @@ export default function PublicationsPage() {
         <div className="container article-narrow">
           <h2>Selected peer-reviewed work</h2>
           <ol>
-            {publications.map((publication) => <li key={publication}>{publication}</li>)}
+            {publications.map((publication) => (
+              <li key={publication}>
+                {publication}
+                {publication === 'Current Insights into Post-Traumatic Lymphedema. Trauma Care, 2025.' && (
+                  <> <a href="https://doi.org/10.3390/traumacare5040024">Read the published article</a></>
+                )}
+              </li>
+            ))}
           </ol>
         </div>
       </article>
