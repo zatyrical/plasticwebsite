@@ -100,7 +100,7 @@ const educationFeatures: MediaFeature[] = [
     source: 'LymphedAsia',
     title: 'Lymphedema education resource',
     description: 'Patient-facing educational resource on lymphedema, lymphatic surgery and specialist assessment.',
-    href: 'https://lymphedasia.com/dr-jeremy-sun-mingfa/',
+    href: 'https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/',
     label: 'View resource'
   }
 ];
