@@ -70,7 +70,7 @@ const medicalPageJsonLd = {
       reviewedBy: { '@id': physicianId },
       author: { '@id': physicianId },
       publisher: { '@id': physicianId },
-      sameAs: [
+      relatedLink: [
         'https://lymphedasia.com/lva-surgery-singapore/',
         'https://lymphedasia.com/lymphedema-surgery-singapore/'
       ]
