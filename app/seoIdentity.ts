@@ -5,7 +5,6 @@ export const physicianId = `${baseUrl}/#physician`;
 export const lastReviewedIso = '2026-09-06';
 
 export const physicianSameAs = [
-  'https://www.cgh.com.sg/profile/Sun-Mingfa-Jeremy',
   'https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy',
   'https://www.linkedin.com/in/jeremy-sun-9131aa61/',
   'https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/',
