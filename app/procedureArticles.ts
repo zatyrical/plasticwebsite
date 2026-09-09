@@ -34,21 +34,21 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     slug: 'body-contouring-liposuction-singapore',
     title: 'Body Contouring & Liposuction in Singapore',
     eyebrow: 'Body contouring & liposuction',
-    lead: 'A detailed guide to liposuction and body contouring in Singapore, including suitability, surgical planning, recovery, scars, limitations and risks.',
-    description: 'Detailed patient information on body contouring and liposuction in Singapore, including suitability, consultation, technique selection, recovery, risks and realistic limitations.',
-    keywords: ['body contouring Singapore', 'liposuction Singapore', 'plastic surgeon liposuction Singapore', 'body sculpting Singapore', 'abdominal liposuction Singapore'],
+    lead: 'A detailed guide to liposuction and body contouring treatment in Singapore, including abdominal, waist, arm and thigh contouring, suitability, surgical planning, recovery, scars, limitations and risks.',
+    description: 'Detailed patient information on body contouring treatment and liposuction in Singapore, including abdominal liposuction, waist/flank contouring, consultation, recovery, risks and realistic limitations.',
+    keywords: ['body contouring Singapore', 'body contouring treatment Singapore', 'liposuction Singapore', 'plastic surgeon liposuction Singapore', 'body sculpting Singapore', 'abdominal liposuction Singapore', 'tummy liposuction Singapore'],
     heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Editorial-style image representing body contouring and liposuction consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
-      'Body contouring refers to procedures that reshape selected areas of the body. Liposuction is one commonly used technique that removes localised fat deposits through small incisions using cannulas and suction.',
+      'Body contouring treatment refers to procedures that reshape selected areas of the body. In Singapore, this may include surgical liposuction, tummy or abdominal liposuction, waist and flank contouring, arm or thigh contouring, or skin-excision procedures such as tummy tuck in selected patients.',
       'Liposuction is not a weight-loss operation. It is usually considered when a patient has relatively stable weight, reasonable skin quality and specific areas of disproportion or contour concern that do not respond adequately to lifestyle measures.',
       'The decision is not simply whether fat can be removed. Safe planning considers skin elasticity, muscle tone, previous scars, weight stability, medical fitness, anaesthesia, recovery time and the patient’s expectations about what contour change can realistically achieve.'
     ],
     sections: [
       {
         id: 'suitability',
-        heading: 'Who may be suitable for liposuction?',
+        heading: 'Who may be suitable for body contouring or liposuction?',
         paragraphs: ['Suitability depends on a clinical assessment rather than a fixed body size or a single photograph. A consultation helps determine whether liposuction, another body contouring operation, non-surgical treatment or no procedure is the most appropriate option.', 'Patients who do well with liposuction usually understand that the operation changes contour, not overall body weight. The most appropriate candidates often have localised fullness with enough skin recoil for the treated area to settle smoothly.'],
         items: ['localised fat deposits or contour imbalance', 'stable weight and realistic expectations', 'adequate skin elasticity in the treatment area', 'good general health for surgery and anaesthesia', 'understanding that loose skin, cellulite and stretch marks may not improve with liposuction alone']
       },
@@ -60,8 +60,8 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'areas',
         heading: 'Common areas discussed during body contouring consultation',
-        paragraphs: ['The areas assessed depend on the patient’s anatomy and goals. Treatment should be planned in a way that respects natural body proportions rather than chasing maximal fat removal.'],
-        items: ['abdomen, waist and flanks', 'upper arms', 'inner or outer thighs', 'back rolls or bra-line fullness', 'male chest contour in selected cases', 'neck or submental fullness in selected patients']
+        paragraphs: ['The areas assessed depend on the patient’s anatomy and goals. Treatment should be planned in a way that respects natural body proportions rather than chasing maximal fat removal.', 'Patients searching for body contouring treatment in Singapore commonly ask about tummy liposuction, abdominal liposuction, waist and flank contouring, arm liposuction, thigh contouring or whether a tummy tuck is more appropriate when loose skin is present.'],
+        items: ['abdomen or tummy liposuction', 'waist and flanks', 'upper arms', 'inner or outer thighs', 'back rolls or bra-line fullness', 'male chest contour in selected cases', 'neck or submental fullness in selected patients']
       },
       {
         id: 'consultation',
@@ -70,7 +70,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       },
       {
         id: 'singapore-planning',
-        heading: 'Body contouring consultation in Singapore',
+        heading: 'Body contouring treatment consultation in Singapore',
         paragraphs: ['Patients in Singapore often compare surgical liposuction with non-surgical fat reduction, radiofrequency, ultrasound or device-based contouring. These options are not interchangeable. Non-surgical treatments may be reasonable for selected minor concerns, while surgery may be considered when a more direct contour change is appropriate.', 'A plastic surgery consultation should clarify whether the concern is excess fat, loose skin, muscle separation, cellulite, weight fluctuation or a combination of factors. The discussion should include anaesthesia, recovery time, compression garments, scars, revision risk and realistic contour limits.']
       },
       {

@@ -31,7 +31,7 @@ This website is for general educational information. Suitability, risks, recover
 - Plastic Surgeon in Singapore — How to Choose Safely: ${baseUrl}/plastic-surgeon-singapore
 - Asian Rhinoplasty in Singapore: ${baseUrl}/asian-rhinoplasty-singapore
 - Asian Eyelid Surgery in Singapore: ${baseUrl}/asian-eyelid-surgery-singapore
-- Body Contouring & Liposuction in Singapore: ${baseUrl}/body-contouring-liposuction-singapore
+- Body Contouring & Liposuction in Singapore — body contouring treatment, abdominal/tummy liposuction, waist/flank contouring, loose skin limits, recovery and risks: ${baseUrl}/body-contouring-liposuction-singapore
 - Tummy Tuck / Abdominoplasty in Singapore — loose abdominal skin, mini versus full tummy tuck, diastasis recti/divarication repair, C-section scar planning and recovery: ${baseUrl}/tummy-tuck-singapore
 - Thread Lifting in Singapore: ${baseUrl}/thread-lifting-singapore
 - Breast Augmentation in Singapore — breast implants, Motiva implant discussion, implant placement, implant shape/profile, screening, recovery and long-term implant follow-up: ${baseUrl}/breast-augmentation-singapore
