@@ -5,7 +5,7 @@ const publications = [
   'Venous anatomy of the superficial circumflex iliac artery perforator flap: a cadaveric and clinical study. JPRAS, 2024.',
   'Utilizing the subunit concept to achieve better outcomes in lower limb reconstruction. PRS Global Open, 2024.',
   'Current Insights into Post-Traumatic Lymphedema. Trauma Care, 2025.',
-  'The 1+X Technique: A Novel Microsurgical Approach for Secondary Lymphedema. JPRAS, 2025 in press.',
+  'The 1+X technique: A novel microsurgical approach for secondary lymphedema. JPRAS, 2025;111:1–3.',
   'Lymphovenous shunts in the treatment of lymphedema. Journal of the Chinese Medical Association, 2024.',
   'Primary surgical prevention of lymphedema. Journal of the Chinese Medical Association, 2024.',
   'Genital Elephantiasis: Surgical treatment and reconstruction. Journal of the Chinese Medical Association, 2024.',
@@ -13,6 +13,7 @@ const publications = [
 ];
 
 const publicationSources: Record<string, string> = {
+  'The 1+X technique: A novel microsurgical approach for secondary lymphedema. JPRAS, 2025;111:1–3.': 'https://doi.org/10.1016/j.bjps.2025.10.006',
   'Venous anatomy of the superficial circumflex iliac artery perforator flap: a cadaveric and clinical study. JPRAS, 2024.': 'https://pubmed.ncbi.nlm.nih.gov/37948880/',
   'Current Insights into Post-Traumatic Lymphedema. Trauma Care, 2025.': 'https://doi.org/10.3390/traumacare5040024',
   'Lymphovenous shunts in the treatment of lymphedema. Journal of the Chinese Medical Association, 2024.': 'https://pubmed.ncbi.nlm.nih.gov/37962114/'
