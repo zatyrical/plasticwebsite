@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
-import { lastReviewedIso } from '../seoIdentity';
+import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 export const metadata: Metadata = {
   title: 'Asian Eyelid Surgery Singapore | Blepharoplasty',
@@ -28,7 +28,6 @@ export const metadata: Metadata = {
   ]
 };
 
-const baseUrl = 'https://www.drjeremysun.com';
 const pageUrl = `${baseUrl}/asian-eyelid-surgery-singapore`;
 
 const medicalPageJsonLd = {
@@ -42,19 +41,7 @@ const medicalPageJsonLd = {
         { '@type': 'ListItem', position: 3, name: 'Asian Eyelid Surgery in Singapore', item: pageUrl }
       ]
     },
-    {
-      '@type': 'Physician',
-      '@id': `${baseUrl}/#dr-jeremy-sun`,
-      name: 'Dr Jeremy Sun',
-      url: baseUrl,
-      image: `${baseUrl}/images/dr-jeremy-sun-hero.jpg`,
-      medicalSpecialty: ['PlasticSurgery', 'Surgical'],
-      address: {
-        '@type': 'PostalAddress',
-        addressCountry: 'SG',
-        addressLocality: 'Singapore'
-      }
-    },
+    physicianJsonLd,
     {
       '@type': 'MedicalWebPage',
       '@id': `${pageUrl}#webpage`,
@@ -64,9 +51,9 @@ const medicalPageJsonLd = {
       description: metadata.description,
       inLanguage: 'en-SG',
       about: metadata.keywords,
-      author: { '@id': `${baseUrl}/#dr-jeremy-sun` },
-      reviewedBy: { '@id': `${baseUrl}/#dr-jeremy-sun` },
-      publisher: { '@id': `${baseUrl}/#dr-jeremy-sun` }
+      author: { '@id': physicianId },
+      reviewedBy: { '@id': physicianId },
+      publisher: { '@id': physicianId }
     }
   ]
 };
