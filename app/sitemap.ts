@@ -28,7 +28,6 @@ const coreRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const procedureRoutes = procedureArticleList.map((article) => ({
     url: `${baseUrl}/${article.slug}`,
-    lastModified: new Date(),
     changeFrequency: 'monthly' as const,
     priority: article.backHref.includes('aesthetic') ? 0.82 : 0.8
   }));
@@ -36,7 +35,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...coreRoutes.map((route) => ({
       url: `${baseUrl}${route.path}`,
-      lastModified: new Date(),
       changeFrequency: route.changeFrequency,
       priority: route.priority
     })),

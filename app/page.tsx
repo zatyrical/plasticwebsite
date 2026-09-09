@@ -14,12 +14,7 @@ const jsonLd = {
       url: 'https://www.drjeremysun.com',
       inLanguage: 'en-SG',
       description: 'Patient education by Dr Jeremy Sun, a plastic, reconstructive and aesthetic surgeon in Singapore.',
-      publisher: { '@id': 'https://www.drjeremysun.com/#physician' },
-      potentialAction: {
-        '@type': 'SearchAction',
-        target: 'https://www.drjeremysun.com/?s={search_term_string}',
-        'query-input': 'required name=search_term_string'
-      }
+      publisher: { '@id': 'https://www.drjeremysun.com/#physician' }
     },
     {
       '@type': 'MedicalWebPage',
@@ -221,3 +216,4 @@ export default function Home() {
     </main>
   );
 }
+
