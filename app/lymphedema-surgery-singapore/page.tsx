@@ -76,7 +76,7 @@ export default function LymphedemaSurgeryPage() {
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
-                <Link href="/#procedures" className="btn btn-ghost">Back to procedures</Link>
+                <Link href="/#reconstructive-surgery" className="btn btn-ghost">Back to procedures</Link>
               </div>
             </div>
             <aside className="article-summary-card">
