@@ -74,6 +74,7 @@ export default function ContactForm() {
         {status === 'sending' ? 'Sending…' : 'Submit enquiry'}
       </button>
       {message ? <p className={`form-status ${status}`}>{message}</p> : null}
+      <p className="form-note">For non-urgent private consultation enquiries, you may also <a href="https://wa.me/6587649219" target="_blank" rel="noreferrer">message Astrid on WhatsApp</a>.</p>
       <p className="form-note">This form is for non-urgent enquiries only. It does not establish a doctor-patient relationship until a consultation has taken place.</p>
     </form>
   );
