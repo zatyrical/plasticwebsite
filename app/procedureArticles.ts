@@ -564,28 +564,29 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     slug: 'thread-lifting-singapore',
     title: 'Thread Lifting in Singapore',
     eyebrow: 'Thread lifting',
-    lead: 'Patient information on thread lifting, patient selection, expected limitations, recovery and risks.',
-    description: 'Patient information on thread lifting in Singapore, including suitability, consultation, recovery, risks and how it compares with surgery.',
-    keywords: ['thread lift Singapore', 'thread lifting Singapore', 'non surgical face lift Singapore'],
+    lead: 'Patient information on thread lifting, face thread lift treatment, patient selection, expected limitations, recovery and risks.',
+    description: 'Patient information on thread lifting in Singapore, including face thread lift suitability, dissolvable threads, consultation, recovery, risks and how it compares with surgery.',
+    keywords: ['thread lift Singapore', 'thread lifting Singapore', 'face thread lift Singapore', 'face thread lift treatment Singapore', 'dissolvable thread lift', 'non surgical face lift Singapore'],
     heroImage: { src: '/images/aesthetic-ai/thread-lifting.jpg', alt: 'Editorial-style image representing thread lifting and facial rejuvenation consultation', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
-      'Thread lifting is a minimally invasive procedure that uses absorbable threads placed under the skin to provide selected lifting or support effects. It is sometimes considered for mild facial laxity or contour concerns.',
+      'Thread lifting is a minimally invasive procedure that uses absorbable or dissolvable threads placed under the skin to provide selected lifting or support effects. It is sometimes considered for mild facial laxity, cheek or jawline support, or contour concerns.',
       'Thread lifting is not the same as a surgical face lift. It cannot remove significant loose skin or reposition deeper tissues to the same degree as surgery.',
       'Careful patient selection is important. The procedure may be unsuitable when laxity is advanced, expectations are unrealistic or tissue quality is not favourable.'
     ],
     sections: [
-      { id: 'suitability', heading: 'Who may be suitable?', paragraphs: ['Thread lifting may be considered for selected patients with mild soft-tissue descent who want a limited, non-surgical approach and understand the limitations. It is not a substitute for face and neck lift surgery when laxity is significant.'] },
+      { id: 'suitability', heading: 'Who may be suitable for face thread lift treatment?', paragraphs: ['Thread lifting may be considered for selected patients with mild soft-tissue descent who want a limited, non-surgical approach and understand the limitations. It is not a substitute for face and neck lift surgery when laxity is significant.', 'Common discussion areas include the cheeks, jawline, jowls and lower face. Suitability depends on facial anatomy, tissue heaviness, skin quality, asymmetry and whether a non-surgical thread lift can realistically address the patient’s concern.'] },
       { id: 'assessment', heading: 'Consultation and planning', paragraphs: ['Assessment includes facial anatomy, skin thickness, tissue heaviness, asymmetry, previous fillers or procedures and the patient’s goals. A safe plan considers thread type, vector, entry points and potential alternatives.', 'Some patients are better treated with skin-quality procedures, injectables, surgery or no procedure.'] },
-      { id: 'procedure', heading: 'How thread lifting is performed', paragraphs: ['Threads are inserted under local anaesthesia or other anaesthetic arrangements depending on the plan. They are positioned to create selected support or lifting vectors.', 'The degree of visible change is usually more limited than surgery. Overcorrection, dimpling or asymmetry may occur early and requires follow-up.'] },
+      { id: 'procedure', heading: 'How dissolvable thread lifting is performed', paragraphs: ['Threads are inserted under local anaesthesia or other anaesthetic arrangements depending on the plan. They are positioned to create selected support or lifting vectors.', 'The degree of visible change is usually more limited than surgery. Overcorrection, dimpling or asymmetry may occur early and requires follow-up.'] },
       { id: 'recovery', heading: 'Recovery after thread lifting', paragraphs: ['Bruising, swelling, tenderness, tightness, dimpling or irregularity can occur after treatment. Patients may be advised to avoid vigorous facial massage, dental procedures, heavy exercise or wide mouth opening for a period of time.', 'The timeline varies depending on thread type, number of threads and individual healing.'] },
       { id: 'risks', heading: 'Risks and limitations', paragraphs: ['Risks include bruising, swelling, infection, thread visibility, dimpling, asymmetry, discomfort, thread extrusion, nerve irritation, unsatisfactory result and need for removal or further treatment. Effects are not permanent and outcomes vary.'] }
     ],
     faqs: [
       { question: 'Is thread lifting a replacement for a face lift?', answer: 'No. Thread lifting may help selected mild concerns, but it cannot reproduce the deeper tissue repositioning and skin redraping of surgery.' },
       { question: 'How long does a thread lift last?', answer: 'Duration varies depending on thread type, tissue quality, facial movement and ageing. It should not be viewed as permanent.' },
-      { question: 'Can thread lifting be combined with other treatments?', answer: 'Sometimes, but sequencing and safety need to be planned carefully, especially if fillers, lasers or surgery are also being considered.' }
+      { question: 'Can thread lifting be combined with other treatments?', answer: 'Sometimes, but sequencing and safety need to be planned carefully, especially if fillers, lasers or surgery are also being considered.' },
+      { question: 'Who is not suitable for a face thread lift?', answer: 'Thread lifting may be unsuitable when facial laxity is advanced, skin is very thin or heavy, expectations are unrealistic, infection risk is increased, or surgery would be a more appropriate option. A consultation is needed to assess this.' }
     ]
   },
   'lower-limb-reconstruction-singapore': {
