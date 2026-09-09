@@ -204,7 +204,6 @@ export default function PlasticSurgeonSingaporePage() {
               <h2>Professional profiles and public education links</h2>
               <p>External and institutional profiles can help patients cross-check a surgeon’s public appointments, hospital association and professional education activity.</p>
               <div className="related-grid">
-                <a href="https://www.cgh.com.sg/profile/Sun-Mingfa-Jeremy" target="_blank" rel="noreferrer" className="related-card"><small>Hospital profile</small><strong>Changi General Hospital profile</strong><span>View external profile</span></a>
                 <a href="https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy" target="_blank" rel="noreferrer" className="related-card"><small>Specialist listing</small><strong>CGH plastic surgery doctor listing</strong><span>View external listing</span></a>
                 <a href="https://www.singhealthdukenus.com.sg/conference/sdc2025/our-speakers/Jeremy-Sun" target="_blank" rel="noreferrer" className="related-card"><small>Education profile</small><strong>SingHealth Duke-NUS speaker profile</strong><span>View external profile</span></a>
                 <Link href="/publications" className="related-card"><small>Research</small><strong>Selected publications</strong><span>View publications</span></Link>
