@@ -32,7 +32,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: article.backHref.includes('aesthetic') ? 0.82 : 0.8
   }));
 
-  return [
+  const routes: MetadataRoute.Sitemap = [
     ...coreRoutes.map((route) => ({
       url: `${baseUrl}${route.path}`,
       changeFrequency: route.changeFrequency,
@@ -40,4 +40,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...procedureRoutes
   ];
+
+  return Array.from(new Map(routes.map((route) => [route.url, route])).values());
 }
