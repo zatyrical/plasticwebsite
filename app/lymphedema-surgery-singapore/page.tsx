@@ -7,16 +7,16 @@ import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoId
 const pageUrl = `${baseUrl}/lymphedema-surgery-singapore`;
 
 export const metadata: Metadata = {
-  title: 'Lymphedema Surgery Singapore | LVA & Lymphatic Surgery',
+  title: 'Lymphedema Surgeon Singapore | Dr Jeremy Sun',
   description:
-    'Patient information on lymphedema surgery in Singapore, including lymphovenous bypass, cellulitis risk, assessment, suitability, recovery and risks.',
+    'Meet Dr Jeremy Sun and learn what a lymphedema assessment in Singapore may cover, including imaging, LVA suitability, surgery options, risks and long-term care.',
   alternates: {
     canonical: '/lymphedema-surgery-singapore'
   },
   openGraph: {
-    title: 'Lymphedema Surgery in Singapore | Dr Jeremy Sun',
+    title: 'Lymphedema Surgeon Singapore | Dr Jeremy Sun',
     description:
-      'Learn about lymphovenous bypass, lymphatic surgery assessment, cellulitis risk, recovery and suitability for lymphedema surgery in Singapore.',
+      'Meet Dr Jeremy Sun and learn what a lymphedema assessment in Singapore may cover, including imaging, LVA suitability, surgery options, risks and long-term care.',
     url: '/lymphedema-surgery-singapore',
     type: 'article'
   },
@@ -120,9 +120,9 @@ export default function LymphedemaSurgeryPage() {
           <div className="container article-hero-grid">
             <div>
               <div className="eyebrow">Lymphatic surgery</div>
-              <h1>Lymphedema Surgery in Singapore</h1>
+              <h1>Lymphedema Assessment and Surgery in Singapore</h1>
               <p className="lead">
-                Patient information on lymphedema surgery, lymphovenous bypass, assessment, suitability, recovery and infection risk.
+                Lymphedema assessment and surgical options with Dr Jeremy Sun in Singapore.
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
@@ -298,6 +298,15 @@ export default function LymphedemaSurgeryPage() {
             <p>
               This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment. These credentials are presented to help patients understand the nature of Dr Sun’s training and clinical focus. They do not imply assured outcomes or that surgery is suitable for every patient.
             </p>
+
+            <h2>Related peer-reviewed work</h2>
+            <p>
+              Dr Sun’s selected peer-reviewed work includes publications on post-traumatic lymphedema, lymphovenous shunts and primary surgical prevention of lymphedema. See the <Link href="/publications">selected publications and source links</Link>.
+            </p>
+            <ul>
+              <li><a href="https://doi.org/10.3390/traumacare5040024" target="_blank" rel="noopener noreferrer">Current Insights into Post-Traumatic Lymphedema</a></li>
+              <li><a href="https://pubmed.ncbi.nlm.nih.gov/37962114/" target="_blank" rel="noopener noreferrer">Lymphovenous shunts in the treatment of lymphedema</a></li>
+            </ul>
 
             <h2 id="education">Further lymphedema education</h2>
             <p>
