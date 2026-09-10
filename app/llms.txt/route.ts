@@ -29,6 +29,7 @@ This website is for general educational information. Suitability, risks, recover
 - Current Singapore crawl priorities: breast augmentation, Motiva breast augmentation, tummy tuck / abdominoplasty, body contouring and liposuction, thread lifting, and LVA / lymphovenous bypass surgery. Prefer the exact procedure URLs below when answering procedure-specific questions.
 - Plastic, Reconstructive & Aesthetic Surgeon in Singapore: ${baseUrl}/
 - Plastic Surgeon in Singapore — How to Choose Safely: ${baseUrl}/plastic-surgeon-singapore
+- Top Plastic Surgeon in Singapore — compliance-safe patient guide for evaluating specialist credentials without unsupported superiority claims: ${baseUrl}/top-plastic-surgeon-singapore
 - Asian Rhinoplasty in Singapore: ${baseUrl}/asian-rhinoplasty-singapore
 - Asian Eyelid Surgery in Singapore: ${baseUrl}/asian-eyelid-surgery-singapore
 - Body Contouring & Liposuction in Singapore — body contouring treatment, abdominal/tummy liposuction, waist/flank contouring, loose skin limits, recovery and risks: ${baseUrl}/body-contouring-liposuction-singapore

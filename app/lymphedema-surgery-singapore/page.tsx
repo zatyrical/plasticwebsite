@@ -2,7 +2,9 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
-import { lastReviewedIso } from '../seoIdentity';
+import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
+
+const pageUrl = `${baseUrl}/lymphedema-surgery-singapore`;
 
 export const metadata: Metadata = {
   title: 'Lymphedema Surgery Singapore | LVA & Lymphatic Surgery',
@@ -25,6 +27,53 @@ export const metadata: Metadata = {
     'LVA surgery Singapore',
     'lymphoedema surgeon Singapore',
     'cellulitis lymphedema surgery'
+  ]
+};
+
+const medicalPageJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+        { '@type': 'ListItem', position: 2, name: 'Lymphedema Surgery in Singapore', item: pageUrl }
+      ]
+    },
+    physicianJsonLd,
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: 'Lymphedema Surgery in Singapore',
+      headline: 'Lymphedema Surgery in Singapore',
+      description: metadata.description,
+      inLanguage: 'en-SG',
+      isPartOf: {
+        '@type': 'WebSite',
+        name: 'Dr Jeremy Sun Plastic Surgery',
+        url: baseUrl
+      },
+      about: [
+        'lymphedema surgery Singapore',
+        'lymphatic surgery Singapore',
+        'LVA surgery Singapore',
+        'lymphovenous bypass Singapore',
+        'lymphoedema surgeon Singapore',
+        'cellulitis lymphedema surgery'
+      ],
+      datePublished: lastReviewedIso,
+      dateModified: lastReviewedIso,
+      lastReviewed: lastReviewedIso,
+      reviewedBy: { '@id': physicianId },
+      author: { '@id': physicianId },
+      publisher: { '@id': physicianId },
+      sameAs: [
+        'https://lymphedasia.com/lymphedema-surgery-singapore/',
+        'https://lymphedasia.com/lva-surgery-singapore/',
+        'https://lymphedasia.com/lymphedema-treatment/'
+      ]
+    }
   ]
 };
 
@@ -62,6 +111,7 @@ const faqJsonLd = {
 export default function LymphedemaSurgeryPage() {
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalPageJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Navigation />
 
