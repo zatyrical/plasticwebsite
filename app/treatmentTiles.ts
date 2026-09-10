@@ -6,6 +6,7 @@ export type TreatmentTile = {
 };
 
 export const aestheticTreatments: TreatmentTile[] = [
+  { title: 'Body contouring & liposuction treatment', href: '/body-contouring-liposuction-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused image representing body contouring, abdominal liposuction and waist contouring consultation in Singapore' },
   { title: 'Tummy tuck / abdominoplasty planning', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused abdominal contouring image representing tummy tuck, abdominoplasty and diastasis recti consultation in Singapore' },
   { title: 'Breast augmentation & implant planning', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during breast augmentation and Motiva implant consultation planning in Singapore' },
   { title: 'Asian rhinoplasty', href: '/asian-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image for rhinoplasty' },
