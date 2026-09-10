@@ -356,6 +356,9 @@ export default function LvaSurgeryPage() {
             <p>Many patients continue compression after LVA, at least initially. Earlier intervention may improve the chance of reducing or weaning compression, but this depends on disease severity, imaging findings and response to surgery.</p>
             <h3>What if my lymphedema is mostly solid tissue or fibrosis?</h3>
             <p>If swelling is dominated by fibrosis, scarring or solid tissue change, LVA alone may be less predictable. Other treatment strategies, including reductive procedures or combined approaches, may be discussed depending on assessment.</p>
+            <p>
+              For a broader assessment of lymphedema and the full range of surgical options, see <Link href="/lymphedema-surgery-singapore">lymphedema assessment and surgery in Singapore</Link>.
+            </p>
           </div>
         </section>
 
