@@ -97,6 +97,13 @@ const educationFeatures: MediaFeature[] = [
     portrait: true
   },
   {
+    source: 'ISAPS congress committee',
+    title: 'ISAPS Olympiad Singapore 2025',
+    description: 'Dr Jeremy Sun is listed on the Local Committee for the 2025 congress in the official ISAPS congress committee directory.',
+    href: 'https://www.isaps.org/education/events/olympiad-singapore-2025/scientific-program/congress-committees/',
+    label: 'View official committee listing'
+  },
+  {
     source: 'LymphedAsia',
     title: 'Lymphedema education resource',
     description: 'Patient-facing educational resource on lymphedema, lymphatic surgery and specialist assessment.',
