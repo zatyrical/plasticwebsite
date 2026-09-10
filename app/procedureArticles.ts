@@ -697,6 +697,90 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { question: 'When is scar revision considered?', answer: 'It is often considered after a scar has matured, unless the scar is causing functional restriction, breakdown or significant symptoms that need earlier attention.' }
     ]
   },
+
+  'ftm-top-surgery-singapore': {
+    slug: 'ftm-top-surgery-singapore',
+    title: 'FTM Top Surgery in Singapore',
+    eyebrow: 'Gender-affirming chest surgery',
+    lead: 'A patient guide to FTM top surgery in Singapore, including double-incision chest masculinisation, double-ellipse planning, nipple grafts, scar placement, dog-ear management, nerve blocks, day surgery and recovery.',
+    description: 'Educational guide to FTM top surgery and chest masculinisation in Singapore, including double-incision double-ellipse breast reduction with nipple grafts, scar planning, dog-ear management, day surgery, nerve blocks, recovery and risks.',
+    keywords: ['FTM top surgery Singapore', 'top surgery Singapore', 'chest masculinisation Singapore', 'gender affirming chest surgery Singapore', 'double incision top surgery Singapore', 'nipple graft top surgery', 'mastectomy top surgery Singapore'],
+    heroImage: { src: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.jpg', alt: 'Chest binder image representing gender-affirming chest reconstruction and FTM top surgery consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
+    backHref: '/#reconstructive-surgery',
+    backLabel: 'Back to reconstructive surgery',
+    intro: [
+      'FTM top surgery, also called chest masculinisation surgery, is gender-affirming chest surgery intended to create a flatter, more masculine chest contour for suitable transmasculine patients. Planning should be individualised and medically supervised.',
+      'For patients with larger chest volume or skin excess, a double-incision approach with nipple grafts is commonly discussed. Dr Jeremy Sun may use a double-incision double-ellipse breast-reduction style pattern with nipple grafting in selected patients, adapting the design to chest shape, skin excess, nipple position, scar goals and safety.',
+      'This page explains the principles behind that technique, including scar placement along the pectoralis major border, dog-ear control toward the axilla, a central inverted-V scar concept, small nipple-areola graft planning, nerve blocks, day-surgery recovery and limitations.'
+    ],
+    sections: [
+      {
+        id: 'what-it-addresses',
+        heading: 'What FTM top surgery aims to address',
+        paragraphs: ['FTM top surgery aims to reduce breast tissue and reshape the chest to better align with a masculine chest contour. The operation may involve removal of glandular tissue, skin reduction, nipple-areola resizing and repositioning, and contour refinement.', 'The appropriate technique depends on chest size, skin elasticity, nipple position, patient goals, scarring priorities, medical history and safety considerations. Smaller chests may sometimes be suitable for less extensive approaches, while larger chests more often require double-incision planning.'],
+        items: ['chest volume reduction', 'skin-envelope tightening', 'nipple-areola resizing and repositioning', 'scar placement planning', 'lateral chest and axillary dog-ear management', 'balanced contour rather than maximal tissue removal alone']
+      },
+      {
+        id: 'double-ellipse-technique',
+        heading: 'Double-incision double-ellipse technique with nipple grafts',
+        paragraphs: ['In selected patients, Dr Sun uses a double-incision double-ellipse breast-reduction style design with free nipple-areola grafts. The aim is to remove breast tissue and excess skin while shaping the scar and lateral excess in a way that suits the standing chest contour.', 'A key design principle is to channel the dog-ear tendency toward the axilla, where residual fullness or scar extension may be less conspicuous in a natural arm-down position. In contrast, some standard double-incision designs may push excess more laterally across the chest wall, which can lead to extended lateral chasing of dog-ears and residual standing-visible bunching.']
+      },
+      {
+        id: 'scar-position',
+        heading: 'Scar position along the pectoralis major border',
+        paragraphs: ['Scar position is planned horizontally along or near the lower border of the pectoralis major muscle when anatomy allows. This aims to let the scar sit in a more anatomically expected chest line rather than appearing as an arbitrary straight line across the torso.', 'If the pectoralis major becomes more developed with training, a scar placed in relation to its border may be visually softened by the natural contour shadow. Scar visibility still varies with skin type, tension, healing biology, hypertrophic scarring tendency and post-operative care.']
+      },
+      {
+        id: 'central-v',
+        heading: 'Central inverted-V scar concept',
+        paragraphs: ['Instead of a completely straight central scar across the chest, a central inverted-V configuration may be used in selected patients. The purpose is to make the central scar transition appear more anatomical in relation to the pectoralis major border and chest midline.', 'This is a planning concept rather than a universal rule. The final scar design depends on breast footprint, skin excess, chest width, inframammary fold position, asymmetry and how safely the tissues can be closed.']
+      },
+      {
+        id: 'nipple-grafts',
+        heading: 'Small nipple-areola graft planning',
+        paragraphs: ['For double-incision top surgery, the nipple-areola complex is commonly resized and transferred as a free graft. Dr Sun may plan a small nipple-areola graft, around 2 cm in selected patients, to better match a masculine chest aesthetic.', 'Nipple grafts require careful handling and post-operative care. Possible limitations include partial graft loss, pigment change, flattening, asymmetry, altered or reduced sensation, delayed healing and need for revision.']
+      },
+      {
+        id: 'anaesthesia-pain',
+        heading: 'Nerve blocks and pain-minimising anaesthesia planning',
+        paragraphs: ['Pain control is planned with the anaesthesia team. In suitable patients, regional nerve blocks such as parasternal blocks and pectoral nerve blocks may be used to reduce early post-operative pain and opioid requirement.', 'Nerve blocks do not remove all discomfort and are not suitable for every patient. Pain experience varies, and patients still need clear instructions for medications, dressings, movement, drain care if used and when to seek help.']
+      },
+      {
+        id: 'day-surgery',
+        heading: 'Day-surgery pathway in suitable patients',
+        paragraphs: ['FTM top surgery may be performed as a day-surgery procedure in selected medically suitable patients when anaesthesia recovery, pain control, mobility, wound checks and home support are appropriate.', 'Some patients may require longer observation or admission depending on medical conditions, extent of surgery, bleeding risk, drains, anaesthesia recovery, pain, nausea, travel arrangements or surgeon/anaesthetist advice.']
+      },
+      {
+        id: 'consultation',
+        heading: 'Consultation and preparation',
+        paragraphs: ['Consultation includes discussion of goals, chest examination, tissue and skin assessment, scar expectations, nipple size and position, medical history, smoking or vaping, medications, mental-health support, documentation requirements, fertility or hormonal considerations where relevant, and recovery logistics.', 'Patients should discuss whether they are planning future body-building or weight change, because pectoralis development, weight fluctuation and skin quality may influence long-term contour and scar appearance.']
+      },
+      {
+        id: 'recovery',
+        heading: 'Recovery after FTM top surgery',
+        paragraphs: ['Recovery may involve dressings, compression, limited arm movement, time away from work or school, avoidance of heavy lifting, scar care and follow-up for nipple graft checks. Swelling and bruising are expected early and contour continues to settle over months.', 'Patients should arrange support for transport and early home recovery, especially if drains are used or if arm movement is restricted. Return to exercise should be staged and guided by clinical review.']
+      },
+      {
+        id: 'risks',
+        heading: 'Risks and limitations',
+        paragraphs: ['Risks include bleeding, haematoma, infection, seroma, wound breakdown, delayed healing, visible or hypertrophic scars, dog-ears, contour irregularity, asymmetry, nipple graft loss or pigment change, altered sensation, residual tissue, dissatisfaction, anaesthetic risks and need for revision surgery.', 'No surgical technique can assure a scarless or perfectly symmetrical result. The aim is careful planning, safe tissue handling and realistic contour improvement matched to the individual patient.']
+      },
+      {
+        id: 'questions',
+        heading: 'Questions to ask before top surgery',
+        items: ['Am I suitable for double-incision top surgery or another approach?', 'How will my dog-ear risk and axillary extension be managed?', 'Where will the scar sit relative to the pectoralis major border?', 'Is a central inverted-V scar appropriate for my anatomy?', 'What nipple-areola size and position are planned?', 'Will parasternal or pectoral nerve blocks be used?', 'Can this be done as day surgery in my case?', 'What revision risks should I understand?']
+      }
+    ],
+    faqs: [
+      { question: 'What is FTM top surgery?', answer: 'FTM top surgery is gender-affirming chest surgery for suitable transmasculine patients. It aims to reduce breast tissue and reshape the chest toward a flatter, more masculine contour.' },
+      { question: 'What is double-incision top surgery with nipple grafts?', answer: 'It is a common approach for patients with larger chest volume or skin excess. Breast tissue and excess skin are removed through chest incisions, and the nipple-areola complex is resized and transferred as a free graft.' },
+      { question: 'How is Dr Sun’s double-ellipse planning different?', answer: 'In selected patients, the double-ellipse design aims to direct dog-ear tendency toward the axilla, where residual fullness or scar extension may be easier to hide with the arms down, rather than chasing excess far laterally across the chest.' },
+      { question: 'Why place the scar along the pectoralis major border?', answer: 'When anatomy allows, placing the scar near the lower pectoralis major border can make it relate to a natural masculine chest line. Scar visibility still depends on healing, skin type, tension and post-operative care.' },
+      { question: 'Why use a central inverted-V scar?', answer: 'A central inverted-V transition may make the central scar look more anatomical in relation to the pectoralis border and chest midline in selected patients. It is not suitable or necessary for every anatomy.' },
+      { question: 'Is FTM top surgery a day-surgery procedure?', answer: 'It can be day surgery for suitable patients if anaesthesia recovery, pain control, wound care and home support are appropriate. Some patients may require longer observation or admission.' },
+      { question: 'Do nerve blocks remove all pain?', answer: 'No. Parasternal and pectoral nerve blocks may reduce early pain in selected patients, but discomfort still varies and patients still need medication instructions and follow-up.' }
+    ]
+  },
   'gender-affirming-chest-reconstruction-singapore': {
     slug: 'gender-affirming-chest-reconstruction-singapore',
     title: 'Gender-Affirming Chest Reconstruction in Singapore',

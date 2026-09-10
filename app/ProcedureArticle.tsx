@@ -54,6 +54,12 @@ const establishedArticles = [
     group: 'aesthetic'
   },
   {
+    title: 'FTM Top Surgery in Singapore',
+    href: '/ftm-top-surgery-singapore',
+    category: 'Gender-affirming chest surgery',
+    group: 'reconstructive'
+  },
+  {
     title: 'Breast Reconstruction in Singapore',
     href: '/breast-reconstruction-singapore',
     category: 'Breast reconstruction',
@@ -156,6 +162,15 @@ export default function ProcedureArticlePage({ article }: Props) {
             { '@type': 'MedicalDevice', name: 'Breast implant' },
             { '@type': 'MedicalProcedure', name: 'Fat grafting' },
             { '@type': 'Person', name: 'William P. Adams Jr.', url: 'https://www.dr-adams.com/dr-william-adams/' }
+          ]
+        } : {}),
+        ...(article.slug === 'ftm-top-surgery-singapore' ? {
+          mentions: [
+            { '@type': 'MedicalProcedure', name: 'FTM top surgery' },
+            { '@type': 'MedicalProcedure', name: 'Chest masculinisation surgery' },
+            { '@type': 'MedicalProcedure', name: 'Double-incision top surgery' },
+            { '@type': 'MedicalProcedure', name: 'Free nipple graft' },
+            { '@type': 'MedicalProcedure', name: 'Pectoral nerve block' }
           ]
         } : {}),
         datePublished: lastReviewedIso,

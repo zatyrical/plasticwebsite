@@ -24,7 +24,7 @@ export const reconstructiveTreatments: TreatmentTile[] = [
   { title: 'Head and neck reconstruction', href: '/head-neck-reconstruction-singapore', image: '/images/reconstructive-tiles/head-neck-reconstruction.jpg', alt: 'Face image representing head and neck reconstruction' },
   { title: 'Trauma and lacerations', href: '/trauma-lacerations-singapore', image: '/images/reconstructive-tiles/trauma-lacerations.jpg', alt: 'Face with subtle scar image representing trauma and laceration reconstruction' },
   { title: 'Scar reconstruction', href: '/scar-reconstruction-singapore', image: '/images/reconstructive-tiles/scar-reconstruction.jpg', alt: 'Keloid scar image representing scar reconstruction' },
-  { title: 'Gender-affirming chest reconstruction', href: '/gender-affirming-chest-reconstruction-singapore', image: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.jpg', alt: 'Chest binder image representing gender-affirming chest reconstruction' }
+  { title: 'FTM top surgery & chest masculinisation', href: '/ftm-top-surgery-singapore', image: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.jpg', alt: 'Chest binder image representing FTM top surgery and gender-affirming chest reconstruction in Singapore' }
 ];
 
 export const aestheticSignatureTreatments: TreatmentTile[] = [
