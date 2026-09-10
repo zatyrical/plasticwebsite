@@ -70,7 +70,7 @@ export default function Home() {
           </div>
           <div className="hero-card hero-visual-stage">
             <div className="portrait-wrap hero-main-portrait">
-              <Image src="/images/dr-jeremy-sun-hero.jpg" alt="Portrait of Dr Jeremy Sun, plastic surgeon in Singapore" width={896} height={1280} priority />
+              <Image src="/images/dr-jeremy-sun-hero.jpg" alt="Portrait of Dr Jeremy Sun, plastic surgeon in Singapore" width={896} height={1280} sizes="(max-width: 900px) calc(100vw - 48px), 410px" loading="eager" fetchPriority="high" />
               <div className="credential-strip">
                 <div className="metric"><strong>MOH specialist</strong><span>Plastic, reconstructive and aesthetic surgery</span></div>
                 <div className="metric"><strong>Aesthetic surgery fellowship</strong><span>American Society for Aesthetic Plastic Surgery travelling fellowship</span></div>
@@ -83,7 +83,7 @@ export default function Home() {
       <section id="about" className="section about-section segmented-section segment-about mobile-screen">
         <div className="container about-grid">
           <div className="about-image-card">
-            <Image src="/images/dr-jeremy-sun-surgery.jpg" alt="Dr Jeremy Sun operating in a surgical theatre" width={1200} height={1500} />
+            <Image src="/images/dr-jeremy-sun-surgery.jpg" alt="Dr Jeremy Sun operating in a surgical theatre" width={1200} height={1500} sizes="(max-width: 900px) calc(100vw - 44px), (max-width: 1180px) calc(45vw - 39px), 493px" />
           </div>
           <div>
             <div className="eyebrow">About Dr Sun</div>
@@ -115,7 +115,7 @@ export default function Home() {
           <h2>Aesthetic surgery</h2>
           <p className="section-intro">A focused selection of aesthetic procedures within Dr Sun’s practice, including detailed guides to <a href="/breast-augmentation-singapore">breast augmentation in Singapore</a>, <a href="/tummy-tuck-singapore">tummy tuck / abdominoplasty in Singapore</a> and <a href="/body-contouring-liposuction-singapore">body contouring and liposuction planning</a>.</p>
           <div className="grid-3 focus-grid aesthetic-photo-grid signature-photo-grid">{aestheticSignatureTreatments.map((x) => {
-            const content = <><Image src={x.image} alt={x.alt} width={720} height={720} /><div className="aesthetic-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
+            const content = <><Image src={x.image} alt={x.alt} width={720} height={720} sizes="(max-width: 900px) calc(50vw - 27px), (max-width: 1180px) calc(33.333vw - 26px), 368px" /><div className="aesthetic-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
             return x.href ? <a className="card linked-card focus-card aesthetic-photo-card" href={x.href} key={x.title}>{content}</a> : <div className="card focus-card aesthetic-photo-card" key={x.title}>{content}</div>;
           })}</div>
           <div className="section-actions"><a href="/aesthetic-surgery" className="btn btn-primary">View all aesthetic treatments</a></div>
@@ -128,7 +128,7 @@ export default function Home() {
           <h2>Reconstructive surgery</h2>
           <p className="section-intro">Focused reconstructive, lymphatic and scar surgery areas within Dr Sun’s practice.</p>
           <div className="grid-3 focus-grid reconstructive-photo-grid signature-photo-grid">{reconstructiveSignatureTreatments.map((x) => {
-            const content = <><Image src={x.image} alt={x.alt} width={720} height={720} loading="eager" sizes="(max-width: 900px) 50vw, 33vw" /><div className="aesthetic-photo-overlay reconstructive-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
+            const content = <><Image src={x.image} alt={x.alt} width={720} height={720} sizes="(max-width: 900px) calc(50vw - 27px), (max-width: 1180px) calc(33.333vw - 26px), 368px" /><div className="aesthetic-photo-overlay reconstructive-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
             return x.href ? <a className="card linked-card focus-card aesthetic-photo-card reconstructive-photo-card" href={x.href} key={x.title}>{content}</a> : <div className="card focus-card aesthetic-photo-card reconstructive-photo-card" key={x.title}>{content}</div>;
           })}</div>
           <div className="section-actions"><a href="/reconstructive-surgery" className="btn btn-primary">View all reconstructive treatments</a></div>
