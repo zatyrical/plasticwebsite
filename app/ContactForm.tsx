@@ -1,12 +1,17 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import { FormEvent, useEffect, useState } from 'react';
 
 type Status = 'idle' | 'sending' | 'sent' | 'error';
 
 export default function ContactForm() {
   const [status, setStatus] = useState<Status>('idle');
   const [message, setMessage] = useState('');
+  const [pageUrl, setPageUrl] = useState('');
+
+  useEffect(() => {
+    setPageUrl(window.location.href);
+  }, []);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -75,6 +80,7 @@ export default function ContactForm() {
         Leave this field blank
         <input name="website" type="text" tabIndex={-1} autoComplete="off" />
       </label>
+      <input name="pageUrl" type="hidden" value={pageUrl} readOnly />
       <button className="btn btn-primary" type="submit" disabled={status === 'sending'}>
         {status === 'sending' ? 'Sending…' : 'Submit enquiry'}
       </button>

@@ -169,6 +169,9 @@ export default function ChooseLymphedemaSurgeonPage() {
               For a broader patient-education hub on lymphedema treatment options in Singapore, see <a href="https://lymphedasia.com/lymphedema-treatment/">LymphedAsia’s lymphedema treatment guide</a> and <a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">Dr Jeremy Sun’s lymphedema specialist profile</a>. This page focuses on questions to ask when assessing a surgeon and treatment plan.
             </p>
             <p>
+              For patients seeking a Singapore clinical pathway with Dr Sun, the companion page on <Link href="/lymphedema-surgery-singapore">lymphedema assessment and surgery in Singapore</Link> explains the consultation context, imaging considerations and treatment options.
+            </p>
+            <p>
               A good consultation should not begin with one operation as the answer for every patient. Lymphedema varies widely. Some limbs are fluid-dominant and may be suitable for physiological lymphatic surgery. Others are more fibrotic or solid-tissue-dominant and may need different treatment strategies. Some patients are best managed without surgery.
             </p>
             <p className="notice-text">

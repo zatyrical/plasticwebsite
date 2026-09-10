@@ -38,6 +38,7 @@ export async function POST(request: NextRequest) {
   const phone = clean(payload.phone, 60);
   const enquiryType = clean(payload.enquiryType, 120) || 'Website enquiry';
   const message = clean(payload.message, MAX_MESSAGE_LENGTH);
+  const pageUrl = clean(payload.pageUrl, 300);
 
   if (!name || !email || !message) {
     return NextResponse.json({ error: 'Please provide your name, email and enquiry message.' }, { status: 400 });
@@ -68,6 +69,7 @@ export async function POST(request: NextRequest) {
     <p><strong>Email:</strong> ${escapeHtml(email)}</p>
     <p><strong>Phone:</strong> ${escapeHtml(phone || 'Not provided')}</p>
     <p><strong>Enquiry type:</strong> ${escapeHtml(enquiryType)}</p>
+    <p><strong>Page/source:</strong> ${escapeHtml(pageUrl || 'Not provided')}</p>
     <p><strong>Message:</strong></p>
     <p>${escapeHtml(message).replaceAll('\n', '<br />')}</p>
     <hr />
