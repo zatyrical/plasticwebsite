@@ -63,10 +63,65 @@ export const metadata: Metadata = {
   }
 };
 
+const globalStructuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Physician',
+      '@id': 'https://www.drjeremysun.com/#physician',
+      name: 'Dr Jeremy Sun Mingfa',
+      alternateName: ['Dr Jeremy Sun', 'Sun Mingfa Jeremy'],
+      url: 'https://www.drjeremysun.com/',
+      image: 'https://www.drjeremysun.com/images/dr-jeremy-sun-hero.jpg',
+      medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery'],
+      knowsAbout: [
+        'plastic surgery in Singapore',
+        'aesthetic surgery',
+        'microsurgical reconstruction',
+        'lymphedema surgery',
+        'lymphovenous bypass surgery',
+        'breast surgery',
+        'body contouring'
+      ],
+      areaServed: {
+        '@type': 'Country',
+        name: 'Singapore'
+      },
+      mainEntityOfPage: 'https://www.drjeremysun.com/'
+    },
+    {
+      '@type': 'MedicalBusiness',
+      '@id': 'https://www.drjeremysun.com/#medicalbusiness',
+      name: 'Dr Jeremy Sun Plastic Surgery',
+      url: 'https://www.drjeremysun.com/',
+      image: 'https://www.drjeremysun.com/images/dr-jeremy-sun-hero.jpg',
+      medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery'],
+      areaServed: {
+        '@type': 'Country',
+        name: 'Singapore'
+      }
+    },
+    {
+      '@type': 'WebSite',
+      '@id': 'https://www.drjeremysun.com/#website',
+      name: 'Dr Jeremy Sun Plastic Surgery',
+      url: 'https://www.drjeremysun.com/',
+      inLanguage: 'en-SG',
+      publisher: {
+        '@id': 'https://www.drjeremysun.com/#physician'
+      }
+    }
+  ]
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={headingFont.variable}>
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(globalStructuredData) }}
+        />
         <MotionObserver />
         {children}
       </body>
