@@ -1,6 +1,14 @@
 import type { Metadata } from 'next';
+import { Space_Grotesk } from 'next/font/google';
 import MotionObserver from './MotionObserver';
 import './globals.css';
+
+const headingFont = Space_Grotesk({
+  subsets: ['latin'],
+  weight: ['500', '600', '700'],
+  display: 'swap',
+  variable: '--font-space-grotesk'
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.drjeremysun.com'),
@@ -57,7 +65,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={headingFont.variable}>
       <body>
         <MotionObserver />
         {children}
