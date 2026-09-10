@@ -270,6 +270,12 @@ export default function ProcedureArticlePage({ article }: Props) {
               <section key={section.id}>
                 <h2 id={section.id}>{section.heading}</h2>
                 {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'risks' ? (
+                  <>
+                    <p>Serious complications can include blood clots in the legs or lungs, fluid-related problems affecting the lungs, and injury to deeper tissues or internal organs. Individual risk depends on the treatment extent, medical history and surgical plan and should be discussed before consent.</p>
+                    <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/safety">ASPS liposuction risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/candidates">ASPS liposuction suitability</a>, and <a href="https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/liposuction/">NHS liposuction overview</a>.</p>
+                  </>
+                ) : null}
                 {section.items ? <ul>{section.items.map((item) => <li key={item}>{item}</li>)}</ul> : null}
               </section>
             ))}
