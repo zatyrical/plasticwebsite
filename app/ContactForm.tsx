@@ -16,22 +16,27 @@ export default function ContactForm() {
     setStatus('sending');
     setMessage('');
 
-    const response = await fetch('/api/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(Object.fromEntries(formData.entries()))
-    });
-
-    if (response.ok) {
-      form.reset();
-      setStatus('sent');
-      setMessage('Thank you. Your enquiry has been received. The clinic team will respond through the contact details provided.');
-      return;
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(Object.fromEntries(formData.entries()))
+      });
+  
+      if (response.ok) {
+        form.reset();
+        setStatus('sent');
+        setMessage('Thank you. Your enquiry has been received. The clinic team will respond through the contact details provided.');
+        return;
+      }
+  
+      const data = await response.json().catch(() => null);
+      setStatus('error');
+      setMessage(data?.error || 'Sorry, the enquiry could not be sent. Please try again later.');
+    } catch {
+      setStatus('error');
+      setMessage('We could not confirm that your enquiry was sent. Your details are still here. Please check your connection or contact Astrid using the WhatsApp link below.');
     }
-
-    const data = await response.json().catch(() => null);
-    setStatus('error');
-    setMessage(data?.error || 'Sorry, the enquiry could not be sent. Please try again later.');
   }
 
   return (
@@ -73,7 +78,7 @@ export default function ContactForm() {
       <button className="btn btn-primary" type="submit" disabled={status === 'sending'}>
         {status === 'sending' ? 'Sending…' : 'Submit enquiry'}
       </button>
-      {message ? <p className={`form-status ${status}`}>{message}</p> : null}
+      {message ? <p role="status" className={`form-status ${status}`}>{message}</p> : null}
       <p className="form-note">For non-urgent private consultation enquiries, you may also <a href="https://wa.me/6587649219" target="_blank" rel="noreferrer">message Astrid on WhatsApp</a>.</p>
       <p className="form-note">This form is for non-urgent enquiries only. It does not establish a doctor-patient relationship until a consultation has taken place.</p>
     </form>
