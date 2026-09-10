@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap');
-
 :root{
   --ink:#10201d;
   --muted:#62716d;
@@ -150,7 +148,7 @@
 .hero{background:radial-gradient(circle at 10% 8%,rgba(67,189,198,.18),transparent 28%),radial-gradient(circle at 78% 20%,rgba(184,154,94,.20),transparent 30%),linear-gradient(135deg,#fbfaf7 0%,#efe9df 48%,#e7f0ee 100%)}
 .hero:before{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(7,17,15,.06),transparent 42%),repeating-linear-gradient(90deg,rgba(16,32,29,.035) 0 1px,transparent 1px 72px);pointer-events:none;mask-image:linear-gradient(180deg,#000,transparent 78%)}
 .hero-grid{position:relative;z-index:1}
-.hero h1,.section h2,.article-hero h1{font-family:'Space Grotesk','Sora',Geist,ui-sans-serif,system-ui,sans-serif;text-transform:none;letter-spacing:-.085em}
+.hero h1,.section h2,.article-hero h1{font-family:var(--font-space-grotesk),'Sora',Geist,ui-sans-serif,system-ui,sans-serif;text-transform:none;letter-spacing:-.085em}
 .hero-visual-stage{isolation:isolate;min-height:650px}
 .hero-main-portrait{position:relative;z-index:2;max-width:410px;margin-left:auto;border-radius:42px;transform:translateX(-10px);box-shadow:0 34px 90px rgba(7,17,15,.24)}
 .section{position:relative;overflow:hidden}
@@ -655,7 +653,7 @@
 .signature-kicker{
   display:inline-flex;
   margin:18px 0 0 8px;
-  font-family:'Space Grotesk','Sora',Geist,ui-sans-serif,system-ui,sans-serif;
+  font-family:var(--font-space-grotesk),'Sora',Geist,ui-sans-serif,system-ui,sans-serif;
   font-size:clamp(13px,1.25vw,18px);
   line-height:1;
   font-weight:800;
