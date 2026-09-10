@@ -8,7 +8,7 @@ const navItems = [
   { href: '/plastic-surgeon-singapore', label: 'About' },
   { href: '/#aesthetic-surgery', label: 'Aesthetic' },
   { href: '/#reconstructive-surgery', label: 'Reconstructive' },
-  { href: '/lymphovenous-bypass-lva-surgery-singapore', label: 'LVA' },
+  { href: '/lymphedema-surgery-singapore', label: 'Lymphedema' },
   { href: '/training-and-fellowships', label: 'Training' },
   { href: '/media', label: 'Media' },
   { href: '/publications', label: 'Publications' },
