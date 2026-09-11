@@ -33,9 +33,9 @@ This website is for general educational information. Suitability, risks, recover
 - Asian Rhinoplasty in Singapore: ${baseUrl}/asian-rhinoplasty-singapore
 - Asian Eyelid Surgery in Singapore: ${baseUrl}/asian-eyelid-surgery-singapore
 - Body Contouring & Liposuction in Singapore — body contouring treatment, abdominal/tummy liposuction, waist/flank contouring, loose skin limits, recovery and risks: ${baseUrl}/body-contouring-liposuction-singapore
-- Tummy Tuck / Abdominoplasty in Singapore — loose abdominal skin, mini versus full tummy tuck, diastasis recti/divarication repair, C-section scar planning and recovery: ${baseUrl}/tummy-tuck-singapore
+- Tummy Tuck / Abdominoplasty in Singapore — loose abdominal skin, mini versus full tummy tuck suitability, diastasis recti/divarication repair, C-section scar planning, liposuction comparison, recovery and risks: ${baseUrl}/tummy-tuck-singapore
 - Thread Lifting in Singapore — face thread lift treatment, dissolvable threads, suitability, recovery, limits versus face lift surgery and risks: ${baseUrl}/thread-lifting-singapore
-- Breast Augmentation in Singapore — breast implants, Motiva implant discussion, implant placement, implant shape/profile, screening, recovery and long-term implant follow-up: ${baseUrl}/breast-augmentation-singapore
+- Breast Augmentation in Singapore — breast implants, Motiva breast augmentation discussion, implant placement, implant shape/profile, measurement-based sizing, breast screening, recovery and long-term implant follow-up: ${baseUrl}/breast-augmentation-singapore
 - Breast Augmentation & Aesthetic Breast Surgery in Singapore: ${baseUrl}/breast-aesthetic-surgery-singapore
 - 24-Hour Rapid Recovery Breast Augmentation in Singapore: ${baseUrl}/24-hour-rapid-recovery-breast-augmentation-singapore
 - Breast Implant Illness in Singapore — Evidence and Patient Decision Guide for reported systemic symptoms, uncertainty and explantation counselling: ${baseUrl}/breast-implant-illness-singapore-evidence

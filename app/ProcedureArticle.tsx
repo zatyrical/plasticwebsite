@@ -160,8 +160,18 @@ export default function ProcedureArticlePage({ article }: Props) {
             { '@type': 'MedicalProcedure', name: 'Breast augmentation' },
             { '@type': 'MedicalProcedure', name: 'Breast implant surgery' },
             { '@type': 'MedicalDevice', name: 'Breast implant' },
+            { '@type': 'MedicalDevice', name: 'Motiva breast implant' },
             { '@type': 'MedicalProcedure', name: 'Fat grafting' },
             { '@type': 'Person', name: 'William P. Adams Jr.', url: 'https://www.dr-adams.com/dr-william-adams/' }
+          ]
+        } : {}),
+        ...(article.slug === 'tummy-tuck-singapore' ? {
+          mentions: [
+            { '@type': 'MedicalProcedure', name: 'Tummy tuck' },
+            { '@type': 'MedicalProcedure', name: 'Abdominoplasty' },
+            { '@type': 'MedicalCondition', name: 'Diastasis recti' },
+            { '@type': 'MedicalCondition', name: 'Abdominal divarication' },
+            { '@type': 'MedicalProcedure', name: 'Liposuction' }
           ]
         } : {}),
         ...(article.slug === 'ftm-top-surgery-singapore' ? {
