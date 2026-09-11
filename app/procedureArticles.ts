@@ -588,6 +588,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     faqs: [
       { question: 'Is thread lifting a replacement for a face lift?', answer: 'No. Thread lifting may help selected mild concerns, but it cannot reproduce the deeper tissue repositioning and skin redraping of surgery.' },
       { question: 'How long does a thread lift last?', answer: 'Duration varies depending on thread type, tissue quality, facial movement and ageing. It should not be viewed as permanent.' },
+      { question: 'What is face thread lift treatment in Singapore?', answer: 'Face thread lift treatment uses absorbable or dissolvable threads placed under the skin to provide selected support for mild facial laxity, often around the cheeks, jawline or lower face. Suitability depends on anatomy, tissue heaviness, skin quality, expectations and whether surgery or another option would be more appropriate.' },
       { question: 'Can thread lifting be combined with other treatments?', answer: 'Sometimes, but sequencing and safety need to be planned carefully, especially if fillers, lasers or surgery are also being considered.' },
       { question: 'Who is not suitable for a face thread lift?', answer: 'Thread lifting may be unsuitable when facial laxity is advanced, skin is very thin or heavy, expectations are unrealistic, infection risk is increased, or surgery would be a more appropriate option. A consultation is needed to assess this.' }
     ]
