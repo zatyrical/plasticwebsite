@@ -4,6 +4,12 @@ import { useEffect, useRef, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import Script from 'next/script';
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
 const GA_ID = 'G-448HBLCGJ8';
 const PRODUCTION_HOST = 'www.drjeremysun.com';
 
@@ -31,9 +37,8 @@ export default function GaTracker() {
   useEffect(() => {
     if (!enabled || !ready || !pathname || lastTrackedPath.current === pathname) return;
 
-    const pageLocation = `${window.location.origin}${pathname}`;
     window.gtag?.('event', 'page_view', {
-      page_location: pageLocation,
+      page_location: `${window.location.origin}${pathname}`,
       page_referrer: sanitiseUrl(document.referrer)
     });
     lastTrackedPath.current = pathname;
