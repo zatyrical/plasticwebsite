@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Space_Grotesk } from 'next/font/google';
 import MotionObserver from './MotionObserver';
+import GaTracker from './GaTracker';
 import './globals.css';
 
 const headingFont = Space_Grotesk({
@@ -124,6 +125,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <MotionObserver />
         {children}
+        <GaTracker />
       </body>
     </html>
   );
