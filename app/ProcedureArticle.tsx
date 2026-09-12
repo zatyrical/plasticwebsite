@@ -177,7 +177,10 @@ export default function ProcedureArticlePage({ article }: Props) {
         ...(article.slug === 'ftm-top-surgery-singapore' ? {
           mentions: [
             { '@type': 'MedicalProcedure', name: 'FTM top surgery' },
+            { '@type': 'MedicalProcedure', name: 'Female-to-male top surgery' },
             { '@type': 'MedicalProcedure', name: 'Chest masculinisation surgery' },
+            { '@type': 'MedicalProcedure', name: 'Chest masculinization surgery' },
+            { '@type': 'MedicalProcedure', name: 'Gender-affirming chest reconstruction' },
             { '@type': 'MedicalProcedure', name: 'Double-incision top surgery' },
             { '@type': 'MedicalProcedure', name: 'Free nipple graft' },
             { '@type': 'MedicalProcedure', name: 'Pectoral nerve block' }

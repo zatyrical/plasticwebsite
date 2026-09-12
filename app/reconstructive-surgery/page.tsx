@@ -49,6 +49,7 @@ export default function ReconstructiveSurgeryPage() {
             <ul>
               <li><a href="/lymphedema-surgery-singapore">Lymphedema surgery & supermicrosurgical LVA</a></li>
               <li><a href="/breast-reconstruction-singapore">Breast reconstruction</a></li>
+              <li><a href="/ftm-top-surgery-singapore">Selected chest reconstruction & FTM top surgery</a></li>
               <li><a href="/scar-reconstruction-singapore">Scar & laceration reconstruction</a></li>
             </ul>
           </aside>

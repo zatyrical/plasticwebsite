@@ -708,16 +708,16 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'ftm-top-surgery-singapore': {
     slug: 'ftm-top-surgery-singapore',
-    title: 'FTM Top Surgery in Singapore',
+    title: 'FTM Top Surgery Singapore | Chest Masculinisation',
     eyebrow: 'Gender-affirming chest surgery',
-    lead: 'A patient guide to FTM top surgery in Singapore, including double-incision chest masculinisation, double-ellipse planning, nipple grafts, scar placement, dog-ear management, nerve blocks, day surgery and recovery.',
-    description: 'Educational guide to FTM top surgery and chest masculinisation in Singapore, including double-incision double-ellipse breast reduction with nipple grafts, scar planning, dog-ear management, day surgery, nerve blocks, recovery and risks.',
-    keywords: ['FTM top surgery Singapore', 'top surgery Singapore', 'chest masculinisation Singapore', 'gender affirming chest surgery Singapore', 'double incision top surgery Singapore', 'nipple graft top surgery', 'mastectomy top surgery Singapore'],
+    lead: 'A patient guide to FTM top surgery in Singapore, including female-to-male and transmasculine chest masculinisation, double-incision double-ellipse planning, nipple grafts, scar placement, dog-ear management, nerve blocks, day surgery and recovery.',
+    description: 'FTM top surgery and chest masculinisation in Singapore, including female-to-male double-incision top surgery with nipple grafts, scar planning, dog-ear management, day surgery, nerve blocks, recovery and risks.',
+    keywords: ['FTM top surgery Singapore', 'top surgery Singapore', 'female to male top surgery Singapore', 'female-to-male top surgery Singapore', 'transmasculine top surgery Singapore', 'chest masculinisation Singapore', 'chest masculinization Singapore', 'gender affirming chest surgery Singapore', 'double incision top surgery Singapore', 'nipple graft top surgery', 'mastectomy top surgery Singapore'],
     heroImage: { src: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.jpg', alt: 'Chest binder image representing gender-affirming chest reconstruction and FTM top surgery consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#reconstructive-surgery',
     backLabel: 'Back to reconstructive surgery',
     intro: [
-      'FTM top surgery, also called chest masculinisation surgery, is gender-affirming chest surgery intended to create a flatter, more masculine chest contour for suitable transmasculine patients. Planning should be individualised and medically supervised.',
+      'FTM top surgery, also called female-to-male top surgery, transmasculine top surgery or chest masculinisation surgery, is gender-affirming chest surgery intended to create a flatter, more masculine chest contour for suitable patients. Planning should be individualised and medically supervised.',
       'For patients with larger chest volume or skin excess, a double-incision approach with nipple grafts is commonly discussed. Dr Jeremy Sun may use a double-incision double-ellipse breast-reduction style pattern with nipple grafting in selected patients, adapting the design to chest shape, skin excess, nipple position, scar goals and safety.',
       'This page explains the principles behind that technique, including scar placement along the pectoralis major border, dog-ear control toward the axilla, a central inverted-V scar concept, small nipple-areola graft planning, nerve blocks, day-surgery recovery and limitations.'
     ],
