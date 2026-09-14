@@ -4,6 +4,12 @@ import { procedureArticleList } from '../procedureArticles';
 
 const existingArticles = [
   {
+    title: 'Compression Garments, Foam and Lymphatic Massage After Liposuction',
+    href: '/compression-foam-lymphatic-massage-after-liposuction',
+    category: 'Liposuction recovery',
+    description: 'A patient guide to compression garments, foam padding, short-stretch bandages and gentle lymphatic drainage massage after liposuction.'
+  },
+  {
     title: 'Breast Implant Illness: Is It Real? What the Evidence Says',
     href: '/breast-implant-illness-singapore-evidence',
     category: 'Breast implant safety',
