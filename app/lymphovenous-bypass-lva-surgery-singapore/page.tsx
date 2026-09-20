@@ -5,16 +5,16 @@ import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 export const metadata: Metadata = {
-  title: 'LVB / LVA Surgery Singapore | Lymphovenous Bypass',
+  title: 'LVA Surgery Singapore | Lymphovenous Bypass for Lymphedema',
   description:
-    'Patient information on LVB / LVA surgery and supermicrosurgical lymphovenous bypass in Singapore, including imaging, ultrasound localisation, recovery and cellulitis risk.',
+    'LVA / lymphovenous bypass surgery in Singapore for selected lymphedema patients, including ICG and ultrasound assessment, recurrent cellulitis, recovery and compression.',
   alternates: {
     canonical: '/lymphovenous-bypass-lva-surgery-singapore'
   },
   openGraph: {
-    title: 'LVB / LVA Lymphovenous Bypass Surgery in Singapore | Dr Jeremy Sun',
+    title: 'LVA Surgery Singapore | Lymphovenous Bypass for Lymphedema | Dr Jeremy Sun',
     description:
-      'Learn about LVB / LVA surgery, lymphatic imaging, suitability, recovery, cellulitis risk and compression after lymphovenous bypass in Singapore.',
+      'Learn when LVA / lymphovenous bypass may help selected lymphedema patients, including recurrent cellulitis despite conservative therapy, imaging, recovery and compression.',
     url: '/lymphovenous-bypass-lva-surgery-singapore',
     type: 'article'
   },
@@ -103,7 +103,7 @@ const faqJsonLd = {
       name: 'Can LVA reduce cellulitis?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'In appropriately selected patients, lymphatic surgery may significantly reduce the risk or frequency of cellulitis. Outcomes vary, and patients should continue skin care and seek early treatment for infection symptoms.'
+        text: 'In selected patients with established lymphedema, LVA may reduce lymphatic congestion and may reduce the tendency toward recurrent cellulitis. If cellulitis occurs once or twice despite appropriate conservative therapy, this is a strong reason to seek lymphatic assessment. Outcomes vary, and skin care, compression where appropriate and prompt infection treatment remain important.'
       }
     },
     {
@@ -137,9 +137,9 @@ export default function LvaSurgeryPage() {
           <div className="container article-hero-grid">
             <div>
               <div className="eyebrow">LVB / LVA lymphovenous bypass</div>
-              <h1>LVB / LVA Lymphovenous Bypass Surgery in Singapore</h1>
+              <h1>LVA Surgery Singapore: Lymphovenous Bypass for Lymphedema</h1>
               <p className="lead">
-                Patient information on supermicrosurgical LVB / LVA surgery, suitability, imaging, ultrasound localisation, recovery, cellulitis risk and compression after surgery.
+                Specialist information on supermicrosurgical LVA / LVB, who may be suitable, ICG and ultrasound localisation, recovery, compression, and recurrent cellulitis despite conservative therapy.
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about LVA assessment</a>
@@ -170,6 +170,9 @@ export default function LvaSurgeryPage() {
             <p>
               LVA is one of the main physiological operations used in lymphatic surgery. It aims to improve lymphatic drainage rather than remove tissue. In appropriately selected patients, it may help reduce swelling, heaviness, recurrent cellulitis or infection frequency, and dependence on compression garments. Outcomes vary between individuals, and careful assessment is required before any recommendation can be made.
             </p>
+            <div className="notice-text">
+              <strong>Short answer:</strong> LVA may be considered when lymphedema remains symptomatic despite appropriate conservative therapy, especially if there have been one or two episodes of cellulitis. In that setting, recurrent infection is a strong reason to assess whether functioning lymphatic channels remain and whether lymphovenous bypass could offload the limb.
+            </div>
             <p>
               Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo focused specifically on lymphatic surgery, supermicrosurgical LVA and complex lymphedema care.
             </p>
@@ -228,10 +231,16 @@ export default function LvaSurgeryPage() {
               Recurrent cellulitis or infection is an important reason to seek surgical assessment. Lymphedema can increase infection risk because impaired lymphatic drainage affects fluid balance, tissue health and immune clearance in the affected limb.
             </p>
             <p>
-              In appropriately selected patients, lymphatic surgery may significantly reduce the risk or frequency of cellulitis. This is one of the important potential benefits of LVA, particularly for patients whose lymphedema is complicated by repeated infections.
+              In Dr Sun’s practice, if a patient has established lymphedema and has already been using appropriate conservative therapy, even one or two cellulitis episodes are a strong indication for lymphatic assessment. This does not mean every patient needs surgery, but it does mean the lymphedema should be assessed as an active driver of infection risk rather than treated only as intermittent skin infection.
+            </p>
+            <p>
+              In appropriately selected patients, lymphatic surgery may reduce the risk or frequency of cellulitis by improving lymphatic drainage and reducing congestion. This is one of the important potential benefits of LVA, particularly for patients whose lymphedema is complicated by recurrent infections.
             </p>
             <p>
               Surgery does not remove the need for good skin care, prompt treatment of infection, and ongoing lymphedema management. Patients with fever, spreading redness, sudden worsening swelling or severe pain should seek urgent medical attention.
+            </p>
+            <p>
+              For a patient-facing discussion of warning signs and prevention, see LymphedAsia’s guide to <a href="https://lymphedasia.com/lymphedema-and-cellulitis/" target="_blank" rel="noopener noreferrer">lymphedema and cellulitis</a>.
             </p>
 
             <h2>Is LVA only for early-stage lymphedema?</h2>
@@ -349,7 +358,7 @@ export default function LvaSurgeryPage() {
             <h3>Is LVA only useful for early lymphedema?</h3>
             <p>No. LVA is often associated with early-stage lymphedema, but some advanced-stage patients may still be suitable if their disease is more fluid-dominant and imaging shows usable lymphatic channels.</p>
             <h3>Can LVA reduce cellulitis?</h3>
-            <p>In appropriately selected patients, lymphatic surgery may significantly reduce the risk or frequency of cellulitis. Outcomes vary, and patients should continue skin care and seek early treatment for infection symptoms.</p>
+            <p>In selected patients with established lymphedema, LVA may reduce lymphatic congestion and may reduce the tendency toward recurrent cellulitis. If cellulitis occurs once or twice despite appropriate conservative therapy, this is a strong reason to seek lymphatic assessment. Outcomes vary, and patients should continue skin care, compression where appropriate and early treatment for infection symptoms.</p>
             <h3>How long is the hospital stay after LVA?</h3>
             <p>In Dr Sun’s practice, patients typically go home the next day after LVA surgery, depending on the surgical plan, anaesthetic recovery and individual clinical circumstances. This should be confirmed during consultation.</p>
             <h3>Will I still need compression after LVA?</h3>
