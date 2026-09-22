@@ -66,6 +66,54 @@ const featuredMedia: MediaFeature[] = [
 
 const educationFeatures: MediaFeature[] = [
   {
+    source: 'International congress lecture',
+    title: 'World Congress for Plastic Surgeons of Chinese Descent',
+    description: 'Conference lecture on lymphatic surgery decision-making and improving patient selection in breast cancer-related lymphedema.',
+    href: '/images/media/waps-cd-2026-lymphedema-talk-jeremy-sun.webp',
+    label: 'View conference photo',
+    image: '/images/media/waps-cd-2026-lymphedema-talk-jeremy-sun.webp',
+    imageAlt: 'Dr Jeremy Sun speaking at the World Congress for Plastic Surgeons of Chinese Descent on lymphedema surgery and patient selection',
+    imageWidth: 1280,
+    imageHeight: 720,
+    wide: true
+  },
+  {
+    source: 'Professional education',
+    title: 'CLyVeB-AD-1 study presentation',
+    description: 'Professional congress presentation on early human evidence of glymphatic modulation and lymphatic bypass research.',
+    href: '/images/media/waps-cd-2026-clyveb-ad-study-talk-jeremy-sun.webp',
+    label: 'View conference photo',
+    image: '/images/media/waps-cd-2026-clyveb-ad-study-talk-jeremy-sun.webp',
+    imageAlt: 'Dr Jeremy Sun presenting the CLyVeB-AD-1 study on early human evidence of glymphatic modulation at a professional congress',
+    imageWidth: 960,
+    imageHeight: 1280,
+    portrait: true
+  },
+  {
+    source: 'Conference faculty',
+    title: 'Breast Plastic Surgery Forum certificate presentation',
+    description: 'Certificate presentation following a professional education session at the Breast Plastic Surgery Forum.',
+    href: '/images/media/waps-cd-2026-breast-plastic-surgery-forum-certificate.webp',
+    label: 'View conference photo',
+    image: '/images/media/waps-cd-2026-breast-plastic-surgery-forum-certificate.webp',
+    imageAlt: 'Dr Jeremy Sun receiving a certificate after a Breast Plastic Surgery Forum professional education session',
+    imageWidth: 1280,
+    imageHeight: 720,
+    wide: true
+  },
+  {
+    source: 'Conference faculty',
+    title: 'World Congress faculty acknowledgement',
+    description: 'Faculty acknowledgement and certificate presentation at the World Congress for Plastic Surgeons of Chinese Descent.',
+    href: '/images/media/waps-cd-2026-jeremy-sun-certificate-presentation.webp',
+    label: 'View conference photo',
+    image: '/images/media/waps-cd-2026-jeremy-sun-certificate-presentation.webp',
+    imageAlt: 'Dr Jeremy Sun receiving a certificate at the World Congress for Plastic Surgeons of Chinese Descent',
+    imageWidth: 960,
+    imageHeight: 1280,
+    portrait: true
+  },
+  {
     source: 'Invited speaker',
     title: 'St Luke’s ElderCare CommCare Symposium 2026',
     description: 'Invited Wound Care track lecture on recognition and management of lymphoedema and its impact on chronic wounds, scheduled for 4 September 2026.',
