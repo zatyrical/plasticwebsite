@@ -4,6 +4,21 @@ import { FormEvent, useEffect, useState } from 'react';
 
 type Status = 'idle' | 'sending' | 'sent' | 'error';
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
+function trackEnquiryEvent(eventName: string, params: Record<string, unknown> = {}) {
+  if (typeof window === 'undefined') return;
+  window.gtag?.('event', eventName, {
+    event_category: 'enquiry',
+    page_location: window.location.href,
+    ...params
+  });
+}
+
 export default function ContactForm() {
   const [status, setStatus] = useState<Status>('idle');
   const [message, setMessage] = useState('');
@@ -32,6 +47,10 @@ export default function ContactForm() {
         form.reset();
         setStatus('sent');
         setMessage('Thank you. Your enquiry has been received. The clinic team will respond through the contact details provided.');
+        trackEnquiryEvent('generate_lead', {
+          method: 'drjeremysun_contact_form',
+          enquiry_type: String(formData.get('enquiryType') || 'Consultation enquiry')
+        });
         return;
       }
   
@@ -67,7 +86,7 @@ export default function ContactForm() {
             <option>Consultation enquiry</option>
             <option>Aesthetic surgery</option>
             <option>Reconstructive surgery</option>
-            <option>Lymphedema surgery</option>
+            <option>Lymphedema / LVA surgery</option>
             <option>Referral / professional enquiry</option>
           </select>
         </label>
@@ -85,7 +104,7 @@ export default function ContactForm() {
         {status === 'sending' ? 'Sending…' : 'Submit enquiry'}
       </button>
       {message ? <p role="status" className={`form-status ${status}`}>{message}</p> : null}
-      <p className="form-note">For non-urgent private consultation enquiries, you may also <a href="https://wa.me/6587649219" target="_blank" rel="noreferrer">message Astrid on WhatsApp</a> or <a href="https://www.astridplasticsurgery.com/contact-us/" target="_blank" rel="noreferrer">use Astrid Plastic Surgery’s contact form</a>.</p>
+      <p className="form-note">For non-urgent private consultation enquiries, you may also <a href="https://wa.me/6587649219" target="_blank" rel="noreferrer" onClick={() => trackEnquiryEvent('whatsapp_click', { method: 'astrid_whatsapp' })}>message Astrid on WhatsApp</a> or <a href="https://www.astridplasticsurgery.com/contact-us/" target="_blank" rel="noreferrer" onClick={() => trackEnquiryEvent('external_contact_click', { method: 'astrid_contact_form' })}>use Astrid Plastic Surgery’s contact form</a>.</p>
       <p className="form-note">This form is for non-urgent enquiries only. It does not establish a doctor-patient relationship until a consultation has taken place.</p>
     </form>
   );

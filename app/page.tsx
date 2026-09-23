@@ -64,6 +64,7 @@ export default function Home() {
             <p className="lead">Rooted in science. Refined by art. Aesthetic surgery, reconstructive microsurgery and lymphatic surgery in Singapore by Dr Jeremy Sun.</p>
             <div className="hero-actions">
               <a href="#aesthetic-surgery" className="btn btn-primary">Explore procedures</a>
+              <a href="/lymphovenous-bypass-lva-surgery-singapore" className="btn btn-ghost">LVA / lymphovenous bypass</a>
               <a href="/plastic-surgeon-singapore" className="btn btn-ghost">Choosing a plastic surgeon</a>
               <a href="#about" className="btn btn-ghost">About Dr Sun</a>
             </div>
@@ -126,7 +127,7 @@ export default function Home() {
         <div className="container">
           <div className="eyebrow signature-eyebrow"><span className="signature-script">Signature</span><span className="signature-kicker">Treatments</span></div>
           <h2>Reconstructive surgery</h2>
-          <p className="section-intro">Focused reconstructive, lymphatic and scar surgery areas within Dr Sun’s practice.</p>
+          <p className="section-intro">Focused reconstructive, lymphatic and scar surgery areas within Dr Sun’s practice, including <a href="/lymphovenous-bypass-lva-surgery-singapore">LVA / LVB lymphovenous bypass assessment</a> for selected lymphedema patients.</p>
           <div className="grid-3 focus-grid reconstructive-photo-grid signature-photo-grid">{reconstructiveSignatureTreatments.map((x) => {
             const content = <><Image src={x.image} alt={x.alt} width={720} height={720} sizes="(max-width: 900px) calc(50vw - 27px), (max-width: 1180px) calc(33.333vw - 26px), 368px" /><div className="aesthetic-photo-overlay reconstructive-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
             return x.href ? <a className="card linked-card focus-card aesthetic-photo-card reconstructive-photo-card" href={x.href} key={x.title}>{content}</a> : <div className="card focus-card aesthetic-photo-card reconstructive-photo-card" key={x.title}>{content}</div>;

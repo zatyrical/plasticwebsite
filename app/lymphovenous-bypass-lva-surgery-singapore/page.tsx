@@ -5,14 +5,14 @@ import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 export const metadata: Metadata = {
-  title: 'LVA Surgery Singapore | Lymphovenous Bypass for Lymphedema',
+  title: 'LVA / LVB Surgery Singapore | Lymphovenous Bypass Assessment',
   description:
-    'LVA / lymphovenous bypass surgery in Singapore for selected lymphedema patients, including ICG and ultrasound assessment, recurrent cellulitis, recovery and compression.',
+    'Singapore LVA / LVB lymphovenous bypass assessment by Dr Jeremy Sun, including ICG and ultrasound mapping, cellulitis history, recovery and compression planning.',
   alternates: {
     canonical: '/lymphovenous-bypass-lva-surgery-singapore'
   },
   openGraph: {
-    title: 'LVA Surgery Singapore | Lymphovenous Bypass for Lymphedema | Dr Jeremy Sun',
+    title: 'LVA / LVB Surgery Singapore | Lymphovenous Bypass Assessment | Dr Jeremy Sun',
     description:
       'Learn when LVA / lymphovenous bypass may help selected lymphedema patients, including recurrent cellulitis despite conservative therapy, imaging, recovery and compression.',
     url: '/lymphovenous-bypass-lva-surgery-singapore',
@@ -137,9 +137,12 @@ export default function LvaSurgeryPage() {
           <div className="container article-hero-grid">
             <div>
               <div className="eyebrow">LVB / LVA lymphovenous bypass</div>
-              <h1>LVA Surgery Singapore: Lymphovenous Bypass for Lymphedema</h1>
+              <h1>LVA / LVB Surgery Singapore: Lymphovenous Bypass Assessment</h1>
               <p className="lead">
                 Specialist information on supermicrosurgical LVA / LVB, who may be suitable, ICG and ultrasound localisation, recovery, compression, and recurrent cellulitis despite conservative therapy.
+              </p>
+              <p className="notice-text">
+                Patients may hear several terms for this operation — LVA surgery, LVB surgery, lymphaticovenular anastomosis or lymphovenous bypass. This page explains the same bypass family of procedures and when a Singapore assessment may be appropriate.
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about LVA assessment</a>
