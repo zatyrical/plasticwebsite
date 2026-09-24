@@ -5,6 +5,41 @@ export const runtime = 'nodejs';
 const MAX_MESSAGE_LENGTH = 2000;
 const MAX_FIELD_LENGTH = 200;
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const ALLOWED_ORIGINS = new Set([
+  'https://www.drjeremysun.com',
+  'https://drjeremysun.com',
+  'https://lymphedasia.com',
+  'https://www.lymphedasia.com'
+]);
+
+function corsHeaders(request: NextRequest) {
+  const origin = request.headers.get('origin') || '';
+  const allowOrigin = ALLOWED_ORIGINS.has(origin) ? origin : 'https://www.drjeremysun.com';
+
+  return {
+    'Access-Control-Allow-Origin': allowOrigin,
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type',
+    Vary: 'Origin'
+  };
+}
+
+function jsonResponse(request: NextRequest, body: Record<string, unknown>, init: ResponseInit = {}) {
+  return NextResponse.json(body, {
+    ...init,
+    headers: {
+      ...corsHeaders(request),
+      ...(init.headers || {})
+    }
+  });
+}
+
+export async function OPTIONS(request: NextRequest) {
+  return new NextResponse(null, {
+    status: 204,
+    headers: corsHeaders(request)
+  });
+}
 
 function clean(value: unknown, maxLength = MAX_FIELD_LENGTH) {
   return String(value || '').trim().slice(0, maxLength);
@@ -25,12 +60,12 @@ export async function POST(request: NextRequest) {
   try {
     payload = await request.json();
   } catch {
-    return NextResponse.json({ error: 'Invalid enquiry format.' }, { status: 400 });
+    return jsonResponse(request, { error: 'Invalid enquiry format.' }, { status: 400 });
   }
 
   const honeypot = clean(payload.website);
   if (honeypot) {
-    return NextResponse.json({ ok: true });
+    return jsonResponse(request, { ok: true });
   }
 
   const name = clean(payload.name, 120);
@@ -41,11 +76,11 @@ export async function POST(request: NextRequest) {
   const pageUrl = clean(payload.pageUrl, 300);
 
   if (!name || !email || !message) {
-    return NextResponse.json({ error: 'Please provide your name, email and enquiry message.' }, { status: 400 });
+    return jsonResponse(request, { error: 'Please provide your name, email and enquiry message.' }, { status: 400 });
   }
 
   if (!EMAIL_REGEX.test(email)) {
-    return NextResponse.json({ error: 'Please provide a valid email address.' }, { status: 400 });
+    return jsonResponse(request, { error: 'Please provide a valid email address.' }, { status: 400 });
   }
 
   const apiKey = process.env.RESEND_API_KEY;
@@ -56,7 +91,7 @@ export async function POST(request: NextRequest) {
   const fromEmail = process.env.CONTACT_FROM_EMAIL || 'Dr Jeremy Sun Website <onboarding@resend.dev>';
 
   if (!apiKey || !toEmails.length) {
-    return NextResponse.json({ error: 'The enquiry form is not configured yet. Please try again later.' }, { status: 503 });
+    return jsonResponse(request, { error: 'The enquiry form is not configured yet. Please try again later.' }, { status: 503 });
   }
 
   const submittedAt = new Date().toLocaleString('en-SG', { timeZone: 'Asia/Singapore' });
@@ -94,13 +129,13 @@ export async function POST(request: NextRequest) {
     });
   } catch (error) {
     console.error('Resend email request failed', error);
-    return NextResponse.json({ error: 'The enquiry could not be sent. Please try again later.' }, { status: 502 });
+    return jsonResponse(request, { error: 'The enquiry could not be sent. Please try again later.' }, { status: 502 });
   }
 
   if (!resendResponse.ok) {
     console.error('Resend email failed', await resendResponse.text());
-    return NextResponse.json({ error: 'The enquiry could not be sent. Please try again later.' }, { status: 502 });
+    return jsonResponse(request, { error: 'The enquiry could not be sent. Please try again later.' }, { status: 502 });
   }
 
-  return NextResponse.json({ ok: true });
+  return jsonResponse(request, { ok: true });
 }
