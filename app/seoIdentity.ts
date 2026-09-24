@@ -7,7 +7,8 @@ export const lastReviewedIso = '2026-09-06';
 export const physicianSameAs = [
   'https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy',
   'https://www.cgh.com.sg/profile/Sun-Mingfa-Jeremy',
-  'https://www.linkedin.com/in/jeremy-sun-9131aa61/',
+  'https://www.linkedin.com/in/dr-jeremy-sun',
+  'https://www.instagram.com/jermsun?stkn=enQ3Z3NrenZqNHJi',
   'https://lymphedasia.com/dr-jeremy-sun-mingfa/',
   'https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/',
 ];

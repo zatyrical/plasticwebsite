@@ -212,8 +212,6 @@ export default function Home() {
           <div className="compliance"><h3>Medical information notice</h3><p>This website provides general information and does not replace consultation with a qualified medical practitioner. Procedure suitability, risks, recovery and outcomes vary between individuals and should be assessed through a formal clinical consultation.</p></div>
         </div>
       </section>
-
-      <footer className="footer"><div className="container"><strong>Dr Jeremy Sun</strong><p>Plastic, Reconstructive & Aesthetic Surgery • Singapore</p></div></footer>
     </main>
   );
 }

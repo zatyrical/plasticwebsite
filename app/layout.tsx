@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import Script from 'next/script';
 import { Space_Grotesk } from 'next/font/google';
+import Footer from './Footer';
 import MotionObserver from './MotionObserver';
 import GaTracker from './GaTracker';
+import { physicianSameAs } from './seoIdentity';
 import './globals.css';
 
 const headingFont = Space_Grotesk({
@@ -75,6 +77,7 @@ const globalStructuredData = {
       alternateName: ['Dr Jeremy Sun', 'Sun Mingfa Jeremy'],
       url: 'https://www.drjeremysun.com/',
       image: 'https://www.drjeremysun.com/images/dr-jeremy-sun-hero.jpg',
+      sameAs: physicianSameAs,
       medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery'],
       knowsAbout: [
         'plastic surgery in Singapore',
@@ -97,6 +100,7 @@ const globalStructuredData = {
       name: 'Dr Jeremy Sun Plastic Surgery',
       url: 'https://www.drjeremysun.com/',
       image: 'https://www.drjeremysun.com/images/dr-jeremy-sun-hero.jpg',
+      sameAs: physicianSameAs,
       medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery'],
       areaServed: {
         '@type': 'Country',
@@ -135,6 +139,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <MotionObserver />
         {children}
+        <Footer />
         <GaTracker />
       </body>
     </html>
