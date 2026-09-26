@@ -46,7 +46,22 @@ const jsonLd = {
       reviewedBy: { '@id': 'https://www.drjeremysun.com/#physician' },
       author: { '@id': 'https://www.drjeremysun.com/#physician' }
     },
-    physicianJsonLd
+    physicianJsonLd,
+    {
+      '@type': 'MedicalBusiness',
+      '@id': 'https://www.drjeremysun.com/#medicalbusiness',
+      name: 'Dr Jeremy Sun Plastic Surgery',
+      url: 'https://www.drjeremysun.com/',
+      telephone: '+65 6530 3573',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '290 Orchard Road, #09-01/02, Paragon Medical',
+        addressLocality: 'Singapore',
+        postalCode: '238859',
+        addressCountry: 'SG'
+      },
+      hasMap: 'https://www.google.com/maps/place/Dr+Jeremy+Sun/data=!4m2!3m1!1s0x0:0xcba381971e77822e'
+    }
   ]
 };
 
@@ -206,10 +221,29 @@ export default function Home() {
           <div>
             <div className="eyebrow">Appointments & referrals</div>
             <h2>Contact</h2>
-            <p className="section-intro">For appointments, clinic enquiries and referral information, please submit the form below. The clinic email address is not displayed publicly to reduce automated spam.</p>
+            <p className="section-intro">Request an appointment with Dr Jeremy Sun at Astrid Plastic Surgery, Paragon Medical. Please use the form below or contact the clinic to confirm his availability.</p>
             <ContactForm />
           </div>
-          <div className="compliance"><h3>Medical information notice</h3><p>This website provides general information and does not replace consultation with a qualified medical practitioner. Procedure suitability, risks, recovery and outcomes vary between individuals and should be assessed through a formal clinical consultation.</p></div>
+          <div>
+            <div className="card">
+              <h3>Consultations at Paragon Medical</h3>
+              <p><strong>Dr Jeremy Sun</strong><br />Astrid Plastic Surgery</p>
+              <address style={{ fontStyle: 'normal', lineHeight: 1.7 }}>
+                290 Orchard Road, #09-01/02<br />
+                Paragon Medical<br />
+                Singapore 238859
+              </address>
+              <p><strong>Clinic telephone</strong><br /><a href="tel:+6565303573">+65 6530 3573</a></p>
+              <p><strong>Clinic hours</strong><br />Monday–Friday: 9am–5pm<br />Saturday: 9am–12:30pm<br />Sunday: Closed</p>
+              <p>Consultations are by appointment. Please confirm Dr Sun’s availability and public holiday hours with the clinic before visiting.</p>
+              <div className="hero-actions">
+                <a className="btn btn-primary" href="tel:+6565303573">Call the clinic</a>
+                <a className="btn btn-ghost" href="https://wa.me/6587649219" target="_blank" rel="noreferrer">WhatsApp Astrid</a>
+                <a className="btn btn-ghost" href="https://www.google.com/maps/place/Dr+Jeremy+Sun/data=!4m2!3m1!1s0x0:0xcba381971e77822e" target="_blank" rel="noreferrer">View on Google Maps</a>
+              </div>
+            </div>
+            <div className="compliance" style={{ marginTop: '24px' }}><h3>Medical information notice</h3><p>This website provides general information and does not replace consultation with a qualified medical practitioner. Procedure suitability, risks, recovery and outcomes vary between individuals and should be assessed through a formal clinical consultation.</p></div>
+          </div>
         </div>
       </section>
     </main>
