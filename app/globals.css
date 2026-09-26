@@ -674,3 +674,39 @@
   .signature-script{font-size:clamp(46px,16vw,72px);line-height:.74;letter-spacing:-.095em}
   .signature-kicker{margin-top:13px;margin-left:4px;font-size:clamp(10px,3.2vw,13px);letter-spacing:.24em;padding:0}
 }
+
+/* Mobile/tablet article rescue: stack the hero earlier and remove the desktop blank column. */
+@media(max-width:1100px){
+  .article-page{overflow-x:hidden}
+  .article-hero{padding:42px 0 30px;overflow:hidden}
+  .article-hero-grid{grid-template-columns:minmax(0,1fr)!important;gap:22px;max-width:760px}
+  .article-hero h1{font-size:clamp(34px,8.8vw,54px);line-height:.98;margin:10px 0 14px;letter-spacing:-.072em;max-width:100%}
+  .article-hero .lead{font-size:clamp(15px,3.8vw,18px);line-height:1.55;max-width:64ch}
+  .article-hero .hero-actions{gap:10px;margin-top:18px}
+  .article-hero .btn{padding:10px 14px;font-size:13px;white-space:normal;text-align:center;line-height:1.15}
+  .article-summary-card{width:100%;max-width:100%;padding:18px;border-radius:22px;box-shadow:0 14px 38px rgba(16,32,29,.08)}
+  .article-hero-image-card{max-width:420px;margin:0 auto 18px;border-radius:18px}
+  .article-hero-image-card img{aspect-ratio:4/3;max-height:340px;object-fit:cover}
+  .article-summary-card h2{font-size:18px;margin-bottom:10px}
+  .article-summary-card ul{gap:8px}
+  .article-summary-card li{font-size:14px;line-height:1.25}
+  .article-content{padding-top:34px}
+  .article-narrow{max-width:760px}
+}
+
+@media(max-width:600px){
+  .article-page .container{width:100%;max-width:100%;padding-left:22px;padding-right:22px}
+  .article-hero{padding:30px 0 24px}
+  .article-hero h1{font-size:clamp(32px,10vw,40px);line-height:1;letter-spacing:-.07em;text-wrap:balance}
+  .article-hero .lead{font-size:15px;line-height:1.5}
+  .article-hero .hero-actions{display:grid;grid-template-columns:1fr;align-items:stretch}
+  .article-hero .btn{width:100%;min-width:0}
+  .article-summary-card{padding:16px;border-radius:20px}
+  .article-hero-image-card{max-width:100%;border-radius:18px}
+  .article-hero-image-card img{max-height:320px;object-position:center 38%}
+  .article-content{padding-top:28px}
+  .article-content h2{font-size:clamp(26px,8vw,34px);line-height:1.05;margin:38px 0 14px}
+  .article-content h3{font-size:21px;line-height:1.15;margin:28px 0 10px}
+  .article-content p,.article-content li{font-size:15.5px;line-height:1.7}
+  .notice-text,.reviewer-card{border-radius:16px}
+}
