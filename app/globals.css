@@ -675,8 +675,10 @@
   .signature-kicker{margin-top:13px;margin-left:4px;font-size:clamp(10px,3.2vw,13px);letter-spacing:.24em;padding:0}
 }
 
-/* Mobile/tablet article rescue: stack the hero earlier and remove the desktop blank column. */
-@media(max-width:1100px){
+/* Mobile/tablet article/post rescue: stack every article/blog hero early and remove the desktop blank column. */
+.article-hero-grid > *, .article-summary-card{min-width:0}
+.article-summary-card{align-self:start}
+@media(max-width:1180px){
   .article-page{overflow-x:hidden}
   .article-hero{padding:42px 0 30px;overflow:hidden}
   .article-hero-grid{grid-template-columns:minmax(0,1fr)!important;gap:22px;max-width:760px}
