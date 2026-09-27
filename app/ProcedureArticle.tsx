@@ -279,6 +279,22 @@ export default function ProcedureArticlePage({ article }: Props) {
               </div>
             </section>
 
+            <section className="procedure-journey" aria-label="Consultation to recovery pathway">
+              <div className="procedure-journey-copy">
+                <div className="procedure-map-kicker">Consultation pathway</div>
+                <h2>From first assessment to recovery planning</h2>
+                <p>
+                  A mature procedure page should help patients understand the sequence, not only the name of the operation. The usual pathway is assessment, diagnosis of the main concern, discussion of alternatives, a personalised surgical or non-surgical plan, then recovery follow-up and scar or long-term monitoring where relevant.
+                </p>
+              </div>
+              <ol className="procedure-journey-steps">
+                <li><strong>1. Assess the concern</strong><span>Clarify anatomy, goals, medical history, previous treatment and whether this is the correct procedure category.</span></li>
+                <li><strong>2. Compare options</strong><span>Discuss non-surgical care, alternative procedures, staging, no treatment, and the trade-offs of each approach.</span></li>
+                <li><strong>3. Plan safely</strong><span>Review anaesthesia, scars or access points, recovery demands, risks, limitations and when additional investigations may be useful.</span></li>
+                <li><strong>4. Recover with review</strong><span>Set expectations for swelling, activity restriction, follow-up, warning symptoms and longer-term outcome changes.</span></li>
+              </ol>
+            </section>
+
             {article.slug.includes('lymphedema') || article.slug.includes('lymphovenous') ? (
               <div className="reviewer-card" aria-label="Related LymphedAsia education links">
                 <strong>Related lymphedema education hub</strong>

@@ -727,3 +727,16 @@
 .procedure-map-card strong{display:block;margin:10px 0 14px;font-size:20px;line-height:1.08;letter-spacing:-.04em;color:var(--ink)}
 .procedure-map-card span{font-size:13px;font-weight:720;color:var(--emerald-2)}
 @media(max-width:900px){.article-trust-strip{gap:7px;margin-top:16px}.article-trust-strip span{font-size:10px;padding:7px 9px}.procedure-decision-map{margin:26px 0 10px;padding:20px;border-radius:22px}.procedure-map-grid{grid-template-columns:1fr;gap:10px}.procedure-map-card{min-height:118px;border-radius:18px}.procedure-map-card strong{font-size:18px}}
+
+/* Nassif-inspired consultation-to-recovery journey block for mature specialist procedure pages. */
+.procedure-journey{display:grid;grid-template-columns:minmax(0,.9fr) minmax(280px,1.1fr);gap:22px;margin:24px 0 24px;padding:28px;border-radius:30px;background:linear-gradient(135deg,#10201d,#173d36);color:white;box-shadow:0 26px 76px rgba(16,32,29,.16);overflow:hidden;position:relative}
+.procedure-journey:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 8% 10%,rgba(184,154,94,.28),transparent 30%),repeating-linear-gradient(90deg,rgba(255,255,255,.045) 0 1px,transparent 1px 70px);pointer-events:none;opacity:.8}
+.procedure-journey-copy,.procedure-journey-steps{position:relative;z-index:1}
+.article-content .procedure-journey h2{margin:0 0 12px;color:white;font-size:clamp(28px,3.5vw,40px);line-height:.98}
+.procedure-journey p{color:rgba(255,255,255,.78);margin:0}
+.procedure-journey .procedure-map-kicker{display:inline-flex;margin-bottom:12px;color:#ead7a8;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.procedure-journey-steps{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:none}
+.procedure-journey-steps li{display:grid;gap:6px;margin:0;padding:16px;border-radius:20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);color:white;line-height:1.45}
+.procedure-journey-steps strong{font-size:15px;color:#fff}
+.procedure-journey-steps span{font-size:14px;color:rgba(255,255,255,.72)}
+@media(max-width:900px){.procedure-journey{grid-template-columns:1fr;padding:20px;border-radius:22px;gap:16px}.procedure-journey-steps li{border-radius:16px;padding:14px}.procedure-journey-steps strong{font-size:14px}.procedure-journey-steps span{font-size:13px}}
