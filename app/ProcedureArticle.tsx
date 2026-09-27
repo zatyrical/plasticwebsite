@@ -101,6 +101,14 @@ export default function ProcedureArticlePage({ article }: Props) {
     })
     .slice(0, 4);
 
+  const findSection = (ids: string[]) => article.sections.find((section) => ids.some((id) => section.id.includes(id)));
+  const decisionHighlights = [
+    { label: 'What it treats', section: article.sections[0] },
+    { label: 'Suitability', section: findSection(['suitability', 'candidate', 'who']) },
+    { label: 'Planning', section: findSection(['consultation', 'planning']) },
+    { label: 'Recovery & safety', section: findSection(['recovery', 'risks']) }
+  ].filter((item): item is { label: string; section: NonNullable<typeof item.section> } => Boolean(item.section));
+
   const faqJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
@@ -218,6 +226,11 @@ export default function ProcedureArticlePage({ article }: Props) {
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
                 <Link href={article.backHref} className="btn btn-ghost">{article.backLabel}</Link>
               </div>
+              <div className="article-trust-strip" aria-label="What this page is designed to answer">
+                <span>Specialist plastic surgery assessment</span>
+                <span>Suitability, process, recovery and risks</span>
+                <span>Singapore patient consultation pathway</span>
+              </div>
             </div>
             <aside className="article-summary-card">
               {article.heroImage ? (
@@ -248,6 +261,23 @@ export default function ProcedureArticlePage({ article }: Props) {
               <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
             </div>
+
+            <section className="procedure-decision-map" aria-label="Procedure decision pathway">
+              <div className="procedure-map-kicker">Procedure guide</div>
+              <h2>Key decisions before considering {article.eyebrow.toLowerCase()}</h2>
+              <p>
+                This page is structured like a consultation pathway: what the concern is, who may be suitable, how assessment is planned, what recovery involves, and what risks or limits should be understood before any personalised recommendation.
+              </p>
+              <div className="procedure-map-grid">
+                {decisionHighlights.map((item) => (
+                  <a href={`#${item.section.id}`} className="procedure-map-card" key={`${item.label}-${item.section.id}`}>
+                    <small>{item.label}</small>
+                    <strong>{item.section.heading}</strong>
+                    <span>Read section</span>
+                  </a>
+                ))}
+              </div>
+            </section>
 
             {article.slug.includes('lymphedema') || article.slug.includes('lymphovenous') ? (
               <div className="reviewer-card" aria-label="Related LymphedAsia education links">
