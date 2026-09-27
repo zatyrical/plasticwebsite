@@ -262,6 +262,25 @@ export default function ProcedureArticlePage({ article }: Props) {
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
             </div>
 
+            <section className="procedure-cluster-nav" aria-label="Related consultation pathways">
+              <div>
+                <div className="procedure-map-kicker">Procedure pathway</div>
+                <h2>Compare this option with related procedures</h2>
+                <p>
+                  Like an in-person consultation, this guide is designed to help patients compare nearby options before deciding whether to enquire. Start with the closest concern, then use the related pages to understand alternatives, recovery and safety trade-offs.
+                </p>
+              </div>
+              <div className="procedure-cluster-links">
+                {relatedArticles.slice(0, 3).map((item) => (
+                  <Link href={item.href} key={`top-${item.href}`}>
+                    <small>{item.category}</small>
+                    <strong>{item.title}</strong>
+                    <span>Compare guide</span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+
             <section className="procedure-decision-map" aria-label="Procedure decision pathway">
               <div className="procedure-map-kicker">Procedure guide</div>
               <h2>Key decisions before considering {article.eyebrow.toLowerCase()}</h2>
