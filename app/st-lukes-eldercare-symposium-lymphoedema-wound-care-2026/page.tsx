@@ -7,7 +7,7 @@ const pageUrl = `${baseUrl}/st-lukes-eldercare-symposium-lymphoedema-wound-care-
 const officialEventUrl = 'https://commcaresymposium.slec.org.sg/wound-care/';
 
 export const metadata: Metadata = {
-  title: 'St Luke’s ElderCare Symposium 2026 | Lymphoedema & Wound Care',
+  title: 'St Luke’s Symposium 2026 | Lymphoedema Care',
   description:
     'Dr Jeremy Sun speaks at the St Luke’s ElderCare CommCare Symposium 2026 on recognition and management of lymphoedema and its impact on chronic wounds.',
   alternates: {

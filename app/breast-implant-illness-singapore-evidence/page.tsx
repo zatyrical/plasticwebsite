@@ -11,7 +11,7 @@ const description = 'A balanced Singapore patient guide to breast implant illnes
 const articleUrl = `${baseUrl}/${slug}`;
 
 export const metadata: Metadata = {
-  title,
+  title: 'Breast Implant Illness Singapore: Evidence',
   description,
   keywords: [
     'breast implant illness Singapore',

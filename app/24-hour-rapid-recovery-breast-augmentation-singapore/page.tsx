@@ -11,7 +11,7 @@ const description = 'Patient guide to 24-hour rapid recovery breast augmentation
 const articleUrl = `${baseUrl}/${slug}`;
 
 export const metadata: Metadata = {
-  title,
+  title: 'Rapid Recovery Breast Augmentation Singapore',
   description,
   keywords: [
     '24 hour rapid recovery breast augmentation Singapore',

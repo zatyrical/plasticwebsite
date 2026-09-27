@@ -13,7 +13,7 @@ const reviewedDate = '2026-09-15';
 const foamImage = '/images/body-contouring/post-liposuction-compression-garment-foam-recovery-pad.jpg';
 
 export const metadata: Metadata = {
-  title,
+  title: 'Compression & Massage After Liposuction',
   description,
   keywords: [
     'compression garment after liposuction',

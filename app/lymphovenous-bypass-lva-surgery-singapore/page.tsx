@@ -5,7 +5,7 @@ import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 export const metadata: Metadata = {
-  title: 'LVA / LVB Surgery Singapore | Lymphovenous Bypass Assessment',
+  title: 'LVA Surgery Singapore | Lymphovenous Bypass',
   description:
     'Singapore LVA / LVB lymphovenous bypass assessment by Dr Jeremy Sun, including ICG and ultrasound mapping, cellulitis history, recovery and compression planning.',
   alternates: {
