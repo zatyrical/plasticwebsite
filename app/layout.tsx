@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Script from 'next/script';
 import { Space_Grotesk } from 'next/font/google';
 import Footer from './Footer';
 import MotionObserver from './MotionObserver';
@@ -124,15 +123,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={headingFont.variable}>
       <body>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-448HBLCGJ8" strategy="afterInteractive" />
-        <Script id="ga4-drjeremysun" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-448HBLCGJ8');
-          `}
-        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(globalStructuredData) }}
