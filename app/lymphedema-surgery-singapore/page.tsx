@@ -7,20 +7,23 @@ import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoId
 const pageUrl = `${baseUrl}/lymphedema-surgery-singapore`;
 
 export const metadata: Metadata = {
-  title: 'Lymphedema Surgeon Singapore',
+  title: 'Lymphedema Treatment Singapore | Dr Jeremy Sun',
   description:
-    'Meet Dr Jeremy Sun and learn what a lymphedema assessment in Singapore may cover, including imaging, LVA suitability, surgery options, risks and long-term care.',
+    'Lymphedema treatment in Singapore with Dr Jeremy Sun: assessment, compression/CDT review, ICG or ultrasound imaging, LVA suitability, surgery options and long-term care.',
   alternates: {
     canonical: '/lymphedema-surgery-singapore'
   },
   openGraph: {
-    title: 'Lymphedema Surgeon Singapore | Dr Jeremy Sun',
+    title: 'Lymphedema Treatment Singapore | Dr Jeremy Sun',
     description:
-      'Meet Dr Jeremy Sun and learn what a lymphedema assessment in Singapore may cover, including imaging, LVA suitability, surgery options, risks and long-term care.',
+      'Lymphedema treatment in Singapore with Dr Jeremy Sun: assessment, compression/CDT review, ICG or ultrasound imaging, LVA suitability, surgery options and long-term care.',
     url: '/lymphedema-surgery-singapore',
     type: 'article'
   },
   keywords: [
+    'lymphedema treatment Singapore',
+    'lymphoedema treatment Singapore',
+    'lymphedema specialist Singapore',
     'lymphedema surgery Singapore',
     'lymphatic surgery Singapore',
     'lymphovenous bypass Singapore',
@@ -37,7 +40,7 @@ const medicalPageJsonLd = {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
-        { '@type': 'ListItem', position: 2, name: 'Lymphedema Surgery in Singapore', item: pageUrl }
+        { '@type': 'ListItem', position: 2, name: 'Lymphedema Treatment in Singapore', item: pageUrl }
       ]
     },
     physicianJsonLd,
@@ -45,8 +48,8 @@ const medicalPageJsonLd = {
       '@type': 'MedicalWebPage',
       '@id': `${pageUrl}#webpage`,
       url: pageUrl,
-      name: 'Lymphedema Surgery in Singapore',
-      headline: 'Lymphedema Surgery in Singapore',
+      name: 'Lymphedema Treatment in Singapore',
+      headline: 'Lymphedema Treatment in Singapore',
       description: metadata.description,
       inLanguage: 'en-SG',
       isPartOf: {
@@ -55,6 +58,9 @@ const medicalPageJsonLd = {
         url: baseUrl
       },
       about: [
+        'lymphedema treatment Singapore',
+        'lymphoedema treatment Singapore',
+        'lymphedema specialist Singapore',
         'lymphedema surgery Singapore',
         'lymphatic surgery Singapore',
         'LVA surgery Singapore',
@@ -120,9 +126,9 @@ export default function LymphedemaSurgeryPage() {
           <div className="container article-hero-grid">
             <div>
               <div className="eyebrow">Lymphatic surgery</div>
-              <h1>Lymphedema Assessment and Surgery in Singapore</h1>
+              <h1>Lymphedema Treatment in Singapore</h1>
               <p className="lead">
-                Lymphedema assessment and surgical options with Dr Jeremy Sun in Singapore.
+                Assessment, conservative-care review and surgical options for lymphedema and lymphoedema with Dr Jeremy Sun in Singapore.
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
@@ -132,6 +138,7 @@ export default function LymphedemaSurgeryPage() {
             <aside className="article-summary-card">
               <h2>On this page</h2>
               <ul>
+                <li><a href="#treatment-pathway">Treatment pathway</a></li>
                 <li><a href="#what-is-lymphedema">What is lymphedema?</a></li>
                 <li><a href="#when-surgery">When surgery may be considered</a></li>
                 <li><a href="#types">Types of surgery</a></li>
@@ -152,6 +159,13 @@ export default function LymphedemaSurgeryPage() {
             </p>
             <p>
               Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo, focused specifically on lymphatic surgery and complex lymphedema care — distinct from broader microsurgical fellowships where lymphedema may be only one component of training.
+            </p>
+            <h2 id="treatment-pathway">Lymphedema treatment pathway in Singapore</h2>
+            <p>
+              Patients searching for lymphedema treatment in Singapore usually need more than a single procedure decision. A careful pathway starts with diagnosis, cause, stage and symptom burden; review of compression, skin care, exercise and complete decongestive therapy where appropriate; then imaging and surgical planning only when the clinical picture suggests it may help.
+            </p>
+            <p>
+              For patients seeking a lymphedema specialist in Singapore, Dr Sun’s consultation focuses on whether swelling is fluid-dominant or solid-tissue-dominant, whether cellulitis has become recurrent, whether existing conservative treatment can be optimised, and whether procedures such as lymphovenous bypass / LVA, lymph node transfer or reductive surgery are worth discussing.
             </p>
             <p className="notice-text">
               This page provides general information on lymphedema surgery and should not replace a consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.

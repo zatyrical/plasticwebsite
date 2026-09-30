@@ -42,7 +42,7 @@ This website is for general educational information. Suitability, risks, recover
 - Face and Neck Lift in Singapore: ${baseUrl}/face-neck-lift-singapore
 - Breast Reconstruction in Singapore: ${baseUrl}/breast-reconstruction-singapore
 - FTM Top Surgery in Singapore — chest masculinisation, double-incision double-ellipse technique, nipple grafts, pectoralis-border scar planning, dog-ear control, nerve blocks and day-surgery recovery: ${baseUrl}/ftm-top-surgery-singapore
-- Lymphedema Surgery in Singapore: ${baseUrl}/lymphedema-surgery-singapore
+- Lymphedema Treatment in Singapore — assessment, CDT/compression review, ICG/ultrasound imaging, LVA/LVB suitability and surgical options: ${baseUrl}/lymphedema-surgery-singapore
 - LVB / LVA Lymphovenous Bypass Surgery in Singapore: ${baseUrl}/lymphovenous-bypass-lva-surgery-singapore
 - How to Choose a Lymphedema Surgeon in Singapore: ${baseUrl}/how-to-choose-lymphedema-surgeon-singapore
 - Why Dr Jeremy Sun Trained in Lymphedema Surgery in Japan: ${baseUrl}/journey-to-lymphedema-surgery-japan
