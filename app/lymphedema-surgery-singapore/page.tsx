@@ -7,7 +7,7 @@ import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoId
 const pageUrl = `${baseUrl}/lymphedema-surgery-singapore`;
 
 export const metadata: Metadata = {
-  title: 'Lymphedema Treatment Singapore | Dr Jeremy Sun',
+  title: 'Lymphedema Treatment Singapore',
   description:
     'Lymphedema treatment in Singapore with Dr Jeremy Sun: assessment, compression/CDT review, ICG or ultrasound imaging, LVA suitability, surgery options and long-term care.',
   alternates: {
