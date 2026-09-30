@@ -5,9 +5,9 @@ import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 export const metadata: Metadata = {
-  title: 'LVA Surgery Singapore | Lymphovenous Bypass',
+  title: 'LVA / LVB Surgery Singapore | Lymphovenous Bypass',
   description:
-    'Singapore LVA / LVB lymphovenous bypass assessment by Dr Jeremy Sun, including ICG and ultrasound mapping, cellulitis history, recovery and compression planning.',
+    'LVA / LVB surgery Singapore assessment with Dr Jeremy Sun: lymphovenous bypass suitability, ICG and ultrasound mapping, cellulitis history, recovery and compression planning.',
   alternates: {
     canonical: '/lymphovenous-bypass-lva-surgery-singapore'
   },
@@ -23,6 +23,7 @@ export const metadata: Metadata = {
     'LVB surgery Singapore',
     'lymphovenous bypass Singapore',
     'lymphaticovenular anastomosis Singapore',
+    'LVA laser treatment Singapore',
     'lymphedema surgery Singapore',
     'lymphatic surgery Singapore'
   ]
@@ -100,6 +101,14 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
+      name: 'Is LVA a laser treatment?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'No. Some patients search for “LVA laser treatment”, but LVA is not a laser procedure. It is supermicrosurgical lymphovenous bypass, where tiny lymphatic channels are connected to nearby venules under high magnification. Imaging such as ICG lymphography and ultrasound may be used to plan suitable bypass sites.'
+      }
+    },
+    {
+      '@type': 'Question',
       name: 'Can LVA reduce cellulitis?',
       acceptedAnswer: {
         '@type': 'Answer',
@@ -139,10 +148,10 @@ export default function LvaSurgeryPage() {
               <div className="eyebrow">LVB / LVA lymphovenous bypass</div>
               <h1>LVA / LVB Surgery Singapore: Lymphovenous Bypass Assessment</h1>
               <p className="lead">
-                Specialist information on supermicrosurgical LVA / LVB, who may be suitable, ICG and ultrasound localisation, recovery, compression, and recurrent cellulitis despite conservative therapy.
+                LVA / LVB surgery is supermicrosurgical lymphovenous bypass for selected lymphedema patients. Dr Jeremy Sun assesses suitability using clinical examination, ICG and ultrasound localisation, cellulitis history, recovery needs and compression planning.
               </p>
               <p className="notice-text">
-                Patients may hear several terms for this operation — LVA surgery, LVB surgery, lymphaticovenular anastomosis or lymphovenous bypass. This page explains the same bypass family of procedures and when a Singapore assessment may be appropriate.
+                Patients may hear several terms for this operation — LVA surgery, LVB surgery, lymphaticovenular anastomosis, lymphovenous bypass or even “LVA laser treatment”. LVA is not laser treatment; it is a bypass operation on tiny lymphatic channels and venules.
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about LVA assessment</a>
@@ -360,6 +369,8 @@ export default function LvaSurgeryPage() {
             <p>Yes. LVA and LVB are often used for closely related lymphatic bypass procedures. LVA usually means lymphaticovenous or lymphaticovenular anastomosis, while LVB means lymphovenous bypass. LVB is common in American medical and insurance contexts; local coverage and suitability still depend on the patient’s diagnosis, insurer and specialist assessment.</p>
             <h3>Is LVA only useful for early lymphedema?</h3>
             <p>No. LVA is often associated with early-stage lymphedema, but some advanced-stage patients may still be suitable if their disease is more fluid-dominant and imaging shows usable lymphatic channels.</p>
+            <h3>Is LVA a laser treatment?</h3>
+            <p>No. Some patients search for “LVA laser treatment”, but LVA is not a laser procedure. It is supermicrosurgical lymphovenous bypass, where tiny lymphatic channels are connected to nearby venules under high magnification. Imaging such as ICG lymphography and ultrasound may be used to plan suitable bypass sites.</p>
             <h3>Can LVA reduce cellulitis?</h3>
             <p>In selected patients with established lymphedema, LVA may reduce lymphatic congestion and may reduce the tendency toward recurrent cellulitis. If cellulitis occurs once or twice despite appropriate conservative therapy, this is a strong reason to seek lymphatic assessment. Outcomes vary, and patients should continue skin care, compression where appropriate and early treatment for infection symptoms.</p>
             <h3>How long is the hospital stay after LVA?</h3>
