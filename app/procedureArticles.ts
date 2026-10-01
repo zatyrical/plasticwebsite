@@ -667,6 +667,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Patients often compare face and neck lift surgery with injectables, thread lifting, lasers or device-based skin tightening. These options are not interchangeable. Non-surgical treatments may help selected texture, volume or mild laxity concerns, while surgery is considered when tissue laxity and neck contour changes are more significant.', 'A consultation should define the main problem before choosing treatment. This helps avoid repeated minor treatments for a concern that is fundamentally surgical, while also avoiding surgery when a smaller or non-surgical approach is more appropriate.']
       },
       {
+        id: 'neck-lift-decision',
+        heading: 'Neck lift, lower face lift, liposuction or non-surgical tightening?',
+        paragraphs: ['A useful consultation separates the main visible issue before choosing treatment. Isolated fat fullness under the chin, loose neck skin, platysmal bands, jowls, jawline descent and skin-surface ageing can look similar online but may need different plans.', 'Neck liposuction may help selected patients whose main concern is fat fullness and whose skin tone is favourable. A neck lift is considered when loose skin, bands or deeper neck contour issues are more important. A lower face lift is usually discussed when jawline descent and jowls contribute to the concern. Non-surgical tightening or skin treatments may be more suitable when laxity is mild or the main issue is texture rather than tissue descent.']
+      },
+      {
         id: 'anatomy',
         heading: 'What a face and neck lift can and cannot address',
         paragraphs: ['A face and neck lift may improve selected lower-face and neck contour concerns by repositioning deeper tissues and redraping skin. It does not change every sign of facial ageing.', 'Skin pigmentation, fine lines, acne scarring, eyelid heaviness, brow position and midface volume loss may need different treatments or no treatment depending on the patient’s goals. Combining procedures can be considered in selected patients but increases planning complexity and recovery.'],
