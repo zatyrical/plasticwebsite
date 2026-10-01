@@ -5,8 +5,8 @@ import { aestheticTreatments } from '../treatmentTiles';
 
 export const metadata: Metadata = {
   title: 'Aesthetic Surgery Treatments in Singapore',
-  description: 'Aesthetic surgery treatment overview by Dr Jeremy Sun in Singapore, including breast aesthetic surgery, face and neck lift, abdominoplasty, rhinoplasty, eyelid surgery, body contouring, lasers, injectables, fat grafting and thread lifting.',
-  keywords: ['aesthetic surgery Singapore', 'plastic surgeon Singapore', 'breast augmentation Singapore', 'face and neck lift Singapore', 'abdominoplasty Singapore', 'mommy makeover Singapore'],
+  description: 'Aesthetic surgery treatment overview by Dr Jeremy Sun in Singapore, including breast augmentation, mommy makeover, tummy tuck / abdominoplasty, facelift, neck lift, liposuction, rhinoplasty and rib rhinoplasty.',
+  keywords: ['aesthetic surgery Singapore', 'plastic surgeon Singapore', 'breast augmentation Singapore', 'mommy makeover Singapore', 'mummy makeover Singapore', 'tummy tuck Singapore', 'abdominoplasty Singapore', 'facelift Singapore', 'neck lift Singapore', 'liposuction Singapore', 'rhinoplasty Singapore', 'rib rhinoplasty Singapore'],
   alternates: { canonical: '/aesthetic-surgery' },
   openGraph: {
     title: 'Aesthetic Surgery Treatments in Singapore',
@@ -42,7 +42,7 @@ export default function AestheticSurgeryPage() {
             <nav className="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Aesthetic surgery</span></nav>
             <div className="eyebrow">Aesthetic surgery</div>
             <h1>Aesthetic surgery treatments.</h1>
-            <p className="lead">A full overview of Dr Sun’s aesthetic surgery treatment pages, presented as a treatment menu for patients who want to explore beyond the signature procedures on the homepage.</p>
+            <p className="lead">A focused overview of Dr Sun’s high-intent aesthetic procedure pages for Singapore patients comparing breast augmentation, mommy / mummy makeover, tummy tuck / abdominoplasty, facelift, neck lift, liposuction, rhinoplasty and rib rhinoplasty.</p>
           </div>
           <aside className="article-summary-card">
             <h2>Signature focus</h2>
@@ -50,8 +50,12 @@ export default function AestheticSurgeryPage() {
               <li><a href="/breast-augmentation-singapore">Breast augmentation in Singapore — implant planning</a></li>
               <li><a href="/breast-aesthetic-surgery-singapore">Breast augmentation, reduction & lift</a></li>
               <li><a href="/breast-implant-illness-singapore-evidence">Breast implant illness evidence guide</a></li>
-              <li><a href="/face-neck-lift-singapore">Face and neck lift</a></li>
+              <li><a href="/mommy-makeover-singapore">Mommy / mummy makeover in Singapore</a></li>
               <li><a href="/tummy-tuck-singapore">Tummy tuck / abdominoplasty</a></li>
+              <li><a href="/body-contouring-liposuction-singapore">Liposuction / body contouring</a></li>
+              <li><a href="/face-neck-lift-singapore">Facelift / face lift and neck lift</a></li>
+              <li><a href="/asian-rhinoplasty-singapore">Rhinoplasty / Asian nose surgery</a></li>
+              <li><a href="/rib-rhinoplasty-singapore">Rib rhinoplasty / rib cartilage nose surgery</a></li>
             </ul>
           </aside>
         </div>
@@ -61,7 +65,7 @@ export default function AestheticSurgeryPage() {
         <div className="container">
           <div className="eyebrow">Full treatment list</div>
           <h2>Aesthetic treatment pages</h2>
-          <p className="section-intro">Each tile links to patient-focused information on planning, suitability, recovery, risks and realistic limitations. Patients comparing high-intent procedures can start with the focused guides to <a href="/breast-augmentation-singapore">breast augmentation in Singapore</a>, <a href="/tummy-tuck-singapore">tummy tuck / abdominoplasty in Singapore</a>, and <a href="/body-contouring-liposuction-singapore">body contouring and liposuction in Singapore</a>.</p>
+          <p className="section-intro">Each tile links to patient-focused information on planning, suitability, cost factors, recovery, risks and realistic limitations. Patients comparing high-intent procedures can start with <a href="/breast-augmentation-singapore">breast augmentation in Singapore</a>, <a href="/mommy-makeover-singapore">mommy / mummy makeover in Singapore</a>, <a href="/tummy-tuck-singapore">tummy tuck / abdominoplasty in Singapore</a>, <a href="/body-contouring-liposuction-singapore">liposuction and body contouring</a>, <a href="/face-neck-lift-singapore">facelift / neck lift</a>, <a href="/asian-rhinoplasty-singapore">rhinoplasty</a> or <a href="/rib-rhinoplasty-singapore">rib rhinoplasty</a>.</p>
           <div className="grid-3 focus-grid aesthetic-photo-grid treatment-listing-grid">{aestheticTreatments.map((x) => (
             <a className="card linked-card focus-card aesthetic-photo-card" href={x.href} key={x.title}>
               <Image src={x.image} alt={x.alt} width={720} height={720} />

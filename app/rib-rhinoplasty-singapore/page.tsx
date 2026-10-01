@@ -5,7 +5,7 @@ import { procedureArticles } from '../procedureArticles';
 const article = procedureArticles['rib-rhinoplasty-singapore'];
 
 export const metadata: Metadata = {
-  title: article.title,
+  title: 'Rib Rhinoplasty Singapore | Rib Cartilage Nose Surgery',
   description: article.description,
   alternates: { canonical: '/rib-rhinoplasty-singapore' },
   openGraph: {

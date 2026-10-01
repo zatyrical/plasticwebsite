@@ -129,10 +129,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'tummy-tuck-singapore': {
     slug: 'tummy-tuck-singapore',
-    title: 'Tummy Tuck / Abdominoplasty in Singapore',
+    title: 'Tummy Tuck / Abdominoplasty Singapore',
     eyebrow: 'Tummy tuck & abdominoplasty',
     lead: 'A patient guide to tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti or divarication repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
-    description: 'Patient information on tummy tuck and abdominoplasty in Singapore, including loose abdominal skin, diastasis recti or divarication, mini versus full tummy tuck, liposuction, recovery, scars and risks.',
+    description: 'Tummy tuck / abdominoplasty Singapore guide: loose abdominal skin, diastasis recti or divarication repair, mini versus full tummy tuck, liposuction, cost factors, recovery, scars and risks.',
     keywords: ['tummy tuck Singapore', 'abdominoplasty Singapore', 'mini tummy tuck Singapore', 'diastasis recti repair Singapore', 'divarication surgery Singapore', 'post pregnancy tummy tuck Singapore', 'loose abdominal skin surgery Singapore', 'mommy makeover Singapore'],
     heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Educational image representing abdominal contouring and tummy tuck consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
@@ -213,10 +213,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'mommy-makeover-singapore': {
     slug: 'mommy-makeover-singapore',
-    title: 'Mommy Makeover Singapore | Post-Pregnancy Surgery',
+    title: 'Mommy / Mummy Makeover Singapore | Post-Pregnancy Surgery',
     eyebrow: 'Mommy makeover',
-    lead: 'A patient guide to mommy makeover surgery in Singapore, including tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, staging, recovery and risks.',
-    description: 'Mommy makeover Singapore guide: post-pregnancy tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, cost factors, recovery and risks.',
+    lead: 'A patient guide to mommy / mummy makeover surgery in Singapore, including tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, staging, cost factors, recovery and risks.',
+    description: 'Mommy / mummy makeover Singapore guide: post-pregnancy tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, cost factors, recovery and risks.',
     keywords: ['mommy makeover Singapore', 'mummy makeover Singapore', 'post pregnancy surgery Singapore', 'post pregnancy tummy tuck Singapore', 'tummy tuck and breast augmentation Singapore', 'abdominoplasty after pregnancy Singapore', 'diastasis recti repair Singapore', 'breast lift after pregnancy Singapore'],
     heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Educational image representing post-pregnancy body contouring and mommy makeover consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
@@ -468,7 +468,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'asian-rhinoplasty-singapore': {
     slug: 'asian-rhinoplasty-singapore',
-    title: 'Rhinoplasty Singapore | Asian Nose Surgery',
+    title: 'Rhinoplasty Singapore | Asian Nose Surgery & Rib Cartilage',
     eyebrow: 'Asian rhinoplasty',
     lead: 'A detailed guide to Asian rhinoplasty in Singapore, including nasal bridge and tip planning, structural support, rib cartilage considerations, recovery and risks.',
     description: 'Rhinoplasty Singapore guide: Asian nose surgery consultation, bridge and tip planning, rib cartilage, revision rhinoplasty, cost factors, recovery, risks and limits.',
@@ -564,10 +564,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'rib-rhinoplasty-singapore': {
     slug: 'rib-rhinoplasty-singapore',
-    title: 'Rib Rhinoplasty Singapore | Asian Nose Surgery',
+    title: 'Rib Rhinoplasty Singapore | Rib Cartilage Nose Surgery',
     eyebrow: 'Rib rhinoplasty',
     lead: 'A patient guide to rib cartilage rhinoplasty in Singapore, including when rib cartilage may be considered, Asian nose surgery planning, donor-site scar, recovery, risks and alternatives.',
-    description: 'Rib rhinoplasty Singapore guide: rib cartilage use in Asian nose surgery, bridge and tip support, revision rhinoplasty, donor-site scar, cost factors, recovery and risks.',
+    description: 'Rib rhinoplasty Singapore guide: rib cartilage nose surgery for Asian rhinoplasty, bridge and tip support, revision rhinoplasty, donor-site scar, cost factors, recovery and risks.',
     keywords: ['rib rhinoplasty Singapore', 'rib cartilage rhinoplasty Singapore', 'Asian rhinoplasty Singapore', 'rhinoplasty Singapore', 'revision rhinoplasty Singapore', 'nose surgery Singapore', 'cartilage rhinoplasty Singapore'],
     heroImage: { src: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Educational image representing Asian rhinoplasty and rib cartilage nose surgery planning in Singapore', caption: 'Illustrative image for patient education; individual anatomy and outcomes vary.' },
     backHref: '/#aesthetic-surgery',
@@ -632,10 +632,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'face-neck-lift-singapore': {
     slug: 'face-neck-lift-singapore',
-    title: 'Facelift Singapore | Face & Neck Lift Surgery',
+    title: 'Facelift & Neck Lift Singapore | Face Lift Surgery',
     eyebrow: 'Face and neck lift',
     lead: 'A detailed guide to face lift and neck lift surgery in Singapore, including suitability, facial analysis, scars, recovery, risks and non-surgical alternatives.',
-    description: 'Facelift Singapore and neck lift surgery guide: lower face, jowls, jawline, neck laxity, consultation, cost factors, recovery, scars, risks and limits.',
+    description: 'Facelift / face lift and neck lift Singapore guide: lower face, jowls, jawline, neck laxity, consultation, cost factors, recovery, scars, risks and limits.',
     keywords: ['face lift Singapore', 'neck lift Singapore', 'facelift Singapore', 'lower face lift Singapore', 'jowl surgery Singapore', 'neck tightening surgery Singapore'],
     heroImage: { src: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Editorial-style image representing face and neck lift consultation and ageing changes', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
