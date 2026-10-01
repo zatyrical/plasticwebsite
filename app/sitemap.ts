@@ -12,6 +12,7 @@ const coreRoutes = [
   { path: '/aesthetic-surgery', priority: 0.86, changeFrequency: 'monthly' as const },
   { path: '/compression-foam-lymphatic-massage-after-liposuction', priority: 0.84, changeFrequency: 'monthly' as const },
   { path: '/breast-implant-illness-singapore-evidence', priority: 0.84, changeFrequency: 'monthly' as const },
+  { path: '/breast-augmentation-singapore', priority: 0.94, changeFrequency: 'weekly' as const },
   { path: '/24-hour-rapid-recovery-breast-augmentation-singapore', priority: 0.84, changeFrequency: 'monthly' as const },
   { path: '/reconstructive-surgery', priority: 0.86, changeFrequency: 'monthly' as const },
   { path: '/lymphedema-surgery-singapore', priority: 0.9, changeFrequency: 'monthly' as const },

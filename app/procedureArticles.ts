@@ -198,7 +198,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     title: 'Breast Augmentation in Singapore',
     eyebrow: 'Breast augmentation & implants',
     lead: 'A patient guide to breast augmentation in Singapore, including implant selection, Motiva implant planning, fat grafting alternatives, recovery, screening, risks and long-term implant follow-up.',
-    description: 'Patient information on breast augmentation in Singapore, including breast implants, Motiva implant planning, implant placement, implant shape and profile, fat grafting alternatives, recovery, screening and risks.',
+    description: 'Patient information on breast augmentation in Singapore, including breast implants, Motiva implant planning, cost considerations, implant placement, shape and profile, fat grafting alternatives, recovery, screening and risks.',
     keywords: ['breast augmentation Singapore', 'breast implant Singapore', 'breast implants Singapore', 'breast enlargement Singapore', 'Motiva implants Singapore', 'Motiva breast augmentation Singapore', 'breast implant placement Singapore', 'breast implant shapes Singapore', 'boob job Singapore', 'aesthetic breast surgery Singapore'],
     heroImage: { src: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant sizers and Motiva implant samples used during breast augmentation consultation planning in Singapore', caption: 'Breast implant samples used for patient education during consultation; not a before-and-after result or product endorsement.' },
     backHref: '/#aesthetic-surgery',
@@ -211,6 +211,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     ],
     sections: [
       {
+        id: 'who-this-is-for',
+        heading: 'Breast augmentation in Singapore: who this page is for',
+        paragraphs: ['Patients searching for breast augmentation in Singapore are often comparing clinics, implant brands, surgeon experience, recovery time, scars and cost. This page is intended for patients who want a medically careful consultation rather than a package-style decision based only on implant volume or advertised price.', 'A useful first consultation should clarify whether the goal is volume increase, postpartum volume restoration, proportion change, correction of asymmetry, breast lift, fat grafting, implant revision or no surgery. It should also cover medical safety, breast screening, long-term implant monitoring and realistic limitations before any operation is planned.']
+      },
+      {
         id: 'what-it-can-do',
         heading: 'What breast augmentation can and cannot do',
         paragraphs: ['Breast augmentation can increase breast volume, improve selected proportions and help address mild asymmetry in suitable patients. It may also restore some volume lost after pregnancy, breastfeeding or weight change.', 'It cannot assure a specific cup size, perfect symmetry or a fixed long-term breast shape. If the main issue is significant drooping, loose skin or low nipple position, an implant alone may not be enough and a breast lift may need to be discussed.']
@@ -218,7 +223,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'consultation',
         heading: 'Breast augmentation consultation and measurements in Singapore',
-        paragraphs: ['Consultation includes breast measurements, skin and soft-tissue assessment, chest wall shape, nipple position, asymmetry, previous scars, pregnancy and breastfeeding history, weight changes, medical history and breast-screening history.', 'Implant planning should match the patient’s anatomy rather than forcing the tissues to fit a preferred size. Measurements such as breast base width and tissue thickness help narrow the range of implant dimensions that may be safer and more proportionate.', 'For patients comparing breast augmentation clinics in Singapore, this measurement-based discussion is one way to understand why two surgeons may recommend different implant sizes, planes or incision options for the same desired look.']
+        paragraphs: ['Consultation includes breast measurements, skin and soft-tissue assessment, chest wall shape, nipple position, asymmetry, previous scars, pregnancy and breastfeeding history, weight changes, medical history and breast-screening history.', 'Implant planning should match the patient’s anatomy rather than forcing the tissues to fit a preferred size. Measurements such as breast base width and tissue thickness help narrow the range of implant dimensions that may be safer and more proportionate.', 'For patients comparing breast augmentation clinics in Singapore, this measurement-based discussion is one way to understand why two surgeons may recommend different implant sizes, planes or incision options for the same desired look.', 'For patients considering Dr Sun, the consultation route is deliberately assessment-led: understand the concern, examine the breast envelope and chest wall, discuss implant and non-implant options, explain risks and recovery, then decide whether surgery is appropriate.']
       },
       {
         id: 'implant-choices',
@@ -235,6 +240,16 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         id: 'fat-grafting-lift',
         heading: 'Implants, fat grafting and breast lift alternatives',
         paragraphs: ['Implants are a common way to increase breast volume, but they are not the only aesthetic breast option. Fat grafting may be considered for selected contour refinement or modest volume goals, but it is limited by donor fat, tissue capacity and how much transferred fat persists.', 'A breast lift addresses nipple position and loose skin rather than simply adding volume. Some patients need a lift, an augmentation, or a combined/staged plan depending on breast position, skin quality and desired change.']
+      },
+      {
+        id: 'cost-quotation',
+        heading: 'Breast augmentation cost and quotation in Singapore',
+        paragraphs: ['Patients often compare breast augmentation cost in Singapore, but a safe quotation should follow assessment rather than precede it. Cost may vary with implant type, surgical complexity, anaesthesia, facility, investigations, garments, medications, follow-up and whether additional procedures such as lift, fat grafting, revision or asymmetry correction are needed.', 'Advertised starting prices may not reflect the operation that is appropriate for a particular patient. During consultation, patients should ask what is included in the quotation, what would change the cost, how complications or revisions are handled, and whether the proposed plan is medically suitable rather than simply the cheapest or fastest option.']
+      },
+      {
+        id: 'choosing-surgeon',
+        heading: 'Choosing a breast augmentation surgeon or clinic in Singapore',
+        paragraphs: ['Rather than relying only on before-and-after images, implant brand or promotional claims, patients should look for a clear explanation of specialist training, breast assessment, sizing method, implant-plane choice, incision planning, breast-screening considerations, complication management and long-term follow-up.', 'Dr Sun is a Singapore Ministry of Health-accredited plastic surgeon with aesthetic surgery training and public professional information available on this site. The consultation should still focus on whether the procedure fits the individual patient, what alternatives exist and what limitations or risks must be accepted.']
       },
       {
         id: 'screening-safety',
@@ -271,6 +286,8 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { question: 'Can breast augmentation be planned for rapid recovery?', answer: 'Selected primary breast augmentation patients may be suitable for rapid recovery principles, but this is not assured for every patient. Recovery depends on anatomy, implant choice, surgical plan, anaesthesia recovery and individual healing.' },
       { question: 'What happens during breast augmentation surgery in Singapore?', answer: 'Breast augmentation surgery usually involves placing an implant through a planned incision into a pocket selected for the patient’s anatomy. Consultation should cover implant dimensions, placement plane, incision position, breast screening, anaesthesia, recovery instructions, long-term implant monitoring and risks such as bleeding, infection, capsular contracture, rupture or revision surgery.' },
       { question: 'What should I ask before a breast augmentation procedure in Singapore?', answer: 'Useful questions include how implant size is selected, whether the plan fits your breast base width and tissue thickness, implant plane and incision options, breast-screening needs, expected recovery, long-term implant monitoring and what complications would require urgent review.' },
+      { question: 'How much does breast augmentation cost in Singapore?', answer: 'Cost varies with implant type, surgical complexity, anaesthesia, facility, investigations, medications, garments, follow-up and whether lift, fat grafting, revision or asymmetry correction is needed. A meaningful quotation should follow assessment because the safest plan may differ between patients.' },
+      { question: 'How should I choose a breast augmentation surgeon in Singapore?', answer: 'Useful comparison points include recognised specialist training, a measurement-based sizing process, discussion of implant plane and incision options, breast-screening considerations, complication management, long-term implant follow-up and whether alternatives such as lift, fat grafting or no surgery are explained clearly.' },
       { question: 'How are Motiva breast augmentation decisions made?', answer: 'Motiva implants may be discussed during breast augmentation planning, but the decision should still be measurement-based. Breast base width, tissue thickness, implant dimensions, projection, desired shape, safety considerations and long-term follow-up all matter more than choosing an implant by brand name alone.' },
       { question: 'Will breast augmentation affect breast screening?', answer: 'Breast implants can affect imaging technique and should be disclosed to screening providers. Patients with symptoms, family history or abnormal imaging may need assessment before elective cosmetic surgery.' }
     ]
