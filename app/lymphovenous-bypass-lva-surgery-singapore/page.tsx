@@ -163,6 +163,7 @@ export default function LvaSurgeryPage() {
               <ul>
                 <li><a href="#what-is-lva">What is LVB / LVA?</a></li>
                 <li><a href="#suitability">Who may be suitable?</a></li>
+                <li><a href="#selection">How treatment is selected</a></li>
                 <li><a href="#cellulitis">Cellulitis and infection</a></li>
                 <li><a href="#recovery">Recovery and compression</a></li>
                 <li><a href="#training">Dedicated training</a></li>
@@ -237,6 +238,17 @@ export default function LvaSurgeryPage() {
               <li>heaviness, tightness or functional symptoms affecting daily activities</li>
               <li>lymphatic imaging showing channels that may be suitable for bypass</li>
             </ul>
+
+            <h2 id="selection">How Dr Sun considers LVA, lymph node transfer and reductive options</h2>
+            <p>
+              A useful lymphedema consultation should not start with a fixed operation. Dr Sun first assesses the cause of swelling, the duration of symptoms, cellulitis history, tissue texture, response to compression or complete decongestive therapy, and whether imaging suggests functioning lymphatic channels remain.
+            </p>
+            <p>
+              LVA / lymphovenous bypass is usually most relevant when there are usable lymphatic channels and the limb remains substantially fluid-dominant. Vascularised lymph node transfer, lymphatic-sparing liposuction or debulking may be discussed when the problem is less suitable for bypass alone, especially if scarring, fibrosis or fibrofatty tissue has become a major component. Some patients need continued conservative care rather than surgery.
+            </p>
+            <p className="notice-text">
+              The purpose of assessment is to match treatment to the patient rather than to promote one procedure for everyone. LVA can be powerful in selected patients, but it is not a cure and does not replace skin care, compression planning or long-term follow-up.
+            </p>
 
             <h2 id="cellulitis">Cellulitis and recurrent infection</h2>
             <p>

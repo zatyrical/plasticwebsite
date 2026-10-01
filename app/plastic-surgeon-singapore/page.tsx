@@ -113,6 +113,7 @@ export default function PlasticSurgeonSingaporePage() {
                 <li><a href="#evaluate">How to evaluate a surgeon</a></li>
                 <li><a href="#credentials">Credentials</a></li>
                 <li><a href="#aesthetic-reconstructive">Aesthetic and reconstructive training</a></li>
+                <li><a href="#assessment-process">Assessment process</a></li>
                 <li><a href="#scope">Scope of practice</a></li>
                 <li><a href="#consultation">Consultation questions</a></li>
                 <li><a href="#procedures">Related procedure pages</a></li>
@@ -160,6 +161,18 @@ export default function PlasticSurgeonSingaporePage() {
               <h2>Aesthetic surgery and reconstructive judgement both matter</h2>
               <p>Aesthetic surgery requires judgement about proportion, scar placement, tissue quality and patient goals. Reconstructive plastic surgery adds experience in anatomy, wound healing, microsurgery, trauma, cancer reconstruction and complex tissue problems. For many patients, the two skill sets overlap.</p>
               <p>For example, breast aesthetic surgery should still consider breast health and long-term follow-up. Rhinoplasty should consider nasal function as well as shape. Body contouring should distinguish fat, skin laxity and muscle separation. Eyelid surgery should consider ptosis, asymmetry and eyelid function.</p>
+            </section>
+
+            <section id="assessment-process">
+              <h2>What a useful plastic surgery consultation should cover</h2>
+              <p>Patients who do not already know Dr Jeremy Sun often need to understand the assessment process before deciding whether to book. A consultation should clarify the patient’s concern, medical history, anatomy, treatment goals and whether surgery is actually the right option.</p>
+              <p>In Dr Sun’s practice, the discussion is framed around suitability and treatment selection rather than a one-size-fits-all procedure. Depending on the concern, this may include examining tissue quality, scars, asymmetry, breast or facial proportions, body-contouring factors, previous surgery, wound-healing risks and realistic recovery needs.</p>
+              <ul>
+                <li><strong>Fit:</strong> whether the procedure matches the patient’s anatomy, goals and health.</li>
+                <li><strong>Options:</strong> surgical, non-surgical or staged alternatives where relevant.</li>
+                <li><strong>Limits:</strong> what surgery can improve, what it cannot change, and where individual variation matters.</li>
+                <li><strong>Safety:</strong> anaesthesia, facility, recovery, warning signs and follow-up planning.</li>
+              </ul>
             </section>
 
             <section id="scope">
