@@ -32,10 +32,10 @@ export type ProcedureArticle = {
 export const procedureArticles: Record<string, ProcedureArticle> = {
   'body-contouring-liposuction-singapore': {
     slug: 'body-contouring-liposuction-singapore',
-    title: 'Body Contouring & Liposuction in Singapore',
+    title: 'Liposuction Singapore | Body Contouring Treatment',
     eyebrow: 'Body contouring & liposuction',
     lead: 'A detailed guide to liposuction and body contouring treatment in Singapore, including abdominal, waist, arm and thigh contouring, suitability, surgical planning, recovery, scars, limitations and risks.',
-    description: 'Detailed patient information on body contouring treatment and liposuction in Singapore, including abdominal liposuction, waist/flank contouring, consultation, recovery, risks and realistic limitations.',
+    description: 'Liposuction Singapore and body contouring treatment guide: abdominal/tummy liposuction, waist/flank contouring, cost factors, consultation, recovery, risks and limits.',
     keywords: ['body contouring Singapore', 'body contouring treatment Singapore', 'liposuction Singapore', 'plastic surgeon liposuction Singapore', 'body sculpting Singapore', 'abdominal liposuction Singapore', 'tummy liposuction Singapore'],
     heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Editorial-style image representing body contouring and liposuction consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
@@ -46,6 +46,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       'The decision is not simply whether fat can be removed. Safe planning considers skin elasticity, muscle tone, previous scars, weight stability, medical fitness, anaesthesia, recovery time and the patient’s expectations about what contour change can realistically achieve.'
     ],
     sections: [
+      {
+        id: 'who-this-is-for',
+        heading: 'Liposuction in Singapore: who this page is for',
+        paragraphs: ['Patients searching for liposuction in Singapore are often comparing fat-removal clinics, body sculpting devices, VASER liposuction claims, price ranges, recovery time and whether a plastic surgeon is needed. This page is intended for patients who want an assessment-led discussion rather than a package based only on the number of areas treated.', 'A useful consultation should clarify whether the concern is localised fat, loose skin, muscle separation, cellulite, weight fluctuation or a combination. These distinctions matter because liposuction, tummy tuck, skin excision, non-surgical body contouring and no procedure solve different problems.']
+      },
       {
         id: 'suitability',
         heading: 'Who may be suitable for body contouring or liposuction?',
@@ -79,6 +84,16 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Liposuction is usually performed through small incisions. Fluid may be placed into the tissues before fat is removed with fine cannulas. The technique and anaesthesia depend on the number of areas treated, the expected volume, patient factors and surgical plan.', 'The goal is controlled contour change, not maximal fat removal. Over-aggressive treatment can increase risks and may lead to contour irregularity, skin laxity, prolonged swelling or unevenness.']
       },
       {
+        id: 'cost-quotation',
+        heading: 'Liposuction cost and quotation in Singapore',
+        paragraphs: ['Liposuction cost in Singapore can vary because the safe plan may differ by treatment area, number of areas, expected volume, anaesthesia, facility, garments, medications, follow-up and whether another procedure such as tummy tuck is more appropriate.', 'A quotation should follow assessment. A low advertised price may not include every relevant component, and treating too many areas or removing too much fat to chase a package result can increase risk. Patients should ask what is included, what changes the cost and what recovery support is provided.']
+      },
+      {
+        id: 'choosing-surgeon',
+        heading: 'Choosing a liposuction or body contouring surgeon in Singapore',
+        paragraphs: ['Useful comparison points include recognised plastic surgery training, assessment of fat versus loose skin, explanation of alternatives, anaesthesia and facility planning, compression-garment guidance, complication management and realistic contour limits.', 'For Dr Sun, the consultation route is assessment-led: define the anatomical problem first, then decide whether liposuction, tummy tuck, staged surgery, non-surgical treatment or no procedure best fits the patient’s goals and safety profile.']
+      },
+      {
         id: 'skin-quality',
         heading: 'Skin quality, loose skin and contour irregularity',
         paragraphs: ['Skin quality is one of the main limits of liposuction. If the skin has poor elasticity, stretch marks, previous pregnancy-related laxity or major weight-loss changes, removing fat may make looseness more obvious.', 'Contour irregularity can occur even with careful technique, especially when tissue quality is uneven or previous procedures have changed the fat layer. The consultation should address these limitations before surgery.']
@@ -104,6 +119,8 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { question: 'Will liposuction tighten loose skin?', answer: 'Liposuction primarily removes fat. Skin tightening is variable and depends on skin quality, age, genetics, pregnancy history and the amount of fat removed. Loose skin may need a different procedure such as tummy tuck / abdominoplasty in selected patients.' },
       { question: 'Which areas can be treated with liposuction?', answer: 'Common areas include the abdomen, waist, flanks, arms, thighs, back, male chest and selected neck concerns. Suitability depends on anatomy, skin quality and safety considerations.' },
       { question: 'What is body contouring treatment in Singapore?', answer: 'Body contouring treatment may refer to surgical options such as liposuction or skin-excision procedures, and sometimes to non-surgical device-based treatments. These options are not interchangeable; assessment should clarify whether the concern is localised fat, loose skin, muscle laxity, weight change or a combination.' },
+      { question: 'How much does liposuction cost in Singapore?', answer: 'Cost varies with the number and type of areas treated, surgical complexity, anaesthesia, facility, garments, medications, follow-up and whether a different procedure such as tummy tuck is needed. A meaningful quotation should follow clinical assessment rather than package comparison alone.' },
+      { question: 'How should I choose a liposuction surgeon in Singapore?', answer: 'Useful points include specialist plastic surgery training, clear assessment of fat versus loose skin, realistic contour planning, explanation of alternatives, anaesthesia and facility safety, compression-garment guidance, follow-up and complication management.' },
       { question: 'Is body contouring in Singapore the same as liposuction?', answer: 'Not always. Liposuction is one form of surgical body contouring for selected localised fat. Body contouring can also include skin-excision procedures such as tummy tuck when loose skin or abdominal wall laxity is the main concern.' },
       { question: 'How do I compare body contouring procedures?', answer: 'Useful comparison points include whether the procedure treats fat, skin or muscle laxity; whether anaesthesia is needed; expected recovery; scars; compression garments; limitations; and complication risks. The safest option depends on examination and realistic goals rather than a generic package.' },
       { question: 'When will the final result be visible?', answer: 'Swelling improves gradually over weeks to months. The timeline varies by area treated, extent of surgery, garment use and individual healing.' },
@@ -382,10 +399,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'asian-rhinoplasty-singapore': {
     slug: 'asian-rhinoplasty-singapore',
-    title: 'Asian Rhinoplasty in Singapore',
+    title: 'Rhinoplasty Singapore | Asian Nose Surgery',
     eyebrow: 'Asian rhinoplasty',
     lead: 'A detailed guide to Asian rhinoplasty in Singapore, including nasal bridge and tip planning, structural support, rib cartilage considerations, recovery and risks.',
-    description: 'Detailed patient information on Asian rhinoplasty in Singapore, including consultation, structural rhinoplasty, rib cartilage, revision planning, recovery, risks and limitations.',
+    description: 'Rhinoplasty Singapore guide: Asian nose surgery consultation, bridge and tip planning, rib cartilage, revision rhinoplasty, cost factors, recovery, risks and limits.',
     keywords: ['Asian rhinoplasty Singapore', 'rhinoplasty Singapore', 'rib cartilage rhinoplasty Singapore', 'nose surgery Singapore', 'structural rhinoplasty Singapore'],
     heroImage: { src: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Editorial-style image representing Asian rhinoplasty consultation and facial profile planning', caption: 'Illustrative image for patient education; individual anatomy and outcomes vary.' },
     backHref: '/#aesthetic-surgery',
@@ -396,6 +413,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       'Not every patient needs rib cartilage or a large structural operation. The plan should be tailored to the patient’s anatomy, skin thickness, existing cartilage support, previous surgery, airway symptoms and goals.'
     ],
     sections: [
+      {
+        id: 'who-this-is-for',
+        heading: 'Rhinoplasty in Singapore: who this page is for',
+        paragraphs: ['Patients searching for rhinoplasty in Singapore may be comparing nose surgery, nose-job clinics, Asian rhinoplasty, revision rhinoplasty, tip rhinoplasty, implant-free rhinoplasty and rib-cartilage techniques. This page is for patients who want to understand how the nose is assessed before deciding whether surgery is appropriate.', 'The useful starting point is not a preferred implant or technique. Consultation should clarify bridge height, tip projection, nostril shape, airway symptoms, skin thickness, previous fillers or surgery, and whether the patient’s goals can be met safely.']
+      },
       {
         id: 'assessment',
         heading: 'Assessment for Asian rhinoplasty',
@@ -428,6 +450,16 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Revision rhinoplasty can be more complex because previous surgery, implants, grafts, scar tissue or filler can alter normal planes and blood supply. The limits of safe change may be different from a first-time operation.', 'Patients who have had nose fillers should disclose the product used, timing and any complications. Filler history can affect surgical planning, even if the filler is no longer obvious on the surface.']
       },
       {
+        id: 'cost-quotation',
+        heading: 'Rhinoplasty cost and quotation in Singapore',
+        paragraphs: ['Rhinoplasty cost in Singapore varies because the operation may range from limited refinement to structural rhinoplasty, rib-cartilage harvest, airway/septal work or revision surgery. Anaesthesia, facility, graft material, donor-site needs, investigations, follow-up and complexity all affect quotation.', 'A safe quotation should follow assessment. Patients should ask what is included, whether rib cartilage or revision work changes the plan, how breathing concerns are handled and what follow-up is expected.']
+      },
+      {
+        id: 'choosing-surgeon',
+        heading: 'Choosing a rhinoplasty surgeon in Singapore',
+        paragraphs: ['Useful comparison points include recognised plastic surgery training, experience with Asian nasal anatomy, ability to discuss both appearance and airway function, graft/implant options, revision limits, realistic recovery and complication management.', 'Patients should be cautious of plans that focus only on bridge height or a standardised “look” without explaining tip support, skin thickness, long-term structural stability and risks.']
+      },
+      {
         id: 'procedure',
         heading: 'Surgical planning and technique',
         paragraphs: ['Rhinoplasty may be performed through open or closed approaches depending on the goals and anatomy. The operation may involve bridge augmentation, tip grafting, septal correction, nostril refinement or revision of previous implants or grafts.', 'The safest plan is not simply the most dramatic change. Aesthetic goals must be balanced with nasal skin, long-term support, airway function and realistic healing.']
@@ -453,6 +485,8 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { question: 'Why is rib cartilage often discussed in Asian rhinoplasty?', answer: 'In many Asian noses, septal cartilage may not provide enough strength or quantity for major augmentation. Rib cartilage can provide a stronger framework for height, projection, tip definition and support when those goals are appropriate.' },
       { question: 'Can rhinoplasty improve breathing?', answer: 'If there is septal deviation or structural airway obstruction, functional correction may be discussed. Cosmetic rhinoplasty alone is not the same as airway surgery.' },
       { question: 'What happens during an Asian rhinoplasty consultation?', answer: 'Consultation usually includes facial analysis, nasal airway symptoms, skin thickness, bridge and tip support, nostril shape, previous surgery or filler history, photographs and discussion of whether grafts, implants, septal correction or a more limited plan are appropriate.' },
+      { question: 'How much does rhinoplasty cost in Singapore?', answer: 'Cost varies with whether the plan is primary or revision rhinoplasty, the degree of structural work, whether rib cartilage or septal/airway correction is needed, anaesthesia, facility and follow-up. A meaningful quotation should follow examination and surgical planning.' },
+      { question: 'How should I choose a rhinoplasty surgeon in Singapore?', answer: 'Look for recognised plastic surgery training, clear explanation of Asian nasal anatomy, bridge and tip support, airway assessment, graft or implant options, revision limits, recovery, risks and how complications are managed.' },
       { question: 'Is an implant or cartilage better for Asian rhinoplasty?', answer: 'There is no single best material for every patient. Implants, septal cartilage, ear cartilage and rib cartilage each have different roles, benefits and risks. The safer choice depends on anatomy, desired change, skin thickness, infection risk, previous surgery and the need for structural support.' },
       { question: 'How long does swelling last?', answer: 'Early swelling improves over weeks, but nasal tip swelling and refinement can take months. Revision cases and thicker skin may take longer.' },
       { question: 'Is revision rhinoplasty more complex?', answer: 'Often yes. Scar tissue, previous implants, fillers, grafts and altered anatomy can make revision surgery more complex and may limit what can be safely changed.' }
@@ -460,10 +494,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'face-neck-lift-singapore': {
     slug: 'face-neck-lift-singapore',
-    title: 'Face and Neck Lift in Singapore',
+    title: 'Facelift Singapore | Face & Neck Lift Surgery',
     eyebrow: 'Face and neck lift',
     lead: 'A detailed guide to face lift and neck lift surgery in Singapore, including suitability, facial analysis, scars, recovery, risks and non-surgical alternatives.',
-    description: 'Detailed patient information on face lift and neck lift surgery in Singapore, including suitability, consultation, surgical planning, recovery, scarring, risks and realistic limitations.',
+    description: 'Facelift Singapore and neck lift surgery guide: lower face, jowls, jawline, neck laxity, consultation, cost factors, recovery, scars, risks and limits.',
     keywords: ['face lift Singapore', 'neck lift Singapore', 'facelift Singapore', 'lower face lift Singapore', 'jowl surgery Singapore', 'neck tightening surgery Singapore'],
     heroImage: { src: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Editorial-style image representing face and neck lift consultation and ageing changes', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
@@ -474,6 +508,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       'Some patients benefit from surgery, while others may be better served by non-surgical treatments, skin treatments, volume restoration or no procedure. A consultation should clarify which concern is actually driving the visible change.'
     ],
     sections: [
+      {
+        id: 'who-this-is-for',
+        heading: 'Facelift in Singapore: who this page is for',
+        paragraphs: ['Patients searching for facelift in Singapore are often comparing surgical face lift, neck lift, thread lift, fillers, lasers and device-based tightening. This page is intended for patients who want to understand whether the visible concern is skin laxity, deeper tissue descent, jowls, neck bands, volume loss or skin quality before choosing treatment.', 'The right plan may be a face lift, neck lift, combined procedure, non-surgical treatment, staged treatment or no procedure. A consultation should make that selection process clear rather than presenting facelift as the answer for every ageing concern.']
+      },
       {
         id: 'suitability',
         heading: 'Who may be suitable for a face and neck lift?',
@@ -499,6 +538,16 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         id: 'procedure',
         heading: 'Surgical approach and scar planning',
         paragraphs: ['A face and neck lift may involve incisions around the ear and hairline, lifting and repositioning of deeper tissues, neck contouring and skin redraping. The exact technique depends on anatomy and goals.', 'Scar placement is planned around hairline, ear anatomy and the direction of tissue movement. Scars usually mature over months and are positioned to reduce visibility where possible, but no surgical scar disappears completely.']
+      },
+      {
+        id: 'cost-quotation',
+        heading: 'Facelift and neck lift cost factors in Singapore',
+        paragraphs: ['Facelift or neck lift cost in Singapore depends on the surgical plan, whether the lower face, neck or both are treated, anaesthesia, facility, operation complexity, medications, dressings, follow-up and whether other procedures are combined.', 'A quotation should follow facial and neck assessment. Patients should ask what areas are included, where scars are planned, what recovery support is expected, and whether non-surgical or smaller options are more appropriate for their concern.']
+      },
+      {
+        id: 'choosing-surgeon',
+        heading: 'Choosing a facelift or neck lift surgeon in Singapore',
+        paragraphs: ['Useful comparison points include recognised plastic surgery training, facial-anatomy assessment, explanation of surgical versus non-surgical limits, scar planning, recovery support, complication management and realistic discussion of continued ageing.', 'Patients should avoid judging suitability from marketing terms alone. The consultation should explain which ageing components surgery may improve and which concerns may need skin, eyelid, brow, volume or no treatment instead.']
       },
       {
         id: 'recovery',
@@ -527,6 +576,8 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { question: 'Can non-surgical treatments replace surgery?', answer: 'Non-surgical treatments can help selected concerns, but they cannot reproduce the tissue repositioning and skin redraping of surgery in patients with significant laxity.' },
       { question: 'Where are face lift scars placed?', answer: 'Scar placement depends on the technique and anatomy, but incisions are commonly planned around the ear and hairline. Scars mature over months and do not disappear completely.' },
       { question: 'What is the difference between a face lift and a neck lift?', answer: 'A face lift mainly addresses lower-face and jawline soft-tissue descent, while a neck lift focuses on neck laxity, platysmal bands or neck contour. Many patients need both areas assessed together because jawline and neck ageing often overlap.' },
+      { question: 'How much does a facelift cost in Singapore?', answer: 'Cost varies with whether the plan involves the lower face, neck or both, anaesthesia, facility, complexity, dressings, medications, follow-up and any combined procedures. A meaningful quotation should follow clinical assessment rather than package comparison alone.' },
+      { question: 'How should I choose a facelift surgeon in Singapore?', answer: 'Useful points include recognised plastic surgery training, careful lower-face and neck assessment, explanation of surgical versus non-surgical limits, scar planning, recovery support, risk discussion and how complications are managed.' },
       { question: 'Who is not a good candidate for face and neck lift surgery?', answer: 'Patients with unstable medical conditions, active smoking or nicotine use, unrealistic expectations, mainly skin-surface concerns, or concerns better treated non-surgically may not be suitable until risk factors and goals are clarified.' },
       { question: 'How long is recovery after a face and neck lift?', answer: 'Recovery varies. Bruising, swelling, tightness and numbness are common early changes, while scar maturation and final contour refinement continue over months.' },
       { question: 'Can a neck lift be done without a face lift?', answer: 'Sometimes. The decision depends on whether the main concern is isolated to the neck or also involves the jawline and lower face. A consultation is needed to assess this properly.' }

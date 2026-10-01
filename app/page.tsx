@@ -80,6 +80,9 @@ export default function Home() {
             <div className="hero-actions">
               <a href="#aesthetic-surgery" className="btn btn-primary">Explore procedures</a>
               <a href="/breast-augmentation-singapore" className="btn btn-ghost">Breast augmentation</a>
+              <a href="/asian-rhinoplasty-singapore" className="btn btn-ghost">Rhinoplasty</a>
+              <a href="/body-contouring-liposuction-singapore" className="btn btn-ghost">Liposuction</a>
+              <a href="/face-neck-lift-singapore" className="btn btn-ghost">Facelift</a>
               <a href="/lymphovenous-bypass-lva-surgery-singapore" className="btn btn-ghost">LVA / lymphovenous bypass</a>
               <a href="/plastic-surgeon-singapore" className="btn btn-ghost">Choosing a plastic surgeon</a>
               <a href="#about" className="btn btn-ghost">About Dr Sun</a>

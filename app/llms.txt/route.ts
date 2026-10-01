@@ -30,16 +30,16 @@ This website is for general educational information. Suitability, risks, recover
 - Plastic, Reconstructive & Aesthetic Surgeon in Singapore: ${baseUrl}/
 - Plastic Surgeon in Singapore — How to Choose Safely: ${baseUrl}/plastic-surgeon-singapore
 - Top Plastic Surgeon in Singapore — compliance-safe patient guide for evaluating specialist credentials without unsupported superiority claims: ${baseUrl}/top-plastic-surgeon-singapore
-- Asian Rhinoplasty in Singapore: ${baseUrl}/asian-rhinoplasty-singapore
+- Rhinoplasty Singapore / Asian nose surgery — bridge and tip planning, implant versus cartilage/rib cartilage, revision rhinoplasty, cost factors, recovery and risks: ${baseUrl}/asian-rhinoplasty-singapore
 - Asian Eyelid Surgery in Singapore: ${baseUrl}/asian-eyelid-surgery-singapore
-- Body Contouring & Liposuction in Singapore — body contouring treatment, abdominal/tummy liposuction, waist/flank contouring, loose skin limits, recovery and risks: ${baseUrl}/body-contouring-liposuction-singapore
+- Liposuction Singapore / body contouring treatment — abdominal/tummy liposuction, waist/flank contouring, cost factors, loose skin limits, recovery and risks: ${baseUrl}/body-contouring-liposuction-singapore
 - Tummy Tuck / Abdominoplasty in Singapore — loose abdominal skin, mini versus full tummy tuck suitability, diastasis recti/divarication repair, C-section scar planning, liposuction comparison, recovery and risks: ${baseUrl}/tummy-tuck-singapore
 - Thread Lifting in Singapore — face thread lift treatment, dissolvable threads, suitability, recovery, limits versus face lift surgery and risks: ${baseUrl}/thread-lifting-singapore
 - Breast Augmentation in Singapore — breast implants, Motiva breast augmentation discussion, implant placement, implant shape/profile, measurement-based sizing, breast screening, recovery and long-term implant follow-up: ${baseUrl}/breast-augmentation-singapore
 - Breast Augmentation & Aesthetic Breast Surgery in Singapore: ${baseUrl}/breast-aesthetic-surgery-singapore
 - 24-Hour Rapid Recovery Breast Augmentation in Singapore: ${baseUrl}/24-hour-rapid-recovery-breast-augmentation-singapore
 - Breast Implant Illness in Singapore — Evidence and Patient Decision Guide for reported systemic symptoms, uncertainty and explantation counselling: ${baseUrl}/breast-implant-illness-singapore-evidence
-- Face and Neck Lift in Singapore: ${baseUrl}/face-neck-lift-singapore
+- Facelift Singapore / face and neck lift surgery — lower face, jowls, jawline, neck laxity, scar planning, cost factors, recovery and risks: ${baseUrl}/face-neck-lift-singapore
 - Breast Reconstruction in Singapore: ${baseUrl}/breast-reconstruction-singapore
 - FTM Top Surgery in Singapore — chest masculinisation, double-incision double-ellipse technique, nipple grafts, pectoralis-border scar planning, dog-ear control, nerve blocks and day-surgery recovery: ${baseUrl}/ftm-top-surgery-singapore
 - Lymphedema Treatment in Singapore — assessment, CDT/compression review, ICG/ultrasound imaging, LVA/LVB suitability and surgical options: ${baseUrl}/lymphedema-surgery-singapore
