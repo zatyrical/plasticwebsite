@@ -36,6 +36,12 @@ const establishedArticles = [
     group: 'aesthetic'
   },
   {
+    title: 'Mommy Makeover in Singapore',
+    href: '/mommy-makeover-singapore',
+    category: 'Post-pregnancy surgery',
+    group: 'aesthetic'
+  },
+  {
     title: 'Body Contouring & Liposuction in Singapore',
     href: '/body-contouring-liposuction-singapore',
     category: 'Body contouring & liposuction',
@@ -45,6 +51,12 @@ const establishedArticles = [
     title: 'Thread Lifting in Singapore',
     href: '/thread-lifting-singapore',
     category: 'Facial rejuvenation',
+    group: 'aesthetic'
+  },
+  {
+    title: 'Rib Rhinoplasty in Singapore',
+    href: '/rib-rhinoplasty-singapore',
+    category: 'Rib cartilage rhinoplasty',
     group: 'aesthetic'
   },
   {

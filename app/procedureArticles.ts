@@ -210,6 +210,75 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     ]
   },
 
+
+  'mommy-makeover-singapore': {
+    slug: 'mommy-makeover-singapore',
+    title: 'Mommy Makeover Singapore | Post-Pregnancy Surgery',
+    eyebrow: 'Mommy makeover',
+    lead: 'A patient guide to mommy makeover surgery in Singapore, including tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, staging, recovery and risks.',
+    description: 'Mommy makeover Singapore guide: post-pregnancy tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, cost factors, recovery and risks.',
+    keywords: ['mommy makeover Singapore', 'mummy makeover Singapore', 'post pregnancy surgery Singapore', 'post pregnancy tummy tuck Singapore', 'tummy tuck and breast augmentation Singapore', 'abdominoplasty after pregnancy Singapore', 'diastasis recti repair Singapore', 'breast lift after pregnancy Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Educational image representing post-pregnancy body contouring and mommy makeover consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
+    backHref: '/#aesthetic-surgery',
+    backLabel: 'Back to aesthetic surgery',
+    intro: [
+      'A mommy makeover, sometimes searched as mummy makeover in Singapore, is not one fixed operation. It is a planning term for selected post-pregnancy concerns that may involve the abdomen, breasts and localised fat deposits.',
+      'Common discussions include tummy tuck or abdominoplasty for loose abdominal skin, diastasis recti or divarication repair, breast augmentation or breast lift for volume and shape changes, and liposuction for selected contour concerns.',
+      'Combination surgery can increase anaesthesia time, recovery demands and complication risk. A safe plan may be combined, staged, limited to one area, delayed, or not recommended depending on anatomy, health, childcare demands and goals.'
+    ],
+    sections: [
+      {
+        id: 'who-this-is-for',
+        heading: 'Mommy makeover in Singapore: who this page is for',
+        paragraphs: ['This page is for patients comparing post-pregnancy surgery options in Singapore and trying to understand whether tummy tuck, abdominoplasty, breast augmentation, breast lift, liposuction or staged surgery is more appropriate.', 'The useful first step is not choosing a package. Consultation should separate skin excess, abdominal wall laxity, localised fat, breast volume loss, breast droop, scar tethering and future pregnancy plans.']
+      },
+      {
+        id: 'what-it-may-include',
+        heading: 'What a mommy makeover may include',
+        paragraphs: ['A mommy makeover may include one or more procedures, but the plan should be individualised. Some patients need only abdominal surgery, some need breast surgery, and some are safer with staged treatment.'],
+        items: ['tummy tuck or abdominoplasty for loose abdominal skin', 'diastasis recti or abdominal divarication repair in suitable patients', 'breast augmentation for postpartum volume loss in selected patients', 'breast lift when nipple position or loose skin is the main issue', 'liposuction for selected localised fat deposits', 'scar or C-section scar assessment when relevant']
+      },
+      {
+        id: 'not-a-package',
+        heading: 'Why mommy makeover should not be treated as a package',
+        paragraphs: ['Marketing language can make mommy makeover sound like a standard bundle. Medically, the safest plan depends on examination, medical history, recovery capacity and whether combining procedures is reasonable.', 'Longer combined operations may increase blood clot, wound-healing, bleeding, infection and recovery risks. Staged surgery may be safer or more predictable for some patients.']
+      },
+      {
+        id: 'consultation',
+        heading: 'Consultation and planning after pregnancy',
+        paragraphs: ['Consultation includes pregnancy and breastfeeding history, future pregnancy plans, weight stability, C-section scars, hernia symptoms, abdominal wall assessment, breast volume and nipple position, medications, smoking or nicotine exposure and childcare constraints during recovery.', 'Patients should be ready to discuss which concern matters most. That priority can determine whether abdominal contouring, breast surgery, liposuction, staged surgery or no surgery is the most appropriate starting point.']
+      },
+      {
+        id: 'cost-quotation',
+        heading: 'Mommy makeover cost and quotation in Singapore',
+        paragraphs: ['Cost varies because mommy makeover is not a single procedure. The quotation may depend on whether the plan includes tummy tuck, breast augmentation, breast lift, liposuction, diastasis repair, anaesthesia, facility, garments, medications, drains, follow-up and whether treatment is staged.', 'A meaningful quotation should follow clinical assessment and should explain what is included, what may change the cost, and whether combining procedures is medically appropriate.']
+      },
+      {
+        id: 'recovery',
+        heading: 'Recovery and home support',
+        paragraphs: ['Recovery depends on the procedures performed. Tummy tuck recovery is usually more involved than liposuction alone, and combined breast and abdominal surgery may require more help at home.', 'Patients with young children should plan support for lifting, driving, wound care, sleep positioning, clinic visits and activity restrictions. Final contour and scars mature over months.']
+      },
+      {
+        id: 'risks',
+        heading: 'Risks and limitations',
+        paragraphs: ['Risks may include bleeding, infection, seroma, wound breakdown, delayed healing, visible scars, asymmetry, altered sensation, implant-related issues if implants are used, contour irregularity, blood clots, anaesthetic risks and need for revision surgery.', 'Surgery cannot restore a pre-pregnancy body exactly or guarantee symmetry, scar quality or a fixed long-term result. Future pregnancy, weight change and ageing can alter outcomes.']
+      },
+      {
+        id: 'questions',
+        heading: 'Questions to ask before mommy makeover surgery',
+        items: ['Is my main concern loose skin, muscle separation, fat, breast volume loss or breast droop?', 'Should surgery be combined or staged?', 'Would tummy tuck, liposuction, breast augmentation, breast lift or no surgery be the safest option?', 'How much help at home will I need?', 'Where will scars be placed?', 'What risks increase with combination surgery?']
+      }
+    ],
+    faqs: [
+      { question: 'What is a mommy makeover in Singapore?', answer: 'Mommy makeover is a planning term, not one fixed operation. It may involve selected post-pregnancy procedures such as tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, and liposuction depending on assessment.' },
+      { question: 'Is mommy makeover the same as tummy tuck?', answer: 'No. Tummy tuck or abdominoplasty treats selected abdominal skin and abdominal wall concerns. Mommy makeover may include tummy tuck but may also involve breast surgery, liposuction or staged treatment.' },
+      { question: 'Can mommy makeover include breast augmentation?', answer: 'In selected patients, breast augmentation may be discussed for postpartum volume loss. If nipple position or loose skin is the main concern, breast lift or staged planning may be more appropriate.' },
+      { question: 'How much does mommy makeover cost in Singapore?', answer: 'Cost varies because the plan may involve one or several procedures, anaesthesia, facility, garments, medications and follow-up. A quotation should follow assessment and should explain whether combined or staged surgery is safer.' },
+      { question: 'When can I consider post-pregnancy surgery?', answer: 'Timing depends on recovery from pregnancy, breastfeeding, weight stability, future pregnancy plans, childcare needs, medical fitness and the specific procedures being considered.' },
+      { question: 'Is combination surgery always better?', answer: 'No. Combining procedures may reduce total separate recovery periods for selected patients, but it can increase surgical time, recovery demands and risk. Staged surgery may be safer in some cases.' }
+    ]
+  },
+
   'breast-augmentation-singapore': {
     slug: 'breast-augmentation-singapore',
     title: 'Breast Augmentation in Singapore',
@@ -492,6 +561,75 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { question: 'Is revision rhinoplasty more complex?', answer: 'Often yes. Scar tissue, previous implants, fillers, grafts and altered anatomy can make revision surgery more complex and may limit what can be safely changed.' }
     ]
   },
+
+  'rib-rhinoplasty-singapore': {
+    slug: 'rib-rhinoplasty-singapore',
+    title: 'Rib Rhinoplasty Singapore | Asian Nose Surgery',
+    eyebrow: 'Rib rhinoplasty',
+    lead: 'A patient guide to rib cartilage rhinoplasty in Singapore, including when rib cartilage may be considered, Asian nose surgery planning, donor-site scar, recovery, risks and alternatives.',
+    description: 'Rib rhinoplasty Singapore guide: rib cartilage use in Asian nose surgery, bridge and tip support, revision rhinoplasty, donor-site scar, cost factors, recovery and risks.',
+    keywords: ['rib rhinoplasty Singapore', 'rib cartilage rhinoplasty Singapore', 'Asian rhinoplasty Singapore', 'rhinoplasty Singapore', 'revision rhinoplasty Singapore', 'nose surgery Singapore', 'cartilage rhinoplasty Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Educational image representing Asian rhinoplasty and rib cartilage nose surgery planning in Singapore', caption: 'Illustrative image for patient education; individual anatomy and outcomes vary.' },
+    backHref: '/#aesthetic-surgery',
+    backLabel: 'Back to aesthetic surgery',
+    intro: [
+      'Rib rhinoplasty refers to rhinoplasty where rib cartilage is considered as a graft material for nasal support or augmentation. It is commonly discussed in Asian rhinoplasty and revision rhinoplasty when stronger structural support may be needed.',
+      'Not every rhinoplasty patient needs rib cartilage. Some patients may be better suited to septal cartilage, ear cartilage, implant-based bridge augmentation, limited refinement, non-surgical management or no surgery.',
+      'The decision depends on nasal anatomy, skin thickness, bridge and tip goals, airway symptoms, previous surgery or fillers, donor-site considerations and the patient’s tolerance for scars and recovery.'
+    ],
+    sections: [
+      {
+        id: 'who-this-is-for',
+        heading: 'Rib rhinoplasty in Singapore: who this page is for',
+        paragraphs: ['This page is for patients searching for rib rhinoplasty or rib cartilage rhinoplasty in Singapore and trying to understand why rib cartilage may be discussed for Asian nose surgery.', 'The key question is not whether rib cartilage is “better”. The consultation should ask whether the nose needs stronger structural support, whether simpler options are adequate, and whether donor-site risks are acceptable.']
+      },
+      {
+        id: 'when-rib-cartilage-is-discussed',
+        heading: 'When rib cartilage may be discussed',
+        paragraphs: ['Rib cartilage may be considered when septal or ear cartilage is insufficient for the planned change, when stronger support is needed, or when revision surgery has altered the available tissue.'],
+        items: ['low nasal bridge with a need for substantial structural augmentation', 'tip projection or support requiring stronger graft material', 'revision rhinoplasty after previous implant, graft or filler history', 'selected cases where septal cartilage is limited', 'patients who understand donor-site scar and recovery trade-offs']
+      },
+      {
+        id: 'alternatives',
+        heading: 'Alternatives to rib cartilage rhinoplasty',
+        paragraphs: ['Alternatives may include septal cartilage, ear cartilage, implant-based planning, combined materials, a more limited rhinoplasty or no surgery. Each option has different strengths, risks and limitations.', 'A patient with modest goals may not need rib cartilage. Conversely, a patient needing stronger support may not get a stable result from a smaller graft source.']
+      },
+      {
+        id: 'consultation',
+        heading: 'Consultation and planning for Asian rib rhinoplasty',
+        paragraphs: ['Assessment includes facial proportions, nasal bridge, nasal tip support, nostril shape, skin thickness, septum, airway symptoms, previous fillers or surgery, photographs and discussion of graft or implant options.', 'Patients should understand the donor site as well as the nose. Rib harvest creates a chest-wall scar and can cause discomfort, contour changes or other donor-site issues.']
+      },
+      {
+        id: 'cost-quotation',
+        heading: 'Rib rhinoplasty cost factors in Singapore',
+        paragraphs: ['Cost can vary because rib rhinoplasty may involve additional operative time, cartilage harvest, structural grafting, revision work, anaesthesia, facility, medications and follow-up. Revision cases are often more complex than primary surgery.', 'A quotation should follow assessment and should explain whether rib cartilage is genuinely needed, what alternatives exist, what is included and what factors may change the plan.']
+      },
+      {
+        id: 'recovery',
+        heading: 'Recovery after rib cartilage rhinoplasty',
+        paragraphs: ['Recovery includes nasal swelling and a separate rib donor-site recovery. Nasal tip swelling can take months to settle, especially in thicker skin or revision surgery. The rib donor site may be sore during movement, coughing or deep breathing early on.', 'Patients should follow wound care, activity restrictions and follow-up instructions closely. Final nasal refinement takes time and cannot be judged in the early swelling phase.']
+      },
+      {
+        id: 'risks',
+        heading: 'Risks and limitations',
+        paragraphs: ['Risks include bleeding, infection, scarring, asymmetry, warping or resorption of cartilage, contour irregularity, airway symptoms, altered sensation, unsatisfactory appearance, need for revision surgery, and donor-site pain or scar concerns.', 'Rib rhinoplasty cannot guarantee a specific nose shape, perfect symmetry or a permanent unchanged result. Scar tissue, previous surgery, fillers and skin thickness can limit what is safely achievable.']
+      },
+      {
+        id: 'questions',
+        heading: 'Questions to ask before rib rhinoplasty',
+        items: ['Why is rib cartilage being considered in my case?', 'Are septal cartilage, ear cartilage, implant-based planning or no surgery reasonable alternatives?', 'Where will the rib scar be and what donor-site symptoms can occur?', 'How will bridge and tip support be planned?', 'How does previous filler or surgery affect the plan?', 'What would make revision surgery more likely?']
+      }
+    ],
+    faqs: [
+      { question: 'What is rib rhinoplasty?', answer: 'Rib rhinoplasty is nose surgery where rib cartilage is used as graft material for selected bridge, tip or structural support needs. It is sometimes discussed in Asian rhinoplasty and revision rhinoplasty.' },
+      { question: 'Do all Asian rhinoplasty patients need rib cartilage?', answer: 'No. Some patients may be suitable for septal cartilage, ear cartilage, implant-based planning, limited refinement or no surgery. Rib cartilage is considered when stronger or larger-volume structural support is needed.' },
+      { question: 'Is rib cartilage better than an implant?', answer: 'There is no single better option for every patient. Rib cartilage and implants have different roles, benefits and risks. The choice depends on anatomy, goals, skin thickness, infection risk, revision history and the need for structural support.' },
+      { question: 'How much does rib rhinoplasty cost in Singapore?', answer: 'Cost varies with primary versus revision surgery, complexity, cartilage harvest, anaesthesia, facility and follow-up. A quotation should follow assessment and should explain whether rib cartilage is necessary.' },
+      { question: 'Will there be a rib scar?', answer: 'Yes. Rib cartilage harvest requires a chest-wall incision, so a scar is expected. Scar length, position and maturation should be discussed during consultation.' },
+      { question: 'Is revision rhinoplasty with rib cartilage more complex?', answer: 'Often yes. Previous surgery, implants, fillers, grafts and scar tissue can alter anatomy and blood supply, making revision planning more complex and sometimes limiting what can be safely changed.' }
+    ]
+  },
+
   'face-neck-lift-singapore': {
     slug: 'face-neck-lift-singapore',
     title: 'Facelift Singapore | Face & Neck Lift Surgery',

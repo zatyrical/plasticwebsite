@@ -8,8 +8,10 @@ export type TreatmentTile = {
 export const aestheticTreatments: TreatmentTile[] = [
   { title: 'Body contouring & liposuction treatment', href: '/body-contouring-liposuction-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused image representing body contouring, abdominal liposuction and waist contouring consultation in Singapore' },
   { title: 'Tummy tuck / abdominoplasty planning', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused abdominal contouring image representing tummy tuck, abdominoplasty and diastasis recti consultation in Singapore' },
+  { title: 'Mommy makeover / post-pregnancy surgery', href: '/mommy-makeover-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused image representing post-pregnancy abdominal and breast surgery consultation in Singapore' },
   { title: 'Breast augmentation & implant planning', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during breast augmentation and Motiva implant consultation planning in Singapore' },
   { title: 'Asian rhinoplasty', href: '/asian-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image for rhinoplasty' },
+  { title: 'Rib rhinoplasty / rib cartilage nose surgery', href: '/rib-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image representing rib cartilage rhinoplasty planning in Singapore' },
   { title: 'Eyelid surgery', href: '/asian-eyelid-surgery-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Asian eyelid image with surgical planning markings' },
   { title: 'Face and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Asian lower face, jawline and neck image for face and neck lift' },
   { title: 'Lasers and injectables', href: '/lasers-injectables-singapore', image: '/images/aesthetic-ai/lasers-injectables.jpg', alt: 'Asian facial skin image with aesthetic laser handpiece' },
@@ -31,7 +33,8 @@ export const reconstructiveTreatments: TreatmentTile[] = [
 export const aestheticSignatureTreatments: TreatmentTile[] = [
   { title: 'Breast augmentation & implant planning', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during breast augmentation and Motiva implant consultation planning in Singapore' },
   { title: 'Face and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Asian lower face, jawline and neck image for face and neck lift' },
-  { title: 'Tummy tuck / abdominoplasty planning', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused abdominal contouring image representing tummy tuck, abdominoplasty and diastasis recti consultation in Singapore' }
+  { title: 'Tummy tuck / abdominoplasty planning', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused abdominal contouring image representing tummy tuck, abdominoplasty and diastasis recti consultation in Singapore' },
+  { title: 'Mommy makeover / post-pregnancy surgery', href: '/mommy-makeover-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused image representing post-pregnancy abdominal and breast surgery consultation in Singapore' }
 ];
 
 export const reconstructiveSignatureTreatments: TreatmentTile[] = [
