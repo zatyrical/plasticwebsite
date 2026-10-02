@@ -12,6 +12,12 @@ type Props = {
 
 const establishedArticles = [
   {
+    title: 'Compression and Recovery After Liposuction',
+    href: '/compression-foam-lymphatic-massage-after-liposuction',
+    category: 'Liposuction recovery',
+    group: 'aesthetic'
+  },
+  {
     title: 'Breast Augmentation in Singapore',
     href: '/breast-augmentation-singapore',
     category: 'Breast augmentation & implants',
@@ -103,6 +109,16 @@ export default function ProcedureArticlePage({ article }: Props) {
       category: item.eyebrow,
       group
     }));
+  const relatedByProcedure: Record<string, string[]> = {
+    'breast-augmentation-singapore': ['breast-aesthetic-surgery-singapore', '24-hour-rapid-recovery-breast-augmentation-singapore', 'breast-implant-illness-singapore-evidence', 'mommy-makeover-singapore'],
+    'tummy-tuck-singapore': ['body-contouring-liposuction-singapore', 'mommy-makeover-singapore', 'compression-foam-lymphatic-massage-after-liposuction'],
+    'mommy-makeover-singapore': ['tummy-tuck-singapore', 'breast-augmentation-singapore', 'breast-aesthetic-surgery-singapore', 'body-contouring-liposuction-singapore'],
+    'body-contouring-liposuction-singapore': ['tummy-tuck-singapore', 'compression-foam-lymphatic-massage-after-liposuction', 'mommy-makeover-singapore'],
+    'asian-rhinoplasty-singapore': ['rib-rhinoplasty-singapore'],
+    'rib-rhinoplasty-singapore': ['asian-rhinoplasty-singapore'],
+    'face-neck-lift-singapore': ['thread-lifting-singapore', 'fat-grafting-singapore', 'asian-eyelid-surgery-singapore']
+  };
+  const preferredHrefs = (relatedByProcedure[article.slug] ?? []).map((slug) => `/${slug}`);
   const seenRelated = new Set<string>();
   const relatedArticles = [...generatedRelated, ...establishedArticles.filter((item) => item.group === group)]
     .filter((item) => item.href !== `/${article.slug}`)
@@ -110,6 +126,13 @@ export default function ProcedureArticlePage({ article }: Props) {
       if (seenRelated.has(item.href)) return false;
       seenRelated.add(item.href);
       return true;
+    })
+    .sort((a, b) => {
+      const rank = (href: string) => {
+        const index = preferredHrefs.indexOf(href);
+        return index < 0 ? preferredHrefs.length : index;
+      };
+      return rank(a.href) - rank(b.href);
     })
     .slice(0, 4);
 
@@ -150,7 +173,7 @@ export default function ProcedureArticlePage({ article }: Props) {
             '@type': 'ListItem',
             position: 2,
             name: group === 'aesthetic' ? 'Aesthetic Surgery' : 'Reconstructive Surgery',
-            item: `${baseUrl}/${article.backHref.replace('/#', '#')}`
+            item: `${baseUrl}/${group === 'aesthetic' ? 'aesthetic-surgery' : 'reconstructive-surgery'}`
           },
           {
             '@type': 'ListItem',
@@ -279,7 +302,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                 <div className="procedure-map-kicker">Procedure pathway</div>
                 <h2>Compare this option with related procedures</h2>
                 <p>
-                  Like an in-person consultation, this guide is designed to help patients compare nearby options before deciding whether to enquire. Start with the closest concern, then use the related pages to understand alternatives, recovery and safety trade-offs.
+                  Explore related procedures and recovery information to understand the options you may wish to discuss at consultation.
                 </p>
               </div>
               <div className="procedure-cluster-links">
@@ -297,7 +320,7 @@ export default function ProcedureArticlePage({ article }: Props) {
               <div className="procedure-map-kicker">Procedure guide</div>
               <h2>Key decisions before considering {article.eyebrow.toLowerCase()}</h2>
               <p>
-                This page is structured like a consultation pathway: what the concern is, who may be suitable, how assessment is planned, what recovery involves, and what risks or limits should be understood before any personalised recommendation.
+                Use these sections to explore suitability, consultation planning, recovery and risks.
               </p>
               <div className="procedure-map-grid">
                 {decisionHighlights.map((item) => (
@@ -315,7 +338,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                 <div className="procedure-map-kicker">Consultation pathway</div>
                 <h2>From first assessment to recovery planning</h2>
                 <p>
-                  A mature procedure page should help patients understand the sequence, not only the name of the operation. The usual pathway is assessment, diagnosis of the main concern, discussion of alternatives, a personalised surgical or non-surgical plan, then recovery follow-up and scar or long-term monitoring where relevant.
+                  At consultation, discuss your concerns, previous treatment and goals. Your surgeon can explain the available options, their risks and limitations, and the recovery and follow-up each involves.
                 </p>
               </div>
               <ol className="procedure-journey-steps">
