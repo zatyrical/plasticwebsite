@@ -110,7 +110,7 @@ export default function ProcedureArticlePage({ article }: Props) {
       group
     }));
   const relatedByProcedure: Record<string, string[]> = {
-    'breast-augmentation-singapore': ['breast-aesthetic-surgery-singapore', '24-hour-rapid-recovery-breast-augmentation-singapore', 'breast-implant-illness-singapore-evidence', 'mommy-makeover-singapore'],
+    'breast-augmentation-singapore': ['24-hour-rapid-recovery-breast-augmentation-singapore', 'breast-aesthetic-surgery-singapore', 'breast-implant-illness-singapore-evidence', 'mommy-makeover-singapore'],
     'tummy-tuck-singapore': ['body-contouring-liposuction-singapore', 'mommy-makeover-singapore', 'compression-foam-lymphatic-massage-after-liposuction'],
     'mommy-makeover-singapore': ['tummy-tuck-singapore', 'breast-augmentation-singapore', 'breast-aesthetic-surgery-singapore', 'body-contouring-liposuction-singapore'],
     'body-contouring-liposuction-singapore': ['tummy-tuck-singapore', 'compression-foam-lymphatic-massage-after-liposuction', 'mommy-makeover-singapore'],
@@ -118,13 +118,13 @@ export default function ProcedureArticlePage({ article }: Props) {
     'rib-rhinoplasty-singapore': ['asian-rhinoplasty-singapore'],
     'face-neck-lift-singapore': ['thread-lifting-singapore', 'fat-grafting-singapore', 'asian-eyelid-surgery-singapore'],
     'thread-lifting-singapore': ['face-neck-lift-singapore', 'fat-grafting-singapore', 'lasers-injectables-singapore'],
-    'fat-grafting-singapore': ['face-neck-lift-singapore', 'thread-lifting-singapore', 'asian-eyelid-surgery-singapore'],
-    'asian-eyelid-surgery-singapore': ['face-neck-lift-singapore', 'asian-rhinoplasty-singapore', 'fat-grafting-singapore']
+    'fat-grafting-singapore': ['face-neck-lift-singapore', 'thread-lifting-singapore', 'asian-eyelid-surgery-singapore']
   };
   const preferredHrefs = (relatedByProcedure[article.slug] ?? []).map((slug) => `/${slug}`);
   const seenRelated = new Set<string>();
   const relatedArticles = [...generatedRelated, ...establishedArticles.filter((item) => item.group === group)]
     .filter((item) => item.href !== `/${article.slug}`)
+    .filter((item) => preferredHrefs.length === 0 || preferredHrefs.includes(item.href))
     .filter((item) => {
       if (seenRelated.has(item.href)) return false;
       seenRelated.add(item.href);
