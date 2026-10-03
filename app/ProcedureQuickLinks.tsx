@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './ProcedureQuickLinks.module.css';
+import './procedureAnchors.css';
 
 type Props = { links: { href: string; label: string }[] };
 
