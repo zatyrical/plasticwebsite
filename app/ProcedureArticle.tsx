@@ -116,7 +116,10 @@ export default function ProcedureArticlePage({ article }: Props) {
     'body-contouring-liposuction-singapore': ['tummy-tuck-singapore', 'compression-foam-lymphatic-massage-after-liposuction', 'mommy-makeover-singapore'],
     'asian-rhinoplasty-singapore': ['rib-rhinoplasty-singapore'],
     'rib-rhinoplasty-singapore': ['asian-rhinoplasty-singapore'],
-    'face-neck-lift-singapore': ['thread-lifting-singapore', 'fat-grafting-singapore', 'asian-eyelid-surgery-singapore']
+    'face-neck-lift-singapore': ['thread-lifting-singapore', 'fat-grafting-singapore', 'asian-eyelid-surgery-singapore'],
+    'thread-lifting-singapore': ['face-neck-lift-singapore', 'fat-grafting-singapore', 'lasers-injectables-singapore'],
+    'fat-grafting-singapore': ['face-neck-lift-singapore', 'thread-lifting-singapore', 'asian-eyelid-surgery-singapore'],
+    'asian-eyelid-surgery-singapore': ['face-neck-lift-singapore', 'asian-rhinoplasty-singapore', 'fat-grafting-singapore']
   };
   const preferredHrefs = (relatedByProcedure[article.slug] ?? []).map((slug) => `/${slug}`);
   const seenRelated = new Set<string>();
