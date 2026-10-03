@@ -1,0 +1,15 @@
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 16px;
+  margin: 24px 0;
+  padding: 18px 20px;
+  border: 1px solid rgba(16, 32, 29, .12);
+  border-radius: 18px;
+  background: #fff;
+  line-height: 1.5;
+}
+.links strong { font-size: 13px; color: #31413d; }
+.links a { font-size: 14px; font-weight: 600; color: #1a554b; text-decoration: underline; text-underline-offset: 3px; }
+.links a:focus-visible { outline: 2px solid #1a554b; outline-offset: 4px; border-radius: 2px; }

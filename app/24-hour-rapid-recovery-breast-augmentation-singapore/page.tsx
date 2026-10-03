@@ -1,13 +1,15 @@
+import { procedurePagePresentation } from '../procedurePagePresentation';
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import ContactForm from '../ContactForm';
+import ProcedureQuickLinks from '../ProcedureQuickLinks';
 import Navigation from '../Navigation';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const slug = '24-hour-rapid-recovery-breast-augmentation-singapore';
 const title = '24-Hour Rapid Recovery Breast Augmentation in Singapore';
-const description = 'Patient guide to 24-hour rapid recovery breast augmentation principles, including Dr William Adams’ process-based approach, suitability, early movement, safety and limitations.';
+const description = procedurePagePresentation[slug].description;
 const articleUrl = `${baseUrl}/${slug}`;
 
 export const metadata: Metadata = {
@@ -152,6 +154,13 @@ export default function RapidRecoveryBreastAugmentationPage() {
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
             </div>
 
+            <ProcedureQuickLinks links={[
+              { href: '#short-answer', label: 'What it means' },
+              { href: '#patient-selection', label: 'Suitability' },
+              { href: '#day-of-surgery', label: 'Early activity' },
+              { href: '#not-a-promise', label: 'Recovery limits' }
+            ]} />
+
             <section id="short-answer">
               <h2>Short answer: what does “24-hour rapid recovery” mean?</h2>
               <p>In breast augmentation, “24-hour rapid recovery” refers to a carefully selected and structured approach designed to reduce unnecessary downtime after implant surgery. It is not simply faster surgery or stronger painkillers. The concept depends on detailed preoperative planning, gentle technique, careful implant-pocket control, bleeding control and specific postoperative activity instructions.</p>
@@ -221,7 +230,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
 
             <h2 id="enquire">Enquire about assessment</h2>
             <p>If you are considering breast augmentation or want to understand whether a rapid recovery approach may be appropriate, a formal consultation is needed before personalised advice can be given.</p>
-            <ContactForm />
+            <ContactForm defaultEnquiryType="Aesthetic surgery" />
           </div>
         </section>
       </article>

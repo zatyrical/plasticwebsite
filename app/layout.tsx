@@ -15,6 +15,7 @@ const headingFont = Space_Grotesk({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.drjeremysun.com'),
+  icons: { icon: { url: '/images/brand/dr-sun-logo-nav.jpg', type: 'image/jpeg' } },
   title: {
     default: 'Dr Jeremy Sun Mingfa | Senior Consultant Plastic Surgeon Singapore',
     template: '%s | Dr Jeremy Sun'

@@ -19,7 +19,7 @@ function trackEnquiryEvent(eventName: string, params: Record<string, unknown> = 
   });
 }
 
-export default function ContactForm() {
+export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry' }: { defaultEnquiryType?: 'Consultation enquiry' | 'Aesthetic surgery' | 'Reconstructive surgery' }) {
   const [status, setStatus] = useState<Status>('idle');
   const [message, setMessage] = useState('');
   const [pageUrl, setPageUrl] = useState('');
@@ -82,7 +82,7 @@ export default function ContactForm() {
         </label>
         <label>
           Enquiry type
-          <select name="enquiryType" defaultValue="Consultation enquiry">
+          <select name="enquiryType" defaultValue={defaultEnquiryType}>
             <option>Consultation enquiry</option>
             <option>Aesthetic surgery</option>
             <option>Reconstructive surgery</option>
