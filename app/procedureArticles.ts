@@ -37,10 +37,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   'eyebag-removal-lower-blepharoplasty-singapore': lowerBlepharoplastyArticle,
   'body-contouring-liposuction-singapore': {
     slug: 'body-contouring-liposuction-singapore',
-    title: 'Liposuction Singapore | Body Contouring Treatment',
+    title: 'Liposuction Singapore | Body Contouring Surgery, Cost & Recovery',
     eyebrow: 'Body contouring & liposuction',
     lead: 'A detailed guide to liposuction and body contouring treatment in Singapore, including abdominal, waist, arm and thigh contouring, suitability, surgical planning, recovery, scars, limitations and risks.',
-    description: 'Liposuction Singapore and body contouring treatment guide: abdominal/tummy liposuction, waist/flank contouring, cost factors, consultation, recovery, risks and limits.',
+    description: 'Liposuction Singapore and body contouring surgery guide: abdominal/tummy liposuction, waist/flank contouring, cost factors, consultation, recovery, risks and limits.',
     keywords: ['body contouring Singapore', 'body contouring treatment Singapore', 'liposuction Singapore', 'plastic surgeon liposuction Singapore', 'body sculpting Singapore', 'abdominal liposuction Singapore', 'tummy liposuction Singapore'],
     heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Editorial-style image representing body contouring and liposuction consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
@@ -80,7 +80,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       },
       {
         id: 'singapore-planning',
-        heading: 'Body contouring treatment consultation in Singapore',
+        heading: 'Body contouring surgery and treatment consultation in Singapore',
         paragraphs: ['Patients in Singapore often compare surgical liposuction with non-surgical fat reduction, radiofrequency, ultrasound or device-based contouring. These options are not interchangeable. Non-surgical treatments may be reasonable for selected minor concerns, while surgery may be considered when a more direct contour change is appropriate.', 'A plastic surgery consultation should clarify whether the concern is excess fat, loose skin, muscle separation, cellulite, weight fluctuation or a combination of factors. The discussion should include anaesthesia, recovery time, compression garments, scars, revision risk and realistic contour limits.']
       },
       {
@@ -134,10 +134,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'tummy-tuck-singapore': {
     slug: 'tummy-tuck-singapore',
-    title: 'Tummy Tuck / Abdominoplasty Singapore',
+    title: 'Abdominoplasty Singapore | Tummy Tuck Surgery & Diastasis Repair',
     eyebrow: 'Tummy tuck & abdominoplasty',
-    lead: 'A patient guide to tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti or divarication repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
-    description: 'Tummy tuck / abdominoplasty Singapore guide: loose abdominal skin, diastasis recti or divarication repair, mini versus full tummy tuck, liposuction, cost factors, recovery, scars and risks.',
+    lead: 'A patient guide to abdominoplasty and tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti or divarication repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
+    description: 'Abdominoplasty Singapore and tummy tuck surgery guide: loose abdominal skin, diastasis recti/divarication repair, mini vs full tummy tuck, cost factors, recovery, scars and risks.',
     keywords: ['tummy tuck Singapore', 'abdominoplasty Singapore', 'mini tummy tuck Singapore', 'diastasis recti repair Singapore', 'divarication surgery Singapore', 'post pregnancy tummy tuck Singapore', 'loose abdominal skin surgery Singapore', 'mommy makeover Singapore'],
     heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Educational image representing abdominal contouring and tummy tuck consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
     backHref: '/#aesthetic-surgery',
@@ -150,7 +150,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     sections: [
       {
         id: 'what-it-treats',
-        heading: 'What a tummy tuck can treat',
+        heading: 'What abdominoplasty or tummy tuck surgery can treat',
         paragraphs: ['A tummy tuck may be considered when the main concern is loose abdominal skin, a persistent lower-abdominal fold, stretch-related skin excess, abdominal wall laxity or a combination of skin, fat and muscle changes.', 'The operation is not a weight-loss procedure. It is usually planned when weight is reasonably stable and the concern is abdominal contour, skin excess or abdominal wall support rather than overall body weight.'],
         items: ['loose lower-abdominal skin after pregnancy or weight change', 'skin overhang or fold that does not respond to fat reduction alone', 'selected C-section scar tethering or lower-abdominal scar/fold concerns', 'diastasis recti, divarication or abdominal muscle separation in suitable patients', 'abdominal contour concerns where liposuction alone is unlikely to be enough']
       },
@@ -286,10 +286,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'breast-augmentation-singapore': {
     slug: 'breast-augmentation-singapore',
-    title: 'Breast Augmentation in Singapore',
+    title: 'Breast Augmentation Singapore | Breast Implant Surgery & Motiva Planning',
     eyebrow: 'Breast augmentation & implants',
     lead: 'A patient guide to breast augmentation in Singapore, including implant selection, Motiva implant planning, fat grafting alternatives, recovery, screening, risks and long-term implant follow-up.',
-    description: 'Patient information on breast augmentation in Singapore, including breast implants, Motiva implant planning, cost considerations, implant placement, shape and profile, fat grafting alternatives, recovery, screening and risks.',
+    description: 'Breast augmentation Singapore guide: breast implant surgery, Motiva implant planning, implant placement/profile, cost factors, recovery, screening, risks and long-term follow-up.',
     keywords: ['breast augmentation Singapore', 'breast implant Singapore', 'breast implants Singapore', 'breast enlargement Singapore', 'Motiva implants Singapore', 'Motiva breast augmentation Singapore', 'breast implant placement Singapore', 'breast implant shapes Singapore', 'boob job Singapore', 'aesthetic breast surgery Singapore'],
     heroImage: { src: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant sizers and Motiva implant samples used during breast augmentation consultation planning in Singapore', caption: 'Breast implant samples used for patient education during consultation; not a before-and-after result or product endorsement.' },
     backHref: '/#aesthetic-surgery',
