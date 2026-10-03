@@ -6,7 +6,7 @@ import { procedureArticles } from '../procedureArticles';
 const article = procedureArticles['body-contouring-liposuction-singapore'];
 
 export const metadata: Metadata = {
-  title: article.title,
+  title: procedurePagePresentation['body-contouring-liposuction-singapore'].title,
   description: procedurePagePresentation['body-contouring-liposuction-singapore'].description,
   alternates: { canonical: '/body-contouring-liposuction-singapore' },
   openGraph: {
