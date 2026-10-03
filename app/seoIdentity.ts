@@ -6,10 +6,8 @@ export const lastReviewedIso = '2026-09-06';
 
 export const physicianSameAs = [
   'https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy',
-  'https://www.cgh.com.sg/profile/Sun-Mingfa-Jeremy',
   'https://www.linkedin.com/in/dr-jeremy-sun',
   'https://www.instagram.com/jermsun?stkn=enQ3Z3NrenZqNHJi',
-  'https://lymphedasia.com/dr-jeremy-sun-mingfa/',
   'https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/',
 ];
 
@@ -17,7 +15,7 @@ export const physicianJsonLd = {
   '@type': 'Person',
   '@id': physicianId,
   name: 'Dr Jeremy Sun',
-  alternateName: ['Dr Sun Mingfa Jeremy', 'Sun Mingfa Jeremy'],
+  alternateName: ['Dr Sun Mingfa Jeremy', 'Sun Mingfa Jeremy', 'Dr Jeremy Sun Mingfa'],
   url: baseUrl,
   image: `${baseUrl}/images/dr-jeremy-sun-hero.jpg`,
   jobTitle: 'Senior Consultant Plastic Surgeon',
@@ -50,8 +48,11 @@ export const physicianJsonLd = {
     'Breast reconstruction',
     'Rhinoplasty',
     'Asian rhinoplasty',
+    'Rib cartilage rhinoplasty',
     'Eyelid surgery',
     'Asian blepharoplasty',
+    'Lower blepharoplasty',
+    'Transconjunctival lower blepharoplasty',
     'Face and neck lift',
     'Lasers and injectables',
     'Fat grafting',
