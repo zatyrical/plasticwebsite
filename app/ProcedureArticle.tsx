@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Navigation from './Navigation';
 import ContactForm from './ContactForm';
+import ProcedureQuickLinks from './ProcedureQuickLinks';
+import { procedurePagePresentation } from './procedurePagePresentation';
 import type { ProcedureArticle } from './procedureArticles';
 import { procedureArticleList } from './procedureArticles';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from './seoIdentity';
@@ -100,13 +102,17 @@ const establishedArticles = [
 export default function ProcedureArticlePage({ article }: Props) {
   const reviewedIso = article.reviewedIso ?? lastReviewedIso;
   const publishedIso = article.publishedIso ?? lastReviewedIso;
+  const presentation = procedurePagePresentation[article.slug];
+  const heading = presentation?.heading ?? article.title;
+  const description = presentation?.description ?? article.description;
   const articleUrl = `${baseUrl}/${article.slug}`;
   const group = article.backHref.includes('aesthetic') ? 'aesthetic' : 'reconstructive';
+  const hubHref = group === 'aesthetic' ? '/aesthetic-surgery' : '/reconstructive-surgery';
   const generatedRelated = procedureArticleList
     .filter((item) => item.slug !== article.slug)
     .filter((item) => (item.backHref.includes('aesthetic') ? 'aesthetic' : 'reconstructive') === group)
     .map((item) => ({
-      title: item.title,
+      title: procedurePagePresentation[item.slug]?.heading ?? item.title,
       href: `/${item.slug}`,
       category: item.eyebrow,
       group
@@ -142,13 +148,21 @@ export default function ProcedureArticlePage({ article }: Props) {
     })
     .slice(0, 4);
 
-  const findSection = (ids: string[]) => article.sections.find((section) => ids.some((id) => section.id.includes(id)));
-  const decisionHighlights = [
-    { label: 'What it treats', section: article.sections[0] },
-    { label: 'Suitability', section: findSection(['suitability', 'candidate', 'who']) },
-    { label: 'Planning', section: findSection(['consultation', 'planning']) },
-    { label: 'Recovery & safety', section: findSection(['recovery', 'risks']) }
+  const findSection = (ids: string[]) => article.sections.find((section) => ids.includes(section.id))
+    ?? article.sections.find((section) => ids.some((id) => section.id.includes(id)));
+  const shortcutSections = [
+    { label: 'Suitability', section: findSection(['suitability', 'who-this-is-for', 'candidate']) },
+    { label: 'Consultation', section: findSection(['consultation', 'assessment', 'planning']) },
+    { label: 'Cost factors', section: findSection(['cost-quotation']) },
+    { label: 'Recovery', section: findSection(['recovery']) },
+    { label: 'Risks', section: findSection(['risks']) }
   ].filter((item): item is { label: string; section: NonNullable<typeof item.section> } => Boolean(item.section));
+  const seenShortcuts = new Set<string>();
+  const shortcutLinks = shortcutSections.filter((item) => {
+    if (seenShortcuts.has(item.section.id)) return false;
+    seenShortcuts.add(item.section.id);
+    return true;
+  }).map((item) => ({ label: item.label, href: `#${item.section.id}` }));
 
   const faqJsonLd = {
     '@context': 'https://schema.org',
@@ -184,7 +198,7 @@ export default function ProcedureArticlePage({ article }: Props) {
           {
             '@type': 'ListItem',
             position: 3,
-            name: article.title,
+            name: heading,
             item: articleUrl
           }
         ]
@@ -194,9 +208,9 @@ export default function ProcedureArticlePage({ article }: Props) {
         '@type': 'MedicalWebPage',
         '@id': `${articleUrl}#webpage`,
         url: articleUrl,
-        name: article.title,
-        headline: article.title,
-        description: article.description,
+        name: heading,
+        headline: heading,
+        description,
         inLanguage: 'en-SG',
         isPartOf: {
           '@type': 'WebSite',
@@ -258,14 +272,14 @@ export default function ProcedureArticlePage({ article }: Props) {
               <nav className="breadcrumb" aria-label="Breadcrumb">
                 <Link href="/">Home</Link>
                 <span>/</span>
-                <Link href={article.backHref}>{group === 'aesthetic' ? 'Aesthetic surgery' : 'Reconstructive surgery'}</Link>
+                <Link href={hubHref}>{group === 'aesthetic' ? 'Aesthetic surgery' : 'Reconstructive surgery'}</Link>
               </nav>
               <div className="eyebrow">{article.eyebrow}</div>
-              <h1>{article.title}</h1>
+              <h1>{heading}</h1>
               <p className="lead">{article.lead}</p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
-                <Link href={article.backHref} className="btn btn-ghost">{article.backLabel}</Link>
+                <Link href={hubHref} className="btn btn-ghost">{article.backLabel}</Link>
               </div>
               <div className="article-trust-strip" aria-label="What this page is designed to answer">
                 <span>Specialist plastic surgery assessment</span>
@@ -303,57 +317,7 @@ export default function ProcedureArticlePage({ article }: Props) {
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {reviewedIso}</span>
             </div>
 
-            <section className="procedure-cluster-nav" aria-label="Related consultation pathways">
-              <div>
-                <div className="procedure-map-kicker">Procedure pathway</div>
-                <h2>Compare this option with related procedures</h2>
-                <p>
-                  Explore related procedures and recovery information to understand the options you may wish to discuss at consultation.
-                </p>
-              </div>
-              <div className="procedure-cluster-links">
-                {relatedArticles.slice(0, 3).map((item) => (
-                  <Link href={item.href} key={`top-${item.href}`}>
-                    <small>{item.category}</small>
-                    <strong>{item.title}</strong>
-                    <span>Compare guide</span>
-                  </Link>
-                ))}
-              </div>
-            </section>
-
-            <section className="procedure-decision-map" aria-label="Procedure decision pathway">
-              <div className="procedure-map-kicker">Procedure guide</div>
-              <h2>Key decisions before considering {article.eyebrow.toLowerCase()}</h2>
-              <p>
-                Use these sections to explore suitability, consultation planning, recovery and risks.
-              </p>
-              <div className="procedure-map-grid">
-                {decisionHighlights.map((item) => (
-                  <a href={`#${item.section.id}`} className="procedure-map-card" key={`${item.label}-${item.section.id}`}>
-                    <small>{item.label}</small>
-                    <strong>{item.section.heading}</strong>
-                    <span>Read section</span>
-                  </a>
-                ))}
-              </div>
-            </section>
-
-            <section className="procedure-journey" aria-label="Consultation to recovery pathway">
-              <div className="procedure-journey-copy">
-                <div className="procedure-map-kicker">Consultation pathway</div>
-                <h2>From first assessment to recovery planning</h2>
-                <p>
-                  At consultation, discuss your concerns, previous treatment and goals. Your surgeon can explain the available options, their risks and limitations, and the recovery and follow-up each involves.
-                </p>
-              </div>
-              <ol className="procedure-journey-steps">
-                <li><strong>1. Assess the concern</strong><span>Clarify anatomy, goals, medical history, previous treatment and whether this is the correct procedure category.</span></li>
-                <li><strong>2. Compare options</strong><span>Discuss non-surgical care, alternative procedures, staging, no treatment, and the trade-offs of each approach.</span></li>
-                <li><strong>3. Plan safely</strong><span>Review anaesthesia, scars or access points, recovery demands, risks, limitations and when additional investigations may be useful.</span></li>
-                <li><strong>4. Recover with review</strong><span>Set expectations for swelling, activity restriction, follow-up, warning symptoms and longer-term outcome changes.</span></li>
-              </ol>
-            </section>
+            <ProcedureQuickLinks links={shortcutLinks} />
 
             {article.slug.includes('lymphedema') || article.slug.includes('lymphovenous') ? (
               <div className="reviewer-card" aria-label="Related LymphedAsia education links">
@@ -367,39 +331,6 @@ export default function ProcedureArticlePage({ article }: Props) {
               </div>
             ) : null}
 
-            {article.slug === 'breast-augmentation-singapore' ? (
-              <div className="reviewer-card" aria-label="Related breast implant safety and recovery guides">
-                <strong>Related breast implant safety and recovery guides</strong>
-                <span>
-                  For patients comparing implant choices and long-term follow-up, read the evidence guide on{' '}
-                  <Link href="/breast-implant-illness-singapore-evidence">breast implant illness and current evidence</Link>. For early post-operative planning, see{' '}
-                  <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore">24-hour rapid recovery breast augmentation principles</Link>.
-                </span>
-              </div>
-            ) : null}
-
-            {article.slug === 'body-contouring-liposuction-singapore' ? (
-              <div className="reviewer-card" aria-label="Related body contouring decision guides">
-                <strong>Related body contouring decision guides</strong>
-                <span>
-                  If your main concern is loose abdominal skin or muscle separation rather than localised fat, compare{' '}
-                  <Link href="/tummy-tuck-singapore">tummy tuck / abdominoplasty planning</Link>. For broader procedure selection and safety questions, see the{' '}
-                  <Link href="/plastic-surgeon-singapore">plastic surgeon in Singapore consultation guide</Link>.
-                </span>
-              </div>
-            ) : null}
-
-            {article.slug === 'tummy-tuck-singapore' ? (
-              <div className="reviewer-card" aria-label="Related tummy tuck and body contouring guides">
-                <strong>Related tummy tuck and body contouring guides</strong>
-                <span>
-                  If your concern is mainly localised fat rather than loose skin or abdominal wall separation, compare{' '}
-                  <Link href="/body-contouring-liposuction-singapore">body contouring and liposuction planning</Link>. For broader safety and credential questions, see the{' '}
-                  <Link href="/plastic-surgeon-singapore">plastic surgeon in Singapore consultation guide</Link>.
-                </span>
-              </div>
-            ) : null}
-
             {article.sections.map((section) => (
               <section key={section.id}>
                 <h2 id={section.id}>{section.heading}</h2>
@@ -409,6 +340,21 @@ export default function ProcedureArticlePage({ article }: Props) {
                     <p>Serious complications can include blood clots in the legs or lungs, fluid-related problems affecting the lungs, and injury to deeper tissues or internal organs. Individual risk depends on the treatment extent, medical history and surgical plan and should be discussed before consent.</p>
                     <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/safety">ASPS liposuction risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/candidates">ASPS liposuction suitability</a>, and <a href="https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/liposuction/">NHS liposuction overview</a>.</p>
                   </>
+                ) : null}
+                {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'materials' ? (
+                  <p>For a focused discussion of cartilage harvest, donor-site scars and alternatives, read the <Link href="/rib-rhinoplasty-singapore">rib cartilage rhinoplasty guide</Link>.</p>
+                ) : null}
+                {article.slug === 'breast-augmentation-singapore' && section.id === 'rapid-recovery' ? (
+                  <p>Read the <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore">rapid recovery breast augmentation guide</Link> for patient selection, early movement and activity limits.</p>
+                ) : null}
+                {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'skin-quality' ? (
+                  <p>Compare the <Link href="/tummy-tuck-singapore">tummy tuck and abdominoplasty guide</Link> when discussing loose abdominal skin and abdominal wall concerns.</p>
+                ) : null}
+                {article.slug === 'tummy-tuck-singapore' && section.id === 'liposuction-vs-tummy-tuck' ? (
+                  <p>Read the <Link href="/body-contouring-liposuction-singapore">liposuction and body contouring guide</Link> to compare treatment areas, skin quality and recovery considerations.</p>
+                ) : null}
+                {article.slug === 'face-neck-lift-singapore' && section.id === 'neck-lift-decision' ? (
+                  <p>Related guides cover <Link href="/body-contouring-liposuction-singapore">liposuction planning</Link> and <Link href="/thread-lifting-singapore">thread lifting</Link>. Discuss which option fits the concern identified at assessment.</p>
                 ) : null}
                 {section.items ? <ul>{section.items.map((item) => <li key={item}>{item}</li>)}</ul> : null}
               </section>
@@ -441,7 +387,7 @@ export default function ProcedureArticlePage({ article }: Props) {
             <p>
               If you would like to discuss whether this procedure or treatment area is relevant to your situation, please submit an enquiry. A formal consultation is needed before any personalised advice can be given.
             </p>
-            <ContactForm />
+            <ContactForm defaultEnquiryType={group === 'aesthetic' ? 'Aesthetic surgery' : 'Reconstructive surgery'} />
           </div>
         </section>
       </article>
