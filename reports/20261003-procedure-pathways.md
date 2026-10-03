@@ -54,3 +54,7 @@ LymphedAsia retains its earlier homepage and LVA improvements and lymphatic focu
 - Google link guidance: https://developers.google.com/search/docs/crawling-indexing/links-crawlable
 
 Further clinical depth should come from Dr Sun's original explanations: rib graft selection and revision planning; rapid recovery patient selection and instructions; facelift/neck lift technique selection; liposuction versus skin excision. These are candidate inputs, not published personal technique claims.
+
+## Browser verification follow-up
+
+Live browser checks confirmed the aesthetic category default and required empty fields without submitting an enquiry. A shortcut initially placed the section heading behind the sticky header. Added a 96px scroll margin to article heading/section targets and verified the recovery heading remains visible after navigation. A final metadata check also corrected the liposuction wrapper to use its concise presentation title.
