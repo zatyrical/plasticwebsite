@@ -98,6 +98,8 @@ const establishedArticles = [
 ];
 
 export default function ProcedureArticlePage({ article }: Props) {
+  const reviewedIso = article.reviewedIso ?? lastReviewedIso;
+  const publishedIso = article.publishedIso ?? lastReviewedIso;
   const articleUrl = `${baseUrl}/${article.slug}`;
   const group = article.backHref.includes('aesthetic') ? 'aesthetic' : 'reconstructive';
   const generatedRelated = procedureArticleList
@@ -110,13 +112,14 @@ export default function ProcedureArticlePage({ article }: Props) {
       group
     }));
   const relatedByProcedure: Record<string, string[]> = {
+    'eyebag-removal-lower-blepharoplasty-singapore': ['asian-eyelid-surgery-singapore', 'face-neck-lift-singapore'],
     'breast-augmentation-singapore': ['24-hour-rapid-recovery-breast-augmentation-singapore', 'breast-aesthetic-surgery-singapore', 'breast-implant-illness-singapore-evidence', 'mommy-makeover-singapore'],
     'tummy-tuck-singapore': ['body-contouring-liposuction-singapore', 'mommy-makeover-singapore', 'compression-foam-lymphatic-massage-after-liposuction'],
     'mommy-makeover-singapore': ['tummy-tuck-singapore', 'breast-augmentation-singapore', 'breast-aesthetic-surgery-singapore', 'body-contouring-liposuction-singapore'],
     'body-contouring-liposuction-singapore': ['tummy-tuck-singapore', 'compression-foam-lymphatic-massage-after-liposuction', 'mommy-makeover-singapore'],
     'asian-rhinoplasty-singapore': ['rib-rhinoplasty-singapore'],
     'rib-rhinoplasty-singapore': ['asian-rhinoplasty-singapore'],
-    'face-neck-lift-singapore': ['thread-lifting-singapore', 'fat-grafting-singapore', 'asian-eyelid-surgery-singapore'],
+    'face-neck-lift-singapore': ['eyebag-removal-lower-blepharoplasty-singapore', 'thread-lifting-singapore', 'fat-grafting-singapore', 'asian-eyelid-surgery-singapore'],
     'thread-lifting-singapore': ['face-neck-lift-singapore', 'fat-grafting-singapore', 'lasers-injectables-singapore'],
     'fat-grafting-singapore': ['face-neck-lift-singapore', 'thread-lifting-singapore', 'asian-eyelid-surgery-singapore']
   };
@@ -232,9 +235,9 @@ export default function ProcedureArticlePage({ article }: Props) {
             { '@type': 'MedicalProcedure', name: 'Pectoral nerve block' }
           ]
         } : {}),
-        datePublished: lastReviewedIso,
-        dateModified: lastReviewedIso,
-        lastReviewed: lastReviewedIso,
+        datePublished: publishedIso,
+        dateModified: reviewedIso,
+        lastReviewed: reviewedIso,
         reviewedBy: { '@id': physicianId },
         author: { '@id': physicianId },
         publisher: { '@id': physicianId }
@@ -296,8 +299,8 @@ export default function ProcedureArticlePage({ article }: Props) {
               This page provides general information and should not replace consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.
             </p>
             <div className="reviewer-card" aria-label="Medical review information">
-              <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
-              <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
+              <strong>{article.publishedIso ? 'Clinically reviewed by Dr Jeremy Sun' : 'Clinically authored and reviewed by Dr Jeremy Sun'}</strong>
+              <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {reviewedIso}</span>
             </div>
 
             <section className="procedure-cluster-nav" aria-label="Related consultation pathways">
@@ -410,6 +413,10 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {section.items ? <ul>{section.items.map((item) => <li key={item}>{item}</li>)}</ul> : null}
               </section>
             ))}
+
+            {article.slug === 'eyebag-removal-lower-blepharoplasty-singapore' ? (
+              <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/eyelid-surgery/procedure">ASPS eyelid surgery approaches</a> and <a href="https://www.plasticsurgery.org/cosmetic-procedures/eyelid-surgery/safety">ASPS eyelid surgery risks</a>.</p>
+            ) : null}
 
             <h2 id="faq">FAQs</h2>
             {article.faqs.map((faq) => (
