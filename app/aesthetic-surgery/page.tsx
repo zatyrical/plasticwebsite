@@ -42,7 +42,7 @@ export default function AestheticSurgeryPage() {
             <nav className="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Aesthetic surgery</span></nav>
             <div className="eyebrow">Aesthetic surgery</div>
             <h1>Aesthetic surgery treatments.</h1>
-            <p className="lead">Explore Dr Sun’s aesthetic surgery guides in Singapore, including rhinoplasty and rib rhinoplasty, breast augmentation and recovery planning, eyelid surgery, facelift and neck lift, liposuction, and tummy tuck / abdominoplasty.</p>
+            <p className="lead">Explore Dr Sun’s aesthetic surgery guides in Singapore, including rhinoplasty and rib rhinoplasty, breast augmentation and recovery planning, eyebag removal and eyelid surgery, facelift and neck lift, liposuction, and tummy tuck / abdominoplasty.</p>
           </div>
           <aside className="article-summary-card">
             <h2>Explore procedure guides</h2>
@@ -51,6 +51,7 @@ export default function AestheticSurgeryPage() {
               <li><a href="/asian-rhinoplasty-singapore">Rhinoplasty / Asian nose surgery</a></li>
               <li><a href="/breast-augmentation-singapore">Breast augmentation and implant planning</a></li>
               <li><a href="/24-hour-rapid-recovery-breast-augmentation-singapore">Rapid recovery breast augmentation: principles and limits</a></li>
+              <li><a href="/eyebag-removal-lower-blepharoplasty-singapore">Eyebag removal / lower blepharoplasty</a></li>
               <li><a href="/asian-eyelid-surgery-singapore">Upper eyelid / double eyelid surgery</a></li>
               <li><a href="/face-neck-lift-singapore">Facelift and neck lift</a></li>
               <li><a href="/body-contouring-liposuction-singapore">Body contouring and liposuction</a></li>
