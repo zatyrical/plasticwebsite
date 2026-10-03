@@ -42,20 +42,20 @@ export default function AestheticSurgeryPage() {
             <nav className="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Aesthetic surgery</span></nav>
             <div className="eyebrow">Aesthetic surgery</div>
             <h1>Aesthetic surgery treatments.</h1>
-            <p className="lead">A focused overview of Dr Sun’s high-intent aesthetic procedure pages for Singapore patients comparing breast augmentation, mommy / mummy makeover, tummy tuck / abdominoplasty, facelift, neck lift, liposuction, rhinoplasty and rib rhinoplasty.</p>
+            <p className="lead">Explore Dr Sun’s aesthetic surgery guides in Singapore, including rhinoplasty and rib rhinoplasty, breast augmentation and recovery planning, eyelid surgery, facelift and neck lift, liposuction, and tummy tuck / abdominoplasty.</p>
           </div>
           <aside className="article-summary-card">
-            <h2>Signature focus</h2>
+            <h2>Explore procedure guides</h2>
             <ul>
-              <li><a href="/breast-augmentation-singapore">Breast augmentation in Singapore — implant planning</a></li>
-              <li><a href="/breast-aesthetic-surgery-singapore">Breast augmentation, reduction & lift</a></li>
-              <li><a href="/breast-implant-illness-singapore-evidence">Breast implant illness evidence guide</a></li>
-              <li><a href="/mommy-makeover-singapore">Mommy / mummy makeover in Singapore</a></li>
-              <li><a href="/tummy-tuck-singapore">Tummy tuck / abdominoplasty</a></li>
-              <li><a href="/body-contouring-liposuction-singapore">Liposuction / body contouring</a></li>
-              <li><a href="/face-neck-lift-singapore">Facelift / face lift and neck lift</a></li>
-              <li><a href="/asian-rhinoplasty-singapore">Rhinoplasty / Asian nose surgery</a></li>
               <li><a href="/rib-rhinoplasty-singapore">Rib rhinoplasty / rib cartilage nose surgery</a></li>
+              <li><a href="/asian-rhinoplasty-singapore">Rhinoplasty / Asian nose surgery</a></li>
+              <li><a href="/breast-augmentation-singapore">Breast augmentation and implant planning</a></li>
+              <li><a href="/24-hour-rapid-recovery-breast-augmentation-singapore">Rapid recovery breast augmentation: principles and limits</a></li>
+              <li><a href="/asian-eyelid-surgery-singapore">Upper eyelid / double eyelid surgery</a></li>
+              <li><a href="/face-neck-lift-singapore">Facelift and neck lift</a></li>
+              <li><a href="/body-contouring-liposuction-singapore">Body contouring and liposuction</a></li>
+              <li><a href="/tummy-tuck-singapore">Tummy tuck / abdominoplasty</a></li>
+              <li><a href="/mommy-makeover-singapore">Mommy makeover / post-pregnancy surgery</a></li>
             </ul>
           </aside>
         </div>
@@ -65,7 +65,7 @@ export default function AestheticSurgeryPage() {
         <div className="container">
           <div className="eyebrow">Full treatment list</div>
           <h2>Aesthetic treatment pages</h2>
-          <p className="section-intro">Each tile links to patient-focused information on planning, suitability, cost factors, recovery, risks and realistic limitations. Patients comparing high-intent procedures can start with <a href="/breast-augmentation-singapore">breast augmentation in Singapore</a>, <a href="/mommy-makeover-singapore">mommy / mummy makeover in Singapore</a>, <a href="/tummy-tuck-singapore">tummy tuck / abdominoplasty in Singapore</a>, <a href="/body-contouring-liposuction-singapore">liposuction and body contouring</a>, <a href="/face-neck-lift-singapore">facelift / neck lift</a>, <a href="/asian-rhinoplasty-singapore">rhinoplasty</a> or <a href="/rib-rhinoplasty-singapore">rib rhinoplasty</a>.</p>
+          <p className="section-intro">Each tile links to patient-focused information on planning, suitability, cost factors, recovery, risks and realistic limitations. To compare procedures, start with <a href="/breast-augmentation-singapore">breast augmentation in Singapore</a>, <a href="/mommy-makeover-singapore">mommy / mummy makeover in Singapore</a>, <a href="/tummy-tuck-singapore">tummy tuck / abdominoplasty in Singapore</a>, <a href="/body-contouring-liposuction-singapore">liposuction and body contouring</a>, <a href="/face-neck-lift-singapore">facelift / neck lift</a>, <a href="/asian-rhinoplasty-singapore">rhinoplasty</a> or <a href="/rib-rhinoplasty-singapore">rib rhinoplasty</a>.</p>
           <div className="grid-3 focus-grid aesthetic-photo-grid treatment-listing-grid">{aestheticTreatments.map((x) => (
             <a className="card linked-card focus-card aesthetic-photo-card" href={x.href} key={x.title}>
               <Image src={x.image} alt={x.alt} width={720} height={720} />
