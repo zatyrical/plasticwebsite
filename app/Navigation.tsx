@@ -6,8 +6,8 @@ import { useState } from 'react';
 
 const navItems = [
   { href: '/plastic-surgeon-singapore', label: 'About' },
-  { href: '/#aesthetic-surgery', label: 'Aesthetic' },
-  { href: '/#reconstructive-surgery', label: 'Reconstructive' },
+  { href: '/aesthetic-surgery', label: 'Aesthetic' },
+  { href: '/reconstructive-surgery', label: 'Reconstructive' },
   { href: '/lymphedema-surgery-singapore', label: 'Lymphedema' },
   { href: '/training-and-fellowships', label: 'Training' },
   { href: '/media', label: 'Media' },
