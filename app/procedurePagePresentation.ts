@@ -10,9 +10,9 @@ export const procedurePagePresentation: Record<string, { heading: string; title:
     "description": "Asian rhinoplasty in Singapore: bridge and tip planning, implants or cartilage, rib rhinoplasty, revision surgery, recovery and risks."
   },
   "breast-augmentation-singapore": {
-    "heading": "Breast Augmentation in Singapore",
-    "title": "Breast Augmentation Singapore",
-    "description": "Breast augmentation in Singapore: implant choices, cost factors, rapid recovery principles, risks and consultation planning with Dr Jeremy Sun."
+    "heading": "Breast Augmentation Singapore",
+    "title": "Breast Augmentation Singapore | Breast Implant Surgery",
+    "description": "Breast augmentation Singapore guide: breast implant surgery, Motiva planning, implant placement/profile, cost factors, recovery, screening and risks."
   },
   "24-hour-rapid-recovery-breast-augmentation-singapore": {
     "heading": "24-Hour Rapid Recovery Breast Augmentation in Singapore",
@@ -25,13 +25,13 @@ export const procedurePagePresentation: Record<string, { heading: string; title:
     "description": "Facelift and neck lift in Singapore: assess jowls and neck laxity, compare alternatives, and understand cost factors, scars, recovery and risks."
   },
   "body-contouring-liposuction-singapore": {
-    "heading": "Liposuction and Body Contouring in Singapore",
-    "title": "Liposuction & Body Contouring Singapore",
-    "description": "Liposuction and body contouring in Singapore: treatment areas, skin quality, alternatives to fat removal, cost factors, recovery and risks."
+    "heading": "Liposuction and Body Contouring Surgery in Singapore",
+    "title": "Liposuction Singapore | Body Contouring Surgery",
+    "description": "Liposuction Singapore and body contouring surgery guide: treatment areas, skin quality, alternatives, cost factors, recovery and risks."
   },
   "tummy-tuck-singapore": {
-    "heading": "Tummy Tuck and Abdominoplasty in Singapore",
-    "title": "Tummy Tuck / Abdominoplasty Singapore",
-    "description": "Tummy tuck and abdominoplasty in Singapore: loose skin, abdominal wall repair, mini versus full surgery, liposuction alternatives, scars and recovery."
+    "heading": "Abdominoplasty and Tummy Tuck Surgery in Singapore",
+    "title": "Abdominoplasty Singapore | Tummy Tuck Surgery",
+    "description": "Abdominoplasty Singapore and tummy tuck surgery guide: loose skin, diastasis/divarication repair, mini vs full surgery, scars and recovery."
   }
 };
