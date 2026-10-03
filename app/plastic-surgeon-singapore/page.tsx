@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
@@ -112,6 +113,7 @@ export default function PlasticSurgeonSingaporePage() {
               <h2>On this page</h2>
               <ul>
                 <li><a href="#dr-jeremy-sun">About Dr Jeremy Sun</a></li>
+                <li><a href="#lymphoedema-fellowship">Dedicated lymphoedema fellowship</a></li>
                 <li><a href="#evaluate">How to evaluate a surgeon</a></li>
                 <li><a href="#credentials">Credentials</a></li>
                 <li><a href="#aesthetic-reconstructive">Aesthetic and reconstructive training</a></li>
@@ -152,6 +154,18 @@ export default function PlasticSurgeonSingaporePage() {
               </div>
               <h3>Where can patients enquire about a private consultation?</h3>
               <p>Private consultation enquiries are handled through Astrid Plastic Surgery at <strong>290 Orchard Road, #09-01/02, Paragon Medical, Singapore 238859</strong>. Call <a href="tel:+6565303573">+65 6530 3573</a> or use the <Link href="/#contact">consultation enquiry form</Link>. View <a href="https://www.google.com/maps/place/Dr+Jeremy+Sun/@1.3039053,103.8355763,17z/data=!3m1!4b1!4m6!3m5!1s0x31da19469f2612cd:0xcba381971e77822e!8m2!3d1.3039053!4d103.8355763!16s%2Fg%2F11nw796mdz?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D">Dr Jeremy Sun’s Google Maps listing</a> for directions.</p>
+            </section>
+
+            <section id="lymphoedema-fellowship">
+              <h2>Why I pursued dedicated lymphoedema fellowship training</h2>
+              <p>Dr Jeremy Sun completed dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Japan. The training encompassed management of lymphoedema as a whole, alongside lymphatic surgery.</p>
+              <p>Reflecting on his decision, Dr Sun explains: “During my local surgical training, I remained sceptical about lymphoedema surgery. My exposure was limited, and I had unanswered questions about how the procedures worked and what influenced their outcomes.” Learning about the work of Japanese teams around 2020 prompted him to seek a deeper understanding; in 2022 he decided to pursue dedicated training.</p>
+              <p>His account describes how sustained exposure to multidisciplinary care, lymphaticovenular anastomosis (LVA) and lymphatic reconstruction broadened his understanding of treatment selection and the limits of his earlier experience.</p>
+              <figure>
+                <Image src="/images/lymphoedema-microsurgery-team.jpg" alt="Operating-room team working with a surgical microscope" width={1152} height={1536} sizes="(max-width: 768px) 100vw, 720px" style={{ width: '100%', height: 'auto', maxWidth: '720px', borderRadius: '12px' }} />
+                <figcaption>Operating-room photograph supplied by Dr Jeremy Sun. This image illustrates the surgical setting; it does not demonstrate a treatment outcome.</figcaption>
+              </figure>
+              <p><a href="https://lymphedasia.com/dedicated-lymphedema-surgery-training-hmdp/#why-i-pursued-lymphoedema-fellowship">Read the full Q&amp;A about Dr Jeremy Sun’s dedicated lymphoedema training on Lymphedema Asia</a>.</p>
             </section>
 
             <section id="evaluate">
