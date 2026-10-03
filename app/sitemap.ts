@@ -1,7 +1,14 @@
 import type { MetadataRoute } from 'next';
 import { procedureArticleList } from './procedureArticles';
+import { procedurePagePresentation } from './procedurePagePresentation';
 
 const baseUrl = 'https://www.drjeremysun.com';
+const updatedAt = '2026-10-03';
+const updatedPaths = new Set([
+  '', '/aesthetic-surgery', '/reconstructive-surgery',
+  '/asian-eyelid-surgery-singapore', '/eyebag-removal-lower-blepharoplasty-singapore',
+  ...Object.keys(procedurePagePresentation).map((slug) => `/${slug}`)
+]);
 
 const coreRoutes = [
   { path: '', priority: 1, changeFrequency: 'weekly' as const },
@@ -36,6 +43,7 @@ const coreRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const procedureRoutes = procedureArticleList.map((article) => ({
     url: `${baseUrl}/${article.slug}`,
+    lastModified: updatedAt,
     changeFrequency: 'monthly' as const,
     priority: article.backHref.includes('aesthetic') ? 0.82 : 0.8
   }));
@@ -43,6 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes: MetadataRoute.Sitemap = [
     ...coreRoutes.map((route) => ({
       url: `${baseUrl}${route.path}`,
+      ...(updatedPaths.has(route.path) ? { lastModified: updatedAt } : {}),
       changeFrequency: route.changeFrequency,
       priority: route.priority
     })),
