@@ -5,6 +5,13 @@ export type ProcedureSection = {
   heading: string;
   paragraphs?: string[];
   items?: string[];
+  image?: {
+    src: string;
+    alt: string;
+    caption: string;
+    width: number;
+    height: number;
+  };
 };
 
 export type ProcedureFaq = {
@@ -597,6 +604,13 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'alternatives',
         heading: 'Alternatives to rib cartilage rhinoplasty',
+        image: {
+          src: '/images/rhinoplasty/rib-cartilage-silicone-nasal-implant.webp',
+          alt: 'Educational illustration of rib cartilage on the left and a silicone nasal implant on the right, on a green surgical drape',
+          caption: 'Educational illustration: rib cartilage (left) and a silicone nasal implant (right). These materials have different roles, benefits and risks; suitability is assessed individually. The illustration does not show a treatment result or compare dimensions to scale.',
+          width: 1536,
+          height: 1024
+        },
         paragraphs: ['Alternatives may include septal cartilage, ear cartilage, implant-based planning, combined materials, a more limited rhinoplasty or no surgery. Each option has different strengths, risks and limitations.', 'A patient with modest goals may not need rib cartilage. Conversely, a patient needing stronger support may not get a stable result from a smaller graft source.']
       },
       {
