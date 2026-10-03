@@ -7,8 +7,8 @@ import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoId
 const pageUrl = `${baseUrl}/plastic-surgeon-singapore`;
 
 export const metadata: Metadata = {
-  title: 'Plastic Surgeon in Singapore: How to Choose Safely',
-  description: 'A patient guide to choosing a plastic surgeon in Singapore, including specialist credentials, aesthetic versus reconstructive training, procedure fit, safety questions and consultation planning.',
+  title: 'Dr Jeremy Sun | Plastic Surgeon in Singapore & Patient Guide',
+  description: 'Dr Jeremy Sun (Sun Mingfa Jeremy), Senior Consultant Plastic Surgeon in Singapore: professional profiles, procedure guides, Paragon consultation enquiries and safety questions.',
   keywords: [
     'plastic surgeon Singapore',
     'plastic surgery Singapore',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: '/plastic-surgeon-singapore' },
   openGraph: {
-    title: 'Plastic Surgeon in Singapore: How to Choose Safely',
+    title: 'Dr Jeremy Sun | Plastic Surgeon in Singapore & Patient Guide',
     description: 'Patient-focused guidance on choosing a plastic surgeon in Singapore and planning a safe consultation.',
     url: '/plastic-surgeon-singapore',
     type: 'article'
@@ -57,11 +57,11 @@ const jsonLd = {
     },
     physicianJsonLd,
     {
-      '@type': 'MedicalWebPage',
+      '@type': ['MedicalWebPage', 'ProfilePage'],
       '@id': `${pageUrl}#webpage`,
       url: pageUrl,
-      name: 'Plastic Surgeon in Singapore: How to Choose Safely',
-      headline: 'Plastic Surgeon in Singapore: How to Choose Safely',
+      name: 'Dr Jeremy Sun: Plastic Surgeon in Singapore',
+      headline: 'Dr Jeremy Sun: Plastic Surgeon in Singapore',
       description: metadata.description,
       inLanguage: 'en-SG',
       about: [
@@ -72,11 +72,12 @@ const jsonLd = {
         'choosing a plastic surgeon'
       ],
       datePublished: lastReviewedIso,
-      dateModified: lastReviewedIso,
+      dateModified: '2026-10-04',
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
-      publisher: { '@id': physicianId }
+      publisher: { '@id': physicianId },
+      mainEntity: { '@id': physicianId }
     },
     {
       '@type': 'FAQPage',
@@ -100,8 +101,8 @@ export default function PlasticSurgeonSingaporePage() {
             <div>
               <nav className="breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span>/</span><span>Plastic surgeon Singapore</span></nav>
               <div className="eyebrow">Patient guide</div>
-              <h1>Plastic Surgeon in Singapore: How to Choose Safely</h1>
-              <p className="lead">A practical guide to specialist credentials, procedure fit, consultation planning and safety questions when considering plastic surgery in Singapore.</p>
+              <h1>Dr Jeremy Sun: Plastic Surgeon in Singapore</h1>
+              <p className="lead">Professional background, procedure guides and consultation information, followed by practical questions to help patients assess specialist credentials, suitability and safety.</p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
                 <Link href="/aesthetic-surgery" className="btn btn-ghost">View aesthetic procedures</Link>
@@ -110,6 +111,7 @@ export default function PlasticSurgeonSingaporePage() {
             <aside className="article-summary-card">
               <h2>On this page</h2>
               <ul>
+                <li><a href="#dr-jeremy-sun">About Dr Jeremy Sun</a></li>
                 <li><a href="#evaluate">How to evaluate a surgeon</a></li>
                 <li><a href="#credentials">Credentials</a></li>
                 <li><a href="#aesthetic-reconstructive">Aesthetic and reconstructive training</a></li>
@@ -133,6 +135,24 @@ export default function PlasticSurgeonSingaporePage() {
               <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
             </div>
+
+            <section id="dr-jeremy-sun">
+              <h2>Who is Dr Jeremy Sun?</h2>
+              <p>Dr Jeremy Sun is a Senior Consultant Plastic Surgeon in Singapore, also listed professionally as <strong>Sun Mingfa Jeremy</strong> and on Lymphedema Asia as <strong>Dr Jeremy Sun Mingfa</strong>. These names refer to the same doctor. His practice includes aesthetic surgery, reconstructive microsurgery and lymphatic surgery.</p>
+              <p>Patients can cross-check his background through his <a href="https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy">CGH doctor listing</a>, <Link href="/training-and-fellowships">training and fellowships</Link>, and <Link href="/publications">selected publications</Link>. His <a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">Lymphedema Asia profile</a> focuses on lymphoedema assessment and lymphatic surgery.</p>
+              <h3>Procedure-specific patient information</h3>
+              <p>The following guides explain the options, suitability, risks and recovery considerations to discuss during an individual consultation.</p>
+              <div className="related-grid">
+                <Link href="/rib-rhinoplasty-singapore" className="related-card"><small>Nose surgery</small><strong>Rib cartilage rhinoplasty</strong><span>Graft options, donor site and recovery</span></Link>
+                <Link href="/eyebag-removal-lower-blepharoplasty-singapore" className="related-card"><small>Lower eyelids</small><strong>Eyebag removal / lower blepharoplasty</strong><span>Transconjunctival approach and individual planning</span></Link>
+                <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore" className="related-card"><small>Breast surgery</small><strong>Breast augmentation recovery planning</strong><span>Early activity, restrictions and individual variability</span></Link>
+                <Link href="/face-neck-lift-singapore" className="related-card"><small>Facial surgery</small><strong>Facelift and neck lift</strong><span>Suitability, scars, alternatives and recovery</span></Link>
+                <Link href="/body-contouring-liposuction-singapore" className="related-card"><small>Body contouring</small><strong>Liposuction</strong><span>Fat, skin quality and treatment limits</span></Link>
+                <Link href="/tummy-tuck-singapore" className="related-card"><small>Abdominal surgery</small><strong>Tummy tuck / abdominoplasty</strong><span>Skin, abdominal wall and recovery considerations</span></Link>
+              </div>
+              <h3>Where can patients enquire about a private consultation?</h3>
+              <p>Private consultation enquiries are handled through Astrid Plastic Surgery at <strong>290 Orchard Road, #09-01/02, Paragon Medical, Singapore 238859</strong>. Call <a href="tel:+6565303573">+65 6530 3573</a> or use the <Link href="/#contact">consultation enquiry form</Link>. View <a href="https://www.google.com/maps/place/Dr+Jeremy+Sun/@1.3039053,103.8355763,17z/data=!3m1!4b1!4m6!3m5!1s0x31da19469f2612cd:0xcba381971e77822e!8m2!3d1.3039053!4d103.8355763!16s%2Fg%2F11nw796mdz?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D">Dr Jeremy Sun’s Google Maps listing</a> for directions.</p>
+            </section>
 
             <section id="evaluate">
               <h2>How should patients evaluate a plastic surgeon in Singapore?</h2>
