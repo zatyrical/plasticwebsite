@@ -13,7 +13,7 @@ DrJeremySun.com owns the following aesthetic surgery intents. LymphedAsia remain
 | Facelift / face lift / neck lift | /face-neck-lift-singapore | Combined guide retained; homepage label explicitly includes neck lift |
 | Body contouring / liposuction | /body-contouring-liposuction-singapore | Promoted to homepage signature card; relevant recovery and tummy tuck links retained |
 | Tummy tuck / abdominoplasty | /tummy-tuck-singapore | Combined guide retained and homepage signature card retained |
-| Eyebags / lower blepharoplasty | Proposed /eyebag-removal-lower-blepharoplasty-singapore | Distinct gap; draft below, not a published route |
+| Eyebags / lower blepharoplasty | /eyebag-removal-lower-blepharoplasty-singapore | Clinically approved 3 October 2026; dedicated guide implemented |
 
 Curated related guides no longer fill spare slots with unrelated catalogue entries. Rhinoplasty guides now link to each other without unrelated body-procedure filler. Existing canonical URLs, clinical descriptions and review dates remain intact. Upper eyelid surgery is explicitly labelled as upper/double eyelid surgery on the hub.
 
@@ -23,7 +23,7 @@ GSC Singapore, web, all devices, 3–29 September 2026, query/page dimensions. P
 
 Measure each cluster using the same query group and country across comparable periods: impressions, clicks, clicks/impressions, primary ranking URL, qualified enquiries, consultation bookings. GA4 was not linked in the GSC connector, so conversion uplift cannot currently be established from this baseline. Two-week movement is possible but not guaranteed; publication and crawl checks are distinct from measured ranking gains.
 
-## Lower blepharoplasty draft — clinician review required
+## Lower blepharoplasty draft — approved 3 October 2026
 
 **Proposed title:** Eyebag Removal & Lower Blepharoplasty Singapore
 
@@ -61,11 +61,11 @@ Request an individual quotation after assessment and clarification of the propos
 - What restrictions and follow-up will I need?
 - Which complications should I understand, and how would they be managed?
 
-## Specific clinical input needed before publication
+## Original clinical input brief (prior to approval)
 
 Confirm which lower eyelid techniques you actually offer; when you choose transconjunctival versus external access; your approach to fat repositioning versus removal and eyelid support; how you distinguish bags from hollowing, pigmentation and swelling; your recovery instructions and urgent contact pathway. Add your own explanation of two or three common patient decisions. Confirm the draft's accuracy and service availability; no technique, outcome, fee or review date is invented.
 
-After clinical review: build the dedicated route, self-canonical metadata, factual structured data reflecting the actual review, sitemap entry, enquiry form, and links from the homepage/hub, upper eyelid guide and face/neck lift guide. Do not advertise lower eyelid surgery as already covered by the existing upper eyelid page.
+Implementation brief: build the dedicated route, self-canonical metadata, factual structured data reflecting the actual review, sitemap entry, enquiry form, and links from the homepage/hub, upper eyelid guide and face/neck lift guide. Do not advertise lower eyelid surgery as already covered by the existing upper eyelid page.
 
 ## Sources checked 3 October 2026
 
@@ -75,3 +75,11 @@ After clinical review: build the dedicated route, self-canonical metadata, factu
 - MOH aesthetic advertising guidance: https://www.moh.gov.sg/newsroom/regulation-of-advertisements-for-aesthetic-treatments/
 
 Source-based draft is for clinical review, not evidence of Dr Sun's personal technique or outcomes. No testimonials, before/after advertising, superiority claims or new clinical promises are introduced.
+
+## Clinical approval and implementation
+
+Dr Sun approved the draft on 3 October 2026 and confirmed that he usually uses transconjunctival access for eyebag removal because of concern about lid retraction, with planning customised to individual requirements. The published guide describes access through the inner lower eyelid, retains explicit risks and limitations, and avoids asserting universal superiority or zero retraction risk. It does not claim he performs an unconfirmed fat-repositioning or lid-support technique.
+
+Added the dedicated route, metadata, automatic sitemap inclusion and homepage/hub, upper eyelid and face/neck lift links. The new page has its own review/publication dates; existing pages retain their existing dates. Shared reviewer wording identifies the new page as clinically reviewed rather than claiming its draft was written by the clinician.
+
+Dr Sun additionally confirmed that tear trough implants may be considered for selected patients with under-eye hollowing associated with bone resorption. Added this as an individual treatment decision, distinct from routine eyebag removal, without invented implant materials, access techniques or outcome claims.

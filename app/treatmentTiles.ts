@@ -12,7 +12,8 @@ export const aestheticTreatments: TreatmentTile[] = [
   { title: 'Breast augmentation & implant planning', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during breast augmentation and Motiva implant consultation planning in Singapore' },
   { title: 'Rhinoplasty / Asian nose surgery', href: '/asian-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image for rhinoplasty' },
   { title: 'Rib rhinoplasty / rib cartilage nose surgery', href: '/rib-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image representing rib cartilage rhinoplasty planning in Singapore' },
-  { title: 'Eyelid surgery', href: '/asian-eyelid-surgery-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Asian eyelid image with surgical planning markings' },
+  { title: 'Eyebag removal / lower blepharoplasty', href: '/eyebag-removal-lower-blepharoplasty-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Illustrative eyelid image for lower eyelid surgery consultation' },
+  { title: 'Upper eyelid / double eyelid surgery', href: '/asian-eyelid-surgery-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Asian eyelid image with surgical planning markings' },
   { title: 'Facelift / face lift and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Asian lower face, jawline and neck image for face and neck lift' },
   { title: 'Lasers and injectables', href: '/lasers-injectables-singapore', image: '/images/aesthetic-ai/lasers-injectables.jpg', alt: 'Asian facial skin image with aesthetic laser handpiece' },
   { title: 'Fat grafting', href: '/fat-grafting-singapore', image: '/images/aesthetic-ai/fat-grafting.jpg', alt: 'Clinical tray image representing fat grafting precision' },
@@ -32,6 +33,7 @@ export const reconstructiveTreatments: TreatmentTile[] = [
 
 export const aestheticSignatureTreatments: TreatmentTile[] = [
   { title: 'Rib rhinoplasty / rib cartilage nose surgery', href: '/rib-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Illustrative side-profile nose image for rib rhinoplasty planning' },
+  { title: 'Eyebag removal / lower blepharoplasty', href: '/eyebag-removal-lower-blepharoplasty-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Illustrative eyelid image for lower eyelid surgery consultation' },
   { title: 'Breast augmentation & implant planning', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during consultation planning' },
   { title: 'Rapid recovery breast augmentation guide', href: '/24-hour-rapid-recovery-breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples representing breast augmentation recovery planning' },
   { title: 'Facelift and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Illustrative lower face, jawline and neck image for consultation planning' },

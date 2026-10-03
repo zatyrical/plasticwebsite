@@ -1,3 +1,5 @@
+import { lowerBlepharoplastyArticle } from './lowerBlepharoplastyArticle';
+
 export type ProcedureSection = {
   id: string;
   heading: string;
@@ -17,6 +19,8 @@ export type ProcedureArticle = {
   lead: string;
   description: string;
   keywords: string[];
+  reviewedIso?: string;
+  publishedIso?: string;
   heroImage?: {
     src: string;
     alt: string;
@@ -30,6 +34,7 @@ export type ProcedureArticle = {
 };
 
 export const procedureArticles: Record<string, ProcedureArticle> = {
+  'eyebag-removal-lower-blepharoplasty-singapore': lowerBlepharoplastyArticle,
   'body-contouring-liposuction-singapore': {
     slug: 'body-contouring-liposuction-singapore',
     title: 'Liposuction Singapore | Body Contouring Treatment',

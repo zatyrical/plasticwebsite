@@ -84,6 +84,7 @@ export default function Home() {
               <a href="/24-hour-rapid-recovery-breast-augmentation-singapore" className="btn btn-ghost">Breast augmentation recovery</a>
               <a href="/asian-rhinoplasty-singapore" className="btn btn-ghost">Rhinoplasty</a>
               <a href="/rib-rhinoplasty-singapore" className="btn btn-ghost">Rib rhinoplasty</a>
+              <a href="/eyebag-removal-lower-blepharoplasty-singapore" className="btn btn-ghost">Eyebag removal</a>
               <a href="/body-contouring-liposuction-singapore" className="btn btn-ghost">Liposuction</a>
               <a href="/face-neck-lift-singapore" className="btn btn-ghost">Facelift and neck lift</a>
               <a href="/lymphovenous-bypass-lva-surgery-singapore" className="btn btn-ghost">LVA / lymphovenous bypass</a>
@@ -136,7 +137,7 @@ export default function Home() {
         <div className="container">
           <div className="eyebrow signature-eyebrow"><span className="signature-script">Signature</span><span className="signature-kicker">Treatments</span></div>
           <h2>Aesthetic surgery</h2>
-          <p className="section-intro">A focused selection of aesthetic procedures within Dr Sun’s practice, including detailed guides to <a href="/breast-augmentation-singapore">breast augmentation in Singapore</a>, <a href="/24-hour-rapid-recovery-breast-augmentation-singapore">rapid recovery principles and limits</a>, <a href="/mommy-makeover-singapore">mommy makeover / post-pregnancy surgery</a>, <a href="/tummy-tuck-singapore">tummy tuck / abdominoplasty in Singapore</a>, <a href="/body-contouring-liposuction-singapore">liposuction and body contouring</a>, <a href="/face-neck-lift-singapore">facelift and neck lift</a>, and <a href="/rib-rhinoplasty-singapore">rib rhinoplasty</a>.</p>
+          <p className="section-intro">A focused selection of aesthetic procedures within Dr Sun’s practice, including detailed guides to <a href="/breast-augmentation-singapore">breast augmentation in Singapore</a>, <a href="/24-hour-rapid-recovery-breast-augmentation-singapore">rapid recovery principles and limits</a>, <a href="/mommy-makeover-singapore">mommy makeover / post-pregnancy surgery</a>, <a href="/tummy-tuck-singapore">tummy tuck / abdominoplasty in Singapore</a>, <a href="/body-contouring-liposuction-singapore">liposuction and body contouring</a>, <a href="/face-neck-lift-singapore">facelift and neck lift</a>, <a href="/eyebag-removal-lower-blepharoplasty-singapore">eyebag removal / lower blepharoplasty</a>, and <a href="/rib-rhinoplasty-singapore">rib rhinoplasty</a>.</p>
           <div className="grid-3 focus-grid aesthetic-photo-grid signature-photo-grid">{aestheticSignatureTreatments.map((x) => {
             const content = <><Image src={x.image} alt={x.alt} width={720} height={720} sizes="(max-width: 900px) calc(50vw - 27px), (max-width: 1180px) calc(33.333vw - 26px), 368px" /><div className="aesthetic-photo-overlay"><h3>{x.title}</h3>{x.href ? <span>View page</span> : null}</div></>;
             return x.href ? <a className="card linked-card focus-card aesthetic-photo-card" href={x.href} key={x.title}>{content}</a> : <div className="card focus-card aesthetic-photo-card" key={x.title}>{content}</div>;
