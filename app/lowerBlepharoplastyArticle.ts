@@ -15,13 +15,40 @@ export const lowerBlepharoplastyArticle: ProcedureArticle = {
   ],
   "backHref": "/aesthetic-surgery",
   "backLabel": "Back to aesthetic surgery",
-  "reviewedIso": "2026-10-03",
+  "reviewedIso": "2026-10-04",
   "publishedIso": "2026-10-03",
   "intro": [
     "Lower blepharoplasty is surgery on the lower eyelids. It may address selected concerns such as bags beneath the eyes or excess lower eyelid skin. Assessment is needed to establish what is causing the appearance and whether surgery is appropriate. Lower eyelid surgery and double eyelid surgery address different areas and concerns.",
     "Dr Jeremy Sun usually approaches eyebag removal through the inside of the lower eyelid, using a transconjunctival incision. His preference is guided by concern about lower eyelid retraction. The plan is customised to the person’s requirements; this approach does not eliminate the risk of eyelid position changes or other complications."
   ],
   "sections": [
+    {
+      "id": "eyebag-and-groove",
+      "heading": "Why is there a groove beneath an eye bag?",
+      "paragraphs": [
+        "An eye bag is a bulge; the groove beneath it is a different part of the contour. Dr Sun explains that supporting ligaments tether the skin and soft tissues to the bone around the lower eye socket, called the orbital rim. This tethered transition can make the boundary beneath a bag more apparent.",
+        "The tear trough ligament towards the inner corner continues into the orbicularis retaining ligament further out. These attachments help explain the transition between the lower eyelid and cheek. The groove is not, by itself, proof of bone resorption: the bag, surrounding hollow and underlying support need to be assessed together.",
+        "This distinction matters when planning treatment. Reducing a protruding bag alone may not address the hollow beneath it. A tear trough implant is a separate consideration for selected patients with bone-related hollowing, rather than a routine answer to every visible groove."
+      ],
+      "comparison": {
+        "caption": "Different lower-eyelid concerns to discuss during assessment",
+        "columns": ["Concern", "What is being assessed", "Why the distinction matters"],
+        "rows": [
+          {
+            "label": "Protruding eye bag",
+            "values": ["The lower-eyelid bulge and the tissues contributing to it.", "Treatment of a bag may leave a separate hollow or groove."]
+          },
+          {
+            "label": "Groove beneath the bag",
+            "values": ["The tethered eyelid-to-cheek transition and surrounding contour.", "A visible groove does not automatically mean an implant is needed."]
+          },
+          {
+            "label": "Sunken under-eye area",
+            "values": ["The hollow and whether underlying bone support contributes.", "Dr Sun may discuss a tear trough implant in selected patients with bone-related hollowing."]
+          }
+        ]
+      }
+    },
     {
       "id": "suitability",
       "heading": "Is lower eyelid surgery appropriate for your concerns?",
@@ -94,6 +121,10 @@ export const lowerBlepharoplastyArticle: ProcedureArticle = {
     }
   ],
   "faqs": [
+    {
+      "question": "Why can an eye bag have a hollow or groove beneath it?",
+      "answer": "Supporting ligaments tether the skin and soft tissues around the lower orbital rim, helping define the transition between the eyelid and cheek. A protruding bag can make this groove more apparent. The bag, hollow and bone support should be assessed together; a groove alone does not establish bone resorption or a need for an implant."
+    },
     {
       "question": "Is eyebag removal the same as double eyelid surgery?",
       "answer": "No. Lower blepharoplasty addresses the lower eyelids, while double eyelid surgery addresses the upper eyelid crease. The right procedure depends on the concern and examination."
