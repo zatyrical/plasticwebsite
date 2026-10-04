@@ -4,6 +4,11 @@ import { procedurePagePresentation } from './procedurePagePresentation';
 
 const baseUrl = 'https://www.drjeremysun.com';
 const updatedAt = '2026-10-03';
+const latestModifiedPaths = new Map([
+  ['/plastic-surgeon-singapore', '2026-10-04'],
+  ['/training-and-fellowships', '2026-10-04'],
+  ['/rib-rhinoplasty-singapore', '2026-10-04']
+]);
 const updatedPaths = new Set([
   '', '/aesthetic-surgery', '/reconstructive-surgery',
   '/asian-eyelid-surgery-singapore', '/eyebag-removal-lower-blepharoplasty-singapore',
@@ -43,7 +48,7 @@ const coreRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const procedureRoutes = procedureArticleList.map((article) => ({
     url: `${baseUrl}/${article.slug}`,
-    lastModified: updatedAt,
+    lastModified: latestModifiedPaths.get(`/${article.slug}`) ?? updatedAt,
     changeFrequency: 'monthly' as const,
     priority: article.backHref.includes('aesthetic') ? 0.82 : 0.8
   }));
@@ -51,7 +56,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const routes: MetadataRoute.Sitemap = [
     ...coreRoutes.map((route) => ({
       url: `${baseUrl}${route.path}`,
-      ...(updatedPaths.has(route.path) ? { lastModified: updatedAt } : {}),
+      ...(latestModifiedPaths.has(route.path)
+        ? { lastModified: latestModifiedPaths.get(route.path) }
+        : updatedPaths.has(route.path) ? { lastModified: updatedAt } : {}),
       changeFrequency: route.changeFrequency,
       priority: route.priority
     })),
