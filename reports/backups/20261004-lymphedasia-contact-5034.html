@@ -1,0 +1,59 @@
+<!-- wp:html -->
+<style>
+  .la-contact{--ink:#2b2638;--muted:#615d66;--purple:#432e58;--line:#e4dde8;--cream:#fbfaf6;max-width:980px;margin:0 auto;padding:48px 22px;color:var(--ink)}
+  .la-contact-hero{display:grid;grid-template-columns:1fr .9fr;gap:34px;align-items:start;margin-bottom:34px}.la-contact h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(42px,5vw,64px);line-height:.94;font-weight:500;letter-spacing:-.04em;margin:0 0 18px}.la-contact p{color:var(--muted);font-size:17px;line-height:1.62}.la-contact-card{background:var(--cream);border:1px solid var(--line);padding:24px;border-radius:2px}.la-contact-card strong{display:block;margin-bottom:8px}.la-contact-form{display:grid;gap:16px;background:#fff;border:1px solid var(--line);padding:28px;border-radius:2px}.la-form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.la-contact-form label{display:flex;flex-direction:column;gap:8px;color:#342d3e;font-size:13px;font-weight:700}.la-contact-form input,.la-contact-form select,.la-contact-form textarea{width:100%;border:1px solid var(--line);border-radius:2px;background:#fff;color:var(--ink);padding:13px 14px;font:inherit;font-size:15px;outline:none}.la-contact-form textarea{resize:vertical;min-height:140px}.la-contact-form input:focus,.la-contact-form select:focus,.la-contact-form textarea:focus{border-color:#8f78a4;box-shadow:0 0 0 4px rgba(67,46,88,.08)}.la-hp-field{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}.la-submit{appearance:none;border:0;background:var(--purple);color:#fff;border-radius:4px;padding:14px 20px;font-weight:800;font-size:15px;cursor:pointer;justify-self:start}.la-submit:disabled{opacity:.7;cursor:wait}.la-form-status{margin:0;padding:12px 14px;border-radius:2px;font-size:14px;line-height:1.5}.la-form-status.sent{background:#eef8f3;color:#164c3d}.la-form-status.error{background:#fff1ed;color:#8a2f20}.la-form-note{font-size:13px!important;color:#6d6672!important;margin:0}.la-form-note a{color:var(--purple);font-weight:700}@media(max-width:800px){.la-contact-hero,.la-form-row{grid-template-columns:1fr}.la-contact{padding:36px 18px}.la-contact-form{padding:20px}}
+</style>
+<div class="la-contact">
+  <div class="la-contact-hero">
+    <div>
+      <h1>Contact LymphedAsia</h1>
+      <p>Use this form for non-urgent private consultation or referral enquiries about lymphoedema, lymphatic imaging, compression, LVA surgery or related swelling concerns. Enquiries are routed to Dr Jeremy Sun / Astrid Plastic Surgery's non-urgent appointment workflow.</p>
+    </div>
+    <div class="la-contact-card">
+      <strong>For private appointments</strong>
+      <p>Private appointment enquiries should go through Astrid Plastic Surgery. Please mention that you would like to enquire about a consultation with Dr Jeremy Sun. Online information is general and does not replace personalised medical assessment.</p>
+      <p><strong>Clinic location</strong>Paragon Medical<br>290 Orchard Road, #09-01/02<br>Singapore 238859<br><a href="tel:+6565303573">+65 6530 3573</a></p>
+      <p><strong>Clinic hours</strong>Monday–Friday: 9am–5pm<br>Saturday: 9am–12:30pm<br>Sunday: Closed</p>
+    </div>
+  </div>
+
+  <form class="la-contact-form" id="la-contact-form" method="post" action="https://www.drjeremysun.com/api/contact">
+    <div class="la-form-row">
+      <label>Name
+        <input name="name" type="text" autocomplete="name" required maxlength="120">
+      </label>
+      <label>Email
+        <input name="email" type="email" autocomplete="email" required maxlength="160">
+      </label>
+    </div>
+    <div class="la-form-row">
+      <label>Phone
+        <input name="phone" type="tel" autocomplete="tel" maxlength="60">
+      </label>
+      <label>Enquiry type
+        <select name="enquiryType">
+          <option>Lymphedema / LVA surgery</option>
+          <option>Consultation enquiry</option>
+          <option>ICG lymphography / lymphatic imaging</option>
+          <option>Compression / conservative treatment</option>
+          <option>Referral / professional enquiry</option>
+        </select>
+      </label>
+    </div>
+    <label>Message
+      <textarea name="message" rows="5" required maxlength="2000" placeholder="Please include the reason for enquiry, which limb or area is affected, and your preferred contact method. Do not include urgent medical information."></textarea>
+    </label>
+    <label class="la-hp-field" aria-hidden="true">Leave this field blank
+      <input name="website" type="text" tabindex="-1" autocomplete="off">
+    </label>
+    <input name="pageUrl" type="hidden" value="https://lymphedasia.com/contact/">
+    <input name="redirectSuccess" type="hidden" value="https://lymphedasia.com/contact-thank-you/">
+    <input name="redirectError" type="hidden" value="https://lymphedasia.com/contact/?form-error=1">
+    <button class="la-submit" type="submit">Submit enquiry</button>
+    <p class="la-form-status" id="la-form-status" role="status" hidden></p>
+    <p class="la-form-note">This form is routed to Dr Jeremy Sun / Astrid Plastic Surgery's non-urgent enquiry workflow. You may also <a href="https://wa.me/6587649219" target="_blank" rel="noopener">message Astrid on WhatsApp</a> or <a href="https://www.astridplasticsurgery.com/contact-us/" target="_blank" rel="noopener">use Astrid Plastic Surgery’s contact form</a>.</p>
+    <p class="la-form-note">This form is for non-urgent enquiries only. It does not establish a doctor-patient relationship until a consultation has taken place.</p>
+  </form>
+</div>
+
+<!-- /wp:html -->
