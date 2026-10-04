@@ -108,6 +108,15 @@ const globalStructuredData = {
       },
       sameAs: physicianSameAs,
       medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery'],
+      telephone: '+65 6530 3573',
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '290 Orchard Road, #09-01/02, Paragon Medical',
+        addressLocality: 'Singapore',
+        postalCode: '238859',
+        addressCountry: 'SG'
+      },
+      hasMap: 'https://www.google.com/maps/place/Dr+Jeremy+Sun/data=!4m2!3m1!1s0x0:0xcba381971e77822e',
       areaServed: {
         '@type': 'Country',
         name: 'Singapore'
