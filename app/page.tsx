@@ -52,6 +52,12 @@ const jsonLd = {
       '@id': 'https://www.drjeremysun.com/#medicalbusiness',
       name: 'Dr Jeremy Sun Plastic Surgery',
       url: 'https://www.drjeremysun.com/',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.drjeremysun.com/images/brand/dr-sun-logo-nav.jpg',
+        width: 373,
+        height: 373
+      },
       telephone: '+65 6530 3573',
       address: {
         '@type': 'PostalAddress',
@@ -257,4 +263,3 @@ export default function Home() {
     </main>
   );
 }
-
