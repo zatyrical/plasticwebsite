@@ -35,9 +35,9 @@ export const aestheticSignatureTreatments: TreatmentTile[] = [
   { title: 'Rib rhinoplasty / rib cartilage nose surgery', href: '/rib-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Illustrative side-profile nose image for rib rhinoplasty planning' },
   { title: 'Eyebag removal / lower blepharoplasty', href: '/eyebag-removal-lower-blepharoplasty-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Illustrative eyelid image for lower eyelid surgery consultation' },
   { title: 'Breast augmentation & implant planning', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during consultation planning' },
-  { title: 'Rapid recovery breast augmentation guide', href: '/24-hour-rapid-recovery-breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples representing breast augmentation recovery planning' },
+  { title: 'Rapid recovery breast augmentation guide', href: '/24-hour-rapid-recovery-breast-augmentation-singapore', image: '/images/aesthetic-breast/recovery-planning-still-life.webp', alt: 'Illustrative recovery-planning still life with a supportive bra and appointment notebook' },
   { title: 'Facelift and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Illustrative lower face, jawline and neck image for consultation planning' },
-  { title: 'Body contouring and liposuction', href: '/body-contouring-liposuction-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Illustrative abdominal contouring image for consultation planning' },
+  { title: 'Body contouring and liposuction', href: '/body-contouring-liposuction-singapore', image: '/images/body-contouring/liposuction-instruments-still-life.webp', alt: 'Illustrative liposuction cannulas on a surgical tray' },
   { title: 'Tummy tuck / abdominoplasty', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Illustrative abdominal image for tummy tuck consultation planning' }
 ];
 
