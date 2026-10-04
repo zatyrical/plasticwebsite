@@ -346,6 +346,21 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Breast augmentation can increase breast volume, improve selected proportions and help address mild asymmetry in suitable patients. It may also restore some volume lost after pregnancy, breastfeeding or weight change.', 'It cannot assure a specific cup size, perfect symmetry or a fixed long-term breast shape. If the main issue is significant drooping, loose skin or low nipple position, an implant alone may not be enough and a breast lift may need to be discussed.']
       },
       {
+        id: 'which-option-fits',
+        heading: 'Which breast procedure fits the concern being assessed?',
+        paragraphs: ['The first decision is not implant brand or volume. It is identifying whether the main concern is breast volume, nipple position, loose skin, asymmetry or a preference to avoid an implant. More than one option may need to be discussed after examination.'],
+        comparison: {
+          caption: 'Breast concerns, options commonly discussed and important limitations',
+          columns: ['Concern identified at assessment', 'Options that may be discussed', 'Important limitation'],
+          rows: [
+            { label: 'Small volume or postpartum volume loss', values: ['Implant augmentation or selected fat grafting', 'Neither option can assure a cup size; tissue measurements and safety narrow the suitable range.'] },
+            { label: 'Low nipple position or significant loose skin', values: ['Breast lift, with or without augmentation', 'An implant alone may add volume without adequately correcting position or loose skin.'] },
+            { label: 'Breast asymmetry', values: ['Different implant dimensions, fat grafting, lift or a tailored plan for each side', 'Surgery may improve asymmetry but cannot create perfect symmetry.'] },
+            { label: 'Modest contour refinement without an implant', values: ['Fat grafting in selected patients', 'The result is limited by donor fat, tissue capacity and how much transferred fat persists.'] }
+          ]
+        }
+      },
+      {
         id: 'consultation',
         heading: 'Breast augmentation consultation and measurements in Singapore',
         paragraphs: ['Consultation includes breast measurements, skin and soft-tissue assessment, chest wall shape, nipple position, asymmetry, previous scars, pregnancy and breastfeeding history, weight changes, medical history and breast-screening history.', 'Implant planning should match the patient’s anatomy rather than forcing the tissues to fit a preferred size. Measurements such as breast base width and tissue thickness help narrow the range of implant dimensions that may be safer and more proportionate.', 'For patients comparing breast augmentation clinics in Singapore, this measurement-based discussion is one way to understand why two surgeons may recommend different implant sizes, planes or incision options for the same desired look.', 'For patients considering Dr Sun, the consultation route is deliberately assessment-led: understand the concern, examine the breast envelope and chest wall, discuss implant and non-implant options, explain risks and recovery, then decide whether surgery is appropriate.']
