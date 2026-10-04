@@ -347,6 +347,26 @@ export default function ProcedureArticlePage({ article }: Props) {
                     <figcaption>{section.image.caption}</figcaption>
                   </figure>
                 ) : null}
+                {section.comparison ? (
+                  <div className="article-comparison-wrap">
+                    <table className="article-comparison-table">
+                      <caption>{section.comparison.caption}</caption>
+                      <thead>
+                        <tr>
+                          {section.comparison.columns.map((column) => <th scope="col" key={column}>{column}</th>)}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.comparison.rows.map((row) => (
+                          <tr key={row.label}>
+                            <th scope="row">{row.label}</th>
+                            {row.values.map((value) => <td key={value}>{value}</td>)}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                ) : null}
                 {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'risks' ? (
                   <>
                     <p>Serious complications can include blood clots in the legs or lungs, fluid-related problems affecting the lungs, and injury to deeper tissues or internal organs. Individual risk depends on the treatment extent, medical history and surgical plan and should be discussed before consent.</p>
