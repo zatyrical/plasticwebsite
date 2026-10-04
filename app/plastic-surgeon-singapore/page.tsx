@@ -142,6 +142,8 @@ export default function PlasticSurgeonSingaporePage() {
               <h2>Who is Dr Jeremy Sun?</h2>
               <p>Dr Jeremy Sun is a Senior Consultant Plastic Surgeon in Singapore, also listed professionally as <strong>Sun Mingfa Jeremy</strong> and on Lymphedema Asia as <strong>Dr Jeremy Sun Mingfa</strong>. These names refer to the same doctor. His practice includes aesthetic surgery, reconstructive microsurgery and lymphatic surgery.</p>
               <p>Patients can cross-check his background through his <a href="https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy">CGH doctor listing</a>, <Link href="/training-and-fellowships">training and fellowships</Link>, and <Link href="/publications">selected publications</Link>. His <a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">Lymphedema Asia profile</a> focuses on lymphoedema assessment and lymphatic surgery.</p>
+              <h3>Professional leadership</h3>
+              <p>The Academy of Medicine, Singapore lists Dr Jeremy Sun as Chairman of the Chapter of Plastic, Reconstructive &amp; Aesthetic Surgeons, College of Surgeons, Singapore, for the 2025–2027 board term. The Chapter’s work includes postgraduate education, professional standards and advisory opinions. See the <a href="https://www.ams.edu.sg/colleges/CSS/chapter-of-plastic-reconstructive-aesthetic-surgeons">official Chapter board and responsibilities</a>.</p>
               <h3>Procedure-specific patient information</h3>
               <p>The following guides explain the options, suitability, risks and recovery considerations to discuss during an individual consultation.</p>
               <div className="related-grid">

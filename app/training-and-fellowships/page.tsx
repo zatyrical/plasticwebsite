@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
+import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 
@@ -13,8 +14,12 @@ const trainingMentorship = [
   {
     area: 'Lymphatic surgery',
     mentor: 'Dr Takumi Yamamoto and Dr Akitatsu Hayashi',
-    focus: 'MOH-accredited dedicated lymphedema surgery training program in Tokyo, focused specifically on lymphovenous bypass, lymphatic reconstruction and complex lymphedema care.',
+    focus: 'Dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Tokyo, including lymphovenous bypass and lymphatic reconstruction.',
     note: 'Structured subspecialty lymphatic surgery training, distinct from broader microsurgical fellowships where lymphedema may be only one component of training.',
+    guides: [
+      { href: '/lymphovenous-bypass-lva-surgery-singapore', label: 'LVA / lymphovenous bypass patient guide' },
+      { href: 'https://lymphedasia.com/dedicated-lymphedema-surgery-training-hmdp/#why-i-pursued-lymphoedema-fellowship', label: 'Why Dr Sun pursued dedicated lymphoedema training: full Q&A' }
+    ],
     photos: [
       { src: '/images/mentors/takumi-yamamoto-lymphatic-group.jpg', alt: 'Dr Jeremy Sun with Dr Takumi Yamamoto during lymphatic surgery training in Tokyo', className: 'photo-takumi-yamamoto' },
       { src: '/images/mentors/dr-jeremy-sun-akitatsu-hayashi-lva-training-microscope.jpg', alt: 'Dr Jeremy Sun with Dr Akitatsu Hayashi during LVA and lymphatic surgery training in Tokyo', className: 'photo-akitatsu-hayashi' },
@@ -27,6 +32,10 @@ const trainingMentorship = [
     mentor: 'Dr David Sieber and Mexican body-contouring surgical groups',
     focus: 'High-definition liposuction, abdominoplasty, cosmetic body contouring and breast augmentation principles.',
     note: 'ASAPS travelling fellowship exposure.',
+    guides: [
+      { href: '/body-contouring-liposuction-singapore', label: 'Liposuction and body contouring patient guide' },
+      { href: '/tummy-tuck-singapore', label: 'Tummy tuck / abdominoplasty patient guide' }
+    ],
     photos: [
       { src: '/images/mentors/david-sieber.jpg', alt: 'Dr Jeremy Sun with Dr David Sieber during aesthetic surgery training', className: 'photo-david-sieber' }
     ]
@@ -36,6 +45,10 @@ const trainingMentorship = [
     mentor: 'Dr William Adams and Dr Dennis Hammond',
     focus: 'Breast augmentation, rapid-recovery concepts and advanced breast shaping approaches.',
     note: 'Mentored international aesthetic surgery training.',
+    guides: [
+      { href: '/breast-augmentation-singapore', label: 'Breast augmentation patient guide' },
+      { href: '/24-hour-rapid-recovery-breast-augmentation-singapore', label: 'Rapid recovery breast augmentation: restrictions and limitations' }
+    ],
     photos: [
       { src: '/images/mentors/william-adams.jpg', alt: 'Dr Jeremy Sun with Dr William Adams during breast aesthetic surgery training' },
       { src: '/images/mentors/dennis-hammond.jpg', alt: 'Dr Jeremy Sun with Dr Dennis Hammond during breast aesthetic surgery training' }
@@ -46,6 +59,10 @@ const trainingMentorship = [
     mentor: 'Dr Jeong Jae Yong, Dr Charles Lee, Dr Yasushi Sugawara and Dr Kim Taek Kyun',
     focus: 'Asian rhinoplasty, structural rhinoplasty and rib cartilage techniques.',
     note: 'Training exposure across South Korea, Japan and Los Angeles.',
+    guides: [
+      { href: '/asian-rhinoplasty-singapore', label: 'Asian rhinoplasty patient guide' },
+      { href: '/rib-rhinoplasty-singapore', label: 'Rib cartilage rhinoplasty: options and risks' }
+    ],
     photos: [
       { src: '/images/mentors/jeong-jae-yong.jpg', alt: 'Dr Jeremy Sun with Dr Jeong Jae Yong during rhinoplasty training' },
       { src: '/images/mentors/charles-lee.jpg', alt: 'Dr Jeremy Sun with Dr Charles Lee during rhinoplasty training', className: 'photo-charles-lee' },
@@ -58,6 +75,10 @@ const trainingMentorship = [
     mentor: 'Dr Moon Seop Choi and Dr Keizo Fukuta',
     focus: 'Asian blepharoplasty and plastic/aesthetic eyelid surgery concepts.',
     note: 'Procedure-specific mentorship and observership exposure.',
+    guides: [
+      { href: '/asian-eyelid-surgery-singapore', label: 'Asian upper eyelid surgery patient guide' },
+      { href: '/eyebag-removal-lower-blepharoplasty-singapore', label: 'Eyebag removal / lower blepharoplasty patient guide' }
+    ],
     photos: [
       { src: '/images/mentors/moon-seop-choi.jpg', alt: 'Dr Jeremy Sun with Dr Moon Seop Choi during eyelid surgery training', className: 'photo-moon-seop-choi' },
       { src: '/images/mentors/keizo-fukuta.jpg', alt: 'Dr Jeremy Sun with Dr Keizo Fukuta during eyelid surgery training' }
@@ -68,6 +89,9 @@ const trainingMentorship = [
     mentor: 'Dr Tim Martyn, Dr Giovanni Botti and Dr Zekeriya Kul',
     focus: 'Sub-SMAS and deep-plane facelift concepts, facial rejuvenation and aesthetic facial surgery.',
     note: 'International facelift training exposure in the USA, Italy and Türkiye.',
+    guides: [
+      { href: '/face-neck-lift-singapore', label: 'Facelift and neck lift patient guide' }
+    ],
     photos: [
       { src: '/images/mentors/tim-martyn.jpg', alt: 'Dr Jeremy Sun with Dr Tim Martyn during facial rejuvenation training', className: 'photo-tim-martyn' }
     ]
@@ -113,6 +137,13 @@ export default function TrainingAndFellowshipsPage() {
                   <h3>{x.mentor}</h3>
                   <p>{x.focus}</p>
                   <span className="mentor-note">{x.note}</span>
+                  <ul aria-label={`${x.area} patient information`}>
+                    {x.guides.map((guide) => (
+                      <li key={guide.href}>
+                        {guide.href.startsWith('/') ? <Link href={guide.href}>{guide.label}</Link> : <a href={guide.href}>{guide.label}</a>}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </article>
             ))}
