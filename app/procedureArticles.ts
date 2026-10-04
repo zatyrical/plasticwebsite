@@ -5,6 +5,14 @@ export type ProcedureSection = {
   heading: string;
   paragraphs?: string[];
   items?: string[];
+  comparison?: {
+    caption: string;
+    columns: [string, string, string];
+    rows: Array<{
+      label: string;
+      values: [string, string];
+    }>;
+  };
   image?: {
     src: string;
     alt: string;
@@ -88,7 +96,17 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'singapore-planning',
         heading: 'Body contouring surgery and treatment consultation in Singapore',
-        paragraphs: ['Patients in Singapore often compare surgical liposuction with non-surgical fat reduction, radiofrequency, ultrasound or device-based contouring. These options are not interchangeable. Non-surgical treatments may be reasonable for selected minor concerns, while surgery may be considered when a more direct contour change is appropriate.', 'A plastic surgery consultation should clarify whether the concern is excess fat, loose skin, muscle separation, cellulite, weight fluctuation or a combination of factors. The discussion should include anaesthesia, recovery time, compression garments, scars, revision risk and realistic contour limits.']
+        paragraphs: ['Patients in Singapore often compare surgical liposuction with non-surgical fat reduction, radiofrequency, ultrasound or device-based contouring. These options are not interchangeable. Non-surgical treatments may be reasonable for selected minor concerns, while surgery may be considered when a more direct contour change is appropriate.', 'A plastic surgery consultation should clarify whether the concern is excess fat, loose skin, muscle separation, cellulite, weight fluctuation or a combination of factors. The discussion should include anaesthesia, recovery time, compression garments, scars, revision risk and realistic contour limits.'],
+        comparison: {
+          caption: 'A practical starting point for body-contouring assessment',
+          columns: ['Main finding', 'Option that may be discussed', 'Important limitation'],
+          rows: [
+            { label: 'Localised fat with adequate skin recoil', values: ['Liposuction', 'Changes contour rather than overall body weight; it does not reliably tighten loose skin or repair muscle separation.'] },
+            { label: 'Loose abdominal skin or abdominal-wall separation', values: ['Tummy tuck / abdominoplasty or another skin-excision procedure', 'Requires scar, recovery and safety planning; liposuction alone may disappoint.'] },
+            { label: 'Selected minor contour concern', values: ['A non-surgical option may be considered', 'Device-based treatment is not interchangeable with surgery, and suitability depends on the individual concern.'] },
+            { label: 'General weight gain, unstable weight or visceral fullness', values: ['Weight stabilisation, medical weight management or no procedure', 'Liposuction is not a weight-loss treatment and may not address the underlying concern.'] }
+          ]
+        }
       },
       {
         id: 'procedure',
@@ -170,7 +188,16 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         id: 'mini-full',
         heading: 'Mini tummy tuck versus full tummy tuck',
         paragraphs: ['A mini tummy tuck is usually limited to selected lower-abdominal skin excess below the belly button. It is not a smaller version of every tummy tuck and is only suitable for specific anatomy.', 'A full tummy tuck typically treats a larger area of abdominal skin and allows more comprehensive abdominal wall assessment and repair where appropriate. The belly button may need to be repositioned through the skin flap in a full abdominoplasty.'],
-        items: ['mini tummy tuck: limited lower-abdominal skin excess, selected patients only', 'full tummy tuck: broader skin excess and abdominal wall planning', 'extended tummy tuck: may be discussed after major weight change or wider skin excess', 'the safest choice depends on examination, not preference for a shorter scar alone']
+        comparison: {
+          caption: 'How the main abdominal contouring options differ',
+          columns: ['Option', 'Finding it may address', 'Important limitation'],
+          rows: [
+            { label: 'Liposuction', values: ['Selected localised fat with adequate skin recoil', 'Does not reliably remove loose skin or repair diastasis recti.'] },
+            { label: 'Mini tummy tuck', values: ['Limited lower-abdominal skin excess below the belly button', 'Suitable only for specific anatomy; it is not a shortcut for broader abdominal laxity.'] },
+            { label: 'Full tummy tuck', values: ['Broader abdominal skin excess with abdominal-wall assessment or repair where appropriate', 'Leaves a lower-abdominal scar and usually involves repositioning the belly button through the skin flap.'] },
+            { label: 'Extended tummy tuck', values: ['Wider skin excess, including selected patients after major weight change', 'The plan and scar depend on examination and the distribution of excess skin.'] }
+          ]
+        }
       },
       {
         id: 'diastasis',
