@@ -100,6 +100,12 @@ const globalStructuredData = {
       name: 'Dr Jeremy Sun Plastic Surgery',
       url: 'https://www.drjeremysun.com/',
       image: 'https://www.drjeremysun.com/images/dr-jeremy-sun-hero.jpg',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.drjeremysun.com/images/brand/dr-sun-logo-nav.jpg',
+        width: 373,
+        height: 373
+      },
       sameAs: physicianSameAs,
       medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery'],
       areaServed: {
