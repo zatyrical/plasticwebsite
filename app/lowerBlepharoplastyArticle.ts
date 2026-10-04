@@ -59,6 +59,13 @@ export const lowerBlepharoplastyArticle: ProcedureArticle = {
     {
       "id": "transconjunctival-approach",
       "heading": "Transconjunctival orbital fat repositioning: treating the bag and hollow",
+      "image": {
+        "src": "/images/orbital-fat-repositioning-surface-landmarks.webp",
+        "alt": "Educational illustration of an eye bag, tear trough groove and lid–cheek junction, with arrows indicating orbital fat repositioning towards the upper cheek beneath the skin.",
+        "caption": "Schematic surface landmarks: arrows indicate the intended movement of orbital fat beneath the skin towards the upper cheek. This is an educational illustration, not a patient photograph or treatment result; the plan depends on individual anatomy.",
+        "width": 1188,
+        "height": 1324
+      },
       "paragraphs": [
         "Transconjunctival means access through the inner surface of the lower eyelid, rather than through an external skin incision. It is not an incision into the eyeball. This access can be used to treat lower eyelid fat; the incision itself does not remove excess lower eyelid skin.",
         "Dr Sun releases the ligamentous attachments through an incision inside the lower eyelid and redistributes orbital fat into the hollow beneath the eye, towards the upper cheek. The aim is to soften the eyelid-to-cheek transition and reduce reattachment of the released tissues.",
