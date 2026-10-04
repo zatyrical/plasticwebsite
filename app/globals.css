@@ -595,6 +595,14 @@
 .article-material-figure{margin:24px 0 32px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:white}
 .article-material-figure img{display:block;width:100%;height:auto}
 .article-material-figure figcaption{padding:16px 18px;color:#31413d;font-size:14px;line-height:1.55}
+.article-comparison-wrap{margin:24px 0 32px;overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 14px 36px rgba(16,32,29,.06)}
+.article-comparison-table{width:100%;min-width:680px;border-collapse:collapse;text-align:left}
+.article-comparison-table caption{padding:18px 20px 14px;color:#10201d;font-size:18px;font-weight:750;text-align:left;background:linear-gradient(135deg,#f7f3ea,#fff)}
+.article-comparison-table th,.article-comparison-table td{padding:15px 18px;border-top:1px solid var(--line);vertical-align:top;line-height:1.55}
+.article-comparison-table thead th{color:#51615c;font-size:12px;letter-spacing:.08em;text-transform:uppercase;background:#faf9f6}
+.article-comparison-table tbody th{width:25%;color:#10201d;font-size:15px}
+.article-comparison-table tbody td{color:#31413d;font-size:14px}
+.article-comparison-table tbody tr:nth-child(even){background:#fcfbf8}
 .article-clinical-figure img{display:block;width:100%;max-height:620px;object-fit:cover;object-position:center 47%;filter:saturate(.96) contrast(1.03)}
 .article-clinical-figure figcaption{margin:0;padding:18px 20px;background:linear-gradient(135deg,rgba(255,255,255,.97),rgba(243,240,234,.92));color:#31413d;font-size:14px;line-height:1.55;border-top:1px solid rgba(184,154,94,.24)}
 @media(max-width:900px){.article-clinical-figure{margin:28px 0 36px;border-radius:20px}.article-clinical-figure img{max-height:500px}.article-clinical-figure figcaption{padding:15px 16px;font-size:13px}}
@@ -714,6 +722,9 @@
   .article-content h3{font-size:21px;line-height:1.15;margin:28px 0 10px}
   .article-content p,.article-content li{font-size:15.5px;line-height:1.7}
   .notice-text,.reviewer-card{border-radius:16px}
+  .article-comparison-wrap{margin:20px -2px 28px;border-radius:16px}
+  .article-comparison-table caption{font-size:16px;padding:15px 16px 12px}
+  .article-comparison-table th,.article-comparison-table td{padding:13px 15px}
 }
 
 /* Nassif-inspired procedure-page structure: clear authority cues, decision pathway cards, and scannable deep-page UX. */
