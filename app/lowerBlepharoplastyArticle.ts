@@ -19,7 +19,7 @@ export const lowerBlepharoplastyArticle: ProcedureArticle = {
   "publishedIso": "2026-10-03",
   "intro": [
     "Lower blepharoplasty is surgery on the lower eyelids. It may address selected concerns such as bags beneath the eyes or excess lower eyelid skin. Assessment is needed to establish what is causing the appearance and whether surgery is appropriate. Lower eyelid surgery and double eyelid surgery address different areas and concerns.",
-    "Dr Jeremy Sun usually approaches eyebag removal through the inside of the lower eyelid, using a transconjunctival incision. His preference is guided by concern about lower eyelid retraction. The plan is customised to the person’s requirements; this approach does not eliminate the risk of eyelid position changes or other complications."
+    "Dr Jeremy Sun usually uses transconjunctival orbital fat repositioning, through an incision inside the lower eyelid, for eyebag surgery. His preference for the transconjunctival approach is guided by concern about lower eyelid retraction. The plan is customised to the person’s requirements; this approach does not eliminate the risk of eyelid position changes or other complications."
   ],
   "sections": [
     {
@@ -58,9 +58,11 @@ export const lowerBlepharoplastyArticle: ProcedureArticle = {
     },
     {
       "id": "transconjunctival-approach",
-      "heading": "Transconjunctival eyebag removal: an incision inside the lower eyelid",
+      "heading": "Transconjunctival orbital fat repositioning: treating the bag and hollow",
       "paragraphs": [
         "Transconjunctival means access through the inner surface of the lower eyelid, rather than through an external skin incision. It is not an incision into the eyeball. This access can be used to treat lower eyelid fat; the incision itself does not remove excess lower eyelid skin.",
+        "Dr Sun releases the ligamentous attachments through an incision inside the lower eyelid and redistributes orbital fat into the hollow beneath the eye, towards the upper cheek. The aim is to soften the eyelid-to-cheek transition and reduce reattachment of the released tissues.",
+        "The tissues still heal after surgery. Reducing reattachment or re-tethering is a treatment aim, not a guarantee that the groove will not return. The fat-repositioning plan is customised to the individual anatomy and concerns.",
         "Dr Sun’s usual preference for this approach is part of an individual treatment plan. The consultation should clarify whether it meets your needs or whether a different approach is appropriate. Ask how your proposed plan addresses the concern while protecting eyelid position and eye comfort."
       ]
     },
@@ -131,7 +133,7 @@ export const lowerBlepharoplastyArticle: ProcedureArticle = {
     },
     {
       "question": "What does transconjunctival eyebag removal mean?",
-      "answer": "The incision is made on the inner surface of the lower eyelid. It is not made into the eyeball. Dr Sun usually uses this approach for eyebag removal, with the plan customised to individual requirements."
+      "answer": "The incision is made on the inner surface of the lower eyelid, not into the eyeball. Dr Sun usually uses transconjunctival orbital fat repositioning: releasing ligamentous attachments and redistributing orbital fat into the hollow beneath the eye towards the upper cheek. The aim is to soften the eyelid-to-cheek transition and reduce reattachment, with the plan customised to individual requirements."
     },
     {
       "question": "Does a transconjunctival approach prevent lower eyelid retraction?",
