@@ -210,6 +210,7 @@ export default function LymphedemaSurgeryPage() {
             </p>
 
             <h2 id="types">Types of lymphedema surgery</h2>
+            <p>If you are comparing procedures, LymphedAsia’s <a href="https://lymphedasia.com/lva-vs-vlnt-vs-liposuction-lymphedema-surgery/">guide comparing LVA, lymph node transfer and lymphedema liposuction</a> explains the different options to discuss at assessment.</p>
             <p>
               The most suitable approach depends on disease stage, imaging findings, tissue changes and patient goals. Options may include physiological lymphatic surgery, reductive surgery, or a combination of approaches.
             </p>
