@@ -258,6 +258,14 @@ export default function ProcedureArticlePage({ article }: Props) {
             { '@type': 'MedicalProcedure', name: 'Revision rhinoplasty' }
           ]
         } : {}),
+        ...(article.slug === 'face-neck-lift-singapore' ? {
+          mentions: [
+            { '@type': 'MedicalProcedure', name: 'Facelift' },
+            { '@type': 'MedicalProcedure', name: 'Rhytidectomy' },
+            { '@type': 'MedicalProcedure', name: 'Neck lift' },
+            { '@type': 'MedicalProcedure', name: 'Lower rhytidectomy' }
+          ]
+        } : {}),
         ...(article.slug === 'ftm-top-surgery-singapore' ? {
           mentions: [
             { '@type': 'MedicalProcedure', name: 'FTM top surgery' },
@@ -407,6 +415,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 ) : null}
                 {article.slug === 'breast-augmentation-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/safety">ASPS breast augmentation risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/recovery">ASPS breast augmentation recovery guidance</a>, and the <a href="https://www.fda.gov/medical-devices/implants-and-prosthetics/breast-implants">FDA breast implant information hub</a>.</p>
+                ) : null}
+                {article.slug === 'face-neck-lift-singapore' && section.id === 'risks' ? (
+                  <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/safety">ASPS facelift risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/recovery">ASPS facelift recovery guidance</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/safety">ASPS neck lift risks and safety</a>.</p>
                 ) : null}
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'materials' ? (
                   <p>For a focused discussion of cartilage harvest, donor-site scars and alternatives, read the <Link href="/rib-rhinoplasty-singapore">rib cartilage rhinoplasty guide</Link>.</p>
