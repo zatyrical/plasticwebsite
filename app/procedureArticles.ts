@@ -564,8 +564,30 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       },
       {
         id: 'materials',
-        heading: 'Implants, cartilage grafts and rib cartilage',
-        paragraphs: ['Some rhinoplasty plans use implants, some use autologous cartilage and some use a combination. The discussion should include the patient’s anatomy, previous treatments, desired degree of change, infection risk, long-term support and revision considerations.', 'Rib cartilage may be considered when stronger structural support is needed for nasal height, projection, tip definition or revision surgery. Ear cartilage may be useful for selected contour or support needs, but it is usually softer and more curved. Septal cartilage can be useful when available, particularly for internal support and septal correction.']
+        heading: 'Rhinoplasty without an implant: cartilage grafts and other options',
+        paragraphs: ['Some rhinoplasty plans use implants, some use the patient’s own cartilage and some use a combination. A rhinoplasty without a nasal implant may therefore be possible in selected patients, but no single material is suitable for every anatomy or intended change. The discussion should include previous treatments, desired degree of change, infection risk, long-term support and revision considerations.', 'Rib cartilage may be considered when stronger structural support is needed for nasal height, projection, tip definition or revision surgery. Ear cartilage may be useful for selected contour or support needs, but it is usually softer and more curved. Septal cartilage can be useful when available, particularly for internal support and septal correction.'],
+        comparison: {
+          caption: 'Materials that may be discussed during rhinoplasty planning — not a ranking of options',
+          columns: ['Option', 'What it is', 'Planning consideration'],
+          rows: [
+            {
+              label: 'Septal cartilage',
+              values: ['The patient’s own cartilage from inside the nose.', 'Can be useful for internal support and septal correction when enough suitable cartilage is available.']
+            },
+            {
+              label: 'Ear cartilage',
+              values: ['The patient’s own cartilage from the ear.', 'May suit selected contour or support needs; it is usually softer and more curved than rib cartilage.']
+            },
+            {
+              label: 'Rib cartilage',
+              values: ['The patient’s own cartilage from the chest wall.', 'Can provide stronger structural support, but adds a donor-site incision and separate recovery.']
+            },
+            {
+              label: 'Nasal implant',
+              values: ['A manufactured implant used in selected augmentation plans.', 'Requires discussion of infection risk, long-term support and revision considerations.']
+            }
+          ]
+        }
       },
       {
         id: 'revision-fillers',
@@ -611,6 +633,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { question: 'How much does rhinoplasty cost in Singapore?', answer: 'Cost varies with whether the plan is primary or revision rhinoplasty, the degree of structural work, whether rib cartilage or septal/airway correction is needed, anaesthesia, facility and follow-up. A meaningful quotation should follow examination and surgical planning.' },
       { question: 'How should I choose a rhinoplasty surgeon in Singapore?', answer: 'Look for recognised plastic surgery training, clear explanation of Asian nasal anatomy, bridge and tip support, airway assessment, graft or implant options, revision limits, recovery, risks and how complications are managed.' },
       { question: 'Is an implant or cartilage better for Asian rhinoplasty?', answer: 'There is no single best material for every patient. Implants, septal cartilage, ear cartilage and rib cartilage each have different roles, benefits and risks. The safer choice depends on anatomy, desired change, skin thickness, infection risk, previous surgery and the need for structural support.' },
+      { question: 'Can rhinoplasty be done without a nasal implant?', answer: 'Yes, selected rhinoplasty plans may use the patient’s own septal, ear or rib cartilage without a nasal implant. Suitability depends on the intended change, available cartilage, skin thickness, previous treatment and the support the nose needs; an implant-free plan is not automatically the right plan for every patient.' },
       { question: 'How long does swelling last?', answer: 'Early swelling improves over weeks, but nasal tip swelling and refinement can take months. Revision cases and thicker skin may take longer.' },
       { question: 'Is revision rhinoplasty more complex?', answer: 'Often yes. Scar tissue, previous implants, fillers, grafts and altered anatomy can make revision surgery more complex and may limit what can be safely changed.' }
     ]
