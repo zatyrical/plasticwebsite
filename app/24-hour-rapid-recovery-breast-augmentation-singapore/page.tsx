@@ -129,8 +129,8 @@ export default function RapidRecoveryBreastAugmentationPage() {
             </div>
             <aside className="article-summary-card">
               <figure className="article-hero-image-card">
-                <Image src="/images/aesthetic-ai/breast-aesthetic.jpg" alt="Editorial-style image representing breast augmentation consultation and recovery planning" width={720} height={860} priority sizes="(max-width: 900px) 100vw, 330px" />
-                <figcaption>Illustrative image for patient education; not a before-and-after result.</figcaption>
+                <Image src="/images/aesthetic-breast/recovery-planning-still-life.webp" alt="Recovery-planning still life with a supportive bra and appointment notebook for breast augmentation patient education" width={1254} height={1254} priority sizes="(max-width: 900px) 100vw, 330px" />
+                <figcaption>AI-generated editorial illustration of recovery planning; not a patient, treatment result or product endorsement.</figcaption>
               </figure>
               <h2>On this page</h2>
               <ul>
@@ -248,6 +248,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
               <h2>Why “24-hour recovery” should not be treated as a fixed timeline</h2>
               <p>The phrase is easy to misunderstand. Recovery still depends on patient anatomy, implant choice, surgical complexity, anaesthesia recovery, pain threshold, bleeding risk, nausea, confidence with movement and individual healing biology.</p>
               <p>Patients should seek medical advice urgently if they develop concerning symptoms after breast augmentation such as rapidly increasing swelling, severe one-sided pain, fever, spreading redness, shortness of breath, chest pain, fainting or sudden deterioration.</p>
+              <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/recovery">ASPS breast augmentation recovery guidance</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/safety">ASPS risks and safety information</a>, and the <a href="https://www.fda.gov/medical-devices/implants-and-prosthetics/breast-implants">FDA breast implant information hub</a>.</p>
             </section>
 
             <section id="faq">
