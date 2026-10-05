@@ -4,6 +4,7 @@ import ProcedureArticlePage from '../ProcedureArticle';
 import { procedureArticles } from '../procedureArticles';
 
 const article = procedureArticles['asian-rhinoplasty-singapore'];
+const heroImage = article.heroImage!;
 
 export const metadata: Metadata = {
   title: procedurePagePresentation['asian-rhinoplasty-singapore'].title,
@@ -13,7 +14,14 @@ export const metadata: Metadata = {
     title: article.title,
     description: procedurePagePresentation['asian-rhinoplasty-singapore'].description,
     url: '/asian-rhinoplasty-singapore',
-    type: 'article'
+    type: 'article',
+    images: [{ url: heroImage.src, alt: heroImage.alt }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: article.title,
+    description: procedurePagePresentation['asian-rhinoplasty-singapore'].description,
+    images: [heroImage.src]
   },
   keywords: article.keywords
 };
