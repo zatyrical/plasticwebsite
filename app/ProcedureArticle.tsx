@@ -434,6 +434,15 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'liposuction-vs-tummy-tuck' ? (
                   <p>Read the <Link href="/body-contouring-liposuction-singapore">liposuction and body contouring guide</Link> to compare treatment areas, skin quality and recovery considerations.</p>
                 ) : null}
+                {article.slug === 'tummy-tuck-singapore' && section.id === 'post-pregnancy' ? (
+                  <p>For a broader discussion of combined versus staged abdominal and breast procedures after pregnancy, read the <Link href="/mommy-makeover-singapore">mommy / mummy makeover planning guide</Link>.</p>
+                ) : null}
+                {article.slug === 'mommy-makeover-singapore' && section.id === 'what-it-may-include' ? (
+                  <p>Compare the dedicated guides to <Link href="/tummy-tuck-singapore">tummy tuck and abdominoplasty</Link>, <Link href="/breast-augmentation-singapore">breast augmentation</Link>, and <Link href="/body-contouring-liposuction-singapore">liposuction and body contouring</Link> when a concern needs more detailed discussion.</p>
+                ) : null}
+                {article.slug === 'breast-augmentation-singapore' && section.id === 'what-it-can-do' ? (
+                  <p>If breast and abdominal changes are being considered together after pregnancy, see the <Link href="/mommy-makeover-singapore">mommy / mummy makeover guide</Link> for combined-versus-staged planning considerations.</p>
+                ) : null}
                 {article.slug === 'face-neck-lift-singapore' && section.id === 'neck-lift-decision' ? (
                   <p>Related guides cover <Link href="/body-contouring-liposuction-singapore">liposuction planning</Link> and <Link href="/thread-lifting-singapore">thread lifting</Link>. Discuss which option fits the concern identified at assessment.</p>
                 ) : null}
