@@ -216,6 +216,8 @@ export default function BreastReconstructionPage() {
               Patients may be asked about their priorities, such as breast size, natural feel, recovery time, willingness to have donor-site scars, and comfort with implants or microsurgery. The process is personalised and bespoke: the surgeon and patient work through the available options together, balancing medical suitability with what matters most to the patient.
             </p>
 
+            <p>For questions about arm swelling after breast cancer treatment, see LymphedAsia’s <a href="https://lymphedasia.com/lymphedema-treatment/">lymphoedema assessment and treatment guide</a>. For the surgical consultation pathway, read <Link href="/lymphedema-surgery-singapore">Dr Sun’s lymphoedema surgery overview</Link>.</p>
+
             <h2>Recovery after breast reconstruction</h2>
             <p>
               Recovery depends on the type of reconstruction, whether mastectomy is performed at the same time, and the patient’s general health. Implant-based reconstruction may involve a shorter initial recovery than free flap reconstruction, although drains, wound care, activity restrictions and follow-up are still needed.

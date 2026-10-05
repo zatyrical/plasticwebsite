@@ -1,0 +1,203 @@
+<!-- wp:paragraph -->
+<p><strong>General microsurgery training is important, but it is not the same as dedicated lymphedema surgery training.</strong> Many plastic and reconstructive surgeons learn microsurgery through free-flap reconstruction, trauma reconstruction, cancer reconstruction or limb salvage. Advanced lymphedema surgery requires additional knowledge of lymphatic disease, lymphatic imaging, supermicrosurgical planning and long-term lymphedema care.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"lymphedasia-medical-review-box","style":{"border":{"width":"1px","color":"#d9e2ec","radius":"8px"},"spacing":{"padding":{"top":"18px","right":"18px","bottom":"18px","left":"18px"},"margin":{"top":"18px","bottom":"24px"}},"color":{"background":"#f8fbfd"}}} -->
+<div class="wp-block-group lymphedasia-medical-review-box has-background" style="border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:18px;margin-bottom:24px;padding-top:18px;padding-right:18px;padding-bottom:18px;padding-left:18px"><!-- wp:paragraph -->
+<p><strong>Clinically reviewed by Dr Jeremy Sun Mingfa</strong>, Senior Consultant Plastic and Reconstructive Surgeon in Singapore, with subspecialty expertise in lymphedema surgery, LVA / LVB lymphovenous bypass, vascularised lymph node transfer, ICG lymphography and ultrasound localisation of lymphatic channels. <em>Last reviewed: August 2026.</em></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading" id="why-i-pursued-lymphoedema-fellowship">Why I pursued dedicated lymphoedema fellowship training: a Q&amp;A with Dr Jeremy Sun</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This Q&amp;A has been edited from Dr Jeremy Sun’s personal account of his training and reflections.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":5164,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://lymphedasia.com/wp-content/uploads/2026/10/Operating-room-team-at-a-surgical-microscope.jpg" alt="Operating-room team working with a surgical microscope" class="wp-image-5164"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><em>Operating-room photograph supplied by Dr Jeremy Sun.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Were you always interested in lymphoedema surgery?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>No. During my local surgical training, I remained sceptical about lymphoedema surgery. My exposure was limited, and I had unanswered questions about how the procedures worked and what influenced their outcomes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I would later recognise how much that limited exposure had shaped my opinion.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What made you reconsider?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Around 2020, I became exposed to outcomes being reported by teams in Japan. I was not immediately convinced, but I became curious.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>What were these teams doing differently? Was it their technique, their patient selection, their approach to management—or a combination of these?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I wanted to understand the work behind those results rather than accept or dismiss them from a distance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Why did you choose a dedicated fellowship?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In 2022, I decided to pursue dedicated training in lymphoedema management and lymphatic surgery. It was not a widely pursued area among the colleagues around me at the time, and some questioned that decision.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I wanted sustained exposure to the whole field. This meant learning comprehensive multidisciplinary management alongside the surgical techniques, rather than undertaking a general microsurgery fellowship with occasional exposure to lymphoedema surgery.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What was the training experience like?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>During my training in Japan, the team typically treated four to six patients with lymphaticovenular anastomosis, or LVA, each week. There were also approximately two to four major lymphatic reconstruction cases a month, including lymphatic vessel transfers and lymph node transfers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>These figures describe the team’s clinical activity during my training, rather than a count of operations I independently performed.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>That repeated exposure helped me understand the reasoning behind different approaches. Concepts that had previously seemed unclear began to make sense when I could see how assessment, treatment selection, technique and multidisciplinary care fitted together.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What changed in your understanding of LVA?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>One important lesson concerned the quality of the connection between the lymphatic vessel and the vein.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Earlier explanations had sometimes left me with the impression that placing a few stitches was sufficient and that the connection would then take care of itself. During dedicated training, I learned to pay much closer attention to precise vessel alignment, leakage and whether the bypass was functioning.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For me, the lesson was not a fixed number of stitches. It was that a technically sound connection requires careful construction and assessment; simply bringing two vessels together is not the same as establishing a functioning bypass.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Why was the multidisciplinary component important?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I wanted to understand lymphoedema management as a whole.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Exposure to different assessments, conservative treatments and surgical approaches gave me a broader basis for understanding what might be appropriate in different circumstances. It also helped me appreciate why surgical decisions need to sit within an ongoing plan of care.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Learning an operation was one part of the fellowship. Learning when and how it fitted into management was equally important.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What was your biggest personal lesson?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I realised that not having seen a procedure succeed is different from establishing that it cannot succeed.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Earlier in my career, I sometimes judged an approach through a narrow experience base. Training challenged me to examine the reasons behind an outcome more carefully, including the patient’s circumstances, the technique and the wider management plan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It did not teach me to accept every procedure uncritically. It taught me to ask better questions, recognise the limits of my own experience and remain open to evidence that could change my understanding.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Why general microsurgery is not enough by itself</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>General microsurgery usually focuses on connecting arteries and veins for reconstructive procedures such as free flaps. That training is valuable, but lymphedema surgery adds a different layer of decision-making. The surgeon must understand how lymphatic failure develops, how lymphatic channels change over time, how infection and fibrosis affect treatment, and when surgery is unlikely to help.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>In <a href="https://lymphedasia.com/lva-surgery-singapore/">LVA / LVB lymphovenous bypass</a>, the vessels may be less than 1 mm in diameter. The operation is not simply a smaller version of ordinary microsurgery. It requires careful lymphatic mapping, suitable lymphatic and vein selection, pressure judgement, reflux avoidance, delicate vessel handling and realistic patient selection.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What dedicated lymphedema surgery training adds</h2>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul><!-- wp:list-item --><li>interpretation of ICG lymphography and dermal backflow patterns;</li><!-- /wp:list-item --><!-- wp:list-item --><li>ultrasound localisation of lymphatic channels and nearby veins;</li><!-- /wp:list-item --><!-- wp:list-item --><li>selection of patients for LVA / LVB, vascularised lymph node transfer, liposuction, reductive surgery or conservative treatment;</li><!-- /wp:list-item --><!-- wp:list-item --><li>understanding when early, pitting, fluid-dominant lymphedema is more favourable for bypass;</li><!-- /wp:list-item --><!-- wp:list-item --><li>recognising when fibrosis, fatty change or repeated cellulitis changes the treatment strategy;</li><!-- /wp:list-item --><!-- wp:list-item --><li>planning postoperative compression, therapy and long-term follow-up;</li><!-- /wp:list-item --><!-- wp:list-item --><li>counselling patients that LVA / LVB may improve lymphatic function but does not cure lymphedema completely.</li><!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What does HMDP mean?</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p><strong>HMDP</strong> stands for <strong>Health Manpower Development Plan</strong>. In Singapore, HMDP awards support selected healthcare professionals to undergo targeted subspecialty training that addresses identified skill or knowledge gaps within the healthcare system. The Ministry of Health provides manpower-development allocations to healthcare institutions, and institutions select individuals whose training is expected to strengthen clinical service capability when they return.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Dr Jeremy Sun received a <strong>SingHealth Health Manpower Development Plan Award</strong> for dedicated training in <strong>holistic multi-disciplinary lymphedema management and lymphatic surgery</strong>. This reflects formal institutional selection and support for focused lymphatic surgery training, rather than general microsurgery training alone.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":4890,"sizeSlug":"large","linkDestination":"media","className":"hmdp-certificate-lymphedema-training"} -->
+<figure class="wp-block-image size-large hmdp-certificate-lymphedema-training"><a href="https://lymphedasia.com/wp-content/uploads/2026/08/hmdp-certificate-cleaned-web-card.jpg"><img src="https://lymphedasia.com/wp-content/uploads/2026/08/hmdp-certificate-cleaned-web-card.jpg" alt="SingHealth Health Manpower Development Plan Award certificate for Dr Jeremy Sun Mingfa for training in lymphedema management and lymphatic surgery" class="wp-image-4890"/></a><figcaption>SingHealth Health Manpower Development Plan Award for dedicated training in holistic multi-disciplinary lymphedema management and lymphatic surgery.</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Fellowship, observership and attachment: why the words matter</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Patients may encounter terms such as “fellowship”, “observership”, “attachment” or “overseas training”. These terms are not always equivalent. A short self-arranged observership can provide useful exposure, but it may not involve the same institutional selection, defined service-development purpose, structured objectives, duration, supervision, hands-on experience or responsibility to bring back expertise for an identified healthcare-system need.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>For patients, the practical question is not the label alone. It is what the training actually involved: how long it lasted, who supervised it, whether it focused specifically on lymphedema surgery, whether it included operative experience, and whether the surgeon can assess the full lymphedema pathway rather than offering only one procedure.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Teaching other surgeons is another expertise signal</h2>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Advanced lymphedema surgery has developed at different speeds across countries, institutions and healthcare systems. Rather than judging training by country alone, patients should look at the surgeon’s specific lymphatic surgery exposure, mentors, imaging workflow, treatment range and involvement in surgeon education.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p>Dr Jeremy Sun has contributed to surgeon education in lymphatic surgery, including live surgical teaching in Singapore and China. These teaching activities focus on practical concepts such as lymphatic imaging, supermicrosurgical LVA / LVB planning, vessel selection, lymph node transfer and realistic patient selection.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Questions patients can ask before lymphedema surgery</h2>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul><!-- wp:list-item --><li>Have you had dedicated lymphatic surgery training, not only general microsurgery training?</li><!-- /wp:list-item --><!-- wp:list-item --><li>Was the training a formal institutionally selected fellowship, or a short observership or attachment?</li><!-- /wp:list-item --><!-- wp:list-item --><li>Do you use ICG lymphography and ultrasound localisation for LVA / LVB planning?</li><!-- /wp:list-item --><!-- wp:list-item --><li>How do you decide between LVA / LVB, lymph node transfer, liposuction, reductive surgery and conservative care?</li><!-- /wp:list-item --><!-- wp:list-item --><li>What are the realistic goals in my case: symptom improvement, cellulitis reduction, compression reduction, function, or staged control?</li><!-- /wp:list-item --><!-- wp:list-item --><li>How will compression, therapy and long-term follow-up be managed after surgery?</li><!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Related LymphedAsia resources</h2>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul><!-- wp:list-item --><li><a href="https://lymphedasia.com/lymphedema-surgeon-singapore/">Lymphedema surgeon in Singapore: Dr Jeremy Sun</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href="https://lymphedasia.com/choosing-lymphedema-surgeon-singapore/">Choosing a lymphedema surgeon in Singapore</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href="https://lymphedasia.com/lva-surgery-singapore/">LVB / LVA surgery in Singapore</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">Dr Jeremy Sun: lymphedema specialist profile</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href="https://lymphedasia.com/lymphedema-treatment/">Lymphedema treatment in Singapore</a></li><!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>Medical information notice:</strong> This page provides general educational information only. It does not replace consultation with a qualified healthcare professional. Training background is only one factor in choosing a surgeon; diagnosis, treatment suitability, risks, recovery and outcomes vary between individuals.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MedicalWebPage","@id":"https://lymphedasia.com/dedicated-lymphedema-surgery-training-hmdp/#webpage","url":"https://lymphedasia.com/dedicated-lymphedema-surgery-training-hmdp/","name":"Why Dedicated Lymphedema Surgery Training Matters","description":"Educational guide explaining why dedicated lymphedema surgery training, HMDP fellowship selection, lymphatic imaging and LVA / LVB expertise differ from general microsurgery or short observerships.","medicalAudience":{"@type":"MedicalAudience","audienceType":"Patient"},"about":[{"@type":"MedicalProcedure","name":"LVA / LVB lymphovenous bypass"},{"@type":"MedicalCondition","name":"Lymphedema"},{"@type":"EducationalOccupationalCredential","name":"Health Manpower Development Plan Award for lymphedema management and lymphatic surgery"}],"reviewedBy":{"@id":"https://lymphedasia.com/#dr-jeremy-sun"}},{"@type":"Physician","@id":"https://lymphedasia.com/#dr-jeremy-sun","name":"Dr Jeremy Sun Mingfa","description":"Senior Consultant Plastic and Reconstructive Surgeon in Singapore with subspecialty expertise in lymphedema surgery and supermicrosurgical lymphatic reconstruction.","medicalSpecialty":["Plastic Surgery","Reconstructive Surgery","Lymphedema Surgery"],"areaServed":{"@type":"Country","name":"Singapore"},"sameAs":["https://www.drjeremysun.com/","https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/","https://www.linkedin.com/in/dr-jeremy-sun","https://www.saps.org.sg/find-a-surgeon#!biz/id/5f106003958ece16a6418dc0/About"],"knowsAbout":["LVA surgery","LVB surgery","Lymphovenous bypass","Lymphedema surgery","ICG lymphography","Ultrasound localisation of lymphatic channels","Vascularised lymph node transfer","Health Manpower Development Plan"]}]}</script>
+<!-- /wp:html -->

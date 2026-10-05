@@ -301,6 +301,8 @@ export default function LvaSurgeryPage() {
               Imaging may include indocyanine green lymphography, high-frequency ultrasound, lymphoscintigraphy or other investigations depending on availability and clinical need. Imaging helps identify whether lymphatic channels are present, how they function, and where bypasses may be planned. Ultrasound localisation is particularly useful for mapping small veins, identifying suitable lymphatic channels or fluid planes, and planning accurate incision sites for supermicrosurgical LVA.
             </p>
 
+            <p>For more detail about the assessment, read LymphedAsia’s guides to <a href="https://lymphedasia.com/icg-lymphography-singapore/">ICG lymphography</a> and <a href="https://lymphedasia.com/ultrasound-mapping-lva-surgery-singapore/">ultrasound mapping before LVA</a>.</p>
+
             <h2>What happens during LVA surgery?</h2>
             <p>
               The exact operative plan is individualised. In general, LVA involves identifying suitable lymphatic channels and small veins, making small skin incisions over planned areas, using high magnification to connect lymphatic channels to venules, creating one or more bypasses depending on the patient’s anatomy, and closing the small incisions with dressings.
