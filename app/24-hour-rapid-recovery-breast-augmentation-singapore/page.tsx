@@ -12,6 +12,8 @@ const title = '24-Hour Rapid Recovery Breast Augmentation in Singapore';
 const description = procedurePagePresentation[slug].description;
 const articleUrl = `${baseUrl}/${slug}`;
 const modifiedIso = '2026-10-06';
+const socialImage = '/images/aesthetic-breast/recovery-planning-still-life.webp';
+const socialImageAlt = 'Recovery-planning still life for breast augmentation patient education';
 
 export const metadata: Metadata = {
   title: 'Rapid Recovery Breast Augmentation Singapore',
@@ -28,7 +30,14 @@ export const metadata: Metadata = {
     title,
     description,
     url: `/${slug}`,
-    type: 'article'
+    type: 'article',
+    images: [{ url: socialImage, alt: socialImageAlt }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: [socialImage]
   }
 };
 
