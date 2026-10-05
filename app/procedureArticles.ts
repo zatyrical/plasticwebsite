@@ -57,7 +57,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'A detailed guide to liposuction and body contouring treatment in Singapore, including abdominal, waist, arm and thigh contouring, suitability, surgical planning, recovery, scars, limitations and risks.',
     description: 'Liposuction Singapore and body contouring surgery guide: abdominal/tummy liposuction, waist/flank contouring, cost factors, consultation, recovery, risks and limits.',
     keywords: ['body contouring Singapore', 'body contouring treatment Singapore', 'liposuction Singapore', 'plastic surgeon liposuction Singapore', 'body sculpting Singapore', 'abdominal liposuction Singapore', 'tummy liposuction Singapore'],
-    heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Editorial-style image representing body contouring and liposuction consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
+    heroImage: { src: '/images/aesthetic-ai/body-contouring-consultation.webp', alt: 'Patient and clinician reviewing a body-contouring assessment worksheet during a consultation', caption: 'AI-generated editorial illustration of consultation planning; not a patient or treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
