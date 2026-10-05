@@ -237,6 +237,13 @@ export default function ProcedureArticlePage({ article }: Props) {
             { '@type': 'MedicalProcedure', name: 'Liposuction' }
           ]
         } : {}),
+        ...(article.slug === 'body-contouring-liposuction-singapore' ? {
+          mentions: [
+            { '@type': 'MedicalProcedure', name: 'Liposuction' },
+            { '@type': 'MedicalProcedure', name: 'Body contouring' },
+            { '@type': 'MedicalProcedure', name: 'Abdominoplasty' }
+          ]
+        } : {}),
         ...(article.slug === 'ftm-top-surgery-singapore' ? {
           mentions: [
             { '@type': 'MedicalProcedure', name: 'FTM top surgery' },
@@ -377,6 +384,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                     <p>Serious complications can include blood clots in the legs or lungs, fluid-related problems affecting the lungs, and injury to deeper tissues or internal organs. Individual risk depends on the treatment extent, medical history and surgical plan and should be discussed before consent.</p>
                     <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/safety">ASPS liposuction risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/candidates">ASPS liposuction suitability</a>, and <a href="https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/liposuction/">NHS liposuction overview</a>.</p>
                   </>
+                ) : null}
+                {article.slug === 'tummy-tuck-singapore' && section.id === 'risks' ? (
+                  <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/safety">ASPS tummy tuck risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/candidates">ASPS tummy tuck suitability</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a>.</p>
                 ) : null}
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'materials' ? (
                   <p>For a focused discussion of cartilage harvest, donor-site scars and alternatives, read the <Link href="/rib-rhinoplasty-singapore">rib cartilage rhinoplasty guide</Link>.</p>
