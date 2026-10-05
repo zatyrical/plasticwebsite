@@ -5,10 +5,19 @@ import { procedurePagePresentation } from './procedurePagePresentation';
 const baseUrl = 'https://www.drjeremysun.com';
 const updatedAt = '2026-10-03';
 const latestModifiedPaths = new Map([
+  ['', '2026-10-06'],
+  ['/aesthetic-surgery', '2026-10-06'],
+  ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-06'],
+  ['/asian-rhinoplasty-singapore', '2026-10-06'],
+  ['/rib-rhinoplasty-singapore', '2026-10-06'],
+  ['/breast-augmentation-singapore', '2026-10-06'],
+  ['/body-contouring-liposuction-singapore', '2026-10-06'],
+  ['/tummy-tuck-singapore', '2026-10-06'],
+  ['/face-neck-lift-singapore', '2026-10-06'],
+  ['/mommy-makeover-singapore', '2026-10-06'],
   ['/plastic-surgeon-singapore', '2026-10-04'],
   ['/training-and-fellowships', '2026-10-04'],
   ['/eyebag-removal-lower-blepharoplasty-singapore', '2026-10-04'],
-  ['/rib-rhinoplasty-singapore', '2026-10-04']
 ]);
 const updatedPaths = new Set([
   '', '/aesthetic-surgery', '/reconstructive-surgery',
