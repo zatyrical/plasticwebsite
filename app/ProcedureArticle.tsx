@@ -315,6 +315,11 @@ export default function ProcedureArticlePage({ article }: Props) {
             <div className="reviewer-card" aria-label="Medical review information">
               <strong>{article.publishedIso ? 'Clinically reviewed by Dr Jeremy Sun' : 'Clinically authored and reviewed by Dr Jeremy Sun'}</strong>
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {reviewedIso}</span>
+              <nav className="reviewer-evidence-links" aria-label="About the clinical reviewer">
+                <Link href="/plastic-surgeon-singapore">Surgeon profile</Link>
+                <Link href="/training-and-fellowships">Training and fellowships</Link>
+                <Link href="/publications">Selected publications</Link>
+              </nav>
             </div>
 
             <ProcedureQuickLinks links={shortcutLinks} />
@@ -332,7 +337,7 @@ export default function ProcedureArticlePage({ article }: Props) {
             ) : null}
 
             {article.sections.map((section) => (
-              <section key={section.id}>
+              <section className="article-reading-section" key={section.id}>
                 <h2 id={section.id}>{section.heading}</h2>
                 {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
                 {section.image ? (
@@ -401,7 +406,7 @@ export default function ProcedureArticlePage({ article }: Props) {
 
             <h2 id="faq">FAQs</h2>
             {article.faqs.map((faq) => (
-              <section key={faq.question}>
+              <section className="article-faq-card" key={faq.question}>
                 <h3>{faq.question}</h3>
                 <p>{faq.answer}</p>
               </section>
