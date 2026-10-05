@@ -244,6 +244,20 @@ export default function ProcedureArticlePage({ article }: Props) {
             { '@type': 'MedicalProcedure', name: 'Abdominoplasty' }
           ]
         } : {}),
+        ...(article.slug === 'asian-rhinoplasty-singapore' ? {
+          mentions: [
+            { '@type': 'MedicalProcedure', name: 'Rhinoplasty' },
+            { '@type': 'MedicalProcedure', name: 'Revision rhinoplasty' },
+            { '@type': 'MedicalProcedure', name: 'Cartilage grafting' }
+          ]
+        } : {}),
+        ...(article.slug === 'rib-rhinoplasty-singapore' ? {
+          mentions: [
+            { '@type': 'MedicalProcedure', name: 'Rhinoplasty' },
+            { '@type': 'MedicalProcedure', name: 'Rib cartilage grafting' },
+            { '@type': 'MedicalProcedure', name: 'Revision rhinoplasty' }
+          ]
+        } : {}),
         ...(article.slug === 'ftm-top-surgery-singapore' ? {
           mentions: [
             { '@type': 'MedicalProcedure', name: 'FTM top surgery' },
@@ -387,6 +401,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/safety">ASPS tummy tuck risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/candidates">ASPS tummy tuck suitability</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a>.</p>
+                ) : null}
+                {(article.slug === 'asian-rhinoplasty-singapore' || article.slug === 'rib-rhinoplasty-singapore') && section.id === 'risks' ? (
+                  <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/safety">ASPS rhinoplasty risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/candidates">ASPS rhinoplasty suitability</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/recovery">ASPS rhinoplasty recovery guidance</a>.</p>
                 ) : null}
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'materials' ? (
                   <p>For a focused discussion of cartilage harvest, donor-site scars and alternatives, read the <Link href="/rib-rhinoplasty-singapore">rib cartilage rhinoplasty guide</Link>.</p>

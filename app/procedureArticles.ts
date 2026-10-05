@@ -623,7 +623,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'A patient guide to rib cartilage rhinoplasty in Singapore, including when rib cartilage may be considered, Asian nose surgery planning, donor-site scar, recovery, risks and alternatives.',
     description: 'Rib rhinoplasty Singapore guide: rib cartilage nose surgery for Asian rhinoplasty, bridge and tip support, revision rhinoplasty, donor-site scar, cost factors, recovery and risks.',
     keywords: ['rib rhinoplasty Singapore', 'rib cartilage rhinoplasty Singapore', 'Asian rhinoplasty Singapore', 'rhinoplasty Singapore', 'revision rhinoplasty Singapore', 'nose surgery Singapore', 'cartilage rhinoplasty Singapore'],
-    heroImage: { src: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Educational image representing Asian rhinoplasty and rib cartilage nose surgery planning in Singapore', caption: 'Illustrative image for patient education; individual anatomy and outcomes vary.' },
+    heroImage: { src: '/images/aesthetic-ai/rib-rhinoplasty-consultation.webp', alt: 'Patient and clinician reviewing nose profile and rib donor-site planning during a rhinoplasty consultation', caption: 'AI-generated editorial illustration of rib-rhinoplasty consultation planning; not a patient or treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
