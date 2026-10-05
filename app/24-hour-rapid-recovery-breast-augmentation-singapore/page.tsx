@@ -11,6 +11,7 @@ const slug = '24-hour-rapid-recovery-breast-augmentation-singapore';
 const title = '24-Hour Rapid Recovery Breast Augmentation in Singapore';
 const description = procedurePagePresentation[slug].description;
 const articleUrl = `${baseUrl}/${slug}`;
+const modifiedIso = '2026-10-06';
 
 export const metadata: Metadata = {
   title: 'Rapid Recovery Breast Augmentation Singapore',
@@ -97,7 +98,7 @@ const medicalArticleJsonLd = {
         { '@type': 'MedicalProcedure', name: 'Breast augmentation' }
       ],
       datePublished: lastReviewedIso,
-      dateModified: lastReviewedIso,
+      dateModified: modifiedIso,
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },

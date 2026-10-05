@@ -101,6 +101,7 @@ const establishedArticles = [
 
 export default function ProcedureArticlePage({ article }: Props) {
   const reviewedIso = article.reviewedIso ?? lastReviewedIso;
+  const modifiedIso = article.modifiedIso ?? reviewedIso;
   const publishedIso = article.publishedIso ?? lastReviewedIso;
   const presentation = procedurePagePresentation[article.slug];
   const heading = presentation?.heading ?? article.title;
@@ -279,7 +280,7 @@ export default function ProcedureArticlePage({ article }: Props) {
           ]
         } : {}),
         datePublished: publishedIso,
-        dateModified: reviewedIso,
+        dateModified: modifiedIso,
         lastReviewed: reviewedIso,
         reviewedBy: { '@id': physicianId },
         author: { '@id': physicianId },

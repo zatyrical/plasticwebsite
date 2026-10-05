@@ -35,6 +35,7 @@ export type ProcedureArticle = {
   description: string;
   keywords: string[];
   reviewedIso?: string;
+  modifiedIso?: string;
   publishedIso?: string;
   heroImage?: {
     src: string;
@@ -52,6 +53,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   'eyebag-removal-lower-blepharoplasty-singapore': lowerBlepharoplastyArticle,
   'body-contouring-liposuction-singapore': {
     slug: 'body-contouring-liposuction-singapore',
+    modifiedIso: '2026-10-06',
     title: 'Liposuction Singapore | Body Contouring Surgery, Cost & Recovery',
     eyebrow: 'Body contouring & liposuction',
     lead: 'A detailed guide to liposuction and body contouring treatment in Singapore, including abdominal, waist, arm and thigh contouring, suitability, surgical planning, recovery, scars, limitations and risks.',
@@ -159,6 +161,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'tummy-tuck-singapore': {
     slug: 'tummy-tuck-singapore',
+    modifiedIso: '2026-10-06',
     title: 'Abdominoplasty Singapore | Tummy Tuck Surgery & Diastasis Repair',
     eyebrow: 'Tummy tuck & abdominoplasty',
     lead: 'A patient guide to abdominoplasty and tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti or divarication repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
@@ -252,6 +255,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'mommy-makeover-singapore': {
     slug: 'mommy-makeover-singapore',
+    modifiedIso: '2026-10-06',
     title: 'Mommy / Mummy Makeover Singapore | Post-Pregnancy Surgery',
     eyebrow: 'Mommy makeover',
     lead: 'A patient guide to mommy / mummy makeover surgery in Singapore, including tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, staging, cost factors, recovery and risks.',
@@ -320,6 +324,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'breast-augmentation-singapore': {
     slug: 'breast-augmentation-singapore',
+    modifiedIso: '2026-10-06',
     title: 'Breast Augmentation Singapore | Breast Implant Surgery & Motiva Planning',
     eyebrow: 'Breast augmentation & implants',
     lead: 'A patient guide to breast augmentation in Singapore, including implant selection, Motiva implant planning, fat grafting alternatives, recovery, screening, risks and long-term implant follow-up.',
@@ -522,6 +527,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'asian-rhinoplasty-singapore': {
     slug: 'asian-rhinoplasty-singapore',
+    modifiedIso: '2026-10-06',
     title: 'Rhinoplasty Singapore | Asian Nose Surgery & Rib Cartilage',
     eyebrow: 'Asian rhinoplasty',
     lead: 'A detailed guide to Asian rhinoplasty in Singapore, including nasal bridge and tip planning, structural support, rib cartilage considerations, recovery and risks.',
@@ -641,6 +647,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'rib-rhinoplasty-singapore': {
     slug: 'rib-rhinoplasty-singapore',
+    modifiedIso: '2026-10-06',
     title: 'Rib Rhinoplasty Singapore | Rib Cartilage Nose Surgery',
     eyebrow: 'Rib rhinoplasty',
     lead: 'A patient guide to rib cartilage rhinoplasty in Singapore, including when rib cartilage may be considered, Asian nose surgery planning, donor-site scar, recovery, risks and alternatives.',
@@ -716,6 +723,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'face-neck-lift-singapore': {
     slug: 'face-neck-lift-singapore',
+    modifiedIso: '2026-10-06',
     title: 'Facelift & Neck Lift Singapore | Face Lift Surgery',
     eyebrow: 'Face and neck lift',
     lead: 'A detailed guide to face lift and neck lift surgery in Singapore, including suitability, facial analysis, scars, recovery, risks and non-surgical alternatives.',
