@@ -6,12 +6,12 @@ export type TreatmentTile = {
 };
 
 export const aestheticTreatments: TreatmentTile[] = [
-  { title: 'Body contouring & liposuction treatment', href: '/body-contouring-liposuction-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused image representing body contouring, abdominal liposuction and waist contouring consultation in Singapore' },
-  { title: 'Tummy tuck / abdominoplasty surgery', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused abdominal contouring image representing tummy tuck, abdominoplasty and diastasis recti consultation in Singapore' },
+  { title: 'Body contouring & liposuction treatment', href: '/body-contouring-liposuction-singapore', image: '/images/aesthetic-ai/body-contouring-consultation.webp', alt: 'Patient and clinician reviewing a body-contouring assessment worksheet during consultation planning' },
+  { title: 'Tummy tuck / abdominoplasty surgery', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/tummy-tuck-consultation.webp', alt: 'Clothed patient preparing questions in a notebook before a tummy tuck consultation' },
   { title: 'Mommy / mummy makeover surgery', href: '/mommy-makeover-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Asian-focused image representing post-pregnancy abdominal and breast surgery consultation in Singapore' },
   { title: 'Breast augmentation & implant planning', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during breast augmentation and Motiva implant consultation planning in Singapore' },
   { title: 'Rhinoplasty / Asian nose surgery', href: '/asian-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image for rhinoplasty' },
-  { title: 'Rib rhinoplasty / rib cartilage nose surgery', href: '/rib-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Asian side-profile nose image representing rib cartilage rhinoplasty planning in Singapore' },
+  { title: 'Rib rhinoplasty / rib cartilage nose surgery', href: '/rib-rhinoplasty-singapore', image: '/images/aesthetic-ai/rib-rhinoplasty-consultation.webp', alt: 'Patient and clinician reviewing nose profile and rib donor-site planning during a rhinoplasty consultation' },
   { title: 'Eyebag removal / lower blepharoplasty', href: '/eyebag-removal-lower-blepharoplasty-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Illustrative eyelid image for lower eyelid surgery consultation' },
   { title: 'Upper eyelid / double eyelid surgery', href: '/asian-eyelid-surgery-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Asian eyelid image with surgical planning markings' },
   { title: 'Facelift / face lift and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Asian lower face, jawline and neck image for face and neck lift' },
@@ -32,13 +32,13 @@ export const reconstructiveTreatments: TreatmentTile[] = [
 ];
 
 export const aestheticSignatureTreatments: TreatmentTile[] = [
-  { title: 'Rib rhinoplasty / rib cartilage nose surgery', href: '/rib-rhinoplasty-singapore', image: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Illustrative side-profile nose image for rib rhinoplasty planning' },
+  { title: 'Rib rhinoplasty / rib cartilage nose surgery', href: '/rib-rhinoplasty-singapore', image: '/images/aesthetic-ai/rib-rhinoplasty-consultation.webp', alt: 'Patient and clinician reviewing nose profile and rib donor-site planning during a rhinoplasty consultation' },
   { title: 'Eyebag removal / lower blepharoplasty', href: '/eyebag-removal-lower-blepharoplasty-singapore', image: '/images/aesthetic-ai/eyelid-surgery.jpg', alt: 'Illustrative eyelid image for lower eyelid surgery consultation' },
   { title: 'Breast augmentation & implant planning', href: '/breast-augmentation-singapore', image: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant samples used during consultation planning' },
   { title: 'Rapid recovery breast augmentation guide', href: '/24-hour-rapid-recovery-breast-augmentation-singapore', image: '/images/aesthetic-breast/recovery-planning-still-life.webp', alt: 'Illustrative recovery-planning still life with a supportive bra and appointment notebook' },
   { title: 'Facelift and neck lift', href: '/face-neck-lift-singapore', image: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Illustrative lower face, jawline and neck image for consultation planning' },
   { title: 'Body contouring and liposuction', href: '/body-contouring-liposuction-singapore', image: '/images/body-contouring/liposuction-instruments-still-life.webp', alt: 'Illustrative liposuction cannulas on a surgical tray' },
-  { title: 'Tummy tuck / abdominoplasty', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Illustrative abdominal image for tummy tuck consultation planning' }
+  { title: 'Tummy tuck / abdominoplasty', href: '/tummy-tuck-singapore', image: '/images/aesthetic-ai/tummy-tuck-consultation.webp', alt: 'Clothed patient preparing questions in a notebook before a tummy tuck consultation' }
 ];
 
 export const reconstructiveSignatureTreatments: TreatmentTile[] = [
