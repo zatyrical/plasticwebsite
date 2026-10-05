@@ -164,7 +164,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'A patient guide to abdominoplasty and tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti or divarication repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
     description: 'Abdominoplasty Singapore and tummy tuck surgery guide: loose abdominal skin, diastasis recti/divarication repair, mini vs full tummy tuck, cost factors, recovery, scars and risks.',
     keywords: ['tummy tuck Singapore', 'abdominoplasty Singapore', 'mini tummy tuck Singapore', 'diastasis recti repair Singapore', 'divarication surgery Singapore', 'post pregnancy tummy tuck Singapore', 'loose abdominal skin surgery Singapore', 'mommy makeover Singapore'],
-    heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Educational image representing abdominal contouring and tummy tuck consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
+    heroImage: { src: '/images/aesthetic-ai/tummy-tuck-consultation.webp', alt: 'Illustration of a woman preparing questions in a notebook before a tummy tuck consultation', caption: 'AI-generated editorial illustration of consultation preparation; not a patient or treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
