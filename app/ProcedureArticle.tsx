@@ -405,6 +405,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {(article.slug === 'asian-rhinoplasty-singapore' || article.slug === 'rib-rhinoplasty-singapore') && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/safety">ASPS rhinoplasty risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/candidates">ASPS rhinoplasty suitability</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/recovery">ASPS rhinoplasty recovery guidance</a>.</p>
                 ) : null}
+                {article.slug === 'breast-augmentation-singapore' && section.id === 'risks' ? (
+                  <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/safety">ASPS breast augmentation risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/recovery">ASPS breast augmentation recovery guidance</a>, and the <a href="https://www.fda.gov/medical-devices/implants-and-prosthetics/breast-implants">FDA breast implant information hub</a>.</p>
+                ) : null}
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'materials' ? (
                   <p>For a focused discussion of cartilage harvest, donor-site scars and alternatives, read the <Link href="/rib-rhinoplasty-singapore">rib cartilage rhinoplasty guide</Link>.</p>
                 ) : null}
