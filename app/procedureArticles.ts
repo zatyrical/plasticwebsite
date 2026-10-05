@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 42871)
-Total output lines: 1199
-
 import { lowerBlepharoplastyArticle } from './lowerBlepharoplastyArticle';
 
 export type ProcedureSection = {
@@ -631,7 +628,95 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'questions',
         heading: 'Questions to ask before rhinoplasty',
-        items: ['Is my goal mainly bridge height, tip projection, nostril refinement, airway improvement or revision?', 'What graft or implant material is being considered, and why?', 'Is rib cartilage needed in my case, or are other options reasonable?', 'How will the plan protect nasal breathing and long-term support?', 'What donor-site scar or recovery should I expect if rib cartilage is used?', 'What are the limits created by my skin thickne…2871 tokens truncated…h, position and maturation should be discussed during consultation.' },
+        items: ['Is my goal mainly bridge height, tip projection, nostril refinement, airway improvement or revision?', 'What graft or implant material is being considered, and why?', 'Is rib cartilage needed in my case, or are other options reasonable?', 'How will the plan protect nasal breathing and long-term support?', 'What donor-site scar or recovery should I expect if rib cartilage is used?', 'What are the limits created by my skin thickness or previous procedures?']
+      }
+    ],
+    faqs: [
+      { question: 'Do all Asian rhinoplasty patients need rib cartilage?', answer: 'No. Rib cartilage is considered when stronger structural support is needed. Some patients may be suitable for other cartilage sources, implants, limited grafting or a different approach.' },
+      { question: 'Why is rib cartilage often discussed in Asian rhinoplasty?', answer: 'In many Asian noses, septal cartilage may not provide enough strength or quantity for major augmentation. Rib cartilage can provide a stronger framework for height, projection, tip definition and support when those goals are appropriate.' },
+      { question: 'Can rhinoplasty improve breathing?', answer: 'If there is septal deviation or structural airway obstruction, functional correction may be discussed. Cosmetic rhinoplasty alone is not the same as airway surgery.' },
+      { question: 'What happens during an Asian rhinoplasty consultation?', answer: 'Consultation usually includes facial analysis, nasal airway symptoms, skin thickness, bridge and tip support, nostril shape, previous surgery or filler history, photographs and discussion of whether grafts, implants, septal correction or a more limited plan are appropriate.' },
+      { question: 'How much does rhinoplasty cost in Singapore?', answer: 'Cost varies with whether the plan is primary or revision rhinoplasty, the degree of structural work, whether rib cartilage or septal/airway correction is needed, anaesthesia, facility and follow-up. A meaningful quotation should follow examination and surgical planning.' },
+      { question: 'How should I choose a rhinoplasty surgeon in Singapore?', answer: 'Look for recognised plastic surgery training, clear explanation of Asian nasal anatomy, bridge and tip support, airway assessment, graft or implant options, revision limits, recovery, risks and how complications are managed.' },
+      { question: 'Is an implant or cartilage better for Asian rhinoplasty?', answer: 'There is no single best material for every patient. Implants, septal cartilage, ear cartilage and rib cartilage each have different roles, benefits and risks. The safer choice depends on anatomy, desired change, skin thickness, infection risk, previous surgery and the need for structural support.' },
+      { question: 'Can rhinoplasty be done without a nasal implant?', answer: 'Yes, selected rhinoplasty plans may use the patient’s own septal, ear or rib cartilage without a nasal implant. Suitability depends on the intended change, available cartilage, skin thickness, previous treatment and the support the nose needs; an implant-free plan is not automatically the right plan for every patient.' },
+      { question: 'How long does swelling last?', answer: 'Early swelling improves over weeks, but nasal tip swelling and refinement can take months. Revision cases and thicker skin may take longer.' },
+      { question: 'Is revision rhinoplasty more complex?', answer: 'Often yes. Scar tissue, previous implants, fillers, grafts and altered anatomy can make revision surgery more complex and may limit what can be safely changed.' }
+    ]
+  },
+
+  'rib-rhinoplasty-singapore': {
+    slug: 'rib-rhinoplasty-singapore',
+    modifiedIso: '2026-10-06',
+    title: 'Rib Rhinoplasty Singapore | Rib Cartilage Nose Surgery',
+    eyebrow: 'Rib rhinoplasty',
+    lead: 'A patient guide to rib cartilage rhinoplasty in Singapore, including when rib cartilage may be considered, Asian nose surgery planning, donor-site scar, recovery, risks and alternatives.',
+    description: 'Rib rhinoplasty Singapore guide: rib cartilage nose surgery for Asian rhinoplasty, bridge and tip support, revision rhinoplasty, donor-site scar, cost factors, recovery and risks.',
+    keywords: ['rib rhinoplasty Singapore', 'rib cartilage rhinoplasty Singapore', 'Asian rhinoplasty Singapore', 'rhinoplasty Singapore', 'revision rhinoplasty Singapore', 'nose surgery Singapore', 'cartilage rhinoplasty Singapore'],
+    heroImage: { src: '/images/aesthetic-ai/rib-rhinoplasty-consultation.webp', alt: 'Patient and clinician reviewing nose profile and rib donor-site planning during a rhinoplasty consultation', caption: 'AI-generated editorial illustration of rib-rhinoplasty consultation planning; not a patient or treatment result.' },
+    backHref: '/#aesthetic-surgery',
+    backLabel: 'Back to aesthetic surgery',
+    intro: [
+      'Rib rhinoplasty refers to rhinoplasty where rib cartilage is considered as a graft material for nasal support or augmentation. It is commonly discussed in Asian rhinoplasty and revision rhinoplasty when stronger structural support may be needed.',
+      'Not every rhinoplasty patient needs rib cartilage. Some patients may be better suited to septal cartilage, ear cartilage, implant-based bridge augmentation, limited refinement, non-surgical management or no surgery.',
+      'The decision depends on nasal anatomy, skin thickness, bridge and tip goals, airway symptoms, previous surgery or fillers, donor-site considerations and the patient’s tolerance for scars and recovery.'
+    ],
+    sections: [
+      {
+        id: 'who-this-is-for',
+        heading: 'Rib rhinoplasty in Singapore: who this page is for',
+        paragraphs: ['This page is for patients searching for rib rhinoplasty or rib cartilage rhinoplasty in Singapore and trying to understand why rib cartilage may be discussed for Asian nose surgery.', 'The key question is not whether rib cartilage is “better”. The consultation should ask whether the nose needs stronger structural support, whether simpler options are adequate, and whether donor-site risks are acceptable.']
+      },
+      {
+        id: 'when-rib-cartilage-is-discussed',
+        heading: 'When rib cartilage may be discussed',
+        paragraphs: ['Rib cartilage may be considered when septal or ear cartilage is insufficient for the planned change, when stronger support is needed, or when revision surgery has altered the available tissue.'],
+        items: ['low nasal bridge with a need for substantial structural augmentation', 'tip projection or support requiring stronger graft material', 'revision rhinoplasty after previous implant, graft or filler history', 'selected cases where septal cartilage is limited', 'patients who understand donor-site scar and recovery trade-offs']
+      },
+      {
+        id: 'alternatives',
+        heading: 'Alternatives to rib cartilage rhinoplasty',
+        image: {
+          src: '/images/rhinoplasty/rib-cartilage-silicone-nasal-implant.webp',
+          alt: 'Educational illustration of rib cartilage on the left and a silicone nasal implant on the right, on a green surgical drape',
+          caption: 'Educational illustration: rib cartilage (left) and a silicone nasal implant (right). These materials have different roles, benefits and risks; suitability is assessed individually. The illustration does not show a treatment result or compare dimensions to scale.',
+          width: 1536,
+          height: 1024
+        },
+        paragraphs: ['Alternatives may include septal cartilage, ear cartilage, implant-based planning, combined materials, a more limited rhinoplasty or no surgery. Each option has different strengths, risks and limitations.', 'A patient with modest goals may not need rib cartilage. Conversely, a patient needing stronger support may not get a stable result from a smaller graft source.']
+      },
+      {
+        id: 'consultation',
+        heading: 'Consultation and planning for Asian rib rhinoplasty',
+        paragraphs: ['Assessment includes facial proportions, nasal bridge, nasal tip support, nostril shape, skin thickness, septum, airway symptoms, previous fillers or surgery, photographs and discussion of graft or implant options.', 'Patients should understand the donor site as well as the nose. Rib harvest creates a chest-wall scar and can cause discomfort, contour changes or other donor-site issues.']
+      },
+      {
+        id: 'cost-quotation',
+        heading: 'Rib rhinoplasty cost factors in Singapore',
+        paragraphs: ['Cost can vary because rib rhinoplasty may involve additional operative time, cartilage harvest, structural grafting, revision work, anaesthesia, facility, medications and follow-up. Revision cases are often more complex than primary surgery.', 'A quotation should follow assessment and should explain whether rib cartilage is genuinely needed, what alternatives exist, what is included and what factors may change the plan.']
+      },
+      {
+        id: 'recovery',
+        heading: 'Recovery after rib cartilage rhinoplasty',
+        paragraphs: ['Recovery includes nasal swelling and a separate rib donor-site recovery. Nasal tip swelling can take months to settle, especially in thicker skin or revision surgery. The rib donor site may be sore during movement, coughing or deep breathing early on.', 'Patients should follow wound care, activity restrictions and follow-up instructions closely. Final nasal refinement takes time and cannot be judged in the early swelling phase.']
+      },
+      {
+        id: 'risks',
+        heading: 'Risks and limitations',
+        paragraphs: ['Risks include bleeding, infection, scarring, asymmetry, warping or resorption of cartilage, contour irregularity, airway symptoms, altered sensation, unsatisfactory appearance, need for revision surgery, and donor-site pain or scar concerns.', 'Rib rhinoplasty cannot guarantee a specific nose shape, perfect symmetry or a permanent unchanged result. Scar tissue, previous surgery, fillers and skin thickness can limit what is safely achievable.']
+      },
+      {
+        id: 'questions',
+        heading: 'Questions to ask before rib rhinoplasty',
+        items: ['Why is rib cartilage being considered in my case?', 'Are septal cartilage, ear cartilage, implant-based planning or no surgery reasonable alternatives?', 'Where will the rib scar be and what donor-site symptoms can occur?', 'How will bridge and tip support be planned?', 'How does previous filler or surgery affect the plan?', 'What would make revision surgery more likely?']
+      }
+    ],
+    faqs: [
+      { question: 'What is rib rhinoplasty?', answer: 'Rib rhinoplasty is nose surgery where rib cartilage is used as graft material for selected bridge, tip or structural support needs. It is sometimes discussed in Asian rhinoplasty and revision rhinoplasty.' },
+      { question: 'Do all Asian rhinoplasty patients need rib cartilage?', answer: 'No. Some patients may be suitable for septal cartilage, ear cartilage, implant-based planning, limited refinement or no surgery. Rib cartilage is considered when stronger or larger-volume structural support is needed.' },
+      { question: 'Is rib cartilage better than an implant?', answer: 'There is no single better option for every patient. Rib cartilage and implants have different roles, benefits and risks. The choice depends on anatomy, goals, skin thickness, infection risk, revision history and the need for structural support.' },
+      { question: 'How much does rib rhinoplasty cost in Singapore?', answer: 'Cost varies with primary versus revision surgery, complexity, cartilage harvest, anaesthesia, facility and follow-up. A quotation should follow assessment and should explain whether rib cartilage is necessary.' },
+      { question: 'Will there be a rib scar?', answer: 'Yes. Rib cartilage harvest requires a chest-wall incision, so a scar is expected. Scar length, position and maturation should be discussed during consultation.' },
       { question: 'Is revision rhinoplasty with rib cartilage more complex?', answer: 'Often yes. Previous surgery, implants, fillers, grafts and scar tissue can alter anatomy and blood supply, making revision planning more complex and sometimes limiting what can be safely changed.' }
     ]
   },
