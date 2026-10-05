@@ -422,6 +422,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'materials' ? (
                   <p>For a focused discussion of cartilage harvest, donor-site scars and alternatives, read the <Link href="/rib-rhinoplasty-singapore">rib cartilage rhinoplasty guide</Link>.</p>
                 ) : null}
+                {article.slug === 'rib-rhinoplasty-singapore' && section.id === 'alternatives' ? (
+                  <p>For the broader decision between nasal implants, septal cartilage, ear cartilage and rib cartilage, read the <Link href="/asian-rhinoplasty-singapore#materials">Asian rhinoplasty materials guide</Link>.</p>
+                ) : null}
                 {article.slug === 'breast-augmentation-singapore' && section.id === 'rapid-recovery' ? (
                   <p>Read the <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore">rapid recovery breast augmentation guide</Link> for patient selection, early movement and activity limits.</p>
                 ) : null}
