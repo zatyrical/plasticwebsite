@@ -4,6 +4,8 @@ import Navigation from './Navigation';
 import { lastReviewedIso, physicianJsonLd } from './seoIdentity';
 import { aestheticSignatureTreatments, reconstructiveSignatureTreatments } from './treatmentTiles';
 
+const modifiedIso = '2026-10-06';
+
 const jsonLd = {
   '@context': 'https://schema.org',
   '@graph': [
@@ -41,7 +43,7 @@ const jsonLd = {
         'Breast implant illness evidence'
       ],
       datePublished: lastReviewedIso,
-      dateModified: lastReviewedIso,
+      dateModified: modifiedIso,
       lastReviewed: lastReviewedIso,
       reviewedBy: { '@id': 'https://www.drjeremysun.com/#physician' },
       author: { '@id': 'https://www.drjeremysun.com/#physician' }
