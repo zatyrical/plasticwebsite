@@ -1,0 +1,66 @@
+<!-- wp:image {"id":4664,"sizeSlug":"large","className":"lymphasia-educational-image"} -->
+<figure class="wp-block-image size-large lymphasia-educational-image"><img src="https://lymphedasia.com/wp-content/uploads/2026/08/dr-jeremy-sun-consultation-lymphedema-assessment.jpg" alt="Dr Jeremy Sun consultation image for lymphedema assessment in Singapore" class="wp-image-4664"/><figcaption>Specialist consultation focuses on diagnosis, imaging, treatment selection and long-term care planning.</figcaption></figure>
+
+<div class="hermes-nassif-elective-pathway-20260927" style="border:1px solid #d9e8e5;border-radius:18px;background:linear-gradient(135deg,#f8fcfb 0%,#eef7f4 100%);padding:20px;margin:24px 0;box-shadow:0 12px 28px rgba(14,58,51,.06)">
+  <p style="margin:0 0 8px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#2f665e;font-weight:700">Start here: assessment pathway</p>
+  <h2 style="margin:0 0 10px;font-size:28px;line-height:1.12">Find the right lymphedema pathway before choosing a treatment</h2>
+  <p style="margin:0 0 14px;color:#304743;line-height:1.65">Lymphedema care is not a single procedure decision. A useful first step is to clarify the cause and stage of swelling, whether compression or decongestive therapy has been optimised, whether cellulitis has occurred, and whether imaging such as ICG lymphography or ultrasound is needed before surgery is discussed.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px">
+    <a href="https://lymphedasia.com/lymphedema-treatment/" style="display:block;background:#fff;border:1px solid #e3eeeb;border-radius:14px;padding:14px;text-decoration:none;color:#153832"><strong>Treatment overview</strong><br><span style="font-size:14px;color:#53635f">CDT, compression, imaging and surgery options.</span></a>
+    <a href="https://lymphedasia.com/lva-surgery-singapore/" style="display:block;background:#fff;border:1px solid #e3eeeb;border-radius:14px;padding:14px;text-decoration:none;color:#153832"><strong>LVA / LVB surgery</strong><br><span style="font-size:14px;color:#53635f">Suitability, limits, recovery and alternatives.</span></a>
+    <a href="https://lymphedasia.com/private-lymphedema-consultation-singapore/" style="display:block;background:#fff;border:1px solid #e3eeeb;border-radius:14px;padding:14px;text-decoration:none;color:#153832"><strong>Assessment enquiry</strong><br><span style="font-size:14px;color:#53635f">For non-urgent specialist consultation planning.</span></a>
+  </div>
+  <p style="margin:14px 0 0;color:#53635f;font-size:14px;line-height:1.55">LymphedAsia is an educational resource. Online information does not replace personalised consultation, and suitability for surgery varies by individual assessment.</p>
+</div>
+<!-- /wp:image -->
+
+<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026.</em></p>
+
+<p>Lymphedema can be difficult to navigate because swelling may be caused by several overlapping problems, including lymphatic obstruction, venous disease, cancer treatment, infection, surgery, obesity, lipedema or congenital lymphatic conditions. A specialist consultation can help clarify the likely cause, stage the condition, and identify whether conservative therapy, imaging or surgical assessment may be appropriate.</p>
+<div class="wp-block-group lymphedasia-medical-review-box has-background is-layout-flow wp-block-group-is-layout-flow" style="border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:18px;margin-bottom:24px;padding:18px">
+<p><strong>Private consultations are available:</strong> To enquire about a consultation with Dr Jeremy Sun at Astrid Plastic Surgery, use the <a href="https://www.astridplasticsurgery.com/contact-us/">Astrid appointment enquiry form</a>, <a href="https://wa.me/6587649219">WhatsApp +65 8764 9219</a>, or email <a href="mailto:contact@astridplasticsurgery.com">contact@astridplasticsurgery.com</a>. Online information does not replace personalised medical advice.</p>
+</div>
+
+<div class="la-note"><p><strong>Dr Jeremy Sun profile:</strong> Patients who want to review Dr Sun’s broader plastic, reconstructive, aesthetic and lymphatic surgery background can visit <a href="https://www.drjeremysun.com/plastic-surgeon-singapore">Dr Jeremy Sun — plastic surgeon in Singapore</a>. For LVA-specific information, see <a href="https://www.drjeremysun.com/lymphovenous-bypass-lva-surgery-singapore">LVB / LVA lymphovenous bypass surgery in Singapore</a>.</p></div>
+
+<h2 id="what-a-lymphedema-consultation-may-clarify">What a lymphedema consultation may clarify</h2>
+<ul>
+<li>whether swelling is likely to be lymphedema, edema, venous disease, lipedema or another condition;</li>
+<li>whether the pattern is primary, secondary, cancer-related, post-surgical, genital, limb-based or mixed;</li>
+<li>whether there are warning signs such as recurrent cellulitis, wounds, progressive fibrosis or functional limitation;</li>
+<li>whether compression, physiotherapy, manual lymphatic drainage or exercise programmes need adjustment;</li>
+<li>whether imaging such as ICG lymphography or lymphoscintigraphy may help guide treatment planning;</li>
+<li>whether surgical options such as LVA, vascularised lymph node transfer, liposuction or debulking surgery should be discussed.</li>
+</ul>
+<h2 id="when-to-seek-specialist-assessment">When to seek specialist assessment</h2>
+<p>Specialist review may be useful when swelling is persistent, progressive, asymmetric, associated with heaviness or skin thickening, follows cancer treatment or lymph node surgery, or is complicated by recurrent infection. It may also be appropriate when symptoms affect work, mobility, clothing, exercise, intimacy or quality of life.</p>
+<h2 id="how-this-page-will-change-after-the-private-practice-transit">How to enquire about a private consultation</h2>
+<p>Contact <strong>Astrid Plastic Surgery</strong> through its <a href="https://www.astridplasticsurgery.com/contact-us/">appointment enquiry form</a>, <a href="https://wa.me/6587649219">WhatsApp +65 8764 9219</a>, or <a href="mailto:contact@astridplasticsurgery.com">contact@astridplasticsurgery.com</a>. Please mention that you would like to enquire about a consultation with Dr Jeremy Sun. The clinic can confirm appointment availability, location and arrangements.</p>
+<p>Useful related pages: <a href="https://lymphedasia.com/lymphedema-treatment/">Lymphedema Treatment in Singapore</a>, <a href="https://lymphedasia.com/lva-surgery-singapore/">LVA Surgery in Singapore</a>, <a href="https://lymphedasia.com/lymphedema-surgery-cost/">Lymphedema Surgery Cost in Singapore</a>, and <a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">Dr Jeremy Sun’s lymphedema specialist profile</a>.</p>
+
+<!-- wp:group {"className":"authority-links-card"} -->
+<div class="wp-block-group authority-links-card">
+<!-- wp:heading {"level":2} --><h2 id="related-academic-and-technical-resources">Related academic and technical resources</h2><!-- /wp:heading -->
+<!-- wp:list --><ul>
+<li><a href="https://lymphedasia.com/why-lva-quality-matters-lymphovenous-bypass/">Why LVA quality matters: leakage, pressure and venous reflux</a></li>
+<li><a href="https://lymphedasia.com/publications/">Dr Jeremy Sun’s lymphedema surgery publications, training and media</a></li>
+</ul><!-- /wp:list -->
+</div><!-- /wp:group -->
+
+<!-- wp:paragraph --><p><strong>Related:</strong> <a href="/ultrasound-mapping-lva-surgery-singapore/">Ultrasound mapping for LVA surgery</a> explains why high-frequency ultrasound can identify lymphatic targets even when ICG linear patterns are absent in selected patients.</p><!-- /wp:paragraph -->
+
+<!-- wp:paragraph --><p><strong>Evidence-based pathway:</strong> Dr Jeremy Sun generally starts patients on appropriate complete decongestive therapy (CDT), compression optimisation, exercise, skin care and education, then reassesses response after about 3 to 6 months. Surgery is considered when swelling does not improve enough, worsens, remains functionally limiting, or recurrent cellulitis persists despite appropriate conservative care. See the full <a href="/lymphedema-treatment/">lymphedema treatment in Singapore</a> pathway.</p><!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"la-toc"} -->
+<div class="wp-block-group la-toc"><!-- wp:heading {"level":2} -->
+<h2>On this page</h2>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul>
+<li><a href="#what-a-lymphedema-consultation-may-clarify">What a lymphedema consultation may clarify</a></li>
+<li><a href="#when-to-seek-specialist-assessment">When to seek specialist assessment</a></li>
+<li><a href="#how-this-page-will-change-after-the-private-practice-transit">How to enquire about a private consultation</a></li>
+<li><a href="#related-academic-and-technical-resources">Related academic and technical resources</a></li>
+</ul>
+<!-- /wp:list --></div>
+<!-- /wp:group -->
