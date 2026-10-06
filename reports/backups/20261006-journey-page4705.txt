@@ -1,0 +1,68 @@
+<!-- wp:group {"style":{"border":{"color":"#b7d7e8","width":"1px","radius":"8px"},"spacing":{"padding":{"top":"18px","right":"18px","bottom":"18px","left":"18px"},"margin":{"top":"18px","bottom":"24px"}},"color":{"background":"#f4fbff"}},"className":"lymphedasia-direct-answer-box"} -->
+<div class="wp-block-group lymphedasia-direct-answer-box has-background" style="border-color:#b7d7e8;border-width:1px;border-radius:8px;background-color:#f4fbff;margin-top:18px;margin-bottom:24px;padding-top:18px;padding-right:18px;padding-bottom:18px;padding-left:18px"><!-- wp:paragraph -->
+<p><strong>Short answer:</strong> LVA surgery recovery usually involves wound care, compression planning, gradual return to activity and monitoring of swelling or cellulitis episodes. Recovery varies by lymphedema stage, limb condition, surgical findings and the overall treatment plan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":4744,"sizeSlug":"large","className":"lymphasia-educational-image"} -->
+<figure class="wp-block-image size-large lymphasia-educational-image"><img src="https://lymphedasia.com/wp-content/uploads/2026/08/lva-compression-after-surgery-thumbnail.jpg" alt="LVA postoperative compression thumbnail showing lymphatic flow education" class="wp-image-4744"/><figcaption>Compression and structured therapy remain important parts of recovery after LVA.</figcaption></figure>
+<!-- /wp:image -->
+
+</div>
+<!-- /wp:group -->
+<!-- wp:paragraph -->
+<p><strong>LVA surgery recovery</strong> is usually planned around wound healing, compression strategy, gradual return to activity, and monitoring of swelling or cellulitis episodes. Recovery varies between patients and depends on lymphedema stage, limb condition, surgical findings, compression needs and other medical factors.</p>
+<!-- /wp:paragraph -->
+<!-- wp:group {"style":{"border":{"color":"#d9e2ec","width":"1px","radius":"8px"},"spacing":{"padding":{"top":"18px","right":"18px","bottom":"18px","left":"18px"},"margin":{"top":"18px","bottom":"24px"}},"color":{"background":"#f8fbfd"}},"className":"lymphedasia-medical-review-box"} -->
+<div class="wp-block-group lymphedasia-medical-review-box has-background" style="border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:18px;margin-bottom:24px;padding-top:18px;padding-right:18px;padding-bottom:18px;padding-left:18px"><!-- wp:paragraph -->
+<p><strong>Specialist-reviewed educational resource:</strong> Lymphedema Asia is clinically reviewed by <a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">Dr Jeremy Sun Mingfa</a>, a Singapore plastic surgeon with dedicated lymphatic surgery training. This page is educational and does not replace personalised medical consultation.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+<!-- wp:heading --><h2 class="wp-block-heading">What happens immediately after LVA surgery?</h2><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Lymphaticovenous anastomosis, also called lymphovenous bypass, is a supermicrosurgical procedure that connects selected lymphatic channels to small veins. After surgery, the priority is to protect the wounds and the delicate bypass sites while maintaining safe circulation and limb care. Some patients may have day-surgery or short-stay pathways, while others need longer observation depending on anaesthesia, extent of surgery and medical context.</p><!-- /wp:paragraph -->
+<!-- wp:heading --><h2 class="wp-block-heading">Compression after LVA surgery</h2><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Compression advice must be individualised. Some patients continue compression garments or bandaging after a defined early period; others may need adjustments based on swelling, wound healing and surgeon preference. LVA should not be framed as a assured way to stop compression permanently.</p><!-- /wp:paragraph -->
+<!-- wp:heading --><h2 class="wp-block-heading">Activity and return to daily life</h2><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Light walking is often encouraged when safe, but strenuous exercise, heavy lifting, swimming, massage over fresh wounds, or prolonged dependent positioning may need to be avoided until cleared. Return to work depends on the limb treated, job demands, wound healing and symptoms.</p><!-- /wp:paragraph -->
+<!-- wp:heading --><h2 class="wp-block-heading">When improvement may be noticed</h2><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Some patients notice changes in heaviness, tightness or infection frequency earlier, while volume changes may take longer and can be subtle. Outcomes vary. Follow-up measurements, symptom tracking and infection history are often more meaningful than a single early impression.</p><!-- /wp:paragraph -->
+<!-- wp:heading --><h2 class="wp-block-heading">Follow-up and warning signs</h2><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Patients should seek medical advice for fever, spreading redness, increasing pain, wound discharge, sudden swelling, calf pain, breathlessness or other concerning symptoms. Recurrent cellulitis is clinically important and should be discussed during lymphedema follow-up.</p><!-- /wp:paragraph -->
+<!-- wp:heading --><h2 class="wp-block-heading">Related Singapore lymphedema resources</h2><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Read more about <a href="https://lymphedasia.com/lva-surgery-singapore/">LVA surgery in Singapore</a>, <a href="https://lymphedasia.com/icg-lymphography-singapore/">ICG lymphography</a>, <a href="https://lymphedasia.com/lymphedema-surgery-cost/">lymphedema surgery cost factors</a>, and <a href="https://lymphedasia.com/private-lymphedema-consultation-singapore/">private lymphedema consultation pathways</a>.</p><!-- /wp:paragraph -->
+<!-- wp:heading --><h2 class="wp-block-heading">Frequently asked questions</h2><!-- /wp:heading -->
+<!-- wp:heading level --><h3 class="wp-block-heading">How long does LVA recovery take?</h3><!-- /wp:post-content -->
+<!-- wp:paragraph --><p>Early wound recovery may take days to weeks, but lymphedema response is assessed over a longer period. Timelines vary and should be discussed with the treating surgeon.</p><!-- /wp:paragraph -->
+<!-- wp:heading level --><h3 class="wp-block-heading">Can I stop compression after LVA?</h3><!-- /wp:heading -->
+<!-- wp:paragraph --><p>Not automatically. Compression changes should be guided by clinical response, imaging, measurements and specialist advice.</p><!-- /wp:paragraph -->
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently asked questions</h2>
+<!-- /wp:heading -->
+<!-- wp:group {"className":"lymphedasia-faq-ai-search-box"} -->
+<div class="wp-block-group lymphedasia-faq-ai-search-box">
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How long does recovery after LVA surgery take?</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Recovery varies. Many patients focus on wound healing and light activity first, while swelling and symptom patterns are monitored over weeks to months.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Do I still need compression after LVA surgery?</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Some patients still need compression after LVA. The plan depends on the limb, lymphatic imaging, surgical findings and response over time.</p>
+<!-- /wp:paragraph -->
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">When should I seek urgent advice after LVA?</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Increasing pain, fever, spreading redness, sudden swelling, wound discharge, breathlessness or rapid deterioration should prompt urgent medical advice.</p>
+<!-- /wp:paragraph -->
+<!-- wp:paragraph -->
+<p><em>This page provides general education and does not replace personalised consultation. Suitability, risks, recovery and outcomes vary between individuals.</em></p>
+<!-- /wp:paragraph -->
+</div>
+<!-- /wp:group -->
+
+<!-- wp:html -->
+<script type="application/ld+json" class="lymphedasia-faq-schema">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How long does recovery after LVA surgery take?", "acceptedAnswer": {"@type": "Answer", "text": "Recovery varies. Many patients focus on wound healing and light activity first, while swelling and symptom patterns are monitored over weeks to months."}}, {"@type": "Question", "name": "Do I still need compression after LVA surgery?", "acceptedAnswer": {"@type": "Answer", "text": "Some patients still need compression after LVA. The plan depends on the limb, lymphatic imaging, surgical findings and response over time."}}, {"@type": "Question", "name": "When should I seek urgent advice after LVA?", "acceptedAnswer": {"@type": "Answer", "text": "Increasing pain, fever, spreading redness, sudden swelling, wound discharge, breathlessness or rapid deterioration should prompt urgent medical advice."}}]}</script>
+<!-- /wp:html -->
