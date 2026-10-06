@@ -45,6 +45,10 @@ export const lowerBlepharoplastyArticle: ProcedureArticle = {
           {
             "label": "Sunken under-eye area",
             "values": ["The hollow and whether underlying bone support contributes.", "Dr Sun may discuss a tear trough implant in selected patients with bone-related hollowing."]
+          },
+          {
+            "label": "Loose lower-eyelid skin",
+            "values": ["The amount and quality of lower-eyelid skin and whether it contributes to the concern.", "A transconjunctival incision treats tissues through the inner eyelid; the incision itself does not remove excess skin, so the proposed plan may differ."]
           }
         ]
       }
