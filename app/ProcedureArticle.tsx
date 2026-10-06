@@ -417,6 +417,18 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'breast-augmentation-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/safety">ASPS breast augmentation risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/recovery">ASPS breast augmentation recovery guidance</a>, and the <a href="https://www.fda.gov/medical-devices/implants-and-prosthetics/breast-implants">FDA breast implant information hub</a>.</p>
                 ) : null}
+                {article.slug === 'face-neck-lift-singapore' && section.id === 'singapore-options' ? (
+                  <p>Comparing a surgical lift with threads? Read the <Link href="/thread-lifting-singapore">thread lifting guide</Link> for patient selection, recovery and limitations before your consultation.</p>
+                ) : null}
+                {article.slug === 'face-neck-lift-singapore' && section.id === 'anatomy' ? (
+                  <p>For the separate concerns mentioned above, explore <Link href="/fat-grafting-singapore">fat grafting and volume restoration</Link> or <Link href="/eyebag-removal-lower-blepharoplasty-singapore">eyebag removal and lower blepharoplasty</Link>. These guides explain their own assessment, risks and recovery; reading them does not mean a combined procedure is needed.</p>
+                ) : null}
+                {article.slug === 'thread-lifting-singapore' && section.id === 'suitability' ? (
+                  <p>If you are comparing threads with surgery, the <Link href="/face-neck-lift-singapore#neck-lift-decision">face and neck lift decision guide</Link> explains the different concerns assessed before choosing a plan.</p>
+                ) : null}
+                {article.slug === 'fat-grafting-singapore' && section.id === 'assessment' ? (
+                  <p>For facial rejuvenation planning, the <Link href="/face-neck-lift-singapore#assessment">face and neck lift consultation guide</Link> explains how assessment separates volume loss, tissue descent and skin changes.</p>
+                ) : null}
                 {article.slug === 'face-neck-lift-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/safety">ASPS facelift risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/recovery">ASPS facelift recovery guidance</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/safety">ASPS neck lift risks and safety</a>.</p>
                 ) : null}
