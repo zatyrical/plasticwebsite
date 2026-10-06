@@ -121,6 +121,7 @@ export default function ProcedureArticlePage({ article }: Props) {
   const relatedByProcedure: Record<string, string[]> = {
     'eyebag-removal-lower-blepharoplasty-singapore': ['asian-eyelid-surgery-singapore', 'face-neck-lift-singapore'],
     'breast-augmentation-singapore': ['24-hour-rapid-recovery-breast-augmentation-singapore', 'breast-aesthetic-surgery-singapore', 'breast-implant-illness-singapore-evidence', 'mommy-makeover-singapore'],
+    'breast-aesthetic-surgery-singapore': ['breast-augmentation-singapore', '24-hour-rapid-recovery-breast-augmentation-singapore', 'breast-implant-illness-singapore-evidence', 'mommy-makeover-singapore'],
     'tummy-tuck-singapore': ['body-contouring-liposuction-singapore', 'mommy-makeover-singapore', 'compression-foam-lymphatic-massage-after-liposuction'],
     'mommy-makeover-singapore': ['tummy-tuck-singapore', 'breast-augmentation-singapore', 'breast-aesthetic-surgery-singapore', 'body-contouring-liposuction-singapore'],
     'body-contouring-liposuction-singapore': ['tummy-tuck-singapore', 'compression-foam-lymphatic-massage-after-liposuction', 'mommy-makeover-singapore'],
@@ -449,6 +450,15 @@ export default function ProcedureArticlePage({ article }: Props) {
                 ) : null}
                 {article.slug === 'breast-augmentation-singapore' && section.id === 'rapid-recovery' ? (
                   <p>Read the <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore">rapid recovery breast augmentation guide</Link> for patient selection, early movement and activity limits.</p>
+                ) : null}
+                {article.slug === 'breast-aesthetic-surgery-singapore' && section.id === 'augmentation' ? (
+                  <p>For a focused discussion of implant sizing, placement, screening, cost factors and long-term follow-up, read the <Link href="/breast-augmentation-singapore">breast augmentation and implant-planning guide</Link>.</p>
+                ) : null}
+                {article.slug === 'breast-aesthetic-surgery-singapore' && section.id === 'rapid-recovery-augmentation' ? (
+                  <p>The <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore">rapid recovery breast augmentation guide</Link> explains patient selection, early movement, activity limits and why 24 hours is not a guaranteed recovery timeline.</p>
+                ) : null}
+                {article.slug === 'breast-aesthetic-surgery-singapore' && section.id === 'implants' ? (
+                  <p>Patients specifically concerned about reported systemic symptoms can also read the <Link href="/breast-implant-illness-singapore-evidence">breast implant illness evidence guide</Link> before consultation.</p>
                 ) : null}
                 {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'skin-quality' ? (
                   <p>Compare the <Link href="/tummy-tuck-singapore">tummy tuck and abdominoplasty guide</Link> when discussing loose abdominal skin and abdominal wall concerns.</p>
