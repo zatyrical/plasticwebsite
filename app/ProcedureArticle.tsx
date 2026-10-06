@@ -432,6 +432,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'face-neck-lift-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/safety">ASPS facelift risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/recovery">ASPS facelift recovery guidance</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/safety">ASPS neck lift risks and safety</a>.</p>
                 ) : null}
+                {article.slug === 'eyebag-removal-lower-blepharoplasty-singapore' && section.id === 'consultation' ? (
+                  <p>For separate upper-eyelid crease concerns, read the <Link href="/asian-eyelid-surgery-singapore">Asian eyelid surgery guide</Link>. If the concern is part of broader facial rejuvenation planning, the <Link href="/face-neck-lift-singapore#anatomy">face and neck assessment guide</Link> explains how eyelid, volume and lifting decisions are separated. Reading these guides does not mean procedures need to be combined.</p>
+                ) : null}
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'materials' ? (
                   <p>For a focused discussion of cartilage harvest, donor-site scars and alternatives, read the <Link href="/rib-rhinoplasty-singapore">rib cartilage rhinoplasty guide</Link>.</p>
                 ) : null}

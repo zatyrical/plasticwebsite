@@ -1,0 +1,144 @@
+<!-- wp:paragraph -->
+<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive and Lymphedema Surgeon in Singapore. Last reviewed: August 2026.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ultrasound mapping is becoming one of the most important tools in modern lymphovenous anastomosis (LVA) planning. For patients considering <a href="/lva-surgery-singapore/">LVA surgery in Singapore</a>, it is not only important to ask whether a surgeon performs LVA. It is also important to understand how the surgeon identifies suitable lymphatic vessels and veins before entering the operating theatre.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":4660,"sizeSlug":"large","className":"lymphasia-educational-image"} -->
+<figure class="wp-block-image size-large lymphasia-educational-image"><img src="https://lymphedasia.com/wp-content/uploads/2026/08/ultrasound-localisation-lymphatic-vessel.jpg" alt="Ultrasound localisation of a lymphatic vessel for LVA planning" class="wp-image-4660"/><figcaption>High-resolution ultrasound can help identify small lymphatic vessels and nearby veins for LVA planning.</figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>In Dr Jeremy Sun’s practice, ultrasound is used alongside clinical assessment and <a href="/icg-lymphography-singapore/">ICG lymphography</a> to map lymphatic anatomy, assess potential bypass targets and plan incision sites. This can be particularly important in patients whose ICG lymphography does not show clear linear lymphatic channels.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Why ultrasound matters before LVA</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>LVA is a supermicrosurgical operation. The lymphatic vessels used for bypass may be extremely small, sometimes less than 0.5 mm in diameter. At this scale, the success of surgery depends on more than simply making an incision in the swollen area. The surgeon must identify a usable lymphatic channel, choose a suitable nearby vein, understand flow direction and avoid creating a bypass that is technically present but functionally weak.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>High-resolution ultrasound can help by showing structures below the skin surface before surgery. It may help the surgeon identify lymphatic vessels, nearby veins, depth from the skin, surrounding tissue quality and possible incision locations. This supports more precise planning and can reduce reliance on guesswork.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What ultrasound does your surgeon use?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Not every ultrasound probe is equally useful for lymphatic mapping. Lymphatic vessels are small, superficial and easily missed with lower-frequency probes. For submillimetre lymphatic structures, a high-frequency probe is important.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item --><li><strong>At least around 18 MHz</strong> is generally needed for sufficient resolution when assessing very small lymphatic structures.</li><!-- /wp:list-item --><!-- wp:list-item --><li><strong>More than 30 MHz is ideal</strong> when available, because higher-frequency ultrasound can provide better detail of superficial submillimetre anatomy.</li><!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>This is why patients may reasonably ask not only whether ultrasound is used, but what type of ultrasound probe is used for lymphatic mapping. The technology and the surgeon’s ability to interpret the images both matter.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">ICG lymphography and ultrasound show different things</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>ICG lymphography is valuable because it shows lymphatic function and patterns of dermal backflow. Linear patterns on ICG can suggest functioning superficial lymphatic channels that may be suitable for LVA. However, ICG is not the only way to assess lymphatic anatomy.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ultrasound provides structural information. It can help locate small lymphatic vessels and veins even when the ICG pattern is not straightforward. In practice, ICG and ultrasound are complementary: ICG helps assess function and drainage patterns, while ultrasound helps map anatomy, depth and nearby venous targets.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Can ultrasound help when ICG shows no linear pattern?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, in selected patients. One of the most important uses of ultrasound mapping is in patients with more advanced lymphedema where ICG lymphography may show no obvious linear pattern. Traditionally, some surgeons consider LVA mainly an early-stage procedure, because early disease is more likely to have functional lymphatic channels visible on ICG.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>However, absence of a linear pattern on ICG does not always mean that every lymphatic vessel is unusable. With high-resolution ultrasound, it may still be possible to identify lymphatic channels that are suitable for bypass. This is one reason Dr Sun may consider LVA assessment even in selected patients with advanced ICG stage 5 lymphedema, provided that imaging and clinical findings suggest usable targets.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This does not mean LVA is suitable for every advanced patient. It means that advanced ICG findings should not automatically end the discussion without specialist assessment, especially when high-resolution ultrasound mapping is available.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Why this changes the “LVA is only for early disease” idea</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Early-stage lymphedema often remains the most straightforward setting for LVA. But modern planning tools have made the decision more nuanced. A patient’s suitability should be based on the actual lymphatic and venous anatomy that can be identified, not only on a broad stage label.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In selected patients with more advanced disease, parts of the limb may still contain fluid-dominant swelling, usable lymphatic channels or regions where bypass may help drainage. Ultrasound can help identify these opportunities. This is especially relevant for patients who have been told that surgery is no longer possible based only on disease stage or ICG appearance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Questions patients can ask before LVA</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item --><li>Will my lymphatic vessels be mapped before surgery?</li><!-- /wp:list-item --><!-- wp:list-item --><li>Do you use ICG lymphography, ultrasound, or both?</li><!-- /wp:list-item --><!-- wp:list-item --><li>What ultrasound probe frequency is used for lymphatic mapping?</li><!-- /wp:list-item --><!-- wp:list-item --><li>Can ultrasound identify lymphatics when ICG does not show linear channels?</li><!-- /wp:list-item --><!-- wp:list-item --><li>How do imaging findings affect whether LVA, VLNT, liposuction or conservative therapy is more appropriate?</li><!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How ultrasound fits into Dr Sun’s LVA approach</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Dr Sun’s approach to LVA emphasises careful imaging, vessel selection and anastomotic quality. This links closely with the principle discussed in <a href="/why-lva-quality-matters-lymphovenous-bypass/">why LVA quality matters</a>: the goal is not just to create a connection, but to create a bypass that has favourable flow, minimal leakage and low risk of venous reflux into the lymphatic channel.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Ultrasound mapping helps support this by identifying candidate lymphatic vessels and nearby veins before surgery. It is one part of a broader assessment pathway that may include clinical examination, ICG lymphography, compression history, infection history and discussion of realistic goals.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<!-- wp:paragraph --><p><strong>Core guide:</strong> <a href="/lymphedema-treatment/">Lymphedema treatment in Singapore</a> explains how diagnosis, compression therapy, ICG lymphography, ultrasound mapping, LVA and advanced-stage surgery fit into a complete treatment pathway.</p><!-- /wp:paragraph -->
+
+<h2 class="wp-block-heading">Related reading</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item --><li><a href="/lva-surgery-singapore/">LVA surgery in Singapore</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href="/icg-lymphography-singapore/">ICG lymphography for lymphedema assessment</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href="/why-lva-quality-matters-lymphovenous-bypass/">Why LVA quality matters</a></li><!-- /wp:list-item --><!-- wp:list-item --><li><a href="/lymphedema-surgery-singapore/">Lymphedema surgery options in Singapore</a></li><!-- /wp:list-item --><li><a href="/publications/">Dr Jeremy Sun’s lymphatic surgery publications and training</a></li><!-- /wp:list --></ul>
+<!-- /wp:post-content -->
+
+<!-- wp:heading -->
+<!-- wp:paragraph --><p><strong>Evidence-based pathway:</strong> Dr Jeremy Sun generally starts patients on appropriate complete decongestive therapy (CDT), compression optimisation, exercise, skin care and education, then reassesses response after about 3 to 6 months. Surgery is considered when swelling does not improve enough, worsens, remains functionally limiting, or recurrent cellulitis persists despite appropriate conservative care. See the full <a href="/lymphedema-treatment/">lymphedema treatment in Singapore</a> pathway.</p><!-- /wp:paragraph -->
+
+<h2 class="wp-block-heading">Frequently asked questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Is ultrasound better than ICG lymphography?</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>They answer different questions. ICG helps assess lymphatic function and drainage patterns. Ultrasound helps map small lymphatic vessels, veins and depth. For LVA planning, they are often best considered complementary rather than competing tools.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Can LVA still be possible if ICG shows no linear lymphatics?</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>In selected patients, yes. High-resolution ultrasound may identify usable lymphatic channels even when ICG does not show clear linear patterns. Suitability still depends on individual anatomy, disease severity, tissue quality and surgical assessment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What ultrasound frequency is useful for lymphatic mapping?</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Because lymphatic vessels may be submillimetre structures, high-frequency ultrasound is important. Around 18 MHz may be considered a minimum for useful small-structure identification, while probes above 30 MHz are ideal when available.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><em>This article provides general education and does not replace personalised medical assessment. LVA suitability and outcomes vary between patients.</em></p>
+<!-- /wp:paragraph -->
