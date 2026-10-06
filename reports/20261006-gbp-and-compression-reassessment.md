@@ -29,9 +29,17 @@ The supplied ElectiveSEO approach was applied as question-gap discovery rather t
 
 For Lymphedasia, the exact pre-edit body of page 5136 was captured before the write. It is intentionally not committed to the public repository; WordPress also retains the pre-edit revision.
 
-Planned match-once replacement:
+Published match-once replacement:
 
-- existing related-pathways paragraph → same paragraph plus links to `/private-lymphedema-consultation-singapore/` and `/lva-surgery-recovery-singapore/`
+- existing related-pathways paragraph → an answer-first next step with links to `/private-lymphedema-consultation-singapore/` and `/lva-surgery-recovery-singapore/`, while preserving the existing cost, debulking and Dr Sun clinical-page routes
+
+## Publication validation
+
+- WPVibe `content/edit` reported `replaced: 1` for page 5136.
+- Supported content-search readback found the new assessment path exactly once.
+- Ordinary public browser verification rendered both new descriptive anchors in the `Related pathways` section.
+- Both destinations returned current live educational pages; no test enquiry was sent.
+- Existing red-flag wording, disclaimer, clinical sections, URL and cross-site links were unchanged.
 
 Rollback: restore the pre-edit WordPress revision for page 5136 or replace the two-link addition with the exact original related-pathways paragraph recorded in the publication checkpoint.
 
