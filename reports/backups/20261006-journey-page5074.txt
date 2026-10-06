@@ -1,0 +1,39 @@
+
+<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: September 2026.</em></p>
+<p><strong>Short answer:</strong> you may be considered for LVA surgery if lymphedema remains persistent, progressive, functionally limiting or complicated by recurrent cellulitis despite appropriate conservative care. Suitability depends on examination, compression history, tissue quality, ICG lymphography, ultrasound mapping and whether usable lymphatic channels and veins can be found.</p>
+
+<div class="la-dr-sun-pathway hermes-djs-crosslink-20260915" style="border:1px solid #d9e7ef;border-radius:12px;background:#f8fbfd;padding:16px;margin:22px 0">
+<p><strong>Considering specialist lymphatic assessment with Dr Jeremy Sun?</strong> LymphedAsia is an educational resource. For Dr Sun's clinician profile and patient-facing Singapore consultation information, see <a href="https://www.drjeremysun.com/lymphedema-surgery-singapore/">Dr Jeremy Sun's lymphedema surgery page</a> and <a href="https://www.drjeremysun.com/lymphovenous-bypass-lva-surgery-singapore/">lymphovenous bypass / LVA surgery information</a>. Online information does not replace individual medical consultation.</p>
+</div>
+
+<h2>LVA is not the first step for every patient</h2>
+<p>Lymphedema treatment usually begins with conservative care: compression optimisation, skin care, exercise, weight and venous assessment where relevant, manual lymphatic drainage or complete decongestive therapy in suitable patients. Surgery is considered when these measures are not enough or when recurrent infection and functional impairment remain a major problem.</p>
+<p>Before assuming LVA is the next step, it is worth checking whether garment fit, bandaging technique, CDT intensity, venous disease, cellulitis, weight change or tissue fibrosis explain <a href="https://lymphedasia.com/compression-not-working/">lymphedema getting worse despite compression</a>.</p>
+<h2>Features that may support LVA assessment</h2>
+<ul><li>Persistent swelling despite properly fitted compression garments.</li><li>Soft or pitting swelling, suggesting a fluid-dominant component.</li><li>Recurrent cellulitis or infection episodes in the affected limb.</li><li>Heaviness, tightness or functional limitation despite therapy.</li><li>Early-stage disease, where lymphatic channels may be more usable.</li><li>Selected advanced cases where ultrasound still identifies possible lymphatic targets.</li></ul>
+<h2>Features that may make LVA less suitable</h2>
+<ul><li>Severe fibrofatty enlargement where the main problem is no longer fluid.</li><li>Poor-quality or absent lymphatic channels on imaging.</li><li>Uncontrolled infection, wounds or medical conditions that make surgery unsafe.</li><li>Expectations that LVA will cure lymphedema or eliminate all need for compression.</li></ul>
+<h2>Why imaging matters</h2>
+<p><a href="https://lymphedasia.com/icg-lymphography-singapore/">ICG lymphography</a> helps map superficial lymphatic flow and dermal backflow. High-resolution ultrasound may identify small lymphatic channels and nearby veins that are not obvious clinically. This combination can help plan whether LVA is technically possible and where incisions may be placed.</p>
+<h2>What LVA can and cannot promise</h2>
+<p>LVA aims to improve lymphatic drainage. In selected patients, improvement may mean reduced heaviness, less swelling fluctuation, fewer cellulitis episodes or better tolerance of compression. It does not restore the lymphatic system to normal and cannot promise complete volume reduction or permanent freedom from compression.</p>
+<p>Dr Sun's 100-lane highway analogy is useful: LVA may reopen enough drainage lanes to reduce congestion below a symptomatic threshold. It does not necessarily rebuild the original full-capacity highway.</p>
+<h2>When to seek assessment sooner</h2>
+<p>Consider specialist assessment if swelling is worsening, one-sided, recurrently infected, painful, associated with skin thickening/leakage/wounds, or not controlled despite appropriate compression and therapy. Seek urgent medical care for red, hot, painful swelling with fever, sudden calf pain, chest pain or shortness of breath.</p>
+
+<h2>If LVA is not the right fit, what else may be considered?</h2>
+<p>Not every patient who asks about LVA is appropriately served by LVA alone. Some need better compression and CDT first. Some need ICG lymphography and ultrasound mapping to decide whether usable lymphatics remain. Others with mainly fibrofatty, volume-dominant disease may need to understand VLNT, lymphatic-vessel flap options, liposuction or debulking rather than expecting LVA to remove bulk. The decision should match disease stage, tissue quality, infection history, goals and recovery tolerance.</p>
+<p>For a side-by-side explanation, read <a href="https://lymphedasia.com/lva-vs-vlnt-vs-liposuction-lymphedema-surgery/">LVA vs VLNT vs liposuction for lymphedema surgery</a>. For planning questions, see <a href="https://lymphedasia.com/lymphedema-surgery-cost/">what affects lymphedema surgery cost in Singapore</a> and <a href="https://lymphedasia.com/which-specialist-lymphedema-surgery-singapore/">which specialist should assess lymphedema surgery</a>.</p>
+
+<h2>Related LymphedAsia guides</h2>
+<ul><li><a href="https://lymphedasia.com/lva-vs-vlnt-vs-liposuction-lymphedema-surgery/">LVA vs VLNT vs liposuction for lymphedema surgery</a></li><li><a href="https://lymphedasia.com/lva-surgery-singapore/">LVA surgery in Singapore</a></li><li><a href="https://lymphedasia.com/why-early-lva-gives-better-results/">Why early LVA may give better results</a></li><li><a href="https://lymphedasia.com/when-is-lva-surgery-too-late/">When is LVA surgery too late?</a></li><li><a href="https://lymphedasia.com/can-i-stop-compression-after-lva/">Can I stop compression after LVA?</a></li></ul>
+
+<!-- wp:group {"className":"clinical-note recurrent-cellulitis-lva-note","layout":{"type":"constrained"}} -->
+<div class="wp-block-group clinical-note recurrent-cellulitis-lva-note"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Recurrent cellulitis despite conservative therapy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For patients with established lymphedema who have already been on appropriate conservative therapy, even one or two episodes of cellulitis are a strong reason to seek specialist lymphatic assessment. LVA does not replace compression, skin care or prompt antibiotics when infection occurs, but in suitable patients lymphatic offloading may reduce congestion and may reduce the tendency toward recurrent cellulitis. Read more about <a href="https://lymphedasia.com/lymphedema-and-cellulitis/">lymphedema and cellulitis risk</a>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
