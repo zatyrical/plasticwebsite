@@ -435,6 +435,12 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'materials' ? (
                   <p>For a focused discussion of cartilage harvest, donor-site scars and alternatives, read the <Link href="/rib-rhinoplasty-singapore">rib cartilage rhinoplasty guide</Link>.</p>
                 ) : null}
+                {article.slug === 'rib-rhinoplasty-singapore' && section.id === 'revision-planning' ? (
+                  <p>See the <Link href="/asian-rhinoplasty-singapore#revision-fillers">previous surgery and filler discussion</Link> and the <Link href="#recovery">nasal and rib donor-site recovery section</Link> when preparing questions for assessment.</p>
+                ) : null}
+                {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'revision-fillers' ? (
+                  <p>If rib cartilage is being discussed for revision, read the <Link href="/rib-rhinoplasty-singapore#revision-planning">revision rib-cartilage planning questions</Link> alongside the <Link href="/rib-rhinoplasty-singapore#alternatives">graft alternatives</Link>.</p>
+                ) : null}
                 {article.slug === 'rib-rhinoplasty-singapore' && section.id === 'alternatives' ? (
                   <p>For the broader decision between nasal implants, septal cartilage, ear cartilage and rib cartilage, read the <Link href="/asian-rhinoplasty-singapore#materials">Asian rhinoplasty materials guide</Link>.</p>
                 ) : null}

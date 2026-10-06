@@ -691,6 +691,12 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Assessment includes facial proportions, nasal bridge, nasal tip support, nostril shape, skin thickness, septum, airway symptoms, previous fillers or surgery, photographs and discussion of graft or implant options.', 'Patients should understand the donor site as well as the nose. Rib harvest creates a chest-wall scar and can cause discomfort, contour changes or other donor-site issues.']
       },
       {
+        id: 'revision-planning',
+        heading: 'Rib cartilage for revision rhinoplasty: what changes in the plan?',
+        paragraphs: ['Previous surgery, nasal implants, grafts, fillers and scar tissue can change the anatomy and blood supply. Revision planning may therefore be more complex than a first operation, and previous treatments or skin thickness can limit what is safely achievable.', 'Rib cartilage may be discussed when available septal or ear cartilage is insufficient or stronger support is needed. It is not automatically needed for every revision. The discussion should cover the nose, the chest-wall donor site, alternatives and realistic recovery.'],
+        items: ['Which concern is being assessed: appearance, breathing or both?', 'How do previous surgery, implants or fillers affect the safe limits of change?', 'Is rib cartilage needed, or are other graft sources, limited refinement or no surgery reasonable?', 'What separate donor-site scar and recovery should be considered?']
+      },
+      {
         id: 'cost-quotation',
         heading: 'Rib rhinoplasty cost factors in Singapore',
         paragraphs: ['Cost can vary because rib rhinoplasty may involve additional operative time, cartilage harvest, structural grafting, revision work, anaesthesia, facility, medications and follow-up. Revision cases are often more complex than primary surgery.', 'A quotation should follow assessment and should explain whether rib cartilage is genuinely needed, what alternatives exist, what is included and what factors may change the plan.']

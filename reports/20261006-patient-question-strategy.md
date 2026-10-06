@@ -5,7 +5,7 @@ The supplied silent creator video was reviewed through sampled visible captions.
 Root cause of stalled discovery: measurement waiting was incorrectly treated as exhaustion of independent ready work. Existing automation prompt now requires a concrete unaudited gap investigation, ranked ready queue and diagnosis after repeated unproductive runs. Schedule unchanged.
 
 ## Implemented batch
-Face/neck options section → existing thread-lift guide; limitations section → existing fat-grafting and lower-blepharoplasty guides. Reciprocal contextual paths from thread suitability and fat-grafting assessment → face/neck decision and consultation sections. Six anchors across three existing guides, no new medical claims or duplicate articles. Existing answers cover recovery, cost, scars, suitability and risks; those questions are closed rather than new article candidates.
+Face/neck options section → existing thread-lift guide; limitations section → existing fat-grafting and lower-blepharoplasty guides. Reciprocal contextual paths from thread suitability and fat-grafting assessment → face/neck decision and consultation sections. Five anchors across three existing guides, no new medical claims or duplicate articles. Existing answers cover recovery, cost, scars, suitability and risks; those questions are closed rather than new article candidates.
 
 Validation: TypeScript and diff checks; production build and rendered output checked before merge. Rollback: revert the PR merge commit. Clinical review dates unchanged because this is navigation, not new clinician review.
 
