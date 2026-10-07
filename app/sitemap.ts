@@ -15,7 +15,7 @@ const latestModifiedPaths = new Map([
   ['/tummy-tuck-singapore', '2026-10-06'],
   ['/face-neck-lift-singapore', '2026-10-06'],
   ['/mommy-makeover-singapore', '2026-10-06'],
-  ['/plastic-surgeon-singapore', '2026-10-04'],
+  ['/plastic-surgeon-singapore', '2026-10-07'],
   ['/training-and-fellowships', '2026-10-04'],
   ['/eyebag-removal-lower-blepharoplasty-singapore', '2026-10-04'],
 ]);
@@ -28,7 +28,6 @@ const updatedPaths = new Set([
 const coreRoutes = [
   { path: '', priority: 1, changeFrequency: 'weekly' as const },
   { path: '/plastic-surgeon-singapore', priority: 0.94, changeFrequency: 'monthly' as const },
-  { path: '/top-plastic-surgeon-singapore', priority: 0.93, changeFrequency: 'monthly' as const },
   { path: '/how-to-choose-lymphedema-surgeon-singapore', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/journey-to-lymphedema-surgery-japan', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/aesthetic-surgery', priority: 0.86, changeFrequency: 'monthly' as const },
