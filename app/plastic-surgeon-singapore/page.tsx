@@ -8,7 +8,7 @@ import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoId
 const pageUrl = `${baseUrl}/plastic-surgeon-singapore`;
 
 export const metadata: Metadata = {
-  title: 'Dr Jeremy Sun | Plastic Surgeon in Singapore & Patient Guide',
+  title: { absolute: 'Dr Jeremy Sun | Plastic Surgeon in Singapore & Patient Guide' },
   description: 'Dr Jeremy Sun (Sun Mingfa Jeremy), Senior Consultant Plastic Surgeon in Singapore: professional profiles, procedure guides, Paragon consultation enquiries and safety questions.',
   keywords: [
     'plastic surgeon Singapore',
