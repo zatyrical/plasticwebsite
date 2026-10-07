@@ -19,6 +19,7 @@ const latestModifiedPaths = new Map([
   ['/publications', '2026-10-07'],
   ['/training-and-fellowships', '2026-10-04'],
   ['/eyebag-removal-lower-blepharoplasty-singapore', '2026-10-04'],
+  ['/llms.txt', '2026-10-07'],
 ]);
 const updatedPaths = new Set([
   '', '/aesthetic-surgery', '/reconstructive-surgery',
