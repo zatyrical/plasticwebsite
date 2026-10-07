@@ -1,0 +1,171 @@
+{
+  "checked_at_utc": "2026-10-07T15:50:58.358059+00:00",
+  "rows": [
+    {
+      "source": "https://lymphedasia.com/combined-decongestive-therapy/",
+      "expected_target": "https://lymphedasia.com/lymphedema-therapy/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/lymphedema-therapy/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/lymphedema-therapy/",
+      "canonical": [
+        "https://lymphedasia.com/lymphedema-therapy/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    },
+    {
+      "source": "https://lymphedasia.com/difference-between-primary-and-secondary-lymphedema/",
+      "expected_target": "https://lymphedasia.com/primary-vs-secondary-lymphedema/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/primary-vs-secondary-lymphedema/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/primary-vs-secondary-lymphedema/",
+      "canonical": [
+        "https://lymphedasia.com/primary-vs-secondary-lymphedema/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    },
+    {
+      "source": "https://lymphedasia.com/lymphedema-surgery-treatment/",
+      "expected_target": "https://lymphedasia.com/lymphedema-surgery-singapore/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/lymphedema-surgery-singapore/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/lymphedema-surgery-singapore/",
+      "canonical": [
+        "https://lymphedasia.com/lymphedema-surgery-singapore/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    },
+    {
+      "source": "https://lymphedasia.com/lymphedema-surgical-treatment/",
+      "expected_target": "https://lymphedasia.com/lymphedema-surgery-singapore/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/lymphedema-surgery-singapore/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/lymphedema-surgery-singapore/",
+      "canonical": [
+        "https://lymphedasia.com/lymphedema-surgery-singapore/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    },
+    {
+      "source": "https://lymphedasia.com/lymphedema-singapore/",
+      "expected_target": "https://lymphedasia.com/lymphedema-treatment/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/lymphedema-treatment/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/lymphedema-treatment/",
+      "canonical": [
+        "https://lymphedasia.com/lymphedema-treatment/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    },
+    {
+      "source": "https://lymphedasia.com/lymphedema-diagnosis-and-treatment/",
+      "expected_target": "https://lymphedasia.com/lymphedema-treatment/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/lymphedema-treatment/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/lymphedema-treatment/",
+      "canonical": [
+        "https://lymphedasia.com/lymphedema-treatment/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    },
+    {
+      "source": "https://lymphedasia.com/lymphedema-education/",
+      "expected_target": "https://lymphedasia.com/educational-resources/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/educational-resources/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/educational-resources/",
+      "canonical": [
+        "https://lymphedasia.com/educational-resources/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    },
+    {
+      "source": "https://lymphedasia.com/lymphedema-exercises/",
+      "expected_target": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "canonical": [
+        "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    },
+    {
+      "source": "https://lymphedasia.com/top-3-exercises-for-leg-lymphedema/",
+      "expected_target": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "canonical": [
+        "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    },
+    {
+      "source": "https://lymphedasia.com/lymphedema-physical-therapy-exercises/",
+      "expected_target": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "canonical": [
+        "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    },
+    {
+      "source": "https://lymphedasia.com/lymphedema-leg-exercises/",
+      "expected_target": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "first_status": 301,
+      "location": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+      "canonical": [
+        "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}
