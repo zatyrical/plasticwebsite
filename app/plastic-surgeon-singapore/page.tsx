@@ -29,6 +29,10 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
+    question: 'Who is the top plastic surgeon in Singapore?',
+    answer: 'There is no single official “top plastic surgeon” list that applies to every patient or procedure. A safer approach is to assess specialist credentials, relevant procedure experience, hospital appointments, safety standards, communication style and whether the surgeon gives realistic advice for your anatomy and goals.'
+  },
+  {
     question: 'How do I check if a doctor is a plastic surgeon in Singapore?',
     answer: 'Patients can ask about specialist registration, plastic surgery training, hospital appointments, scope of practice and whether the doctor has experience in the procedure being considered. A formal consultation is needed before personalised advice.'
   },
@@ -73,7 +77,7 @@ const jsonLd = {
         'choosing a plastic surgeon'
       ],
       datePublished: lastReviewedIso,
-      dateModified: '2026-10-04',
+      dateModified: '2026-10-07',
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
@@ -173,6 +177,9 @@ export default function PlasticSurgeonSingaporePage() {
             <section id="evaluate">
               <h2>How should patients evaluate a plastic surgeon in Singapore?</h2>
               <p>Patients searching for a plastic surgeon in Singapore often compare credentials, procedure experience, consultation style and safety systems. A useful starting point is to check whether the doctor has recognised specialist plastic surgery training, whether the planned procedure is within the surgeon’s regular scope, and whether consultation includes a balanced discussion of suitability, alternatives, recovery and risks.</p>
+              <h3>What should “top plastic surgeon” mean?</h3>
+              <p>There is no single official “top plastic surgeon” list that applies to every patient or procedure. Patients should be cautious about unsupported rankings or claims of superiority. A safer comparison uses markers that can be discussed and verified: specialist training, relevant procedure experience, careful risk explanation, realistic planning and appropriate follow-up.</p>
+              <p>The right surgeon is not simply the person who says yes. It is the surgeon who can explain when surgery may help, when it may not, and what trade-offs are involved.</p>
               <ul>
                 <li>Check MOH specialist accreditation and plastic surgery training background.</li>
                 <li>Ask about relevant reconstructive and aesthetic experience for the procedure being considered.</li>
@@ -237,7 +244,7 @@ export default function PlasticSurgeonSingaporePage() {
             <section id="procedures">
               <h2>Related plastic surgery pages</h2>
               <div className="related-grid">
-                <Link href="/top-plastic-surgeon-singapore" className="related-card"><small>Patient guide</small><strong>Top Plastic Surgeon in Singapore: How to Choose Safely</strong><span>Read page</span></Link>
+                <Link href="/aesthetic-surgery" className="related-card"><small>Patient guide</small><strong>Aesthetic Plastic Surgery in Singapore</strong><span>Read page</span></Link>
                 <Link href="/asian-rhinoplasty-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Asian Rhinoplasty in Singapore</strong><span>Read page</span></Link>
                 <Link href="/asian-eyelid-surgery-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Asian Eyelid Surgery in Singapore</strong><span>Read page</span></Link>
                 <Link href="/breast-augmentation-singapore" className="related-card"><small>Aesthetic surgery</small><strong>Breast Augmentation in Singapore</strong><span>Read page</span></Link>
