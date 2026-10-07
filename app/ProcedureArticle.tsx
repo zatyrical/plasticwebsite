@@ -220,6 +220,15 @@ export default function ProcedureArticlePage({ article }: Props) {
           url: baseUrl
         },
         about: article.keywords,
+        ...(article.heroImage ? {
+          image: {
+            '@type': 'ImageObject',
+            url: `${baseUrl}${article.heroImage.src}`,
+            contentUrl: `${baseUrl}${article.heroImage.src}`,
+            caption: article.heroImage.caption ?? article.heroImage.alt,
+            description: article.heroImage.alt
+          }
+        } : {}),
         ...(article.slug === 'breast-augmentation-singapore' ? {
           mentions: [
             { '@type': 'MedicalProcedure', name: 'Breast augmentation' },
