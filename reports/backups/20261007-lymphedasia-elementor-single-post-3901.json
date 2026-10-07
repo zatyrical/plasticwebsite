@@ -1,0 +1,178 @@
+[
+  {
+    "id": "cc59558",
+    "elType": "container",
+    "settings": {
+      "flex_direction": "column",
+      "background_background": "classic",
+      "__globals__": {
+        "background_color": ""
+      },
+      "margin": {
+        "unit": "px",
+        "top": "020",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      },
+      "margin_mobile": {
+        "unit": "px",
+        "top": "20",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "fb3d467",
+        "elType": "widget",
+        "settings": {
+          "__dynamic__": {
+            "title": "[elementor-tag id=\"\" name=\"post-title\" settings=\"%7B%22before%22%3A%22%22%2C%22after%22%3A%22%22%2C%22fallback%22%3A%22%22%7D\"]"
+          },
+          "title": "Add Your Heading Text Here",
+          "typography_typography": "custom",
+          "typography_font_family": "Roboto",
+          "typography_font_size": {
+            "unit": "px",
+            "size": 50,
+            "sizes": []
+          },
+          "typography_font_weight": "600",
+          "typography_font_size_mobile": {
+            "unit": "px",
+            "size": 30,
+            "sizes": []
+          },
+          "align": "left",
+          "align_mobile": "center"
+        },
+        "elements": [],
+        "widgetType": "theme-post-title"
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "05c30d6",
+    "elType": "container",
+    "settings": {
+      "background_background": "classic",
+      "__globals__": {
+        "background_color": ""
+      },
+      "content_width": "full",
+      "width_mobile": {
+        "unit": "px",
+        "size": 405.286
+      },
+      "_flex_size": "none",
+      "_element_width_mobile": "initial"
+    },
+    "elements": [
+      {
+        "id": "e56e373",
+        "elType": "widget",
+        "settings": {
+          "__dynamic__": {
+            "image": "[elementor-tag id=\"\" name=\"post-featured-image\" settings=\"%7B%22fallback%22%3A%7B%22url%22%3A%22%22%2C%22id%22%3A%22%22%2C%22size%22%3A%22%22%7D%7D\"]"
+          }
+        },
+        "elements": [],
+        "widgetType": "theme-post-featured-image"
+      },
+      {
+        "id": "620c495",
+        "elType": "widget",
+        "settings": {
+          "title": "Table of Contents",
+          "exclude_headings_by_selector": [],
+          "__globals__": {
+            "marker_color": "",
+            "item_text_color_normal": "globals/colors?id=secondary"
+          },
+          "headings_by_tags": [
+            "h2",
+            "h3"
+          ],
+          "minimized_on": "mobile",
+          "collapse_subitems": "yes"
+        },
+        "elements": [],
+        "widgetType": "table-of-contents"
+      },
+      {
+        "id": "c6e5c72",
+        "elType": "widget",
+        "settings": {
+          "_element_width_mobile": "initial",
+          "_element_custom_width_mobile": {
+            "unit": "px",
+            "size": 490.286
+          },
+          "_flex_size": "none"
+        },
+        "elements": [],
+        "widgetType": "theme-post-content"
+      },
+      {
+        "id": "db3b150",
+        "elType": "widget",
+        "settings": {
+          "text": "Divider"
+        },
+        "elements": [],
+        "widgetType": "divider"
+      },
+      {
+        "id": "77b0e4c",
+        "elType": "widget",
+        "settings": {
+          "source": "custom",
+          "author_avatar": {
+            "url": "https://lymphedasia.com/wp-content/uploads/2025/09/Dr.-Jeremy-Sun-Mingfa-is-a-Senior-Consultant-Plastic-and-Reconstructive-Surgeon-based-in-Singapore-with-subspecialty-expertise-in-lymphedema-surgery.png",
+            "id": 3910,
+            "size": "",
+            "alt": "Dr. Jeremy Sun Mingfa is a Senior Consultant Plastic and Reconstructive Surgeon based in Singapore with subspecialty expertise in lymphedema surgery",
+            "source": "library"
+          },
+          "author_name": "Dr Jeremy Sun Mingfa | Lymphedema Asia clinical reviewer",
+          "author_bio": "Dr. Jeremy Sun Mingfa is a Senior Consultant Plastic and Reconstructive Surgeon based in Singapore with subspecialty expertise in lymphedema surgery. He trained in Japan under specialist teams in lymphedema surgery, being one of the earliest in Singapore to complete a dedicated fellowship in supermicrosurgery lymphatic reconstruction. Dr. Sun has published widely and delivered lectures at specialist international conferences on lymphedema, breast reconstruction, and microsurgery. He heads the Plastic Surgery Division and leads the lymphedema service at Changi General Hospital. In addition, he also serves as Chairman of the Chapter of Plastic, Reconstructive and Aesthetic Surgeons, Academy of Medicine Singapore, a key national body guiding professional standards and advancing specialty care. Through Lymphedema Asia, he champions education, awareness, and patient-centered care.\n\n",
+          "link_text": "All Posts",
+          "layout": "above",
+          "alignment": "center",
+          "name_typography_typography": "custom",
+          "name_typography_font_family": "Roboto",
+          "name_typography_font_weight": "700",
+          "bio_typography_typography": "custom",
+          "bio_typography_font_family": "Poppins",
+          "bio_typography_font_size": {
+            "unit": "px",
+            "size": 14,
+            "sizes": []
+          },
+          "bio_typography_font_weight": "400",
+          "author_name_tag": "h5",
+          "_element_width_mobile": "initial",
+          "_element_custom_width_mobile": {
+            "unit": "px",
+            "size": 409.286
+          },
+          "_flex_size": "none",
+          "author_website": {
+            "url": "https://lymphedasia.com/dr-jeremy-sun-mingfa/",
+            "is_external": "",
+            "nofollow": "",
+            "custom_attributes": ""
+          }
+        },
+        "elements": [],
+        "widgetType": "author-box"
+      }
+    ],
+    "isInner": false
+  }
+]
