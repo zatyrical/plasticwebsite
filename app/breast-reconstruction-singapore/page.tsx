@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
-import { lastReviewedIso } from '../seoIdentity';
+import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
+
+const pageTitle = 'Breast Reconstruction in Singapore';
+const pageUrl = `${baseUrl}/breast-reconstruction-singapore`;
 
 export const metadata: Metadata = {
   title: 'Breast Reconstruction Singapore | Implant & DIEP Flap',
@@ -74,9 +77,51 @@ const faqJsonLd = {
   ]
 };
 
+const medicalPageJsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
+        { '@type': 'ListItem', position: 2, name: 'Reconstructive Surgery', item: `${baseUrl}/reconstructive-surgery` },
+        { '@type': 'ListItem', position: 3, name: pageTitle, item: pageUrl }
+      ]
+    },
+    physicianJsonLd,
+    {
+      '@type': 'MedicalWebPage',
+      '@id': `${pageUrl}#webpage`,
+      url: pageUrl,
+      name: pageTitle,
+      headline: pageTitle,
+      description: metadata.description,
+      inLanguage: 'en-SG',
+      isPartOf: {
+        '@type': 'WebSite',
+        name: 'Dr Jeremy Sun Plastic Surgery',
+        url: baseUrl
+      },
+      about: metadata.keywords,
+      mentions: [
+        { '@type': 'MedicalProcedure', name: 'Breast reconstruction' },
+        { '@type': 'MedicalProcedure', name: 'Implant-based breast reconstruction' },
+        { '@type': 'MedicalProcedure', name: 'DIEP flap breast reconstruction' },
+        { '@type': 'MedicalProcedure', name: 'Oncoplastic breast reconstruction' }
+      ],
+      dateModified: '2026-10-07',
+      lastReviewed: lastReviewedIso,
+      author: { '@id': physicianId },
+      reviewedBy: { '@id': physicianId },
+      publisher: { '@id': physicianId }
+    }
+  ]
+};
+
 export default function BreastReconstructionPage() {
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalPageJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Navigation />
 
@@ -84,6 +129,11 @@ export default function BreastReconstructionPage() {
         <section className="article-hero">
           <div className="container article-hero-grid">
             <div>
+              <nav className="breadcrumb" aria-label="Breadcrumb">
+                <Link href="/">Home</Link>
+                <span>/</span>
+                <Link href="/reconstructive-surgery">Reconstructive surgery</Link>
+              </nav>
               <div className="eyebrow">Breast reconstruction</div>
               <h1>Breast Reconstruction in Singapore</h1>
               <p className="lead">
@@ -125,7 +175,7 @@ export default function BreastReconstructionPage() {
               This page provides general information and should not replace consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.
             </p>
             <div className="reviewer-card" aria-label="Medical review information">
-              <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
+              <strong>Clinically authored and reviewed by <Link href="/plastic-surgeon-singapore">Dr Jeremy Sun</Link></strong>
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
             </div>
 
