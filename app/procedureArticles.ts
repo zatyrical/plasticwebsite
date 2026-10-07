@@ -60,7 +60,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Liposuction Singapore and body contouring surgery guide: abdominal/tummy liposuction, waist/flank contouring, cost factors, consultation, recovery, risks and limits.',
     keywords: ['body contouring Singapore', 'body contouring treatment Singapore', 'liposuction Singapore', 'plastic surgeon liposuction Singapore', 'body sculpting Singapore', 'abdominal liposuction Singapore', 'tummy liposuction Singapore'],
     heroImage: { src: '/images/aesthetic-ai/body-contouring-consultation.webp', alt: 'Patient and clinician reviewing a body-contouring assessment worksheet during a consultation', caption: 'AI-generated editorial illustration of consultation planning; not a patient or treatment result.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Body contouring treatment refers to procedures that reshape selected areas of the body. In Singapore, this may include surgical liposuction, tummy or abdominal liposuction, waist and flank contouring, arm or thigh contouring, or skin-excision procedures such as tummy tuck in selected patients.',
@@ -168,7 +168,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Abdominoplasty Singapore and tummy tuck surgery guide: loose abdominal skin, diastasis recti/divarication repair, mini vs full tummy tuck, cost factors, recovery, scars and risks.',
     keywords: ['tummy tuck Singapore', 'abdominoplasty Singapore', 'mini tummy tuck Singapore', 'diastasis recti repair Singapore', 'divarication surgery Singapore', 'post pregnancy tummy tuck Singapore', 'loose abdominal skin surgery Singapore', 'mommy makeover Singapore'],
     heroImage: { src: '/images/aesthetic-ai/tummy-tuck-consultation.webp', alt: 'Illustration of a woman preparing questions in a notebook before a tummy tuck consultation', caption: 'AI-generated editorial illustration of consultation preparation; not a patient or treatment result.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'A tummy tuck, also called abdominoplasty, is surgery to improve selected abdominal concerns such as loose lower-abdominal skin, stretched skin after pregnancy or weight change, abdominal wall laxity and selected scar or fold problems.',
@@ -262,7 +262,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Mommy / mummy makeover Singapore guide: post-pregnancy tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, cost factors, recovery and risks.',
     keywords: ['mommy makeover Singapore', 'mummy makeover Singapore', 'post pregnancy surgery Singapore', 'post pregnancy tummy tuck Singapore', 'tummy tuck and breast augmentation Singapore', 'abdominoplasty after pregnancy Singapore', 'diastasis recti repair Singapore', 'breast lift after pregnancy Singapore'],
     heroImage: { src: '/images/aesthetic-ai/mommy-makeover-consultation-planning.webp', alt: 'Patient and plastic surgeon reviewing separate post-pregnancy concerns and combined or staged planning options', caption: 'AI-generated editorial illustration of consultation planning; not a patient or treatment result.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'A mommy makeover, sometimes searched as mummy makeover in Singapore, is not one fixed operation. It is a planning term for selected post-pregnancy concerns that may involve the abdomen, breasts and localised fat deposits.',
@@ -331,7 +331,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Breast augmentation Singapore guide: breast implant surgery, Motiva implant planning, implant placement/profile, cost factors, recovery, screening, risks and long-term follow-up.',
     keywords: ['breast augmentation Singapore', 'breast implant Singapore', 'breast implants Singapore', 'breast enlargement Singapore', 'Motiva implants Singapore', 'Motiva breast augmentation Singapore', 'breast implant placement Singapore', 'breast implant shapes Singapore', 'boob job Singapore', 'aesthetic breast surgery Singapore'],
     heroImage: { src: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant sizers and Motiva implant samples used during breast augmentation consultation planning in Singapore', caption: 'Breast implant samples used for patient education during consultation; not a before-and-after result or product endorsement.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Breast augmentation is surgery to increase or restore breast volume and refine breast shape. In Singapore, patients may consider breast augmentation for naturally small breast volume, postpartum volume loss, asymmetry, body proportion concerns or reconstruction-related goals.',
@@ -446,7 +446,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Detailed patient information on breast augmentation and aesthetic breast surgery in Singapore, including implants, 24-hour rapid recovery principles, lift, reduction, asymmetry correction, consultation and risks.',
     keywords: ['breast aesthetic surgery Singapore', 'breast augmentation Singapore', '24 hour rapid recovery breast augmentation Singapore', 'rapid recovery breast augmentation Singapore', 'breast lift Singapore', 'breast reduction Singapore', 'breast implant Singapore', 'breast asymmetry surgery Singapore'],
     heroImage: { src: '/images/aesthetic-ai/breast-aesthetic.jpg', alt: 'Editorial-style image representing breast aesthetic surgery consultation and planning', caption: 'Illustrative image for patient education; not a before-and-after result.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Breast aesthetic surgery includes procedures that change breast size, shape, position or symmetry. Common operations include breast augmentation, breast lift, breast reduction and correction of asymmetry.',
@@ -534,7 +534,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Rhinoplasty Singapore guide: Asian nose surgery consultation, bridge and tip planning, rib cartilage, revision rhinoplasty, cost factors, recovery, risks and limits.',
     keywords: ['Asian rhinoplasty Singapore', 'rhinoplasty Singapore', 'rib cartilage rhinoplasty Singapore', 'nose surgery Singapore', 'structural rhinoplasty Singapore'],
     heroImage: { src: '/images/aesthetic-ai/asian-rhinoplasty.jpg', alt: 'Editorial-style image representing Asian rhinoplasty consultation and facial profile planning', caption: 'Illustrative image for patient education; individual anatomy and outcomes vary.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Asian rhinoplasty is nose reshaping surgery planned around the anatomy and goals commonly seen in Asian patients, including nasal bridge height, tip projection, tip definition, nostril shape and facial balance.',
@@ -654,7 +654,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Rib rhinoplasty Singapore guide: rib cartilage nose surgery for Asian rhinoplasty, bridge and tip support, revision rhinoplasty, donor-site scar, cost factors, recovery and risks.',
     keywords: ['rib rhinoplasty Singapore', 'rib cartilage rhinoplasty Singapore', 'Asian rhinoplasty Singapore', 'rhinoplasty Singapore', 'revision rhinoplasty Singapore', 'nose surgery Singapore', 'cartilage rhinoplasty Singapore'],
     heroImage: { src: '/images/aesthetic-ai/rib-rhinoplasty-consultation.webp', alt: 'Patient and clinician reviewing nose profile and rib donor-site planning during a rhinoplasty consultation', caption: 'AI-generated editorial illustration of rib-rhinoplasty consultation planning; not a patient or treatment result.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Rib rhinoplasty refers to rhinoplasty where rib cartilage is considered as a graft material for nasal support or augmentation. It is commonly discussed in Asian rhinoplasty and revision rhinoplasty when stronger structural support may be needed.',
@@ -736,7 +736,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Facelift / face lift and neck lift Singapore guide: lower face, jowls, jawline, neck laxity, consultation, cost factors, recovery, scars, risks and limits.',
     keywords: ['face lift Singapore', 'neck lift Singapore', 'facelift Singapore', 'lower face lift Singapore', 'jowl surgery Singapore', 'neck tightening surgery Singapore'],
     heroImage: { src: '/images/aesthetic-ai/face-neck-lift.jpg', alt: 'Editorial-style image representing face and neck lift consultation and ageing changes', caption: 'Illustrative image for patient education; not a treatment result.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Face and neck lift surgery addresses selected age-related changes in the lower face, jawline and neck. It may improve laxity of deeper tissues and skin, but it does not stop ageing or create a standardised appearance.',
@@ -832,7 +832,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Patient information on lasers and injectables in Singapore, including consultation, treatment planning, safety, recovery and risks.',
     keywords: ['lasers injectables Singapore', 'aesthetic laser Singapore', 'botulinum toxin filler Singapore'],
     heroImage: { src: '/images/aesthetic-ai/lasers-injectables.jpg', alt: 'Editorial-style image representing lasers and injectables consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Lasers and injectables are non-surgical or minimally invasive treatments used for selected skin, contour and ageing-related concerns. They include energy-based devices, botulinum toxin, dermal fillers and other skin-quality treatments.',
@@ -860,7 +860,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Patient information on fat grafting and fat transfer in Singapore, including indications, consultation, recovery, limitations and risks.',
     keywords: ['fat grafting Singapore', 'fat transfer Singapore', 'autologous fat grafting Singapore'],
     heroImage: { src: '/images/aesthetic-ai/fat-grafting.jpg', alt: 'Editorial-style image representing facial fat grafting and volume restoration planning', caption: 'Illustrative image for patient education; not a treatment result.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Fat grafting, also called fat transfer, uses a patient’s own fat to improve selected contour, volume or soft-tissue quality concerns. Fat is usually harvested with liposuction, processed and placed into the target area in small amounts.',
@@ -888,7 +888,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Patient information on thread lifting in Singapore, including face thread lift suitability, dissolvable threads, consultation, recovery, risks and how it compares with surgery.',
     keywords: ['thread lift Singapore', 'thread lifting Singapore', 'face thread lift Singapore', 'face thread lift treatment Singapore', 'dissolvable thread lift', 'non surgical face lift Singapore'],
     heroImage: { src: '/images/aesthetic-ai/thread-lifting.jpg', alt: 'Editorial-style image representing thread lifting and facial rejuvenation consultation', caption: 'Illustrative image for patient education; not a treatment result.' },
-    backHref: '/#aesthetic-surgery',
+    backHref: '/aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Thread lifting is a minimally invasive procedure that uses absorbable or dissolvable threads placed under the skin to provide selected lifting or support effects. It is sometimes considered for mild facial laxity, cheek or jawline support, or contour concerns.',
@@ -917,7 +917,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'Patient information on reconstruction for lower limb wounds, trauma, infection, cancer defects and complex soft-tissue problems.',
     description: 'Patient information on lower limb reconstruction in Singapore, including wound assessment, flap reconstruction, recovery, risks and multidisciplinary planning.',
     keywords: ['lower limb reconstruction Singapore', 'leg reconstruction Singapore', 'flap reconstruction leg Singapore'],
-    backHref: '/#reconstructive-surgery',
+    backHref: '/reconstructive-surgery',
     backLabel: 'Back to reconstructive surgery',
     intro: [
       'Lower limb reconstruction addresses complex wounds or defects of the leg, ankle or foot after trauma, infection, cancer surgery, diabetic complications or previous surgery.',
@@ -944,7 +944,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'Patient information on reconstruction after head and neck cancer, trauma or complex facial defects.',
     description: 'Patient information on head and neck reconstruction in Singapore, including flap reconstruction, microsurgery, recovery, risks and multidisciplinary planning.',
     keywords: ['head neck reconstruction Singapore', 'facial reconstruction Singapore', 'microsurgical reconstruction Singapore'],
-    backHref: '/#reconstructive-surgery',
+    backHref: '/reconstructive-surgery',
     backLabel: 'Back to reconstructive surgery',
     intro: [
       'Head and neck reconstruction restores form and function after cancer surgery, trauma, infection or complex facial defects. It may involve skin, soft tissue, bone, nerve or lining reconstruction depending on the defect.',
@@ -972,7 +972,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Child facial laceration repair in Singapore: when a child may need plastic surgical assessment, layered closure, scar care, and local anaesthesia, sedation or general anaesthesia.',
     keywords: ['child facial laceration Singapore', 'kids facial stitches Singapore', 'plastic surgeon for child cut on face', 'child face cut stitches', 'paediatric facial laceration repair Singapore', 'facial laceration plastic surgeon Singapore'],
     heroImage: { src: '/images/reconstructive-tiles/trauma-lacerations.jpg', alt: 'Illustrative face image representing facial laceration repair and scar care in children', caption: 'Illustrative image for patient education; not a treatment result.' },
-    backHref: '/#reconstructive-surgery',
+    backHref: '/reconstructive-surgery',
     backLabel: 'Back to reconstructive surgery',
     intro: [
       'Facial cuts in children are common after falls, sports injuries, playground accidents, bites or collisions at home. Many small wounds can be safely treated in an emergency department, but some facial lacerations need careful specialist assessment because the face contains delicate muscles, nerves, ducts and important cosmetic landmarks.',
@@ -1007,7 +1007,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'Facial laceration repair in Singapore: when cuts on the face need stitches, plastic surgical assessment, layered closure, scar care and urgent medical attention.',
     keywords: ['facial laceration repair Singapore', 'cuts on face Singapore', 'cut on face stitches Singapore', 'face cut plastic surgeon Singapore', 'facial stitches Singapore', 'laceration care Singapore', 'facial injury plastic surgeon Singapore', 'child facial laceration Singapore'],
     heroImage: { src: '/images/reconstructive-tiles/trauma-lacerations.jpg', alt: 'Illustrative image representing facial laceration repair and scar care in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
-    backHref: '/#reconstructive-surgery',
+    backHref: '/reconstructive-surgery',
     backLabel: 'Back to reconstructive surgery',
     intro: [
       'A cut on the face can be worrying because facial wounds affect appearance, expression and important structures such as the eyelids, lips, nose, facial muscles, nerves and salivary ducts. Some small cuts can be cleaned and closed simply, while deeper or poorly aligned facial lacerations need more careful assessment.',
@@ -1042,7 +1042,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'Patient information on plastic surgical repair of lacerations, facial injuries, scars and soft-tissue trauma.',
     description: 'Patient information on trauma and laceration repair in Singapore, including wound assessment, repair, scar care, recovery and risks.',
     keywords: ['laceration repair Singapore', 'facial laceration Singapore', 'trauma reconstruction Singapore'],
-    backHref: '/#reconstructive-surgery',
+    backHref: '/reconstructive-surgery',
     backLabel: 'Back to reconstructive surgery',
     intro: [
       'Trauma and laceration repair involves assessment and treatment of cuts, soft-tissue injuries and wounds caused by accidents, falls, bites, sports injuries or other trauma.',
@@ -1069,7 +1069,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'Patient information on scar revision, keloid and hypertrophic scar management, assessment, treatment options and risks.',
     description: 'Patient information on scar reconstruction and scar revision in Singapore, including keloids, hypertrophic scars, consultation, treatment options and risks.',
     keywords: ['scar revision Singapore', 'keloid treatment Singapore', 'scar reconstruction Singapore'],
-    backHref: '/#reconstructive-surgery',
+    backHref: '/reconstructive-surgery',
     backLabel: 'Back to reconstructive surgery',
     intro: [
       'Scar reconstruction and scar revision aim to improve selected scars that are raised, widened, tight, painful, itchy, unstable or functionally limiting. Scars may follow surgery, trauma, burns, acne, infection or piercings.',
@@ -1098,7 +1098,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     description: 'FTM top surgery and chest masculinisation in Singapore, including female-to-male double-incision top surgery with nipple grafts, scar planning, dog-ear management, day surgery, nerve blocks, recovery and risks.',
     keywords: ['FTM top surgery Singapore', 'top surgery Singapore', 'female to male top surgery Singapore', 'female-to-male top surgery Singapore', 'transmasculine top surgery Singapore', 'chest masculinisation Singapore', 'chest masculinization Singapore', 'gender affirming chest surgery Singapore', 'double incision top surgery Singapore', 'nipple graft top surgery', 'mastectomy top surgery Singapore'],
     heroImage: { src: '/images/reconstructive-tiles/gender-affirming-chest-reconstruction.jpg', alt: 'Chest binder image representing gender-affirming chest reconstruction and FTM top surgery consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
-    backHref: '/#reconstructive-surgery',
+    backHref: '/reconstructive-surgery',
     backLabel: 'Back to reconstructive surgery',
     intro: [
       'FTM top surgery, also called female-to-male top surgery, transmasculine top surgery or chest masculinisation surgery, is gender-affirming chest surgery intended to create a flatter, more masculine chest contour for suitable patients. Planning should be individualised and medically supervised.',
@@ -1180,7 +1180,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     lead: 'Patient information on chest reconstruction planning, surgical options, recovery, scars, risks and multidisciplinary care.',
     description: 'Patient information on gender-affirming chest reconstruction in Singapore, including assessment, surgical planning, recovery, scars and risks.',
     keywords: ['gender affirming chest reconstruction Singapore', 'chest reconstruction Singapore', 'top surgery Singapore'],
-    backHref: '/#reconstructive-surgery',
+    backHref: '/reconstructive-surgery',
     backLabel: 'Back to reconstructive surgery',
     intro: [
       'Gender-affirming chest reconstruction is surgery to reshape the chest in a way that may better align with a person’s gender identity and goals. The operation and planning must be individualised.',

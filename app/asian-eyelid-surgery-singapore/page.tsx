@@ -37,7 +37,7 @@ const medicalPageJsonLd = {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
-        { '@type': 'ListItem', position: 2, name: 'Aesthetic Surgery', item: `${baseUrl}/#aesthetic-surgery` },
+        { '@type': 'ListItem', position: 2, name: 'Aesthetic Surgery', item: `${baseUrl}/aesthetic-surgery` },
         { '@type': 'ListItem', position: 3, name: 'Asian Eyelid Surgery in Singapore', item: pageUrl }
       ]
     },
@@ -119,7 +119,7 @@ export default function AsianEyelidSurgeryPage() {
               <nav className="breadcrumb" aria-label="Breadcrumb">
                 <Link href="/">Home</Link>
                 <span>/</span>
-                <Link href="/#aesthetic-surgery">Aesthetic surgery</Link>
+                <Link href="/aesthetic-surgery">Aesthetic surgery</Link>
               </nav>
               <div className="eyebrow">Asian eyelid surgery</div>
               <h1>Asian Eyelid Surgery in Singapore</h1>
@@ -128,7 +128,7 @@ export default function AsianEyelidSurgeryPage() {
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
-                <Link href="/#aesthetic-surgery" className="btn btn-ghost">Back to aesthetic surgery</Link>
+                <Link href="/aesthetic-surgery" className="btn btn-ghost">Back to aesthetic surgery</Link>
               </div>
             </div>
             <aside className="article-summary-card">

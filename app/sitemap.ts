@@ -9,6 +9,8 @@ const latestModifiedPaths = new Map([
   ['/aesthetic-surgery', '2026-10-07'],
   ['/reconstructive-surgery', '2026-10-07'],
   ['/breast-reconstruction-singapore', '2026-10-07'],
+  ['/asian-eyelid-surgery-singapore', '2026-10-07'],
+  ['/lymphedema-surgery-singapore', '2026-10-07'],
   ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-06'],
   ['/asian-rhinoplasty-singapore', '2026-10-06'],
   ['/rib-rhinoplasty-singapore', '2026-10-06'],
