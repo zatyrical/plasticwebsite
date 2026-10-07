@@ -16,6 +16,7 @@ const latestModifiedPaths = new Map([
   ['/face-neck-lift-singapore', '2026-10-06'],
   ['/mommy-makeover-singapore', '2026-10-06'],
   ['/plastic-surgeon-singapore', '2026-10-07'],
+  ['/publications', '2026-10-07'],
   ['/training-and-fellowships', '2026-10-04'],
   ['/eyebag-removal-lower-blepharoplasty-singapore', '2026-10-04'],
 ]);
