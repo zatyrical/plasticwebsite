@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import Navigation from '../Navigation';
 
 const publications = [
@@ -61,11 +62,40 @@ export default function PublicationsPage() {
               <li key={publication}>
                 {publication}
                 {publicationSources[publication] && (
-                  <> <a href={publicationSources[publication]}>View publication source</a></>
+                  <> <a href={publicationSources[publication]} aria-label={`View the journal or PubMed record for ${publication}`}>View journal or PubMed record</a></>
                 )}
               </li>
             ))}
           </ol>
+
+          <section aria-labelledby="related-clinical-education">
+            <h2 id="related-clinical-education">Related clinical education and professional context</h2>
+            <p>
+              For patient-friendly explanations of topics represented in this research, and to review relevant training, use the resources below. These pages provide general education and do not replace an individual consultation.
+            </p>
+            <div className="related-grid">
+              <Link href="/lower-limb-reconstruction-singapore" className="related-card">
+                <small>Reconstructive surgery</small>
+                <strong>Lower limb reconstruction patient guide</strong>
+                <span>Read the patient guide</span>
+              </Link>
+              <a href="https://lymphedasia.com/lymphedema-treatment/" className="related-card">
+                <small>Lymphoedema care</small>
+                <strong>Lymphoedema assessment and treatment pathway</strong>
+                <span>Read on Lymphedema Asia</span>
+              </a>
+              <a href="https://lymphedasia.com/lva-surgery-singapore/" className="related-card">
+                <small>Lymphatic surgery</small>
+                <strong>LVA / lymphovenous bypass patient guide</strong>
+                <span>Read on Lymphedema Asia</span>
+              </a>
+              <Link href="/training-and-fellowships" className="related-card">
+                <small>Professional context</small>
+                <strong>Training and international fellowships</strong>
+                <span>Review training</span>
+              </Link>
+            </div>
+          </section>
         </div>
       </article>
     </main>
