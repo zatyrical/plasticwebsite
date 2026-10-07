@@ -1,0 +1,107 @@
+{
+  "checked_at_utc": "2026-10-07T15:40:33.240577+00:00",
+  "source": "Native GSC server-error examples; report updated2026-10-04",
+  "rows": [
+    {
+      "url": "https://lymphedasia.com/combined-decongestive-therapy/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/combined-decongestive-therapy/"
+    },
+    {
+      "url": "https://lymphedasia.com/can-alcoholism-cause-lymphedema/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/can-alcoholism-cause-lymphedema/"
+    },
+    {
+      "url": "https://lymphedasia.com/resource-library-for-lymphedema-education/",
+      "status": 200,
+      "final_url": "https://lymphedasia.com/educational-resources/",
+      "canonical": [
+        "https://lymphedasia.com/educational-resources/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "x_robots": null
+    },
+    {
+      "url": "https://lymphedasia.com/congenital-lymphedema-causes/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/congenital-lymphedema-causes/"
+    },
+    {
+      "url": "https://lymphedasia.com/lymphedema-treatment-in-singapore/",
+      "status": 200,
+      "final_url": "https://lymphedasia.com/lymphedema-treatment/",
+      "canonical": [
+        "https://lymphedasia.com/lymphedema-treatment/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "x_robots": null
+    },
+    {
+      "url": "https://lymphedasia.com/lymphovenous-bypass/",
+      "status": 200,
+      "final_url": "https://lymphedasia.com/lva-surgery-singapore/",
+      "canonical": [
+        "https://lymphedasia.com/lva-surgery-singapore/"
+      ],
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "x_robots": null
+    },
+    {
+      "url": "https://lymphedasia.com/do-diuretics-help-lymphedema/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/do-diuretics-help-lymphedema/"
+    },
+    {
+      "url": "https://lymphedasia.com/top-3-exercises-for-leg-lymphedema/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/top-3-exercises-for-leg-lymphedema/"
+    },
+    {
+      "url": "https://lymphedasia.com/lymphedema-surgery-treatment/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/lymphedema-surgery-treatment/"
+    },
+    {
+      "url": "https://lymphedasia.com/difference-between-primary-and-secondary-lymphedema/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/difference-between-primary-and-secondary-lymphedema/"
+    },
+    {
+      "url": "https://lymphedasia.com/lymphedema-exercises/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/lymphedema-exercises/"
+    },
+    {
+      "url": "https://lymphedasia.com/services/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/services/"
+    },
+    {
+      "url": "https://lymphedasia.com/author/lymphedasia-com/page/13/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/author/lymphedasia-com/page/13/"
+    },
+    {
+      "url": "https://lymphedasia.com/author/lymphedasia-com/page/17/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/author/lymphedasia-com/page/17/"
+    },
+    {
+      "url": "https://lymphedasia.com/author/lymphedasia-com/page/3/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/author/lymphedasia-com/page/3/"
+    },
+    {
+      "url": "https://lymphedasia.com/author/lymphedasia-com/page/18/",
+      "status": 404,
+      "final_url": "https://lymphedasia.com/author/lymphedasia-com/page/18/"
+    }
+  ]
+}

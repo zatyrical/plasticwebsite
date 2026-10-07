@@ -1,0 +1,288 @@
+[
+  {
+    "id": 30,
+    "url": "/combined-decongestive-therapy/",
+    "match_url": "/combined-decongestive-therapy",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/lymphedema-therapy/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 29,
+    "last_access": "-",
+    "enabled": true
+  },
+  {
+    "id": 31,
+    "url": "/difference-between-primary-and-secondary-lymphedema/",
+    "match_url": "/difference-between-primary-and-secondary-lymphedema",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/primary-vs-secondary-lymphedema/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 30,
+    "last_access": "-",
+    "enabled": true
+  },
+  {
+    "id": 32,
+    "url": "/lymphedema-surgery-treatment/",
+    "match_url": "/lymphedema-surgery-treatment",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/lymphedema-surgery-singapore/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 31,
+    "last_access": "-",
+    "enabled": true
+  },
+  {
+    "id": 33,
+    "url": "/lymphedema-surgical-treatment/",
+    "match_url": "/lymphedema-surgical-treatment",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/lymphedema-surgery-singapore/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 32,
+    "last_access": "-",
+    "enabled": true
+  },
+  {
+    "id": 34,
+    "url": "/lymphedema-singapore/",
+    "match_url": "/lymphedema-singapore",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/lymphedema-treatment/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 33,
+    "last_access": "-",
+    "enabled": true
+  },
+  {
+    "id": 35,
+    "url": "/lymphedema-diagnosis-and-treatment/",
+    "match_url": "/lymphedema-diagnosis-and-treatment",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/lymphedema-treatment/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 34,
+    "last_access": "-",
+    "enabled": true
+  },
+  {
+    "id": 36,
+    "url": "/lymphedema-education/",
+    "match_url": "/lymphedema-education",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/educational-resources/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 35,
+    "last_access": "-",
+    "enabled": true
+  },
+  {
+    "id": 37,
+    "url": "/lymphedema-exercises/",
+    "match_url": "/lymphedema-exercises",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 36,
+    "last_access": "-",
+    "enabled": true
+  },
+  {
+    "id": 38,
+    "url": "/top-3-exercises-for-leg-lymphedema/",
+    "match_url": "/top-3-exercises-for-leg-lymphedema",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 37,
+    "last_access": "-",
+    "enabled": true
+  },
+  {
+    "id": 39,
+    "url": "/lymphedema-physical-therapy-exercises/",
+    "match_url": "/lymphedema-physical-therapy-exercises",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 38,
+    "last_access": "-",
+    "enabled": true
+  },
+  {
+    "id": 40,
+    "url": "/lymphedema-leg-exercises/",
+    "match_url": "/lymphedema-leg-exercises",
+    "match_data": {
+      "source": {
+        "flag_query": "exact",
+        "flag_case": true,
+        "flag_trailing": true,
+        "flag_regex": false
+      }
+    },
+    "action_code": 301,
+    "action_type": "url",
+    "action_data": {
+      "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+    },
+    "match_type": "url",
+    "title": "Recover GSC missing patient path — 7 October 2026",
+    "hits": 0,
+    "regex": false,
+    "group_id": 1,
+    "position": 39,
+    "last_access": "-",
+    "enabled": true
+  }
+]
