@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-07",
+  "articles": [
+    {
+      "article": "care",
+      "url": "https://lymphedasia.com/building-a-comprehensive-lymphedema-care/",
+      "status": 200,
+      "oneH1": true,
+      "faqH3": 7,
+      "reviewerPreserved": true,
+      "textComparison": "identical except draft heading prefixes",
+      "blockLevels": "valid",
+      "canonical": "https://lymphedasia.com/building-a-comprehensive-lymphedema-care/",
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "xRobotsTag": null
+    },
+    {
+      "article": "skin",
+      "url": "https://lymphedasia.com/summer-skincare-tips-for-managing-lymphedema/",
+      "status": 200,
+      "oneH1": true,
+      "faqH3": 7,
+      "reviewerPreserved": true,
+      "textComparison": "identical except draft heading prefixes",
+      "blockLevels": "valid",
+      "canonical": "https://lymphedasia.com/summer-skincare-tips-for-managing-lymphedema/",
+      "robots": [
+        "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+      ],
+      "xRobotsTag": null
+    }
+  ],
+  "internalLinks": [
+    {
+      "url": "https://lymphedasia.com/compression-therapy-in-treating-lymphedema/",
+      "status": 200,
+      "final": "https://lymphedasia.com/compression-therapy-in-treating-lymphedema/"
+    },
+    {
+      "url": "https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/",
+      "status": 200,
+      "final": "https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/"
+    },
+    {
+      "url": "https://lymphedasia.com/educational-resources/",
+      "status": 200,
+      "final": "https://lymphedasia.com/educational-resources/"
+    },
+    {
+      "url": "https://lymphedasia.com/how-to-prevent-lymphedema-complications/",
+      "status": 200,
+      "final": "https://lymphedasia.com/how-to-prevent-lymphedema-complications/"
+    },
+    {
+      "url": "https://lymphedasia.com/importance-of-skin-care-in-lymphedema-management/",
+      "status": 200,
+      "final": "https://lymphedasia.com/importance-of-skin-care-in-lymphedema-management/"
+    },
+    {
+      "url": "https://lymphedasia.com/link-between-lymphedema-and-cancer/",
+      "status": 200,
+      "final": "https://lymphedasia.com/link-between-lymphedema-and-cancer/"
+    },
+    {
+      "url": "https://lymphedasia.com/lva-surgery-singapore/",
+      "status": 200,
+      "final": "https://lymphedasia.com/lva-surgery-singapore/"
+    },
+    {
+      "url": "https://lymphedasia.com/lymph-node-transfer-and-lymph-vessel-flaps/",
+      "status": 200,
+      "final": "https://lymphedasia.com/lymph-node-transfer-and-lymph-vessel-flaps/"
+    },
+    {
+      "url": "https://lymphedasia.com/lymphedema-compression-garments/",
+      "status": 200,
+      "final": "https://lymphedasia.com/lymphedema-compression-garments/"
+    },
+    {
+      "url": "https://lymphedasia.com/lymphedema-treatment/",
+      "status": 200,
+      "final": "https://lymphedasia.com/lymphedema-treatment/"
+    },
+    {
+      "url": "https://lymphedasia.com/managing-lymphedema-during-the-summer-heat/",
+      "status": 200,
+      "final": "https://lymphedasia.com/managing-lymphedema-during-the-summer-heat/"
+    },
+    {
+      "url": "https://lymphedasia.com/manual-lymphatic-drainage-and-compression/",
+      "status": 200,
+      "final": "https://lymphedasia.com/manual-lymphatic-drainage-and-compression/"
+    },
+    {
+      "url": "https://lymphedasia.com/manual-lymphatic-drainage-mld/",
+      "status": 200,
+      "final": "https://lymphedasia.com/manual-lymphatic-drainage-mld/"
+    },
+    {
+      "url": "https://lymphedasia.com/massage-therapy-in-lymphedema-management/",
+      "status": 200,
+      "final": "https://lymphedasia.com/massage-therapy-in-lymphedema-management/"
+    },
+    {
+      "url": "https://lymphedasia.com/quality-of-life-while-living-with-lymphedema/",
+      "status": 200,
+      "final": "https://lymphedasia.com/quality-of-life-while-living-with-lymphedema/"
+    },
+    {
+      "url": "https://lymphedasia.com/understanding-lymphedema/",
+      "status": 200,
+      "final": "https://lymphedasia.com/understanding-lymphedema/"
+    }
+  ]
+}
