@@ -1,0 +1,245 @@
+WordPress post ID: 4291
+Source URL: https://lymphedasia.com/lymphedema-diagnosis-report-explained/
+Modified before edit: 2026-08-24T16:42:52
+Captured: 2026-10-07 12:xx SGT
+
+<!-- wp:paragraph -->
+<p>You got a diagnosis report. Maybe it says <em>"Stage II lymphedema"</em> or <em>"moderate lymphatic insufficiency."</em> And now you're sitting there wondering what any of it actually means for your life.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"lymphedasia-medical-review-box","style":{"border":{"width":"1px","color":"#d9e2ec","radius":"8px"},"spacing":{"padding":{"top":"16px","right":"16px","bottom":"16px","left":"16px"},"margin":{"top":"18px","bottom":"24px"}},"color":{"background":"#f8fbfd"}}} -->
+<div class="wp-block-group lymphedasia-medical-review-box has-background" style="border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:18px;margin-bottom:24px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:paragraph -->
+<p><strong>Clinically reviewed by Dr Jeremy Sun Mingfa</strong>, Senior Consultant Plastic and Reconstructive Surgeon in Singapore, with subspecialty expertise in lymphedema surgery and supermicrosurgical lymphatic reconstruction. <em>Last reviewed: August 2026.</em></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+
+
+<!-- wp:paragraph -->
+<p>That confusion is completely normal. Lymphedema diagnosis reports are written for clinicians, not patients. They use scoring systems, staging numbers, and clinical shorthand that no one explains to you. The result? You leave the consultation with a piece of paper and more anxiety than answers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This guide will walk you through every major section of a standard lymphedema diagnosis report explained in plain language. By the end, you will know exactly what your stage means, what each measurement tells your doctor, and what your next step should be.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Does a Lymphedema Diagnosis Report Actually Contain?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Before breaking down what the numbers mean, it helps to know what you are reading.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A standard lymphedema assessment report typically includes four things: a staging classification, one or more volume measurements, a tissue assessment, and a functional score. Not every report includes all four. Some clinics use more detailed imaging reports; others rely primarily on physical examination findings. But the staging section is almost always there, and that is where most patients get confused.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The staging system used by the majority of specialists worldwide comes from the International Society of Lymphology (ISL). If your report references a "Stage 0," "Stage I," "Stage II," or "Stage III," it is using this framework. Understanding it is the key to understanding everything else on your report.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It is also worth knowing that a diagnosis report is a snapshot. It reflects the state of your lymphatic system at one specific point in time. It is not a fixed verdict. <strong>Staging can change</strong> with treatment, and early-stage findings respond particularly well to the right intervention.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Do the ISL Stages on Your Report Actually Mean?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This is the section patients ask about most. Here is what each stage means in language you can use.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Stage 0 (Also Called "Subclinical" or "Latent")</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Your report says Stage 0. You may wonder why you have a lymphedema diagnosis at all when your limb does not look swollen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Stage 0 means your lymphatic transport capacity is already impaired, but your body is compensating well enough that swelling is not yet visible. Think of it like a drain that is partially blocked. Water is still flowing, but slower than it should be. At this stage, there is no visible or palpable swelling.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In clinical practice, this means your lymphatic system has been damaged, usually through surgery, radiation, or infection, but has not yet reached the point where fluid builds up faster than it can be cleared. This stage is important to catch. Patients at Stage 0 are at elevated risk of progressing to visible swelling, particularly after triggers like heat, infection, or heavy exertion.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Stage I (Reversible Swelling)</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Stage I is the first stage where swelling becomes visible. The defining characteristic is that it is pitting and reversible -- meaning if you press your finger into the skin and hold it, a temporary indent ("pit") forms. It also means that elevating the limb -- simply resting your arm or leg above heart level -- reduces the swelling significantly, often overnight.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This reversibility is the good news. Stage I swelling indicates that fibrosis [permanent hardening of tissue] has not yet set in. <strong>The lymphatic channels are under strain, but the surrounding tissue is still soft and responsive.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>According to ISL guidelines, Stage I is the stage where conservative treatments -- particularly complete decongestive therapy (CDT) -- deliver the most significant and sustained results.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Stage II (Spontaneously Irreversible Swelling)</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Stage II is the most common stage seen in clinical practice. Your report may describe it as "early Stage II" or "late Stage II." Here is the key difference from Stage I: <strong>elevation alone no longer reduces the swelling.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The tissue has begun to harden [fibrosis is present]. Pitting may still be present in early Stage II, but in later Stage II, the skin and underlying tissue become firmer and less responsive to simple elevation. You may notice the limb feels heavier, tighter, or more dense than it used to.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Stage II does not mean treatment stops working. It means the treatment approach needs to be more consistent, and in some cases, surgical options become worth discussing. Patients at this stage still respond well to compression therapy, manual lymphatic drainage, and exercise-based management. Microsurgical procedures such as lymphaticovenous anastomosis (LVA) or vascularized lymph node transfer (VLNT) are also increasingly considered at this stage to restore lymphatic drainage pathways.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Stage III (Lymphostatic Elephantiasis)</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Stage III is the most advanced classification. It involves severe swelling, significant skin changes, loss of the normal shape of the limb, and a high risk of recurrent infection [cellulitis].</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>At this stage, fibrosis is extensive. The skin may show characteristic changes including papillomatosis [wart-like skin growths], hyperkeratosis [skin thickening], and repeated blistering or weeping. This is sometimes called lymphostatic elephantiasis in clinical reports.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Stage III is serious, but it does not mean nothing can be done. Specialist microsurgery, intensive decongestive therapy, and carefully designed compression programmes can still meaningfully reduce limb volume and improve quality of life. The goals at this stage shift from reversal to management and prevention of further deterioration.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Do the Volume Measurements on Your Report Tell You?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Your report may include a section with numbers like "volume difference: 18%" or "excess limb volume: 420 ml." These numbers measure how much larger your affected limb is compared to your unaffected limb, or compared to a reference value if both limbs are involved.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>There are three common methods used to calculate this:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Circumference measurements</strong> are the most widely used in clinical practice. The clinician measures around the limb at fixed intervals and uses a mathematical formula to estimate volume. This is low-tech, fast, and reliable when done consistently.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Water displacement volumetry</strong> is considered the gold standard for accuracy. Your limb is submerged in a container of water, and the volume of displaced water is measured directly. It is more cumbersome but more precise.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Perometry or bioimpedance analysis</strong> are technology-based alternatives. Perometry uses infrared light to create a 3D measurement of your limb. Bioimpedance analysis [also called L-Dex in some reports] measures how electrical signals travel through your tissue. Higher resistance to the signal indicates more fluid.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>What matters practically is the percentage difference between limbs. A difference of 10% or greater is generally considered clinically significant. Some clinics use the threshold of 200 ml excess volume. Your report will specify which measurement method and threshold your clinic uses. Neither is universally superior -- consistency over time matters more than which method is chosen.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Does "Pitting" and "Non-Pitting" Mean in Your Report?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>You may see this described as "grade 1 pitting oedema" or "non-pitting induration." This single word makes a significant difference to your prognosis and treatment plan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Pitting</strong> means the tissue is still primarily fluid. When pressure is applied, the fluid shifts and leaves a temporary pit. This is associated with earlier-stage disease and generally better treatment response.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Non-pitting</strong> means the tissue has undergone fibrotic change. The hardened tissue does not shift under pressure. This is associated with more advanced disease and indicates that simple drainage-focused treatments will have a more limited effect on the tissue texture, though volume can still be reduced.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Your report may use the term "induration" to describe non-pitting hardness. This is not a different condition -- it is the same process described at the tissue level rather than the behaviour level.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>DR. SUN'S CLINICAL PERSPECTIVE</strong><em>"In my practice, I see many patients who come to me after years of Stage II lymphedema, believing surgery is no longer an option for them. What they are not told is that the window for microsurgical intervention is often wider than assumed. The presence of fibrosis does not automatically exclude LVA or VLNT. A proper lymphatic mapping study -- something many general reports do not include -- often reveals patent lymphatic channels that can still be surgically connected. This means for patients that getting a second specialist opinion, even on a report that looks discouraging, is always worth doing."</em></td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Are the Other Tests Your Report Might Reference?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Beyond staging and volume measurements, some reports include one or more imaging or functional tests. Here is what the most common ones mean.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Lymphoscintigraphy</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This is a nuclear medicine scan. A small amount of radioactive tracer is injected near the affected area. The scanner tracks how the tracer moves through your lymphatic channels. Phrases like "delayed transit," "dermal backflow," or "absent lymph node uptake" in your report describe what the tracer did or did not do.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Delayed transit</strong> means the lymph fluid is moving slower than expected. <strong>Dermal backflow</strong> means fluid is leaking backward into the skin rather than flowing forward toward the lymph nodes -- this is a sign of blockage or lymphatic damage. These findings help confirm the diagnosis and identify where in the lymphatic chain the problem lies.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>ICG Lymphography (Indocyanine Green)</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Some specialist centres, particularly those focused on microsurgery, use ICG lymphography. A green dye is injected and visualised with near-infrared light. This gives a real-time picture of lymphatic function and is highly sensitive to early-stage disease. Your report may describe "linear" or "stardust" or "diffuse splash" patterns.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Linear patterns</strong> indicate healthier lymphatic flow. Stardust and splash patterns indicate progressively worse lymphatic function.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Bioimpedance (L-Dex Score)</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If your report includes an L-Dex score, it is measuring the ratio of fluid in your extracellular space compared to your intracellular space. A score above 10 on the L-Dex scale is considered indicative of lymphedema in the affected limb. This test is particularly useful for detecting subclinical [Stage 0] lymphedema before swelling is visible.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>How Do Stages Compare to One Another? A Quick Reference</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th><strong>Feature</strong></th><th><strong>Stage 0</strong></th><th><strong>Stage I</strong></th><th><strong>Stage II</strong></th><th><strong>Stage III</strong></th></tr></thead><tbody><tr><td>Visible swelling</td><td>None</td><td>Yes</td><td>Yes</td><td>Yes, severe</td></tr><tr><td>Pitting on pressure</td><td>No</td><td>Yes</td><td>Sometimes</td><td>Rare</td></tr><tr><td>Reduces with elevation</td><td>N/A</td><td>Yes</td><td>No</td><td>No</td></tr><tr><td>Fibrosis present</td><td>No</td><td>No</td><td>Mild to moderate</td><td>Extensive</td></tr><tr><td>Skin changes</td><td>None</td><td>None</td><td>Mild</td><td>Significant</td></tr><tr><td>Surgical candidacy</td><td>Monitoring</td><td>Possible</td><td>Often yes</td><td>Case by case</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Should You Do With This Information Right Now?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Reading your report clearly is useful. But knowing your stage is not the same as knowing your treatment plan.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A lymphedema diagnosis report tells you where you are. A specialist consultation tells you where you can go.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The most important thing your report does is create a baseline. Every future measurement, every treatment decision, every surgical assessment will be compared to this starting point. So keeping your report, understanding what it says, and bringing it to every appointment you have is genuinely important.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If your report is more than six months old and your symptoms have changed, ask for a reassessment. Staging can shift in either direction. Earlier-stage disease caught and treated well can stabilise. Untreated disease can progress.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If you have concerns about what your <strong>lymphedema diagnosis report explained</strong> in plain language still does not resolve, speaking with a lymphedema specialist early can change your outcome. Dr Jeremy Sun consults at [Clinic Name], Singapore, and works with patients across a range of stages, including those who have been told surgical options are limited.</p>
+<!-- /wp:paragraph -->
+
+<div class="la-related-lva" style="border:1px solid #d9e6f2;border-radius:14px;padding:16px 18px;margin:28px 0;background:#f7fbff">
+<p><strong>Related surgical assessment guide:</strong> For patients comparing options such as lymphatic imaging, ICG lymphography, LVA / LVB and lymphovenous bypass, see <a href="https://lymphedasia.com/lva-surgery-singapore/">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>
+</div>
+
