@@ -108,7 +108,7 @@ export default function ProcedureArticlePage({ article }: Props) {
   const description = presentation?.description ?? article.description;
   const articleUrl = `${baseUrl}/${article.slug}`;
   const group = article.backHref.includes('aesthetic') ? 'aesthetic' : 'reconstructive';
-  const hubHref = group === 'aesthetic' ? '/aesthetic-surgery' : '/reconstructive-surgery';
+  const hubHref = article.backHref;
   const generatedRelated = procedureArticleList
     .filter((item) => item.slug !== article.slug)
     .filter((item) => (item.backHref.includes('aesthetic') ? 'aesthetic' : 'reconstructive') === group)

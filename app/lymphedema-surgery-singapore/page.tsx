@@ -40,7 +40,8 @@ const medicalPageJsonLd = {
       '@type': 'BreadcrumbList',
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
-        { '@type': 'ListItem', position: 2, name: 'Lymphedema Treatment in Singapore', item: pageUrl }
+        { '@type': 'ListItem', position: 2, name: 'Reconstructive Surgery', item: `${baseUrl}/reconstructive-surgery` },
+        { '@type': 'ListItem', position: 3, name: 'Lymphedema Treatment in Singapore', item: pageUrl }
       ]
     },
     physicianJsonLd,
@@ -125,6 +126,11 @@ export default function LymphedemaSurgeryPage() {
         <section className="article-hero">
           <div className="container article-hero-grid">
             <div>
+              <nav className="breadcrumb" aria-label="Breadcrumb">
+                <Link href="/">Home</Link>
+                <span>/</span>
+                <Link href="/reconstructive-surgery">Reconstructive surgery</Link>
+              </nav>
               <div className="eyebrow">Lymphatic surgery</div>
               <h1>Lymphedema Treatment in Singapore</h1>
               <p className="lead">
@@ -132,7 +138,7 @@ export default function LymphedemaSurgeryPage() {
               </p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
-                <Link href="/#reconstructive-surgery" className="btn btn-ghost">Back to procedures</Link>
+                <Link href="/reconstructive-surgery" className="btn btn-ghost">Back to procedures</Link>
               </div>
             </div>
             <aside className="article-summary-card">
