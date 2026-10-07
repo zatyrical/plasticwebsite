@@ -251,7 +251,7 @@ export default function BreastImplantIllnessPage() {
 
             <h2 id="enquire">Enquire about assessment</h2>
             <p>If you are concerned about breast implants, systemic symptoms, breast implant removal, or the risks and uncertainties before breast augmentation, a formal consultation is needed before personalised advice can be given.</p>
-            <ContactForm />
+            <ContactForm defaultEnquiryType="Aesthetic surgery" />
           </div>
         </section>
       </article>
