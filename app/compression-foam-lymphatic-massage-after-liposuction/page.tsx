@@ -247,7 +247,7 @@ export default function LiposuctionCompressionFoamMassagePage() {
 
             <h2 id="enquire">Enquire about assessment</h2>
             <p>If you are considering liposuction or want to understand a safe recovery plan for compression, foam padding, bandages and lymphatic drainage massage, a formal consultation is needed before personalised advice can be given.</p>
-            <ContactForm />
+            <ContactForm defaultEnquiryType="Aesthetic surgery" />
           </div>
         </section>
       </article>
