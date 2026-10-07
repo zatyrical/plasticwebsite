@@ -5,7 +5,7 @@ import { procedurePagePresentation } from './procedurePagePresentation';
 const baseUrl = 'https://www.drjeremysun.com';
 const updatedAt = '2026-10-03';
 const latestModifiedPaths = new Map([
-  ['', '2026-10-06'],
+  ['', '2026-10-07'],
   ['/aesthetic-surgery', '2026-10-06'],
   ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-06'],
   ['/asian-rhinoplasty-singapore', '2026-10-06'],
