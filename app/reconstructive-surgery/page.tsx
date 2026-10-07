@@ -63,7 +63,13 @@ export default function ReconstructiveSurgeryPage() {
           <p className="section-intro">Each tile links to patient-focused information on planning, suitability, recovery, risks and realistic limitations.</p>
           <div className="grid-3 focus-grid reconstructive-photo-grid treatment-listing-grid">{reconstructiveTreatments.map((x) => (
             <a className="card linked-card focus-card aesthetic-photo-card reconstructive-photo-card" href={x.href} key={x.title}>
-              <Image src={x.image} alt={x.alt} width={720} height={720} loading="eager" sizes="(max-width: 900px) 50vw, 25vw" />
+              <Image
+                src={x.image}
+                alt={x.alt}
+                width={720}
+                height={720}
+                sizes="(max-width: 900px) calc(50vw - 27px), 272px"
+              />
               <div className="aesthetic-photo-overlay reconstructive-photo-overlay"><h3>{x.title}</h3><span>View page</span></div>
             </a>
           ))}</div>

@@ -6,7 +6,8 @@ const baseUrl = 'https://www.drjeremysun.com';
 const updatedAt = '2026-10-03';
 const latestModifiedPaths = new Map([
   ['', '2026-10-07'],
-  ['/aesthetic-surgery', '2026-10-06'],
+  ['/aesthetic-surgery', '2026-10-07'],
+  ['/reconstructive-surgery', '2026-10-07'],
   ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-06'],
   ['/asian-rhinoplasty-singapore', '2026-10-06'],
   ['/rib-rhinoplasty-singapore', '2026-10-06'],
