@@ -39,7 +39,9 @@ Google documents breadcrumbs as a hierarchy aid and requires structured data to 
 - Rendered symposium/media wording no longer describes the September session as upcoming; the existing programme time and event date are preserved.
 - All three affected sitemap dates are `2026-10-07`.
 - React review: static server components, existing Link/CSS patterns, no hooks, client fetching, added dependencies or runtime date logic.
-- Vercel preview, guarded merge and public verification remain pending publication. Final publication proof will be recorded in campaign issue #7.
+- Published in PR59: https://github.com/zatyrical/plasticwebsite/pull/59, merged as 553fb1d2b5d3623330fd6bbdc4f9a93e860893ff after successful preview and expected-head guard.
+- Production dpl_AZWkqjSPLMtgXFoW8b4epeSTinFj reached READY at that exact commit. Ordinary public HTTP 200 verification passed for both guides, media and the three sitemap modification dates.
+- Completion proof: https://github.com/zatyrical/plasticwebsite/issues/7#issuecomment-6039807001.
 
 ## Rollback
 
