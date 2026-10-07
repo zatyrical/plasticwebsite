@@ -9,7 +9,7 @@ const officialEventUrl = 'https://commcaresymposium.slec.org.sg/wound-care/';
 export const metadata: Metadata = {
   title: 'St Luke’s Symposium 2026 | Lymphoedema Care',
   description:
-    'Dr Jeremy Sun speaks at the St Luke’s ElderCare CommCare Symposium 2026 on recognition and management of lymphoedema and its impact on chronic wounds.',
+    'Dr Jeremy Sun’s programme-listed lymphoedema and chronic wound care session at the St Luke’s ElderCare CommCare Symposium, 4 September 2026.',
   alternates: {
     canonical: '/st-lukes-eldercare-symposium-lymphoedema-wound-care-2026'
   },
@@ -106,10 +106,15 @@ export default function StLukesSymposiumPage() {
       <section className="article-hero">
         <div className="container article-hero-grid">
           <div>
+            <nav className="breadcrumb" aria-label="Breadcrumb">
+              <Link href="/">Home</Link>
+              <span aria-hidden="true">/</span>
+              <Link href="/media">Media &amp; Education</Link>
+            </nav>
             <div className="eyebrow">Invited lecture · Professional education</div>
             <h1>Lymphoedema and chronic wound care: St Luke’s ElderCare CommCare Symposium 2026</h1>
             <p className="lead">
-              Dr Jeremy Sun is speaking on the recognition and management of lymphoedema and its impact on chronic wounds at the St Luke’s ElderCare CommCare Symposium 2026 Wound Care track.
+              The published programme for the St Luke’s ElderCare CommCare Symposium on 4 September 2026 lists Dr Jeremy Sun’s session on the recognition and management of lymphoedema and its impact on chronic wounds in the Wound Care track.
             </p>
             <div className="hero-actions">
               <a className="btn btn-primary" href={officialEventUrl} target="_blank" rel="noreferrer">View official symposium page</a>

@@ -88,7 +88,7 @@ const faqJsonLd = {
       name: 'Is LVA the same as LVB or lymphovenous bypass?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes. LVA and LVB are often used for closely related lymphatic bypass procedures. LVA usually means lymphaticovenous or lymphaticovenular anastomosis, while LVB means lymphovenous bypass. LVB is commonly used in American medical contexts and can help frame the operation as a recognised reconstructive medical treatment.'
+        text: 'Yes. LVA and LVB are often used for closely related lymphatic bypass procedures. LVA usually means lymphaticovenous or lymphaticovenular anastomosis, while LVB means lymphovenous bypass. LVB is common in American medical and insurance contexts; local coverage and suitability still depend on the patient’s diagnosis, insurer and specialist assessment.'
       }
     },
     {
@@ -96,7 +96,7 @@ const faqJsonLd = {
       name: 'Is LVA only useful for early lymphedema?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'LVA is often associated with early-stage lymphedema, but some advanced-stage patients may still be suitable if their disease is more fluid-dominant and imaging shows usable lymphatic channels.'
+        text: 'No. LVA is often associated with early-stage lymphedema, but some advanced-stage patients may still be suitable if their disease is more fluid-dominant and imaging shows usable lymphatic channels.'
       }
     },
     {
@@ -112,7 +112,7 @@ const faqJsonLd = {
       name: 'Can LVA reduce cellulitis?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'In selected patients with established lymphedema, LVA may reduce lymphatic congestion and may reduce the tendency toward recurrent cellulitis. If cellulitis occurs once or twice despite appropriate conservative therapy, this is a strong reason to seek lymphatic assessment. Outcomes vary, and skin care, compression where appropriate and prompt infection treatment remain important.'
+        text: 'In selected patients with established lymphedema, LVA may reduce lymphatic congestion and may reduce the tendency toward recurrent cellulitis. If cellulitis occurs once or twice despite appropriate conservative therapy, this is a strong reason to seek lymphatic assessment. Outcomes vary, and patients should continue skin care, compression where appropriate and early treatment for infection symptoms.'
       }
     },
     {
@@ -145,6 +145,11 @@ export default function LvaSurgeryPage() {
         <section className="article-hero">
           <div className="container article-hero-grid">
             <div>
+              <nav className="breadcrumb" aria-label="Breadcrumb">
+                <Link href="/">Home</Link>
+                <span aria-hidden="true">/</span>
+                <Link href="/lymphedema-surgery-singapore">Lymphedema surgery</Link>
+              </nav>
               <div className="eyebrow">LVB / LVA lymphovenous bypass</div>
               <h1>LVA / LVB Surgery Singapore: Lymphovenous Bypass Assessment</h1>
               <p className="lead">

@@ -116,7 +116,7 @@ const educationFeatures: MediaFeature[] = [
   {
     source: 'Invited speaker',
     title: 'St Luke’s ElderCare CommCare Symposium 2026',
-    description: 'Invited Wound Care track lecture on recognition and management of lymphoedema and its impact on chronic wounds, scheduled for 4 September 2026.',
+    description: 'Programme-listed Wound Care track lecture on recognition and management of lymphoedema and its impact on chronic wounds, 4 September 2026.',
     href: '/st-lukes-eldercare-symposium-lymphoedema-wound-care-2026',
     label: 'View lecture note'
   },
