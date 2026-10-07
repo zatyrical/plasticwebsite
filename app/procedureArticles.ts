@@ -255,13 +255,13 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'mommy-makeover-singapore': {
     slug: 'mommy-makeover-singapore',
-    modifiedIso: '2026-10-06',
+    modifiedIso: '2026-10-07',
     title: 'Mommy / Mummy Makeover Singapore | Post-Pregnancy Surgery',
     eyebrow: 'Mommy makeover',
     lead: 'A patient guide to mommy / mummy makeover surgery in Singapore, including tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, staging, cost factors, recovery and risks.',
     description: 'Mommy / mummy makeover Singapore guide: post-pregnancy tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, cost factors, recovery and risks.',
     keywords: ['mommy makeover Singapore', 'mummy makeover Singapore', 'post pregnancy surgery Singapore', 'post pregnancy tummy tuck Singapore', 'tummy tuck and breast augmentation Singapore', 'abdominoplasty after pregnancy Singapore', 'diastasis recti repair Singapore', 'breast lift after pregnancy Singapore'],
-    heroImage: { src: '/images/aesthetic-ai/body-contouring.jpg', alt: 'Educational image representing post-pregnancy body contouring and mommy makeover consultation in Singapore', caption: 'Illustrative image for patient education; not a treatment result.' },
+    heroImage: { src: '/images/aesthetic-ai/mommy-makeover-consultation-planning.webp', alt: 'Patient and plastic surgeon reviewing separate post-pregnancy concerns and combined or staged planning options', caption: 'AI-generated editorial illustration of consultation planning; not a patient or treatment result.' },
     backHref: '/#aesthetic-surgery',
     backLabel: 'Back to aesthetic surgery',
     intro: [
