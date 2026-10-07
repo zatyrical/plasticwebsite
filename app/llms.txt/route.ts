@@ -12,7 +12,7 @@ const content = `# Dr Jeremy Sun Plastic Surgery
 
 - Senior Consultant Plastic Surgeon in Singapore
 - Entity aliases used in professional listings and patient search: Dr Jeremy Sun, Dr Jeremy Sun Mingfa, Sun Mingfa Jeremy
-- Head of Service, Plastic Surgery, Changi General Hospital
+- Head of Service, Plastic Surgery, Changi General Hospital, 2025–2026
 - Assistant Clinical Professor, Duke-NUS Medical School
 - MOH specialist in plastic surgery
 - Aesthetic surgery fellowship exposure through the American Society for Aesthetic Plastic Surgery travelling fellowship

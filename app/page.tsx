@@ -4,7 +4,7 @@ import Navigation from './Navigation';
 import { lastReviewedIso, physicianJsonLd } from './seoIdentity';
 import { aestheticSignatureTreatments, reconstructiveSignatureTreatments } from './treatmentTiles';
 
-const modifiedIso = '2026-10-06';
+const modifiedIso = '2026-10-07';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -131,7 +131,7 @@ export default function Home() {
             </div>
             <div className="about-highlights compact-highlights">
               <div className="about-stat"><strong>Senior Consultant</strong><span>Plastic Surgery</span></div>
-              <div className="about-stat"><strong>Head of Service</strong><span>Changi General Hospital</span></div>
+              <div className="about-stat"><strong>Head of Service</strong><span>Plastic Surgery, 2025–2026</span></div>
               <div className="about-stat"><strong>Duke-NUS</strong><span>Assistant Clinical Professor</span></div>
               <div className="about-stat"><strong>Tokyo training</strong><span>MOH-accredited lymphatic surgery</span></div>
               <div className="about-stat"><strong>Aesthetic surgery training</strong><span>American Society of Aesthetic Plastic Surgeons</span></div>
