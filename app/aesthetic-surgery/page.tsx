@@ -70,7 +70,13 @@ export default function AestheticSurgeryPage() {
           <p className="section-intro">Each tile links to patient-focused information on planning, suitability, cost factors, recovery, risks and realistic limitations. To compare procedures, start with <a href="/breast-augmentation-singapore">breast augmentation in Singapore</a>, <a href="/mommy-makeover-singapore">mommy / mummy makeover in Singapore</a>, <a href="/tummy-tuck-singapore">tummy tuck / abdominoplasty in Singapore</a>, <a href="/body-contouring-liposuction-singapore">liposuction and body contouring</a>, <a href="/face-neck-lift-singapore">facelift / neck lift</a>, <a href="/asian-rhinoplasty-singapore">rhinoplasty</a> or <a href="/rib-rhinoplasty-singapore">rib rhinoplasty</a>.</p>
           <div className="grid-3 focus-grid aesthetic-photo-grid treatment-listing-grid">{aestheticTreatments.map((x) => (
             <a className="card linked-card focus-card aesthetic-photo-card" href={x.href} key={x.title}>
-              <Image src={x.image} alt={x.alt} width={720} height={720} />
+              <Image
+                src={x.image}
+                alt={x.alt}
+                width={720}
+                height={720}
+                sizes="(max-width: 900px) calc(50vw - 27px), 272px"
+              />
               <div className="aesthetic-photo-overlay"><h3>{x.title}</h3><span>View page</span></div>
             </a>
           ))}</div>
