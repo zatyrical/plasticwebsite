@@ -322,7 +322,7 @@ export default function ChooseLymphedemaSurgeonPage() {
                 Use the enquiry form to request an appointment or ask about lymphedema assessment. Please do not send urgent medical concerns through the website form.
               </p>
             </div>
-            <ContactForm />
+            <ContactForm defaultEnquiryType="Lymphedema / LVA surgery" />
           </div>
         </section>
       </article>

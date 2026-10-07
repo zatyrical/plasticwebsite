@@ -364,7 +364,7 @@ export default function AsianEyelidSurgeryPage() {
                 Use the enquiry form to request an appointment or ask about eyelid surgery assessment. Please do not send urgent medical concerns through the website form.
               </p>
             </div>
-            <ContactForm />
+            <ContactForm defaultEnquiryType="Aesthetic surgery" />
           </div>
         </section>
       </article>

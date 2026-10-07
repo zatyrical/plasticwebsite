@@ -19,7 +19,13 @@ function trackEnquiryEvent(eventName: string, params: Record<string, unknown> = 
   });
 }
 
-export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry' }: { defaultEnquiryType?: 'Consultation enquiry' | 'Aesthetic surgery' | 'Reconstructive surgery' }) {
+type EnquiryType =
+  | 'Consultation enquiry'
+  | 'Aesthetic surgery'
+  | 'Reconstructive surgery'
+  | 'Lymphedema / LVA surgery';
+
+export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry' }: { defaultEnquiryType?: EnquiryType }) {
   const [status, setStatus] = useState<Status>('idle');
   const [message, setMessage] = useState('');
   const [pageUrl, setPageUrl] = useState('');

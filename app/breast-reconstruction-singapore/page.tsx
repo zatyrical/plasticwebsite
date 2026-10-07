@@ -274,7 +274,7 @@ export default function BreastReconstructionPage() {
                 Use the enquiry form to request an appointment or ask about breast reconstruction assessment. Please do not send urgent medical concerns through the website form.
               </p>
             </div>
-            <ContactForm />
+            <ContactForm defaultEnquiryType="Reconstructive surgery" />
           </div>
         </section>
       </article>
