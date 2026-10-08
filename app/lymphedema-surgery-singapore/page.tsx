@@ -263,6 +263,9 @@ export default function LymphedemaSurgeryPage() {
             <p>
               Imaging may include tests such as indocyanine green lymphography, lymphoscintigraphy or other scans depending on availability and clinical need.
             </p>
+            <p>
+              For patient education on how imaging supports assessment and planning, see LymphedAsia’s guides to <a href="https://lymphedasia.com/icg-lymphography-singapore/">ICG lymphography for lymphedema assessment</a> and <a href="https://lymphedasia.com/ultrasound-mapping-lva-surgery-singapore/">ultrasound mapping before LVA surgery</a>.
+            </p>
 
             <h2>What surgery can and cannot do</h2>
             <p>
