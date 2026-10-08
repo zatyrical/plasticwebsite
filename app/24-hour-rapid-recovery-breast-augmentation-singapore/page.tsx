@@ -11,7 +11,7 @@ const slug = '24-hour-rapid-recovery-breast-augmentation-singapore';
 const title = '24-Hour Rapid Recovery Breast Augmentation in Singapore';
 const description = procedurePagePresentation[slug].description;
 const articleUrl = `${baseUrl}/${slug}`;
-const modifiedIso = '2026-10-06';
+const modifiedIso = '2026-10-09';
 const socialImage = '/images/aesthetic-breast/recovery-planning-still-life.webp';
 const socialImageAlt = 'Recovery-planning still life for breast augmentation patient education';
 
@@ -71,10 +71,10 @@ const faqJsonLd = {
     },
     {
       '@type': 'Question',
-      name: 'Why is Dr William Adams associated with 24-hour recovery breast augmentation?',
+      name: 'Where did the 24-hour recovery concept come from?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Dr William P. Adams Jr. is widely associated with process-based breast augmentation and 24-hour recovery concepts, emphasising planning, technique, tissue handling, pocket control and structured postoperative activity.'
+        text: 'John B. Tebbetts published the original two-part 24-hour return-to-activity studies. William P. Adams Jr. later published a broader process-based breast augmentation framework. Dr Sun learnt related breast augmentation planning and recovery principles directly from Dr Adams.'
       }
     }
   ]
@@ -131,7 +131,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
               </nav>
               <div className="eyebrow">Breast augmentation recovery</div>
               <h1>{title}</h1>
-              <p className="lead">A patient-focused explanation of 24-hour rapid recovery breast augmentation principles, how they relate to Dr William Adams’ process-based approach, and why patient selection and safety still matter.</p>
+              <p className="lead">A patient-focused explanation of 24-hour rapid recovery breast augmentation principles, the published origins of the concept, and why patient selection and safety still matter.</p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
                 <Link href="/breast-augmentation-singapore" className="btn btn-ghost">Breast augmentation implant guide</Link>
@@ -147,7 +147,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
                 <li><a href="#short-answer">Short answer</a></li>
                 <li><a href="#what-it-changes">What the protocol changes</a></li>
                 <li><a href="#why-recovery-concerns-matter">Why recovery concerns matter</a></li>
-                <li><a href="#adams-principles">William Adams principles</a></li>
+                <li><a href="#published-origins">Published origins and Dr Sun’s training</a></li>
                 <li><a href="#patient-selection">Who may be suitable</a></li>
                 <li><a href="#day-of-surgery">Same-day activity</a></li>
                 <li><a href="#not-a-promise">Why it is not a fixed timeline</a></li>
@@ -224,15 +224,16 @@ export default function RapidRecoveryBreastAugmentationPage() {
             <section id="why-recovery-concerns-matter">
               <h2>Why recovery concerns matter</h2>
               <p>Many women considering <Link href="/breast-augmentation-singapore">breast augmentation in Singapore</Link> are understandably concerned about postoperative pain, stiffness, time away from work, caring for children, exercise restrictions and whether they will feel dependent on others during recovery. These concerns are valid and should be discussed openly during consultation.</p>
-              <p>The rapid recovery philosophy popularised by Dr William Adams was developed to make the breast augmentation process more predictable and less traumatic where appropriate — from implant selection and pocket planning to gentle tissue handling, bleeding control and structured early movement after surgery.</p>
+              <p>The published rapid-recovery approach was developed to make breast augmentation more predictable and less traumatic where appropriate — from implant selection and pocket planning to gentle tissue handling, bleeding control and structured early movement after surgery.</p>
               <p>This does not mean surgery without discomfort or unrestricted activity after 24 hours. It means that, in selected patients, the operation and recovery plan are designed to reduce unnecessary downtime while still prioritising safety.</p>
             </section>
 
-            <section id="adams-principles">
-              <h2>How Dr William Adams’ approach influenced rapid recovery breast augmentation</h2>
-              <p>Dr William P. Adams Jr. is widely associated with process-based breast augmentation and 24-hour recovery concepts. His teaching emphasises that recovery is influenced by the entire process: implant selection, pocket planning, tissue handling, haemostasis, postoperative instructions and patient behaviour.</p>
-              <p>Dr Sun learnt these principles directly from Dr Adams during aesthetic breast surgery training. On this site, the concept is presented as a safety-conscious recovery philosophy rather than a marketing promise. The aim is to reduce avoidable trauma and unnecessary immobilisation while still respecting individual healing and surgical risk.</p>
-              <p>External reference: <a href="https://www.dr-adams.com/fast-track-24-hour-breast-augmentation-recovery/" target="_blank" rel="noreferrer">Dr William Adams’ 24-hour breast augmentation recovery information</a>.</p>
+            <section id="published-origins">
+              <h2>Published origins and Dr Sun’s training</h2>
+              <p>John B. Tebbetts published the original two-part studies of a structured approach intended to support return to normal activities within 24 hours after selected primary breast augmentation. The reported process combined patient preparation, preoperative planning, refined instrumentation and surgical technique, and defined postoperative activity.</p>
+              <p>William P. Adams Jr. later published a broader process-based breast augmentation framework covering patient education, tissue-based planning, refined technique and structured postoperative management. Dr Sun learnt related breast augmentation planning and recovery principles directly from Dr Adams during aesthetic breast surgery training.</p>
+              <p>On this site, the concept is presented as a safety-conscious recovery philosophy rather than a marketing promise. The aim is to reduce avoidable trauma and unnecessary immobilisation while still respecting individual healing and surgical risk.</p>
+              <p>Primary references: <a href="https://pubmed.ncbi.nlm.nih.gov/11786826/" target="_blank" rel="noreferrer">Tebbetts, Part I</a>, <a href="https://pubmed.ncbi.nlm.nih.gov/17099488/" target="_blank" rel="noreferrer">Tebbetts, Part II</a>, and <a href="https://pubmed.ncbi.nlm.nih.gov/19050543/" target="_blank" rel="noreferrer">Adams’ process-based breast augmentation study</a>.</p>
             </section>
 
             <section id="patient-selection">
