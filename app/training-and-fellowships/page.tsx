@@ -40,6 +40,7 @@ const trainingMentorship = [
     note: 'Structured subspecialty lymphatic surgery training, distinct from broader microsurgical fellowships where lymphedema may be only one component of training.',
     guides: [
       { href: '/lymphovenous-bypass-lva-surgery-singapore', label: 'LVA / lymphovenous bypass patient guide' },
+      { href: '/journey-to-lymphedema-surgery-japan', label: 'How Japan training changed Dr Sun’s approach to LVA' },
       { href: 'https://lymphedasia.com/dedicated-lymphedema-surgery-training-hmdp/#why-i-pursued-lymphoedema-fellowship', label: 'Why Dr Sun pursued dedicated lymphoedema training: full Q&A' }
     ],
     photos: [
