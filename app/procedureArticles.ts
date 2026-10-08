@@ -161,7 +161,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'tummy-tuck-singapore': {
     slug: 'tummy-tuck-singapore',
-    modifiedIso: '2026-10-06',
+    modifiedIso: '2026-10-09',
     title: 'Abdominoplasty Singapore | Tummy Tuck Surgery & Diastasis Repair',
     eyebrow: 'Tummy tuck & abdominoplasty',
     lead: 'A patient guide to abdominoplasty and tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti or divarication repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',

@@ -31,7 +31,7 @@ export const procedurePagePresentation: Record<string, { heading: string; title:
   },
   "tummy-tuck-singapore": {
     "heading": "Abdominoplasty and Tummy Tuck Surgery in Singapore",
-    "title": "Abdominoplasty Singapore | Tummy Tuck Surgery",
+    "title": "Tummy Tuck Singapore | Abdominoplasty & Diastasis Repair",
     "description": "Abdominoplasty Singapore and tummy tuck surgery guide: loose skin, diastasis/divarication repair, mini vs full surgery, scars and recovery."
   }
 };
