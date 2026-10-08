@@ -228,7 +228,7 @@ export default function MediaPage() {
           <div className="media-list">
             {featuredMedia.map((item) => (
               <a className="card linked-card media-feature-card media-visual-card" href={item.href} key={item.title} target="_blank" rel="noreferrer">
-                {item.image && item.imageAlt && item.imageWidth && item.imageHeight ? <div className={`media-card-image ${item.portrait ? 'portrait-media-image' : ''} ${item.wide ? 'wide-media-image' : ''}`}><Image src={item.image!} alt={item.imageAlt!} width={item.imageWidth!} height={item.imageHeight!} /></div> : null}
+                {item.image && item.imageAlt && item.imageWidth && item.imageHeight ? <div className={`media-card-image ${item.portrait ? 'portrait-media-image' : ''} ${item.wide ? 'wide-media-image' : ''}`}><Image src={item.image!} alt={item.imageAlt!} width={item.imageWidth!} height={item.imageHeight!} sizes="(max-width: 900px) calc(100vw - 44px), 776px" /></div> : null}
                 <small>{item.source}</small>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
@@ -241,7 +241,7 @@ export default function MediaPage() {
           <div className="media-list">
             {educationFeatures.map((item) => (
               <a className="card linked-card media-feature-card media-visual-card" href={item.href} key={item.title} target="_blank" rel="noreferrer">
-                {item.image && item.imageAlt && item.imageWidth && item.imageHeight ? <div className={`media-card-image ${item.portrait ? 'portrait-media-image' : ''} ${item.wide ? 'wide-media-image' : ''}`}><Image src={item.image!} alt={item.imageAlt!} width={item.imageWidth!} height={item.imageHeight!} /></div> : null}
+                {item.image && item.imageAlt && item.imageWidth && item.imageHeight ? <div className={`media-card-image ${item.portrait ? 'portrait-media-image' : ''} ${item.wide ? 'wide-media-image' : ''}`}><Image src={item.image!} alt={item.imageAlt!} width={item.imageWidth!} height={item.imageHeight!} sizes="(max-width: 900px) calc(100vw - 44px), 776px" /></div> : null}
                 <small>{item.source}</small>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
