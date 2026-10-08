@@ -1,0 +1,246 @@
+<!-- wp:paragraph -->
+<p>You have swelling. Your GP ran some tests, ruled out heart failure and kidney problems, and told you it is probably fluid retention. You were given a diuretic [water tablet] and sent home. Three months later, the swelling is still there.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"lymphedasia-medical-review-box","style":{"border":{"width":"1px","color":"#d9e2ec","radius":"8px"},"spacing":{"padding":{"top":"16px","right":"16px","bottom":"16px","left":"16px"},"margin":{"top":"18px","bottom":"24px"}},"color":{"background":"#f8fbfd"}}} -->
+<div class="wp-block-group lymphedasia-medical-review-box has-background" style="border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:18px;margin-bottom:24px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:paragraph -->
+<p><strong>Clinically reviewed by Dr Jeremy Sun Mingfa</strong>, Senior Consultant Plastic and Reconstructive Surgeon in Singapore, with subspecialty expertise in lymphedema surgery and supermicrosurgical lymphatic reconstruction. <em>Last reviewed: August 2026.</em></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+
+
+<!-- wp:paragraph -->
+<p>This scenario plays out frequently. And in many cases, the reason the swelling does not respond to treatment is that the diagnosis is wrong. Not wrong in a serious way. Wrong in a specific, important way: the swelling is not general oedema. It is lymphedema. And those two conditions require completely different treatment approaches.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This article explains the lymphedema vs oedema difference in plain clinical terms: what causes each, how to distinguish them, why the distinction changes your treatment completely, and what the warning signs are that your swelling may have been misidentified.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Is the Actual Difference Between Edema and Lymphedema?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The words sound similar. Both involve swelling. Both involve fluid accumulating in tissue. But the origin of that fluid, and the mechanism causing it to build up, are fundamentally different.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>General oedema [swelling from fluid] occurs when fluid leaks from the bloodstream into surrounding tissue faster than the body can reabsorb it. This happens in conditions like heart failure, where the heart cannot pump effectively. It happens in kidney disease, where the kidneys retain too much fluid. It happens in venous insufficiency, where damaged veins cannot return blood efficiently to the heart. It can also be caused by medications, including calcium channel blockers and some anti-inflammatory drugs.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In all of these cases, the fluid involved is relatively low in protein. It has leaked from blood vessels,s but the lymphatic system, in principle, is intact. With the right treatment targeting the underlying cause, this kind of swelling can resolve completely.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Lymphedema is a different problem entirely. In lymphedema, the lymphatic system itself is damaged or structurally insufficient. The fluid that accumulates is protein-rich lymph fluid that the lymphatic system cannot drain. Because the drainage mechanism is broken, the fluid does not reabsorb. It stays. And over time, the protein in that fluid triggers inflammation, fat deposition, and permanent tissue fibrosis [scarring].</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This is why treating lymphedema with diuretics does not work. Diuretics reduce water in the body, but they cannot repair a damaged lymphatic system or remove protein-rich fluid from tissue. In some cases, diuretics make lymphedema worse by concentrating the protein in the remaining fluid.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Are the Most Common Causes of General Oedema and How Do They Differ from Lymphedema?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Understanding what causes each type of swelling helps clarify why the treatments differ so dramatically. The major categories of general oedema include the following.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Cardiac Oedema</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Heart failure is one of the most common causes of bilateral leg swelling. When the heart cannot pump effectively, blood pools in the veins of the legs. Fluid leaks from those congested vessels into the surrounding tissue. The swelling is typically bilateral [both legs], worse in the evenings, and improves with elevation and diuretics.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Cardiac oedema does not affect the lymphatic vessels themselves. If the heart condition is treated, the oedema resolves. Lymphedema, by contrast, does not resolve with cardiac treatment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Venous Oedema</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Chronic venous insufficiency [CVI] causes swelling because damaged valves in the leg veins cannot prevent blood from pooling. This creates backpressure in the small vessels of the lower leg, causing fluid to leak into tissue. The swelling is typically confined to the lower leg and ankle, worsens with prolonged standing, and improves with compression stockings.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Critically, chronic venous insufficiency can co-exist with lymphedema and can even trigger it over time. When venous backpressure chronically overloads the lymphatic system, the lymphatic vessels may eventually fail. This combined condition is called phlebolymphedema and requires management of both the venous and lymphatic components.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Renal and Hepatic Oedema</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Kidney disease causes fluid retention because the kidneys cannot excrete enough sodium and water. Liver disease causes oedema because the liver produces less albumin [a protein that keeps fluid in blood vessels]. Both conditions typically cause bilateral swelling and are managed by treating the underlying organ dysfunction.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Neither condition directly damages the lymphatic system, though chronic severe oedema of any cause can eventually stress lymphatic capacity.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Medication-Induced Oedema</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Several medications commonly cause leg swelling as a side effect. Calcium channel blockers used for blood pressure, corticosteroids, and some diabetes medications can cause fluid retention. This type of swelling typically resolves when the medication is stopped or changed.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Medication-induced oedema does not damage the lymphatic system and does not progress to lymphedema.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>How Do Lymphedema and General Oedema Compare Across the Key Clinical Features?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The table below outlines the most important distinguishing features between lymphedema and general oedema. These are the features a specialist uses to differentiate them at the bedside and through investigation.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>Feature</strong></td><td><strong>Lymphedema</strong></td><td><strong>General Oedema</strong></td></tr><tr><td><strong>Underlying cause</strong></td><td>Lymphatic system failure: vessels damaged or underdeveloped</td><td>Fluid leaks from blood vessels faster than the body can reabsorb it</td></tr><tr><td><strong>Fluid type</strong></td><td>Protein-rich lymph fluid accumulates in the issue</td><td>Low-protein fluid (plasma) collects in the interstitial space</td></tr><tr><td><strong>Pitting under pressure</strong></td><td>Early stages: may pit. Later stages: non-pitting as fibrosis develops</td><td>Usually pits readily, especially in cardiac and renal oedema</td></tr><tr><td><strong>Stemmer's sign</strong></td><td>Positive from Stage 1 onwards; may be positive at Stage 0</td><td>Negative (skin at digit base remains supple and liftable)</td></tr><tr><td><strong>Response to elevation</strong></td><td>Partial or no reduction, especially from Stage 2 onwards</td><td>Often reduces significantly overnight with elevation</td></tr><tr><td><strong>Response to diuretics</strong></td><td>Minimal to none; diuretics do not address the lymphatic failure</td><td>Often effective, especially in cardiac or renal causes</td></tr><tr><td><strong>Tissue changes over time</strong></td><td>Progressive fibrosis, fat deposition, skin thickening</td><td>Tissue remains soft; resolves if the underlying cause is treated</td></tr><tr><td><strong>Infection risk</strong></td><td>Elevated: protein-rich fluid is a growth medium for bacteria</td><td>Lower, unless skin integrity is severely compromised</td></tr><tr><td><strong>Treatment approach</strong></td><td>Lymphedema-specific: CDT, compression, possible surgery</td><td>Treat the underlying cause (cardiac, renal, venous, medication)</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>The most clinically decisive rows in this table are Stemmer's sign, response to diuretics, and tissue changes over time. A positive Stemmer's sign is specific to lymphedema and is not produced by cardiac, renal, or venous oedema. A failure to respond to diuretics, combined with persistent asymmetric swelling, should immediately prompt consideration of a lymphatic cause.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>How Can You Tell from Your Own Symptoms Which Type of Swelling You Have?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A definitive diagnosis always requires clinical assessment. But several features of your own swelling can help you identify whether lymphedema is a realistic possibility before you see a specialist.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Location and Symmetry</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Lymphedema is frequently, though not always, asymmetric. One limb is more affected than the other. This asymmetry is a key distinguishing feature. Cardiac and renal oedema typically causes lateral, roughly symmetric swelling.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>If your swelling is confined to one arm or one leg, and that is the same side as a prior cancer surgery or radiation treatment, the probability of secondary lymphedema is high.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Behaviour with Elevation and Time of Day</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>General oedema from venous or cardiac causes tends to improve significantly overnight with elevation. You wake with considerably less swelling than you had at the end of the previous day.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Lymphedema becomes less responsive to elevation as it progresses. At Stage 1, overnight elevation may still reduce swelling noticeably. At Stage 2 and beyond, the swelling is present when you wake and does not meaningfully reduce with elevation. If your swelling used to respond to elevation and no longer does, this suggests progression.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>Skin Texture and Stemmer's Sign</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Press gently into your swollen limb and release. If an indentation [pit] remains, this is pitting oedema. Both lymphedema and general oedema can produce pitting in early or mild stages.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As lymphedema advances, the swelling becomes non-pitting because fibrosis has stiffened the tissue. General oedema remains pitting throughout.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Now try Stemmer's sign: attempt to pinch and lift a fold of skin at the base of your second toe or finger. If you cannot lift the ski or can only lift a thick, hard roll, this is a positive Stemmer's sign and is strongly suggestive of lymphedema.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>History of Cancer Treatment, Infection, or Family Swelling</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Your history is often the most important diagnostic tool. If you have had:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Surgical removal of lymph nodes as part of cancer treatment</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Radiation therapy to a limb or regional lymph node area</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>A history of recurrent skin infections in one limb</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>A family member with unexplained limb swelling appearing in adolescence</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Any of these significantly raises the probability that your swelling has a lymphatic rather than purely systemic cause.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Happens If Lymphedema Is Misdiagnosed as General Oedema?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The consequences of misdiagnosis are real and progressive. Lymphedema that is treated as general oedema typically receives the wrong treatment. And because the correct treatment is not given, the condition advances.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Stage 1 lymphedema can be managed effectively with complete decongestive therapy (CDT), and microsurgical intervention may be appropriate. But if Stage 1 is misidentified as venous oedema and treated with compression stockings alone and diuretics, the opportunity for early intervention passes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As the condition progresses to Stage 2, fibrosis begins. Tissue that was once fluid-filled and treatable becomes progressively harder and less responsive to therapy. Surgical options narrow.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>At Stage 3, the irreversible tissue changes mean that treatment must focus on managing a chronic condition rather than reversing it. Infection risk is substantially elevated. Skin breakdown and wound complications become a real concern.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The difference between early and late diagnosis is not a matter of degree. It is the difference between a condition that can be meaningfully controlled and one that must simply be managed indefinitely.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In clinical practice, this means that any swelling with features inconsistent with the diagnosis you have been given, particularly swelling that does not respond to treatment, warrants a specialist reassessment. The lymphedema vs edema difference is not academic. It determines what treatment you receive and whether that treatment has any chance of working.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>Is It Time to See a Specialist About Your Swelling?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you have read this article and recognised features of your own swelling in the lymphedema column rather than the general oedema column, that recognition is clinically significant. It warrants formal assessment by a lymphedema specialist, not a second round of diuretics.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Dr Jeremy Sun is a lymphedema microsurgery specialist based in Singapore. His clinic, Lymphedema Asia, provides comprehensive lymphatic assessment, including clinical staging, Stemmer's sign evaluation, ICG lymphography, and surgical and conservative treatment planning for patients across Asia and internationally.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>KEY TAKEAWAYS</strong></td></tr><tr><td><strong>✓&nbsp; </strong>Oedema is fluid from the bloodstream accumulating in tissue. Lymphedema is a protein-rich lymph fluid that the damaged lymphatic system cannot drain. These are different conditions with different treatments.</td></tr><tr><td><strong>✓&nbsp; </strong>Diuretics are ineffective for lymphedema and may worsen it. The correct treatment is lymphedema-specific: complete decongestive therapy, compression, and, in eligible patients, microsurgery.</td></tr><tr><td><strong>✓&nbsp; </strong>Key features distinguishing lymphedema from general oedema include: asymmetric swelling, positive Stemmer's sign, non-pitting texture at advanced stages, and failure to respond to elevation or diuretics.</td></tr><tr><td><strong>✓&nbsp; </strong>Misdiagnosis allows lymphedema to progress from a manageable Stage 1 to irreversible Stage 3. The window for microsurgical intervention closes as fibrosis advances.</td></tr><tr><td><strong>✓&nbsp; </strong>Any swelling that does not respond to treatment for its supposed cause, or that has features inconsistent with the current diagnosis, warrants specialist lymphatic assessment.</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<div class="la-related-lva" style="border:1px solid #d9e6f2;border-radius:14px;padding:16px 18px;margin:28px 0;background:#f7fbff">
+<p><strong>Related surgical assessment guide:</strong> For patients comparing options such as lymphatic imaging, ICG lymphography, LVA / LVB and lymphovenous bypass, see <a href="https://lymphedasia.com/lva-surgery-singapore/">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>
+</div>
+
