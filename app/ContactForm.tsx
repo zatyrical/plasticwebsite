@@ -73,17 +73,17 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
     <form className="contact-form" onSubmit={handleSubmit}>
       <div className="form-row">
         <label>
-          Name
+          Name (required)
           <input name="name" type="text" autoComplete="name" required maxLength={120} />
         </label>
         <label>
-          Email
+          Email (required)
           <input name="email" type="email" autoComplete="email" required maxLength={160} />
         </label>
       </div>
       <div className="form-row">
         <label>
-          Phone
+          Phone (optional)
           <input name="phone" type="tel" autoComplete="tel" maxLength={60} />
         </label>
         <label>
@@ -98,7 +98,7 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
         </label>
       </div>
       <label>
-        Message
+        Message (required)
         <textarea name="message" rows={5} required maxLength={2000} placeholder="Please include the reason for enquiry and preferred contact method. Do not include urgent medical information." />
       </label>
       <label className="hp-field" aria-hidden="true">
@@ -109,7 +109,7 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
       <button className="btn btn-primary" type="submit" disabled={status === 'sending'}>
         {status === 'sending' ? 'Sending…' : 'Submit enquiry'}
       </button>
-      {message ? <p role="status" className={`form-status ${status}`}>{message}</p> : null}
+      <p role="status" aria-atomic="true" className={`form-status ${status}`}>{message}</p>
       <p className="form-note">For non-urgent private consultation enquiries, you may also <a href="https://wa.me/6587649219" target="_blank" rel="noreferrer" onClick={() => trackEnquiryEvent('whatsapp_click', { method: 'astrid_whatsapp' })}>message Astrid on WhatsApp</a> or <a href="https://www.astridplasticsurgery.com/contact-us/" target="_blank" rel="noreferrer" onClick={() => trackEnquiryEvent('external_contact_click', { method: 'astrid_contact_form' })}>use Astrid Plastic Surgery’s contact form</a>.</p>
       <p className="form-note">This form is for non-urgent enquiries only. It does not establish a doctor-patient relationship until a consultation has taken place.</p>
     </form>

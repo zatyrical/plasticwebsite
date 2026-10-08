@@ -330,7 +330,7 @@ export default function ProcedureArticlePage({ article }: Props) {
             <aside className="article-summary-card">
               {article.heroImage ? (
                 <figure className="article-hero-image-card">
-                  <Image src={article.heroImage.src} alt={article.heroImage.alt} width={720} height={860} priority sizes="(max-width: 900px) 100vw, 330px" />
+                  <Image src={article.heroImage.src} alt={article.heroImage.alt} width={720} height={860} priority sizes="(max-width: 600px) calc(100vw - 78px), (max-width: 1180px) 420px, 276px" />
                   {article.heroImage.caption ? <figcaption>{article.heroImage.caption}</figcaption> : null}
                 </figure>
               ) : null}

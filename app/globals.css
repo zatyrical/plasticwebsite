@@ -768,6 +768,10 @@
 .procedure-cluster-links span{margin-top:auto;font-size:13px;font-weight:700;color:var(--emerald-2)}
 @media(max-width:900px){.procedure-cluster-nav{padding:18px;border-radius:22px}.procedure-cluster-links{grid-template-columns:1fr}.procedure-cluster-links a{min-height:auto}}
 
+/* Keep enquiry controls readable and the status region available before updates. */
+.contact-form input,.contact-form select,.contact-form textarea{font-size:16px}
+.form-status:empty{margin:0;padding:0}
+
 /* Patient reading layout: keep long prose comfortable without narrowing diagrams. */
 .article-content .article-reading-section > p,
 .article-content .article-reading-section > ul,
