@@ -4,10 +4,32 @@ import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 
+const socialImage = '/images/mentors/takumi-yamamoto-lymphatic-group.jpg';
+const socialTitle = 'Training & International Fellowships | Dr Jeremy Sun';
+const socialDescription = 'Focused international fellowship and mentorship training across lymphatic, reconstructive and aesthetic surgery.';
+
 export const metadata: Metadata = {
   title: 'Training & International Fellowships',
   description: 'International fellowship and mentorship training across lymphatic surgery, aesthetic surgery, rhinoplasty, eyelid surgery, body contouring, breast surgery and facial rejuvenation.',
-  alternates: { canonical: '/training-and-fellowships' }
+  alternates: { canonical: '/training-and-fellowships' },
+  openGraph: {
+    title: socialTitle,
+    description: socialDescription,
+    url: '/training-and-fellowships',
+    type: 'article',
+    images: [{
+      url: socialImage,
+      width: 1200,
+      height: 900,
+      alt: 'Dr Jeremy Sun with Dr Takumi Yamamoto during lymphatic surgery training in Tokyo'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: socialTitle,
+    description: socialDescription,
+    images: [socialImage]
+  }
 };
 
 const trainingMentorship = [
