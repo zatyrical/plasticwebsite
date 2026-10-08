@@ -250,7 +250,7 @@ export default function LymphedemaSurgeryJourneyPage() {
             </p>
             <h3>Where can I read more about LVA assessment?</h3>
             <p>
-              Read more on <Link href="/lymphovenous-bypass-lva-surgery-singapore">LVA surgery in Singapore</Link>, <Link href="/lymphedema-surgery-singapore">lymphedema surgery options</Link> and <Link href="/how-to-choose-lymphedema-surgeon-singapore">questions to ask when choosing a lymphedema surgeon</Link>.
+              Read more on <Link href="/lymphovenous-bypass-lva-surgery-singapore">LVA surgery in Singapore</Link>, <Link href="/lymphedema-surgery-singapore">lymphedema surgery options</Link>, <Link href="/how-to-choose-lymphedema-surgeon-singapore">questions to ask when choosing a lymphedema surgeon</Link>, and Dr Sun’s <Link href="/training-and-fellowships">complete training and fellowship record</Link>.
             </p>
           </div>
         </section>
