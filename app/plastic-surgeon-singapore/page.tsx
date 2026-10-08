@@ -6,6 +6,8 @@ import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const pageUrl = `${baseUrl}/plastic-surgeon-singapore`;
+const socialImage = '/images/dr-jeremy-sun-hero.jpg';
+const socialImageAlt = 'Dr Jeremy Sun, plastic surgeon in Singapore';
 
 export const metadata: Metadata = {
   title: { absolute: 'Dr Jeremy Sun | Plastic Surgeon in Singapore & Patient Guide' },
@@ -23,7 +25,14 @@ export const metadata: Metadata = {
     title: 'Dr Jeremy Sun | Plastic Surgeon in Singapore & Patient Guide',
     description: 'Patient-focused guidance on choosing a plastic surgeon in Singapore and planning a safe consultation.',
     url: '/plastic-surgeon-singapore',
-    type: 'article'
+    type: 'article',
+    images: [{ url: socialImage, width: 896, height: 1280, alt: socialImageAlt }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dr Jeremy Sun | Plastic Surgeon in Singapore & Patient Guide',
+    description: 'Patient-focused guidance on choosing a plastic surgeon in Singapore and planning a safe consultation.',
+    images: [socialImage]
   }
 };
 
