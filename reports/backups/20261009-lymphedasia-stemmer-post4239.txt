@@ -1,0 +1,342 @@
+<!-- wp:paragraph -->
+<p>You have been told your swelling might be lymphedema, but you are not sure. You want a way to know, right now, before your next appointment. You want something concrete.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"lymphedasia-medical-review-box","style":{"border":{"width":"1px","color":"#d9e2ec","radius":"8px"},"spacing":{"padding":{"top":"16px","right":"16px","bottom":"16px","left":"16px"},"margin":{"top":"18px","bottom":"24px"}},"color":{"background":"#f8fbfd"}}} -->
+<div class="wp-block-group lymphedasia-medical-review-box has-background" style="border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:18px;margin-bottom:24px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:paragraph -->
+<p><strong>Clinically reviewed by Dr Jeremy Sun Mingfa</strong>, Senior Consultant Plastic and Reconstructive Surgeon in Singapore, with subspecialty expertise in lymphedema surgery and supermicrosurgical lymphatic reconstruction. <em>Last reviewed: August 2026.</em></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph -->
+<p>The <strong>Stemmer sign</strong> is a simple bedside test used in the assessment of lymphedema, especially swelling of the toes or fingers. A positive Stemmer sign means the skin at the base of the second toe or finger cannot be easily pinched and lifted, which may suggest lymphedema-related skin thickening and tissue change.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A positive result does not replace a full medical assessment. Lymphedema diagnosis should consider the patient’s history, physical examination, limb measurements, skin changes and, where appropriate, imaging such as <a href="https://lymphedasia.com/ultrasound-for-lymphedema-diagnosis-monitoring/">ultrasound</a> or ICG lymphography.</p>
+<!-- /wp:paragraph -->
+
+
+
+
+
+<!-- wp:paragraph -->
+<p>There is a simple, 10-second physical test that clinicians use to identify lymphedema at the bedside. It requires no equipment, no imaging, and no blood tests. It is called the Stemmer sign, and it is the most specific clinical indicator of lymphedema available outside a specialist centre.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This article explains exactly what the Stemmer sign lymphedema test is, how to perform it correctly, what a positive result means, and crucially, what it does not mean. By the end, you will understand how to interpret your own result and what your next step should be.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Is Stemmer's Sign and Where Did It Come From?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:group {"className":"lymphedasia-quick-answer","style":{"border":{"color":"#d9e2ec","width":"1px","radius":"8px"},"spacing":{"padding":{"top":"16px","right":"16px","bottom":"16px","left":"16px"},"margin":{"top":"16px","bottom":"22px"}},"color":{"background":"#f8fbfd"}}} -->
+<div class="wp-block-group lymphedasia-quick-answer has-background" style="border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:16px;margin-bottom:22px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:paragraph -->
+<p><strong>Quick answer:</strong> Stemmer sign is a simple clinical test: if the skin at the base of the toe or finger cannot be gently pinched or lifted, it may suggest lymphedema. It is useful, but it is not the only test — specialist assessment and lymphatic imaging may still be needed.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:paragraph -->
+<p>Stemmer's sign is named after Robert Stemmer, a French physician who described it in 1976. It is a bedside physical examination finding that tests the condition of the skin and subcutaneous tissue [the layer just beneath the skin] at the base of the second toe or second finger.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>The test is based on a straightforward physical principle.</strong> In a healthy limb, the skin at the base of the toes and fingers is thin and supple. You can easily pinch it between your thumb and forefinger and lift it into a small fold.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In lymphedema, protein-rich fluid accumulates in the tissue beneath the skin. Over time, this fluid triggers a process called fibrosis, where the tissue hardens and thickens. As this happens, the skin at the base of the digits becomes progressively thicker and less pliable.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>When Stemmer's sign is positive, you cannot lift that skin fold at all, or you can only lift a thick, hard roll of skin rather than a thin, supple pinch.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This sign is valuable for one important reason: it is specific to lymphedema in a way that most other clinical signs are not. Swelling alone can have dozens of causes. A positive Stemmer's sign narrows the differential significantly.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>According to ISL consensus guidelines, Stemmer's sign is considered one of the most clinically reliable bedside indicators of lymphedema, particularly in the lower limb. It does not replace imaging, but it provides immediate, actionable clinical information without any special equipment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>How Do You Perform Stemmer's Sign on Yourself?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"id":4243,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://lymphedasia.com/wp-content/uploads/2026/05/How-Do-You-Perform-Stemmers-Sign-on-Yourself-1-1-1-1024x538.webp" alt="How Do You Perform Stemmer's Sign on Yourself?" class="wp-image-4243"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>The test is straightforward to perform. However, technique matters. An incorrectly performed test can give you a false negative, meaning you may miss a positive sign that a clinician would detect.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Follow these steps carefully:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"ordered":true} -->
+<ol class="wp-block-list"><!-- wp:list-item -->
+<li>Sit in a chair with your feet flat on the floor, or lie down with your legs at rest. Your feet should be relaxed, not tensed.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Identify the base of your second toe (the one next to your big toe). The test site is the dorsal surface [the top surface] of the foot, right where the toe meets the foot.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Using your thumb and index finger, attempt to pinch a small fold of skin at that location. Use gentle but firm pressure. You are not pressing into the tissue; you are trying to lift the skin upward into a fold.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Attempt to raise the skin fold slightly. Note how much skin you can gather and how easily it lifts.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Compare the same location on the opposite foot if one limb is more affected than the other.</li>
+<!-- /wp:list-item --></ol>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>For upper limb assessment, repeat the same steps at the base of the second finger on the dorsal [back] surface of the hand.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>A negative result</strong> means you can lift a thin, supple fold of skin easily. The skin feels normal in texture and thickness.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>A positive result</strong> means one of two things: you cannot lift any skin fold at all, or you can only lift a thick, hard, rolled fold of skin. The skin may feel leathery, dense, or significantly different from the opposite limb.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In clinical practice, this means the test is most informative when you compare both limbs. A bilateral positive result is still clinically significant, but a unilateral positive result with one clearly normal side is often the most straightforward to interpret.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td><strong>DR. SUN'S CLINICAL PERSPECTIVE</strong><em>“In my practice, I use Stemmer's sign as a rapid first-pass screen in every new patient with limb swelling. A positive sign in a patient with no prior cancer history immediately shifts my diagnostic thinking toward primary lymphedema. A positive sign in a post-mastectomy patient with arm swelling is essentially confirmatory. What surprises many patients is that I also check the contralateral limb. A positive Stemmer's sign on the unaffected side can indicate bilateral lymphatic insufficiency that has not yet produced visible swelling, and that changes the management plan entirely.”</em>Dr Jeremy Sun, Lymphedema Microsurgery Specialist, Singapore</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>What Does a Positive Stemmer's Sign Actually Mean?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A positive Stemmer's sign means that the skin and subcutaneous tissue at the test site have undergone structural change. This change is caused by the accumulation of protein-rich lymph fluid and the fibrotic tissue response that follows.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This is the key distinction between lymphedema and most other forms of swelling. Conditions like heart failure, kidney disease, and venous insufficiency cause oedema [fluid accumulation], but they do not typically produce the tissue thickening and fibrosis that makes Stemmer's sign positive.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>When a clinician finds a positive Stemmer's sign, it shifts the clinical probability strongly toward lymphedema as the underlying diagnosis. It does not confirm lymphedema with absolute certainty, but it is a specific enough finding to warrant formal lymphatic assessment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A positive Stemmer's sign can occur at different ISL lymphedema stages:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Stage 0 (subclinical): Stemmer's sign may be subtly positive before any visible swelling appears, particularly in high-risk patients who have undergone lymph node removal</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Stage 1: Positive Stemmer's sign is typically present and more clearly detectable, even though swelling may still partially resolve overnight</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Stage 2: Stemmer's sign is reliably positive and easier to detect as fibrosis progresses</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Stage 3: Strongly positive, with very dense, immovable skin at the test site</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>One important nuance: a negative Stemmer's sign does not rule out lymphedema. Early-stage lymphedema, particularly Stage 0, may not yet produce the tissue changes needed for a positive result. This is why clinical assessment goes beyond a single physical test.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>How Does Stemmer's Sign Compare to the Pitting Oedema Test?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"id":4244,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://lymphedasia.com/wp-content/uploads/2026/05/How-Does-Stemmers-Sign-Compare-to-the-Pitting-Oedema-Test-1-1-1-1024x538.webp" alt="How Does Stemmer's Sign Compare to the Pitting Oedema Test?" class="wp-image-4244"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>Many patients are already familiar with the pitting oedema test, where a clinician or patient presses firmly into the swollen tissue and observes whether an indentation remains. These two tests serve different purposes and provide different information.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The table below clarifies the clinical distinction:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table class="has-fixed-layout"><tbody><tr><td></td><td><strong>Stemmer's Sign</strong></td><td><strong>Pitting Oedema Test</strong></td></tr><tr><td><strong>What it tests</strong></td><td>Ability to lift a skin fold at the base of the 2nd toe or finger</td><td>Presence of fluid that temporarily indents when pressed</td></tr><tr><td><strong>How to perform</strong></td><td>Pinch and attempt to lift skin at the base of the 2nd digit</td><td>Press firmly into the swollen area for 5 seconds, release</td></tr><tr><td><strong>Positive result</strong></td><td>Skin cannot be lifted or forms a thick, hard fold</td><td>An indentation (pit) remains after pressure is released</td></tr><tr><td><strong>What it indicates</strong></td><td>Fibrosis or subcutaneous tissue change (lymphedema-specific)</td><td>Fluid accumulation (not specific to lymphedema)</td></tr><tr><td><strong>Stage relevance</strong></td><td>Positive from Stage 1 onwards; may be positive at Stage 0</td><td>Positive at Stages 1 and early 2; absent at late Stage 2 and 3</td></tr><tr><td><strong>Lymphedema specificity</strong></td><td>Highly specific for lymphedema when positive</td><td>Not specific: can be positive in cardiac, renal, venous oedema</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph -->
+<p>The practical takeaway: pitting oedema tells you fluid is present. Stemmer's sign tells you the tissue itself has changed, which is the marker more specific to lymphedema. A patient can have both a positive pitting test and a positive Stemmer's sign. They can also have a positive Stemmer's sign with no pitting, which typically indicates more advanced fibrotic changes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In clinical practice, this means your specialist will use both tests together as part of a broader assessment, not as standalone diagnostics.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>Can Stemmer's Sign Be Wrong? What Are Its Limitations?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes. Like all clinical tests, Stemmer's sign has limitations. Understanding these limitations helps you interpret your own self-assessment more accurately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>False Negatives: When Stemmer's Sign Misses Lymphedema</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A false negative means the test appears normal even though lymphedema is present. This is most likely in early-stage lymphedema, particularly Stage 0, where tissue changes are not yet sufficient to affect skin pliability at the test site.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It can also occur if the test is performed incorrectly. If you tense your foot or press too hard into the tissue rather than lifting the skin, you may not detect a subtle positive result that a trained clinician would find.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Upper limb testing can also produce false negatives more readily than lower limb testing. The subcutaneous tissue in the hand tends to be thinner than in the foot, making early fibrotic changes harder to detect manually.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>False Positives: When Stemmer's Sign Suggests Lymphedema Incorrectly</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A false positive means the test appears abnormal in someone without lymphedema. This can occur in individuals with naturally thicker skin, in very elderly patients where skin elasticity has reduced with age, or in patients with other skin conditions that cause thickening, such as chronic eczema or psoriasis affecting the feet.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This is precisely why a positive Stemmer's sign is a starting point for further investigation, not a standalone diagnosis. It raises the clinical probability of lymphedema significantly, but it does not replace a specialist assessment with lymphatic imaging.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading"><strong>What Stemmer's Sign Cannot Tell You</strong></h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Even when the test is reliably positive, it cannot tell you:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Which ISL stage is your lymphedema at</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Whether surgical reconstruction is an option for your specific case</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Whether the cause is primary (developmental) or secondary (acquired through treatment or infection)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>The extent of lymphatic vessel damage in deeper tissue</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>All of that requires specialist assessment, clinical history review, and lymphatic imaging such as ICG lymphography or lymphoscintigraphy.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>Why Do Doctors Not Always Use Stemmer's Sign at First Presentation?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This is a question many patients ask after learning about the test. If it is so simple and informative, why was it not checked at the first doctor's visit?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The honest answer is that lymphedema awareness outside specialist settings remains inconsistent. General practitioners and hospital physicians encounter many causes of limb swelling, and the differential diagnosis is broad. Cardiac oedema, venous insufficiency, and deep vein thrombosis are often investigated first because they carry more immediate systemic risk.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Lymphedema is frequently underdiagnosed</strong>, particularly primary lymphedema in younger patients and secondary lymphedema that presents months or years after cancer treatment has ended.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Stemmer's sign requires no equipment and takes under 10 seconds. But it only provides value if the clinician thinks to look for it. This is one reason why patient self-advocacy matters. If you have a history that puts you at risk for lymphedema, asking your doctor to check Stemmer's sign during a consultation is entirely appropriate.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Factors that increase your risk and should prompt a Stemmer's sign check include:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li>Prior surgery involving lymph node removal, particularly axillary dissection after breast cancer or inguinal node removal for melanoma or gynaecological cancers</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>A history of radiation therapy to a limb or regional lymph node basin</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>A family history of unexplained limb swelling appearing in adolescence or early adulthood</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>A history of recurrent cellulitis in one limb</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Residence in or travel to regions where filariasis [parasitic lymphatic infection] is endemic</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading"><strong>Is It Time to See a Specialist About Your Stemmer Sign Result?</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Performing Stemmer's sign yourself is a useful starting point. But a self-assessed positive result, or persistent swelling that concerns you, requires a formal Stemmer sign lymphedema test evaluation by a specialist who can integrate it with your full clinical picture, your history, and appropriate imaging.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Speaking with a lymphedema specialist early changes what is possible. Microsurgical options, including lymphovenous anastomosis and vascularised lymph node transfer, are available at Stage 1 and early Stage 2. They are not available at Stage 3. The biology of lymphedema does not pause while you wait for a referral.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">When a positive Stemmer sign needs further assessment</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>A positive Stemmer sign is one clue, not a complete diagnosis. Further assessment is especially important if swelling is progressive, one-sided, associated with heaviness or skin thickening, follows cancer treatment or lymph node removal, or is complicated by <a href="https://lymphedasia.com/lymphedema-and-cellulitis/">recurrent cellulitis</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Selected patients may benefit from specialist lymphatic evaluation to understand whether conservative care, compression optimisation, imaging, or <a href="https://lymphedasia.com/surgical-treatment-options-for-lymphedema/">surgical treatment options for lymphedema</a> should be discussed.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"lymphedasia-specialist-next-step","style":{"border":{"color":"#d9e2ec","width":"1px","radius":"8px"},"spacing":{"padding":{"top":"16px","right":"16px","bottom":"16px","left":"16px"},"margin":{"top":"24px","bottom":"24px"}},"color":{"background":"#f8fbfd"}}} -->
+<div class="wp-block-group lymphedasia-specialist-next-step has-background" style="border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:24px;margin-bottom:24px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">When should persistent swelling be assessed?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If swelling is persistent, progressive, one-sided, painful, associated with recurrent cellulitis, or difficult to explain, it may need specialist review rather than only home remedies. LymphedAsia has patient guides on <a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">lymphedema specialist assessment in Singapore</a>, <a href="https://lymphedasia.com/icg-lymphography-singapore/">ICG lymphography</a>, <a href="https://lymphedasia.com/lva-surgery-singapore/">LVA / lymphovenous bypass surgery</a>, and <a href="https://lymphedasia.com/lipedema-singapore/">lipedema diagnosis</a>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
