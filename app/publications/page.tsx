@@ -2,6 +2,10 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Navigation from '../Navigation';
 
+const socialImage = '/images/media/waps-cd-2026-clyveb-ad-study-talk-jeremy-sun.webp';
+const socialTitle = 'Selected Publications | Dr Jeremy Sun';
+const socialDescription = 'Peer-reviewed publications and academic work across microsurgery, reconstruction and lymphatic surgery.';
+
 const publications = [
   'Venous anatomy of the superficial circumflex iliac artery perforator flap: a cadaveric and clinical study. JPRAS, 2024.',
   'Utilizing the Subunit Concept to Achieve Better Outcomes in Lower Limb Reconstruction: A Clinical Experience in an Asian Population. PRS Global Open, 2024;12(4):e5752.',
@@ -29,6 +33,24 @@ export const metadata: Metadata = {
   description: 'Selected peer-reviewed publications and academic work by Dr Jeremy Sun across microsurgery, perforator flaps, lower-limb reconstruction and lymphedema surgery.',
   alternates: {
     canonical: '/publications'
+  },
+  openGraph: {
+    title: socialTitle,
+    description: socialDescription,
+    url: '/publications',
+    type: 'article',
+    images: [{
+      url: socialImage,
+      width: 960,
+      height: 1280,
+      alt: 'Dr Jeremy Sun presenting lymphatic research at a professional congress'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: socialTitle,
+    description: socialDescription,
+    images: [socialImage]
   }
 };
 
