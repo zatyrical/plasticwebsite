@@ -1,8 +1,13 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
+
+const socialImage = '/images/lva-supermicrosurgical-anastomosis.jpg';
+const socialTitle = 'LVA / LVB Surgery Singapore | Lymphovenous Bypass Assessment | Dr Jeremy Sun';
+const socialDescription = 'Learn when LVA / lymphovenous bypass may help selected lymphedema patients, including recurrent cellulitis despite conservative therapy, imaging, recovery and compression.';
 
 export const metadata: Metadata = {
   title: 'LVA / LVB Surgery Singapore | Lymphovenous Bypass',
@@ -12,11 +17,22 @@ export const metadata: Metadata = {
     canonical: '/lymphovenous-bypass-lva-surgery-singapore'
   },
   openGraph: {
-    title: 'LVA / LVB Surgery Singapore | Lymphovenous Bypass Assessment | Dr Jeremy Sun',
-    description:
-      'Learn when LVA / lymphovenous bypass may help selected lymphedema patients, including recurrent cellulitis despite conservative therapy, imaging, recovery and compression.',
+    title: socialTitle,
+    description: socialDescription,
     url: '/lymphovenous-bypass-lva-surgery-singapore',
-    type: 'article'
+    type: 'article',
+    images: [{
+      url: socialImage,
+      width: 759,
+      height: 1280,
+      alt: 'Intraoperative supermicrosurgical lymphovenous bypass showing lymphatic and venous structures prepared for LVA'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: socialTitle,
+    description: socialDescription,
+    images: [socialImage]
   },
   keywords: [
     'LVA surgery Singapore',
@@ -215,9 +231,12 @@ export default function LvaSurgeryPage() {
             <p>LVA may also be called LVB, lymphovenous bypass, lymphaticovenular anastomosis, lymphovenous anastomosis or lymphatic bypass surgery.</p>
 
             <figure className="article-clinical-figure">
-              <img
-                src="/images/lva-supermicrosurgical-anastomosis.jpg"
+              <Image
+                src={socialImage}
                 alt="Intraoperative supermicrosurgical lymphovenous bypass showing tiny lymphatic and venous structures prepared for LVA"
+                width={759}
+                height={1280}
+                sizes="(max-width: 820px) 100vw, 760px"
               />
               <figcaption>
                 Supermicrosurgical LVA involves working with very small lymphatic channels and venules under high magnification. This type of surgery requires specialised fellowship-level training, careful imaging interpretation and precise localisation of suitable lymphatics before the incision is made.

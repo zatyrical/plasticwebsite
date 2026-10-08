@@ -7,6 +7,9 @@ import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoId
 
 const pagePath = '/journey-to-lymphedema-surgery-japan';
 const pageUrl = `${baseUrl}${pagePath}`;
+const socialImage = '/images/mentors/dr-jeremy-sun-akitatsu-hayashi-lva-training-microscope.jpg';
+const socialTitle = 'From Skepticism to Specialist Training in Japan | Dr Jeremy Sun';
+const socialDescription = 'How dedicated MOH-accredited lymphedema surgery training in Japan shaped Dr Jeremy Sun’s approach to LVA, imaging, flow dynamics and patient selection.';
 
 export const metadata: Metadata = {
   title: 'Why I Trained in Lymphedema Surgery in Japan',
@@ -16,11 +19,22 @@ export const metadata: Metadata = {
     canonical: pagePath
   },
   openGraph: {
-    title: 'From Skepticism to Specialist Training in Japan | Dr Jeremy Sun',
-    description:
-      'How dedicated MOH-accredited lymphedema surgery training in Japan shaped Dr Jeremy Sun’s approach to LVA, imaging, flow dynamics and patient selection.',
+    title: socialTitle,
+    description: socialDescription,
     url: pagePath,
-    type: 'article'
+    type: 'article',
+    images: [{
+      url: socialImage,
+      width: 1280,
+      height: 960,
+      alt: 'Dr Jeremy Sun with Dr Akitatsu Hayashi during microscope-based LVA training in Japan'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: socialTitle,
+    description: socialDescription,
+    images: [socialImage]
   },
   keywords: [
     'Dr Jeremy Sun lymphedema surgery',
