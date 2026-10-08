@@ -1,0 +1,59 @@
+{
+  "captured_at": "2026-10-08T00:20:00Z",
+  "site": "https://lymphedasia.com",
+  "before_rule_count": 42,
+  "after_rule_count": 44,
+  "created_rules": [
+    {
+      "id": 44,
+      "url": "/lymphedema-tree-bark-skin-on-legs/",
+      "code": 301,
+      "target": "https://lymphedasia.com/understanding-the-4-stages-of-lymphedema/",
+      "enabled": true,
+      "title": "Recover advanced-skin patient path — 8 October 2026"
+    },
+    {
+      "id": 43,
+      "url": "/services/",
+      "code": 301,
+      "target": "https://lymphedasia.com/",
+      "enabled": true,
+      "title": "Recover retired services gateway — 8 October 2026"
+    }
+  ],
+  "prior_rule_changes": [],
+  "prior_rule_missing": [],
+  "live_verification": [
+    {
+      "source": "https://lymphedasia.com/services/",
+      "status": 301,
+      "location": "https://lymphedasia.com/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/",
+      "destination_canonical": "https://lymphedasia.com/",
+      "destination_robots": "index, follow",
+      "destination_h1_count": 1
+    },
+    {
+      "source": "https://lymphedasia.com/lymphedema-tree-bark-skin-on-legs/",
+      "status": 301,
+      "location": "https://lymphedasia.com/understanding-the-4-stages-of-lymphedema/",
+      "final_status": 200,
+      "final_url": "https://lymphedasia.com/understanding-the-4-stages-of-lymphedema/",
+      "destination_canonical": "https://lymphedasia.com/understanding-the-4-stages-of-lymphedema/",
+      "destination_robots": "index, follow",
+      "destination_h1_count": 1
+    }
+  ],
+  "rollback": {
+    "action": "Disable only Redirection rule IDs 43 and 44",
+    "endpoint": "POST /redirection/v1/bulk/redirect/disable",
+    "body": {
+      "items": [
+        43,
+        44
+      ],
+      "global": false
+    }
+  }
+}
