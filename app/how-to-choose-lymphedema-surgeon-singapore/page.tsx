@@ -306,6 +306,7 @@ export default function ChooseLymphedemaSurgeonPage() {
             <ul>
               <li><Link href="/lymphedema-surgery-singapore">Lymphedema surgery in Singapore</Link></li>
               <li><Link href="/lymphovenous-bypass-lva-surgery-singapore">LVB / LVA lymphovenous bypass surgery in Singapore</Link></li>
+              <li><Link href="/journey-to-lymphedema-surgery-japan">Why Japan training changed Dr Sun’s approach to LVA</Link></li>
               <li><Link href="/training-and-fellowships">Training and fellowships</Link></li>
             </ul>
           </div>
