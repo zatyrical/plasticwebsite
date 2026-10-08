@@ -197,7 +197,7 @@ export default function LymphedemaSurgeryJourneyPage() {
               The Japanese approach I observed placed strong emphasis on staging, imaging, careful selection of lymphatic channels, ultrasound localisation where appropriate, postoperative compression strategy and long-term follow-up. This made the operation more understandable to me. It also made clear that LVA should not be judged only by whether a bypass can be technically performed, but by whether the entire plan supports lymphatic drainage for that individual patient.
             </p>
             <figure className="article-clinical-figure">
-              <Image src="/images/mentors/dr-jeremy-sun-akitatsu-hayashi-lva-training-microscope.jpg" alt="Dr Jeremy Sun with Dr Akitatsu Hayashi during microscope-based LVA and lymphatic surgery training in Japan" width={1280} height={960} />
+              <Image src="/images/mentors/dr-jeremy-sun-akitatsu-hayashi-lva-training-microscope.jpg" alt="Dr Jeremy Sun with Dr Akitatsu Hayashi during microscope-based LVA and lymphatic surgery training in Japan" width={1280} height={960} sizes="(max-width: 900px) calc(100vw - 44px), 776px" />
               <figcaption>Microscope-based lymphatic surgery training in Japan with Dr Akitatsu Hayashi. The emphasis was on precise supermicrosurgical technique, imaging-guided planning and a measured approach to patient selection.</figcaption>
             </figure>
 
@@ -217,7 +217,7 @@ export default function LymphedemaSurgeryJourneyPage() {
               The approach I adopted after Japan training is more measured: careful imaging, selection of suitable lymphatic channels and veins, planning multiple bypasses where the anatomy permits, and allowing time for the clinical effect to declare itself before considering further surgery. In my practice, ultrasound-based planning can help identify suitable channels and veins so that several appropriate bypasses may be performed in a single operation when feasible.
             </p>
             <figure className="article-clinical-figure">
-              <Image src="/images/mentors/dr-jeremy-sun-akitatsu-hayashi-ramses-2025.jpg" alt="Dr Jeremy Sun with Dr Akitatsu Hayashi at RAMSES 2025 in Japan discussing robotic assisted microsurgery" width={1280} height={960} />
+              <Image src="/images/mentors/dr-jeremy-sun-akitatsu-hayashi-ramses-2025.jpg" alt="Dr Jeremy Sun with Dr Akitatsu Hayashi at RAMSES 2025 in Japan discussing robotic assisted microsurgery" width={1280} height={960} sizes="(max-width: 900px) calc(100vw - 44px), 776px" />
               <figcaption>Continuing international microsurgery exchange at RAMSES 2025 in Japan, including discussion around human and robotic-assisted microsurgery. Such exposure informs Dr Sun’s interest in precision, imaging and technique in lymphatic surgery.</figcaption>
             </figure>
             <p>
