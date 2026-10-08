@@ -1,0 +1,298 @@
+{
+  "captured_at": "2026-10-08T01:08:15Z",
+  "captured_at_sgt": "2026-10-08T09:08:15+08:00",
+  "latest_settled_gsc_date": "2026-10-04",
+  "comparison": {
+    "current": {
+      "start": "2026-09-28",
+      "end": "2026-10-04"
+    },
+    "previous": {
+      "start": "2026-09-21",
+      "end": "2026-09-27"
+    },
+    "gsc_scope": {
+      "country": "Singapore",
+      "search_type": "web",
+      "device": "all"
+    },
+    "ga4_landing_scope": {
+      "country": "Singapore",
+      "channel": "Organic Search"
+    }
+  },
+  "drjeremysun": {
+    "gsc_queries": {
+      "current": [
+        {
+          "query": "abdominoplasty singapore",
+          "clicks": 0,
+          "impressions": 31,
+          "position": 37.645
+        },
+        {
+          "query": "asian rhinoplasty singapore",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 11.25
+        },
+        {
+          "query": "body contouring singapore",
+          "clicks": 0,
+          "impressions": 65,
+          "position": 24.646
+        },
+        {
+          "query": "necklift surgery singapore",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 23
+        },
+        {
+          "query": "revision rhinoplasty singapore",
+          "clicks": 0,
+          "impressions": 6,
+          "position": 21.667
+        },
+        {
+          "query": "rhinoplasty without implant singapore",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 27.444
+        },
+        {
+          "query": "tummy tuck singapore",
+          "clicks": 0,
+          "impressions": 88,
+          "position": 44.023
+        }
+      ],
+      "previous": [
+        {
+          "query": "abdominoplasty singapore",
+          "clicks": 0,
+          "impressions": 79,
+          "position": 40.468
+        },
+        {
+          "query": "asian rhinoplasty singapore",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 10.75
+        },
+        {
+          "query": "body contouring singapore",
+          "clicks": 0,
+          "impressions": 37,
+          "position": 24.568
+        },
+        {
+          "query": "neck lift singapore",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 25
+        },
+        {
+          "query": "necklift surgery singapore",
+          "clicks": 0,
+          "impressions": 9,
+          "position": 20.889
+        },
+        {
+          "query": "revision rhinoplasty singapore",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 26.333
+        },
+        {
+          "query": "rhinoplasty without implant singapore",
+          "clicks": 0,
+          "impressions": 5,
+          "position": 25.8
+        },
+        {
+          "query": "tummy tuck singapore",
+          "clicks": 0,
+          "impressions": 45,
+          "position": 44.156
+        }
+      ],
+      "absent_rows_note": "Absence is not proof of zero because low-volume data may be suppressed."
+    },
+    "ga4_singapore_organic_landing_sessions": {
+      "current_total": 35,
+      "previous_total": 18,
+      "rows": [
+        {
+          "landing_page": "/",
+          "current": 25,
+          "previous": 12
+        },
+        {
+          "landing_page": "(not set)",
+          "current": 2,
+          "previous": 1
+        },
+        {
+          "landing_page": "/lymphedema-surgery-singapore",
+          "current": 2,
+          "previous": 0
+        },
+        {
+          "landing_page": "/plastic-surgeon-singapore",
+          "current": 2,
+          "previous": 1
+        },
+        {
+          "landing_page": "/eyebag-removal-lower-blepharoplasty-singapore",
+          "current": 1,
+          "previous": 0
+        },
+        {
+          "landing_page": "/fat-grafting-singapore",
+          "current": 1,
+          "previous": 0
+        },
+        {
+          "landing_page": "/ftm-top-surgery-singapore",
+          "current": 1,
+          "previous": 0
+        },
+        {
+          "landing_page": "/reconstructive-surgery",
+          "current": 1,
+          "previous": 0
+        },
+        {
+          "landing_page": "/breast-augmentation-singapore",
+          "current": 0,
+          "previous": 1
+        },
+        {
+          "landing_page": "/child-facial-laceration-when-does-your-child-need-a-plastic-surgeon",
+          "current": 0,
+          "previous": 1
+        },
+        {
+          "landing_page": "/lymphovenous-bypass-surgery-singapore",
+          "current": 0,
+          "previous": 2
+        }
+      ]
+    },
+    "key_events": {
+      "registered": [
+        "generate_lead",
+        "close_convert_lead",
+        "purchase",
+        "qualify_lead"
+      ],
+      "generate_lead_current": 1,
+      "generate_lead_previous": 0,
+      "attribution": {
+        "source_medium": "lymphedasia.com / referral",
+        "landing_page": "/plastic-surgeon-singapore",
+        "channel": "Referral"
+      },
+      "interpretation": "Successful form acceptance after contact API response; not proof of qualification, booking, or surgery."
+    },
+    "ai_referrals": {
+      "current_sessions": 0,
+      "previous_sessions": 0
+    }
+  },
+  "lymphedasia": {
+    "gsc_queries": {
+      "current": [
+        {
+          "query": "lipedema treatment singapore",
+          "clicks": 0,
+          "impressions": 3,
+          "position": 8
+        },
+        {
+          "query": "lymphedema treatment singapore",
+          "clicks": 0,
+          "impressions": 21,
+          "position": 16.714
+        },
+        {
+          "query": "lymphoedema treatment singapore",
+          "clicks": 0,
+          "impressions": 8,
+          "position": 22.625
+        }
+      ],
+      "previous": [
+        {
+          "query": "lymphedema treatment singapore",
+          "clicks": 1,
+          "impressions": 33,
+          "position": 23.576
+        },
+        {
+          "query": "lipedema treatment singapore",
+          "clicks": 0,
+          "impressions": 4,
+          "position": 5
+        },
+        {
+          "query": "lymphoedema treatment singapore",
+          "clicks": 0,
+          "impressions": 1,
+          "position": 13
+        }
+      ]
+    },
+    "ga4_singapore_organic_landing_sessions": {
+      "current_total": 10,
+      "previous_total": 13
+    },
+    "key_events": {
+      "registered": [
+        "generate_lead",
+        "purchase"
+      ],
+      "generate_lead_current": 0,
+      "generate_lead_previous": 0
+    },
+    "ai_referrals": {
+      "current_sessions": 3,
+      "previous_sessions": 0,
+      "engaged_sessions": 3,
+      "key_events": 0,
+      "share_of_sessions": 0.0041,
+      "rows": [
+        {
+          "source": "ChatGPT",
+          "sessions": 1,
+          "date": "2026-10-02",
+          "landing_page": "/"
+        },
+        {
+          "source": "ChatGPT",
+          "sessions": 1,
+          "date": "2026-10-04",
+          "landing_page": "/private-lymphedema-consultation-singapore"
+        },
+        {
+          "source": "Google Gemini",
+          "sessions": 1,
+          "date": "2026-10-04",
+          "landing_page": "/stemmer-sign-lymphedema-test"
+        }
+      ],
+      "caveat": "Referral traffic is not proof of a named answer, quote, or citation."
+    }
+  },
+  "content_disposition": {
+    "url": "https://www.drjeremysun.com/24-hour-rapid-recovery-breast-augmentation-singapore",
+    "status": "closed_no_change",
+    "reason": "Current page and breast hub already cover answer-first, suitability, limits, misconceptions, provenance, an original editorial image, and reciprocal decision links."
+  },
+  "next_eligible_checks": {
+    "analytics_sgt": "2026-10-09T09:08:00+08:00",
+    "gbp_sgt": "2026-10-09T06:54:00+08:00",
+    "eyebag_profile_sgt": "2026-10-10T00:00:00+08:00"
+  }
+}
