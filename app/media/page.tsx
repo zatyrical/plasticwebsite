@@ -2,6 +2,10 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Navigation from '../Navigation';
 
+const socialImage = '/images/media/waps-cd-2026-lymphedema-talk-jeremy-sun.webp';
+const socialTitle = 'Media & Education | Dr Jeremy Sun';
+const socialDescription = 'Selected media interviews, expert commentary and professional education contributions by Dr Jeremy Sun.';
+
 type MediaFeature = {
   source: string;
   title: string;
@@ -172,6 +176,24 @@ export const metadata: Metadata = {
   description: 'Selected media features, expert commentary and public education contributions by Dr Jeremy Sun, Plastic, Reconstructive and Aesthetic Surgeon in Singapore.',
   alternates: {
     canonical: '/media'
+  },
+  openGraph: {
+    title: socialTitle,
+    description: socialDescription,
+    url: '/media',
+    type: 'article',
+    images: [{
+      url: socialImage,
+      width: 1280,
+      height: 720,
+      alt: 'Dr Jeremy Sun presenting lymphatic surgery education at a professional congress'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: socialTitle,
+    description: socialDescription,
+    images: [socialImage]
   }
 };
 
