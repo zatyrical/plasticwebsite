@@ -14,7 +14,7 @@ const latestModifiedPaths = new Map([
   ['/lymphovenous-bypass-lva-surgery-singapore', '2026-10-07'],
   ['/st-lukes-eldercare-symposium-lymphoedema-wound-care-2026', '2026-10-07'],
   ['/media', '2026-10-07'],
-  ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-06'],
+  ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-09'],
   ['/asian-rhinoplasty-singapore', '2026-10-06'],
   ['/rib-rhinoplasty-singapore', '2026-10-06'],
   ['/breast-augmentation-singapore', '2026-10-06'],
