@@ -151,7 +151,7 @@ export default function TrainingAndFellowshipsPage() {
               <article className="mentor-card" key={x.area}>
                 <div className={`mentor-collage collage-${Math.min(x.photos.length, 4)}`}>
                   {x.photos.length > 0 ? x.photos.map((photo) => (
-                    <Image key={photo.src} src={photo.src} alt={photo.alt} className={photo.className} width={640} height={520} />
+                    <Image key={photo.src} src={photo.src} alt={photo.alt} className={photo.className} width={640} height={520} sizes="(max-width: 900px) calc(100vw - 44px), 180px" />
                   )) : <span>Mentor photo</span>}
                 </div>
                 <div className="mentor-content">
