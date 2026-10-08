@@ -35,6 +35,12 @@ export const metadata: Metadata = {
         alt: 'Infographic summarising 2025 systematic review findings on breast implant illness'
       }
     ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: ['/images/aesthetic-breast/breast-implant-illness-2025-systematic-review-infographic.png']
   }
 };
 
