@@ -1,0 +1,270 @@
+
+<div class="la-dr-sun-pathway hermes-djs-crosslink-20260915" style="border:1px solid #d9e7ef;border-radius:12px;background:#f8fbfd;padding:16px;margin:22px 0">
+<p><strong>Considering specialist lymphatic assessment with Dr Jeremy Sun?</strong> LymphedAsia is an educational resource. For Dr Sun's clinician profile and patient-facing Singapore consultation information, see <a href="https://www.drjeremysun.com/lymphedema-surgery-singapore/">Dr Jeremy Sun's lymphedema surgery page</a> and <a href="https://www.drjeremysun.com/lymphovenous-bypass-lva-surgery-singapore/">lymphovenous bypass / LVA surgery information</a>. Online information does not replace individual medical consultation.</p>
+</div>
+
+<!-- wp:paragraph -->
+<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026.</em></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"className":"lymphedasia-medical-review-box","style":{"border":{"width":"1px","color":"#d9e2ec","radius":"8px"},"spacing":{"padding":{"top":"18px","right":"18px","bottom":"18px","left":"18px"},"margin":{"top":"18px","bottom":"24px"}},"color":{"background":"#f8fbfd"}}} -->
+<div class="wp-block-group lymphedasia-medical-review-box has-background" style="border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:18px;margin-bottom:24px;padding-top:18px;padding-right:18px;padding-bottom:18px;padding-left:18px"><!-- wp:paragraph -->
+<p><strong>Medical review and author expertise:</strong> This educational page is clinically reviewed by Dr Jeremy Sun Mingfa, a Singapore plastic and reconstructive surgeon with dedicated lymphatic surgery training and experience in lymphedema assessment, cellulitis risk, ICG lymphography, ultrasound localisation and lymphatic surgery options. Last reviewed: August 2026.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+
+
+<!-- wp:paragraph -->
+<p>Cellulitis is one of the most important complications of lymphedema. It is a bacterial skin and soft tissue infection that can cause redness, warmth, pain, swelling, fever and chills. In a limb affected by lymphedema, cellulitis can be more than a one-off infection: repeated episodes may further damage lymphatic drainage and worsen swelling over time.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This guide explains why lymphedema increases cellulitis risk, what warning signs to watch for, how patients can reduce the risk of infection, and when recurrent cellulitis should prompt specialist lymphatic assessment.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+
+<!-- la-treatment-pathway-20260910 -->
+<div class="la-treatment-pathway" style="border:1px solid #d9e7ef;border-radius:12px;background:#f8fbfd;padding:16px;margin:22px 0">
+<p><strong>Treatment pathway:</strong> If you are comparing lymphedema causes, infection risk or surgical options, start with the main <a href="https://lymphedasia.com/lymphedema-treatment/">lymphedema treatment guide</a>, then review when <a href="https://lymphedasia.com/lva-surgery-singapore/">LVA / lymphovenous bypass</a> or broader <a href="https://lymphedasia.com/lymphedema-surgery-singapore/">lymphedema surgery options</a> may be considered. A <a href="https://lymphedasia.com/private-lymphedema-consultation-singapore/">private lymphedema consultation in Singapore</a> is needed before personalised advice.</p>
+</div>
+<h2 class="wp-block-heading">Why lymphedema increases cellulitis risk</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>The lymphatic system helps drain tissue fluid and supports immune defence. When lymphatic drainage is impaired, fluid and protein can build up in the tissues. The affected area may become swollen, heavy, tight and more vulnerable to skin breakdown. Even small cracks in the skin, fungal infection between the toes, insect bites, wounds or eczema can become entry points for bacteria.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Once cellulitis occurs, inflammation can injure lymphatic channels further. This can create a cycle: <strong>lymphedema increases infection risk, and infection can worsen lymphedema</strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Symptoms of cellulitis in a swollen limb</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Patients with lymphedema should seek medical attention promptly if they develop symptoms suggestive of cellulitis, especially if symptoms are spreading or associated with fever.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>increasing redness, warmth or tenderness of the affected limb;</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>sudden increase in swelling or tightness;</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>pain, heaviness or skin sensitivity that is new or worsening;</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>fever, chills, body aches or feeling generally unwell;</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li>red streaking, blistering, wounds, leakage or rapidly spreading skin changes.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>Urgent medical care is needed</strong> if there is high fever, rapidly spreading redness, severe pain, confusion, low blood pressure symptoms, or concern for a severe soft-tissue infection. Cellulitis is usually treated with antibiotics, and some patients require intravenous antibiotics or hospital admission.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Recurrent cellulitis can worsen lymphedema</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Repeated cellulitis episodes are clinically important because they can accelerate lymphatic damage, increase fibrosis and make swelling harder to control. Patients may notice that after each infection, the limb does not return fully to its previous baseline.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For patients with recurrent cellulitis, the goal is not only to treat each infection, but also to look for modifiable causes: skin breaks, fungal infection, poorly fitting compression, uncontrolled swelling, obesity, venous disease, wounds or untreated lymphatic obstruction.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">How to reduce cellulitis risk in lymphedema</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><strong>Protect the skin:</strong> moisturise regularly and avoid cracks, cuts, burns and insect bites where possible.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Treat fungal infection early:</strong> athlete’s foot and toe-web maceration can be common entry points for bacteria.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Use compression appropriately:</strong> compression garments should fit well and be reviewed if swelling changes.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Manage wounds promptly:</strong> non-healing wounds, leakage or skin ulcers should be assessed early.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Maintain movement and weight control:</strong> calf-muscle activity, supervised exercise and weight optimisation can support swelling control.</li>
+<!-- /wp:list-item --><!-- wp:list-item -->
+<li><strong>Have a plan for early treatment:</strong> patients with previous cellulitis should ask their doctor what to do if symptoms recur.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Some patients with repeated cellulitis may require additional medical strategies, such as prophylactic antibiotics. This should be discussed with the patient’s treating physician or infectious disease specialist where appropriate.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">When to consider specialist lymphedema assessment</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Specialist assessment is worth considering if cellulitis is recurrent, swelling is progressive, compression is not controlling symptoms, the diagnosis is uncertain, or there are skin changes such as fibrosis, leakage or recurrent wounds.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>A lymphedema assessment may include clinical examination, limb measurements, review of cancer treatment or surgical history, compression review and imaging such as <a href="https://lymphedasia.com/ultrasound-for-lymphedema-diagnosis-monitoring/">ultrasound</a> or ICG lymphography in selected patients. The purpose is to understand the pattern and stage of lymphatic dysfunction before recommending treatment.</p>
+<!-- /wp:paragraph -->
+<!-- wp:group {"className":"la-cellulitis-assessment-pathway","style":{"border":{"color":"#d8e8ef","width":"1px","radius":"10px"},"spacing":{"padding":{"top":"16px","right":"16px","bottom":"16px","left":"16px"},"margin":{"top":"18px","bottom":"22px"}},"color":{"background":"#f9fcfd"}}} -->
+<div class="wp-block-group la-cellulitis-assessment-pathway has-background" style="border-color:#d8e8ef;border-width:1px;border-radius:10px;background-color:#f9fcfd;margin-top:18px;margin-bottom:22px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Recurrent cellulitis assessment pathway</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For patients with repeated cellulitis, the key question is not only which antibiotic is needed during an acute flare, but why the limb remains vulnerable. A structured lymphedema review can separate skin-barrier problems, compression fit, venous disease, lymphatic flow and fibrofatty tissue change.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><li><strong>Confirm the pattern:</strong> review swelling history, cancer or surgical treatment, previous infection frequency and current compression routine.</li><li><strong>Look for modifiable triggers:</strong> wounds, eczema, fungal infection, toe-web maceration, leakage, garment slippage or uncontrolled limb volume.</li><li><strong>Stage the lymphatic problem:</strong> selected patients may need <a href="https://lymphedasia.com/icg-lymphography-singapore/">ICG lymphography</a> or ultrasound mapping before discussing whether lymphatic surgery is appropriate.</li><li><strong>Match treatment to stage:</strong> early fluid-predominant disease may be assessed for LVA, while later fibrotic or fat-dominant swelling may require a different plan. See <a href="https://lymphedasia.com/am-i-candidate-for-lva-surgery/">am I a candidate for LVA surgery?</a> and <a href="https://lymphedasia.com/lva-vs-vlnt-vs-liposuction-lymphedema-surgery/">LVA vs VLNT vs liposuction</a>.</li></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>If a Singapore specialist consultation is needed, LymphedAsia keeps the education here, while Dr Jeremy Sun’s clinician-facing pages explain <a href="https://www.drjeremysun.com/lymphedema-surgery-singapore/">lymphedema surgery assessment in Singapore</a> and <a href="https://www.drjeremysun.com/lymphovenous-bypass-lva-surgery-singapore/">lymphovenous bypass / LVA surgery</a>. Online information cannot replace urgent medical care for fever, spreading redness or severe pain.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading" id="can-lva-reduce-cellulitis-risk">Can LVA or lymphedema surgery reduce cellulitis risk?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Surgery is not the first step for every patient with lymphedema or cellulitis. Conservative therapy still matters: compression where appropriate, skin care, treatment of fungal or skin-entry problems, weight and mobility management, and prompt antibiotics when cellulitis occurs.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>However, once a patient has established lymphedema and has already been on appropriate conservative therapy, even one or two cellulitis episodes are a strong reason to seek specialist lymphatic assessment. In this setting, recurrent infection suggests that the swollen limb may need more than maintenance care alone.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In suitable patients, <a href="https://lymphedasia.com/lva-surgery-singapore/">lymphovenous bypass / LVA</a> may be considered because it aims to offload lymph fluid by connecting functioning lymphatic channels to nearby small veins. LVA does not cure lymphedema and does not replace compression or skin care, but improving lymphatic drainage may reduce lymphatic congestion and may reduce the tendency toward recurrent cellulitis in selected patients.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Other procedures, including <a href="https://lymphedasia.com/lymph-node-transfer-and-lymph-vessel-flaps/">lymph node transfer</a> or <a href="https://lymphedasia.com/debulking-surgery/">reductive surgery</a>, have different roles depending on disease stage. The decision depends on clinical examination, ICG lymphography or other lymphatic imaging, whether pitting fluid remains, previous infections, compression needs, medical fitness and realistic expectations.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Typical clinical scenarios</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><strong>Early or pitting arm lymphedema after cancer treatment:</strong> one to two cellulitis episodes despite compression and skin care should prompt lymphatic imaging and discussion of whether LVA is technically suitable.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Leg lymphedema with repeated cellulitis:</strong> assessment looks for remaining functioning lymphatic channels, venous issues, skin-entry points and whether surgery can reduce lymphatic load alongside ongoing conservative care.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Late, firm or non-pitting swelling:</strong> LVA may be less predictable if lymphatic channels are severely damaged, so lymph node transfer, liposuction-style reductive approaches or long-term compression strategy may need to be discussed.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>If surgery is being considered, patients may also wish to understand <a href="https://lymphedasia.com/lymphedema-surgery-cost/">lymphedema surgery cost in Singapore, MOH fee benchmarks and hospital-related charges</a>, or read about <a href="https://www.drjeremysun.com/lymphovenous-bypass-lva-surgery-singapore/">Dr Jeremy Sun's clinician-facing LVA assessment pathway</a>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Frequently asked questions</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Does cellulitis make lymphedema worse?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Yes, cellulitis can worsen lymphedema by causing inflammation and further lymphatic injury. Repeated infections may increase swelling, fibrosis and long-term difficulty controlling the limb.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">How is cellulitis treated?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Cellulitis is usually treated with antibiotics. Mild cases may be treated with oral antibiotics, while more severe cases or patients who are systemically unwell may require intravenous antibiotics or hospital admission. Treatment should be directed by a doctor.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Can cellulitis be prevented completely?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Not always. However, skin care, good compression management, early treatment of wounds or fungal infection, weight optimisation and a clear plan for early antibiotics can reduce risk in many patients.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">When should recurrent cellulitis be assessed by a lymphedema specialist?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In a patient with known lymphedema who has already been using appropriate conservative therapy, even one or two cellulitis episodes should prompt specialist lymphatic assessment. This does not mean every patient needs surgery, but it is a strong indication to assess whether LVA or another lymphedema surgery could reduce lymphatic congestion and infection risk.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Assessment is reasonable when cellulitis recurs, swelling is worsening, compression is not effective, there are wounds or leakage, or the patient wants to understand whether lymphatic imaging or surgical options may be appropriate.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Medical information notice:</strong> This page provides general educational information only. It does not replace urgent medical care, diagnosis or treatment from a qualified healthcare professional. If cellulitis is suspected, seek medical attention promptly.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:html -->
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MedicalWebPage","@id":"https://lymphedasia.com/lymphedema-and-cellulitis/#webpage","url":"https://lymphedasia.com/lymphedema-and-cellulitis/","name":"Lymphedema and Cellulitis: Infection Risk, Warning Signs and Treatment","description":"Patient guide to lymphedema and cellulitis, including infection risk, warning signs, prevention, recurrent cellulitis and when to consider specialist lymphatic assessment.","medicalAudience":{"@type":"MedicalAudience","audienceType":"Patient"},"about":[{"@type":"MedicalCondition","name":"Lymphedema"},{"@type":"MedicalCondition","name":"Cellulitis"}],"reviewedBy":{"@id":"https://lymphedasia.com/#dr-jeremy-sun"},"lastReviewed":"2026-08-07"},{"@type":"Physician","@id":"https://lymphedasia.com/#dr-jeremy-sun","name":"Dr Jeremy Sun Mingfa","medicalSpecialty":["Plastic Surgery","Reconstructive Surgery","Lymphedema Surgery"],"areaServed":{"@type":"Country","name":"Singapore"},"knowsAbout":["Lymphedema","Cellulitis in lymphedema","Lymphovenous bypass","ICG lymphography","Ultrasound localisation of lymphatic channels"]},{"@type":"FAQPage","@id":"https://lymphedasia.com/lymphedema-and-cellulitis/#faq","mainEntity":[{"@type":"Question","name":"Does cellulitis make lymphedema worse?","acceptedAnswer":{"@type":"Answer","text":"Yes. Cellulitis can worsen lymphedema by causing inflammation and further lymphatic injury. Repeated infections may increase swelling, fibrosis and long-term difficulty controlling the limb."}},{"@type":"Question","name":"How is cellulitis treated?","acceptedAnswer":{"@type":"Answer","text":"Cellulitis is usually treated with antibiotics. Mild cases may be treated with oral antibiotics, while more severe cases or patients who are systemically unwell may require intravenous antibiotics or hospital admission."}},{"@type":"Question","name":"When should recurrent cellulitis be assessed by a lymphedema specialist?","acceptedAnswer":{"@type":"Answer","text":"Specialist assessment is reasonable when cellulitis recurs, swelling is worsening, compression is not effective, wounds or leakage are present, or the patient wants to understand whether lymphatic imaging or surgical options may be appropriate."}}]}]}</script>
+<!-- /wp:html -->
+
+<!-- la-cornerstone-cellulitis-deepening-20260808 -->
+<h2>Why recurrent cellulitis matters in lymphedema</h2>
+<p>Cellulitis is an infection of the skin and soft tissue. In lymphedema, impaired lymphatic drainage can make the affected limb or body region more vulnerable to infection. Each infection episode can also worsen inflammation and swelling, creating a cycle that is difficult to break without a structured prevention and treatment plan.</p>
+<p>Repeated cellulitis is a reason to seek specialist assessment. It may indicate that lymphedema is clinically significant and that the patient needs a more comprehensive plan covering skin care, compression, infection prevention, imaging and possible surgical options.</p>
+
+<h2>Warning signs that need urgent medical attention</h2>
+<ul>
+<li>Rapidly spreading redness, warmth, swelling or pain.</li>
+<li>Fever, chills, feeling unwell, dizziness or confusion.</li>
+<li>Red streaking, blistering, skin breakdown or pus.</li>
+<li>Symptoms in a patient with diabetes, immune suppression or other serious medical conditions.</li>
+</ul>
+<p>This information is educational and does not replace urgent medical care. Suspected cellulitis should be assessed promptly by a clinician.</p>
+
+<h2>Prevention and longer-term planning</h2>
+<p>Prevention may include careful skin care, treatment of fungal infections or wounds, appropriate compression, swelling control, weight and mobility optimisation, and clear instructions on when to seek antibiotics or urgent review. For selected patients, lymphatic imaging and surgical assessment may be discussed as part of a broader plan to reduce lymphedema burden and infection risk.</p>
+
+<h2>Related Lymphedema Asia resources</h2>
+<ul>
+<li><a href="https://lymphedasia.com/lymphedema-treatment/">Lymphedema treatment in Singapore</a></li>
+<li><a href="https://lymphedasia.com/lva-surgery-singapore/">LVA surgery in Singapore</a></li>
+<li><a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">Lymphedema specialist in Singapore</a></li>
+<li><a href="https://lymphedasia.com/can-lymphedema-be-cured/">Can lymphedema be cured?</a></li>
+</ul>
+
+
+<div class="lymphedasia-media-seo-update" style="margin:28px 0">
+<h2>Skin entry points and cellulitis prevention</h2>
+<figure class="lymphedasia-clinical-media " style="margin:22px 0"><img src="https://lymphedasia.com/wp-content/uploads/2026/08/finger-webspace-maceration-cellulitis-entry-point.jpg" alt="Finger webspace maceration showing a possible skin entry point for cellulitis in lymphedema" loading="lazy" /><figcaption>Finger webspace maceration: a common skin-entry point that can increase cellulitis risk in lymphedema.</figcaption></figure>
+<p>Moisture trapped between fingers or toes can lead to maceration, fungal infection or small skin breaks. In lymphedema, these areas should be dried carefully and checked regularly because they can become entry points for cellulitis.</p>
+</div>
+
+<div class="lymphedasia-related-links" style="border-top:1px solid #e5eef5;margin-top:28px;padding-top:16px">
+<p><strong>Related reading:</strong> <a href="https://lymphedasia.com/choosing-lymphedema-surgeon-singapore/">Choosing a lymphedema surgeon in Singapore</a> · <a href="https://lymphedasia.com/lva-surgery-singapore/">LVA surgery in Singapore</a> · <a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">Dr Jeremy Sun lymphedema specialist profile</a> · <a href="https://lymphedasia.com/lymphedema-treatment/">Lymphedema treatment options</a> · <a href="https://lymphedasia.com/lymphedema-and-cellulitis/">Lymphedema and cellulitis</a>.</p>
+</div>
+
+<!-- wp:group {"className":"lymphedasia-specialist-next-step","style":{"border":{"color":"#d9e2ec","width":"1px","radius":"8px"},"spacing":{"padding":{"top":"16px","right":"16px","bottom":"16px","left":"16px"},"margin":{"top":"24px","bottom":"24px"}},"color":{"background":"#f8fbfd"}}} -->
+<div class="wp-block-group lymphedasia-specialist-next-step has-background" style="border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:24px;margin-bottom:24px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px"><!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">When should persistent swelling be assessed?</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If swelling is persistent, progressive, one-sided, painful, associated with recurrent cellulitis, or difficult to explain, it may need specialist review rather than only home remedies. LymphedAsia has patient guides on <a href="https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/">lymphedema specialist assessment in Singapore</a>, <a href="https://lymphedasia.com/icg-lymphography-singapore/">ICG lymphography</a>, <a href="https://lymphedasia.com/lva-surgery-singapore/">LVA / lymphovenous bypass surgery</a>, and <a href="https://lymphedasia.com/lipedema-singapore/">lipedema diagnosis</a>.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
