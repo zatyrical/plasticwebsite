@@ -24,9 +24,11 @@ No live dequeue was made in this pass. The active parent-theme directory is not 
 | Private consultation (ID 4698) | no `_elementor_edit_mode=builder`; no `elementor-page-{id}` body class | 1 body marker only | 0 | 1 body marker only | 0 | 15 |
 | Homepage (ID 4717) | no Elementor builder meta; no `elementor-page-{id}` body class | 1 body marker only | 0 | 1 body marker only | 0 | 7 |
 | LVA surgery (ID 666) | no Elementor builder meta; no `elementor-page-{id}` body class | 1 body marker only | 0 | 1 body marker only | 0 | 17 |
+| Contact (ID 5034) | non-Elementor; custom `.la-contact-form` posts to the existing Dr Jeremy Sun contact API | 1 body marker only | 0 | 1 body marker only | 0 | 7 |
+| Thank-you (ID 5120) | non-Elementor; no form | 1 body marker only | 0 | 1 body marker only | 0 | 7 |
 | Legacy lymph-node-transfer page (ID 664) | `_elementor_edit_mode=builder`; `elementor-page-664` | 38 | 11 | 1 body marker | 0 | 7 |
 
-The legacy page confirms that Elementor assets remain necessary on the 11 builder pages. This is therefore a **conditional unload** opportunity, not a global plugin disable recommendation.
+The legacy page confirms that Elementor assets remain necessary on the 11 builder pages. This is therefore a **conditional unload** opportunity, not a global plugin disable recommendation. The contact and thank-you checks also clear the previously held form-dependency exclusion: neither uses MetForm.
 
 ## Exact handles exposed with Autoptimize bypassed
 
@@ -66,11 +68,10 @@ Keep loaded on these pages:
 
 1. Add conditional dequeue logic in a child theme or the existing custom site plugin, not the Astra parent theme.
 2. Gate on Elementor's own builder state for the queried post ID; do not use URL-string matching as the primary condition.
-3. Exclude the contact/thank-you flow until its form dependencies are explicitly verified.
-4. Keep all assets on the 11 pages whose published metadata has `_elementor_edit_mode=builder`.
-5. Purge Autoptimize and page caches after deployment.
-6. Verify the homepage, private consultation, LVA surgery, contact flow, and one legacy Elementor page at desktop and mobile widths.
-7. Run one fresh Lighthouse check only after live verification; use the existing 86 performance score and 3.6 s lab LCP as the pre-change reference, allowing normal lab variance.
+3. Keep all assets on the 11 pages whose published metadata has `_elementor_edit_mode=builder`.
+4. Purge Autoptimize and page caches after deployment.
+5. Verify the homepage, private consultation, LVA surgery, contact flow, and one legacy Elementor page at desktop and mobile widths.
+6. Run one fresh Lighthouse check only after live verification; use the existing 86 performance score and 3.6 s lab LCP as the pre-change reference, allowing normal lab variance.
 
 ## Related maintenance observation
 
@@ -78,7 +79,7 @@ Elementor is active at 3.35.5 while Elementor Pro is 3.6.4. That large version s
 
 ## Disposition
 
-- **READY once a supported PHP deployment path is available:** conditional removal on confirmed non-Elementor pages.
+- **READY once a supported PHP deployment path is available:** conditional removal on all 21 confirmed non-Elementor pages, including contact and thank-you.
 - **PROTECTED:** 11 legacy Elementor pages.
-- **WAITING:** form-dependency verification for contact/thank-you pages.
+- **CLOSED:** contact/thank-you form-dependency check; the contact form is custom and neither page uses MetForm.
 - **NOT DONE:** no plugin deactivation, parent-theme edit, version update or speculative global dequeue.
