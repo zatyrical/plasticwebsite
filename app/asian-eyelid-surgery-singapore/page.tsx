@@ -5,6 +5,10 @@ import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
+const socialImage = '/images/aesthetic-ai/eyelid-surgery.jpg';
+const socialTitle = 'Asian Eyelid Surgery in Singapore | Dr Jeremy Sun';
+const socialDescription = 'Learn about Asian eyelid surgery, double eyelid surgery, incisional and non-incisional approaches, ptosis assessment, recovery and risks.';
+
 export const metadata: Metadata = {
   title: 'Asian Eyelid Surgery Singapore | Blepharoplasty',
   description:
@@ -13,11 +17,22 @@ export const metadata: Metadata = {
     canonical: '/asian-eyelid-surgery-singapore'
   },
   openGraph: {
-    title: 'Asian Eyelid Surgery in Singapore | Dr Jeremy Sun',
-    description:
-      'Learn about Asian eyelid surgery, double eyelid surgery, incisional and non-incisional approaches, ptosis assessment, recovery and risks.',
+    title: socialTitle,
+    description: socialDescription,
     url: '/asian-eyelid-surgery-singapore',
-    type: 'article'
+    type: 'article',
+    images: [{
+      url: socialImage,
+      width: 1024,
+      height: 1024,
+      alt: 'Editorial illustration representing Asian eyelid surgery consultation and ptosis assessment'
+    }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: socialTitle,
+    description: socialDescription,
+    images: [socialImage]
   },
   keywords: [
     'eyelid surgery Singapore',
@@ -133,7 +148,7 @@ export default function AsianEyelidSurgeryPage() {
             </div>
             <aside className="article-summary-card">
               <figure className="article-hero-image-card">
-                <Image src="/images/aesthetic-ai/eyelid-surgery.jpg" alt="Editorial-style image representing Asian eyelid surgery consultation and ptosis assessment" width={720} height={860} priority sizes="(max-width: 900px) 100vw, 330px" />
+                <Image src={socialImage} alt="Editorial-style image representing Asian eyelid surgery consultation and ptosis assessment" width={1024} height={1024} priority sizes="(max-width: 900px) 100vw, 330px" />
                 <figcaption>Illustrative image for patient education; not a before-and-after result.</figcaption>
               </figure>
               <h2>On this page</h2>
