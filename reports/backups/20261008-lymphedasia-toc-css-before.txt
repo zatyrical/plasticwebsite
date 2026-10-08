@@ -1,0 +1,21 @@
+LymphedAsia Additional CSS pre-change snapshot
+Captured: 2026-10-08 Singapore
+WordPress custom_css post: 32 (Astra)
+post_content: [empty]
+
+Observed live target sample on /private-lymphedema-consultation-singapore/:
+- .la-toc anchor rendered display:inline
+- line-height: 27.2px
+- anchor box height: 23px
+- four consecutive target top positions: 3271.70, 3298.89, 3326.08, 3353.27px
+
+Proposed isolated CSS:
+.la-toc .wp-block-list a {
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  padding-block: 10px;
+  box-sizing: border-box;
+}
+
+Rollback: restore custom_css post 32 post_content to the exact empty pre-change value.
