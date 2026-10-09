@@ -460,6 +460,18 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'revision-fillers' ? (
                   <p>If rib cartilage is being discussed for revision, read the <Link href="/rib-rhinoplasty-singapore#revision-planning">revision rib-cartilage planning questions</Link> alongside the <Link href="/rib-rhinoplasty-singapore#alternatives">graft alternatives</Link>.</p>
                 ) : null}
+                {article.slug === 'scar-reconstruction-singapore' && section.id === 'treatments' ? (
+                  <>
+                    <p>For planning and risks when laser treatment is being discussed, read the <Link href="/lasers-injectables-singapore#safety">laser treatment safety guide</Link>. The <Link href="/fat-grafting-singapore#assessment">fat grafting assessment guide</Link> explains donor- and recipient-site planning when fat transfer is being considered. These guides do not establish which treatment is suitable for a particular scar.</p>
+                    <p>Further patient information: <a href="https://www.saps.org.sg/scar-management">Singapore Association of Plastic Surgeons: scar management</a>.</p>
+                  </>
+                ) : null}
+                {article.slug === 'fat-grafting-singapore' && section.id === 'uses' ? (
+                  <p>For scar-related concerns, read the <Link href="/scar-reconstruction-singapore#assessment">scar assessment and treatment-planning guide</Link> before discussing the available options.</p>
+                ) : null}
+                {article.slug === 'lasers-injectables-singapore' && section.id === 'options' ? (
+                  <p>If the concern is a scar, the <Link href="/scar-reconstruction-singapore#scar-types">scar types and assessment guide</Link> explains why the treatment discussion starts with identifying the scar and the main concern.</p>
+                ) : null}
                 {article.slug === 'lasers-injectables-singapore' && section.id === 'assessment' ? (
                   <p>For broader facial ageing concerns, read the <Link href="/face-neck-lift-singapore#anatomy">face and neck assessment guide</Link>, which separates skin-surface, volume and lifting questions. Comparing these options does not mean surgery is needed.</p>
                 ) : null}
