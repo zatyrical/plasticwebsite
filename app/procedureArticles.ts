@@ -324,7 +324,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'breast-augmentation-singapore': {
     slug: 'breast-augmentation-singapore',
-    modifiedIso: '2026-10-06',
+    modifiedIso: '2026-10-09',
     title: 'Breast Augmentation Singapore | Breast Implant Surgery & Motiva Planning',
     eyebrow: 'Breast augmentation & implants',
     lead: 'A patient guide to breast augmentation in Singapore, including implant selection, Motiva implant planning, fat grafting alternatives, recovery, screening, risks and long-term implant follow-up.',
@@ -402,6 +402,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Elective breast augmentation should not bypass appropriate breast assessment. Patients with breast lumps, nipple discharge, skin changes, strong family history, abnormal imaging or unexplained symptoms may need imaging or breast specialist review before cosmetic surgery is considered.', 'Patients should also understand that implants are medical devices. They may require monitoring, can affect some imaging techniques, and may need future surgery for rupture, capsular contracture, malposition, infection, size change or other concerns.', 'Patients who are specifically worried about systemic symptoms or breast implant illness can read the dedicated evidence guide on breast implant illness in Singapore before consultation. The guide discusses reported symptoms, current uncertainty and why implant removal should not be presented as an assured treatment for systemic symptoms.']
       },
       {
+        id: 'pregnancy-breastfeeding',
+        heading: 'Future pregnancy and breastfeeding after breast augmentation',
+        paragraphs: ['Future pregnancy and breastfeeding goals should be discussed before breast augmentation because breast surgery may affect milk production in some patients. Some women can breastfeed after augmentation and some cannot, so future breastfeeding should not be guaranteed.', 'Pregnancy, breastfeeding, weight change and ageing can also change the breast tissues and cosmetic result over time. Patients planning a future pregnancy should discuss timing, expectations and the possibility that later revision may be considered rather than assuming the result will remain unchanged.']
+      },
+      {
         id: 'rapid-recovery',
         heading: '24-hour rapid recovery breast augmentation principles',
         paragraphs: ['For selected primary breast augmentation patients, Dr Sun may discuss rapid recovery principles learnt directly from Dr William Adams during aesthetic breast surgery training. These principles emphasise careful planning, gentle tissue handling, pocket control, bleeding control and structured early movement.', 'This should not be understood as an assured 24-hour timeline for every patient. Suitability depends on anatomy, implant choice, surgical plan, anaesthesia recovery, symptoms, confidence with early movement and individual healing.']
@@ -419,7 +424,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'questions',
         heading: 'Questions to ask before breast augmentation',
-        items: ['Is my goal mainly volume increase, upper-pole fullness, symmetry, shape or correction of postpartum change?', 'What implant dimensions fit my breast base width and soft-tissue coverage?', 'Would implants, fat grafting, a breast lift or a staged plan best match my anatomy?', 'Do I need breast imaging or specialist review before elective surgery?', 'Where will the scar be and how may it mature?', 'What implant-specific risks and long-term follow-up should I understand?']
+        items: ['Is my goal mainly volume increase, upper-pole fullness, symmetry, shape or correction of postpartum change?', 'What implant dimensions fit my breast base width and soft-tissue coverage?', 'Would implants, fat grafting, a breast lift or a staged plan best match my anatomy?', 'Do I need breast imaging or specialist review before elective surgery?', 'Where will the scar be and how may it mature?', 'What implant-specific risks and long-term follow-up should I understand?', 'How might future pregnancy or breastfeeding goals affect timing and planning?']
       }
     ],
     faqs: [
@@ -434,6 +439,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { question: 'How much does breast augmentation cost in Singapore?', answer: 'Cost varies with implant type, surgical complexity, anaesthesia, facility, investigations, medications, garments, follow-up and whether lift, fat grafting, revision or asymmetry correction is needed. A meaningful quotation should follow assessment because the safest plan may differ between patients.' },
       { question: 'How should I choose a breast augmentation surgeon in Singapore?', answer: 'Useful comparison points include recognised specialist training, a measurement-based sizing process, discussion of implant plane and incision options, breast-screening considerations, complication management, long-term implant follow-up and whether alternatives such as lift, fat grafting or no surgery are explained clearly.' },
       { question: 'How are Motiva breast augmentation decisions made?', answer: 'Motiva implants may be discussed during breast augmentation planning, but the decision should still be measurement-based. Breast base width, tissue thickness, implant dimensions, projection, desired shape, safety considerations and long-term follow-up all matter more than choosing an implant by brand name alone.' },
+      { question: 'Can I breastfeed after breast augmentation?', answer: 'Some women can breastfeed after breast augmentation and some cannot. Breast surgery may affect milk production, so future breastfeeding cannot be guaranteed. Patients who plan future pregnancy or breastfeeding should discuss this during consultation before choosing an implant, incision and surgical plan.' },
       { question: 'Will breast augmentation affect breast screening?', answer: 'Breast implants can affect imaging technique and should be disclosed to screening providers. Patients with symptoms, family history or abnormal imaging may need assessment before elective cosmetic surgery.' }
     ]
   },
