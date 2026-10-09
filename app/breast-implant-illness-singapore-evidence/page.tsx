@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ContactForm from '../ContactForm';
 import Navigation from '../Navigation';
+import '../procedureAnchors.css';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const slug = 'breast-implant-illness-singapore-evidence';
@@ -151,6 +152,7 @@ export default function BreastImplantIllnessPage() {
                 <li><a href="#evidence">What studies show</a></li>
                 <li><a href="#explantation">Does explantation help?</a></li>
                 <li><a href="#before-augmentation">Before augmentation</a></li>
+                <li><a href="#when-to-seek-help">When to seek review</a></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
             </aside>
