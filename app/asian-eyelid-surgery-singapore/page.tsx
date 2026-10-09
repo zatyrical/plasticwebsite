@@ -127,7 +127,7 @@ export default function AsianEyelidSurgeryPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
       <Navigation />
 
-      <article className="article-page">
+      <article className="article-page asian-eyelid-page">
         <section className="article-hero">
           <div className="container article-hero-grid">
             <div>
@@ -154,11 +154,14 @@ export default function AsianEyelidSurgeryPage() {
               <h2>On this page</h2>
               <ul>
                 <li><a href="#what-is-asian-eyelid-surgery">What is Asian eyelid surgery?</a></li>
+                <li><a href="#suitability">Who may consider eyelid surgery?</a></li>
                 <li><a href="#double-eyelid-surgery">Double eyelid surgery</a></li>
                 <li><a href="#approaches">Incisional and non-incisional approaches</a></li>
                 <li><a href="#singapore-consultation">Singapore consultation planning</a></li>
                 <li><a href="#ptosis-assessment">Ptosis assessment</a></li>
+                <li><a href="#revision">Revision eyelid surgery</a></li>
                 <li><a href="#recovery">Recovery</a></li>
+                <li><a href="#risks">Risks and limitations</a></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
             </aside>
@@ -201,7 +204,7 @@ export default function AsianEyelidSurgeryPage() {
               The surgical plan should be individualised. A crease that looks natural on one person may not suit another person’s eyelid structure, brow position or facial proportions.
             </p>
 
-            <h2>Who may consider eyelid surgery?</h2>
+            <h2 id="suitability">Who may consider eyelid surgery?</h2>
             <p>Eyelid surgery may be considered by patients who are concerned about:</p>
             <ul>
               <li>absent, low, partial or unstable upper eyelid crease</li>
@@ -247,6 +250,9 @@ export default function AsianEyelidSurgeryPage() {
 
             <h2 id="singapore-consultation">Asian eyelid surgery consultation in Singapore</h2>
             <p>
+              For questions about eyebags or lower-eyelid hollowing, read the <Link href="/eyebag-removal-lower-blepharoplasty-singapore#consultation">eyebag removal and lower-blepharoplasty assessment guide</Link>. These concerns are assessed separately from upper-eyelid crease planning; reading both guides does not mean procedures need to be combined.
+            </p>
+            <p>
               Patients in Singapore often compare double eyelid surgery, upper blepharoplasty, ptosis correction and revision eyelid surgery using similar search terms, but these are not the same operation. The consultation should first identify whether the concern is crease definition, excess skin, eyelid heaviness, true ptosis, brow compensation, asymmetry or a previous surgical issue.
             </p>
             <p>
@@ -277,7 +283,7 @@ export default function AsianEyelidSurgeryPage() {
               If ptosis is present, crease creation alone may not address the main problem. Ptosis correction may need to be planned as part of the operation, and the risks, recovery and symmetry considerations should be discussed separately.
             </p>
 
-            <h2>Revision Asian eyelid surgery</h2>
+            <h2 id="revision">Revision Asian eyelid surgery</h2>
             <p>
               Revision eyelid surgery may be considered after previous double eyelid surgery or blepharoplasty if there are concerns such as asymmetry, an overly high or low crease, multiple creases, visible scarring, hollowing, persistent fullness or functional issues.
             </p>
@@ -312,7 +318,7 @@ export default function AsianEyelidSurgeryPage() {
               Final eyelid crease appearance can continue to evolve over weeks to months as swelling reduces and scar tissue matures. Early asymmetry may improve as swelling settles, but persistent asymmetry can occur.
             </p>
 
-            <h2>Risks and limitations</h2>
+            <h2 id="risks">Risks and limitations</h2>
             <p>All surgery carries risks. Potential risks of eyelid surgery may include:</p>
             <ul>
               <li>bleeding or haematoma</li>
