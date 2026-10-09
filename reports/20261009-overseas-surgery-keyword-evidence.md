@@ -64,3 +64,24 @@ Required dataset to finish popularity ranking: Google Keyword Planner historical
 Reopened every distinct external article citation. CDC, WHO-WFSA, ASA, Korea forensic study, Vietnam government directive/police report, K-Medi and Korean statute were retrievable. Three Vietnam links (medical law, complaint portal and criminal code) returned retrieval errors; this does not establish a broken public URL, but their content is not freshly verified. Keep those links/claims flagged pending replacement with accessible authoritative text.
 CDC explicitly supports prompt assessment after suspected complications and notes earlier treatment can improve outcomes. ASA supports continuously present qualified anaesthesia personnel. Korea's 50 deaths remain a selected forensic series, not a national rate.
 This is an AI-assisted source/evidence audit, not independent clinical sign-off or qualified country-specific legal review. Those review statuses must remain pending; do not mark the draft approved or published.
+
+## Ubersuggest Singapore data — 9 October 2026
+Connection/authentication confirmed; free tier, initially 0/3 daily reports used. No paid upgrade. Location lookup resolved Singapore to locId 2702. Research performed in English with explicit locId 2702.
+IMPORTANT: the shortcut country=SG tool returned a title saying SG but a CTA URL with US locId 2840 and a conflicting 2,400 Korea volume. Quarantined all shortcut metrics; NOT valid Singapore evidence. The direct keyword_overview confirms location Singapore, language English and volume 590 for lowercase plastic surgery korea.
+
+| Keyword | Estimated monthly searches | SD | Source/status |
+|---|---:|---:|---|
+| plastic surgery korea | 590 | 17 | Explicit Singapore keyword overview plus suggestions agree |
+| plastic surgery korea cost | 50 | 28 | Singapore suggestions; last-updated timestamp 1775470298, older estimate |
+| plastic surgery thailand | 30–40 | 24–26 | Suggestions seed Title Case=30/24 vs lowercase result=40/26; conflicting cached estimates, not independently resolved |
+| plastic surgery thailand price list | 30 | 23 | Singapore suggestions; older timestamp 1775470298 |
+| before and after plastic surgery korea | 140 | 18 | Singapore suggestions; visual-research intent, not clinician selection |
+| plastic surgery korea before after | 110 | 20 | Singapore suggestions; overlapping intent; do not sum variants |
+| plastic surgery Vietnam | unavailable | unavailable | Seed returned keyword only, NOT zero |
+| Shanghai/China and plastic surgeon variants | not measured | not measured | Beyond this initial three-report pass |
+
+Korea overview monthly series: June2026=1,000; July=880; August=590; September=590. Do not call 590 an arithmetic 12-month average: no complete 12-month series was returned. Values are third-party estimates, not exact Google counts or unique people; location is not nationality.
+Prioritisation combines relevant booking/comparison intent, volume and difficulty rather than volume alone. Korea head term leads (590, SD17); Korea cost is a focused comparison target (50, SD28); Thailand price-list supports total-cost questions (30, SD23). Retain Vietnam and Shanghai as relevant destinations but do not claim their demand equals Korea.
+Exclude entertainment, idol and movie queries, unrelated brand-specific clinic terms and before/after imagery as primary targeting. Named-clinic searches are navigational; do not insert competitor clinic names or allegations merely to capture traffic.
+Recommended framing remains choosing clinics BEFORE booking, with Korea prominent in opening and full-cost comparison, followed by anaesthesia and prompt Singapore follow-up. Do not replace article with a scare-driven mortality headline.
+Three research reports attempted: shortcut ideas, explicit Singapore multi-seed suggestions, explicit Singapore Korea overview. Stop within the free daily allowance. No complete all-destination/popularity ranking yet. Independent clinical and country-specific legal review remain pending.
