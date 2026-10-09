@@ -7,7 +7,7 @@ const updatedAt = '2026-10-03';
 const latestModifiedPaths = new Map([
   ['/plastic-surgery-overseas-safety-singapore', '2026-10-09'],
   ['/blog', '2026-10-09'],
-  ['', '2026-10-07'],
+  ['', '2026-10-09'],
   ['/aesthetic-surgery', '2026-10-07'],
   ['/reconstructive-surgery', '2026-10-07'],
   ['/breast-reconstruction-singapore', '2026-10-07'],
