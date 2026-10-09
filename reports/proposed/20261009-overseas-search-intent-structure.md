@@ -14,8 +14,8 @@ Opening should acknowledge readers comparing Korea, Thailand, Vietnam and Shangh
 |Who will provide and monitor my anaesthesia?|plastic surgery overseas safety; anaesthesia risks|Named provider, continuous qualified presence, monitoring and emergency plan; existing primary-source draft|
 |What happens if I develop a complication after returning to Singapore?|overseas plastic surgery complications; follow-up after surgery abroad|Prominent section. Dr Sun emphasises prompt assessment/treatment and impracticality of rapid return travel. No universal outcome guarantee; original clinician wording to incorporate for review|
 |What follow-up must be arranged before I fly home?|plastic surgery recovery overseas; when can I fly after rhinoplasty|In-person assessment arrangements, records, urgent contact and responsibility/cost; no generic flight-clearance timeline|
-|What are my options if care goes wrong?|medical negligence overseas; complaints after overseas surgery|Country-specific primary legal research required. Do not say lawsuits impossible or most patients give up|
-|Can a negative review lead to legal threats?|clinic negative review defamation|Distinguish letter/threat, filed case and court finding; documented sources needed before publication|
+|What are my options if care goes wrong?|medical negligence overseas; complaints after overseas surgery|Official Korea mediation and Vietnam complaint/litigation routes researched. Draft explains practical cross-border burdens without saying lawsuits are impossible; local legal review still required|
+|Can a negative review lead to legal threats?|clinic negative review defamation|Official Korean and Vietnamese criminal-law sources support a cautious country-specific warning. Draft distinguishes a demand letter from a court finding and excludes the unverified claim that most patients back off; local legal review still required|
 |Checklist before paying a deposit|how to choose overseas plastic surgeon|Concise practical summary with no superiority/country safety ranking|
 
 ## Strategy

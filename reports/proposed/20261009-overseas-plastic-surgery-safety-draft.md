@@ -39,9 +39,9 @@ Reported incidents are reasons to ask precise questions, not a substitute for as
 
 ## 4. Make follow-up arrangements before travelling
 
-A video call is useful for communication, but ask what happens when an in-person examination is needed. Before booking, clarify who is responsible for follow-up while you are overseas and after you return.
+A video call is useful for communication, but it cannot replace an in-person examination when one is needed. Some postoperative complications are time-sensitive. A delay in assessment or treatment can allow a manageable problem to worsen, so a plan that depends only on messages or a future return flight may be inadequate.
 
-Request a written plan covering review appointments, an urgent contact, access to local assessment, and responsibility for additional treatment or return travel. Do not assume a clinician in Singapore has agreed to provide routine follow-up unless that arrangement has actually been made.
+Before booking, clarify who is responsible for follow-up while you are overseas and after you return. Request a written plan covering scheduled reviews, a 24-hour urgent contact, where you can obtain same-day in-person assessment, and who is responsible for additional treatment or an extended stay. Ask whether the overseas clinic has a named local partner in Singapore; do not assume a Singapore clinician has agreed to take over routine follow-up unless that arrangement has actually been made.
 
 Ask for copies of your operative report, anaesthesia record, discharge instructions and relevant implant details, so subsequent clinicians can understand what was done. CDC medical-tourism guidance recommends planning continuity of care, verifying qualifications and obtaining medical records. [CDC](https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html)
 
@@ -51,15 +51,35 @@ Ask for an itemised quotation covering the operation, anaesthesia, facility, rec
 
 Discuss the timing of travel with your treating team rather than treating an advertised itinerary as medical clearance. CDC identifies additional risks around surgery and air travel, including blood clots. A suitable return date depends on the operation and the patient's circumstances. [CDC](https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html)
 
-## 6. Separate marketing from informed consent
+## 6. Ask about the complaint and dispute route before signing
+
+Cross-border redress is not necessarily impossible, but it can be more difficult in practice. It may involve another country's law, local lawyers, translated records, expert evidence, filing deadlines and questions about where a decision can be enforced. Before paying, ask which law and jurisdiction govern the contract, which regulator or mediation body accepts complaints, whether the clinic carries professional indemnity insurance, and whether the contract contains a mediation or arbitration clause.
+
+For Korea, the Korea Medical Dispute Mediation and Arbitration Agency (K-Medi) publishes an English-language email application route. Its instructions say the essential documents must be written in Korean and that English documents require Korean translations; fees and overseas bank arrangements may also apply. This shows that a formal route exists, not that every claim will be accepted or succeed. [K-Medi application guidance](https://www.k-medi.or.kr/eng/lay1/S239T385C455/contents.do)
+
+Vietnam's 2023 Law on Medical Examination and Treatment recognises rights to make complaints or denunciations and to initiate legal proceedings in accordance with law. Vietnam's Ministry of Health also operates a public-service feedback and complaint portal. How those routes apply to a foreign private patient and a particular contract requires advice from a suitably qualified Vietnamese lawyer. [Law No. 15/2023/QH15](https://vbpl.vn/van-ban/chi-tiet/luat-kham-benh-chua-benh-2023-so-15-2023-qh15--168125) · [Ministry of Health portal](https://dichvucong.moh.gov.vn/phan-anh-kien-nghi)
+
+A demand letter or allegation of defamation is not a court finding, but it should not be ignored. Review law is country-specific. Korea's Criminal Act addresses public allegations of fact and includes a public-interest provision for true facts; Vietnam's Criminal Code includes an offence of slander. Patients should preserve contemporaneous records, distinguish first-hand facts and clearly identified opinion from speculation, and obtain local legal advice before publishing disputed allegations. [Korea Criminal Act](https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=253323) · [Vietnam Criminal Code](https://vbpl.vn/van-ban/chi-tiet/bo-luat-hinh-su-so-100-2015-qh13--96122)
+
+This is general planning information, not legal advice.
+
+## 7. Separate marketing from informed consent
 
 Ask for a consultation that explains suitability, alternatives, limitations and risks in a language you understand. Photographs and testimonials cannot guarantee your result. Clarify whether the person recommending a package is the treating clinician or an intermediary, and take time to understand the proposed plan before committing.
 
 ## Questions to take to your consultation
 
-“Who will operate on me, who will provide and continuously monitor my anaesthesia, where will the procedure happen, and who will examine me if I develop a problem after returning home?”
+“Who will operate on me, who will provide and continuously monitor my anaesthesia, where will the procedure happen, and who will examine me the same day if I develop a problem after returning home?”
+
+Before paying, also ask:
+
+- Who is the urgent contact outside office hours?
+- Is there a named clinician or facility in Singapore that has agreed to assess me?
+- Who pays for assessment, additional treatment or an extended stay?
+- When will I receive my operative and anaesthesia records?
+- Which complaint, mediation or legal route applies if care goes wrong?
 
 A clear, verifiable answer to each question is more useful than a promise that a destination or package is universally safe.
 
 ---
-Editorial review checklist: Dr Sun to confirm anaesthesia wording, clinical completeness and follow-up advice; do not add personal experience, services, comparative safety claims or qualifications without confirmation. Exact allegations of one anaesthetist across two floors, cost-cutting intent, surgeons administering their own GA or unqualified staff administering GA remain unverified and excluded. No patient photographs, testimonials, price promises or mortality comparisons.
+Editorial review checklist: Dr Sun to confirm anaesthesia wording, clinical completeness and follow-up advice; qualified local legal review required before publishing the country-specific redress/defamation section; do not add personal experience, services, comparative safety claims or qualifications without confirmation. Exact allegations of one anaesthetist across two floors, cost-cutting intent, surgeons administering their own GA or unqualified staff administering GA remain unverified and excluded. No patient photographs, testimonials, price promises or mortality comparisons.
