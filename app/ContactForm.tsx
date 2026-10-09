@@ -110,7 +110,7 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
         {status === 'sending' ? 'Sending…' : 'Submit enquiry'}
       </button>
       <p role="status" aria-atomic="true" className={`form-status ${status}`}>{message}</p>
-      <p className="form-note">For non-urgent private consultation enquiries, you may also <a href="https://wa.me/6587649219" target="_blank" rel="noreferrer" onClick={() => trackEnquiryEvent('whatsapp_click', { method: 'astrid_whatsapp' })}>message Astrid on WhatsApp</a> or <a href="https://www.astridplasticsurgery.com/contact-us/" target="_blank" rel="noreferrer" onClick={() => trackEnquiryEvent('external_contact_click', { method: 'astrid_contact_form' })}>use Astrid Plastic Surgery’s contact form</a>.</p>
+      <p className="form-note">For non-urgent private consultation enquiries, you may also <a href="https://wa.me/6587649219" target="_blank" rel="noreferrer">message Astrid on WhatsApp</a> or <a href="https://www.astridplasticsurgery.com/contact-us/" target="_blank" rel="noreferrer">use Astrid Plastic Surgery’s contact form</a>.</p>
       <p className="form-note">This form is for non-urgent enquiries only. It does not establish a doctor-patient relationship until a consultation has taken place.</p>
     </form>
   );
