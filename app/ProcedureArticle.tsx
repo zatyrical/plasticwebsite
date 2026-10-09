@@ -150,7 +150,7 @@ export default function ProcedureArticlePage({ article }: Props) {
     })
     .slice(0, 4);
 
-  const findSection = (ids: string[]) => article.sections.find((section) => ids.includes(section.id))
+  const findSection = (ids: string[]) => ids.map((id) => article.sections.find((section) => section.id === id)).find(Boolean)
     ?? article.sections.find((section) => ids.some((id) => section.id.includes(id)));
   const shortcutSections = [
     { label: 'Suitability', section: findSection(['suitability', 'who-this-is-for', 'candidate']) },
@@ -418,7 +418,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                     <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/safety">ASPS liposuction risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/candidates">ASPS liposuction suitability</a>, and <a href="https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/liposuction/">NHS liposuction overview</a>.</p>
                   </>
                 ) : null}
-                {['asian-rhinoplasty-singapore', 'rib-rhinoplasty-singapore', 'breast-augmentation-singapore'].includes(article.slug) && section.id === 'recovery' ? (
+                {['asian-rhinoplasty-singapore', 'rib-rhinoplasty-singapore', 'breast-augmentation-singapore', 'body-contouring-liposuction-singapore', 'tummy-tuck-singapore', 'face-neck-lift-singapore'].includes(article.slug) && section.id === 'recovery' ? (
                   <p>Comparing overseas clinics? Read the <Link href="/plastic-surgery-overseas-safety-singapore">plastic surgery in Korea and overseas follow-up checklist</Link> to prepare questions about anaesthesia arrangements, records and in-person care after returning to Singapore.</p>
                 ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'risks' ? (
