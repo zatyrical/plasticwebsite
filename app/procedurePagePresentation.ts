@@ -1,8 +1,8 @@
 export const procedurePagePresentation: Record<string, { heading: string; title: string; description: string }> = {
   "rib-rhinoplasty-singapore": {
     "heading": "Rib Rhinoplasty in Singapore",
-    "title": "Rib Rhinoplasty Singapore",
-    "description": "Rib cartilage rhinoplasty in Singapore: suitability, alternatives, donor-site scars, recovery, risks and consultation with Dr Jeremy Sun."
+    "title": "Rhinoplasty Singapore | Rib Cartilage & Asian Nose Surgery",
+    "description": "Rhinoplasty Singapore guide: rib cartilage and Asian nose surgery, suitability, alternatives, donor-site scars, recovery, risks and consultation with Dr Jeremy Sun."
   },
   "asian-rhinoplasty-singapore": {
     "heading": "Rhinoplasty and Asian Nose Surgery in Singapore",

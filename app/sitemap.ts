@@ -21,7 +21,7 @@ const latestModifiedPaths = new Map([
   ['/media', '2026-10-07'],
   ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-09'],
   ['/asian-rhinoplasty-singapore', '2026-10-09'],
-  ['/rib-rhinoplasty-singapore', '2026-10-09'],
+  ['/rib-rhinoplasty-singapore', '2026-10-10'],
   ['/breast-augmentation-singapore', '2026-10-09'],
   ['/body-contouring-liposuction-singapore', '2026-10-06'],
   ['/tummy-tuck-singapore', '2026-10-09'],
