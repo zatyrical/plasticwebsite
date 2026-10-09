@@ -1,12 +1,20 @@
-# Plastic surgery overseas: safety questions for patients travelling from Singapore
+# Plastic Surgery in Korea, Thailand, Vietnam or China: What Singapore Patients Should Check Before Booking
 
 DRAFT FOR DR SUN'S CLINICAL REVIEW — 9 October 2026. Not published. Proposed single educational page; no country safety ranking or claim that Singapore eliminates surgical risk.
 
-Patients considering plastic surgery in Korea, Thailand, Vietnam or Shanghai often compare surgeons, photographs and package prices. A useful comparison also asks who will provide anaesthesia, whether qualifications can be independently checked, and who will examine you if a problem develops after you return to Singapore.
+Choosing a plastic surgery clinic in Korea, Thailand, Vietnam or Shanghai, China? If you are comparing surgeons, clinic reviews or surgery packages from Singapore, use the same checklist for each shortlisted provider: verify the individual surgeon and operating facility, compare the complete cost, ask who will provide anaesthesia, and establish who can examine you promptly after you return home.
 
-Every operation carries risk. A destination's popularity, an attractive clinic website or an inexpensive package does not answer these questions. The following checklist is intended to support an informed discussion with the treating team wherever surgery is performed.
+A clinic's photographs, reviews and package price are only part of the decision. Before paying a deposit, request written answers to the questions below. They are intended to help you compare care arrangements wherever surgery is performed. Every operation carries risk.
 
-## 1. Verify the individual clinician and the operating facility
+| Before booking an overseas clinic | What to request from each provider |
+|---|---|
+| Surgeon and facility | Full surgeon name, independently verifiable registration and specialist qualifications, exact operating facility and who will perform the operation |
+| Complete package cost | Itemised surgeon, anaesthesia, facility and review fees, plus responsibility for an extended stay or additional treatment |
+| Anaesthesia and recovery monitoring | Named provider, qualifications, continuous monitoring and emergency arrangements |
+| Follow-up after returning to Singapore | Scheduled reviews, urgent contact, agreed local in-person assessment and transfer of operative records |
+| Consent and complaint route | Explanation of alternatives and risks in a language you understand, plus the applicable contract and complaint process |
+
+## 1. How do I choose and verify a plastic surgeon overseas?
 
 Ask for the surgeon's full name, professional registration, specialist qualification and the exact facility where the operation will take place. Check these details through the relevant regulator rather than relying solely on social media, a booking agent or a certificate image.
 
@@ -14,7 +22,13 @@ A facility licence and a surgeon's qualification are separate checks. Ask whethe
 
 Vietnam's government portal reported a Ministry of Health directive on 31 October 2024 addressing unlicensed or out-of-scope aesthetic services, misleading advertising and online impersonation of doctors and hospitals. This supports checking the provider directly; it does not establish that all providers in Vietnam are unqualified. [Source](https://baochinhphu.vn/chan-chinh-hoat-dong-phau-thuat-tao-hinh-tham-my-va-lam-dep-102241031173158347.htm)
 
-## 2. Ask about anaesthesia before paying a deposit
+## 2. Is an overseas plastic surgery package cheaper once all costs are included?
+
+Ask for an itemised quotation covering the operation, anaesthesia, facility, recovery care, medicines and planned reviews. Clarify what happens financially if treatment is postponed or complications require a longer stay.
+
+Discuss the timing of travel with your treating team rather than treating an advertised itinerary as medical clearance. CDC identifies additional risks around surgery and air travel, including blood clots. A suitable return date depends on the operation and the patient's circumstances. [CDC](https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html)
+
+## 3. Who will provide and monitor my anaesthesia at the clinic?
 
 Anaesthesia should be part of the consultation, not an unexplained item in a package. Ask:
 
@@ -29,15 +43,7 @@ The WHO-WFSA international standards emphasise a trained, vigilant anaesthesia p
 
 The important concern is unqualified or absent care. A job title or a headline staffing ratio alone cannot establish whether a particular team is safe. Ask the clinic to explain its actual arrangement for your operation.
 
-## 3. Understand what reported deaths can—and cannot—tell you
-
-A 2025 Korean forensic study examined 50 aesthetic-procedure-related deaths referred to the National Forensic Service for autopsy during 2016–2024. Anaesthesia-related deaths were the largest cause category in that selected series. The authors also reported incomplete procedure and mortality statistics. These cases highlight safety failures to investigate; they do not provide a national mortality rate or demonstrate that surgery in Korea is riskier than surgery in Singapore. [Study](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003267108)
-
-In an official report dated 14 October 2025, Vietnam's Ministry of Public Security described charges against five people following a May 2025 death at an aesthetic hospital in Ho Chi Minh City. The report identified alleged professional registration and authorisation breaches. It described an investigation, not a final court verdict, and does not substantiate a general claim about who administers anaesthesia throughout Vietnam. [Official report](https://mps.gov.vn/bai-viet/khoi-to-05-doi-tuong-ve-toi-vi-pham-quy-dinh-ve-kham-benh-chua-benh-1760432052)
-
-Reported incidents are reasons to ask precise questions, not a substitute for assessing the particular surgeon, facility and care plan.
-
-## 4. Make follow-up arrangements before travelling
+## 4. What happens if I develop a complication after returning to Singapore?
 
 A video call is useful for communication, but it cannot replace an in-person examination when one is needed. Some postoperative complications are time-sensitive. A delay in assessment or treatment can allow a manageable problem to worsen, so a plan that depends only on messages or a future return flight may be inadequate.
 
@@ -45,13 +51,15 @@ Before booking, clarify who is responsible for follow-up while you are overseas 
 
 Ask for copies of your operative report, anaesthesia record, discharge instructions and relevant implant details, so subsequent clinicians can understand what was done. CDC medical-tourism guidance recommends planning continuity of care, verifying qualifications and obtaining medical records. [CDC](https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html)
 
-## 5. Compare the whole journey
+## 5. What do reports of plastic surgery deaths in Korea and Vietnam tell us?
 
-Ask for an itemised quotation covering the operation, anaesthesia, facility, recovery care, medicines and planned reviews. Clarify what happens financially if treatment is postponed or complications require a longer stay.
+A 2025 Korean forensic study examined 50 aesthetic-procedure-related deaths referred to the National Forensic Service for autopsy during 2016–2024. Anaesthesia-related deaths were the largest cause category in that selected series. The authors also reported incomplete procedure and mortality statistics. These cases highlight safety failures to investigate; they do not provide a national mortality rate or demonstrate that surgery in Korea is riskier than surgery in Singapore. [Study](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003267108)
 
-Discuss the timing of travel with your treating team rather than treating an advertised itinerary as medical clearance. CDC identifies additional risks around surgery and air travel, including blood clots. A suitable return date depends on the operation and the patient's circumstances. [CDC](https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html)
+In an official report dated 14 October 2025, Vietnam's Ministry of Public Security described charges against five people following a May 2025 death at an aesthetic hospital in Ho Chi Minh City. The report identified alleged professional registration and authorisation breaches. It described an investigation, not a final court verdict, and does not substantiate a general claim about who administers anaesthesia throughout Vietnam. [Official report](https://mps.gov.vn/bai-viet/khoi-to-05-doi-tuong-ve-toi-vi-pham-quy-dinh-ve-kham-benh-chua-benh-1760432052)
 
-## 6. Ask about the complaint and dispute route before signing
+Reported incidents are reasons to ask precise questions, not a substitute for assessing the particular surgeon, facility and care plan.
+
+## 6. What complaint and dispute route applies if care goes wrong?
 
 Cross-border redress is not necessarily impossible, but it can be more difficult in practice. It may involve another country's law, local lawyers, translated records, expert evidence, filing deadlines and questions about where a decision can be enforced. Before paying, ask which law and jurisdiction govern the contract, which regulator or mediation body accepts complaints, whether the clinic carries professional indemnity insurance, and whether the contract contains a mediation or arbitration clause.
 
@@ -63,11 +71,11 @@ A demand letter or allegation of defamation is not a court finding, but it shoul
 
 This is general planning information, not legal advice.
 
-## 7. Separate marketing from informed consent
+## 7. How should I assess clinic reviews, photographs and marketing?
 
 Ask for a consultation that explains suitability, alternatives, limitations and risks in a language you understand. Photographs and testimonials cannot guarantee your result. Clarify whether the person recommending a package is the treating clinician or an intermediary, and take time to understand the proposed plan before committing.
 
-## Questions to take to your consultation
+## Checklist before paying a deposit to an overseas clinic
 
 “Who will operate on me, who will provide and continuously monitor my anaesthesia, where will the procedure happen, and who will examine me the same day if I develop a problem after returning home?”
 
