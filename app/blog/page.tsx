@@ -4,6 +4,12 @@ import { procedureArticleList } from '../procedureArticles';
 
 const existingArticles = [
   {
+    title: 'Thinking of Plastic Surgery in Korea? Read This Before You Book',
+    href: '/plastic-surgery-overseas-safety-singapore',
+    category: 'Overseas surgery planning',
+    description: 'Comparing overseas clinics? Check surgeon credentials, complete costs, anaesthesia arrangements and follow-up after returning to Singapore.'
+  },
+  {
     title: 'Compression Garments, Foam and Lymphatic Massage After Liposuction',
     href: '/compression-foam-lymphatic-massage-after-liposuction',
     category: 'Liposuction recovery',
