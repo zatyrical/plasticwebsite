@@ -1,0 +1,42 @@
+{
+  "post_id": 1743,
+  "url": "https://lymphedasia.com/surgical-treatment-options-for-lymphedema/",
+  "before_modified": "2026-10-08T08:07:29",
+  "after_modified": "2026-10-09T19:00:54",
+  "forward_patches": [
+    {
+      "order": 1,
+      "old_content": "<p>Surgical <a href=\"https://lymphedasia.com/lymphedema-treatment/\">treatments for lymphedema</a> aim to improve the flow of lymphatic fluid, reduce swelling, and improve quality of life. Some common surgical procedures include <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">lymphovenous bypass</a>, where small lymphatic vessels are connected to nearby veins, and lymph node transfer for treating lymphedema, where lymph nodes from another body are transferred to the affected area.</p>",
+      "new_content": "<p>Surgical <a href=\"https://lymphedasia.com/lymphedema-treatment/\">treatments for lymphedema</a> may aim to improve lymphatic drainage or reduce excess tissue in selected patients. <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">Lymphovenous bypass</a> connects selected lymphatic vessels to nearby small veins. Vascularised lymph node transfer moves lymph-node-containing tissue with its blood supply from one part of the patient’s body to another.</p>"
+    },
+    {
+      "order": 2,
+      "old_content": "<p>In more severe cases, techniques like liposuction for lymphedema are used to remove excess fatty tissue that has developed due to chronic lymphedema. Charles's procedure, a two-stage surgical approach for advanced lymphedema, removes affected skin and tissue. However, each surgical approach to treat chronic lymphedema is tailored to a patient's specific needs and the severity of their condition.</p>",
+      "new_content": "<p>In selected patients with long-standing solid or fibrofatty swelling, liposuction-type or other reductive surgery may be considered. These procedures reduce tissue bulk but do not repair the underlying lymphatic drainage problem. The appropriate approach depends on individual assessment.</p>"
+    },
+    {
+      "order": 3,
+      "old_content": "<p>Plastic and reconstructive surgery offers promising avenues for lymphedema treatment. By combining methods like lymphaticovenular anastomosis and lymphaticovenular bypass with plastic surgery, surgeons can address the affected area's functionality and appearance. Techniques have evolved to include physiologic procedures that restore lymphatic function and reductive procedures that remove accumulated tissue, showcasing a novel approach to treating lymphedema that balances aesthetics with medical relief.</p>",
+      "new_content": "<p>Lymphedema operations are often described as physiologic or reductive procedures. Physiologic procedures such as lymphaticovenular anastomosis aim to redirect lymphatic fluid, while reductive procedures remove selected excess tissue. They are not interchangeable, and selection depends on the pattern and stage of disease.</p>"
+    }
+  ],
+  "rollback_patches": [
+    {
+      "order": 1,
+      "old_content": "<p>Lymphedema operations are often described as physiologic or reductive procedures. Physiologic procedures such as lymphaticovenular anastomosis aim to redirect lymphatic fluid, while reductive procedures remove selected excess tissue. They are not interchangeable, and selection depends on the pattern and stage of disease.</p>",
+      "new_content": "<p>Plastic and reconstructive surgery offers promising avenues for lymphedema treatment. By combining methods like lymphaticovenular anastomosis and lymphaticovenular bypass with plastic surgery, surgeons can address the affected area's functionality and appearance. Techniques have evolved to include physiologic procedures that restore lymphatic function and reductive procedures that remove accumulated tissue, showcasing a novel approach to treating lymphedema that balances aesthetics with medical relief.</p>"
+    },
+    {
+      "order": 2,
+      "old_content": "<p>In selected patients with long-standing solid or fibrofatty swelling, liposuction-type or other reductive surgery may be considered. These procedures reduce tissue bulk but do not repair the underlying lymphatic drainage problem. The appropriate approach depends on individual assessment.</p>",
+      "new_content": "<p>In more severe cases, techniques like liposuction for lymphedema are used to remove excess fatty tissue that has developed due to chronic lymphedema. Charles's procedure, a two-stage surgical approach for advanced lymphedema, removes affected skin and tissue. However, each surgical approach to treat chronic lymphedema is tailored to a patient's specific needs and the severity of their condition.</p>"
+    },
+    {
+      "order": 3,
+      "old_content": "<p>Surgical <a href=\"https://lymphedasia.com/lymphedema-treatment/\">treatments for lymphedema</a> may aim to improve lymphatic drainage or reduce excess tissue in selected patients. <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">Lymphovenous bypass</a> connects selected lymphatic vessels to nearby small veins. Vascularised lymph node transfer moves lymph-node-containing tissue with its blood supply from one part of the patient’s body to another.</p>",
+      "new_content": "<p>Surgical <a href=\"https://lymphedasia.com/lymphedema-treatment/\">treatments for lymphedema</a> aim to improve the flow of lymphatic fluid, reduce swelling, and improve quality of life. Some common surgical procedures include <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">lymphovenous bypass</a>, where small lymphatic vessels are connected to nearby veins, and lymph node transfer for treating lymphedema, where lymph nodes from another body are transferred to the affected area.</p>"
+    }
+  ],
+  "instructions": "Before rollback, reconcile the live modified timestamp and confirm each rollback old_content matches exactly once. Use supported /wpvibe/v1/content/edit. Do not overwrite intervening edits.",
+  "excluded": "Six additional proposed clinical rewrites were not attempted after patch 4 was rejected; they require clinician evidence/approval."
+}
