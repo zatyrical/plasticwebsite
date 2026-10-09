@@ -832,6 +832,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'lasers-injectables-singapore': {
     slug: 'lasers-injectables-singapore',
+    modifiedIso: '2026-10-10',
     title: 'Lasers and Injectables in Singapore',
     eyebrow: 'Lasers and injectables',
     lead: 'Patient information on aesthetic lasers, botulinum toxin, fillers, skin quality treatments, safety and risks.',
@@ -843,10 +844,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     intro: [
       'Lasers and injectables are non-surgical or minimally invasive treatments used for selected skin, contour and ageing-related concerns. They include energy-based devices, botulinum toxin, dermal fillers and other skin-quality treatments.',
       'Although these treatments are common, they are still medical procedures with risks. Careful assessment, appropriate indications and anatomical knowledge are important for safety.',
-      'A treatment plan should be individualised rather than based on trends or a fixed package.'
+      'A treatment plan should be individualised rather than based on trends or a fixed package.',
+      'If you reached this page while searching for “LVA laser treatment”, note that LVA / LVB for lymphedema is not a laser procedure. It is a supermicrosurgical lymphovenous bypass operation assessed separately from aesthetic laser treatments.'
     ],
     sections: [
-      { id: 'options', heading: 'Common treatment categories', paragraphs: ['Treatment categories vary by concern and device or product used.'], items: ['laser or light-based treatment for pigmentation, redness, texture or scars in selected cases', 'botulinum toxin for selected dynamic wrinkles or muscle-related concerns', 'dermal fillers for selected volume or contour concerns', 'skin-quality treatments such as biostimulators or hydration-focused injectables where appropriate', 'combination plans when several concerns are present'] },
+      { id: 'options', heading: 'Common treatment categories', paragraphs: ['Treatment categories vary by concern and device or product used. LVA / LVB for lymphedema is not part of this aesthetic laser category; it is a lymphatic microsurgery pathway with different assessment, imaging and recovery considerations.'], items: ['laser or light-based treatment for pigmentation, redness, texture or scars in selected cases', 'botulinum toxin for selected dynamic wrinkles or muscle-related concerns', 'dermal fillers for selected volume or contour concerns', 'skin-quality treatments such as biostimulators or hydration-focused injectables where appropriate', 'combination plans when several concerns are present'] },
       { id: 'assessment', heading: 'Consultation and skin assessment', paragraphs: ['Assessment includes skin type, pigmentation tendency, medical history, previous treatments, medications, allergies, pregnancy status where relevant and the specific concern being treated.', 'Patients should disclose previous fillers, skin reactions, cold sores, keloid tendency and any autoimmune or bleeding issues.'] },
       { id: 'safety', heading: 'Safety considerations', paragraphs: ['Injectables require detailed anatomical knowledge. Filler complications, although uncommon, can be serious and may include vascular compromise. Laser settings must be selected with skin type and pigmentation risk in mind.', 'Treatment should be delayed or avoided when the indication is unclear, expectations are unrealistic or medical factors increase risk.'] },
       { id: 'recovery', heading: 'Recovery and aftercare', paragraphs: ['Recovery varies by treatment. Redness, swelling, bruising, tenderness, pigmentation changes or temporary skin sensitivity may occur. Some laser treatments require sun avoidance and skincare modification.', 'Patients should receive clear instructions about aftercare and warning signs that need prompt medical attention.'] },
