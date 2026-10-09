@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
+import '../procedureAnchors.css';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const pageTitle = 'Breast Reconstruction in Singapore';
@@ -151,6 +152,8 @@ export default function BreastReconstructionPage() {
                 <li><a href="#timing">Immediate versus delayed reconstruction</a></li>
                 <li><a href="#types">Implant and DIEP flap options</a></li>
                 <li><a href="#consultation">Consultation and planning</a></li>
+                <li><a href="#recovery">Recovery after reconstruction</a></li>
+                <li><a href="#risks">Risks and limitations</a></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
             </aside>
@@ -268,7 +271,7 @@ export default function BreastReconstructionPage() {
 
             <p>For questions about arm swelling after breast cancer treatment, see LymphedAsia’s <a href="https://lymphedasia.com/lymphedema-treatment/">lymphoedema assessment and treatment guide</a>. For the surgical consultation pathway, read <Link href="/lymphedema-surgery-singapore">Dr Sun’s lymphoedema surgery overview</Link>.</p>
 
-            <h2>Recovery after breast reconstruction</h2>
+            <h2 id="recovery">Recovery after breast reconstruction</h2>
             <p>
               Recovery depends on the type of reconstruction, whether mastectomy is performed at the same time, and the patient’s general health. Implant-based reconstruction may involve a shorter initial recovery than free flap reconstruction, although drains, wound care, activity restrictions and follow-up are still needed.
             </p>
@@ -277,7 +280,7 @@ export default function BreastReconstructionPage() {
             </p>
             <p>The recovery plan should be individualised and discussed with the treating team.</p>
 
-            <h2>Risks and limitations</h2>
+            <h2 id="risks">Risks and limitations</h2>
             <p>All surgery carries risks. Potential risks of breast reconstruction may include:</p>
             <ul>
               <li>bleeding or haematoma</li>
