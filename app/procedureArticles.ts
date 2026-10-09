@@ -533,7 +533,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'asian-rhinoplasty-singapore': {
     slug: 'asian-rhinoplasty-singapore',
-    modifiedIso: '2026-10-06',
+    modifiedIso: '2026-10-09',
     title: 'Rhinoplasty Singapore | Asian Nose Surgery & Rib Cartilage',
     eyebrow: 'Asian rhinoplasty',
     lead: 'A detailed guide to Asian rhinoplasty in Singapore, including nasal bridge and tip planning, structural support, rib cartilage considerations, recovery and risks.',
@@ -653,7 +653,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'rib-rhinoplasty-singapore': {
     slug: 'rib-rhinoplasty-singapore',
-    modifiedIso: '2026-10-06',
+    modifiedIso: '2026-10-09',
     title: 'Rib Rhinoplasty Singapore | Rib Cartilage Nose Surgery',
     eyebrow: 'Rib rhinoplasty',
     lead: 'A patient guide to rib cartilage rhinoplasty in Singapore, including when rib cartilage may be considered, Asian nose surgery planning, donor-site scar, recovery, risks and alternatives.',

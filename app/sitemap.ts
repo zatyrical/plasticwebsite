@@ -5,6 +5,8 @@ import { procedurePagePresentation } from './procedurePagePresentation';
 const baseUrl = 'https://www.drjeremysun.com';
 const updatedAt = '2026-10-03';
 const latestModifiedPaths = new Map([
+  ['/plastic-surgery-overseas-safety-singapore', '2026-10-09'],
+  ['/blog', '2026-10-09'],
   ['', '2026-10-07'],
   ['/aesthetic-surgery', '2026-10-07'],
   ['/reconstructive-surgery', '2026-10-07'],
@@ -15,9 +17,9 @@ const latestModifiedPaths = new Map([
   ['/st-lukes-eldercare-symposium-lymphoedema-wound-care-2026', '2026-10-07'],
   ['/media', '2026-10-07'],
   ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-09'],
-  ['/asian-rhinoplasty-singapore', '2026-10-06'],
-  ['/rib-rhinoplasty-singapore', '2026-10-06'],
-  ['/breast-augmentation-singapore', '2026-10-06'],
+  ['/asian-rhinoplasty-singapore', '2026-10-09'],
+  ['/rib-rhinoplasty-singapore', '2026-10-09'],
+  ['/breast-augmentation-singapore', '2026-10-09'],
   ['/body-contouring-liposuction-singapore', '2026-10-06'],
   ['/tummy-tuck-singapore', '2026-10-09'],
   ['/face-neck-lift-singapore', '2026-10-06'],
@@ -35,6 +37,7 @@ const updatedPaths = new Set([
 ]);
 
 const coreRoutes = [
+  { path: '/plastic-surgery-overseas-safety-singapore', priority: 0.8, changeFrequency: 'monthly' as const },
   { path: '', priority: 1, changeFrequency: 'weekly' as const },
   { path: '/plastic-surgeon-singapore', priority: 0.94, changeFrequency: 'monthly' as const },
   { path: '/how-to-choose-lymphedema-surgeon-singapore', priority: 0.9, changeFrequency: 'monthly' as const },

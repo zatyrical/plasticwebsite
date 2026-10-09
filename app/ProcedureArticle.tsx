@@ -418,6 +418,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                     <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/safety">ASPS liposuction risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/candidates">ASPS liposuction suitability</a>, and <a href="https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/liposuction/">NHS liposuction overview</a>.</p>
                   </>
                 ) : null}
+                {['asian-rhinoplasty-singapore', 'rib-rhinoplasty-singapore', 'breast-augmentation-singapore'].includes(article.slug) && section.id === 'recovery' ? (
+                  <p>Comparing overseas clinics? Read the <Link href="/plastic-surgery-overseas-safety-singapore">plastic surgery in Korea and overseas follow-up checklist</Link> to prepare questions about anaesthesia arrangements, records and in-person care after returning to Singapore.</p>
+                ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/safety">ASPS tummy tuck risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/candidates">ASPS tummy tuck suitability</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a>.</p>
                 ) : null}
