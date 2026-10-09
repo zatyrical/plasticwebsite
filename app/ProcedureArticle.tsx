@@ -129,6 +129,7 @@ export default function ProcedureArticlePage({ article }: Props) {
     'rib-rhinoplasty-singapore': ['asian-rhinoplasty-singapore'],
     'lower-limb-reconstruction-singapore': ['trauma-lacerations-singapore', 'scar-reconstruction-singapore'],
     'head-neck-reconstruction-singapore': ['facial-laceration-repair-singapore', 'trauma-lacerations-singapore', 'scar-reconstruction-singapore', 'child-facial-laceration-plastic-surgeon-singapore'],
+    'scar-reconstruction-singapore': ['trauma-lacerations-singapore', 'facial-laceration-repair-singapore', 'head-neck-reconstruction-singapore', 'lower-limb-reconstruction-singapore'],
     'lasers-injectables-singapore': ['face-neck-lift-singapore', 'thread-lifting-singapore', 'fat-grafting-singapore'],
     'face-neck-lift-singapore': ['eyebag-removal-lower-blepharoplasty-singapore', 'thread-lifting-singapore', 'fat-grafting-singapore', 'asian-eyelid-surgery-singapore'],
     'thread-lifting-singapore': ['face-neck-lift-singapore', 'fat-grafting-singapore', 'lasers-injectables-singapore'],
@@ -465,6 +466,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                     <p>For planning and risks when laser treatment is being discussed, read the <Link href="/lasers-injectables-singapore#safety">laser treatment safety guide</Link>. The <Link href="/fat-grafting-singapore#assessment">fat grafting assessment guide</Link> explains donor- and recipient-site planning when fat transfer is being considered. These guides do not establish which treatment is suitable for a particular scar.</p>
                     <p>Further patient information: <a href="https://www.saps.org.sg/scar-management">Singapore Association of Plastic Surgeons: scar management</a>.</p>
                   </>
+                ) : null}
+                {article.slug === 'trauma-lacerations-singapore' && section.id === 'scar-care' ? (
+                  <p>If a healed injury leaves a raised, widened, tight, painful or poorly aligned scar, the <Link href="/scar-reconstruction-singapore#assessment">scar assessment and revision guide</Link> explains the factors reviewed before treatment is considered.</p>
                 ) : null}
                 {article.slug === 'fat-grafting-singapore' && section.id === 'uses' ? (
                   <p>For scar-related concerns, read the <Link href="/scar-reconstruction-singapore#assessment">scar assessment and treatment-planning guide</Link> before discussing the available options.</p>
