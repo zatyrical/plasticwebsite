@@ -49,6 +49,12 @@ Anaesthesia should be part of the consultation, not an unexplained item in a pac
 
 The WHO-WFSA international standards emphasise a trained, vigilant anaesthesia provider's continuous presence and essential monitoring. The American Society of Anesthesiologists' monitoring standard likewise requires qualified anaesthesia personnel throughout general anaesthesia, regional anaesthesia and monitored anaesthesia care. These are professional safety standards, not a statement of every country's law. [WHO-WFSA](https://resources.wfsahq.org/standards-and-guidelines/who-wfsa-international-standards-for-a-safe-practice-of-anesthesia/) · [ASA](https://www.asahq.org/standards-and-practice-parameters/standards-for-basic-anesthetic-monitoring)
 
+### Singapore's requirement for dedicated anaesthesia care
+
+For Singapore ambulatory surgical centres covered by MOH's sedation and general anaesthesia licence conditions, paragraph 3.2 requires the clinician administering general anaesthesia to be an SMC-registered specialist anaesthesiologist, separate from the proceduralist. During general anaesthesia, that specialist must focus only on administering the anaesthetic and monitoring that patient, without assisting the proceduralist or undertaking other tasks. This supports dedicated care for that patient rather than dividing that role between simultaneous patients. These conditions have a defined service scope; acute hospitals are governed separately. [MOH licence conditions, paragraphs 1.1, 2.1 and 3.2](https://isomer-user-content.by.gov.sg/7/afe086e7-2a66-4e84-8480-42a4e0877ba6/lcs-on-sedation-and-general-anaesthesia_1-0.pdf)
+
+Ask an overseas clinic whether a qualified anaesthesia clinician will be dedicated to your care throughout general anaesthesia, and obtain a clear explanation of any multiroom staffing arrangement.
+
 ### Korean professional guidance on sedation safety
 
 The Korean Society of Anesthesiologists helped develop multidisciplinary sedation guidelines published in 2024. They address provider training, monitoring, emergency preparedness and referral of high-risk patients to an anaesthesiologist. The publication explicitly describes these guidelines as non-mandatory. This supports asking how an individual clinic implements safety measures; it does not establish the current legal requirements for every Korean facility or a country-wide comparison with Singapore. [Korean clinical practice guidelines](https://ekja.org/upload/pdf/kja-23745.pdf)
