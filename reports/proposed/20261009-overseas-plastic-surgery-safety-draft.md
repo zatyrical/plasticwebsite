@@ -49,6 +49,10 @@ Anaesthesia should be part of the consultation, not an unexplained item in a pac
 
 The WHO-WFSA international standards emphasise a trained, vigilant anaesthesia provider's continuous presence and essential monitoring. The American Society of Anesthesiologists' monitoring standard likewise requires qualified anaesthesia personnel throughout general anaesthesia, regional anaesthesia and monitored anaesthesia care. These are professional safety standards, not a statement of every country's law. [WHO-WFSA](https://resources.wfsahq.org/standards-and-guidelines/who-wfsa-international-standards-for-a-safe-practice-of-anesthesia/) · [ASA](https://www.asahq.org/standards-and-practice-parameters/standards-for-basic-anesthetic-monitoring)
 
+### Korean professional guidance on sedation safety
+
+The Korean Society of Anesthesiologists helped develop multidisciplinary sedation guidelines published in 2024. They address provider training, monitoring, emergency preparedness and referral of high-risk patients to an anaesthesiologist. The publication explicitly describes these guidelines as non-mandatory. This supports asking how an individual clinic implements safety measures; it does not establish the current legal requirements for every Korean facility or a country-wide comparison with Singapore. [Korean clinical practice guidelines](https://ekja.org/upload/pdf/kja-23745.pdf)
+
 The important concern is unqualified or absent care. A job title or a headline staffing ratio alone cannot establish whether a particular team is safe. Ask the clinic to explain its actual arrangement for your operation.
 
 ## 4. What happens if I develop a complication after returning to Singapore?
@@ -67,17 +71,9 @@ In an official report dated 14 October 2025, Vietnam's Ministry of Public Securi
 
 Reported incidents are reasons to ask precise questions, not a substitute for assessing the particular surgeon, facility and care plan.
 
-## 6. What complaint and dispute route applies if care goes wrong?
+## 6. What should I know about cross-border complaints and disputes?
 
-Cross-border redress is not necessarily impossible, but it can be more difficult in practice. It may involve another country's law, local lawyers, translated records, expert evidence, filing deadlines and questions about where a decision can be enforced. Before paying, ask which law and jurisdiction govern the contract, which regulator or mediation body accepts complaints, whether the clinic carries professional indemnity insurance, and whether the contract contains a mediation or arbitration clause.
-
-For Korea, the Korea Medical Dispute Mediation and Arbitration Agency (K-Medi) publishes an English-language email application route. Its instructions say the essential documents must be written in Korean and that English documents require Korean translations; fees and overseas bank arrangements may also apply. This shows that a formal route exists, not that every claim will be accepted or succeed. [K-Medi application guidance](https://www.k-medi.or.kr/eng/lay1/S239T385C455/contents.do)
-
-Vietnam's 2023 Law on Medical Examination and Treatment recognises rights to make complaints or denunciations and to initiate legal proceedings in accordance with law. Vietnam's Ministry of Health also operates a public-service feedback and complaint portal. How those routes apply to a foreign private patient and a particular contract requires advice from a suitably qualified Vietnamese lawyer. [Law No. 15/2023/QH15](https://vbpl.vn/van-ban/chi-tiet/luat-kham-benh-chua-benh-2023-so-15-2023-qh15--168125) · [Ministry of Health portal](https://dichvucong.moh.gov.vn/phan-anh-kien-nghi)
-
-A demand letter or allegation of defamation is not a court finding, but it should not be ignored. Review law is country-specific. Korea's Criminal Act addresses public allegations of fact and includes a public-interest provision for true facts; Vietnam's Criminal Code includes an offence of slander. Patients should preserve contemporaneous records, distinguish first-hand facts and clearly identified opinion from speculation, and obtain local legal advice before publishing disputed allegations. [Korea Criminal Act](https://www.law.go.kr/LSW/eng/engLsInfoR.do?lsiSeq=253323) · [Vietnam Criminal Code](https://vbpl.vn/van-ban/chi-tiet/bo-luat-hinh-su-so-100-2015-qh13--96122)
-
-This is general planning information, not legal advice.
+If a dispute arises after overseas surgery, seeking redress may involve unfamiliar procedures, language barriers, translated medical records and additional costs. Before booking, ask for the written complaint process and clarify which law and jurisdiction apply to your agreement. Keep copies of your consent forms, quotations, correspondence and clinical records. Obtain advice from a lawyer qualified in the relevant country if a dispute develops; this guide does not assess whether a particular claim would succeed.
 
 ## 7. How should I assess clinic reviews, photographs and marketing?
 
@@ -116,7 +112,7 @@ Before paying, also ask:
 A clear, verifiable answer to each question is more useful than a promise that a destination or package is universally safe.
 
 ---
-Editorial review checklist: Dr Sun to confirm anaesthesia wording, clinical completeness and follow-up advice; qualified local legal review required before publishing the country-specific redress/defamation section; do not add personal experience, services, comparative safety claims or qualifications without confirmation. Exact allegations of one anaesthetist across two floors, cost-cutting intent, surgeons administering their own GA or unqualified staff administering GA remain unverified and excluded. No patient photographs, testimonials, price promises or mortality comparisons.
+Editorial review checklist: Dr Sun to confirm anaesthesia wording, clinical completeness and follow-up advice; country-specific redress and defamation discussion removed at Dr Sun's request; general dispute-planning note retained; do not add personal experience, services, comparative safety claims or qualifications without confirmation. Exact allegations of one anaesthetist across two floors, cost-cutting intent, surgeons administering their own GA or unqualified staff administering GA remain unverified and excluded. No patient photographs, testimonials, price promises or mortality comparisons.
 
 ## SEO implementation specification — not public article copy
 
@@ -129,3 +125,5 @@ Editorial review checklist: Dr Sun to confirm anaesthesia wording, clinical comp
 - Author attribution may name Dr Jeremy Sun; do not mark medically reviewed until actual sign-off. Preserve source links and factual date.
 - Measure Singapore GSC impressions, clicks, CTR and query/page relationship for this exact URL after publication, separating Korea head/cost, clinic/surgeon variants and Thailand queries. Review over multi-week periods; no guaranteed rank or traffic projection.
 - Broad destination results may favour clinics/directories. This educational comparison guide addresses research before booking; a low difficulty estimate alone does not establish that it can outrank providers.
+
+Editorial update — 9 October 2026: Dr Sun requested a shorter general cross-border dispute note and raised firsthand concerns about Korean anaesthesia regulation. Added sourced 2024 Korean professional sedation guidance; no claim that Korean regulation is currently less stringent than Singapore, or that the guidelines' non-mandatory status means there are no legal requirements. This source check is not a current comparative legal analysis. Clinical review remains pending; Dr Sun's observations are not treated as sign-off of the complete draft.
