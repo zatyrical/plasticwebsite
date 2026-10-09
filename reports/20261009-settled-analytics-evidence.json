@@ -1,0 +1,228 @@
+{
+  "generated_at_sgt": "2026-10-09T09:08:00+08:00",
+  "windows": {
+    "current": [
+      "2026-09-29",
+      "2026-10-05"
+    ],
+    "comparison": [
+      "2026-09-22",
+      "2026-09-28"
+    ],
+    "gsc_settled_through": "2026-10-06"
+  },
+  "gsc": {
+    "scope": {
+      "country": "Singapore",
+      "search_type": "web",
+      "source": "Search Console API",
+      "nonbrand_filter_notes": "Excluded explicit person/practice brand strings from complete returned query rows."
+    },
+    "drjeremysun": {
+      "current_nonbrand": {
+        "clicks": 0,
+        "impressions": 1449,
+        "ctr": 0,
+        "position": 33.9938
+      },
+      "previous_nonbrand": {
+        "clicks": 1,
+        "impressions": 977,
+        "ctr": 0.0010235,
+        "position": 31.13
+      },
+      "queries": {
+        "abdominoplasty singapore": {
+          "current": [
+            0,
+            24,
+            36.5
+          ],
+          "previous": [
+            0,
+            84,
+            40.5952
+          ]
+        },
+        "asian rhinoplasty singapore": {
+          "current": [
+            0,
+            4,
+            11.25
+          ],
+          "previous": [
+            0,
+            4,
+            10.75
+          ]
+        },
+        "body contouring singapore": {
+          "current": [
+            0,
+            65,
+            24.6308
+          ],
+          "previous": [
+            0,
+            36,
+            24.6944
+          ]
+        },
+        "necklift surgery singapore": {
+          "current": [
+            0,
+            4,
+            22.75
+          ],
+          "previous": [
+            0,
+            8,
+            21.75
+          ]
+        },
+        "revision rhinoplasty singapore": {
+          "current": [
+            0,
+            7,
+            26.2857
+          ],
+          "previous": [
+            0,
+            4,
+            20.75
+          ]
+        },
+        "rhinoplasty without implant singapore": {
+          "current": [
+            0,
+            11,
+            28
+          ],
+          "previous": [
+            0,
+            2,
+            26
+          ]
+        },
+        "tummy tuck singapore": {
+          "current": [
+            0,
+            82,
+            44.061
+          ],
+          "previous": [
+            0,
+            51,
+            44.2549
+          ]
+        }
+      }
+    },
+    "lymphedasia": {
+      "current_nonbrand": {
+        "clicks": 2,
+        "impressions": 256,
+        "ctr": 0.0078125,
+        "position": 20.6328
+      },
+      "previous_nonbrand": {
+        "clicks": 3,
+        "impressions": 248,
+        "ctr": 0.0120968,
+        "position": 23.4798
+      },
+      "queries": {
+        "lipedema treatment singapore": {
+          "current": [
+            0,
+            2,
+            9
+          ],
+          "previous": [
+            0,
+            5,
+            5.2
+          ]
+        },
+        "lymphedema treatment singapore": {
+          "current": [
+            0,
+            24,
+            14.9583
+          ],
+          "previous": [
+            1,
+            33,
+            23.5758
+          ]
+        },
+        "lymphoedema treatment singapore": {
+          "current": [
+            0,
+            8,
+            22.625
+          ],
+          "previous": [
+            0,
+            1,
+            13
+          ]
+        }
+      }
+    }
+  },
+  "ga4": {
+    "timezone": "Asia/Singapore",
+    "singapore_organic_sessions": {
+      "drjeremysun": {
+        "current": 45,
+        "previous": 19,
+        "key_events": 0
+      },
+      "lymphedasia": {
+        "current": 10,
+        "previous": 16,
+        "key_events": 0
+      }
+    },
+    "generate_lead": {
+      "drjeremysun": {
+        "current": 1,
+        "previous": 0,
+        "note": "Existing successful contact-API event; lymphedasia.com / referral to /plastic-surgeon-singapore; not a new additional event."
+      },
+      "lymphedasia": {
+        "current": 0,
+        "previous": 0
+      }
+    },
+    "ai_referrals": {
+      "drjeremysun": {
+        "current": 0
+      },
+      "lymphedasia": {
+        "current": 3,
+        "previous": 0,
+        "assistants": {
+          "ChatGPT": 2,
+          "Google Gemini": 1
+        },
+        "engaged_sessions": 3,
+        "key_events": 0,
+        "note": "Referral sessions are not verified AI mentions or citations."
+      }
+    }
+  },
+  "limitations": [
+    "Seven-day samples are small.",
+    "Current window overlaps launch/publication dates.",
+    "Average position is impression-weighted and not a live-rank check.",
+    "AI referrals do not prove named answers or citations.",
+    "generate_lead is a successful form-response event, not proof of qualification, booking or surgery."
+  ],
+  "next_checks": {
+    "analytics": "2026-10-10T09:08:00+08:00",
+    "gbp": "2026-10-10T07:06:00+08:00",
+    "crawl_index": "2026-10-10"
+  }
+}
