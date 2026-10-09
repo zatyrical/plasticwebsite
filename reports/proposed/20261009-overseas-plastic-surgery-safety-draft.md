@@ -1,4 +1,4 @@
-# Plastic Surgery in Korea: Clinics, Costs and Follow-Up for Singapore Patients
+# Thinking of Plastic Surgery in Korea? Read This Before You Book
 
 DRAFT FOR DR SUN'S CLINICAL REVIEW — 9 October 2026. Not published. Proposed single educational page; no country safety ranking or claim that Singapore eliminates surgical risk.
 
@@ -122,7 +122,7 @@ Editorial review checklist: Dr Sun to confirm anaesthesia wording, clinical comp
 
 - Primary measured query: plastic surgery korea (Ubersuggest Singapore/English, locId2702: estimated volume590, SD17, retrieved9October2026; third-party estimate).
 - Secondary measured query: plastic surgery korea cost (50, SD28; older cached estimate). Supporting Thailand price list query:30, SD23; Thailand head term30–40 remains conflicting. No new volume claims for clinics/surgeons, Vietnam or China.
-- Proposed SEO title: Plastic Surgery Korea: Clinics, Costs & Follow-Up | Dr Sun
+- Proposed SEO title: Thinking of Plastic Surgery in Korea? Read Before You Book
 - Proposed meta description: Considering plastic surgery in Korea? Compare clinic credentials, total costs, anaesthesia and follow-up in Singapore before booking overseas surgery.
 - Retain proposed canonical path /plastic-surgery-overseas-safety-singapore; draft not yet published. One substantive guide, no duplicate country pages.
 - After review and publication: add to article hub and sitemap, plus contextual links from relevant rhinoplasty and breast augmentation pages. Suggested anchors: “considering plastic surgery in Korea” and “follow-up after overseas plastic surgery”. Use only where the paragraph supports the link.
