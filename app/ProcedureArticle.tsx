@@ -129,6 +129,7 @@ export default function ProcedureArticlePage({ article }: Props) {
     'rib-rhinoplasty-singapore': ['asian-rhinoplasty-singapore'],
     'lower-limb-reconstruction-singapore': ['trauma-lacerations-singapore', 'scar-reconstruction-singapore'],
     'head-neck-reconstruction-singapore': ['facial-laceration-repair-singapore', 'trauma-lacerations-singapore', 'scar-reconstruction-singapore', 'child-facial-laceration-plastic-surgeon-singapore'],
+    'lasers-injectables-singapore': ['face-neck-lift-singapore', 'thread-lifting-singapore', 'fat-grafting-singapore'],
     'face-neck-lift-singapore': ['eyebag-removal-lower-blepharoplasty-singapore', 'thread-lifting-singapore', 'fat-grafting-singapore', 'asian-eyelid-surgery-singapore'],
     'thread-lifting-singapore': ['face-neck-lift-singapore', 'fat-grafting-singapore', 'lasers-injectables-singapore'],
     'fat-grafting-singapore': ['face-neck-lift-singapore', 'thread-lifting-singapore', 'asian-eyelid-surgery-singapore']
@@ -458,6 +459,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 ) : null}
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'revision-fillers' ? (
                   <p>If rib cartilage is being discussed for revision, read the <Link href="/rib-rhinoplasty-singapore#revision-planning">revision rib-cartilage planning questions</Link> alongside the <Link href="/rib-rhinoplasty-singapore#alternatives">graft alternatives</Link>.</p>
+                ) : null}
+                {article.slug === 'lasers-injectables-singapore' && section.id === 'assessment' ? (
+                  <p>For broader facial ageing concerns, read the <Link href="/face-neck-lift-singapore#anatomy">face and neck assessment guide</Link>, which separates skin-surface, volume and lifting questions. Comparing these options does not mean surgery is needed.</p>
                 ) : null}
                 {article.slug === 'rib-rhinoplasty-singapore' && section.id === 'alternatives' ? (
                   <p>For the broader decision between nasal implants, septal cartilage, ear cartilage and rib cartilage, read the <Link href="/asian-rhinoplasty-singapore#materials">Asian rhinoplasty materials guide</Link>.</p>
