@@ -22,9 +22,7 @@ Ask for the surgeon's full name, professional registration, specialist qualifica
 
 A facility licence and a surgeon's qualification are separate checks. Ask whether the facility is authorised for the procedure and proposed anaesthesia. Confirm who will actually perform your operation and how any change of surgeon would be discussed and consented to.
 
-Vietnam's government portal reported a Ministry of Health directive on 31 October 2024 addressing unlicensed or out-of-scope aesthetic services, misleading advertising and online impersonation of doctors and hospitals. This supports checking the provider directly; it does not establish that all providers in Vietnam are unqualified. [Source](https://baochinhphu.vn/chan-chinh-hoat-dong-phau-thuat-tao-hinh-tham-my-va-lam-dep-102241031173158347.htm)
-
-Ask for a consultation that explains suitability, alternatives, limitations and risks in a language you understand. Photographs and testimonials cannot guarantee your result. Clarify whether the person recommending a package is the treating clinician or an intermediary, and take time to understand the proposed plan before committing.
+Discuss suitability, alternatives and risks in a language you understand. Photographs and reviews cannot guarantee your result. Establish whether the person recommending a package is your clinician or a booking intermediary.
 
 ## 2. What does plastic surgery in Korea cost—and what is included?
 
@@ -44,46 +42,37 @@ Before booking, clarify who is responsible for follow-up while you are overseas 
 
 Ask for copies of your operative report, anaesthesia record, discharge instructions and relevant implant details, so subsequent clinicians can understand what was done. CDC medical-tourism guidance recommends planning continuity of care, verifying qualifications and obtaining medical records. [CDC](https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html)
 
-## 4. Who will provide and monitor my anaesthesia at the clinic?
+## 4. Who will provide and monitor my anaesthesia?
 
-Anaesthesia should be part of the consultation, not an unexplained item in a package. Ask:
+Ask the clinic:
 
-- What type and depth of anaesthesia is proposed, and why?
-- Who will administer it, and what are that person's qualifications and registration?
-- Who will remain with me and monitor me throughout the procedure?
-- If a senior clinician supervises more than one room, what qualified provider is continuously present with each patient?
-- Who will manage breathing or cardiovascular emergencies, and what emergency equipment and transfer arrangements are available?
-- Who monitors recovery after the operation?
+- What type and depth of anaesthesia is planned?
+- Who administers it, and what are their qualifications?
+- Who stays with me throughout—and are they responsible for other patients simultaneously?
+- What monitoring, emergency equipment and transfer arrangements are available?
+- Who monitors me during recovery?
 
-The WHO-WFSA international standards emphasise a trained, vigilant anaesthesia provider's continuous presence and essential monitoring. The American Society of Anesthesiologists' monitoring standard likewise requires qualified anaesthesia personnel throughout general anaesthesia, regional anaesthesia and monitored anaesthesia care. These are professional safety standards, not a statement of every country's law. [WHO-WFSA](https://resources.wfsahq.org/standards-and-guidelines/who-wfsa-international-standards-for-a-safe-practice-of-anesthesia/) · [ASA](https://www.asahq.org/standards-and-practice-parameters/standards-for-basic-anesthetic-monitoring)
+### Why a dedicated clinician matters
 
-### Why sedation requires close attention
+Sedation can become deeper than intended, suppressing breathing or obstructing the airway. Without prompt correction, low oxygen can lead to brain injury or cardiac arrest. Anaesthetic drugs can also depress blood pressure and heart function. “Sedation” does not mean risk-free care. [Korean sedation guidelines](https://ekja.org/upload/pdf/kja-23745.pdf)
 
-Sedation can become deeper than intended. Excessive sedation can suppress breathing or obstruct the airway; if inadequate ventilation is not recognised and corrected promptly, oxygen levels can fall, potentially causing brain injury or cardiac arrest. Some anaesthetic drugs can also depress blood pressure and cardiovascular function directly. Korean sedation guidelines describe these risks and the need for prompt recognition and intervention. This is why a named, qualified provider, continuous monitoring and the ability to rescue a patient from deeper-than-intended sedation matter. “Sedation” does not mean risk-free care. [Korean sedation guidelines](https://ekja.org/upload/pdf/kja-23745.pdf)
+The surgeon must concentrate on operating. Monitoring breathing, circulation and anaesthetic depth—and responding to changes—is a separate responsibility. Do not assume the surgeon can provide dedicated anaesthesia care while operating.
 
-### Why the surgeon needs a separate anaesthesia clinician
+WHO-WFSA standards call for continuous presence of a trained, vigilant anaesthesia provider; ASA standards require qualified anaesthesia personnel throughout general anaesthesia, regional anaesthesia and monitored anaesthesia care. These are professional standards, not every country's law. [WHO-WFSA](https://resources.wfsahq.org/standards-and-guidelines/who-wfsa-international-standards-for-a-safe-practice-of-anesthesia/) · [ASA](https://www.asahq.org/standards-and-practice-parameters/standards-for-basic-anesthetic-monitoring)
 
-Operating requires sustained attention. Monitoring breathing, circulation and anaesthetic depth—and responding promptly to changes—is a separate responsibility. Do not assume the operating surgeon can simultaneously provide dedicated anaesthesia care.
+### What Singapore requires
 
-### Singapore's requirement for dedicated anaesthesia care
+For ambulatory surgical centres covered by MOH's licence conditions, general anaesthesia requires a specialist anaesthesiologist separate from the surgeon. During anaesthesia, that specialist must focus only on administering the anaesthetic and monitoring that patient, without other tasks. This supports dedicated care rather than sharing that role across simultaneous patients. Acute hospitals have separate rules. [MOH, paragraph 3.2](https://isomer-user-content.by.gov.sg/7/afe086e7-2a66-4e84-8480-42a4e0877ba6/lcs-on-sedation-and-general-anaesthesia_1-0.pdf)
 
-For Singapore ambulatory surgical centres covered by MOH's sedation and general anaesthesia licence conditions, paragraph 3.2 requires the clinician administering general anaesthesia to be an SMC-registered specialist anaesthesiologist, separate from the proceduralist. During general anaesthesia, that specialist must focus only on administering the anaesthetic and monitoring that patient, without assisting the proceduralist or undertaking other tasks. This supports dedicated care for that patient rather than dividing that role between simultaneous patients. These conditions have a defined service scope; acute hospitals are governed separately. [MOH licence conditions, paragraphs 1.1, 2.1 and 3.2](https://isomer-user-content.by.gov.sg/7/afe086e7-2a66-4e84-8480-42a4e0877ba6/lcs-on-sedation-and-general-anaesthesia_1-0.pdf)
+Korean multidisciplinary sedation guidelines published in 2024 describe themselves as non-mandatory. That does not establish all current Korean legal requirements or prove a country-wide safety comparison. Ask how your particular clinic implements monitoring and emergency safeguards. [Korean guidelines](https://ekja.org/upload/pdf/kja-23745.pdf)
 
-Ask an overseas clinic whether a qualified anaesthesia clinician will be dedicated to your care throughout general anaesthesia, and obtain a clear explanation of any multiroom staffing arrangement.
+## 5. What do reported deaths tell us?
 
-### Korean professional guidance on sedation safety
+A 2025 Korean forensic study examined 50 aesthetic-procedure-related deaths referred for autopsy during 2016–2024. Anaesthesia-related deaths were the largest category. This selected series cannot establish a national mortality rate or compare Korea's safety with Singapore's. [Study](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003267108)
 
-The Korean Society of Anesthesiologists helped develop multidisciplinary sedation guidelines published in 2024. They address provider training, monitoring, emergency preparedness and referral of high-risk patients to an anaesthesiologist. The publication explicitly describes these guidelines as non-mandatory. This supports asking how an individual clinic implements safety measures; it does not establish the current legal requirements for every Korean facility or a country-wide comparison with Singapore. [Korean clinical practice guidelines](https://ekja.org/upload/pdf/kja-23745.pdf)
+An official Vietnamese report dated 14 October 2025 described charges following a patient's death, including alleged registration and authorisation breaches. It reports an investigation, not a final verdict. [Official report](https://mps.gov.vn/bai-viet/khoi-to-05-doi-tuong-ve-toi-vi-pham-quy-dinh-ve-kham-benh-chua-benh-1760432052)
 
-Ask the clinic to explain the actual staffing arrangement for your operation; a job title or headline ratio alone is insufficient.
-
-## 5. What do reports of plastic surgery deaths in Korea and Vietnam tell us?
-
-A 2025 Korean forensic study examined 50 aesthetic-procedure-related deaths referred to the National Forensic Service for autopsy during 2016–2024. Anaesthesia-related deaths were the largest cause category in that selected series. The authors also reported incomplete procedure and mortality statistics. These cases highlight safety failures to investigate; they do not provide a national mortality rate or demonstrate that surgery in Korea is riskier than surgery in Singapore. [Study](https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003267108)
-
-In an official report dated 14 October 2025, Vietnam's Ministry of Public Security described charges against five people following a May 2025 death at an aesthetic hospital in Ho Chi Minh City. The report identified alleged professional registration and authorisation breaches. It described an investigation, not a final court verdict, and does not substantiate a general claim about who administers anaesthesia throughout Vietnam. [Official report](https://mps.gov.vn/bai-viet/khoi-to-05-doi-tuong-ve-toi-vi-pham-quy-dinh-ve-kham-benh-chua-benh-1760432052)
-
-Reported incidents are reasons to ask precise questions, not a substitute for assessing the particular surgeon, facility and care plan.
+These incidents reinforce the need to check the individual surgeon, facility and care plan; they do not establish that every clinic in a country is unsafe.
 
 ## 6. What should I know about cross-border complaints and disputes?
 
@@ -135,3 +124,5 @@ Editorial update — 9 October 2026: Dr Sun requested a shorter general cross-bo
 Removed duplicated opening, quotation checklist and FAQ answers; replaced awkward exact-match cost phrasing with natural language. Follow-up now precedes the longer anaesthesia section. Clinic marketing advice consolidated into clinic selection. Source links and limits preserved. Public-copy word count: 1 (previously 2020); length is editorial, not a ranking target.
 
 Draft text and proposed metadata reviewed against Google SEO Starter Guide (https://developers.google.com/search/docs/fundamentals/seo-starter-guide). Remaining implementation checks after approval: rendered mobile layout, unique title/H1/description, factual author/reviewer status, crawlable internal links, self-canonical, sitemap, successful page response and absence of accidental noindex/robots blocking. These are not yet verified on a published page; documentation-only PR does not implement them. No new medical or legal sign-off asserted.
+
+Readability follow-up: shortened anaesthesia and incident discussions, removed the tangential Vietnam directive paragraph and consolidated marketing wording. Final public-copy count approximately 1390 words, including headings and checklist table. Short paragraphs and question headings retained; no fixed word-count ranking claim.
