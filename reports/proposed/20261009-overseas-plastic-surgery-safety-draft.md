@@ -1,8 +1,10 @@
-# Plastic Surgery in Korea, Thailand, Vietnam or China: What Singapore Patients Should Check Before Booking
+# Plastic Surgery in Korea: Clinics, Costs and Follow-Up for Singapore Patients
 
 DRAFT FOR DR SUN'S CLINICAL REVIEW — 9 October 2026. Not published. Proposed single educational page; no country safety ranking or claim that Singapore eliminates surgical risk.
 
-Choosing a plastic surgery clinic in Korea, Thailand, Vietnam or Shanghai, China? If you are comparing surgeons, clinic reviews or surgery packages from Singapore, use the same checklist for each shortlisted provider: verify the individual surgeon and operating facility, compare the complete cost, ask who will provide anaesthesia, and establish who can examine you promptly after you return home.
+Considering plastic surgery in Korea and comparing clinics, surgeons or package costs from Singapore? Start with five checks: the individual surgeon's credentials, the operating facility, the full cost, anaesthesia arrangements and access to prompt in-person follow-up after returning home. This guide helps you compare those arrangements before booking; it does not rank or endorse Korean clinics.
+
+The same questions apply if you are comparing plastic surgery in Thailand, Vietnam or Shanghai, China. Clinic photographs and an attractive overseas price do not answer who will examine and treat you if a complication develops in Singapore.
 
 A clinic's photographs, reviews and package price are only part of the decision. Before paying a deposit, request written answers to the questions below. They are intended to help you compare care arrangements wherever surgery is performed. Every operation carries risk.
 
@@ -14,7 +16,7 @@ A clinic's photographs, reviews and package price are only part of the decision.
 | Follow-up after returning to Singapore | Scheduled reviews, urgent contact, agreed local in-person assessment and transfer of operative records |
 | Consent and complaint route | Explanation of alternatives and risks in a language you understand, plus the applicable contract and complaint process |
 
-## 1. How do I choose and verify a plastic surgeon overseas?
+## 1. How do I choose a plastic surgery clinic and surgeon in Korea?
 
 Ask for the surgeon's full name, professional registration, specialist qualification and the exact facility where the operation will take place. Check these details through the relevant regulator rather than relying solely on social media, a booking agent or a certificate image.
 
@@ -22,9 +24,15 @@ A facility licence and a surgeon's qualification are separate checks. Ask whethe
 
 Vietnam's government portal reported a Ministry of Health directive on 31 October 2024 addressing unlicensed or out-of-scope aesthetic services, misleading advertising and online impersonation of doctors and hospitals. This supports checking the provider directly; it does not establish that all providers in Vietnam are unqualified. [Source](https://baochinhphu.vn/chan-chinh-hoat-dong-phau-thuat-tao-hinh-tham-my-va-lam-dep-102241031173158347.htm)
 
-## 2. Is an overseas plastic surgery package cheaper once all costs are included?
+## 2. Plastic surgery Korea cost: what should the quotation include?
 
 Ask for an itemised quotation covering the operation, anaesthesia, facility, recovery care, medicines and planned reviews. Clarify what happens financially if treatment is postponed or complications require a longer stay.
+
+### Comparing Korea surgery packages and Thailand price lists
+
+When comparing plastic surgery Korea cost estimates or a plastic surgery Thailand price list, compare the same procedure and scope of care. Ask whether each quote includes surgeon, anaesthesia, facility, medicines, planned reviews and any revision policy. Add flights, accommodation, time away from work and a contingency for an extended stay or treatment after returning home. No country-specific prices are quoted here because a meaningful comparison needs current, personalised, itemised quotations.
+
+A lower advertised package price does not establish a lower total cost. Ask what is excluded and who pays if additional assessment or treatment is needed.
 
 Discuss the timing of travel with your treating team rather than treating an advertised itinerary as medical clearance. CDC identifies additional risks around surgery and air travel, including blood clots. A suitable return date depends on the operation and the patient's circumstances. [CDC](https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html)
 
@@ -75,6 +83,24 @@ This is general planning information, not legal advice.
 
 Ask for a consultation that explains suitability, alternatives, limitations and risks in a language you understand. Photographs and testimonials cannot guarantee your result. Clarify whether the person recommending a package is the treating clinician or an intermediary, and take time to understand the proposed plan before committing.
 
+## Frequently asked questions about plastic surgery in Korea
+
+### How do I compare plastic surgery clinics in Korea?
+
+Use the same written checklist for each clinic: the named surgeon and independently verifiable qualifications, operating facility, anaesthesia provider, complete quotation and follow-up arrangements. Reviews and photographs can inform questions, but cannot establish your suitability or guarantee a result.
+
+### How much does plastic surgery in Korea cost?
+
+The cost depends on the procedure and what the quotation includes. Request an itemised quote and add travel, accommodation, planned reviews and contingency costs. This guide does not give a price range or claim Korea is always cheaper than Singapore.
+
+### Can I arrange follow-up in Singapore after surgery in Korea?
+
+Confirm the arrangement before booking. Ask whether a named Singapore clinician or facility has agreed to assess you, how urgently you can be seen, what records they need and who pays. Do not assume a clinic's remote support includes local in-person treatment.
+
+### How should I compare plastic surgery in Thailand with Korea?
+
+Compare the actual surgeon, facility, procedure, total quotation and follow-up plan rather than choosing on destination alone. A Thailand price list and a Korea package quote may include different services, so request the same itemised information from both.
+
 ## Checklist before paying a deposit to an overseas clinic
 
 “Who will operate on me, who will provide and continuously monitor my anaesthesia, where will the procedure happen, and who will examine me the same day if I develop a problem after returning home?”
@@ -91,3 +117,15 @@ A clear, verifiable answer to each question is more useful than a promise that a
 
 ---
 Editorial review checklist: Dr Sun to confirm anaesthesia wording, clinical completeness and follow-up advice; qualified local legal review required before publishing the country-specific redress/defamation section; do not add personal experience, services, comparative safety claims or qualifications without confirmation. Exact allegations of one anaesthetist across two floors, cost-cutting intent, surgeons administering their own GA or unqualified staff administering GA remain unverified and excluded. No patient photographs, testimonials, price promises or mortality comparisons.
+
+## SEO implementation specification — not public article copy
+
+- Primary measured query: plastic surgery korea (Ubersuggest Singapore/English, locId2702: estimated volume590, SD17, retrieved9October2026; third-party estimate).
+- Secondary measured query: plastic surgery korea cost (50, SD28; older cached estimate). Supporting Thailand price list query:30, SD23; Thailand head term30–40 remains conflicting. No new volume claims for clinics/surgeons, Vietnam or China.
+- Proposed SEO title: Plastic Surgery Korea: Clinics, Costs & Follow-Up | Dr Sun
+- Proposed meta description: Considering plastic surgery in Korea? Compare clinic credentials, total costs, anaesthesia and follow-up in Singapore before booking overseas surgery.
+- Retain proposed canonical path /plastic-surgery-overseas-safety-singapore; draft not yet published. One substantive guide, no duplicate country pages.
+- After review and publication: add to article hub and sitemap, plus contextual links from relevant rhinoplasty and breast augmentation pages. Suggested anchors: “considering plastic surgery in Korea” and “follow-up after overseas plastic surgery”. Use only where the paragraph supports the link.
+- Author attribution may name Dr Jeremy Sun; do not mark medically reviewed until actual sign-off. Preserve source links and factual date.
+- Measure Singapore GSC impressions, clicks, CTR and query/page relationship for this exact URL after publication, separating Korea head/cost, clinic/surgeon variants and Thailand queries. Review over multi-week periods; no guaranteed rank or traffic projection.
+- Broad destination results may favour clinics/directories. This educational comparison guide addresses research before booking; a low difficulty estimate alone does not establish that it can outrank providers.
