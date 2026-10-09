@@ -21,7 +21,7 @@ const latestModifiedPaths = new Map([
   ['/body-contouring-liposuction-singapore', '2026-10-06'],
   ['/tummy-tuck-singapore', '2026-10-09'],
   ['/face-neck-lift-singapore', '2026-10-06'],
-  ['/mommy-makeover-singapore', '2026-10-06'],
+  ['/mommy-makeover-singapore', '2026-10-07'],
   ['/plastic-surgeon-singapore', '2026-10-07'],
   ['/publications', '2026-10-07'],
   ['/training-and-fellowships', '2026-10-04'],

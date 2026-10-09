@@ -44,6 +44,57 @@ export default function GaTracker() {
     lastTrackedPath.current = pathname;
   }, [enabled, pathname, ready]);
 
+  useEffect(() => {
+    if (!enabled) return;
+
+    function trackContactClick(event: MouseEvent) {
+      const target = event.target;
+      if (!(target instanceof Element)) return;
+
+      const anchor = target.closest<HTMLAnchorElement>('a[href]');
+      if (!anchor) return;
+
+      const href = anchor.getAttribute('href') || '';
+      let eventName = '';
+      let method = '';
+
+      if (href.startsWith('tel:')) {
+        eventName = 'phone_click';
+        method = 'clinic_phone';
+      } else {
+        let url: URL;
+        try {
+          url = new URL(anchor.href);
+        } catch {
+          return;
+        }
+
+        if (url.hostname === 'wa.me') {
+          eventName = 'whatsapp_click';
+          method = 'astrid_whatsapp';
+        } else if (
+          url.hostname === 'www.astridplasticsurgery.com'
+          && url.pathname.replace(/\/$/, '') === '/contact-us'
+        ) {
+          eventName = 'external_contact_click';
+          method = 'astrid_contact_form';
+        }
+      }
+
+      if (!eventName) return;
+
+      window.gtag?.('event', eventName, {
+        event_category: 'enquiry',
+        page_location: sanitiseUrl(window.location.href),
+        link_url: anchor.href,
+        method
+      });
+    }
+
+    document.addEventListener('click', trackContactClick);
+    return () => document.removeEventListener('click', trackContactClick);
+  }, [enabled]);
+
   if (!enabled) return null;
 
   return (
