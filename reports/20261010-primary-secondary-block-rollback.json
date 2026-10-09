@@ -1,0 +1,13 @@
+{
+  "purpose": "Reverse the structural-only Gutenberg repair for post 4233 if needed.",
+  "guard": "Before rollback, fetch the current raw content and confirm new_content occurs exactly once. Stop on any concurrent change.",
+  "endpoint": "POST /wpvibe/v1/content/edit",
+  "body": {
+    "target_type": "post",
+    "post_id": 4233,
+    "field": "post_content",
+    "old_content": "<!-- wp:html -->\n<!-- la-treatment-pathway-20260910 -->\n<div class=\"la-treatment-pathway\" style=\"border:1px solid #d9e7ef;border-radius:12px;background:#f8fbfd;padding:16px;margin:22px 0\">\n<p><strong>Treatment pathway:</strong> If you are comparing lymphedema causes, infection risk or surgical options, start with the main <a href=\"https://lymphedasia.com/lymphedema-treatment/\">lymphedema treatment guide</a>, then review when <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA / lymphovenous bypass</a> or broader <a href=\"https://lymphedasia.com/lymphedema-surgery-singapore/\">lymphedema surgery options</a> may be considered. A <a href=\"https://lymphedasia.com/private-lymphedema-consultation-singapore/\">private lymphedema consultation in Singapore</a> is needed before personalised advice.</p>\n</div>\n<!-- /wp:html -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\"><strong>Quick comparison: primary vs secondary lymphedema</strong></h2>\n<!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading -->\n\n<!-- la-treatment-pathway-20260910 -->\n<div class=\"la-treatment-pathway\" style=\"border:1px solid #d9e7ef;border-radius:12px;background:#f8fbfd;padding:16px;margin:22px 0\">\n<p><strong>Treatment pathway:</strong> If you are comparing lymphedema causes, infection risk or surgical options, start with the main <a href=\"https://lymphedasia.com/lymphedema-treatment/\">lymphedema treatment guide</a>, then review when <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA / lymphovenous bypass</a> or broader <a href=\"https://lymphedasia.com/lymphedema-surgery-singapore/\">lymphedema surgery options</a> may be considered. A <a href=\"https://lymphedasia.com/private-lymphedema-consultation-singapore/\">private lymphedema consultation in Singapore</a> is needed before personalised advice.</p>\n</div>\n<h2 class=\"wp-block-heading\"><strong>Quick comparison: primary vs secondary lymphedema</strong></h2>\n<!-- /wp:heading -->"
+  },
+  "note": "This rollback restores the prior invalid nesting. Prefer correcting any later issue forward after reconciling current state."
+}
