@@ -1,0 +1,21 @@
+{
+  "purpose": "Emergency reverse patches for the 10 October 2026 fee-source correction on page 4302.",
+  "warning": "These patches restore an unsupported cost range and should not be used merely to undo the editorial correction. Prefer a forward correction. Reconcile current modified state and require each target to occur exactly once.",
+  "endpoint": "POST /wpvibe/v1/content/edit",
+  "patches": [
+    {
+      "target_type": "post",
+      "post_id": 4302,
+      "field": "post_content",
+      "old_content": "<p>In practice, the non-surgeon components of care — including anaesthetist fees, operating facility charges, hospital charges, ward class and length of stay — can vary. The MOH SE821L page lists anaesthetist and hospital fee data as unavailable, so a reliable total should not be inferred from the surgeon-fee benchmark alone. Patients should request an itemised estimate from the clinic and facility for their specific plan.</p>",
+      "new_content": "<p>In practice, the non-surgeon components of care — including anaesthetist fees, operating facility charges, hospital charges, ward class and length of stay — can vary widely. Depending on where the procedure is performed and the patient’s admission requirements, these additional costs may range from approximately <strong>S$15,000 to S$80,000 or more</strong>.</p>"
+    },
+    {
+      "target_type": "post",
+      "post_id": 4302,
+      "field": "post_content",
+      "old_content": "\"text\":\"There is no single fixed price. The final bill depends on the operation performed, imaging, anaesthesia, hospital or facility charges, ward choice, length of stay and follow-up care. MOH currently lists anaesthetist and hospital fee data for SE821L as unavailable, so patients should request an itemised estimate for their specific plan.\"",
+      "new_content": "\"text\":\"There is no single fixed price. The final bill depends on the operation performed, imaging, anaesthesia, hospital or facility charges, ward choice, length of stay and follow-up care. Non-surgeon components such as anaesthetist, facility and hospital charges may range from approximately S$15,000 to S$80,000 or more depending on the circumstances.\""
+    }
+  ]
+}
