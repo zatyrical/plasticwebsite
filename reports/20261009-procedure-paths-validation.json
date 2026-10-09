@@ -1,0 +1,166 @@
+[
+  {
+    "slug": "body-contouring-liposuction-singapore",
+    "live_before_status": 200,
+    "before": {
+      "shortcuts": {
+        "Suitability": "#who-this-is-for",
+        "Consultation": "#consultation",
+        "Cost factors": "#cost-quotation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 0,
+      "h1": 1
+    },
+    "built_after": {
+      "shortcuts": {
+        "Suitability": "#suitability",
+        "Consultation": "#consultation",
+        "Cost factors": "#cost-quotation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 1,
+      "h1": 1
+    }
+  },
+  {
+    "slug": "tummy-tuck-singapore",
+    "live_before_status": 200,
+    "before": {
+      "shortcuts": {
+        "Consultation": "#consultation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 0,
+      "h1": 1
+    },
+    "built_after": {
+      "shortcuts": {
+        "Consultation": "#consultation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 1,
+      "h1": 1
+    }
+  },
+  {
+    "slug": "face-neck-lift-singapore",
+    "live_before_status": 200,
+    "before": {
+      "shortcuts": {
+        "Suitability": "#who-this-is-for",
+        "Consultation": "#assessment",
+        "Cost factors": "#cost-quotation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 0,
+      "h1": 1
+    },
+    "built_after": {
+      "shortcuts": {
+        "Suitability": "#suitability",
+        "Consultation": "#assessment",
+        "Cost factors": "#cost-quotation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 1,
+      "h1": 1
+    }
+  },
+  {
+    "slug": "asian-rhinoplasty-singapore",
+    "live_before_status": 200,
+    "before": {
+      "shortcuts": {
+        "Suitability": "#who-this-is-for",
+        "Consultation": "#assessment",
+        "Cost factors": "#cost-quotation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 1,
+      "h1": 1
+    },
+    "built_after": {
+      "shortcuts": {
+        "Suitability": "#who-this-is-for",
+        "Consultation": "#assessment",
+        "Cost factors": "#cost-quotation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 1,
+      "h1": 1
+    }
+  },
+  {
+    "slug": "rib-rhinoplasty-singapore",
+    "live_before_status": 200,
+    "before": {
+      "shortcuts": {
+        "Suitability": "#who-this-is-for",
+        "Consultation": "#consultation",
+        "Cost factors": "#cost-quotation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 1,
+      "h1": 1
+    },
+    "built_after": {
+      "shortcuts": {
+        "Suitability": "#who-this-is-for",
+        "Consultation": "#consultation",
+        "Cost factors": "#cost-quotation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 1,
+      "h1": 1
+    }
+  },
+  {
+    "slug": "breast-augmentation-singapore",
+    "live_before_status": 200,
+    "before": {
+      "shortcuts": {
+        "Suitability": "#who-this-is-for",
+        "Consultation": "#consultation",
+        "Cost factors": "#cost-quotation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 1,
+      "h1": 1
+    },
+    "built_after": {
+      "shortcuts": {
+        "Suitability": "#who-this-is-for",
+        "Consultation": "#consultation",
+        "Cost factors": "#cost-quotation",
+        "Recovery": "#recovery",
+        "Risks": "#risks",
+        "Enquire about assessment": "#enquire"
+      },
+      "overseas_links": 1,
+      "h1": 1
+    }
+  }
+]
