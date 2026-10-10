@@ -46,35 +46,32 @@ export const metadata: Metadata = {
   ]
 };
 
+const faqItems = [
+  {
+    question: 'Why did Dr Jeremy Sun train in lymphedema surgery in Japan?',
+    answer: 'Dr Sun initially approached lymphedema surgery with skepticism after seeing variable results during early training. Exposure to experienced lymphatic surgery centres in Japan changed his perspective and led him to pursue dedicated MOH-accredited fellowship training focused on lymphedema surgery.'
+  },
+  {
+    question: 'What changed his view of LVA surgery?',
+    answer: 'He saw a more structured approach to patient selection, lymphatic imaging, pressure and flow planning, immediate compression strategy, supermicrosurgical technique and measured follow-up.'
+  },
+  {
+    question: 'Does this mean LVA works for everyone?',
+    answer: 'No. LVA may offer meaningful benefit in carefully selected patients, but suitability depends on clinical assessment, lymphatic imaging, limb condition and goals of treatment. Some patients may need other approaches or continued non-surgical management.'
+  }
+];
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'Why did Dr Jeremy Sun train in lymphedema surgery in Japan?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Dr Jeremy Sun initially approached lymphedema surgery with clinical skepticism after seeing variable results during early training. Exposure to experienced lymphatic surgery centres in Japan changed his perspective and led him to pursue dedicated MOH-accredited fellowship training focused on lymphedema surgery.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What changed Dr Jeremy Sun’s view of LVA surgery?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'His view changed after seeing a structured approach to patient selection, lymphatic imaging, pressure and flow planning, immediate compression strategy, supermicrosurgical technique and measured follow-up in Japan.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Why are pressure gradients and compression important after LVA?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'LVA is intended to encourage lymphatic fluid to drain into small veins. If flow conditions are unfavourable, reflux or limited drainage may occur. Compression strategy, including immediate on-table compression where appropriate, can be part of encouraging flow in the intended direction.'
-      }
+  mainEntity: faqItems.map(({ question, answer }) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: answer
     }
-  ]
+  }))
 };
 
 const articleJsonLd = {
@@ -236,18 +233,12 @@ export default function LymphedemaSurgeryJourneyPage() {
             </p>
 
             <h2 id="faq">Frequently asked questions</h2>
-            <h3>Why did Dr Jeremy Sun train in lymphedema surgery in Japan?</h3>
-            <p>
-              Dr Sun initially approached lymphedema surgery with skepticism after seeing variable results during early training. Exposure to experienced lymphatic surgery centres in Japan changed his perspective and led him to pursue dedicated MOH-accredited fellowship training focused on lymphedema surgery.
-            </p>
-            <h3>What changed his view of LVA surgery?</h3>
-            <p>
-              He saw a more structured approach to patient selection, lymphatic imaging, pressure and flow planning, immediate compression strategy, supermicrosurgical technique and measured follow-up.
-            </p>
-            <h3>Does this mean LVA works for everyone?</h3>
-            <p>
-              No. LVA may offer meaningful benefit in carefully selected patients, but suitability depends on clinical assessment, lymphatic imaging, limb condition and goals of treatment. Some patients may need other approaches or continued non-surgical management.
-            </p>
+            {faqItems.map(({ question, answer }) => (
+              <div key={question}>
+                <h3>{question}</h3>
+                <p>{answer}</p>
+              </div>
+            ))}
             <h3>Where can I read more about LVA assessment?</h3>
             <p>
               Read more on <Link href="/lymphovenous-bypass-lva-surgery-singapore">LVA surgery in Singapore</Link>, <Link href="/lymphedema-surgery-singapore">lymphedema surgery options</Link>, <Link href="/how-to-choose-lymphedema-surgeon-singapore">questions to ask when choosing a lymphedema surgeon</Link>, and Dr Sun’s <Link href="/training-and-fellowships">complete training and fellowship record</Link>.
