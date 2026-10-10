@@ -885,6 +885,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'fat-grafting-singapore': {
     slug: 'fat-grafting-singapore',
+    modifiedIso: '2026-10-10',
     title: 'Fat Grafting in Singapore',
     eyebrow: 'Fat grafting',
     lead: 'Patient information on fat transfer for contour refinement, reconstructive and aesthetic uses, recovery and risks.',
@@ -899,16 +900,34 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       'The plan depends on donor-site availability, tissue quality, the recipient area, previous surgery or radiotherapy and realistic goals.'
     ],
     sections: [
-      { id: 'uses', heading: 'Where fat grafting may be used', paragraphs: ['Fat grafting can be considered for selected contour or soft-tissue concerns.'], items: ['facial volume restoration or contour refinement', 'breast contour refinement in selected aesthetic or reconstructive cases', 'softening selected contour irregularities after surgery or trauma', 'scar or radiotherapy-related tissue quality concerns in selected cases', 'small-volume body contour refinement'] },
+      {
+        id: 'uses',
+        heading: 'Where fat grafting may be used',
+        paragraphs: ['Fat grafting can be considered for selected contour or soft-tissue concerns. The target area and the donor site both need assessment because the same procedure has different roles and limits in the face, breast, scar and body.'],
+        items: ['facial volume restoration or contour refinement', 'breast contour refinement in selected aesthetic or reconstructive cases', 'softening selected contour irregularities after surgery or trauma', 'scar or radiotherapy-related tissue quality concerns in selected cases', 'small-volume body contour refinement'],
+        comparison: {
+          caption: 'How common fat-grafting discussions differ by treatment goal',
+          columns: ['Main concern', 'What may be discussed', 'Important limitation'],
+          rows: [
+            { label: 'Facial volume or contour', values: ['Selected facial fat transfer', 'Assessment should separate volume loss from tissue descent and skin changes; fat grafting does not address every facial-ageing concern.'] },
+            { label: 'Breast contour refinement', values: ['Selected aesthetic or reconstructive fat grafting', 'Fat survival varies, and fat grafting usually cannot match the predictable large-volume change of an implant.'] },
+            { label: 'Scar or tissue-quality concern', values: ['Selected fat grafting after surgery, trauma or radiotherapy', 'Previous treatment, tissue quality, scars and circulation affect whether fat grafting is appropriate.'] },
+            { label: 'Small-volume body refinement', values: ['Fat harvest with liposuction and transfer to the planned area', 'Recovery involves both donor and recipient sites, and donor-site contour issues can occur.'] }
+          ]
+        }
+      },
       { id: 'assessment', heading: 'Assessment and planning', paragraphs: ['Consultation includes assessment of both donor and recipient areas. The surgeon considers how much fat can safely be harvested, how much is needed, tissue quality, scars, circulation and whether staged treatment may be required.', 'Patients should understand that fat grafting is biological. Fat survival varies and overfilling or aggressive placement can increase complications.'] },
       { id: 'procedure', heading: 'How fat grafting is performed', paragraphs: ['Fat is harvested using liposuction through small incisions. It is then prepared and injected carefully into the target area in small parcels to encourage blood supply from surrounding tissues.', 'The approach differs depending on whether the goal is facial contouring, breast refinement, scar softening or reconstruction.'] },
+      { id: 'cost-quotation', heading: 'Fat grafting cost and quotation factors in Singapore', paragraphs: ['Fat grafting cost in Singapore can vary with the donor and recipient areas, the amount of fat required, the number of areas treated, anaesthesia, facility, whether staged treatment may be needed, medications and follow-up.', 'A quotation should follow assessment of both sites. Patients should ask what is included, what may change the plan and whether the proposed volume or contour goal may require more than one procedure.'] },
       { id: 'recovery', heading: 'Recovery after fat grafting', paragraphs: ['Recovery involves both donor and recipient sites. Bruising, swelling, tenderness, numbness and firmness can occur. Compression may be used for donor areas, depending on the plan.', 'Some early volume is swelling and some transferred fat may resorb. Final assessment takes time and staged procedures may be discussed for selected patients.'] },
-      { id: 'risks', heading: 'Risks and limitations', paragraphs: ['Risks include bleeding, infection, fat necrosis, oil cysts, calcification, contour irregularity, asymmetry, undercorrection, overcorrection, scarring, donor-site contour issues and need for further procedures. Fat grafting cannot assure a specific volume or long-term result.'] }
+      { id: 'risks', heading: 'Risks and limitations', paragraphs: ['Risks include bleeding, infection, fat necrosis, oil cysts, calcification, contour irregularity, asymmetry, undercorrection, overcorrection, scarring, donor-site contour issues and need for further procedures. Fat grafting cannot assure a specific volume or long-term result.'] },
+      { id: 'questions', heading: 'Questions to ask before fat grafting', items: ['What concern is fat grafting intended to address in my case?', 'Which donor and recipient areas need assessment?', 'How much volume change is realistic, and could staged treatment be needed?', 'What recovery should I expect at both the donor and recipient sites?', 'What alternatives should I compare for the same concern?', 'What is included in the quotation and follow-up plan?'] }
     ],
     faqs: [
       { question: 'Does all transferred fat survive?', answer: 'No. Some fat may be reabsorbed. Survival varies depending on technique, tissue quality, recipient blood supply and individual healing.' },
       { question: 'Can fat grafting replace implants?', answer: 'Sometimes fat grafting can provide modest volume or contour refinement, but it usually cannot match the predictable large-volume change of an implant.' },
-      { question: 'Is fat grafting permanent?', answer: 'Fat that survives may persist, but volume can change with weight change, ageing and individual biology. Results vary between individuals.' }
+      { question: 'Is fat grafting permanent?', answer: 'Fat that survives may persist, but volume can change with weight change, ageing and individual biology. Results vary between individuals.' },
+      { question: 'How much does fat grafting cost in Singapore?', answer: 'Cost varies with the donor and recipient areas, the amount of fat required, the number of areas treated, anaesthesia, facility, medications, follow-up and whether staged treatment may be needed. A meaningful quotation should follow assessment of both sites.' }
     ]
   },
   'thread-lifting-singapore': {
