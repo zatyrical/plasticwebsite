@@ -133,7 +133,7 @@ export default function ProcedureArticlePage({ article }: Props) {
     'lasers-injectables-singapore': ['face-neck-lift-singapore', 'thread-lifting-singapore', 'fat-grafting-singapore'],
     'face-neck-lift-singapore': ['eyebag-removal-lower-blepharoplasty-singapore', 'thread-lifting-singapore', 'fat-grafting-singapore', 'asian-eyelid-surgery-singapore'],
     'thread-lifting-singapore': ['face-neck-lift-singapore', 'fat-grafting-singapore', 'lasers-injectables-singapore'],
-    'fat-grafting-singapore': ['face-neck-lift-singapore', 'thread-lifting-singapore', 'asian-eyelid-surgery-singapore']
+    'fat-grafting-singapore': ['face-neck-lift-singapore', 'breast-augmentation-singapore', 'body-contouring-liposuction-singapore', 'thread-lifting-singapore']
   };
   const preferredHrefs = (relatedByProcedure[article.slug] ?? []).map((slug) => `/${slug}`);
   const seenRelated = new Set<string>();
