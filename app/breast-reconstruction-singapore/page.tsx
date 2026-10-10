@@ -41,51 +41,44 @@ export const metadata: Metadata = {
   ]
 };
 
+const faqItems = [
+  {
+    question: 'Is breast reconstruction done at the same time as mastectomy?',
+    answer: 'It can be. Immediate reconstruction is performed at the same operation as mastectomy in selected patients. Delayed reconstruction may be preferred when additional cancer treatment is needed, when radiotherapy is expected, or when the patient wants more time to decide.'
+  },
+  {
+    question: 'Is implant or DIEP flap reconstruction better?',
+    answer: 'There is no single option that suits every patient. Implant reconstruction and DIEP flap reconstruction have different advantages, limitations, risks and recovery patterns. For some patients, autologous reconstruction may be the most suitable choice. For others, implant reconstruction may better match their priorities. The right choice depends on cancer treatment plans, anatomy, radiotherapy, donor tissue availability, medical factors and patient preference.'
+  },
+  {
+    question: 'What is DIEP flap breast reconstruction?',
+    answer: 'DIEP flap reconstruction uses skin and fat from the lower abdomen to reconstruct the breast while preserving the abdominal muscles. The tissue is transferred with its blood vessels and reconnected using microsurgery.'
+  },
+  {
+    question: 'Will breast reconstruction affect cancer treatment?',
+    answer: 'Breast reconstruction should be coordinated with the breast surgeon and oncology team. The priority is safe cancer treatment. Timing and method of reconstruction should take into account radiotherapy, chemotherapy and surveillance needs.'
+  },
+  {
+    question: 'Will I need more than one operation?',
+    answer: 'Some patients need or choose additional procedures after the first reconstruction. These may include revision of shape, fat grafting, nipple reconstruction, areola tattooing or surgery for symmetry.'
+  },
+  {
+    question: 'Can reconstruction be done years after mastectomy?',
+    answer: 'Yes. Delayed breast reconstruction can be considered months or years after mastectomy, depending on the patient’s health, previous treatment, chest tissue condition and reconstructive goals.'
+  }
+];
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'Is breast reconstruction done at the same time as mastectomy?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'It can be. Immediate reconstruction is performed at the same operation as mastectomy in selected patients. Delayed reconstruction may be preferred when additional cancer treatment is needed, when radiotherapy is expected, or when the patient wants more time to decide.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Is implant or DIEP flap reconstruction better?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'There is no single option that suits every patient. Implant reconstruction and DIEP flap reconstruction have different advantages, limitations, risks and recovery patterns. The right choice depends on cancer treatment plans, anatomy, radiotherapy, donor tissue availability, medical factors and patient preference.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What is DIEP flap breast reconstruction?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'DIEP flap reconstruction uses skin and fat from the lower abdomen to reconstruct the breast while preserving the abdominal muscles. The tissue is transferred with its blood vessels and reconnected using microsurgery.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Will breast reconstruction affect cancer treatment?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Breast reconstruction should be coordinated with the breast surgeon and oncology team. The priority is safe cancer treatment. Timing and method of reconstruction should take into account radiotherapy, chemotherapy and surveillance needs.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Can reconstruction be done years after mastectomy?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes. Delayed breast reconstruction can be considered months or years after mastectomy, depending on the patient’s health, previous treatment, chest tissue condition and reconstructive goals.'
-      }
+  mainEntity: faqItems.map(({ question, answer }) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: answer
     }
-  ]
+  }))
 };
 
 const medicalPageJsonLd = {
@@ -311,18 +304,12 @@ export default function BreastReconstructionPage() {
             </p>
 
             <h2 id="faq">Frequently asked questions</h2>
-            <h3>Is breast reconstruction done at the same time as mastectomy?</h3>
-            <p>It can be. Immediate reconstruction is performed at the same operation as mastectomy in selected patients. Delayed reconstruction may be preferred when additional cancer treatment is needed, when radiotherapy is expected, or when the patient wants more time to decide.</p>
-            <h3>Is implant or DIEP flap reconstruction better?</h3>
-            <p>There is no single option that suits every patient. Implant reconstruction and DIEP flap reconstruction have different advantages, limitations, risks and recovery patterns. For some patients, autologous reconstruction may be the most suitable choice. For others, implant reconstruction may better match their priorities. The right choice depends on cancer treatment plans, anatomy, radiotherapy, donor tissue availability, medical factors and patient preference.</p>
-            <h3>What is DIEP flap breast reconstruction?</h3>
-            <p>DIEP flap reconstruction uses skin and fat from the lower abdomen to reconstruct the breast while preserving the abdominal muscles. The tissue is transferred with its blood vessels and reconnected using microsurgery.</p>
-            <h3>Will breast reconstruction affect cancer treatment?</h3>
-            <p>Breast reconstruction should be coordinated with the breast surgeon and oncology team. The priority is safe cancer treatment. Timing and method of reconstruction should take into account radiotherapy, chemotherapy and surveillance needs.</p>
-            <h3>Will I need more than one operation?</h3>
-            <p>Some patients need or choose additional procedures after the first reconstruction. These may include revision of shape, fat grafting, nipple reconstruction, areola tattooing or surgery for symmetry.</p>
-            <h3>Can reconstruction be done years after mastectomy?</h3>
-            <p>Yes. Delayed breast reconstruction can be considered months or years after mastectomy, depending on the patient’s health, previous treatment, chest tissue condition and reconstructive goals.</p>
+            {faqItems.map(({ question, answer }) => (
+              <div key={question}>
+                <h3>{question}</h3>
+                <p>{answer}</p>
+              </div>
+            ))}
           </div>
         </section>
 
