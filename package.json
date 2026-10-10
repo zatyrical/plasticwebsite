@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "audit:faq-parity": "node scripts/audit-faq-parity.mjs"
   },
   "dependencies": {
     "@next/mdx": "^16.2.12",
