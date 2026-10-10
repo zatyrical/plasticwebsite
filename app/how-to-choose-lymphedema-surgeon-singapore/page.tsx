@@ -48,43 +48,36 @@ export const metadata: Metadata = {
   ]
 };
 
+const faqs = [
+  {
+    question: 'What should I ask before choosing a lymphedema surgeon?',
+    answer: 'Patients may wish to ask about dedicated lymphedema surgery training, the duration and structure of that training, experience with LVA and lymph node transfer, access to ICG lymphography and ultrasound localisation, postoperative care, risks, alternatives and realistic outcomes.'
+  },
+  {
+    question: 'Why does dedicated lymphedema surgery training matter?',
+    answer: 'Lymphedema surgery requires more than general microsurgical ability. It involves disease staging, lymphatic imaging, ultrasound localisation, supermicrosurgical technique, conservative care, cellulitis management and long-term follow-up. Several months of focused exposure may help a surgeon understand the wider range of treatment options.'
+  },
+  {
+    question: 'Is ICG lymphography important for lymphedema surgery planning?',
+    answer: 'ICG lymphography can help map superficial lymphatic flow patterns and identify lymphatic channels that may be suitable for bypass planning. The exact imaging needed depends on the patient and clinical setting.'
+  },
+  {
+    question: 'Should a lymphedema surgeon be trained in ultrasound localisation of lymphatics?',
+    answer: 'Ultrasound localisation can help identify lymphatic channels and nearby veins for lymphovenous bypass planning. Patients may wish to ask whether their surgeon is trained in both ICG lymphography and ultrasound-based localisation where these are used.'
+  }
+];
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'What should I ask before choosing a lymphedema surgeon?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Patients may wish to ask about dedicated lymphedema surgery training, the duration and structure of that training, experience with LVA and lymph node transfer, access to ICG lymphography and ultrasound localisation, postoperative care, risks, alternatives and realistic outcomes.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Why does dedicated lymphedema surgery training matter?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Lymphedema surgery requires more than general microsurgical ability. It involves disease staging, lymphatic imaging, ultrasound localisation, supermicrosurgical technique, conservative care, cellulitis management and long-term follow-up. Several months of focused exposure may help a surgeon understand the wider range of treatment options.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Is ICG lymphography important for lymphedema surgery planning?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'ICG lymphography can help map superficial lymphatic flow patterns and identify lymphatic channels that may be suitable for bypass planning. The exact imaging needed depends on the patient and clinical setting.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Should a lymphedema surgeon be trained in ultrasound localisation of lymphatics?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Ultrasound localisation can help identify lymphatic channels and nearby veins for lymphovenous bypass planning. Patients may wish to ask whether their surgeon is trained in both ICG lymphography and ultrasound-based localisation where these are used.'
-      }
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer
     }
-  ]
+  }))
 };
 
 const articleJsonLd = {
@@ -162,6 +155,7 @@ export default function ChooseLymphedemaSurgeonPage() {
                 <li><a href="#treatment-options">Range of treatment options</a></li>
                 <li><a href="#questions">Questions to ask</a></li>
                 <li><a href="#red-flags">Caution signs</a></li>
+                <li><a href="#faq">Frequently asked questions</a></li>
               </ul>
             </aside>
           </div>
@@ -308,6 +302,14 @@ export default function ChooseLymphedemaSurgeonPage() {
             <p>
               It is reasonable to ask for clarity on training, case assessment and follow-up. This due diligence helps patients make a more informed decision without relying only on titles, advertisements or isolated claims.
             </p>
+
+            <h2 id="faq">Frequently asked questions</h2>
+            {faqs.map((faq) => (
+              <section className="article-faq-card" key={faq.question}>
+                <h3>{faq.question}</h3>
+                <p>{faq.answer}</p>
+              </section>
+            ))}
 
             <h2>Further lymphedema education</h2>
             <p>
