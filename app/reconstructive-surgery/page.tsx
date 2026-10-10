@@ -12,7 +12,21 @@ export const metadata: Metadata = {
     title: 'Reconstructive Surgery Treatments in Singapore',
     description: 'A focused overview of reconstructive, lymphatic and scar surgery treatment pages by Dr Jeremy Sun in Singapore.',
     url: '/reconstructive-surgery',
-    type: 'website'
+    type: 'website',
+    images: [
+      {
+        url: '/images/reconstructive-tiles/lymphedema-surgery.jpg',
+        width: 900,
+        height: 900,
+        alt: 'Swollen arm image representing the reconstructive and lymphatic surgery treatment collection'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Reconstructive Surgery Treatments in Singapore',
+    description: 'A focused overview of reconstructive, lymphatic and scar surgery treatment pages by Dr Jeremy Sun in Singapore.',
+    images: ['/images/reconstructive-tiles/lymphedema-surgery.jpg']
   }
 };
 

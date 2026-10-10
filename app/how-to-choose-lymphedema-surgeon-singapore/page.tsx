@@ -19,7 +19,22 @@ export const metadata: Metadata = {
     description:
       'Patient guidance on lymphedema surgeon training, imaging, LVA, lymph node transfer, ultrasound localisation and questions to ask before consultation.',
     url: pagePath,
-    type: 'article'
+    type: 'article',
+    images: [
+      {
+        url: '/images/reconstructive-tiles/lva-surgery.jpg',
+        width: 900,
+        height: 900,
+        alt: 'Microsurgery instruments representing lymphovenous bypass and lymphedema surgeon assessment'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Choosing a Lymphedema Surgeon in Singapore | Dr Jeremy Sun',
+    description:
+      'Patient guidance on lymphedema surgeon training, imaging, LVA, lymph node transfer, ultrasound localisation and questions to ask before consultation.',
+    images: ['/images/reconstructive-tiles/lva-surgery.jpg']
   },
   keywords: [
     'lymphedema surgeon Singapore',
