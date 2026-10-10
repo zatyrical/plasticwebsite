@@ -1,0 +1,35 @@
+LymphedAsia WordPress pre-edit backup
+Captured: 2026-10-10 19:xx SGT
+Site: https://lymphedasia.com
+Post ID: 4167
+Title: Lymphedema Therapy: Lymph Drainage Massage & Manual Lymphatic Drainage
+Status: publish
+Slug: manual-lymphatic-drainage-therapy
+Modified before edit: 2026-08-25 11:18:10
+Live URL: https://lymphedasia.com/manual-lymphatic-drainage-therapy/
+
+Exact post_content before edit:
+<p><strong>Short answer:</strong> Manual lymphatic drainage is a gentle therapist-led technique that may help selected lymphedema patients, especially as part of complete decongestive therapy. It works best when combined with compression, movement and skin care.</p>
+<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026. This article is for education only and does not replace personalised medical assessment.</em></p>
+<h2>How MLD fits into therapy</h2>
+<p>MLD aims to guide fluid toward functioning lymphatic pathways. It is not the same as spa massage or deep tissue work, and it is not a stand-alone cure.</p>
+<h2>Who may benefit</h2>
+<ul><li>Patients with early or moderate swelling who tolerate therapy well.</li><li>Patients in an intensive decongestive phase with bandaging.</li><li>Patients with trunk, breast, limb or head-and-neck swelling where therapist expertise is available.</li><li>Patients learning safe self-management techniques.</li></ul>
+<h2>Safety checks</h2>
+<p>MLD should be avoided or delayed in active cellulitis, fever, untreated wounds, suspected DVT, unstable heart failure or unexplained new swelling until medically assessed.</p>
+<h2>When MLD is not enough</h2>
+<p>If swelling progresses, infections recur or compression becomes increasingly difficult, the treatment plan should be reviewed. Lymphatic imaging may help identify whether LVA/LVB is appropriate.</p>
+<h2>Frequently asked questions</h2>
+<h3>How often is MLD needed?</h3><p>Frequency varies; some patients need an intensive phase, others only periodic review.</p>
+<h3>Can I learn MLD myself?</h3><p>Some simplified techniques can be taught, but they should be demonstrated by a trained therapist.</p>
+<h3>Does MLD remove the need for compression?</h3><p>Usually no. Compression often remains central to control.</p>
+<p class="notice-text"><strong>Related surgical guide:</strong> If swelling remains persistent despite appropriate conservative care, or if recurrent cellulitis is a major issue, read <a href="https://lymphedasia.com/lva-surgery-singapore/">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>
+
+Storage verification before edit:
+- wp_postmeta query for _elementor_edit_mode, _elementor_data and _elementor_template_type returned 0 rows.
+- Therefore this post is maintained in post_content, not Elementor layout JSON.
+- WPVibe post update is the supported reversible save path and keeps a WordPress revision.
+
+Rollback:
+1. Restore the exact post_content above to post 4167 with WPVibe post update.
+2. Purge page cache if the restored revision is not immediately visible.
