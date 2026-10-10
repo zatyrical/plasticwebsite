@@ -27,11 +27,11 @@ The first supported WordPress edit batch was published to post `4218` at `2026-1
 
 No enquiry or test submission was made.
 
-## Checkpoint and remaining patch
+## Checkpoint and completed second patch
 
 The second editor call returned without a reliable receipt. A fresh public fetch showed that none of its proposed replacements had reached the live page, while the first batch was live. The WordPress connector then reached its rolling fair-use limit and explicitly blocked further reads and writes until approximately `2026-10-10T16:10:00+00:00` (`2026-10-11 00:10` Singapore time). The account’s banked reset was not used without explicit authorisation.
 
-After the connector becomes available, reconcile the editor source before writing and replace only still-present phrases in these remaining groups:
+After the connector became available at `2026-10-11 00:10` Singapore time, a fresh authenticated `context=edit` read confirmed that the first batch remained live and all proposed second-batch phrases were still present. A single exact match-once edit then replaced the still-current 13,229-byte source span; it made 17 bounded wording and accessibility changes in these groups:
 
 1. deterministic stage table and “reversible” labels;
 2. “gold-standard” imaging and blanket referral urgency;
@@ -40,25 +40,38 @@ After the connector becomes available, reconcile the editor source before writin
 5. the bottom urgency-led consultation box and deterministic key takeaways;
 6. the second illustration’s generic alternative text.
 
-Do not retry the uncertain second write blindly. First inspect post `4218` with `context=edit`, match each old/new phrase, then run only the missing exact match-once edits.
+The edit:
+
+- replaced deterministic stage-table labels with qualified descriptions of typical findings and management;
+- described lymphoscintigraphy as an established imaging test rather than “gold-standard”;
+- qualified treatment response, CDT, LVA and VLNT wording and removed “life-changing” language;
+- replaced patient-like outcome copy with a general management statement;
+- replaced “most costly mistakes”, “don’t wait” and “best time is now” urgency with neutral assessment guidance;
+- linked consultation prompts to the maintained private-assessment page;
+- added descriptive alternative text to the second illustration.
+
+The supported editor returned `status: edited`, `replaced: 1` and saved the post at `2026-10-10T16:11:47+00:00`. Its snippet-level Gutenberg check warned that the replaced span began inside an existing table block. A fresh full editor read immediately reconciled the result: all 98 opening/closing block pairs and all six table-block pairs were balanced. Fresh public HTML contained no “attempt recovery” text and rendered normally, so no blind retry or rollback was needed.
 
 ## Rollback
 
 - Exact pre-edit WordPress source and metadata: `reports/backups/20261010-lymphedasia-what-is-post4218.json`.
 - WordPress post revisions are also retained by the supported content editor.
 
-## Live validation at this checkpoint
+## Final live validation
 
 - URL returned a complete HTML document.
 - One H1.
 - One self-referencing canonical: `https://lymphedasia.com/what-is-lymphedema/`.
 - No `noindex` token.
-- The new opening, clinical-context note, first consultation link and first descriptive image alt were present once.
-- The untouched stage/treatment phrases proved the uncertain second batch had not published.
+- The new opening, clinical-context note, consultation links and both descriptive image alts were present.
+- The revised stage-table heading, imaging explanation, qualified treatment wording, neutral assessment heading and revised key takeaways each appeared once.
+- The maintained private-consultation link appeared three times in relevant contexts.
+- “Reversible?”, “gold-standard”, “very effectively controlled”, “genuine long-term reduction”, “most effective at Stages”, “regenerate lymphatic function”, “life-changing”, the patient-like Dr Sun outcome sentence, “most costly mistakes” and “best time to seek help is now” were absent.
+- The public page contained no Gutenberg recovery warning.
+- Post modification time: `2026-10-10T16:11:47+00:00` (`2026-10-11 00:11:47` Singapore time).
 
 ## Waiting gates and next action
 
-- Resume this same branch and page after `2026-10-11 00:10` Singapore time; finish, validate and publish this coherent batch before opening a PR.
 - GBP: next eligible check `2026-10-11 07:06` Singapore time.
 - GSC/GA4: next eligible check `2026-10-11 09:08` Singapore time.
 - Overseas crawl: next eligible check `2026-10-12 19:00` Singapore time.
