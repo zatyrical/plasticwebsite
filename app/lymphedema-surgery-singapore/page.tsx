@@ -99,35 +99,44 @@ const medicalPageJsonLd = {
   ]
 };
 
+const faqItems = [
+  {
+    question: 'Is lymphedema surgery a cure?',
+    answer: 'Lymphedema surgery is not usually described as curative. It may improve drainage, symptoms or long-term management in selected patients, but many patients still require compression, therapy and follow-up.'
+  },
+  {
+    question: 'Am I suitable for LVA surgery?',
+    answer: 'Suitability for LVA depends on clinical examination and lymphatic imaging. LVA is commonly associated with early-stage disease, but some advanced-stage patients may still be suitable if the limb remains fluid-dominant rather than dominated by solid tissue, scarring or fibrosis. Assessment is needed before any recommendation can be made.'
+  },
+  {
+    question: 'Why consider LVA before larger operations?',
+    answer: 'Where suitable lymphatic channels are present, LVA is often considered first because it is less invasive than larger reconstructive or reductive procedures, usually has a shorter recovery, and may produce early decongestion in selected patients. It is not suitable for every patient, and imaging is important for planning.'
+  },
+  {
+    question: 'Can lymphedema surgery reduce cellulitis?',
+    answer: 'Recurrent cellulitis or infection is a strong reason to seek surgical assessment. In appropriately selected patients, lymphatic surgery may significantly reduce the risk or frequency of infection. Outcomes vary, and infection prevention still involves skin care, compression where advised, and early medical treatment of cellulitis.'
+  },
+  {
+    question: 'Do I need compression after surgery?',
+    answer: 'Many patients continue compression after surgery, at least during part of their recovery or long-term management. The plan depends on disease severity, procedure type and response to treatment.'
+  },
+  {
+    question: 'When should I seek medical attention urgently?',
+    answer: 'Patients with sudden worsening swelling, fever, spreading redness, severe pain, shortness of breath or symptoms suggestive of infection or blood clot should seek urgent medical attention.'
+  }
+];
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'Is lymphedema surgery a cure?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Lymphedema surgery is not usually described as curative. It may improve drainage, symptoms or long-term management in selected patients, but many patients still require compression, therapy and follow-up.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Am I suitable for LVA surgery?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Suitability for LVA depends on clinical examination and lymphatic imaging. Some advanced-stage patients may still be suitable if the limb remains fluid-dominant rather than dominated by solid tissue, scarring or fibrosis.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Can lymphedema surgery reduce cellulitis?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Recurrent cellulitis or infection is a strong reason to seek surgical assessment. In appropriately selected patients, lymphatic surgery may significantly reduce the risk or frequency of infection, although outcomes vary.'
-      }
+  mainEntity: faqItems.map(({ question, answer }) => ({
+    '@type': 'Question',
+    name: question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: answer
     }
-  ]
+  }))
 };
 
 export default function LymphedemaSurgeryPage() {
@@ -356,30 +365,12 @@ export default function LymphedemaSurgeryPage() {
             </p>
 
             <h2 id="faq">Frequently asked questions</h2>
-            <h3>Is lymphedema surgery a cure?</h3>
-            <p>
-              Lymphedema surgery is not usually described as curative. It may improve drainage, symptoms or long-term management in selected patients, but many patients still require compression, therapy and follow-up.
-            </p>
-            <h3>Am I suitable for LVA surgery?</h3>
-            <p>
-              Suitability for LVA depends on clinical examination and lymphatic imaging. LVA is commonly associated with early-stage disease, but some advanced-stage patients may still be suitable if the limb remains fluid-dominant rather than dominated by solid tissue, scarring or fibrosis. Assessment is needed before any recommendation can be made.
-            </p>
-            <h3>Why consider LVA before larger operations?</h3>
-            <p>
-              Where suitable lymphatic channels are present, LVA is often considered first because it is less invasive than larger reconstructive or reductive procedures, usually has a shorter recovery, and may produce early decongestion in selected patients. It is not suitable for every patient, and imaging is important for planning.
-            </p>
-            <h3>Can lymphedema surgery reduce cellulitis?</h3>
-            <p>
-              Recurrent cellulitis or infection is a strong reason to seek surgical assessment. In appropriately selected patients, lymphatic surgery may significantly reduce the risk or frequency of infection. Outcomes vary, and infection prevention still involves skin care, compression where advised, and early medical treatment of cellulitis.
-            </p>
-            <h3>Do I need compression after surgery?</h3>
-            <p>
-              Many patients continue compression after surgery, at least during part of their recovery or long-term management. The plan depends on disease severity, procedure type and response to treatment.
-            </p>
-            <h3>When should I seek medical attention urgently?</h3>
-            <p>
-              Patients with sudden worsening swelling, fever, spreading redness, severe pain, shortness of breath or symptoms suggestive of infection or blood clot should seek urgent medical attention.
-            </p>
+            {faqItems.map(({ question, answer }) => (
+              <div key={question}>
+                <h3>{question}</h3>
+                <p>{answer}</p>
+              </div>
+            ))}
           </div>
         </section>
 
