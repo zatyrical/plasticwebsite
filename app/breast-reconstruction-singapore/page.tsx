@@ -7,6 +7,8 @@ import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoId
 
 const pageTitle = 'Breast Reconstruction in Singapore';
 const pageUrl = `${baseUrl}/breast-reconstruction-singapore`;
+const socialImage = '/images/reconstructive-tiles/breast-reconstruction.jpg';
+const socialImageAlt = 'Silicone breast implant image representing breast reconstruction surgery';
 
 export const metadata: Metadata = {
   title: 'Breast Reconstruction Singapore | Implant & DIEP Flap',
@@ -20,7 +22,15 @@ export const metadata: Metadata = {
     description:
       'Learn about breast reconstruction after mastectomy or breast-conserving surgery, including implant reconstruction, DIEP flap reconstruction, timing, recovery and risks.',
     url: '/breast-reconstruction-singapore',
-    type: 'article'
+    type: 'article',
+    images: [{ url: socialImage, width: 900, height: 900, alt: socialImageAlt }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Breast Reconstruction in Singapore | Dr Jeremy Sun',
+    description:
+      'Learn about implant and DIEP flap breast reconstruction, timing, recovery and risks.',
+    images: [socialImage]
   },
   keywords: [
     'breast reconstruction Singapore',
