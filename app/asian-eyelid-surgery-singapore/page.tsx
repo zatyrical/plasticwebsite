@@ -73,51 +73,44 @@ const medicalPageJsonLd = {
   ]
 };
 
+const faqs = [
+  {
+    question: 'Is Asian eyelid surgery the same as double eyelid surgery?',
+    answer: 'Double eyelid surgery is one type of Asian eyelid surgery. Asian eyelid surgery may also include upper blepharoplasty, ptosis correction, revision eyelid surgery or combined procedures depending on the patient’s anatomy and goals.'
+  },
+  {
+    question: 'Will the result look natural?',
+    answer: 'The goal is usually to create an eyelid shape that suits the patient’s existing anatomy and facial proportions. Naturalness depends on crease design, tissue handling, eyelid function, healing and realistic planning. A consultation is needed to discuss what may be achievable for the individual patient.'
+  },
+  {
+    question: 'Is incisional or non-incisional double eyelid surgery better?',
+    answer: 'There is no single option that is right for every patient. Non-incisional techniques may suit selected patients with favourable anatomy and minimal excess skin. Incisional surgery may be more appropriate when there is excess skin, thicker tissue, ptosis, asymmetry or previous surgery. The choice should be based on clinical assessment.'
+  },
+  {
+    question: 'Is ptosis surgery different from double eyelid surgery?',
+    answer: 'Yes. Ptosis surgery addresses drooping of the upper eyelid related to eyelid muscle or tendon function. Double eyelid surgery mainly creates or defines an eyelid crease. Some patients need both issues assessed together.'
+  },
+  {
+    question: 'How long does swelling last?',
+    answer: 'Most visible swelling after non-incisional eyelid procedures may take around two weeks to one month to subside. After incisional eyelid surgery, swelling and scar maturation may continue to improve over three to six months. Individual recovery varies.'
+  },
+  {
+    question: 'Can revision eyelid surgery fix a previous result?',
+    answer: 'Revision surgery may improve selected concerns, but it is usually more complex than first-time surgery. Scar tissue, previous tissue removal and eyelid function affect what can be safely changed. A consultation is needed to assess realistic options.'
+  }
+] as const;
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'Is Asian eyelid surgery the same as double eyelid surgery?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Double eyelid surgery is one type of Asian eyelid surgery. Asian eyelid surgery may also include upper blepharoplasty, ptosis correction, revision eyelid surgery or combined procedures depending on the patient’s anatomy and goals.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Is incisional or non-incisional double eyelid surgery better?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'There is no single option that is right for every patient. Non-incisional techniques may suit selected patients with favourable anatomy and minimal excess skin. Incisional surgery may be more appropriate when there is excess skin, thicker tissue, ptosis, asymmetry or previous surgery.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Is ptosis surgery different from double eyelid surgery?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes. Ptosis surgery addresses drooping of the upper eyelid related to eyelid muscle or tendon function. Double eyelid surgery mainly creates or defines an eyelid crease. Some patients need both issues assessed together.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'How long does swelling last after eyelid surgery?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Most visible swelling after non-incisional eyelid procedures may take around two weeks to one month to subside. After incisional eyelid surgery, swelling and scar maturation may continue to improve over three to six months. Individual recovery varies.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Can revision eyelid surgery fix a previous result?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Revision surgery may improve selected concerns, but it is usually more complex than first-time surgery. Scar tissue, previous tissue removal and eyelid function affect what can be safely changed. A consultation is needed to assess realistic options.'
-      }
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer
     }
-  ]
+  }))
 };
 
 export default function AsianEyelidSurgeryPage() {
@@ -185,6 +178,11 @@ export default function AsianEyelidSurgeryPage() {
             <div className="reviewer-card" aria-label="Medical review information">
               <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
+              <nav className="reviewer-evidence-links" aria-label="About the clinical reviewer">
+                <Link href="/plastic-surgeon-singapore">Surgeon profile</Link>
+                <Link href="/training-and-fellowships">Training and fellowships</Link>
+                <Link href="/publications">Selected publications</Link>
+              </nav>
             </div>
 
             <h2 id="what-is-asian-eyelid-surgery">What is Asian eyelid surgery?</h2>
@@ -340,30 +338,12 @@ export default function AsianEyelidSurgeryPage() {
             </p>
 
             <h2 id="faq">Frequently asked questions</h2>
-            <h3>Is Asian eyelid surgery the same as double eyelid surgery?</h3>
-            <p>
-              Double eyelid surgery is one type of Asian eyelid surgery. Asian eyelid surgery may also include upper blepharoplasty, ptosis correction, revision eyelid surgery or combined procedures depending on the patient’s anatomy and goals.
-            </p>
-            <h3>Will the result look natural?</h3>
-            <p>
-              The goal is usually to create an eyelid shape that suits the patient’s existing anatomy and facial proportions. Naturalness depends on crease design, tissue handling, eyelid function, healing and realistic planning. A consultation is needed to discuss what may be achievable for the individual patient.
-            </p>
-            <h3>Is incisional or non-incisional double eyelid surgery better?</h3>
-            <p>
-              There is no single option that is right for every patient. Non-incisional techniques may suit selected patients with favourable anatomy and minimal excess skin. Incisional surgery may be more appropriate when there is excess skin, thicker tissue, ptosis, asymmetry or previous surgery. The choice should be based on clinical assessment.
-            </p>
-            <h3>Is ptosis surgery different from double eyelid surgery?</h3>
-            <p>
-              Yes. Ptosis surgery addresses drooping of the upper eyelid related to eyelid muscle or tendon function. Double eyelid surgery mainly creates or defines an eyelid crease. Some patients need both issues assessed together.
-            </p>
-            <h3>How long does swelling last?</h3>
-            <p>
-              Most visible swelling after non-incisional eyelid procedures may take around two weeks to one month to subside. After incisional eyelid surgery, swelling and scar maturation may continue to improve over three to six months. Individual recovery varies.
-            </p>
-            <h3>Can revision eyelid surgery fix a previous result?</h3>
-            <p>
-              Revision surgery may improve selected concerns, but it is usually more complex than first-time surgery. Scar tissue, previous tissue removal and eyelid function affect what can be safely changed. A consultation is needed to assess realistic options.
-            </p>
+            {faqs.map((faq) => (
+              <div key={faq.question}>
+                <h3>{faq.question}</h3>
+                <p>{faq.answer}</p>
+              </div>
+            ))}
             <h2 id="related">Related aesthetic surgery pages</h2>
             <div className="related-grid">
               <Link href="/eyebag-removal-lower-blepharoplasty-singapore" className="related-card"><small>Lower eyelid surgery</small><strong>Eyebag Removal and Lower Blepharoplasty in Singapore</strong><span>Read page</span></Link>
