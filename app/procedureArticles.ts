@@ -161,7 +161,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'tummy-tuck-singapore': {
     slug: 'tummy-tuck-singapore',
-    modifiedIso: '2026-10-09',
+    modifiedIso: '2026-10-10',
     title: 'Abdominoplasty Singapore | Tummy Tuck Surgery & Diastasis Repair',
     eyebrow: 'Tummy tuck & abdominoplasty',
     lead: 'A patient guide to abdominoplasty and tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti or divarication repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
@@ -218,6 +218,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         paragraphs: ['Consultation includes weight history, pregnancy history, plans for future pregnancy, previous abdominal surgery, C-section scars, hernia symptoms, smoking status, medications, medical conditions, skin quality, fat distribution and abdominal wall assessment.', 'A formal examination helps determine whether the issue is mainly loose skin, fat, muscle separation, scar tethering, visceral abdominal fullness or a combination. This distinction matters because different problems require different treatments.']
       },
       {
+        id: 'cost-quotation',
+        heading: 'Tummy tuck cost and quotation in Singapore',
+        paragraphs: ['Tummy tuck cost in Singapore varies because mini, full and extended abdominoplasty are different operations. A quotation may also depend on whether the plan includes diastasis recti repair, liposuction, assessment or coordination for a suspected hernia, anaesthesia, facility, garments, medications, follow-up and whether treatment is combined or staged.', 'A meaningful quotation should follow examination. Patients should ask what is included, what could change the cost, and whether the proposed operation addresses skin, fat, abdominal wall laxity or a combination. An advertised starting price may not represent the plan that is appropriate for a particular patient.']
+      },
+      {
         id: 'scars-belly-button',
         heading: 'Scars and belly button considerations',
         paragraphs: ['Tummy tuck surgery leaves a lower-abdominal scar. The scar length and position depend on the amount and distribution of excess skin, previous scars and the surgical plan. A longer scar may sometimes be needed to avoid bunching or dog-ears.', 'In a full tummy tuck, the belly button is usually brought through the tightened skin flap. Belly button shape, scar visibility, asymmetry and healing changes should be discussed before surgery. No surgical scar can be expected to be invisible.']
@@ -246,6 +251,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       { question: 'Who may be suitable for a mini tummy tuck in Singapore?', answer: 'A mini tummy tuck may be considered only when the main concern is limited lower-abdominal skin excess below the belly button, with suitable tissue quality and abdominal-wall findings. It is not a shortcut for every abdominoplasty patient, and a full assessment is needed to decide whether mini tummy tuck, full tummy tuck, liposuction, staged treatment or no surgery is more appropriate.' },
       { question: 'Is abdominoplasty surgery in Singapore used for divarication?', answer: 'Abdominoplasty may include abdominal wall repair for diastasis recti or divarication in suitable patients, but it is not the same as hernia surgery. Assessment should confirm whether the concern is muscle separation, loose skin, fat, hernia or a combination.' },
       { question: 'What should patients understand about tummy tuck surgery in Singapore?', answer: 'Tummy tuck surgery, or abdominoplasty, is usually considered for selected loose abdominal skin, lower-abdominal folds or abdominal wall laxity rather than general weight loss. A Singapore consultation should clarify whether the concern is skin, fat, diastasis recti, hernia, visceral fullness or a combination, because each may need a different plan.' },
+      { question: 'How much does tummy tuck cost in Singapore?', answer: 'Cost varies with whether the plan is a mini, full or extended abdominoplasty, whether diastasis repair or liposuction is included, surgical complexity, anaesthesia, facility, garments, medications, follow-up and whether procedures are combined or staged. A meaningful quotation should follow examination because the safest plan may differ between patients.' },
       { question: 'When can I consider tummy tuck after pregnancy?', answer: 'Timing depends on recovery from pregnancy, breastfeeding, weight stability, childcare demands, medical fitness and whether future pregnancy is planned. This should be discussed in consultation.' },
       { question: 'Will the tummy tuck scar be visible?', answer: 'Yes. A lower-abdominal scar is expected. Scar position and length depend on anatomy and skin excess, and scar maturation varies between individuals.' },
       { question: 'Is tummy tuck a weight-loss operation?', answer: 'No. It is a body-contouring operation for selected skin, fat and abdominal wall concerns. Weight should usually be reasonably stable before surgery.' }
