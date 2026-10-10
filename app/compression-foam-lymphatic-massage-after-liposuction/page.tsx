@@ -33,6 +33,12 @@ export const metadata: Metadata = {
     url: `/${slug}`,
     type: 'article',
     images: [{ url: foamImage, width: 802, height: 1280, alt: 'Foam recovery pad worn under a postoperative compression garment after liposuction' }]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
+    images: [foamImage]
   }
 };
 
