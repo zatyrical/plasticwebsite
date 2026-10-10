@@ -11,7 +11,7 @@ const slug = '24-hour-rapid-recovery-breast-augmentation-singapore';
 const title = '24-Hour Rapid Recovery Breast Augmentation in Singapore';
 const description = procedurePagePresentation[slug].description;
 const articleUrl = `${baseUrl}/${slug}`;
-const modifiedIso = '2026-10-09';
+const modifiedIso = '2026-10-10';
 const socialImage = '/images/aesthetic-breast/recovery-planning-still-life.webp';
 const socialImageAlt = 'Recovery-planning still life for breast augmentation patient education';
 
@@ -47,34 +47,34 @@ const faqJsonLd = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'What is 24-hour rapid recovery breast augmentation?',
+      name: 'Is 24-hour recovery breast augmentation available in Singapore?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'It is a selected-patient breast augmentation recovery protocol built around careful planning, precise implant-pocket creation, gentle tissue handling, bleeding control and structured early movement. It should not be interpreted as an assured recovery timeline for every patient.'
+        text: 'Selected rapid recovery principles can be discussed during breast augmentation consultation in Singapore. Suitability depends on the patient, surgical plan and surgeon-specific protocol.'
       }
     },
     {
       '@type': 'Question',
-      name: 'Is 24-hour recovery possible for every breast augmentation patient?',
+      name: 'Can I really go out for dinner after breast augmentation?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. Suitability depends on anatomy, implant choice, surgical plan, anaesthesia recovery, bleeding risk, pain control, confidence with early movement and the surgeon’s postoperative instructions.'
+        text: 'Some suitable patients following this type of protocol may be comfortable enough for light activity on the day of surgery. This is not assured, and patients should prioritise safety and their surgeon’s instructions.'
       }
     },
     {
       '@type': 'Question',
-      name: 'Does rapid recovery mean no restrictions after breast augmentation?',
+      name: 'Does rapid recovery reduce risks?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'No. Rapid recovery protocols still involve specific restrictions and warning signs. Early controlled activity is different from heavy exercise, lifting, contact sports or ignoring postoperative instructions.'
+        text: 'The protocol is intended to optimise the surgical and recovery process, but it does not remove surgical risks. Breast augmentation can still involve bleeding, infection, capsular contracture, implant malposition, altered sensation, scarring, implant rupture, revision surgery and anaesthetic risks.'
       }
     },
     {
       '@type': 'Question',
-      name: 'Where did the 24-hour recovery concept come from?',
+      name: 'Is this different from breast lift or breast reduction recovery?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'John B. Tebbetts published the original two-part 24-hour return-to-activity studies. William P. Adams Jr. later published a broader process-based breast augmentation framework. Dr Sun learnt related breast augmentation planning and recovery principles directly from Dr Adams.'
+        text: 'Yes. Breast lift, reduction, combined augmentation-lift and revision surgery often require different recovery restrictions. Rapid recovery breast augmentation principles should not be automatically applied to other breast operations.'
       }
     }
   ]
@@ -163,6 +163,11 @@ export default function RapidRecoveryBreastAugmentationPage() {
             <div className="reviewer-card" aria-label="Medical review information">
               <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
+              <nav className="reviewer-evidence-links" aria-label="About the clinical reviewer">
+                <Link href="/plastic-surgeon-singapore">Surgeon profile</Link>
+                <Link href="/training-and-fellowships">Training and fellowships</Link>
+                <Link href="/publications">Selected publications</Link>
+              </nav>
             </div>
 
             <ProcedureQuickLinks links={[
