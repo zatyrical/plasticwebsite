@@ -124,7 +124,7 @@ export default function ProcedureArticlePage({ article }: Props) {
     'breast-aesthetic-surgery-singapore': ['breast-augmentation-singapore', '24-hour-rapid-recovery-breast-augmentation-singapore', 'breast-implant-illness-singapore-evidence', 'mommy-makeover-singapore'],
     'tummy-tuck-singapore': ['body-contouring-liposuction-singapore', 'mommy-makeover-singapore', 'compression-foam-lymphatic-massage-after-liposuction'],
     'mommy-makeover-singapore': ['tummy-tuck-singapore', 'breast-augmentation-singapore', 'breast-aesthetic-surgery-singapore', 'body-contouring-liposuction-singapore'],
-    'body-contouring-liposuction-singapore': ['tummy-tuck-singapore', 'compression-foam-lymphatic-massage-after-liposuction', 'mommy-makeover-singapore'],
+    'body-contouring-liposuction-singapore': ['tummy-tuck-singapore', 'compression-foam-lymphatic-massage-after-liposuction', 'fat-grafting-singapore', 'mommy-makeover-singapore'],
     'asian-rhinoplasty-singapore': ['rib-rhinoplasty-singapore'],
     'rib-rhinoplasty-singapore': ['asian-rhinoplasty-singapore'],
     'lower-limb-reconstruction-singapore': ['trauma-lacerations-singapore', 'scar-reconstruction-singapore'],
@@ -499,6 +499,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 ) : null}
                 {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'skin-quality' ? (
                   <p>Compare the <Link href="/tummy-tuck-singapore">tummy tuck and abdominoplasty guide</Link> when discussing loose abdominal skin and abdominal wall concerns.</p>
+                ) : null}
+                {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'procedure' ? (
+                  <p>If fat transfer is part of the consultation discussion, the <Link href="/fat-grafting-singapore">fat grafting guide</Link> explains assessment of both the donor and recipient areas, recovery at both sites and important limitations. Reading it does not mean fat transfer is suitable or planned.</p>
                 ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'liposuction-vs-tummy-tuck' ? (
                   <p>Read the <Link href="/body-contouring-liposuction-singapore">liposuction and body contouring guide</Link> to compare treatment areas, skin quality and recovery considerations.</p>
