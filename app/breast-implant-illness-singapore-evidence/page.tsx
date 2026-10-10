@@ -45,43 +45,36 @@ export const metadata: Metadata = {
   }
 };
 
+const faqs = [
+  {
+    question: 'Is there a blood test for breast implant illness?',
+    answer: 'There is no single validated blood test that diagnoses BII. Tests may still be useful to assess other possible causes of symptoms, such as thyroid disease, inflammatory markers, autoimmune markers or nutritional deficiencies, depending on the clinical situation.'
+  },
+  {
+    question: 'Can BII happen with saline or silicone implants?',
+    answer: 'Systemic symptoms have been reported by patients with different implant types. The evidence does not support a simple claim that one implant type completely removes the possibility of systemic symptoms.'
+  },
+  {
+    question: 'Does capsulectomy have to be “en bloc”?',
+    answer: '“En bloc” capsulectomy has a specific surgical meaning and is not always necessary or safely possible. The appropriate approach depends on the indication, capsule thickness, implant position, surrounding anatomy and whether there is concern for malignancy or rupture. This should be discussed with a qualified plastic surgeon.'
+  },
+  {
+    question: 'Should I see a plastic surgeon or another doctor first?',
+    answer: 'If you have breast implant-specific symptoms such as pain, firmness, distortion or suspected rupture, a plastic surgeon can assess the implants and capsule. If symptoms are mainly systemic, it is often useful to involve a general practitioner, physician or relevant specialist to look for other medical causes as well.'
+  }
+] as const;
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'Is breast implant illness real?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Breast implant illness describes systemic symptoms reported by some patients with breast implants. The symptoms patients report are real, but the exact causal relationship between implants and symptoms remains scientifically unsettled and may differ between individuals.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What symptoms are reported with breast implant illness?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Commonly reported symptoms include fatigue, brain fog, joint or muscle pain, rashes, sleep disturbance, hair loss, anxiety, and autoimmune-like symptoms. These symptoms can also have other medical causes, so proper assessment is important.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Does removing breast implants cure breast implant illness?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Some patients report improvement after explantation, and a 2025 systematic review reported symptom improvement in many patients. However, improvement is not assured and explantation should not be presented as a certain treatment for systemic symptoms.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Should I avoid breast augmentation because of breast implant illness?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'The decision should be individualised. Patients should understand the uncertainty, discuss personal and family autoimmune history, consider the risks and benefits of implants, and make a decision after consultation with a qualified plastic surgeon.'
-      }
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer
     }
-  ]
+  }))
 };
 
 const medicalArticleJsonLd = {
@@ -165,6 +158,11 @@ export default function BreastImplantIllnessPage() {
             <div className="reviewer-card" aria-label="Medical review information">
               <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {lastReviewedIso}</span>
+              <nav className="reviewer-evidence-links" aria-label="About the clinical reviewer">
+                <Link href="/plastic-surgeon-singapore">Surgeon profile</Link>
+                <Link href="/training-and-fellowships">Training and fellowships</Link>
+                <Link href="/publications">Selected publications</Link>
+              </nav>
             </div>
 
             <section id="short-answer">
@@ -237,14 +235,12 @@ export default function BreastImplantIllnessPage() {
 
             <section id="faq">
               <h2>FAQs</h2>
-              <h3>Is there a blood test for breast implant illness?</h3>
-              <p>There is no single validated blood test that diagnoses BII. Tests may still be useful to assess other possible causes of symptoms, such as thyroid disease, inflammatory markers, autoimmune markers or nutritional deficiencies, depending on the clinical situation.</p>
-              <h3>Can BII happen with saline or silicone implants?</h3>
-              <p>Systemic symptoms have been reported by patients with different implant types. The evidence does not support a simple claim that one implant type completely removes the possibility of systemic symptoms.</p>
-              <h3>Does capsulectomy have to be “en bloc”?</h3>
-              <p>“En bloc” capsulectomy has a specific surgical meaning and is not always necessary or safely possible. The appropriate approach depends on the indication, capsule thickness, implant position, surrounding anatomy and whether there is concern for malignancy or rupture. This should be discussed with a qualified plastic surgeon.</p>
-              <h3>Should I see a plastic surgeon or another doctor first?</h3>
-              <p>If you have breast implant-specific symptoms such as pain, firmness, distortion or suspected rupture, a plastic surgeon can assess the implants and capsule. If symptoms are mainly systemic, it is often useful to involve a general practitioner, physician or relevant specialist to look for other medical causes as well.</p>
+              {faqs.map((faq) => (
+                <div key={faq.question}>
+                  <h3>{faq.question}</h3>
+                  <p>{faq.answer}</p>
+                </div>
+              ))}
             </section>
 
             <section id="related">

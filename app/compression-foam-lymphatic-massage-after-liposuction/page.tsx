@@ -42,51 +42,40 @@ export const metadata: Metadata = {
   }
 };
 
+const faqs = [
+  {
+    question: 'Should everyone use foam after liposuction?',
+    answer: 'No. Foam padding is an adjunct used in selected areas or patients. It may help distribute pressure more evenly, but it should be part of a surgeon-directed protocol.'
+  },
+  {
+    question: 'Can foam prevent dents after liposuction?',
+    answer: 'Foam cannot guarantee prevention of dents or contour irregularities. It may reduce focal pressure from garment folds or creases, but final contour depends on many factors including anatomy, skin quality, surgical technique, swelling, compression, scarring and healing.'
+  },
+  {
+    question: 'Are short-stretch bandages better than a compression garment?',
+    answer: 'They serve different roles. A garment provides baseline support. Short-stretch bandages may sometimes be added over the garment to provide adjustable compression, but they should not be used too tightly or without guidance.'
+  },
+  {
+    question: 'Should lymphatic massage after liposuction be painful?',
+    answer: 'No. It should generally be light, rhythmic and bearable. Forceful massage is not required to move lymphatic fluid and may be inappropriate early after surgery.'
+  },
+  {
+    question: 'When can I return to exercise after liposuction?',
+    answer: 'Return to exercise depends on the areas treated, extent of surgery, swelling, bruising, pain and the surgeon’s advice. Light movement may start earlier than strenuous exercise. Heavy activity should resume only when cleared.'
+  }
+] as const;
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'Why are compression garments used after liposuction?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Compression garments are commonly used after liposuction to provide support, reduce swelling fluctuations and help the treated tissues settle. The exact garment and duration should be directed by the surgeon because recovery plans vary.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Why is foam sometimes placed under a compression garment?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Foam padding may help spread pressure more evenly beneath a compression garment. This can reduce focal pressure from fabric folds or creases in selected areas, but it does not guarantee a smooth result.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Can short-stretch bandages be added over a liposuction garment?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'In selected patients, a surgeon may add short-stretch bandages over the garment as an adjustable extra layer of compression. Bandages should not be applied too tightly or without guidance because excessive pressure can cause pain, numbness, skin problems or circulation concerns.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'When can lymphatic drainage massage start after liposuction?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Some patients may be allowed to start gentle lymphatic drainage massage around 2 to 3 days after liposuction if wounds, pain and the surgeon’s instructions allow. It should be light and rhythmic rather than forceful deep-tissue massage.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Does lymphatic massage after liposuction need to be painful?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'No. Manual lymphatic drainage should usually be gentle and bearable. Severe pain, increasing swelling, redness, fever, calf pain, shortness of breath or wound concerns should prompt medical advice rather than stronger massage.'
-      }
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer
     }
-  ]
+  }))
 };
 
 const medicalArticleJsonLd = {
@@ -171,6 +160,11 @@ export default function LiposuctionCompressionFoamMassagePage() {
             <div className="reviewer-card" aria-label="Medical review information">
               <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
               <span>Senior Consultant Plastic Surgeon, Singapore • Last reviewed {reviewedDate}</span>
+              <nav className="reviewer-evidence-links" aria-label="About the clinical reviewer">
+                <Link href="/plastic-surgeon-singapore">Surgeon profile</Link>
+                <Link href="/training-and-fellowships">Training and fellowships</Link>
+                <Link href="/publications">Selected publications</Link>
+              </nav>
             </div>
 
             <section id="short-answer">
@@ -229,16 +223,12 @@ export default function LiposuctionCompressionFoamMassagePage() {
 
             <section id="faq">
               <h2>FAQs</h2>
-              <h3>Should everyone use foam after liposuction?</h3>
-              <p>No. Foam padding is an adjunct used in selected areas or patients. It may help distribute pressure more evenly, but it should be part of a surgeon-directed protocol.</p>
-              <h3>Can foam prevent dents after liposuction?</h3>
-              <p>Foam cannot guarantee prevention of dents or contour irregularities. It may reduce focal pressure from garment folds or creases, but final contour depends on many factors including anatomy, skin quality, surgical technique, swelling, compression, scarring and healing.</p>
-              <h3>Are short-stretch bandages better than a compression garment?</h3>
-              <p>They serve different roles. A garment provides baseline support. Short-stretch bandages may sometimes be added over the garment to provide adjustable compression, but they should not be used too tightly or without guidance.</p>
-              <h3>Should lymphatic massage after liposuction be painful?</h3>
-              <p>No. It should generally be light, rhythmic and bearable. Forceful massage is not required to move lymphatic fluid and may be inappropriate early after surgery.</p>
-              <h3>When can I return to exercise after liposuction?</h3>
-              <p>Return to exercise depends on the areas treated, extent of surgery, swelling, bruising, pain and the surgeon’s advice. Light movement may start earlier than strenuous exercise. Heavy activity should resume only when cleared.</p>
+              {faqs.map((faq) => (
+                <div key={faq.question}>
+                  <h3>{faq.question}</h3>
+                  <p>{faq.answer}</p>
+                </div>
+              ))}
             </section>
 
             <section id="related">
