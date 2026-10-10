@@ -452,6 +452,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'breast-aesthetic-surgery-singapore': {
     slug: 'breast-aesthetic-surgery-singapore',
+    modifiedIso: '2026-10-10',
     title: 'Breast Augmentation & Aesthetic Breast Surgery in Singapore',
     eyebrow: 'Breast aesthetic surgery',
     lead: 'A detailed guide to breast augmentation, 24-hour rapid recovery principles, lift, reduction and asymmetry correction in Singapore, including planning, screening considerations, recovery and risks.',
@@ -470,7 +471,17 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         id: 'options',
         heading: 'Common breast aesthetic surgery options',
         paragraphs: ['Different breast procedures address different concerns. A consultation helps identify which option matches the anatomy and goals.'],
-        items: ['breast augmentation with implants or selected fat grafting approaches', 'breast lift for ptosis or drooping', 'breast reduction for heavy or symptomatic breasts', 'asymmetry correction when breast shape or size differs between sides', 'revision surgery after previous breast procedures']
+        comparison: {
+          caption: 'Breast concerns and the procedures that may be discussed after assessment',
+          columns: ['Concern identified at assessment', 'Procedure that may be discussed', 'Important planning point'],
+          rows: [
+            { label: 'Increase or restore breast volume', values: ['Breast augmentation with an implant or selected fat grafting', 'The suitable option and achievable change depend on measurements, tissue quality and safety considerations.'] },
+            { label: 'Drooping or low nipple position', values: ['Breast lift, with or without augmentation', 'Adding volume alone may not adequately address position or loose skin.'] },
+            { label: 'Heavy or symptomatic breasts', values: ['Breast reduction', 'Scars, sensation changes and breastfeeding considerations should be discussed carefully.'] },
+            { label: 'Differences in size, fold, nipple position or shape', values: ['Asymmetry correction using a tailored or staged plan', 'Different procedures may be needed on each side, and perfect symmetry is not realistic.'] },
+            { label: 'Previous breast surgery with a new concern', values: ['Revision assessment', 'The plan depends on the previous operation, current anatomy, symptoms and long-term goals.'] }
+          ]
+        }
       },
       {
         id: 'assessment',
