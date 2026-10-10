@@ -18,7 +18,22 @@ export const metadata: Metadata = {
     description:
       'Lymphedema treatment in Singapore with Dr Jeremy Sun: assessment, compression/CDT review, ICG or ultrasound imaging, LVA suitability, surgery options and long-term care.',
     url: '/lymphedema-surgery-singapore',
-    type: 'article'
+    type: 'article',
+    images: [
+      {
+        url: '/images/reconstructive-tiles/lymphedema-surgery.jpg',
+        width: 900,
+        height: 900,
+        alt: 'Swollen arm image representing lymphedema assessment and treatment'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Lymphedema Treatment Singapore | Dr Jeremy Sun',
+    description:
+      'Lymphedema treatment in Singapore with Dr Jeremy Sun: assessment, compression/CDT review, ICG or ultrasound imaging, LVA suitability, surgery options and long-term care.',
+    images: ['/images/reconstructive-tiles/lymphedema-surgery.jpg']
   },
   keywords: [
     'lymphedema treatment Singapore',

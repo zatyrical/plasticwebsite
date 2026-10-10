@@ -12,7 +12,21 @@ export const metadata: Metadata = {
     title: 'Aesthetic Surgery Treatments in Singapore',
     description: 'A focused overview of aesthetic surgery treatment pages by Dr Jeremy Sun in Singapore.',
     url: '/aesthetic-surgery',
-    type: 'website'
+    type: 'website',
+    images: [
+      {
+        url: '/images/aesthetic-ai/body-contouring-consultation.webp',
+        width: 1145,
+        height: 1374,
+        alt: 'Patient and clinician reviewing an aesthetic surgery assessment worksheet during consultation planning'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Aesthetic Surgery Treatments in Singapore',
+    description: 'A focused overview of aesthetic surgery treatment pages by Dr Jeremy Sun in Singapore.',
+    images: ['/images/aesthetic-ai/body-contouring-consultation.webp']
   }
 };
 

@@ -18,7 +18,22 @@ export const metadata: Metadata = {
     description:
       'Invited professional education session on recognising lymphoedema in chronic wound care at the St Luke’s ElderCare CommCare Symposium 2026.',
     url: '/st-lukes-eldercare-symposium-lymphoedema-wound-care-2026',
-    type: 'article'
+    type: 'article',
+    images: [
+      {
+        url: '/images/reconstructive-tiles/lymphedema-surgery.jpg',
+        width: 900,
+        height: 900,
+        alt: 'Swollen arm image representing lymphoedema recognition and care'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Invited Lecture: Lymphoedema and Chronic Wounds | Dr Jeremy Sun',
+    description:
+      'Invited professional education session on recognising lymphoedema in chronic wound care at the St Luke’s ElderCare CommCare Symposium 2026.',
+    images: ['/images/reconstructive-tiles/lymphedema-surgery.jpg']
   },
   keywords: [
     'lymphoedema wound care Singapore',
