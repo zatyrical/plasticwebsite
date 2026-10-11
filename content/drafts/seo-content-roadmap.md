@@ -27,7 +27,7 @@ Status: internal draft. Do not publish until reviewed and approved.
 1. Lymphedema Surgery Singapore
    - Status: published
    - Target: `lymphedema surgery Singapore`, `lymphatic surgery Singapore`, `lymphovenous bypass Singapore`, `lymphoedema surgeon Singapore`
-   - Differentiator: MOH-accredited dedicated Tokyo lymphedema surgery training; invited local/international speaker; academic publications.
+   - Differentiator: dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Tokyo; invited local/international speaker; academic publications.
 
 2. Lymphovenous Bypass / LVA Surgery Singapore
    - Status: published

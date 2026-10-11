@@ -19,7 +19,7 @@ Lymphovenous bypass, also known as lymphaticovenular anastomosis or LVA, is a su
 
 LVA is one of the main physiological operations used in lymphatic surgery. It aims to improve lymphatic drainage rather than remove tissue. In appropriately selected patients, it may help reduce swelling, heaviness, recurrent cellulitis or infection frequency, and dependence on compression garments. Outcomes vary between individuals, and careful assessment is required before any recommendation can be made.
 
-Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo focused specifically on lymphatic surgery and complex lymphedema care.
+Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Tokyo.
 
 This page provides general information on LVA surgery and should not replace a consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.
 
