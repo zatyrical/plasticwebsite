@@ -932,6 +932,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'thread-lifting-singapore': {
     slug: 'thread-lifting-singapore',
+    modifiedIso: '2026-10-03',
     title: 'Thread Lifting in Singapore',
     eyebrow: 'Thread lifting',
     lead: 'Patient information on thread lifting, face thread lift treatment, patient selection, expected limitations, recovery and risks.',
@@ -1018,6 +1019,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'child-facial-laceration-plastic-surgeon-singapore': {
     slug: 'child-facial-laceration-plastic-surgeon-singapore',
+    modifiedIso: '2026-10-03',
     title: 'Child Facial Laceration Repair in Singapore',
     eyebrow: 'Child facial lacerations',
     lead: 'A parent-focused guide to facial cuts in children, including when plastic surgical assessment may be helpful, deeper structure checks, layered closure, wound-edge eversion, scar care and anaesthesia options.',
@@ -1053,6 +1055,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'facial-laceration-repair-singapore': {
     slug: 'facial-laceration-repair-singapore',
+    modifiedIso: '2026-10-03',
     title: 'Facial Laceration Repair Singapore | Face Cuts & Stitches',
     eyebrow: 'Facial laceration repair',
     lead: 'A practical guide to cuts on the face in Singapore, including when a facial laceration needs urgent assessment, layered closure, wound-edge eversion, scar care and when plastic surgical repair may be helpful.',
@@ -1146,6 +1149,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'ftm-top-surgery-singapore': {
     slug: 'ftm-top-surgery-singapore',
+    modifiedIso: '2026-10-03',
     title: 'FTM Top Surgery Singapore | Chest Masculinisation',
     eyebrow: 'Gender-affirming chest surgery',
     lead: 'A patient guide to FTM top surgery in Singapore, including female-to-male and transmasculine chest masculinisation, double-incision double-ellipse planning, nipple grafts, scar placement, dog-ear management, nerve blocks, day surgery and recovery.',

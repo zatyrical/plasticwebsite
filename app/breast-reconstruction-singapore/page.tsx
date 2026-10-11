@@ -113,7 +113,7 @@ const medicalPageJsonLd = {
         { '@type': 'MedicalProcedure', name: 'DIEP flap breast reconstruction' },
         { '@type': 'MedicalProcedure', name: 'Oncoplastic breast reconstruction' }
       ],
-      dateModified: '2026-10-07',
+      dateModified: '2026-10-10',
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
