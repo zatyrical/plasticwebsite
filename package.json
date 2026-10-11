@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/audit-llms-source.mjs",
     "start": "next start",
     "lint": "tsc --noEmit",
     "audit:faq-parity": "node scripts/audit-faq-parity.mjs",
+    "audit:llms-source": "node scripts/audit-llms-source.mjs",
     "audit:sitemap-date-parity": "node scripts/audit-sitemap-date-parity.mjs"
   },
   "dependencies": {
