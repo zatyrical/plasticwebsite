@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "tsc --noEmit",
-    "audit:faq-parity": "node scripts/audit-faq-parity.mjs"
+    "audit:faq-parity": "node scripts/audit-faq-parity.mjs",
+    "audit:sitemap-date-parity": "node scripts/audit-sitemap-date-parity.mjs"
   },
   "dependencies": {
     "@next/mdx": "^16.2.12",

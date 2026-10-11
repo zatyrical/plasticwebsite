@@ -38,7 +38,7 @@ const jsonLd = {
   name: 'Aesthetic Surgery Treatments in Singapore',
   description: metadata.description,
   inLanguage: 'en-SG',
-  dateModified: '2026-10-06',
+  dateModified: '2026-10-10',
   mainEntity: aestheticTreatments.map((treatment) => ({
     '@type': 'MedicalWebPage',
     name: treatment.title,
