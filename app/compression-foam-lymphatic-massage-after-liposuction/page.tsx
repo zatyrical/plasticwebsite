@@ -10,6 +10,7 @@ const title = 'Compression Garments, Foam and Lymphatic Massage After Liposuctio
 const description = 'Patient guide to compression garments, foam padding, short-stretch bandages and lymphatic drainage massage after liposuction, including swelling, contour support and safety warnings.';
 const articleUrl = `${baseUrl}/${slug}`;
 const reviewedDate = '2026-09-15';
+const modifiedDate = '2026-10-11';
 const foamImage = '/images/body-contouring/post-liposuction-compression-garment-foam-recovery-pad.jpg';
 
 export const metadata: Metadata = {
@@ -108,7 +109,7 @@ const medicalArticleJsonLd = {
       ],
       image: `${baseUrl}${foamImage}`,
       datePublished: reviewedDate,
-      dateModified: reviewedDate,
+      dateModified: modifiedDate,
       lastReviewed: reviewedDate,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
@@ -147,6 +148,7 @@ export default function LiposuctionCompressionFoamMassagePage() {
                 <li><a href="#foam-padding">Foam padding</a></li>
                 <li><a href="#short-stretch-bandages">Short-stretch bandages</a></li>
                 <li><a href="#lymphatic-massage">Lymphatic massage</a></li>
+                <li><a href="#how-they-work-together">How the supports differ</a></li>
                 <li><a href="#when-to-call">When to call your surgeon</a></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
@@ -171,6 +173,40 @@ export default function LiposuctionCompressionFoamMassagePage() {
               <h2>Short answer: are compression, foam and lymphatic massage useful after liposuction?</h2>
               <p>Often, yes — but the details matter. A compression garment can support tissues and help control swelling after liposuction. Foam padding may be placed beneath the garment in selected areas to spread pressure more evenly. Short-stretch bandages may sometimes be added over the garment as an adjustable extra compression layer. Gentle lymphatic drainage massage may help mobilise excess postoperative fluid toward lymph-node basins when it is appropriately timed and not forceful.</p>
               <p>None of these measures guarantees a perfectly smooth contour. They are adjuncts to careful surgery, appropriate patient selection, safe recovery instructions and follow-up.</p>
+              <div className="article-comparison-wrap" tabIndex={0} role="region" aria-label="Post-liposuction recovery support comparison">
+                <table className="article-comparison-table">
+                  <caption>Which recovery support does what?</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">Support</th>
+                      <th scope="col">Potential role already described on this page</th>
+                      <th scope="col">Important limit or review cue</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Compression garment</th>
+                      <td>Provides external support and may help control day-to-day swelling fluctuations.</td>
+                      <td>Snug does not mean as tight as possible; pain, numbness, skin irritation or focal pressure lines need review.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Foam padding</th>
+                      <td>May spread pressure from garment folds or creases more evenly in selected areas.</td>
+                      <td>It is selective rather than automatic and cannot guarantee a smooth final contour.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Short-stretch bandage</th>
+                      <td>Can add an adjustable compression layer in selected situations.</td>
+                      <td>Use only when the treating team recommends and demonstrates it; unsupervised tight wrapping can cause problems.</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Lymphatic drainage massage</th>
+                      <td>Uses gentle, rhythmic movements to help mobilise postoperative fluid when appropriately timed.</td>
+                      <td>It should not be forceful or pushed through worsening pain or other concerning symptoms.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </section>
 
             <section id="why-swelling-happens">
