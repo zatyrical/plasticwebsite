@@ -130,6 +130,8 @@ export default function ProcedureArticlePage({ article }: Props) {
     'lower-limb-reconstruction-singapore': ['trauma-lacerations-singapore', 'scar-reconstruction-singapore'],
     'head-neck-reconstruction-singapore': ['facial-laceration-repair-singapore', 'trauma-lacerations-singapore', 'scar-reconstruction-singapore', 'child-facial-laceration-plastic-surgeon-singapore'],
     'scar-reconstruction-singapore': ['trauma-lacerations-singapore', 'facial-laceration-repair-singapore', 'head-neck-reconstruction-singapore', 'lower-limb-reconstruction-singapore'],
+    'ftm-top-surgery-singapore': ['gender-affirming-chest-reconstruction-singapore'],
+    'gender-affirming-chest-reconstruction-singapore': ['ftm-top-surgery-singapore'],
     'lasers-injectables-singapore': ['face-neck-lift-singapore', 'thread-lifting-singapore', 'fat-grafting-singapore'],
     'face-neck-lift-singapore': ['eyebag-removal-lower-blepharoplasty-singapore', 'thread-lifting-singapore', 'fat-grafting-singapore', 'asian-eyelid-surgery-singapore'],
     'thread-lifting-singapore': ['face-neck-lift-singapore', 'fat-grafting-singapore', 'lasers-injectables-singapore'],
