@@ -11,7 +11,7 @@ const latestModifiedPaths = new Map([
   ['/aesthetic-surgery', '2026-10-10'],
   ['/reconstructive-surgery', '2026-10-10'],
   ['/breast-reconstruction-singapore', '2026-10-10'],
-  ['/compression-foam-lymphatic-massage-after-liposuction', '2026-10-10'],
+  ['/compression-foam-lymphatic-massage-after-liposuction', '2026-10-11'],
   ['/gender-affirming-chest-reconstruction-singapore', '2026-10-10'],
   ['/head-neck-reconstruction-singapore', '2026-10-10'],
   ['/lower-limb-reconstruction-singapore', '2026-10-10'],
