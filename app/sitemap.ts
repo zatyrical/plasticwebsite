@@ -80,7 +80,7 @@ const coreRoutes = [
 export default function sitemap(): MetadataRoute.Sitemap {
   const procedureRoutes = procedureArticleList.map((article) => ({
     url: `${baseUrl}/${article.slug}`,
-    lastModified: latestModifiedPaths.get(`/${article.slug}`) ?? updatedAt,
+    lastModified: article.modifiedIso ?? latestModifiedPaths.get(`/${article.slug}`) ?? updatedAt,
     changeFrequency: 'monthly' as const,
     priority: article.backHref.includes('aesthetic') ? 0.82 : 0.8
   }));
