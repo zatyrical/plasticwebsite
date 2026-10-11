@@ -86,7 +86,7 @@ const jsonLd = {
         'choosing a plastic surgeon'
       ],
       datePublished: lastReviewedIso,
-      dateModified: '2026-10-07',
+      dateModified: '2026-10-11',
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
@@ -190,7 +190,7 @@ export default function PlasticSurgeonSingaporePage() {
               <p>There is no single official “top plastic surgeon” list that applies to every patient or procedure. Patients should be cautious about unsupported rankings or claims of superiority. A safer comparison uses markers that can be discussed and verified: specialist training, relevant procedure experience, careful risk explanation, realistic planning and appropriate follow-up.</p>
               <p>The right surgeon is not simply the person who says yes. It is the surgeon who can explain when surgery may help, when it may not, and what trade-offs are involved.</p>
               <ul>
-                <li>Check MOH specialist accreditation and plastic surgery training background.</li>
+                <li>Check current specialist registration through the <a href="https://prs.moh.gov.sg/prs/internet/profSearch/main.action?hpe=SMC" target="_blank" rel="noreferrer">official “Search for a medical specialist” service</a>, then review the surgeon’s plastic surgery training background.</li>
                 <li>Ask about relevant reconstructive and aesthetic experience for the procedure being considered.</li>
                 <li>Clarify where surgery would be performed, the anaesthesia plan, follow-up arrangements and safety protocols.</li>
                 <li>Discuss realistic benefits, limitations, scars, recovery, possible complications and non-surgical or alternative options.</li>
