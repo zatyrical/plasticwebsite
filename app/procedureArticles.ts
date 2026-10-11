@@ -400,7 +400,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'choosing-surgeon',
         heading: 'Choosing a breast augmentation surgeon or clinic in Singapore',
-        paragraphs: ['Rather than relying only on before-and-after images, implant brand or promotional claims, patients should look for a clear explanation of specialist training, breast assessment, sizing method, implant-plane choice, incision planning, breast-screening considerations, complication management and long-term follow-up.', 'Dr Sun is a Singapore Ministry of Health-accredited plastic surgeon with aesthetic surgery training and public professional information available on this site. The consultation should still focus on whether the procedure fits the individual patient, what alternatives exist and what limitations or risks must be accepted.']
+        paragraphs: ['Rather than relying only on before-and-after images, implant brand or promotional claims, patients should look for a clear explanation of specialist training, breast assessment, sizing method, implant-plane choice, incision planning, breast-screening considerations, complication management and long-term follow-up.', 'Dr Sun is a Senior Consultant plastic surgeon in Singapore with aesthetic surgery training and public professional information available on this site. The consultation should still focus on whether the procedure fits the individual patient, what alternatives exist and what limitations or risks must be accepted.']
       },
       {
         id: 'screening-safety',
