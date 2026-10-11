@@ -104,7 +104,7 @@ export default function Home() {
             <div className="portrait-wrap hero-main-portrait">
               <Image src="/images/dr-jeremy-sun-hero.jpg" alt="Portrait of Dr Jeremy Sun, plastic surgeon in Singapore" width={896} height={1280} sizes="(max-width: 900px) calc(100vw - 48px), 410px" loading="eager" fetchPriority="high" />
               <div className="credential-strip">
-                <div className="metric"><strong>MOH specialist</strong><span>Plastic, reconstructive and aesthetic surgery</span></div>
+                <div className="metric"><strong>Specialist registration</strong><span>Plastic surgery, Singapore</span></div>
                 <div className="metric"><strong>Aesthetic surgery fellowship</strong><span>American Society for Aesthetic Plastic Surgery travelling fellowship</span></div>
               </div>
             </div>
@@ -123,7 +123,7 @@ export default function Home() {
             <p className="section-intro">Dr Jeremy Sun, also listed professionally as Sun Mingfa Jeremy, is a Senior Consultant plastic surgeon in Singapore with clinical focus in aesthetic surgery, breast augmentation and aesthetic breast surgery, reconstructive microsurgery, breast reconstruction, lymphedema surgery and lymphatic surgery — grounded in academic surgical practice.</p>
             <div className="reviewer-card" aria-label="About Dr Jeremy Sun">
               <strong>About Dr Jeremy Sun</strong>
-              <span>Dr Jeremy Sun is a Singapore Ministry of Health-accredited plastic surgeon with clinical interests in aesthetic breast surgery including breast augmentation, reconstructive microsurgery, lymphedema surgery, breast reconstruction, body contouring, eyelid surgery, rhinoplasty and facial rejuvenation. He is associated with Changi General Hospital and holds professional roles in plastic surgery education and specialist governance.</span>
+              <span>Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with clinical interests in aesthetic breast surgery including breast augmentation, reconstructive microsurgery, lymphedema surgery, breast reconstruction, body contouring, eyelid surgery, rhinoplasty and facial rejuvenation. He is associated with Changi General Hospital and holds professional roles in plastic surgery education and specialist governance.</span>
             </div>
             <div className="reviewer-card" aria-label="Medical review information">
               <strong>Clinically authored and reviewed by Dr Jeremy Sun</strong>
