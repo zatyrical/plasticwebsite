@@ -5,6 +5,7 @@ import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const pageUrl = `${baseUrl}/lymphedema-surgery-singapore`;
+const modifiedIso = '2026-10-11';
 
 export const metadata: Metadata = {
   title: 'Lymphedema Treatment Singapore',
@@ -85,7 +86,7 @@ const medicalPageJsonLd = {
         'cellulitis lymphedema surgery'
       ],
       datePublished: lastReviewedIso,
-      dateModified: lastReviewedIso,
+      dateModified: modifiedIso,
       lastReviewed: lastReviewedIso,
       reviewedBy: { '@id': physicianId },
       author: { '@id': physicianId },
@@ -188,7 +189,7 @@ export default function LymphedemaSurgeryPage() {
               Lymphedema is a chronic condition in which lymphatic fluid accumulates in the limb or affected body region, leading to swelling, heaviness, skin changes and recurrent cellulitis or infection in some patients. It may occur after cancer treatment, lymph node surgery, radiotherapy, trauma or infection, and in some patients it may be present without a clear secondary cause.
             </p>
             <p>
-              Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo, focused specifically on lymphatic surgery and complex lymphedema care — distinct from broader microsurgical fellowships where lymphedema may be only one component of training.
+              Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Tokyo — distinct from broader microsurgical fellowships where lymphoedema may be only one component of training.
             </p>
             <h2 id="treatment-pathway">Lymphedema treatment pathway in Singapore</h2>
             <p>
@@ -335,7 +336,7 @@ export default function LymphedemaSurgeryPage() {
               Lymphedema surgery requires assessment of lymphatic anatomy, disease stage, imaging patterns, microsurgical technique and long-term management. In Dr Sun’s view, brief exposure to lymphatic surgery is often not enough to provide broad-based experience across the full spectrum of lymphedema severity, from early fluid-dominant disease to advanced disease with fibrosis, scarring and recurrent infection.
             </p>
             <p>
-              Dr Sun completed dedicated MOH-accredited fellowship training in lymphedema surgery in Japan. That training shaped his emphasis on patient selection, lymphatic imaging, pressure and flow considerations, compression strategy, and realistic long-term follow-up.
+              Dr Sun completed dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Japan. That training shaped his emphasis on patient selection, lymphatic imaging, pressure and flow considerations, compression strategy, and realistic long-term follow-up.
             </p>
             <p>
               Patients considering lymphedema surgery should feel comfortable asking their care provider about the nature, duration and focus of their lymphatic surgery training. This may include asking whether the surgeon has had several months of dedicated lymphatic surgery training, and whether that training included ICG lymphography, ultrasound localisation of lymphatic channels, LVA, lymph node transfer, reductive options, compression planning and cellulitis management.

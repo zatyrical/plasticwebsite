@@ -6,8 +6,8 @@ const baseUrl = 'https://www.drjeremysun.com';
 const updatedAt = '2026-10-03';
 const latestModifiedPaths = new Map([
   ['/plastic-surgery-overseas-safety-singapore', '2026-10-09'],
-  ['/blog', '2026-10-09'],
-  ['', '2026-10-09'],
+  ['/blog', '2026-10-11'],
+  ['', '2026-10-11'],
   ['/aesthetic-surgery', '2026-10-10'],
   ['/reconstructive-surgery', '2026-10-10'],
   ['/breast-reconstruction-singapore', '2026-10-10'],
@@ -20,9 +20,10 @@ const latestModifiedPaths = new Map([
   ['/lasers-injectables-singapore', '2026-10-10'],
   ['/scar-reconstruction-singapore', '2026-10-10'],
   ['/fat-grafting-singapore', '2026-10-10'],
-  ['/how-to-choose-lymphedema-surgeon-singapore', '2026-10-10'],
-  ['/lymphedema-surgery-singapore', '2026-10-10'],
-  ['/lymphovenous-bypass-lva-surgery-singapore', '2026-10-07'],
+  ['/how-to-choose-lymphedema-surgeon-singapore', '2026-10-11'],
+  ['/journey-to-lymphedema-surgery-japan', '2026-10-11'],
+  ['/lymphedema-surgery-singapore', '2026-10-11'],
+  ['/lymphovenous-bypass-lva-surgery-singapore', '2026-10-11'],
   ['/st-lukes-eldercare-symposium-lymphoedema-wound-care-2026', '2026-10-10'],
   ['/media', '2026-10-07'],
   ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-10'],
@@ -38,7 +39,7 @@ const latestModifiedPaths = new Map([
   ['/publications', '2026-10-07'],
   ['/training-and-fellowships', '2026-10-04'],
   ['/eyebag-removal-lower-blepharoplasty-singapore', '2026-10-04'],
-  ['/llms.txt', '2026-10-07'],
+  ['/llms.txt', '2026-10-11'],
 ]);
 const updatedPaths = new Set([
   '', '/aesthetic-surgery', '/reconstructive-surgery',
