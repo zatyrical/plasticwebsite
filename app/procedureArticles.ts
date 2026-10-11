@@ -53,7 +53,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   'eyebag-removal-lower-blepharoplasty-singapore': lowerBlepharoplastyArticle,
   'body-contouring-liposuction-singapore': {
     slug: 'body-contouring-liposuction-singapore',
-    modifiedIso: '2026-10-06',
+    modifiedIso: '2026-10-11',
     title: 'Liposuction Singapore | Body Contouring Surgery, Cost & Recovery',
     eyebrow: 'Body contouring & liposuction',
     lead: 'A detailed guide to liposuction and body contouring treatment in Singapore, including abdominal, waist, arm and thigh contouring, suitability, surgical planning, recovery, scars, limitations and risks.',
@@ -962,6 +962,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'lower-limb-reconstruction-singapore': {
     slug: 'lower-limb-reconstruction-singapore',
+    modifiedIso: '2026-10-10',
     title: 'Lower Limb Reconstruction in Singapore',
     eyebrow: 'Lower limb reconstruction',
     lead: 'Patient information on reconstruction for lower limb wounds, trauma, infection, cancer defects and complex soft-tissue problems.',
@@ -989,6 +990,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'head-neck-reconstruction-singapore': {
     slug: 'head-neck-reconstruction-singapore',
+    modifiedIso: '2026-10-10',
     title: 'Head and Neck Reconstruction in Singapore',
     eyebrow: 'Head and neck reconstruction',
     lead: 'Patient information on reconstruction after head and neck cancer, trauma or complex facial defects.',
@@ -1087,6 +1089,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'trauma-lacerations-singapore': {
     slug: 'trauma-lacerations-singapore',
+    modifiedIso: '2026-10-10',
     title: 'Trauma and Laceration Repair in Singapore',
     eyebrow: 'Trauma and lacerations',
     lead: 'Patient information on plastic surgical repair of lacerations, facial injuries, scars and soft-tissue trauma.',
@@ -1114,6 +1117,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'scar-reconstruction-singapore': {
     slug: 'scar-reconstruction-singapore',
+    modifiedIso: '2026-10-10',
     title: 'Scar Reconstruction and Scar Revision in Singapore',
     eyebrow: 'Scar reconstruction',
     lead: 'Patient information on scar revision, keloid and hypertrophic scar management, assessment, treatment options and risks.',
@@ -1225,6 +1229,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'gender-affirming-chest-reconstruction-singapore': {
     slug: 'gender-affirming-chest-reconstruction-singapore',
+    modifiedIso: '2026-10-10',
     title: 'Gender-Affirming Chest Reconstruction in Singapore',
     eyebrow: 'Gender-affirming chest reconstruction',
     lead: 'Patient information on chest reconstruction planning, surgical options, recovery, scars, risks and multidisciplinary care.',
