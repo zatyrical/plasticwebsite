@@ -1149,7 +1149,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'ftm-top-surgery-singapore': {
     slug: 'ftm-top-surgery-singapore',
-    modifiedIso: '2026-10-03',
+    modifiedIso: '2026-10-12',
     title: 'FTM Top Surgery Singapore | Chest Masculinisation',
     eyebrow: 'Gender-affirming chest surgery',
     lead: 'A patient guide to FTM top surgery in Singapore, including female-to-male and transmasculine chest masculinisation, double-incision double-ellipse planning, nipple grafts, scar placement, dog-ear management, nerve blocks, day surgery and recovery.',
@@ -1233,7 +1233,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'gender-affirming-chest-reconstruction-singapore': {
     slug: 'gender-affirming-chest-reconstruction-singapore',
-    modifiedIso: '2026-10-10',
+    modifiedIso: '2026-10-12',
     title: 'Gender-Affirming Chest Reconstruction in Singapore',
     eyebrow: 'Gender-affirming chest reconstruction',
     lead: 'Patient information on chest reconstruction planning, surgical options, recovery, scars, risks and multidisciplinary care.',
