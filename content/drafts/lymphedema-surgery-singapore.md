@@ -17,7 +17,7 @@ lastUpdated: "2026-07-19"
 
 Lymphedema is a chronic condition in which lymphatic fluid accumulates in the limb or affected body region, leading to swelling, heaviness, skin changes and recurrent cellulitis or infection in some patients. It may occur after cancer treatment, lymph node surgery, radiotherapy, trauma or infection, and in some patients it may be present without a clear secondary cause.
 
-Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo, focused specifically on lymphatic surgery and complex lymphedema care — distinct from broader microsurgical fellowships where lymphedema may be only one component of training.
+Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Tokyo — distinct from broader microsurgical fellowships where lymphoedema may be only one component of training.
 
 This page provides general information on lymphedema surgery and should not replace a consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.
 
@@ -132,7 +132,7 @@ Specific risks depend on the procedure selected and should be discussed during c
 
 Lymphedema surgery requires assessment of lymphatic anatomy, disease stage, imaging patterns, microsurgical technique and long-term management. In Dr Sun’s view, brief exposure to lymphatic surgery is often not enough to provide broad-based experience across the full spectrum of lymphedema severity, from early fluid-dominant disease to advanced disease with fibrosis, scarring and recurrent infection.
 
-Dr Sun completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo focused specifically on lymphatic surgery and complex lymphedema care. His lymphatic surgery work is also supported by academic publications and invited speaker experience at local and international conferences.
+Dr Sun completed dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Tokyo. His lymphatic surgery work is also supported by academic publications and invited speaker experience at local and international conferences.
 
 Patients considering lymphedema surgery should feel comfortable asking their care provider about the nature, duration and focus of their lymphatic surgery training. This may include asking to review certificates, training documentation and relevant experience, and doing their own due diligence before deciding where to seek treatment. These credentials are presented to help patients understand the nature of Dr Sun’s training and clinical focus. They do not imply guaranteed outcomes or that surgery is suitable for every patient.
 
