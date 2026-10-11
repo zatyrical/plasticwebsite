@@ -46,6 +46,7 @@ export const metadata: Metadata = {
 };
 
 const pageUrl = `${baseUrl}/lymphovenous-bypass-lva-surgery-singapore`;
+const modifiedIso = '2026-10-11';
 
 const medicalPageJsonLd = {
   '@context': 'https://schema.org',
@@ -82,7 +83,7 @@ const medicalPageJsonLd = {
         'supermicrosurgery'
       ],
       datePublished: lastReviewedIso,
-      dateModified: lastReviewedIso,
+      dateModified: modifiedIso,
       lastReviewed: lastReviewedIso,
       reviewedBy: { '@id': physicianId },
       author: { '@id': physicianId },
@@ -208,7 +209,7 @@ export default function LvaSurgeryPage() {
               <strong>Short answer:</strong> LVA may be considered when lymphedema remains symptomatic despite appropriate conservative therapy, especially if there have been one or two episodes of cellulitis. In that setting, recurrent infection is a strong reason to assess whether functioning lymphatic channels remain and whether lymphovenous bypass could offload the limb.
             </div>
             <p>
-              Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed a MOH-accredited dedicated lymphedema surgery training program in Tokyo focused specifically on lymphatic surgery, supermicrosurgical LVA and complex lymphedema care.
+              Dr Jeremy Sun is a Senior Consultant plastic surgeon in Singapore with a clinical and academic focus in lymphatic surgery, microsurgical reconstruction and lymphedema care. He completed dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Tokyo, including supermicrosurgical LVA and complex lymphoedema care.
             </p>
             <p className="notice-text">
               This page provides general information on LVA surgery and should not replace a consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.
@@ -337,7 +338,7 @@ export default function LvaSurgeryPage() {
 
             <h2>LVA is about flow, not just connections</h2>
             <p>
-              Dr Sun’s approach to LVA was shaped by dedicated MOH-accredited fellowship training in lymphedema surgery in Japan. Earlier in his training, he had questioned whether lymphedema surgery could produce consistent results when issues such as patient selection, lymphatic imaging, pressure gradients, reflux risk and postoperative compression were not clearly addressed.
+              Dr Sun’s approach to LVA was shaped by dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Japan. Earlier in his training, he had questioned whether lymphedema surgery could produce consistent results when issues such as patient selection, lymphatic imaging, pressure gradients, reflux risk and postoperative compression were not clearly addressed.
             </p>
             <p>
               One important concept is that LVA should create useful forward drainage of lymphatic fluid, not simply a technically patent connection. If venous pressure is higher than lymphatic pressure, there may be a risk of reflux or limited effective drainage. For this reason, the recipient vein, flow direction, limb condition and compression plan all matter.

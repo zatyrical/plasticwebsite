@@ -6,6 +6,7 @@ import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoId
 
 const pagePath = '/how-to-choose-lymphedema-surgeon-singapore';
 const pageUrl = `${baseUrl}${pagePath}`;
+const modifiedIso = '2026-10-11';
 
 export const metadata: Metadata = {
   title: 'Choosing a Lymphedema Surgeon in Singapore',
@@ -98,7 +99,7 @@ const articleJsonLd = {
         { '@type': 'MedicalProcedure', name: 'Vascularised lymph node transfer' }
       ],
       datePublished: lastReviewedIso,
-      dateModified: lastReviewedIso,
+      dateModified: modifiedIso,
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
@@ -110,7 +111,7 @@ const articleJsonLd = {
       '@id': `${pageUrl}#article`,
       headline: 'Choosing a Lymphedema Surgeon in Singapore: Questions Patients Can Ask',
       datePublished: lastReviewedIso,
-      dateModified: lastReviewedIso,
+      dateModified: modifiedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId }
     },
@@ -230,7 +231,7 @@ export default function ChooseLymphedemaSurgeonPage() {
               <li>ultrasound localisation of lymphatic channels and suitable veins</li>
             </ul>
             <p>
-              Dr Jeremy Sun completed MOH-accredited dedicated lymphatic surgery training in Tokyo, with focused exposure to the assessment and surgical management of lymphedema, including lymphovenous bypass, lymphatic imaging and the broader range of lymphedema treatment options.
+              Dr Jeremy Sun completed dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Tokyo, with focused exposure to assessment and surgical management, including lymphovenous bypass, lymphatic imaging and the broader range of treatment options.
             </p>
 
             <h2 id="imaging">Why ICG lymphography and ultrasound localisation matter</h2>

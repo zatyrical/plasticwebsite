@@ -16,8 +16,8 @@ const content = `# Dr Jeremy Sun Plastic Surgery
 - Assistant Clinical Professor, Duke-NUS Medical School
 - MOH specialist in plastic surgery
 - Aesthetic surgery fellowship exposure through the American Society for Aesthetic Plastic Surgery travelling fellowship
-- MOH-accredited dedicated lymphatic surgery training in Tokyo
-- Dedicated MOH-accredited fellowship training in lymphedema surgery in Japan; his approach to LVA was shaped by clinical skepticism, Japan lymphatic surgery exposure, imaging-guided planning, pressure/flow considerations and postoperative compression strategy
+- Dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Tokyo
+- His approach to LVA was shaped by that HMDP fellowship, clinical skepticism, Japan lymphatic surgery exposure, imaging-guided planning, pressure/flow considerations and postoperative compression strategy
 - Clinical focus: aesthetic surgery, reconstructive microsurgery, lymphedema surgery, lymphovenous bypass / LVA, breast augmentation and aesthetic breast surgery, breast reconstruction, Asian rhinoplasty, Asian eyelid surgery, body contouring, face and neck lift, scar reconstruction and trauma reconstruction
 
 ## Important patient-information note

@@ -7,14 +7,15 @@ import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoId
 
 const pagePath = '/journey-to-lymphedema-surgery-japan';
 const pageUrl = `${baseUrl}${pagePath}`;
+const modifiedIso = '2026-10-11';
 const socialImage = '/images/mentors/dr-jeremy-sun-akitatsu-hayashi-lva-training-microscope.jpg';
 const socialTitle = 'From Skepticism to Specialist Training in Japan | Dr Jeremy Sun';
-const socialDescription = 'How dedicated MOH-accredited lymphedema surgery training in Japan shaped Dr Jeremy Sun’s approach to LVA, imaging, flow dynamics and patient selection.';
+const socialDescription = 'How dedicated HMDP fellowship training in lymphoedema management and lymphatic surgery in Japan shaped Dr Jeremy Sun’s approach to LVA, imaging, flow dynamics and patient selection.';
 
 export const metadata: Metadata = {
   title: 'Why I Trained in Lymphedema Surgery in Japan',
   description:
-    'Dr Jeremy Sun explains how clinical skepticism, Japan lymphatic surgery exposure and dedicated MOH-accredited fellowship training shaped his approach to LVA surgery in Singapore.',
+    'Dr Jeremy Sun explains how clinical skepticism, Japan lymphatic surgery exposure and dedicated HMDP fellowship training shaped his approach to LVA surgery in Singapore.',
   alternates: {
     canonical: pagePath
   },
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
   },
   keywords: [
     'Dr Jeremy Sun lymphedema surgery',
-    'MOH accredited lymphedema surgery training Japan',
+    'HMDP lymphedema fellowship Japan',
     'LVA surgeon Singapore',
     'lymphedema surgeon Singapore',
     'lymphovenous bypass Singapore',
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     question: 'Why did Dr Jeremy Sun train in lymphedema surgery in Japan?',
-    answer: 'Dr Sun initially approached lymphedema surgery with skepticism after seeing variable results during early training. Exposure to experienced lymphatic surgery centres in Japan changed his perspective and led him to pursue dedicated MOH-accredited fellowship training focused on lymphedema surgery.'
+    answer: 'Dr Sun initially approached lymphedema surgery with skepticism after seeing variable results during early training. Exposure to experienced lymphatic surgery centres in Japan changed his perspective and led him to pursue dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery.'
   },
   {
     question: 'What changed his view of LVA surgery?',
@@ -92,7 +93,7 @@ const articleJsonLd = {
         { '@type': 'MedicalProcedure', name: 'Lymphaticovenular anastomosis' }
       ],
       datePublished: lastReviewedIso,
-      dateModified: lastReviewedIso,
+      dateModified: modifiedIso,
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
@@ -104,7 +105,7 @@ const articleJsonLd = {
       '@id': `${pageUrl}#article`,
       headline: 'From Skepticism to Specialist Training: My Journey Into Lymphedema Surgery',
       datePublished: lastReviewedIso,
-      dateModified: lastReviewedIso,
+      dateModified: modifiedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId }
     },
@@ -133,7 +134,7 @@ export default function LymphedemaSurgeryJourneyPage() {
               <div className="eyebrow">Lymphedema surgery training</div>
               <h1>From Skepticism to Specialist Training: My Journey Into Lymphedema Surgery</h1>
               <p className="lead">
-                Why dedicated MOH-accredited fellowship training in lymphedema surgery in Japan changed how I approach LVA, patient selection, imaging and flow planning.
+                Why dedicated HMDP fellowship training in lymphoedema management and lymphatic surgery in Japan changed how I approach LVA, patient selection, imaging and flow planning.
               </p>
               <div className="hero-actions">
                 <Link href="/lymphovenous-bypass-lva-surgery-singapore" className="btn btn-primary">Read about LVA surgery</Link>
@@ -168,7 +169,7 @@ export default function LymphedemaSurgeryJourneyPage() {
               During my early surgical training in Singapore, I approached lymphedema surgery with skepticism. The concept was attractive: if lymphatic drainage is blocked, creating new drainage pathways should help. But the results I observed were not always predictable, and several parts of the surgical plan seemed unresolved to me.
             </p>
             <p>
-              My skepticism was not a dismissal of the field. It was a question of whether the operation could be made consistent, measurable and safe for the right patients. That question eventually led me to Japan, where I saw a more structured approach to lymphatic surgery and later pursued dedicated MOH-accredited fellowship training in lymphedema surgery.
+              My skepticism was not a dismissal of the field. It was a question of whether the operation could be made consistent, measurable and safe for the right patients. That question eventually led me to Japan, where I saw a more structured approach to lymphatic surgery and later pursued dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery.
             </p>
             <p className="notice-text">
               This article is general educational information and reflects Dr Sun’s clinical perspective. It does not replace personalised consultation. Suitability, risks, recovery and outcomes vary between individuals.
@@ -223,7 +224,7 @@ export default function LymphedemaSurgeryJourneyPage() {
 
             <h2 id="current-approach">How this shapes my current approach in Singapore</h2>
             <p>
-              Today, my approach to lymphedema surgery is shaped by dedicated MOH-accredited fellowship training in lymphedema surgery in Japan. I place emphasis on careful patient selection, imaging-guided planning, realistic counselling, pressure and flow considerations, compression strategy and long-term follow-up.
+              Today, my approach to lymphedema surgery is shaped by dedicated HMDP fellowship training in comprehensive multidisciplinary lymphoedema management and lymphatic surgery in Japan. I place emphasis on careful patient selection, imaging-guided planning, realistic counselling, pressure and flow considerations, compression strategy and long-term follow-up.
             </p>
             <p>
               I became convinced that LVA can offer meaningful benefit in carefully selected patients, but I do not view it as a universal solution. Some patients may be suitable for lymphovenous bypass. Others may need vascularised lymph node transfer, reductive procedures, continued non-surgical care or a staged approach. A good lymphedema surgery plan should begin with assessment, not with a predetermined operation.
