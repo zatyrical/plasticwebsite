@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Face and neck consultation assessment map</title>
+  <desc id="desc">A neutral side-profile illustration marking the lower eyelid and cheek, jawline, under-chin area and neck, with notes explaining that different concerns require separate assessment.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#f0e8da"/>
+    </linearGradient>
+    <linearGradient id="portrait" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e9d6b1" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#b89a5e" stop-opacity=".09"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#10201d" flood-opacity=".10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="760" rx="38" fill="url(#background)"/>
+  <circle cx="292" cy="355" r="238" fill="url(#portrait)"/>
+  <circle cx="292" cy="355" r="214" fill="none" stroke="#b89a5e" stroke-opacity=".22" stroke-width="2" stroke-dasharray="7 11"/>
+
+  <text x="72" y="72" fill="#b08946" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="3">CONSULTATION MAP</text>
+  <text x="72" y="113" fill="#10201d" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Start with the concern, not a procedure label</text>
+
+  <g fill="none" stroke="#173d36" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M277 151 C224 171 198 228 211 291 C221 340 252 377 252 419 C252 469 222 523 200 623" stroke-width="7"/>
+    <path d="M277 151 C348 139 407 178 414 239 C418 271 439 291 463 307 C475 315 473 331 459 338 L435 349 C443 361 439 372 428 378 C441 388 437 400 425 405 C437 428 422 448 392 455 C357 463 347 492 356 526 L375 623" stroke-width="7"/>
+    <path d="M286 214 C325 202 356 217 374 241" stroke-width="4" stroke-opacity=".55"/>
+    <path d="M322 276 C344 266 365 269 383 281" stroke-width="4" stroke-opacity=".55"/>
+    <path d="M377 338 C398 340 415 336 429 328" stroke-width="4" stroke-opacity=".55"/>
+    <path d="M382 383 C400 389 414 389 429 383" stroke-width="4" stroke-opacity=".55"/>
+    <path d="M370 449 C337 452 306 443 280 424" stroke-width="4" stroke-opacity=".45"/>
+    <path d="M355 513 C321 520 289 511 257 490" stroke-width="4" stroke-opacity=".45"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g>
+      <circle cx="356" cy="276" r="22" fill="#b89a5e"/>
+      <text x="356" y="283" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">1</text>
+      <path d="M379 276 C486 276 500 178 594 178" fill="none" stroke="#b89a5e" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g>
+      <circle cx="377" cy="407" r="22" fill="#b89a5e"/>
+      <text x="377" y="414" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">2</text>
+      <path d="M400 407 C486 407 512 317 594 317" fill="none" stroke="#b89a5e" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g>
+      <circle cx="331" cy="482" r="22" fill="#b89a5e"/>
+      <text x="331" y="489" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">3</text>
+      <path d="M354 482 C464 482 501 456 594 456" fill="none" stroke="#b89a5e" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g>
+      <circle cx="278" cy="553" r="22" fill="#b89a5e"/>
+      <text x="278" y="560" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">4</text>
+      <path d="M301 553 C446 553 500 595 594 595" fill="none" stroke="#b89a5e" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="594" y="127" width="534" height="102" rx="22" fill="#fff" stroke="#10201d" stroke-opacity=".10"/>
+      <text x="626" y="162" fill="#10201d" font-size="21" font-weight="700">Lower eyelid, hollow or cheek volume</text>
+      <text x="626" y="192" fill="#40504c" font-size="16">Eyelid, volume and lifting concerns are assessed separately.</text>
+
+      <rect x="594" y="266" width="534" height="102" rx="22" fill="#fff" stroke="#10201d" stroke-opacity=".10"/>
+      <text x="626" y="301" fill="#10201d" font-size="21" font-weight="700">Jowls or jawline descent</text>
+      <text x="626" y="331" fill="#40504c" font-size="16">Assessment distinguishes skin laxity from deeper tissue descent.</text>
+
+      <rect x="594" y="405" width="534" height="102" rx="22" fill="#fff" stroke="#10201d" stroke-opacity=".10"/>
+      <text x="626" y="440" fill="#10201d" font-size="21" font-weight="700">Fullness beneath the chin</text>
+      <text x="626" y="470" fill="#40504c" font-size="16">Fat distribution and skin tone influence the options discussed.</text>
+
+      <rect x="594" y="544" width="534" height="102" rx="22" fill="#fff" stroke="#10201d" stroke-opacity=".10"/>
+      <text x="626" y="579" fill="#10201d" font-size="21" font-weight="700">Loose neck skin or visible bands</text>
+      <text x="626" y="609" fill="#40504c" font-size="16">Neck anatomy, skin and the jawline are considered together.</text>
+    </g>
+
+    <text x="72" y="711" fill="#52615d" font-size="15">Educational schematic only — it does not diagnose a concern or recommend a procedure.</text>
+  </g>
+</svg>
