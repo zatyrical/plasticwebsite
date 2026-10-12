@@ -427,6 +427,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {['asian-rhinoplasty-singapore', 'rib-rhinoplasty-singapore', 'breast-augmentation-singapore', 'body-contouring-liposuction-singapore', 'tummy-tuck-singapore', 'face-neck-lift-singapore'].includes(article.slug) && section.id === 'recovery' ? (
                   <p>Comparing overseas clinics? Read the <Link href="/plastic-surgery-overseas-safety-singapore">plastic surgery in Korea and overseas follow-up checklist</Link> to prepare questions about anaesthesia arrangements, records and in-person care after returning to Singapore.</p>
                 ) : null}
+                {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'recovery' ? (
+                  <p>For a focused explanation of garments, foam padding, short-stretch bandages and manual lymphatic drainage, read the <Link href="/compression-foam-lymphatic-massage-after-liposuction">compression and recovery after liposuction guide</Link>. The exact recovery plan should follow the treating surgeon&apos;s instructions.</p>
+                ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/safety">ASPS tummy tuck risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/candidates">ASPS tummy tuck suitability</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a>.</p>
                 ) : null}
