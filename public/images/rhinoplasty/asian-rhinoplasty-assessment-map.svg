@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Asian rhinoplasty consultation assessment map</title>
+  <desc id="desc">Six factors reviewed together during consultation: facial balance, bridge height and contour, tip and nostril shape, skin and cartilage support, breathing and septum, and previous fillers or surgery.</desc>
+  <rect width="1200" height="760" rx="28" fill="#f6f2eb"/>
+  <text x="600" y="54" fill="#17342e" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle">What rhinoplasty consultation assesses</text>
+  <text x="600" y="88" fill="#4c625d" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle">Appearance, function, tissue support and treatment history are considered together.</text>
+
+  <g fill="#ffffff" stroke="#d9d1c4" stroke-width="2">
+    <rect x="38" y="124" width="360" height="150" rx="20"/>
+    <rect x="38" y="302" width="360" height="150" rx="20"/>
+    <rect x="38" y="480" width="360" height="150" rx="20"/>
+    <rect x="802" y="124" width="360" height="150" rx="20"/>
+    <rect x="802" y="302" width="360" height="150" rx="20"/>
+    <rect x="802" y="480" width="360" height="150" rx="20"/>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <circle cx="76" cy="162" r="20" fill="#2f7d6d"/>
+    <text x="76" y="170" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">1</text>
+    <text x="110" y="160" fill="#17342e" font-size="27" font-weight="700">Facial balance</text>
+    <text x="76" y="202" fill="#4c625d" font-size="21">Overall proportions and how the</text>
+    <text x="76" y="231" fill="#4c625d" font-size="21">nose relates to the face.</text>
+
+    <circle cx="76" cy="340" r="20" fill="#2f7d6d"/>
+    <text x="76" y="348" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">2</text>
+    <text x="110" y="338" fill="#17342e" font-size="27" font-weight="700">Bridge</text>
+    <text x="76" y="380" fill="#4c625d" font-size="21">Height, contour, symmetry and</text>
+    <text x="76" y="409" fill="#4c625d" font-size="21">relationship to the radix.</text>
+
+    <circle cx="76" cy="518" r="20" fill="#2f7d6d"/>
+    <text x="76" y="526" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">3</text>
+    <text x="110" y="516" fill="#17342e" font-size="27" font-weight="700">Tip &amp; nostrils</text>
+    <text x="76" y="558" fill="#4c625d" font-size="21">Projection, definition, shape,</text>
+    <text x="76" y="587" fill="#4c625d" font-size="21">width and visible asymmetry.</text>
+
+    <circle cx="840" cy="162" r="20" fill="#b57a37"/>
+    <text x="840" y="170" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">4</text>
+    <text x="874" y="160" fill="#17342e" font-size="27" font-weight="700">Skin &amp; support</text>
+    <text x="840" y="202" fill="#4c625d" font-size="21">Skin thickness, cartilage strength</text>
+    <text x="840" y="231" fill="#4c625d" font-size="21">and existing structural support.</text>
+
+    <circle cx="840" cy="340" r="20" fill="#b57a37"/>
+    <text x="840" y="348" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">5</text>
+    <text x="874" y="338" fill="#17342e" font-size="27" font-weight="700">Breathing &amp; septum</text>
+    <text x="840" y="380" fill="#4c625d" font-size="21">Airway symptoms and septal</text>
+    <text x="840" y="409" fill="#4c625d" font-size="21">deviation or structural narrowing.</text>
+
+    <circle cx="840" cy="518" r="20" fill="#b57a37"/>
+    <text x="840" y="526" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">6</text>
+    <text x="874" y="516" fill="#17342e" font-size="27" font-weight="700">Previous treatment</text>
+    <text x="840" y="558" fill="#4c625d" font-size="21">Prior fillers, implants, grafts or</text>
+    <text x="840" y="587" fill="#4c625d" font-size="21">surgery that may affect planning.</text>
+  </g>
+
+  <g fill="none" stroke="#b8afa2" stroke-width="3" stroke-linecap="round">
+    <path d="M398 198 H494"/>
+    <path d="M398 376 H478"/>
+    <path d="M398 554 H500"/>
+    <path d="M802 198 H706"/>
+    <path d="M802 376 H722"/>
+    <path d="M802 554 H700"/>
+  </g>
+  <g fill="#2f7d6d">
+    <circle cx="494" cy="198" r="7"/>
+    <circle cx="478" cy="376" r="7"/>
+    <circle cx="500" cy="554" r="7"/>
+  </g>
+  <g fill="#b57a37">
+    <circle cx="706" cy="198" r="7"/>
+    <circle cx="722" cy="376" r="7"/>
+    <circle cx="700" cy="554" r="7"/>
+  </g>
+
+  <g transform="translate(470 126)">
+    <path d="M110 16 C153 21 185 50 198 89 C207 116 205 142 215 164 C223 182 242 190 246 208 C248 219 239 229 225 233 C217 236 211 240 211 248 C211 262 225 275 224 294 C223 317 202 328 184 337 C169 345 160 359 159 378 C158 403 173 428 191 451 C201 465 193 488 173 489 H89 C61 488 42 471 39 443 C35 408 47 381 62 357 C75 337 80 314 74 290 C67 261 48 235 44 202 C39 158 50 112 67 76 C78 52 92 30 110 16 Z" fill="#e6d6c5" stroke="#17342e" stroke-width="4"/>
+    <path d="M194 120 C178 136 172 155 175 173 C177 188 188 198 201 205" fill="none" stroke="#2f7d6d" stroke-width="5" stroke-linecap="round"/>
+    <path d="M199 206 C211 210 220 212 231 212" fill="none" stroke="#2f7d6d" stroke-width="5" stroke-linecap="round"/>
+    <path d="M181 232 C190 238 199 241 210 240" fill="none" stroke="#2f7d6d" stroke-width="5" stroke-linecap="round"/>
+    <path d="M137 96 C159 109 172 124 179 144" fill="none" stroke="#b57a37" stroke-width="5" stroke-linecap="round"/>
+    <path d="M149 171 C158 181 163 195 162 211" fill="none" stroke="#b57a37" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="177" cy="150" r="5" fill="#17342e"/>
+  </g>
+
+  <rect x="165" y="666" width="870" height="60" rx="20" fill="#17342e"/>
+  <text x="600" y="703" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" text-anchor="middle">These findings guide whether surgery is appropriate and how it may be planned.</text>
+</svg>
