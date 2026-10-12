@@ -550,7 +550,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'asian-rhinoplasty-singapore': {
     slug: 'asian-rhinoplasty-singapore',
-    modifiedIso: '2026-10-09',
+    modifiedIso: '2026-10-12',
     title: 'Rhinoplasty Singapore | Asian Nose Surgery & Rib Cartilage',
     eyebrow: 'Asian rhinoplasty',
     lead: 'A detailed guide to Asian rhinoplasty in Singapore, including nasal bridge and tip planning, structural support, rib cartilage considerations, recovery and risks.',
@@ -573,7 +573,14 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'assessment',
         heading: 'Assessment for Asian rhinoplasty',
-        paragraphs: ['Assessment includes facial proportions, nasal bridge height, tip support, nostril shape, septal deviation, airway symptoms, skin thickness and previous fillers or surgery.', 'Photographs and clinical examination help determine whether the concern is primarily bridge height, tip projection, nostril shape, asymmetry, breathing, revision issues or a combination of factors. A careful plan should balance appearance with nasal function and long-term support.']
+        paragraphs: ['Assessment includes facial proportions, nasal bridge height, tip support, nostril shape, septal deviation, airway symptoms, skin thickness and previous fillers or surgery.', 'Photographs and clinical examination help determine whether the concern is primarily bridge height, tip projection, nostril shape, asymmetry, breathing, revision issues or a combination of factors. A careful plan should balance appearance with nasal function and long-term support.'],
+        image: {
+          src: '/images/rhinoplasty/asian-rhinoplasty-assessment-map.svg',
+          alt: 'Asian rhinoplasty consultation assessment map covering facial balance, bridge height and contour, tip and nostril shape, skin and cartilage support, breathing and septum, and previous fillers or surgery',
+          caption: 'Consultation assessment map. These factors are reviewed together before deciding whether surgery is appropriate or how it may be planned; the diagram does not recommend a procedure or predict an outcome.',
+          width: 1200,
+          height: 760
+        }
       },
       {
         id: 'singapore-asian-nose',
