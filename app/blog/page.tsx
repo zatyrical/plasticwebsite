@@ -25,7 +25,7 @@ const existingArticles = [
     title: '24-hour rapid recovery breast augmentation in Singapore',
     href: '/24-hour-rapid-recovery-breast-augmentation-singapore',
     category: 'Breast augmentation',
-    description: 'A patient guide to Dr William Adams’ 24-hour rapid recovery breast augmentation principles, safety, suitability and realistic limitations.'
+    description: 'A patient guide to rapid recovery breast augmentation principles, their published origins, safety, suitability and realistic limitations.'
   },
   {
     title: 'Why I trained in lymphedema surgery in Japan',
