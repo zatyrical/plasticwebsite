@@ -53,7 +53,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   'eyebag-removal-lower-blepharoplasty-singapore': lowerBlepharoplastyArticle,
   'body-contouring-liposuction-singapore': {
     slug: 'body-contouring-liposuction-singapore',
-    modifiedIso: '2026-10-11',
+    modifiedIso: '2026-10-12',
     title: 'Liposuction Singapore | Body Contouring Surgery, Cost & Recovery',
     eyebrow: 'Body contouring & liposuction',
     lead: 'A detailed guide to liposuction and body contouring treatment in Singapore, including abdominal, waist, arm and thigh contouring, suitability, surgical planning, recovery, scars, limitations and risks.',
