@@ -27,7 +27,7 @@ const latestModifiedPaths = new Map([
   ['/st-lukes-eldercare-symposium-lymphoedema-wound-care-2026', '2026-10-10'],
   ['/media', '2026-10-07'],
   ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-10'],
-  ['/asian-rhinoplasty-singapore', '2026-10-09'],
+  ['/asian-rhinoplasty-singapore', '2026-10-12'],
   ['/rib-rhinoplasty-singapore', '2026-10-10'],
   ['/breast-augmentation-singapore', '2026-10-12'],
   ['/breast-aesthetic-surgery-singapore', '2026-10-10'],
