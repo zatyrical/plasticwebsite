@@ -493,6 +493,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'breast-augmentation-singapore' && section.id === 'rapid-recovery' ? (
                   <p>Read the <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore">rapid recovery breast augmentation guide</Link> for patient selection, early movement and activity limits.</p>
                 ) : null}
+                {article.slug === 'breast-augmentation-singapore' && section.id === 'fat-grafting-lift' ? (
+                  <p>If avoiding an implant or discussing modest contour refinement is part of the consultation, the <Link href="/fat-grafting-singapore">fat grafting guide</Link> explains donor- and recipient-site assessment, recovery at both sites and important volume limitations. Reading it does not mean fat transfer is suitable or planned.</p>
+                ) : null}
                 {article.slug === 'breast-aesthetic-surgery-singapore' && section.id === 'augmentation' ? (
                   <p>For a focused discussion of implant sizing, placement, screening, cost factors and long-term follow-up, read the <Link href="/breast-augmentation-singapore">breast augmentation and implant-planning guide</Link>.</p>
                 ) : null}
