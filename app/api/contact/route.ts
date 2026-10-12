@@ -92,7 +92,7 @@ export async function POST(request: NextRequest) {
 
   const honeypot = clean(payload.website);
   if (honeypot) {
-    return jsonResponse(request, { ok: true });
+    return jsonResponse(request, { ok: true, accepted: false });
   }
 
   const name = clean(payload.name, 120);
@@ -172,5 +172,5 @@ export async function POST(request: NextRequest) {
   }
 
   if (isBrowserFormPost && redirectSuccess) return NextResponse.redirect(redirectSuccess, { status: 303 });
-  return jsonResponse(request, { ok: true });
+  return jsonResponse(request, { ok: true, accepted: true });
 }
