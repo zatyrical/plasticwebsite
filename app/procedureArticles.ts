@@ -758,7 +758,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'face-neck-lift-singapore': {
     slug: 'face-neck-lift-singapore',
-    modifiedIso: '2026-10-06',
+    modifiedIso: '2026-10-12',
     title: 'Facelift & Neck Lift Singapore | Face Lift Surgery',
     eyebrow: 'Face and neck lift',
     lead: 'A detailed guide to face lift and neck lift surgery in Singapore, including suitability, facial analysis, scars, recovery, risks and non-surgical alternatives.',
@@ -796,7 +796,14 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'neck-lift-decision',
         heading: 'Neck lift, lower face lift, liposuction or non-surgical tightening?',
-        paragraphs: ['A useful consultation separates the main visible issue before choosing treatment. Isolated fat fullness under the chin, loose neck skin, platysmal bands, jowls, jawline descent and skin-surface ageing can look similar online but may need different plans.', 'Neck liposuction may help selected patients whose main concern is fat fullness and whose skin tone is favourable. A neck lift is considered when loose skin, bands or deeper neck contour issues are more important. A lower face lift is usually discussed when jawline descent and jowls contribute to the concern. Non-surgical tightening or skin treatments may be more suitable when laxity is mild or the main issue is texture rather than tissue descent.']
+        paragraphs: ['A useful consultation separates the main visible issue before choosing treatment. Isolated fat fullness under the chin, loose neck skin, platysmal bands, jowls, jawline descent and skin-surface ageing can look similar online but may need different plans.', 'Neck liposuction may help selected patients whose main concern is fat fullness and whose skin tone is favourable. A neck lift is considered when loose skin, bands or deeper neck contour issues are more important. A lower face lift is usually discussed when jawline descent and jowls contribute to the concern. Non-surgical tightening or skin treatments may be more suitable when laxity is mild or the main issue is texture rather than tissue descent.'],
+        image: {
+          src: '/images/face-neck-lift-assessment-map.svg',
+          alt: 'Side-profile consultation map marking the lower eyelid and cheek, jawline, under-chin area and neck as separate concerns to assess before choosing a procedure',
+          caption: 'A patient-question map for consultation: lower-eyelid or volume concerns, jawline descent, under-chin fullness and neck laxity can look related but require separate assessment. This is an educational schematic, not a patient photograph or treatment result.',
+          width: 1200,
+          height: 760
+        }
       },
       {
         id: 'anatomy',
