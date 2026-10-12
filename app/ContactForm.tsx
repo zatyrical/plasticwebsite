@@ -48,19 +48,22 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(Object.fromEntries(formData.entries()))
       });
-  
+
+      const data = await response.json().catch(() => null);
+
       if (response.ok) {
         form.reset();
         setStatus('sent');
         setMessage('Thank you. Your enquiry has been received. The clinic team will respond through the contact details provided.');
-        trackEnquiryEvent('generate_lead', {
-          method: 'drjeremysun_contact_form',
-          enquiry_type: String(formData.get('enquiryType') || 'Consultation enquiry')
-        });
+        if (data?.accepted === true) {
+          trackEnquiryEvent('generate_lead', {
+            method: 'drjeremysun_contact_form',
+            enquiry_type: String(formData.get('enquiryType') || 'Consultation enquiry')
+          });
+        }
         return;
       }
-  
-      const data = await response.json().catch(() => null);
+
       setStatus('error');
       setMessage(data?.error || 'Sorry, the enquiry could not be sent. Please try again later.');
     } catch {
