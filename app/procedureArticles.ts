@@ -53,7 +53,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   'eyebag-removal-lower-blepharoplasty-singapore': lowerBlepharoplastyArticle,
   'body-contouring-liposuction-singapore': {
     slug: 'body-contouring-liposuction-singapore',
-    modifiedIso: '2026-10-12',
+    modifiedIso: '2026-10-13',
     title: 'Liposuction Singapore | Body Contouring Surgery, Cost & Recovery',
     eyebrow: 'Body contouring & liposuction',
     lead: 'A detailed guide to liposuction and body contouring treatment in Singapore, including abdominal, waist, arm and thigh contouring, suitability, surgical planning, recovery, scars, limitations and risks.',
@@ -113,7 +113,14 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'procedure',
         heading: 'How liposuction is performed',
-        paragraphs: ['Liposuction is usually performed through small incisions. Fluid may be placed into the tissues before fat is removed with fine cannulas. The technique and anaesthesia depend on the number of areas treated, the expected volume, patient factors and surgical plan.', 'The goal is controlled contour change, not maximal fat removal. Over-aggressive treatment can increase risks and may lead to contour irregularity, skin laxity, prolonged swelling or unevenness.']
+        paragraphs: ['Liposuction is usually performed through small incisions. Fluid may be placed into the tissues before fat is removed with fine cannulas. The technique and anaesthesia depend on the number of areas treated, the expected volume, patient factors and surgical plan.', 'The goal is controlled contour change, not maximal fat removal. Over-aggressive treatment can increase risks and may lead to contour irregularity, skin laxity, prolonged swelling or unevenness.'],
+        image: {
+          src: '/images/body-contouring/liposuction-target-layer-map.svg',
+          alt: 'Liposuction consultation diagram showing selected superficial fat between skin and muscle, with separate assessment questions for loose skin, muscle separation and deeper fullness',
+          caption: 'A simplified cross-section: liposuction may address selected superficial fat, but loose skin, muscle separation and deeper fullness are separate assessment questions. This diagram is not to scale and does not recommend a procedure.',
+          width: 1400,
+          height: 900
+        }
       },
       {
         id: 'cost-quotation',
