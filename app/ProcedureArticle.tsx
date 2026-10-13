@@ -431,6 +431,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/safety">ASPS tummy tuck risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/candidates">ASPS tummy tuck suitability</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a>.</p>
                 ) : null}
+                {article.slug === 'mommy-makeover-singapore' && section.id === 'risks' ? (
+                  <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/mommy-makeover/safety">ASPS mommy makeover risks and safety</a> and <a href="https://www.saps.org.sg/tummy-tuck">Singapore Association of Plastic Surgeons: tummy tuck / abdominoplasty</a>.</p>
+                ) : null}
                 {(article.slug === 'asian-rhinoplasty-singapore' || article.slug === 'rib-rhinoplasty-singapore') && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.saps.org.sg/rhinoplasty">Singapore Association of Plastic Surgeons: rhinoplasty</a>, <a href="https://www.singhealth.com.sg/symptoms-treatments/nose-rhinoplasty">SingHealth: nose (rhinoplasty)</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/safety">ASPS rhinoplasty risks and safety</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/recovery">ASPS rhinoplasty recovery guidance</a>.</p>
                 ) : null}

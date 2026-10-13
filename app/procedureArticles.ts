@@ -275,7 +275,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'mommy-makeover-singapore': {
     slug: 'mommy-makeover-singapore',
-    modifiedIso: '2026-10-07',
+    modifiedIso: '2026-10-14',
     title: 'Mommy / Mummy Makeover Singapore | Post-Pregnancy Surgery',
     eyebrow: 'Mommy makeover',
     lead: 'A patient guide to mommy / mummy makeover surgery in Singapore, including tummy tuck, abdominoplasty, diastasis recti repair, breast augmentation or lift, liposuction, staging, cost factors, recovery and risks.',
