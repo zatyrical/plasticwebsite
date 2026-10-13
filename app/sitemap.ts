@@ -6,7 +6,7 @@ const baseUrl = 'https://www.drjeremysun.com';
 const updatedAt = '2026-10-03';
 const latestModifiedPaths = new Map([
   ['/plastic-surgery-overseas-safety-singapore', '2026-10-09'],
-  ['/blog', '2026-10-12'],
+  ['/blog', '2026-10-13'],
   ['', '2026-10-12'],
   ['/aesthetic-surgery', '2026-10-10'],
   ['/reconstructive-surgery', '2026-10-10'],
