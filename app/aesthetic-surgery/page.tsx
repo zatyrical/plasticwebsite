@@ -31,18 +31,31 @@ export const metadata: Metadata = {
 
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'CollectionPage',
-  '@id': 'https://www.drjeremysun.com/aesthetic-surgery#webpage',
-  url: 'https://www.drjeremysun.com/aesthetic-surgery',
-  name: 'Aesthetic Surgery Treatments in Singapore',
-  description: metadata.description,
-  inLanguage: 'en-SG',
-  dateModified: '2026-10-10',
-  mainEntity: aestheticTreatments.map((treatment) => ({
-    '@type': 'MedicalWebPage',
-    name: treatment.title,
-    url: `https://www.drjeremysun.com${treatment.href}`
-  }))
+  '@graph': [
+    {
+      '@type': 'CollectionPage',
+      '@id': 'https://www.drjeremysun.com/aesthetic-surgery#webpage',
+      url: 'https://www.drjeremysun.com/aesthetic-surgery',
+      name: 'Aesthetic Surgery Treatments in Singapore',
+      description: metadata.description,
+      inLanguage: 'en-SG',
+      dateModified: '2026-10-13',
+      breadcrumb: { '@id': 'https://www.drjeremysun.com/aesthetic-surgery#breadcrumb' },
+      mainEntity: aestheticTreatments.map((treatment) => ({
+        '@type': 'MedicalWebPage',
+        name: treatment.title,
+        url: `https://www.drjeremysun.com${treatment.href}`
+      }))
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': 'https://www.drjeremysun.com/aesthetic-surgery#breadcrumb',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.drjeremysun.com/' },
+        { '@type': 'ListItem', position: 2, name: 'Aesthetic surgery', item: 'https://www.drjeremysun.com/aesthetic-surgery' }
+      ]
+    }
+  ]
 };
 
 export default function AestheticSurgeryPage() {
@@ -72,6 +85,26 @@ export default function AestheticSurgeryPage() {
               <li><a href="/mommy-makeover-singapore">Mommy makeover / post-pregnancy surgery</a></li>
             </ul>
           </aside>
+        </div>
+      </section>
+
+      <section className="section treatment-pathway-section">
+        <div className="container">
+          <div className="eyebrow">Start with your concern</div>
+          <h2>Which guide should you read first?</h2>
+          <p className="section-intro">A procedure name is not always the best starting point. These pathways organise the existing guides by the area or decision you want to understand before consultation.</p>
+          <div className="grid-3">
+            <a className="card linked-card" href="/asian-rhinoplasty-singapore"><small>Nose shape or structure</small><h3>Start with rhinoplasty planning</h3><p>Compare implant, septal, ear and rib-cartilage considerations, including when revision planning changes the discussion.</p><span>Read the nose-surgery guide</span></a>
+            <a className="card linked-card" href="/eyebag-removal-lower-blepharoplasty-singapore"><small>Upper or lower eyelids</small><h3>Separate eyelid concerns</h3><p>Begin with the lower-eyelid guide for eyebags and tear-trough concerns, with a separate route to upper-eyelid planning.</p><span>Read the lower-eyelid guide</span></a>
+            <a className="card linked-card" href="/face-neck-lift-singapore#assessment"><small>Face and neck changes</small><h3>Begin with an anatomy-led assessment</h3><p>Review how volume loss, tissue descent and skin changes are separated before comparing lifting, fat grafting, threads or skin treatments.</p><span>Read the face and neck guide</span></a>
+            <a className="card linked-card" href="/breast-aesthetic-surgery-singapore"><small>Breast shape, volume or position</small><h3>Compare breast-surgery options</h3><p>Start with the overview before moving to implant planning, lift, reduction, asymmetry or recovery-specific information.</p><span>Read the breast-surgery overview</span></a>
+            <a className="card linked-card" href="/body-contouring-liposuction-singapore"><small>Abdomen or body contour</small><h3>Compare skin, fat and muscle concerns</h3><p>Use the body-contouring guide before comparing liposuction, tummy tuck or combined post-pregnancy planning.</p><span>Read the body-contouring guide</span></a>
+            <a className="card linked-card" href="/plastic-surgeon-singapore#consultation"><small>Preparing for consultation</small><h3>Check credentials and questions</h3><p>Review specialist-registration, safety and consultation questions before seeking personalised advice.</p><span>Read the consultation guide</span></a>
+          </div>
+          <div className="section-actions">
+            <a className="btn btn-primary" href="/#contact">Request a private consultation</a>
+          </div>
+          <p className="hub-location-note">Private consultation enquiries are handled through Astrid Plastic Surgery at Paragon Medical, 290 Orchard Road, #09-01/02, Singapore 238859.</p>
         </div>
       </section>
 
