@@ -128,6 +128,7 @@ export default function ProcedureArticlePage({ article }: Props) {
     'rib-rhinoplasty-singapore': ['asian-rhinoplasty-singapore'],
     'lower-limb-reconstruction-singapore': ['trauma-lacerations-singapore', 'scar-reconstruction-singapore'],
     'head-neck-reconstruction-singapore': ['facial-laceration-repair-singapore', 'trauma-lacerations-singapore', 'scar-reconstruction-singapore', 'child-facial-laceration-plastic-surgeon-singapore'],
+    'facial-laceration-repair-singapore': ['trauma-lacerations-singapore', 'child-facial-laceration-plastic-surgeon-singapore', 'scar-reconstruction-singapore', 'head-neck-reconstruction-singapore'],
     'scar-reconstruction-singapore': ['trauma-lacerations-singapore', 'facial-laceration-repair-singapore', 'head-neck-reconstruction-singapore', 'lower-limb-reconstruction-singapore'],
     'ftm-top-surgery-singapore': ['gender-affirming-chest-reconstruction-singapore'],
     'gender-affirming-chest-reconstruction-singapore': ['ftm-top-surgery-singapore'],
@@ -481,6 +482,18 @@ export default function ProcedureArticlePage({ article }: Props) {
                     <p>For planning and risks when laser treatment is being discussed, read the <Link href="/lasers-injectables-singapore#safety">laser treatment safety guide</Link>. The <Link href="/fat-grafting-singapore#assessment">fat grafting assessment guide</Link> explains donor- and recipient-site planning when fat transfer is being considered. These guides do not establish which treatment is suitable for a particular scar.</p>
                     <p>Further patient information: <a href="https://www.saps.org.sg/scar-management">Singapore Association of Plastic Surgeons: scar management</a>.</p>
                   </>
+                ) : null}
+                {article.slug === 'facial-laceration-repair-singapore' && section.id === 'urgent-assessment' ? (
+                  <p>Singapore first-aid and escalation guidance: <a href="https://www.moh.gov.sg/seeking-healthcare/getting-medical-help/conditions/cuts-and-open-wounds/">Ministry of Health: cuts and open wounds</a>.</p>
+                ) : null}
+                {article.slug === 'facial-laceration-repair-singapore' && section.id === 'children' ? (
+                  <p>For the separate parent-focused pathway, read the <Link href="/child-facial-laceration-plastic-surgeon-singapore">child facial laceration assessment guide</Link>, including age, cooperation and anaesthesia considerations.</p>
+                ) : null}
+                {article.slug === 'facial-laceration-repair-singapore' && section.id === 'scar-care' ? (
+                  <p>If a healed wound leaves a raised, widened, tethered, painful or poorly aligned scar, the <Link href="/scar-reconstruction-singapore#assessment">scar assessment and revision guide</Link> explains the separate later-stage pathway.</p>
+                ) : null}
+                {article.slug === 'facial-laceration-repair-singapore' && section.id === 'limits' ? (
+                  <p>Further patient information: <a href="https://www.saps.org.sg/facial-trauma">Singapore Association of Plastic Surgeons: facial trauma</a> and <a href="https://www.singhealth.com.sg/symptoms-treatments/facial-trauma">SingHealth: facial trauma and facial fractures</a>.</p>
                 ) : null}
                 {article.slug === 'trauma-lacerations-singapore' && section.id === 'scar-care' ? (
                   <p>If a healed injury leaves a raised, widened, tight, painful or poorly aligned scar, the <Link href="/scar-reconstruction-singapore#assessment">scar assessment and revision guide</Link> explains the factors reviewed before treatment is considered.</p>
