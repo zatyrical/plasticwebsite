@@ -120,7 +120,7 @@ export default function ProcedureArticlePage({ article }: Props) {
   const relatedByProcedure: Record<string, string[]> = {
     'eyebag-removal-lower-blepharoplasty-singapore': ['asian-eyelid-surgery-singapore', 'face-neck-lift-singapore'],
     'breast-augmentation-singapore': ['24-hour-rapid-recovery-breast-augmentation-singapore', 'breast-aesthetic-surgery-singapore', 'breast-implant-illness-singapore-evidence', 'mommy-makeover-singapore'],
-    'breast-aesthetic-surgery-singapore': ['breast-augmentation-singapore', '24-hour-rapid-recovery-breast-augmentation-singapore', 'breast-implant-illness-singapore-evidence', 'mommy-makeover-singapore'],
+    'breast-aesthetic-surgery-singapore': ['breast-augmentation-singapore', '24-hour-rapid-recovery-breast-augmentation-singapore', 'fat-grafting-singapore', 'breast-implant-illness-singapore-evidence'],
     'tummy-tuck-singapore': ['body-contouring-liposuction-singapore', 'mommy-makeover-singapore', 'compression-foam-lymphatic-massage-after-liposuction'],
     'mommy-makeover-singapore': ['tummy-tuck-singapore', 'breast-augmentation-singapore', 'breast-aesthetic-surgery-singapore', 'body-contouring-liposuction-singapore'],
     'body-contouring-liposuction-singapore': ['tummy-tuck-singapore', 'compression-foam-lymphatic-massage-after-liposuction', 'fat-grafting-singapore', 'mommy-makeover-singapore'],
@@ -525,8 +525,14 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'breast-aesthetic-surgery-singapore' && section.id === 'rapid-recovery-augmentation' ? (
                   <p>The <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore">rapid recovery breast augmentation guide</Link> explains patient selection, early movement, activity limits and why 24 hours is not a guaranteed recovery timeline.</p>
                 ) : null}
+                {article.slug === 'breast-aesthetic-surgery-singapore' && section.id === 'lift-reduction' ? (
+                  <p>Further patient information: <a href="https://www.saps.org.sg/breast-lift-mastopexy">Singapore Association of Plastic Surgeons: breast lift / mastopexy</a> and <a href="https://www.saps.org.sg/breast-reduction">Singapore Association of Plastic Surgeons: breast reduction</a>.</p>
+                ) : null}
                 {article.slug === 'breast-aesthetic-surgery-singapore' && section.id === 'implants' ? (
-                  <p>Patients specifically concerned about reported systemic symptoms can also read the <Link href="/breast-implant-illness-singapore-evidence">breast implant illness evidence guide</Link> before consultation.</p>
+                  <>
+                    <p>For a focused comparison of donor-site assessment, volume limits and recovery at both sites, read the <Link href="/fat-grafting-singapore">fat grafting guide</Link>. Reading it does not mean fat transfer is suitable or planned.</p>
+                    <p>Further patient information: <a href="https://www.saps.org.sg/breast-augmentation">Singapore Association of Plastic Surgeons: breast augmentation</a> and <a href="https://www.saps.org.sg/fat-transfer-breast-augmentation62823491">Singapore Association of Plastic Surgeons: fat-transfer breast augmentation</a>. Patients specifically concerned about reported systemic symptoms can also read the <Link href="/breast-implant-illness-singapore-evidence">breast implant illness evidence guide</Link> before consultation.</p>
+                  </>
                 ) : null}
                 {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'skin-quality' ? (
                   <p>Compare the <Link href="/tummy-tuck-singapore">tummy tuck and abdominoplasty guide</Link> when discussing loose abdominal skin and abdominal wall concerns.</p>
