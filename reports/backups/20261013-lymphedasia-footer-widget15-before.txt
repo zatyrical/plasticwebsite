@@ -1,0 +1,17 @@
+WordPress option: widget_block
+Widget instance: 15
+Captured: 2026-10-13 (before contact/NAP completion)
+
+<!-- wp:uagb/icon-list {"block_id":"ea4137e6","classMigrate":true,"childMigrate":true,"alignMobile":"center","parentIcon":"","labelColor":"#ffffff","labelHoverColor":"#ffffff"} -->
+<div class="wp-block-uagb-icon-list uagb-block-ea4137e6"><div class="uagb-icon-list__wrap"><!-- wp:uagb/icon-list-child {"block_id":"50e49639","label":"Private appointments: contact@astridplasticsurgery.com","label_color":"","label_hover_color":"","fromParentIcon":""} -->
+<div class="wp-block-uagb-icon-list-child uagb-block-50e49639"><span class="uagb-icon-list__label">Private appointments: contact@astridplasticsurgery.com</span></div>
+<!-- /wp:uagb/icon-list-child -->
+
+<!-- wp:uagb/icon-list-child {"block_id":"1e3a7996","label":"","label_color":"","label_hover_color":"","fromParentIcon":""} -->
+<div class="wp-block-uagb-icon-list-child uagb-block-1e3a7996"></div>
+<!-- /wp:uagb/icon-list-child -->
+
+<!-- wp:uagb/icon-list-child {"block_id":"9c3842e2","label":"","label_color":"","label_hover_color":"","fromParentIcon":""} -->
+<div class="wp-block-uagb-icon-list-child uagb-block-9c3842e2"></div>
+<!-- /wp:uagb/icon-list-child --></div></div>
+<!-- /wp:uagb/icon-list -->
