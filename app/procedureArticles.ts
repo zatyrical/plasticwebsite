@@ -1033,13 +1033,13 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'child-facial-laceration-plastic-surgeon-singapore': {
     slug: 'child-facial-laceration-plastic-surgeon-singapore',
-    modifiedIso: '2026-10-03',
+    modifiedIso: '2026-10-13',
     title: 'Child Facial Laceration Repair in Singapore',
     eyebrow: 'Child facial lacerations',
     lead: 'A parent-focused guide to facial cuts in children, including when plastic surgical assessment may be helpful, deeper structure checks, layered closure, wound-edge eversion, scar care and anaesthesia options.',
     description: 'Child facial laceration repair in Singapore: when a child may need plastic surgical assessment, layered closure, scar care, and local anaesthesia, sedation or general anaesthesia.',
     keywords: ['child facial laceration Singapore', 'kids facial stitches Singapore', 'plastic surgeon for child cut on face', 'child face cut stitches', 'paediatric facial laceration repair Singapore', 'facial laceration plastic surgeon Singapore'],
-    heroImage: { src: '/images/reconstructive-tiles/trauma-lacerations.jpg', alt: 'Illustrative face image representing facial laceration repair and scar care in children', caption: 'Illustrative image for patient education; not a treatment result.' },
+    heroImage: { src: '/images/child-facial-laceration-assessment.webp', alt: 'Parent beside a child while a clinician assesses a small eyebrow-area facial cut', caption: 'AI-generated editorial illustration of paediatric facial-wound assessment; not a patient or treatment result.' },
     backHref: '/reconstructive-surgery',
     backLabel: 'Back to reconstructive surgery',
     intro: [
