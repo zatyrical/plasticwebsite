@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Liposuction consultation map showing the target fat layer and separate concerns</title>
+  <desc id="desc">A simplified tissue cross-section shows selected superficial fat between skin and muscle as the layer considered for liposuction. Separate cards explain that loose skin, muscle separation and deeper fullness need their own assessment.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf8f4"/>
+      <stop offset="1" stop-color="#eee7df"/>
+    </linearGradient>
+    <pattern id="fatPattern" width="42" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="13" cy="13" r="10" fill="#efd69b" stroke="#c69b4c" stroke-width="2"/>
+      <circle cx="34" cy="29" r="8" fill="#f4dfac" stroke="#c69b4c" stroke-width="2"/>
+    </pattern>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#243345" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title{font:700 40px Arial,sans-serif;fill:#26394b}.subtitle{font:400 20px Arial,sans-serif;fill:#596775}.kicker{font:700 15px Arial,sans-serif;letter-spacing:2px;fill:#9b5f65}.panel-title{font:700 26px Arial,sans-serif;fill:#26394b}.label{font:700 17px Arial,sans-serif;fill:#26394b}.copy{font:400 16px Arial,sans-serif;fill:#596775}.card-title{font:700 21px Arial,sans-serif;fill:#26394b}.card-copy{font:400 16px Arial,sans-serif;fill:#596775}.layer{font:700 15px Arial,sans-serif;fill:#34485a}.footer{font:400 16px Arial,sans-serif;fill:#fff}.callout{stroke:#566778;stroke-width:2;fill:none}.card{fill:#fff;stroke:#d7cec6;stroke-width:2}.number{font:700 17px Arial,sans-serif;fill:#fff}
+    </style>
+  </defs>
+
+  <rect width="1400" height="900" fill="url(#background)"/>
+  <text x="70" y="65" class="kicker">LIPOSUCTION &amp; BODY-CONTOURING CONSULTATION</text>
+  <text x="70" y="112" class="title">One target layer, several separate questions</text>
+  <text x="70" y="146" class="subtitle">The first step is identifying whether the concern is fat, skin, muscle or deeper fullness.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="55" y="190" width="640" height="600" rx="26" fill="#fff" stroke="#d7cec6" stroke-width="2"/>
+  </g>
+  <text x="90" y="235" class="kicker">SIMPLIFIED CROSS-SECTION</text>
+  <text x="90" y="275" class="panel-title">What layer is being discussed?</text>
+  <text x="90" y="305" class="copy">A diagram for consultation—not a treatment plan.</text>
+
+  <path d="M112 345 Q295 320 502 345 L502 382 Q295 357 112 382 Z" fill="#f1d9c5" stroke="#c9967a" stroke-width="2"/>
+  <path d="M112 382 Q295 357 502 382 L502 555 Q295 530 112 555 Z" fill="url(#fatPattern)" stroke="#c69b4c" stroke-width="2"/>
+  <path d="M112 575 Q295 548 502 575 L502 665 Q295 638 112 665 Z" fill="#a6656c" stroke="#874c54" stroke-width="2"/>
+  <path d="M112 687 Q295 660 502 687 L502 738 Q295 711 112 738 Z" fill="#34485a" stroke="#26394b" stroke-width="2"/>
+
+  <path d="M78 430 L345 458" stroke="#35566a" stroke-width="14" stroke-linecap="round"/>
+  <path d="M345 458 L438 468" stroke="#7fa7b9" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="78" cy="430" r="13" fill="#35566a"/>
+
+  <path d="M505 360 H555" class="callout"/>
+  <text x="565" y="365" class="layer">skin</text>
+  <path d="M505 470 H555" class="callout"/>
+  <text x="565" y="461" class="layer">selected</text>
+  <text x="565" y="481" class="layer">superficial fat</text>
+  <path d="M505 620 H555" class="callout"/>
+  <text x="565" y="625" class="layer">muscle / wall</text>
+  <path d="M505 708 H555" class="callout"/>
+  <text x="565" y="713" class="layer">deeper tissues</text>
+
+  <rect x="105" y="748" width="555" height="1" fill="#d7cec6"/>
+  <text x="105" y="775" class="copy">The illustrated path is conceptual; anatomy and the safe plan vary.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="730" y="190" width="615" height="600" rx="26" fill="#fff" stroke="#d7cec6" stroke-width="2"/>
+  </g>
+  <text x="765" y="235" class="kicker">SEPARATE ASSESSMENT QUESTIONS</text>
+  <text x="765" y="275" class="panel-title">What is causing the contour concern?</text>
+
+  <rect x="765" y="310" width="545" height="125" rx="18" class="card"/>
+  <circle cx="807" cy="351" r="22" fill="#557b91"/>
+  <text x="807" y="357" text-anchor="middle" class="number">1</text>
+  <text x="845" y="345" class="card-title">Localised fat</text>
+  <text x="845" y="374" class="card-copy">Liposuction may be discussed when weight is stable</text>
+  <text x="845" y="398" class="card-copy">and the skin has adequate recoil.</text>
+
+  <rect x="765" y="455" width="545" height="125" rx="18" class="card"/>
+  <circle cx="807" cy="496" r="22" fill="#9b5f65"/>
+  <text x="807" y="502" text-anchor="middle" class="number">2</text>
+  <text x="845" y="490" class="card-title">Loose skin or poor recoil</text>
+  <text x="845" y="519" class="card-copy">Liposuction does not reliably tighten loose skin;</text>
+  <text x="845" y="543" class="card-copy">removing fat may make looseness more obvious.</text>
+
+  <rect x="765" y="600" width="545" height="150" rx="18" class="card"/>
+  <circle cx="807" cy="641" r="22" fill="#6b765d"/>
+  <text x="807" y="647" text-anchor="middle" class="number">3</text>
+  <text x="845" y="635" class="card-title">Muscle separation or deeper fullness</text>
+  <text x="845" y="664" class="card-copy">Liposuction does not repair muscle separation and</text>
+  <text x="845" y="688" class="card-copy">is not a weight-loss treatment. Another option—or</text>
+  <text x="845" y="712" class="card-copy">no procedure—may be discussed after examination.</text>
+
+  <rect x="70" y="825" width="1260" height="50" rx="17" fill="#26394b"/>
+  <text x="700" y="857" text-anchor="middle" class="footer">Simplified consultation schematic • not to scale • examination determines suitability and whether surgery is appropriate</text>
+</svg>
