@@ -927,7 +927,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'fat-grafting-singapore': {
     slug: 'fat-grafting-singapore',
-    modifiedIso: '2026-10-10',
+    modifiedIso: '2026-10-14',
     title: 'Fat Grafting in Singapore',
     eyebrow: 'Fat grafting',
     lead: 'Patient information on fat transfer for contour refinement, reconstructive and aesthetic uses, recovery and risks.',
