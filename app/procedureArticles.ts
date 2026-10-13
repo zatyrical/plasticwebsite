@@ -786,7 +786,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'face-neck-lift-singapore': {
     slug: 'face-neck-lift-singapore',
-    modifiedIso: '2026-10-12',
+    modifiedIso: '2026-10-13',
     title: 'Facelift & Neck Lift Singapore | Face Lift Surgery',
     eyebrow: 'Face and neck lift',
     lead: 'A detailed guide to face lift and neck lift surgery in Singapore, including suitability, facial analysis, scars, recovery, risks and non-surgical alternatives.',
@@ -842,7 +842,14 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'procedure',
         heading: 'Surgical approach and scar planning',
-        paragraphs: ['A face and neck lift may involve incisions around the ear and hairline, lifting and repositioning of deeper tissues, neck contouring and skin redraping. The exact technique depends on anatomy and goals.', 'Scar placement is planned around hairline, ear anatomy and the direction of tissue movement. Scars usually mature over months and are positioned to reduce visibility where possible, but no surgical scar disappears completely.']
+        paragraphs: ['A face and neck lift may involve incisions around the ear and hairline, lifting and repositioning of deeper tissues, neck contouring and skin redraping. The exact technique depends on anatomy and goals.', 'Scar placement is planned around hairline, ear anatomy and the direction of tissue movement. Scars usually mature over months and are positioned to reduce visibility where possible, but no surgical scar disappears completely.'],
+        image: {
+          src: '/images/face-neck-lift-scar-planning-zones.svg',
+          alt: 'Facelift consultation diagram highlighting broad scar-planning zones around the hairline and ear, with notes that exact placement varies and scars mature over time',
+          caption: 'Broad scar-planning zones around the hairline and ear. Exact placement varies with anatomy and technique; scars mature over months and do not disappear completely. This simplified schematic is not an incision plan.',
+          width: 1400,
+          height: 900
+        }
       },
       {
         id: 'cost-quotation',
