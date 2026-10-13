@@ -473,7 +473,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'breast-aesthetic-surgery-singapore': {
     slug: 'breast-aesthetic-surgery-singapore',
-    modifiedIso: '2026-10-10',
+    modifiedIso: '2026-10-14',
     title: 'Breast Augmentation & Aesthetic Breast Surgery in Singapore',
     eyebrow: 'Breast aesthetic surgery',
     lead: 'A detailed guide to breast augmentation, 24-hour rapid recovery principles, lift, reduction and asymmetry correction in Singapore, including planning, screening considerations, recovery and risks.',
