@@ -29,7 +29,7 @@ const latestModifiedPaths = new Map([
   ['/24-hour-rapid-recovery-breast-augmentation-singapore', '2026-10-10'],
   ['/asian-rhinoplasty-singapore', '2026-10-12'],
   ['/rib-rhinoplasty-singapore', '2026-10-10'],
-  ['/breast-augmentation-singapore', '2026-10-12'],
+  ['/breast-augmentation-singapore', '2026-10-13'],
   ['/breast-aesthetic-surgery-singapore', '2026-10-10'],
   ['/body-contouring-liposuction-singapore', '2026-10-11'],
   ['/tummy-tuck-singapore', '2026-10-10'],
