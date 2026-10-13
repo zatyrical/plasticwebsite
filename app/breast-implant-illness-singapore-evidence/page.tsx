@@ -6,6 +6,7 @@ import '../procedureAnchors.css';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const slug = 'breast-implant-illness-singapore-evidence';
+const modifiedIso = '2026-10-14';
 const title = 'Breast Implant Illness Singapore: Evidence, Symptoms & Explantation';
 const description = 'A balanced Singapore patient guide to breast implant illness symptoms, FDA safety communications, explantation outcomes, breast implant removal questions and what remains uncertain.';
 const articleUrl = `${baseUrl}/${slug}`;
@@ -105,7 +106,7 @@ const medicalArticleJsonLd = {
         { '@type': 'ScholarlyArticle', name: 'Breast Implant Illness: Symptoms, Outcomes with Explantation and Potential Etiologies—A Systematic Review and Meta-analysis', url: 'https://doi.org/10.1007/s00266-025-05142-x' }
       ],
       datePublished: lastReviewedIso,
-      dateModified: lastReviewedIso,
+      dateModified: modifiedIso,
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
@@ -223,12 +224,14 @@ export default function BreastImplantIllnessPage() {
                 <li>non-implant alternatives where relevant</li>
               </ul>
               <p>A responsible consultation should neither dismiss patient concerns nor use fear-based marketing. The aim is informed consent: understanding both the benefits and the uncertainties before deciding.</p>
+              <p>Further patient information: <a href="https://www.fda.gov/medical-devices/breast-implants/things-consider-getting-breast-implants" target="_blank" rel="noreferrer">FDA considerations before getting breast implants</a>.</p>
             </section>
 
             <section id="when-to-seek-help">
               <h2>When should someone seek medical review?</h2>
               <p>Patients with systemic symptoms should consider review by a medical practitioner to exclude common and treatable causes. Patients with breast implant-specific concerns should seek assessment if they notice breast pain, distortion, increasing firmness, swelling, a new lump, skin changes, suspected rupture, infection symptoms, or a major change in breast shape.</p>
               <p>Urgent review is needed for rapidly increasing swelling, fever, spreading redness, shortness of breath, chest pain, fainting or sudden deterioration.</p>
+              <p>Singapore patient information: <a href="https://www.hsa.gov.sg/announcements/risk-of-breast-implant-associated-anaplastic-large-cell-lymphoma--bia-alcl-/" target="_blank" rel="noreferrer">Health Sciences Authority guidance on breast implant-associated anaplastic large cell lymphoma</a>.</p>
             </section>
 
             <section id="faq">
