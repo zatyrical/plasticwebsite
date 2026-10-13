@@ -1,10 +1,43 @@
 import Image from 'next/image';
+import type { Metadata } from 'next';
 import ContactForm from './ContactForm';
 import Navigation from './Navigation';
 import { lastReviewedIso, physicianJsonLd } from './seoIdentity';
 import { aestheticSignatureTreatments, reconstructiveSignatureTreatments } from './treatmentTiles';
 
 const modifiedIso = '2026-10-12';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: '/'
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+      'max-video-preview': -1
+    }
+  },
+  openGraph: {
+    title: 'Dr Jeremy Sun Mingfa | Senior Consultant Plastic Surgeon Singapore',
+    description: 'Senior Consultant plastic surgeon in Singapore with focus in aesthetic surgery, reconstructive microsurgery and lymphedema surgery. Also listed professionally as Sun Mingfa Jeremy.',
+    url: '/',
+    siteName: 'Dr Jeremy Sun Plastic Surgery',
+    images: [{ url: '/images/dr-jeremy-sun-hero.jpg', width: 896, height: 1280, alt: 'Dr Jeremy Sun, plastic surgeon in Singapore' }],
+    locale: 'en_SG',
+    type: 'website'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dr Jeremy Sun Mingfa | Senior Consultant Plastic Surgeon Singapore',
+    description: 'Aesthetic, reconstructive and lymphedema surgery information by Dr Jeremy Sun Mingfa in Singapore.',
+    images: ['/images/dr-jeremy-sun-hero.jpg']
+  }
+};
 
 const jsonLd = {
   '@context': 'https://schema.org',
