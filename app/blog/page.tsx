@@ -79,16 +79,59 @@ export const metadata: Metadata = {
   description: 'Patient education articles on aesthetic, reconstructive and lymphatic surgery by Dr Jeremy Sun, Plastic, Reconstructive and Aesthetic Surgeon in Singapore.',
   alternates: {
     canonical: '/blog'
+  },
+  openGraph: {
+    title: 'Plastic Surgery Patient Education | Dr Jeremy Sun',
+    description: 'Browse patient guides on aesthetic, reconstructive and lymphatic surgery, including suitability, recovery, risks and consultation planning.',
+    url: '/blog',
+    type: 'website',
+    images: [
+      {
+        url: '/images/dr-jeremy-sun-surgery.jpg',
+        width: 1280,
+        height: 1600,
+        alt: 'Dr Jeremy Sun operating in a surgical theatre'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Plastic Surgery Patient Education | Dr Jeremy Sun',
+    description: 'Browse patient guides on aesthetic, reconstructive and lymphatic surgery, including suitability, recovery, risks and consultation planning.',
+    images: ['/images/dr-jeremy-sun-surgery.jpg']
+  }
+};
+
+const pageUrl = 'https://www.drjeremysun.com/blog';
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  '@id': `${pageUrl}#webpage`,
+  url: pageUrl,
+  name: 'Plastic Surgery Patient Education',
+  description: metadata.description,
+  inLanguage: 'en-SG',
+  dateModified: '2026-10-13',
+  mainEntity: {
+    '@type': 'ItemList',
+    itemListElement: articles.map((article, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: article.title,
+      url: `https://www.drjeremysun.com${article.href}`
+    }))
   }
 };
 
 export default function BlogIndex() {
   return (
     <main className="article-page">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Navigation />
       <section className="article-hero">
         <div className="container article-hero-grid">
           <div>
+            <nav className="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span>/</span><span>Educational articles</span></nav>
             <div className="eyebrow">Patient education</div>
             <h1>Educational articles.</h1>
             <p className="lead">Procedure and condition information for patients considering aesthetic, reconstructive and lymphatic surgery in Singapore.</p>
@@ -96,10 +139,10 @@ export default function BlogIndex() {
           <aside className="article-summary-card">
             <h2>Topics</h2>
             <ul>
-              <li>Aesthetic surgery</li>
-              <li>Reconstructive surgery</li>
-              <li>Lymphatic surgery</li>
-              <li>Recovery, risks and consultation planning</li>
+              <li><a href="/aesthetic-surgery">Aesthetic surgery</a></li>
+              <li><a href="/reconstructive-surgery">Reconstructive surgery</a></li>
+              <li><a href="/lymphedema-surgery-singapore">Lymphatic surgery</a></li>
+              <li><a href="/plastic-surgery-overseas-safety-singapore">Recovery, risks and consultation planning</a></li>
             </ul>
           </aside>
         </div>
@@ -108,7 +151,7 @@ export default function BlogIndex() {
       <section className="section article-content">
         <div className="container">
           <p className="notice-text">These articles provide general medical information and do not replace consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.</p>
-          <div className="grid-3">
+          <div className="grid-3" id="articles">
             {articles.map((article) => (
               <a className="card blog-card linked-card" href={article.href} key={article.href}>
                 <small>{article.category}</small>
