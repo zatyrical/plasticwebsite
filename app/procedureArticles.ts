@@ -337,7 +337,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'breast-augmentation-singapore': {
     slug: 'breast-augmentation-singapore',
-    modifiedIso: '2026-10-12',
+    modifiedIso: '2026-10-13',
     title: 'Breast Augmentation Singapore | Breast Implant Surgery & Motiva Planning',
     eyebrow: 'Breast augmentation & implants',
     lead: 'A patient guide to breast augmentation in Singapore, including implant selection, Motiva implant planning, fat grafting alternatives, recovery, screening, risks and long-term implant follow-up.',
@@ -392,7 +392,14 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'plane-incision',
         heading: 'Implant pocket, placement and incision planning',
-        paragraphs: ['Breast implant placement may be described as subglandular, subfascial, submuscular or dual-plane depending on the relationship between the implant, breast tissue, fascia and chest muscle. Each option has trade-offs involving implant visibility, animation, recovery, soft-tissue coverage and revision considerations.', 'There is no single best implant placement for every breast augmentation patient in Singapore. Thin soft-tissue coverage, athletic activity, desired shape, existing breast volume and revision risk may all influence the plane selected.', 'Incisions may be planned in different locations depending on anatomy and surgeon preference. Scar position, access, implant type, breast fold anatomy and long-term healing should be discussed before surgery.']
+        paragraphs: ['Breast implant placement may be described as subglandular, subfascial, submuscular or dual-plane depending on the relationship between the implant, breast tissue, fascia and chest muscle. Each option has trade-offs involving implant visibility, animation, recovery, soft-tissue coverage and revision considerations.', 'There is no single best implant placement for every breast augmentation patient in Singapore. Thin soft-tissue coverage, athletic activity, desired shape, existing breast volume and revision risk may all influence the plane selected.', 'Incisions may be planned in different locations depending on anatomy and surgeon preference. Scar position, access, implant type, breast fold anatomy and long-term healing should be discussed before surgery.'],
+        image: {
+          src: '/images/aesthetic-breast/breast-implant-dimensions-pocket-map.svg',
+          alt: 'Breast implant consultation diagram showing base width and projection measurements plus simplified subglandular, subfascial, dual-plane and submuscular pocket relationships',
+          caption: 'Two separate planning questions: implant dimensions describe footprint and projection, while pocket selection describes the implant’s relationship to breast tissue, fascia and chest muscle. This simplified educational diagram is not to scale and does not recommend a particular plane.',
+          width: 1600,
+          height: 1000
+        }
       },
       {
         id: 'fat-grafting-lift',
