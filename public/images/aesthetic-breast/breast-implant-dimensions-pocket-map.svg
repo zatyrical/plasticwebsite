@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Breast implant consultation map for dimensions and pocket relationships</title>
+  <desc id="desc">Educational diagram showing implant base width and projection as separate measurements, plus simplified cross-sections for subglandular, subfascial, dual-plane and submuscular implant pocket relationships.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf8f4"/>
+      <stop offset="1" stop-color="#efe7df"/>
+    </linearGradient>
+    <linearGradient id="implant" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#8eb1c4"/>
+      <stop offset="1" stop-color="#557b91"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2f4658"/>
+    </marker>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#243345" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title{font:700 43px Arial,sans-serif;fill:#26394b}.subtitle{font:400 22px Arial,sans-serif;fill:#596775}.kicker{font:700 16px Arial,sans-serif;letter-spacing:2px;fill:#9b5f65}.panel-title{font:700 27px Arial,sans-serif;fill:#26394b}.label{font:700 18px Arial,sans-serif;fill:#26394b}.copy{font:400 17px Arial,sans-serif;fill:#596775}.small{font:400 15px Arial,sans-serif;fill:#596775}.mini-title{font:700 20px Arial,sans-serif;fill:#26394b}.mini-copy{font:400 14px Arial,sans-serif;fill:#596775}.rule{stroke:#2f4658;stroke-width:3;fill:none;marker-start:url(#arrow);marker-end:url(#arrow)}.callout{stroke:#566778;stroke-width:2;fill:none}.layer-label{font:700 13px Arial,sans-serif;fill:#425467}.card{fill:#fff;stroke:#d7cec6;stroke-width:2}.skin{fill:#f1d9c5;stroke:#c9967a;stroke-width:2}.tissue{fill:#e8c7ad;stroke:#bd8c70;stroke-width:2}.muscle{fill:#a6656c;stroke:#874c54;stroke-width:2}.fascia{stroke:#d2a642;stroke-width:5;fill:none}.wall{stroke:#34485a;stroke-width:7;fill:none}.implant{fill:url(#implant);stroke:#3d6278;stroke-width:3}.note{font:600 18px Arial,sans-serif;fill:#34485a}.footer{font:400 17px Arial,sans-serif;fill:#fff}
+    </style>
+  </defs>
+
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <text x="80" y="75" class="kicker">BREAST AUGMENTATION CONSULTATION</text>
+  <text x="80" y="126" class="title">Two separate planning questions</text>
+  <text x="80" y="162" class="subtitle">Implant dimensions describe fit; pocket planning describes the implant’s relationship to tissue layers.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="60" y="205" width="565" height="675" rx="28" fill="#fff" stroke="#d7cec6" stroke-width="2"/>
+  </g>
+  <text x="95" y="252" class="kicker">QUESTION 1</text>
+  <text x="95" y="292" class="panel-title">How do implant dimensions</text>
+  <text x="95" y="324" class="panel-title">fit the breast base?</text>
+  <text x="95" y="359" class="copy">Volume alone does not describe width or projection.</text>
+
+  <text x="185" y="410" text-anchor="middle" class="label">Front view</text>
+  <ellipse cx="185" cy="530" rx="108" ry="122" class="implant"/>
+  <path d="M101 500 Q185 448 269 500" fill="none" stroke="#b9d0dc" stroke-width="7" opacity="0.75"/>
+  <line x1="82" y1="670" x2="288" y2="670" class="rule"/>
+  <text x="185" y="705" text-anchor="middle" class="label">Base width / diameter</text>
+
+  <text x="463" y="410" text-anchor="middle" class="label">Side view</text>
+  <line x1="405" y1="440" x2="405" y2="640" stroke="#34485a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M409 454 C510 471 548 523 520 577 C499 616 453 634 409 627 Z" class="implant"/>
+  <line x1="416" y1="670" x2="528" y2="670" class="rule"/>
+  <text x="472" y="705" text-anchor="middle" class="label">Projection</text>
+
+  <rect x="95" y="750" width="495" height="88" rx="18" fill="#eef4f6" stroke="#c6d8e0"/>
+  <text x="118" y="781" class="note">Compare together</text>
+  <text x="118" y="811" class="copy">volume • base width • projection/profile</text>
+
+  <g filter="url(#shadow)">
+    <rect x="655" y="205" width="885" height="675" rx="28" fill="#fff" stroke="#d7cec6" stroke-width="2"/>
+  </g>
+  <text x="690" y="252" class="kicker">QUESTION 2</text>
+  <text x="690" y="292" class="panel-title">Where is the pocket relative to tissue</text>
+  <text x="690" y="324" class="panel-title">and chest muscle?</text>
+  <text x="690" y="359" class="copy">These simplified cross-sections describe relationships—not a preferred or “best” plane.</text>
+
+  <!-- Subglandular -->
+  <g transform="translate(690 395)">
+    <rect width="390" height="205" rx="20" class="card"/>
+    <text x="22" y="34" class="mini-title">Subglandular</text>
+    <text x="22" y="58" class="mini-copy">behind breast tissue • above muscle</text>
+    <path d="M28 91 Q104 70 180 91 L180 111 Q104 88 28 111 Z" class="skin"/>
+    <path d="M32 111 Q104 85 176 111 L176 142 Q104 119 32 142 Z" class="tissue"/>
+    <ellipse cx="104" cy="150" rx="57" ry="31" class="implant"/>
+    <path d="M26 181 Q104 164 182 181" class="muscle" stroke-width="12"/>
+    <line x1="26" y1="194" x2="182" y2="194" class="wall"/>
+    <path d="M188 114 H236" class="callout"/>
+    <text x="244" y="118" class="layer-label">breast tissue</text>
+    <path d="M160 151 H236" class="callout"/>
+    <text x="244" y="155" class="layer-label">implant</text>
+    <path d="M177 181 H236" class="callout"/>
+    <text x="244" y="185" class="layer-label">chest muscle</text>
+  </g>
+
+  <!-- Subfascial -->
+  <g transform="translate(1115 395)">
+    <rect width="390" height="205" rx="20" class="card"/>
+    <text x="22" y="34" class="mini-title">Subfascial</text>
+    <text x="22" y="58" class="mini-copy">beneath fascia • above muscle</text>
+    <path d="M28 91 Q104 70 180 91 L180 111 Q104 88 28 111 Z" class="skin"/>
+    <path d="M32 111 Q104 85 176 111 L176 132 Q104 111 32 132 Z" class="tissue"/>
+    <path d="M30 140 Q104 122 178 140" class="fascia"/>
+    <ellipse cx="104" cy="160" rx="57" ry="29" class="implant"/>
+    <path d="M26 187 Q104 170 182 187" class="muscle" stroke-width="12"/>
+    <line x1="26" y1="198" x2="182" y2="198" class="wall"/>
+    <path d="M176 140 H236" class="callout"/>
+    <text x="244" y="144" class="layer-label">fascia</text>
+    <path d="M160 160 H236" class="callout"/>
+    <text x="244" y="164" class="layer-label">implant</text>
+    <path d="M176 187 H236" class="callout"/>
+    <text x="244" y="191" class="layer-label">chest muscle</text>
+  </g>
+
+  <!-- Dual plane -->
+  <g transform="translate(690 625)">
+    <rect width="390" height="205" rx="20" class="card"/>
+    <text x="22" y="34" class="mini-title">Dual-plane</text>
+    <text x="22" y="58" class="mini-copy">upper part under muscle • lower part beyond edge</text>
+    <path d="M28 91 Q104 70 180 91 L180 111 Q104 88 28 111 Z" class="skin"/>
+    <path d="M32 111 Q104 85 176 111 L176 142 Q104 119 32 142 Z" class="tissue"/>
+    <ellipse cx="104" cy="160" rx="57" ry="34" class="implant"/>
+    <path d="M26 144 Q86 124 135 144 L127 163 Q79 145 26 161 Z" class="muscle"/>
+    <line x1="26" y1="198" x2="182" y2="198" class="wall"/>
+    <path d="M132 144 H236" class="callout"/>
+    <text x="244" y="148" class="layer-label">muscle over upper</text>
+    <path d="M155 174 H236" class="callout"/>
+    <text x="244" y="178" class="layer-label">implant beyond edge</text>
+  </g>
+
+  <!-- Submuscular -->
+  <g transform="translate(1115 625)">
+    <rect width="390" height="205" rx="20" class="card"/>
+    <text x="22" y="34" class="mini-title">Submuscular</text>
+    <text x="22" y="58" class="mini-copy">implant beneath chest muscle</text>
+    <path d="M28 91 Q104 70 180 91 L180 111 Q104 88 28 111 Z" class="skin"/>
+    <path d="M32 111 Q104 85 176 111 L176 137 Q104 115 32 137 Z" class="tissue"/>
+    <path d="M26 149 Q104 125 182 149 L176 169 Q104 146 32 169 Z" class="muscle"/>
+    <ellipse cx="104" cy="174" rx="57" ry="27" class="implant"/>
+    <line x1="26" y1="201" x2="182" y2="201" class="wall"/>
+    <path d="M174 149 H236" class="callout"/>
+    <text x="244" y="153" class="layer-label">chest muscle</text>
+    <path d="M158 177 H236" class="callout"/>
+    <text x="244" y="181" class="layer-label">implant beneath</text>
+  </g>
+
+  <rect x="80" y="915" width="1440" height="55" rx="18" fill="#26394b"/>
+  <text x="800" y="950" text-anchor="middle" fill="#fff" class="footer">Selection depends on tissue coverage, chest wall shape, existing volume, activity, desired shape and revision considerations. Simplified • not to scale.</text>
+</svg>
