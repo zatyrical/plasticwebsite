@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Abdominal contour consultation assessment layers</title>
+  <desc id="desc">A neutral educational diagram showing four separate factors assessed during tummy tuck consultation: skin and scars, superficial fat, abdominal wall and muscle separation, and deeper or visceral fullness.</desc>
+  <rect width="1200" height="760" rx="28" fill="#f6f2eb"/>
+  <text x="600" y="54" fill="#17342e" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" text-anchor="middle">What abdominal contour consultation separates</text>
+  <text x="600" y="88" fill="#4c625d" font-family="Arial, Helvetica, sans-serif" font-size="20" text-anchor="middle">Skin, superficial fat, the abdominal wall and deeper fullness are assessed as different factors.</text>
+
+  <g transform="translate(70 132)">
+    <rect x="0" y="0" width="450" height="480" rx="28" fill="#ffffff" stroke="#d9d1c4" stroke-width="2"/>
+    <text x="225" y="44" fill="#17342e" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" text-anchor="middle">Simplified abdominal cross-section</text>
+
+    <path d="M105 92 C183 68 282 71 352 105 C389 123 401 157 389 192 C378 225 347 250 321 272 C290 299 280 334 287 373 C292 399 282 423 257 438 H128 C99 421 87 394 92 362 C98 320 88 284 66 247 C44 210 39 169 56 135 C67 113 83 99 105 92 Z" fill="#ecd8c8" stroke="#17342e" stroke-width="4"/>
+
+    <path d="M78 126 C153 105 265 109 343 142 C362 150 371 167 367 185 C363 202 350 216 331 227" fill="none" stroke="#b57a37" stroke-width="18" stroke-linecap="round"/>
+    <path d="M83 159 C155 142 259 147 330 176 C346 183 353 195 349 207" fill="none" stroke="#e4b968" stroke-width="42" stroke-linecap="round" opacity="0.88"/>
+    <path d="M100 224 C160 210 241 216 296 239 C319 249 326 267 314 286" fill="none" stroke="#2f7d6d" stroke-width="24" stroke-linecap="round"/>
+    <path d="M118 277 C162 266 219 272 257 291 C278 302 282 318 273 338" fill="none" stroke="#93b8ae" stroke-width="74" stroke-linecap="round" opacity="0.9"/>
+
+    <g fill="#17342e" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">
+      <text x="60" y="463">Educational schematic — not to scale</text>
+    </g>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g>
+      <rect x="580" y="124" width="550" height="112" rx="20" fill="#ffffff" stroke="#d9d1c4" stroke-width="2"/>
+      <circle cx="625" cy="166" r="22" fill="#b57a37"/>
+      <text x="625" y="174" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">1</text>
+      <text x="664" y="163" fill="#17342e" font-size="27" font-weight="700">Skin &amp; scars</text>
+      <text x="625" y="204" fill="#4c625d" font-size="20">Loose skin, folds, stretch-related excess and scar tethering.</text>
+    </g>
+    <g>
+      <rect x="580" y="254" width="550" height="112" rx="20" fill="#ffffff" stroke="#d9d1c4" stroke-width="2"/>
+      <circle cx="625" cy="296" r="22" fill="#e0a63e"/>
+      <text x="625" y="304" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">2</text>
+      <text x="664" y="293" fill="#17342e" font-size="27" font-weight="700">Superficial fat</text>
+      <text x="625" y="334" fill="#4c625d" font-size="20">Distribution of localised fat and the skin’s ability to recoil.</text>
+    </g>
+    <g>
+      <rect x="580" y="384" width="550" height="112" rx="20" fill="#ffffff" stroke="#d9d1c4" stroke-width="2"/>
+      <circle cx="625" cy="426" r="22" fill="#2f7d6d"/>
+      <text x="625" y="434" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">3</text>
+      <text x="664" y="423" fill="#17342e" font-size="27" font-weight="700">Abdominal wall</text>
+      <text x="625" y="464" fill="#4c625d" font-size="20">Muscle separation or laxity, with hernia assessed separately.</text>
+    </g>
+    <g>
+      <rect x="580" y="514" width="550" height="112" rx="20" fill="#ffffff" stroke="#d9d1c4" stroke-width="2"/>
+      <circle cx="625" cy="556" r="22" fill="#7aa79b"/>
+      <text x="625" y="564" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">4</text>
+      <text x="664" y="553" fill="#17342e" font-size="27" font-weight="700">Deeper fullness</text>
+      <text x="625" y="594" fill="#4c625d" font-size="20">Visceral or internal fullness is distinct from superficial fat.</text>
+    </g>
+  </g>
+
+  <rect x="145" y="664" width="910" height="62" rx="20" fill="#17342e"/>
+  <text x="600" y="691" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">These factors can overlap. Examination guides whether surgery is appropriate</text>
+  <text x="600" y="716" fill="#dce9e5" font-family="Arial, Helvetica, sans-serif" font-size="18" text-anchor="middle">and which options, alternatives or further assessment should be discussed.</text>
+</svg>
