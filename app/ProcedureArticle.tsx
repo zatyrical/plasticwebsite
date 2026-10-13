@@ -459,6 +459,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'fat-grafting-singapore' && section.id === 'assessment' ? (
                   <p>For facial rejuvenation planning, the <Link href="/face-neck-lift-singapore#assessment">face and neck lift consultation guide</Link> explains how assessment separates volume loss, tissue descent and skin changes.</p>
                 ) : null}
+                {article.slug === 'fat-grafting-singapore' && section.id === 'risks' ? (
+                  <p>Further patient information: <a href="https://www.singhealth.com.sg/tests-procedures/fat-injection">SingHealth: fat injection / fat grafting</a>, <a href="https://www.saps.org.sg/facial-fat-grafting">Singapore Association of Plastic Surgeons: facial fat grafting</a>, and <a href="https://www.saps.org.sg/fat-transfer-breast-augmentation62823491">Singapore Association of Plastic Surgeons: fat-transfer breast augmentation</a>.</p>
+                ) : null}
                 {article.slug === 'face-neck-lift-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/safety">ASPS facelift risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/recovery">ASPS facelift recovery guidance</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/safety">ASPS neck lift risks and safety</a>.</p>
                 ) : null}
