@@ -16,6 +16,7 @@ export const lowerBlepharoplastyArticle: ProcedureArticle = {
   "backHref": "/aesthetic-surgery",
   "backLabel": "Back to aesthetic surgery",
   "reviewedIso": "2026-10-04",
+  "modifiedIso": "2026-10-06",
   "publishedIso": "2026-10-03",
   "intro": [
     "Lower blepharoplasty is surgery on the lower eyelids. It may address selected concerns such as bags beneath the eyes or excess lower eyelid skin. Assessment is needed to establish what is causing the appearance and whether surgery is appropriate. Lower eyelid surgery and double eyelid surgery address different areas and concerns.",
