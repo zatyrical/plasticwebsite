@@ -7,6 +7,7 @@ import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoId
 const socialImage = '/images/aesthetic-ai/eyelid-surgery.jpg';
 const socialTitle = 'Asian Eyelid Surgery in Singapore | Dr Jeremy Sun';
 const socialDescription = 'Learn about Asian eyelid surgery, double eyelid surgery, incisional and non-incisional approaches, ptosis assessment, recovery and risks.';
+const modifiedIso = '2026-10-14';
 
 export const metadata: Metadata = {
   title: 'Asian Eyelid Surgery Singapore | Blepharoplasty',
@@ -67,7 +68,9 @@ const medicalPageJsonLd = {
       about: metadata.keywords,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
-      publisher: { '@id': physicianId }
+      publisher: { '@id': physicianId },
+      dateModified: modifiedIso,
+      lastReviewed: lastReviewedIso
     }
   ]
 };
@@ -243,6 +246,9 @@ export default function AsianEyelidSurgeryPage() {
             <p>
               These techniques may involve a different recovery profile, but they are not suitable for everyone. The crease may weaken or change over time, and some patients may later require revision or an incisional approach.
             </p>
+            <p className="notice-text">
+              For independent Singapore professional-society patient information on crease planning and incisional versus suture approaches, see the <a href="https://www.saps.org.sg/asian-blepharoplasty">Singapore Association of Plastic Surgeons guide to Asian blepharoplasty</a>.
+            </p>
 
             <h2 id="singapore-consultation">Asian eyelid surgery consultation in Singapore</h2>
             <p>
@@ -277,6 +283,9 @@ export default function AsianEyelidSurgeryPage() {
             </p>
             <p>
               If ptosis is present, crease creation alone may not address the main problem. Ptosis correction may need to be planned as part of the operation, and the risks, recovery and symmetry considerations should be discussed separately.
+            </p>
+            <p className="notice-text">
+              For broader Singapore professional-society patient information on cosmetic and functional upper-eyelid concerns, see the <a href="https://www.saps.org.sg/upper-eyelid-surgery">Singapore Association of Plastic Surgeons guide to upper eyelid surgery</a>.
             </p>
 
             <h2 id="revision">Revision Asian eyelid surgery</h2>
