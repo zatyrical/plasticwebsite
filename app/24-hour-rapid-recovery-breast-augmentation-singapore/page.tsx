@@ -4,7 +4,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ContactForm from '../ContactForm';
 import ProcedureQuickLinks from '../ProcedureQuickLinks';
-import Navigation from '../Navigation';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const slug = '24-hour-rapid-recovery-breast-augmentation-singapore';
@@ -121,7 +120,6 @@ export default function RapidRecoveryBreastAugmentationPage() {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalArticleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Navigation />
       <article className="article-page">
         <section className="article-hero">
           <div className="container article-hero-grid">

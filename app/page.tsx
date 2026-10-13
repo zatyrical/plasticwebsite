@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import type { Metadata } from 'next';
 import ContactForm from './ContactForm';
-import Navigation from './Navigation';
 import { lastReviewedIso, physicianJsonLd } from './seoIdentity';
 import { aestheticSignatureTreatments, reconstructiveSignatureTreatments } from './treatmentTiles';
 
@@ -110,7 +109,6 @@ export default function Home() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Navigation />
 
       <section className="hero mobile-screen">
         <div className="container hero-grid">

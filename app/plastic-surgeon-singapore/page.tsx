@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
@@ -108,7 +107,6 @@ export default function PlasticSurgeonSingaporePage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Navigation />
       <article className="article-page">
         <section className="article-hero">
           <div className="container article-hero-grid">

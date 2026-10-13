@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/audit-credential-terminology.mjs && next build && node scripts/audit-llms-source.mjs && node scripts/audit-internal-fragments.mjs",
+    "build": "node scripts/audit-credential-terminology.mjs && next build && node scripts/audit-llms-source.mjs && node scripts/audit-internal-fragments.mjs && node scripts/audit-navigation-accessibility.mjs",
     "start": "next start",
     "lint": "tsc --noEmit",
     "audit:credential-terminology": "node scripts/audit-credential-terminology.mjs",
     "audit:faq-parity": "node scripts/audit-faq-parity.mjs",
     "audit:llms-source": "node scripts/audit-llms-source.mjs",
     "audit:internal-fragments": "node scripts/audit-internal-fragments.mjs",
+    "audit:navigation-accessibility": "node scripts/audit-navigation-accessibility.mjs",
     "audit:sitemap-date-parity": "node scripts/audit-sitemap-date-parity.mjs"
   },
   "dependencies": {

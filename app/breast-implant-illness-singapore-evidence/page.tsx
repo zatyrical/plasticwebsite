@@ -2,7 +2,6 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import ContactForm from '../ContactForm';
-import Navigation from '../Navigation';
 import '../procedureAnchors.css';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
@@ -120,7 +119,6 @@ export default function BreastImplantIllnessPage() {
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalArticleJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
-      <Navigation />
       <article className="article-page">
         <section className="article-hero">
           <div className="container article-hero-grid">

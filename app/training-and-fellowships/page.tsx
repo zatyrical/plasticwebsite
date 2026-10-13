@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 
 const socialImage = '/images/mentors/takumi-yamamoto-lymphatic-group.jpg';
@@ -124,7 +123,6 @@ const trainingMentorship = [
 export default function TrainingAndFellowshipsPage() {
   return (
     <main className="article-page">
-      <Navigation />
       <section className="article-hero">
         <div className="container article-hero-grid">
           <div>

@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Navigation from '../Navigation';
 import { procedureArticleList } from '../procedureArticles';
 
 const existingArticles = [
@@ -127,7 +126,6 @@ export default function BlogIndex() {
   return (
     <main className="article-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Navigation />
       <section className="article-hero">
         <div className="container article-hero-grid">
           <div>

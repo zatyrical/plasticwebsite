@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import Navigation from '../Navigation';
 
 const socialImage = '/images/media/waps-cd-2026-lymphedema-talk-jeremy-sun.webp';
 const socialTitle = 'Media & Education | Dr Jeremy Sun';
@@ -200,7 +199,6 @@ export const metadata: Metadata = {
 export default function MediaPage() {
   return (
     <main className="article-page">
-      <Navigation />
       <section className="article-hero">
         <div className="container article-hero-grid">
           <div>

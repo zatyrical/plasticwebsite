@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 import { baseUrl, physicianId, physicianJsonLd } from '../seoIdentity';
 import { sections } from './content';
@@ -45,7 +44,6 @@ const structuredData = {
 
 export default function OverseasSurgeryPage() {
   return <main className="article-page">
-    <Navigation />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
     <article>
       <section className="article-hero">
