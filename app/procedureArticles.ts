@@ -1097,7 +1097,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'facial-laceration-repair-singapore': {
     slug: 'facial-laceration-repair-singapore',
-    modifiedIso: '2026-10-03',
+    modifiedIso: '2026-10-14',
     title: 'Facial Laceration Repair Singapore | Face Cuts & Stitches',
     eyebrow: 'Facial laceration repair',
     lead: 'A practical guide to cuts on the face in Singapore, including when a facial laceration needs urgent assessment, layered closure, wound-edge eversion, scar care and when plastic surgical repair may be helpful.',
