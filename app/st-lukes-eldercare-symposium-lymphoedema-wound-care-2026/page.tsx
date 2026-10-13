@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import Navigation from '../Navigation';
 import { baseUrl, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const pageUrl = `${baseUrl}/st-lukes-eldercare-symposium-lymphoedema-wound-care-2026`;
@@ -116,7 +115,6 @@ export default function StLukesSymposiumPage() {
   return (
     <main className="article-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(eventJsonLd) }} />
-      <Navigation />
 
       <section className="article-hero">
         <div className="container article-hero-grid">

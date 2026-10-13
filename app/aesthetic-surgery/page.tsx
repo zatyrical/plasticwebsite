@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
-import Navigation from '../Navigation';
 import { aestheticTreatments } from '../treatmentTiles';
 
 export const metadata: Metadata = {
@@ -50,7 +49,6 @@ export default function AestheticSurgeryPage() {
   return (
     <main className="article-page treatment-listing-page">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <Navigation />
       <section className="article-hero">
         <div className="container article-hero-grid">
           <div>

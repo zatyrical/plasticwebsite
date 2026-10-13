@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import Navigation from '../Navigation';
 import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
@@ -125,7 +124,6 @@ export default function LymphedemaSurgeryJourneyPage() {
   return (
     <main>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
-      <Navigation />
 
       <article className="article-page">
         <section className="article-hero">
