@@ -30,6 +30,7 @@ const latestModifiedPaths = new Map([
   ['/asian-rhinoplasty-singapore', '2026-10-13'],
   ['/rib-rhinoplasty-singapore', '2026-10-13'],
   ['/breast-augmentation-singapore', '2026-10-13'],
+  ['/breast-implant-illness-singapore-evidence', '2026-10-14'],
   ['/breast-aesthetic-surgery-singapore', '2026-10-10'],
   ['/body-contouring-liposuction-singapore', '2026-10-13'],
   ['/tummy-tuck-singapore', '2026-10-10'],
