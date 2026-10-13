@@ -449,6 +449,12 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'thread-lifting-singapore' && section.id === 'suitability' ? (
                   <p>If you are comparing threads with surgery, the <Link href="/face-neck-lift-singapore#neck-lift-decision">face and neck lift decision guide</Link> explains the different concerns assessed before choosing a plan.</p>
                 ) : null}
+                {article.slug === 'thread-lifting-singapore' && section.id === 'assessment' ? (
+                  <p>If the assessment points instead to skin-quality or injectable options, the <Link href="/lasers-injectables-singapore#assessment">lasers and injectables assessment guide</Link> explains that separate planning pathway. Reading both guides does not mean either treatment is suitable.</p>
+                ) : null}
+                {article.slug === 'thread-lifting-singapore' && section.id === 'risks' ? (
+                  <p>Further patient information: <a href="https://www.saps.org.sg/thread-lift">Singapore Association of Plastic Surgeons: thread lift</a>.</p>
+                ) : null}
                 {article.slug === 'fat-grafting-singapore' && section.id === 'assessment' ? (
                   <p>For facial rejuvenation planning, the <Link href="/face-neck-lift-singapore#assessment">face and neck lift consultation guide</Link> explains how assessment separates volume loss, tissue descent and skin changes.</p>
                 ) : null}

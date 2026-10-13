@@ -974,7 +974,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'thread-lifting-singapore': {
     slug: 'thread-lifting-singapore',
-    modifiedIso: '2026-10-03',
+    modifiedIso: '2026-10-14',
     title: 'Thread Lifting in Singapore',
     eyebrow: 'Thread lifting',
     lead: 'Patient information on thread lifting, face thread lift treatment, patient selection, expected limitations, recovery and risks.',
