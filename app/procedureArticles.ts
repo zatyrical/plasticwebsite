@@ -161,7 +161,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'tummy-tuck-singapore': {
     slug: 'tummy-tuck-singapore',
-    modifiedIso: '2026-10-10',
+    modifiedIso: '2026-10-13',
     title: 'Abdominoplasty Singapore | Tummy Tuck Surgery & Diastasis Repair',
     eyebrow: 'Tummy tuck & abdominoplasty',
     lead: 'A patient guide to abdominoplasty and tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti or divarication repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
@@ -215,7 +215,14 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'consultation',
         heading: 'Consultation and planning',
-        paragraphs: ['Consultation includes weight history, pregnancy history, plans for future pregnancy, previous abdominal surgery, C-section scars, hernia symptoms, smoking status, medications, medical conditions, skin quality, fat distribution and abdominal wall assessment.', 'A formal examination helps determine whether the issue is mainly loose skin, fat, muscle separation, scar tethering, visceral abdominal fullness or a combination. This distinction matters because different problems require different treatments.']
+        paragraphs: ['Consultation includes weight history, pregnancy history, plans for future pregnancy, previous abdominal surgery, C-section scars, hernia symptoms, smoking status, medications, medical conditions, skin quality, fat distribution and abdominal wall assessment.', 'A formal examination helps determine whether the issue is mainly loose skin, fat, muscle separation, scar tethering, visceral abdominal fullness or a combination. This distinction matters because different problems require different treatments.'],
+        image: {
+          src: '/images/body-contouring/tummy-tuck-assessment-layers.svg',
+          alt: 'Abdominal contour consultation diagram separating skin and scars, superficial fat, abdominal wall or muscle separation, and deeper or visceral fullness',
+          caption: 'A consultation separates skin, superficial fat, abdominal-wall findings and deeper fullness because these concerns can overlap and may require different plans. This is an assessment guide, not a treatment recommendation.',
+          width: 1200,
+          height: 760
+        }
       },
       {
         id: 'cost-quotation',
