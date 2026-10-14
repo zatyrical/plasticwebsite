@@ -35,7 +35,7 @@ const latestModifiedPaths = new Map([
   ['/breast-implant-illness-singapore-evidence', '2026-10-14'],
   ['/breast-aesthetic-surgery-singapore', '2026-10-14'],
   ['/body-contouring-liposuction-singapore', '2026-10-13'],
-  ['/tummy-tuck-singapore', '2026-10-10'],
+  ['/tummy-tuck-singapore', '2026-10-14'],
   ['/face-neck-lift-singapore', '2026-10-13'],
   ['/mommy-makeover-singapore', '2026-10-14'],
   ['/plastic-surgeon-singapore', '2026-10-11'],
