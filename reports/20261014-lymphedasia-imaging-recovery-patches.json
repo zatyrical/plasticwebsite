@@ -1,0 +1,42 @@
+{
+  "post4786": [
+    {
+      "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">What ultrasound does your surgeon use?</h2>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading {\"anchor\":\"ultrasound-probe\"} -->\n<h2 class=\"wp-block-heading\" id=\"ultrasound-probe\">What ultrasound does your surgeon use?</h2>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">ICG lymphography and ultrasound show different things</h2>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading {\"anchor\":\"icg-and-ultrasound\"} -->\n<h2 class=\"wp-block-heading\" id=\"icg-and-ultrasound\">ICG lymphography and ultrasound show different things</h2>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Can ultrasound help when ICG shows no linear pattern?</h2>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading {\"anchor\":\"no-linear-icg-pattern\"} -->\n<h2 class=\"wp-block-heading\" id=\"no-linear-icg-pattern\">Can ultrasound help when ICG shows no linear pattern?</h2>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Questions patients can ask before LVA</h2>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading {\"anchor\":\"questions-before-lva\"} -->\n<h2 class=\"wp-block-heading\" id=\"questions-before-lva\">Questions patients can ask before LVA</h2>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Related reading and next steps</h2>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading {\"anchor\":\"related-reading\"} -->\n<h2 class=\"wp-block-heading\" id=\"related-reading\">Related reading and next steps</h2>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Frequently asked questions</h2>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading {\"anchor\":\"ultrasound-faq\"} -->\n<h2 class=\"wp-block-heading\" id=\"ultrasound-faq\">Frequently asked questions</h2>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Why ultrasound matters before LVA</h2>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:group {\"className\":\"la-toc\"} -->\n<div class=\"wp-block-group la-toc\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">On this page</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li><a href=\"#ultrasound-probe\">What ultrasound does your surgeon use?</a></li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li><a href=\"#icg-and-ultrasound\">ICG lymphography and ultrasound show different things</a></li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li><a href=\"#no-linear-icg-pattern\">Can ultrasound help when ICG shows no linear pattern?</a></li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li><a href=\"#questions-before-lva\">Questions patients can ask before LVA</a></li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li><a href=\"#related-reading\">Related reading and next steps</a></li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li><a href=\"#ultrasound-faq\">Frequently asked questions</a></li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n</div>\n<!-- /wp:group -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Why ultrasound matters before LVA</h2>\n<!-- /wp:heading -->"
+    }
+  ],
+  "page4705": [
+    {
+      "old_content": "<!-- wp:paragraph --><p>Compression advice must be individualised. Some patients continue compression garments or bandaging after a defined early period; others may need adjustments based on swelling, wound healing and surgeon preference. LVA should not be framed as a assured way to stop compression permanently.</p><!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:paragraph --><p>Compression advice must be individualised. Some patients continue <a href=\"/can-i-stop-compression-after-lva/\">compression garments or bandaging</a> after a defined early period; others may need adjustments based on swelling, wound healing and surgeon preference. LVA should not be framed as an assured way to stop compression permanently.</p><!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph --><p>Patients should seek medical advice for fever, spreading redness, increasing pain, wound discharge, sudden swelling, calf pain, breathlessness or other concerning symptoms. Recurrent cellulitis is clinically important and should be discussed during lymphedema follow-up.</p><!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:paragraph --><p>Patients should seek medical advice for fever, spreading redness, increasing pain, wound discharge, sudden swelling, calf pain, breathlessness or other concerning symptoms. <a href=\"/lymphedema-and-cellulitis/\">Recurrent cellulitis</a> is clinically important and should be discussed during lymphedema follow-up.</p><!-- /wp:paragraph -->"
+    }
+  ]
+}
