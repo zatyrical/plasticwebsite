@@ -4,7 +4,7 @@ import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const pageUrl = `${baseUrl}/lymphedema-surgery-singapore`;
-const modifiedIso = '2026-10-11';
+const modifiedIso = '2026-10-14';
 
 export const metadata: Metadata = {
   title: 'Lymphedema Treatment Singapore',
@@ -224,7 +224,7 @@ export default function LymphedemaSurgeryPage() {
 
             <h2 id="when-surgery">When may surgery be considered?</h2>
             <p>
-              Lymphedema surgery may be considered after careful assessment, particularly when symptoms persist despite conservative management. Conservative treatment remains important for many patients and may include compression garments, skin care, physiotherapy, exercise and specialist lymphedema therapy.
+              Lymphedema surgery may be considered after careful assessment, particularly when symptoms persist despite conservative management. Conservative treatment remains important for many patients and may include <a href="https://lymphedasia.com/lymphedema-compression-garments-for-swelling/">compression garments</a>, skin care, physiotherapy, exercise and <a href="https://lymphedasia.com/lymphedema-physical-therapy/">specialist lymphedema therapy</a>.
             </p>
             <p>Surgery may be discussed when:</p>
             <ul>
