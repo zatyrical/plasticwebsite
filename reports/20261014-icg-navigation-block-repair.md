@@ -19,3 +19,7 @@ All existing clinical text, links, title, author5, featured image4658, URL, meta
 ## Verification
 
 Compare fresh raw content with the expected four-patch result. Verify block boundaries, unchanged clinical text and existing destinations, all eight contents fragments, unique FAQ ID, one H1, self-canonical, indexability and live Paragon footer. Publication evidence belongs in campaign issue7. This repair improves editor reliability and reader navigation; it does not prove ranking or enquiry improvement.
+
+## Completed WordPress verification
+
+Published with three supported match-once patches and a complete-paragraph validation save. The initial unbalanced intermediate edit was rejected without mutation; the heading repair was combined into one balanced edit. A snippet-only validation warning was resolved by saving the complete two-paragraph block; the final save returned no errors. Exact raw readback matches the expected changes. All eight contents links resolve, the FAQ anchor occurs once, author5 and featured image4658 are unchanged. Modified timestamp: 2026-10-14T03:03:27. Public checks and final GitHub publication are recorded in issue7.
