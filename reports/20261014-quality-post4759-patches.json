@@ -1,0 +1,50 @@
+[
+  {
+    "old_content": "<!-- wp:heading --><!-- wp:image {\"id\":4772,\"sizeSlug\":\"large\",\"className\":\"lva-educational-image\"} -->\n<figure class=\"wp-block-image size-large lva-educational-image\"><img src=\"https://lymphedasia.com/wp-content/uploads/2026/08/lva-supermicrosurgery-microscope-field.jpg\" alt=\"Intraoperative microscope view during supermicrosurgical lymphovenous anastomosis for lymphedema\" class=\"wp-image-4772\"/><figcaption>Intraoperative microscope view during LVA. Educational surgical image; not a treatment result.</figcaption></figure>\n<!-- /wp:image -->\n\n<h2>What LVA is trying to achieve</h2><!-- /wp:heading -->",
+    "new_content": "<!-- wp:image {\"id\":4772,\"sizeSlug\":\"large\",\"className\":\"lva-educational-image\"} -->\n<figure class=\"wp-block-image size-large lva-educational-image\"><img src=\"https://lymphedasia.com/wp-content/uploads/2026/08/lva-supermicrosurgery-microscope-field.jpg\" alt=\"Intraoperative microscope view during supermicrosurgical lymphovenous anastomosis for lymphedema\" class=\"wp-image-4772\"/><figcaption>Intraoperative microscope view during LVA. Educational surgical image; not a treatment result.</figcaption></figure>\n<!-- /wp:image -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">What LVA is trying to achieve</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "old_content": "<!-- wp:heading --><h2>Short answer</h2><!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Short answer</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "old_content": "<!-- wp:heading --><h2>Why leakage matters</h2><!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Why leakage matters</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "old_content": "<!-- wp:heading --><h2>Why venous reflux is undesirable</h2><!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Why venous reflux is undesirable</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "old_content": "<!-- wp:heading --><h2>Ultrasound mapping is critical</h2><!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Ultrasound mapping is critical</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "old_content": "<!-- wp:heading --><h2>Why previous surgery does not always mean no options remain</h2><!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Why previous surgery does not always mean no options remain</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "old_content": "<!-- wp:heading --><h2>How Dr Jeremy Sun’s academic work relates to LVA quality</h2><!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">How Dr Jeremy Sun’s academic work relates to LVA quality</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "old_content": "<!-- wp:heading --><h2>What this means for patients considering LVA</h2><!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">What this means for patients considering LVA</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "old_content": "<!-- wp:heading --><h2>Related pages</h2><!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Related pages</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "old_content": "<!-- wp:list --><ul>\n<li>LVA is small-incision surgery, but it is technically complex.</li>\n<li>Not all lymphatic channels and veins are suitable for bypass.</li>\n<li>Ultrasound and ICG lymphography can help determine whether bypassable lymphatics remain.</li>\n<li>The quality of the anastomosis may influence leakage, reflux, clotting and durability.</li>\n<li>Compression therapy and follow-up remain important after surgery.</li>\n<li>Outcomes vary depending on disease stage, tissue changes, infection history and lymphatic anatomy.</li>\n</ul><!-- /wp:list -->",
+    "new_content": "<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li>LVA is small-incision surgery, but it is technically complex.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Not all lymphatic channels and veins are suitable for bypass.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Ultrasound and ICG lymphography can help determine whether bypassable lymphatics remain.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>The quality of the anastomosis may influence leakage, reflux, clotting and durability.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Compression therapy and follow-up remain important after surgery.</li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li>Outcomes vary depending on disease stage, tissue changes, infection history and lymphatic anatomy.</li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->"
+  },
+  {
+    "old_content": "<!-- wp:list --><ul>\n<li><a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore</a></li>\n<li><a href=\"https://lymphedasia.com/lymphedema-surgery-singapore/\">Lymphedema surgery options in Singapore</a></li>\n<li><a href=\"https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/\">Dr Jeremy Sun — lymphedema specialist in Singapore</a></li>\n<li><a href=\"https://lymphedasia.com/publications/\">Dr Jeremy Sun’s lymphedema surgery publications and training</a></li>\n</ul><!-- /wp:list -->",
+    "new_content": "<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li><a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"https://lymphedasia.com/lymphedema-surgery-singapore/\">Lymphedema surgery options in Singapore</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/\">Dr Jeremy Sun — lymphedema specialist in Singapore</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"https://lymphedasia.com/publications/\">Dr Jeremy Sun’s lymphedema surgery publications and training</a></li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->"
+  },
+  {
+    "old_content": "<!-- wp:paragraph --><p>Reference: Sun JM, Yamamoto T. <em>Lymphovenous shunts in the treatment of lymphedema.</em> Journal of the Chinese Medical Association. 2024;87(1):5–11. DOI: 10.1097/JCMA.0000000000001016.</p><!-- /wp:paragraph -->",
+    "new_content": "<!-- wp:paragraph --><p>Reference: Sun JM, Yamamoto T. <em><a href=\"https://pubmed.ncbi.nlm.nih.gov/37962114/\">Lymphovenous shunts in the treatment of lymphedema.</a></em> Journal of the Chinese Medical Association. 2024;87(1):5–11. DOI: 10.1097/JCMA.0000000000001016.</p><!-- /wp:paragraph -->"
+  }
+]
