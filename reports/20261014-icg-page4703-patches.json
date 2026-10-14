@@ -1,0 +1,18 @@
+[
+  {
+    "old_content": "<!-- wp:heading -->\n<!-- wp:paragraph --><p><strong>Related:</strong>",
+    "new_content": "<!-- wp:paragraph --><p><strong>Related:</strong>"
+  },
+  {
+    "old_content": "<h2 class=\"wp-block-heading\">Frequently asked questions</h2>\n<!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading {\"anchor\":\"icg-faq\"} -->\n<h2 class=\"wp-block-heading\" id=\"icg-faq\">Frequently asked questions</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "old_content": "<!-- wp:list -->\n<ul>\n<li><a href=\"#what-is-icg-lymphography\">What is ICG lymphography?</a></li>\n<li><a href=\"#why-it-matters-in-lymphedema-assessment\">Why it matters in lymphedema assessment</a></li>\n<li><a href=\"#icg-lymphography-and-lva-surgery\">ICG lymphography and LVA surgery</a></li>\n<li><a href=\"#what-patterns-may-be-seen\">What patterns may be seen?</a></li>\n<li><a href=\"#who-might-benefit-from-specialist-assessment\">Who might benefit from specialist assessment?</a></li>\n<li><a href=\"#how-icg-findings-fit-into-treatment-decisions\">How ICG findings fit into treatment decisions</a></li>\n<li><a href=\"#limitations-and-safety-considerations\">Limitations and safety considerations</a></li>\n</ul>\n<!-- /wp:list -->",
+    "new_content": "<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li><a href=\"#what-is-icg-lymphography\">What is ICG lymphography?</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"#why-it-matters-in-lymphedema-assessment\">Why it matters in lymphedema assessment</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"#icg-lymphography-and-lva-surgery\">ICG lymphography and LVA surgery</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"#what-patterns-may-be-seen\">What patterns may be seen?</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"#who-might-benefit-from-specialist-assessment\">Who might benefit from specialist assessment?</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"#how-icg-findings-fit-into-treatment-decisions\">How ICG findings fit into treatment decisions</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"#limitations-and-safety-considerations\">Limitations and safety considerations</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"#icg-faq\">Frequently asked questions</a></li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->"
+  },
+  {
+    "old_content": "the patient’s goals.</p>\n<p>If swelling is getting worse",
+    "new_content": "the patient’s goals.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>If swelling is getting worse"
+  }
+]
