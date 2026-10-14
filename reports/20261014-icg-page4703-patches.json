@@ -10,5 +10,9 @@
   {
     "old_content": "the patient’s goals.</p>\n<p>If swelling is getting worse",
     "new_content": "the patient’s goals.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>If swelling is getting worse"
+  },
+  {
+    "old_content": "<!-- wp:paragraph -->\n<p>ICG lymphography is not a stand-alone “yes or no” surgery test. In a specialist assessment, the result is usually interpreted together with the history of swelling, cellulitis episodes, compression response, limb measurements, ultrasound mapping and the patient’s goals.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>If swelling is getting worse despite apparently correct garments or CDT, first review the practical reasons listed in <a href=\"https://lymphedasia.com/compression-not-working/\">why lymphedema may worsen despite compression</a>; ICG lymphography and ultrasound may then help decide whether a surgical assessment is reasonable.</p>\n<!-- /wp:paragraph -->",
+    "new_content": "<!-- wp:paragraph -->\n<p>ICG lymphography is not a stand-alone “yes or no” surgery test. In a specialist assessment, the result is usually interpreted together with the history of swelling, cellulitis episodes, compression response, limb measurements, ultrasound mapping and the patient’s goals.</p>\n<!-- /wp:paragraph -->\n\n\n<!-- wp:paragraph -->\n<p>If swelling is getting worse despite apparently correct garments or CDT, first review the practical reasons listed in <a href=\"https://lymphedasia.com/compression-not-working/\">why lymphedema may worsen despite compression</a>; ICG lymphography and ultrasound may then help decide whether a surgical assessment is reasonable.</p>\n<!-- /wp:paragraph -->"
   }
 ]
