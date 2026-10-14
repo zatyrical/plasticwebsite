@@ -1,23 +1,9 @@
 'use client';
 
 import { FormEvent, useEffect, useState } from 'react';
+import { trackAcceptedEnquiry } from './contactAnalytics';
 
 type Status = 'idle' | 'sending' | 'sent' | 'error';
-
-declare global {
-  interface Window {
-    gtag?: (...args: unknown[]) => void;
-  }
-}
-
-function trackEnquiryEvent(eventName: string, params: Record<string, unknown> = {}) {
-  if (typeof window === 'undefined') return;
-  window.gtag?.('event', eventName, {
-    event_category: 'enquiry',
-    page_location: window.location.href,
-    ...params
-  });
-}
 
 type EnquiryType =
   | 'Consultation enquiry'
@@ -55,12 +41,7 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
         form.reset();
         setStatus('sent');
         setMessage('Thank you. Your enquiry has been received. The clinic team will respond through the contact details provided.');
-        if (data?.accepted === true) {
-          trackEnquiryEvent('generate_lead', {
-            method: 'drjeremysun_contact_form',
-            enquiry_type: String(formData.get('enquiryType') || 'Consultation enquiry')
-          });
-        }
+        trackAcceptedEnquiry(response.ok, data);
         return;
       }
 
