@@ -556,6 +556,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>Related guides cover <Link href="/body-contouring-liposuction-singapore">liposuction planning</Link> and <Link href="/thread-lifting-singapore">thread lifting</Link>. Discuss which option fits the concern identified at assessment.</p>
                 ) : null}
                 {section.items ? <ul>{section.items.map((item) => <li key={item}>{item}</li>)}</ul> : null}
+                {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'areas' ? (
+                  <p>For under-chin or neck concerns, read the <Link href="/face-neck-lift-singapore#neck-lift-decision">neck liposuction, neck lift and lower face lift comparison</Link> before consultation. The guide explains the different concerns assessed; it does not recommend a procedure for an individual patient.</p>
+                ) : null}
               </section>
             ))}
 
