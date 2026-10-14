@@ -10,7 +10,7 @@ const slug = '24-hour-rapid-recovery-breast-augmentation-singapore';
 const title = '24-Hour Rapid Recovery Breast Augmentation in Singapore';
 const description = procedurePagePresentation[slug].description;
 const articleUrl = `${baseUrl}/${slug}`;
-const modifiedIso = '2026-10-10';
+const modifiedIso = '2026-10-14';
 const socialImage = '/images/aesthetic-breast/recovery-planning-still-life.webp';
 const socialImageAlt = 'Recovery-planning still life for breast augmentation patient education';
 
@@ -87,7 +87,8 @@ const medicalArticleJsonLd = {
       itemListElement: [
         { '@type': 'ListItem', position: 1, name: 'Home', item: baseUrl },
         { '@type': 'ListItem', position: 2, name: 'Aesthetic Surgery', item: `${baseUrl}/aesthetic-surgery` },
-        { '@type': 'ListItem', position: 3, name: title, item: articleUrl }
+        { '@type': 'ListItem', position: 3, name: 'Breast Aesthetic Surgery', item: `${baseUrl}/breast-aesthetic-surgery-singapore` },
+        { '@type': 'ListItem', position: 4, name: title, item: articleUrl }
       ]
     },
     physicianJsonLd,
@@ -250,6 +251,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
                 <li>ability to understand and follow specific postoperative instructions</li>
                 <li>realistic expectations about pain, swelling, bruising and activity limits</li>
               </ul>
+              <p>For the separate implant-planning discussion, read the <Link href="/breast-augmentation-singapore#consultation">breast augmentation consultation guide</Link>, including anatomy, implant dimensions, placement and screening.</p>
             </section>
 
             <section id="day-of-surgery">
@@ -262,7 +264,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
               <h2>Why “24-hour recovery” should not be treated as a fixed timeline</h2>
               <p>The phrase is easy to misunderstand. Recovery still depends on patient anatomy, implant choice, surgical complexity, anaesthesia recovery, pain threshold, bleeding risk, nausea, confidence with movement and individual healing biology.</p>
               <p>Patients should seek medical advice urgently if they develop concerning symptoms after breast augmentation such as rapidly increasing swelling, severe one-sided pain, fever, spreading redness, shortness of breath, chest pain, fainting or sudden deterioration.</p>
-              <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/recovery">ASPS breast augmentation recovery guidance</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/safety">ASPS risks and safety information</a>, and the <a href="https://www.fda.gov/medical-devices/implants-and-prosthetics/breast-implants">FDA breast implant information hub</a>.</p>
+              <p>Further patient information: <a href="https://www.saps.org.sg/breast-augmentation">Singapore Association of Plastic Surgeons: general breast augmentation information</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/recovery">ASPS breast augmentation recovery guidance</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/safety">ASPS risks and safety information</a>, and the <a href="https://www.fda.gov/medical-devices/implants-and-prosthetics/breast-implants">FDA breast implant information hub</a>. These general resources do not establish that a particular rapid recovery protocol is suitable for you.</p>
             </section>
 
             <section id="faq">
