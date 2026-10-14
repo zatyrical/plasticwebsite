@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useRef, useState, type KeyboardEvent } from 'react';
 
 const navItems = [
   { href: '/plastic-surgeon-singapore', label: 'About' },
@@ -18,19 +18,28 @@ const navItems = [
 
 export default function Navigation() {
   const [open, setOpen] = useState(false);
+  const toggleRef = useRef<HTMLButtonElement>(null);
 
   function closeMenu() {
     setOpen(false);
   }
 
+  function handleKeyDown(event: KeyboardEvent<HTMLElement>) {
+    if (event.key !== 'Escape' || !open) return;
+    event.preventDefault();
+    closeMenu();
+    toggleRef.current?.focus();
+  }
+
   return (
-    <nav className="nav">
+    <nav className="nav" onKeyDown={handleKeyDown}>
       <div className="nav-inner">
         <Link href="/" className="brand" aria-label="Dr Sun Plastic Surgery home" onClick={closeMenu}>
           <Image src="/images/brand/dr-sun-logo-nav.jpg" alt="Dr Sun Plastic Surgery logo" width={150} height={150} sizes="(max-width: 900px) 40px, 46px" priority />
           <span>Dr Sun Plastic Surgery</span>
         </Link>
         <button
+          ref={toggleRef}
           className="nav-toggle"
           type="button"
           aria-label={open ? 'Close navigation menu' : 'Open navigation menu'}
