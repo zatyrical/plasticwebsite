@@ -112,7 +112,7 @@ const medicalPageJsonLd = {
         { '@type': 'MedicalProcedure', name: 'DIEP flap breast reconstruction' },
         { '@type': 'MedicalProcedure', name: 'Oncoplastic breast reconstruction' }
       ],
-      dateModified: '2026-10-10',
+      dateModified: '2026-10-14',
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
@@ -204,6 +204,9 @@ export default function BreastReconstructionPage() {
             <p>
               Delayed reconstruction is performed months or years after mastectomy or cancer treatment. This may be preferred when cancer treatment needs to take priority, when radiotherapy is expected, or when the patient wants more time to consider options. Some patients may have staged reconstruction, where a temporary or initial reconstructive step is performed first and further refinement is done later.
             </p>
+            <p>
+              Further patient information: <a href="https://www.saps.org.sg/breast-reconstruction-options">Singapore Association of Plastic Surgeons: immediate and delayed breast reconstruction options</a>.
+            </p>
 
             <h2 id="types">Main types of breast reconstruction</h2>
             <p>
@@ -211,6 +214,9 @@ export default function BreastReconstructionPage() {
             </p>
             <p>
               For some patients, autologous reconstruction may feel more aligned with their goals because it uses their own tissue and can provide a more natural-feeling reconstruction. For others, implant reconstruction may be more suitable because it avoids a larger donor-site operation, may involve a different recovery profile, or better fits their personal priorities. Careful alignment of expectations, lifestyle, recovery concerns and cancer treatment plans can improve satisfaction after reconstruction.
+            </p>
+            <p>
+              Further patient information: <a href="https://www.saps.org.sg/breast-reconstruction-types">Singapore Association of Plastic Surgeons: types of breast reconstruction</a> and <a href="https://www.saps.org.sg/microsurgery">Singapore Association of Plastic Surgeons: microsurgery</a>.
             </p>
 
             <h3>Implant-based breast reconstruction</h3>
@@ -239,7 +245,7 @@ export default function BreastReconstructionPage() {
               Some patients undergoing breast-conserving surgery may benefit from oncoplastic reconstruction. This uses plastic surgery principles to reshape the remaining breast tissue, reduce contour deformity, or improve symmetry after tumour removal.
             </p>
             <p>
-              After breast-conserving surgery, some patients may notice small divots, depressions or contour irregularities in the treated breast. In selected cases, these areas may be improved with fat grafting performed by a plastic surgeon, where fat is taken from another part of the body and carefully injected to soften or fill the contour defect. Suitability depends on the breast tissue, previous radiotherapy, scar quality, cancer follow-up considerations and the patient’s goals.
+              After breast-conserving surgery, some patients may notice small divots, depressions or contour irregularities in the treated breast. In selected cases, these areas may be improved with <Link href="/fat-grafting-singapore">fat grafting performed by a plastic surgeon</Link>, where fat is taken from another part of the body and carefully injected to soften or fill the contour defect. Suitability depends on the breast tissue, previous radiotherapy, scar quality, cancer follow-up considerations and the patient’s goals.
             </p>
             <p>
               Oncoplastic approaches depend on tumour location, breast size, expected tissue removal, radiotherapy plans and patient goals. In some cases, surgery on the opposite breast may be discussed for symmetry.
