@@ -4,7 +4,7 @@ import ContactForm from '../ContactForm';
 import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const pageUrl = `${baseUrl}/lymphedema-surgery-singapore`;
-const modifiedIso = '2026-10-14';
+const modifiedIso = '2026-10-15';
 
 export const metadata: Metadata = {
   title: 'Lymphedema Treatment Singapore',
