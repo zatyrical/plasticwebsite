@@ -56,10 +56,15 @@ No GBP publication or clinical advertising claim was added, so no new GBP-rule d
 |---|---|---|---|---|---|
 |1|Ultrasound mapping guide|Existing approved headings; observed absent navigation|Six useful jump links|COMPLETE, live verified|Only recheck on concrete fault|
 |2|LVA recovery guide|Existing compression/cellulitis wording and maintained targets|Two contextual links and grammar correction|COMPLETE, live verified; extra TOC closed for limited value|Only recheck on concrete fault|
-|3|https://lymphedasia.com/lva-surgery-singapore/|Core patient-selection guide; prior changes must be reconciled|Inspect the actual assessment/imaging-to-recovery decision route; change only an observed unhandled gap|READY discovery; not an asserted content gap|14October next independent session|
+|3|https://lymphedasia.com/lva-surgery-singapore/|Live page already links selection, ICG, ultrasound, recovery, compression, cellulitis, procedure comparison and consultation|Assessment-to-recovery navigation candidate closed; no duplicate link block|CLOSED after live discovery14October|Only recheck on concrete fault|
+|3a|Primary LVA contents list|Live contents list covers early headings but omits existing recovery and FAQ sections (recovery also has an opening shortcut)|Inspect raw builder/history for a justified contents-completeness repair; retain all clinical text|READY investigation, not yet edited|14October next independent session|
 |4|Lipedema staging / legacy medical rewrites|Previously held clinician-sensitive answers|Retain until approved clinician explanation exists|WAITING clinical input|When new input available|
 |5|GA4/GSC outcomes|GSCWizard entitlement expired, confirmed14October|Use authenticated authorized data path when restored; no stale-data uplift claim|WAITING access, do not retry hourly|16October outcome checkpoint; final17October|
 |6|GBP propagation|Prior daily checkpoint recorded|Authenticated factual check only|WAITING cadence/access|15October09:08SGT or later|
 |7|Eyebag guide / primary profile crawl|Prior72-hour cadence|Inspect only once eligible or concrete fault|WAITING|16October09:00SGT or later|
 
 Implementation and structural checks are not proof of ranking, AI citation or qualified-enquiry improvement.
+
+## Additional independent discovery
+
+The primary LVA guide was inspected after the live batch. Its patient-selection and imaging-to-recovery routes are already covered; no duplicate links or medical explanation was added. A separate contents-completeness candidate is recorded above, requiring builder/source/history inspection before any write. Do not infer that content gaps are exhausted from analytics waiting.
