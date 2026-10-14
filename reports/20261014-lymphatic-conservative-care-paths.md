@@ -13,7 +13,7 @@ https://www.drjeremysun.com/lymphedema-surgery-singapore#when-surgery already ex
 
 No clinical words were added or removed. No procedure advice, recovery interval, price, credential, new article/image, FAQ, form or analytics change. Lymphedasia continues to own detailed lymphatic education; no duplicated article. This does not prescribe garment selection or replace individual assessment.
 
-Page visible/schema modification and sitemap lastmod use the actual14October publication date; existing6September clinical review date retained. Existing assessment/imaging, surgery comparison, LVA, publications, enquiries and educational disclaimer remain.
+Prepared14October; release resumed15October after the final-head preview reconciled. Page visible/schema modification and sitemap lastmod use15October for publication; existing6September clinical review date retained. Existing assessment/imaging, surgery comparison, LVA, publications, enquiries and educational disclaimer remain. Actual merge/production proof and release time are recorded in issue7; a READY preview alone is not publication.
 
 ElectiveSEO patient-journey mapping guided the existing-URL improvement. Primary Google contextual-link guidance refreshed14October: https://developers.google.com/search/docs/crawling-indexing/links-crawlable . Links are descriptive native hrefs, not a numerical link-count target or ranking guarantee.
 
