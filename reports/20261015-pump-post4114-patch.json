@@ -1,0 +1,35 @@
+{
+  "post_id": 4114,
+  "before_modified": "2026-09-27T04:41:06",
+  "edits": [
+    {
+      "old_content": "<h2>What is a lymphedema pump?</h2>",
+      "new_content": "<nav aria-label=\"In this pump guide\"><p><strong>In this guide</strong></p><ul><li><a href=\"#pump-overview\">What is a lymphedema pump?</a></li><li><a href=\"#pump-care-plan\">Where a pump fits in lymphedema care</a></li><li><a href=\"#pump-benefits\">What benefits can it offer?</a></li><li><a href=\"#pump-limits-risks\">What are the limits and risks?</a></li><li><a href=\"#pump-home-use-checks\">What should be checked before home use?</a></li><li><a href=\"#pump-faqs\">Frequently asked questions</a></li><li><a href=\"#pump-references\">References</a></li></ul></nav>\n\n<h2 id=\"pump-overview\">What is a lymphedema pump?</h2>"
+    },
+    {
+      "old_content": "<h2>Where a pump fits in lymphedema care</h2>",
+      "new_content": "<h2 id=\"pump-care-plan\">Where a pump fits in lymphedema care</h2>"
+    },
+    {
+      "old_content": "<h2>What benefits can it offer?</h2>",
+      "new_content": "<h2 id=\"pump-benefits\">What benefits can it offer?</h2>"
+    },
+    {
+      "old_content": "<h2>What are the limits and risks?</h2>",
+      "new_content": "<h2 id=\"pump-limits-risks\">What are the limits and risks?</h2>"
+    },
+    {
+      "old_content": "<h2>What should be checked before home use?</h2>",
+      "new_content": "<h2 id=\"pump-home-use-checks\">What should be checked before home use?</h2>"
+    },
+    {
+      "old_content": "<h2>Frequently asked questions</h2>",
+      "new_content": "<h2 id=\"pump-faqs\">Frequently asked questions</h2>"
+    },
+    {
+      "old_content": "<h2>References</h2>",
+      "new_content": "<h2 id=\"pump-references\">References</h2>"
+    }
+  ],
+  "rollback": "Reconcile live content; reverse only these additions in reverse order using match-once. Do not restore entire backup over later edits."
+}
