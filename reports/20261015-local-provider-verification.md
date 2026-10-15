@@ -16,7 +16,7 @@ The overseas-surgery guide already distinguishes the surgeon's qualification fro
 ## Implemented
 One extra list item immediately after the existing surgery-location/anaesthesia/follow-up question: check the healthcare service provider separately through the clearly named HealthHub licensed-provider directory, with visible “JavaScript required” notice.
 
-Retain original PRS specialist link and every pre-existing paragraph,6FAQ answers, credential, biography, clinical-review date, title/description/social metadata, form and measurement code. Change only this genuinely modified page's schema dateModified and sitemap lastmod to15October. No individual provider licence, regulator endorsement, procedural authorisation or treatment suitability is asserted.
+Retain original PRS specialist link and every pre-existing paragraph,5FAQ answers, credential, biography, clinical-review date, title/description/social metadata, form and measurement code. Change only this genuinely modified page's schema dateModified and sitemap lastmod to15October. No individual provider licence, regulator endorsement, procedural authorisation or treatment suitability is asserted.
 
 The elective-seo-playbook's verifiable-authority principle was applied to a distinct patient check, not another credential claim, ranking claim or duplicate procedure page.
 
