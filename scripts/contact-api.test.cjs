@@ -117,3 +117,20 @@ test('native-form success and error retain allowlisted 303 redirects', async () 
   assert.equal(unsafe.status, 502);
   assert.match(unsafe.body.error, /could not confirm/);
 });
+
+test('Dr Sun native POST redirects contain only a fixed outcome, never enquiry fields', async () => {
+  const payload = { ...valid, redirectSuccess: 'https://www.drjeremysun.com/enquiry-response/received', redirectError: 'https://www.drjeremysun.com/enquiry-response/unconfirmed' };
+  for (const accepted of [true, false]) {
+    const api = handler({ fetch: async () => ({ ok: accepted, status: accepted ? 200 : 503 }) });
+    const response = await api.post(payload, { native: true });
+    assert.equal(response.status, 303);
+    assert.equal(response.location, accepted ? payload.redirectSuccess : payload.redirectError);
+    assert.equal(new URL(response.location).search, '');
+    assert.equal(api.calls.length, 1);
+    assert.doesNotMatch(response.location, /Synthetic|invalid\.test|Mock/);
+    const json = await api.post(payload);
+    assert.equal(json.status, accepted ? 200 : 502);
+    assert.equal(json.location, undefined);
+    assert.equal(json.body.accepted, accepted ? true : undefined);
+  }
+});
