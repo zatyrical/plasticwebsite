@@ -142,7 +142,7 @@ export default function AsianEyelidSurgeryPage() {
             </div>
             <aside className="article-summary-card">
               <figure className="article-hero-image-card">
-                <Image src={socialImage} alt="Editorial-style image representing Asian eyelid surgery consultation and ptosis assessment" width={1024} height={1024} priority sizes="(max-width: 900px) 100vw, 330px" />
+                <Image src={socialImage} alt="Editorial-style image representing Asian eyelid surgery consultation and ptosis assessment" width={1024} height={1024} priority sizes="(max-width: 600px) calc(100vw - 78px), (max-width: 1180px) 420px, 276px" />
                 <figcaption>Illustrative image for patient education; not a before-and-after result.</figcaption>
               </figure>
               <h2>On this page</h2>
