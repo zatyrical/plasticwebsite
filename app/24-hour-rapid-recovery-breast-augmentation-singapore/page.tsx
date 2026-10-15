@@ -138,7 +138,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
             </div>
             <aside className="article-summary-card">
               <figure className="article-hero-image-card">
-                <Image src="/images/aesthetic-breast/recovery-planning-still-life.webp" alt="Recovery-planning still life with a supportive bra and appointment notebook for breast augmentation patient education" width={1254} height={1254} priority sizes="(max-width: 900px) 100vw, 330px" />
+                <Image src="/images/aesthetic-breast/recovery-planning-still-life.webp" alt="Recovery-planning still life with a supportive bra and appointment notebook for breast augmentation patient education" width={1254} height={1254} priority sizes="(max-width: 600px) calc(100vw - 78px), (max-width: 1180px) 420px, 276px" />
                 <figcaption>AI-generated editorial illustration of recovery planning; not a patient, treatment result or product endorsement.</figcaption>
               </figure>
               <h2>On this page</h2>

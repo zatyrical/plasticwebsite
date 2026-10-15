@@ -224,7 +224,7 @@ export default function LiposuctionCompressionFoamMassagePage() {
               <p>Compression garments are made of fabric, and fabric can fold or crease. In the early postoperative period, a fold in the garment may create a narrow zone of higher pressure. This can leave pressure marks and may contribute to uneven pressure over the treated area.</p>
               <p>Foam padding can sit between the garment and the body to help distribute compression more evenly. In selected patients, this may reduce focal pressure from creases and support smoother, more uniform early compression.</p>
               <figure className="article-hero-image-card">
-                <Image src={foamImage} alt="Foam recovery pad worn under a postoperative compression garment after liposuction to help distribute pressure evenly" width={802} height={1280} sizes="(max-width: 900px) 100vw, 520px" />
+                <Image src={foamImage} alt="Foam recovery pad worn under a postoperative compression garment after liposuction to help distribute pressure evenly" width={802} height={1280} sizes="(max-width: 600px) calc(100vw - 78px), (max-width: 1180px) 420px, 276px" />
                 <figcaption>Example of a foam recovery pad placed beneath a postoperative compression garment. Foam may help distribute compression more evenly and reduce focal pressure from fabric folds or creases in selected patients.</figcaption>
               </figure>
               <p>Foam is not a guarantee against contour irregularity. It is one practical tool that may be used as part of a surgeon-directed recovery plan.</p>

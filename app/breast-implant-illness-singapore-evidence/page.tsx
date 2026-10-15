@@ -170,9 +170,9 @@ export default function BreastImplantIllnessPage() {
               <p>The more difficult question is whether breast implants are the proven cause in every patient who has these symptoms. At present, breast implant illness, or BII, does not have one universally accepted diagnostic test, one established disease mechanism, or one predictable treatment outcome. The evidence suggests a complex picture rather than a simple yes-or-no answer.</p>
             </section>
 
-            <figure className="article-hero-image-card">
-              <Image src="/images/aesthetic-breast/breast-implant-illness-2025-systematic-review-infographic.png" alt="Infographic summarising 2025 systematic review findings on breast implant illness symptoms and explantation outcomes" width={1600} height={900} sizes="(max-width: 900px) 100vw, 900px" />
-              <figcaption>Summary of findings from Ferreira et al.’s 2025 systematic review and meta-analysis on breast implant illness symptoms and outcomes after explantation. Data source: <em>Aesthetic Plastic Surgery</em>, 2025;49:6600–6620. doi:10.1007/s00266-025-05142-x.</figcaption>
+            <figure className="article-material-figure">
+              <Image src="/images/aesthetic-breast/breast-implant-illness-2025-systematic-review-infographic.png" alt="Infographic summarising 2025 systematic review findings on breast implant illness symptoms and explantation outcomes" width={1600} height={900} sizes="(max-width: 760px) calc(100vw - 46px), (max-width: 1180px) 714px, 774px" />
+              <figcaption>Summary of findings from Ferreira et al.’s 2025 systematic review and meta-analysis on breast implant illness symptoms and outcomes after explantation. Data source: <em>Aesthetic Plastic Surgery</em>, 2025;49:6600–6620. doi:10.1007/s00266-025-05142-x. <a href="/images/aesthetic-breast/breast-implant-illness-2025-systematic-review-infographic.png" style={{ textDecoration: 'underline', textUnderlineOffset: '4px' }}>View full-size infographic</a>.</figcaption>
             </figure>
 
             <section id="symptoms">
