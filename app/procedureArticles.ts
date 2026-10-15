@@ -897,7 +897,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'lasers-injectables-singapore': {
     slug: 'lasers-injectables-singapore',
-    modifiedIso: '2026-10-10',
+    modifiedIso: '2026-10-15',
     title: 'Lasers and Injectables in Singapore',
     eyebrow: 'Lasers and injectables',
     lead: 'Patient information on aesthetic lasers, botulinum toxin, fillers, skin quality treatments, safety and risks.',

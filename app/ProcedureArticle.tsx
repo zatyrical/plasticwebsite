@@ -510,6 +510,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'lasers-injectables-singapore' && section.id === 'assessment' ? (
                   <p>For broader facial ageing concerns, read the <Link href="/face-neck-lift-singapore#anatomy">face and neck assessment guide</Link>, which separates skin-surface, volume and lifting questions. Comparing these options does not mean surgery is needed.</p>
                 ) : null}
+                {article.slug === 'lasers-injectables-singapore' && section.id === 'safety' ? (
+                  <p>Singapore consumer resource: <a href="https://www.hsa.gov.sg/announcements/dangers-diy-aesthetic-injectable-kits/">Health Sciences Authority: dangers of DIY aesthetic injectable kits</a>. This is general consumer safety information, not an endorsement of a clinic or treatment.</p>
+                ) : null}
                 {article.slug === 'rib-rhinoplasty-singapore' && section.id === 'alternatives' ? (
                   <p>For the broader decision between nasal implants, septal cartilage, ear cartilage and rib cartilage, read the <Link href="/asian-rhinoplasty-singapore#materials">Asian rhinoplasty materials guide</Link>.</p>
                 ) : null}
