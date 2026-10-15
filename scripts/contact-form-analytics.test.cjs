@@ -59,7 +59,7 @@ test('analytics exception is contained', () => {
   assert.doesNotThrow(() => tracker({ location, gtag: () => { throw new Error('mock analytics unavailable'); } })(true, { accepted: true }));
 });
 
-async function submit({ responseOk = true, accepted = true, invalidJson = false, networkError = false, analyticsThrows = false } = {}) {
+async function submit({ responseOk = true, accepted = true, invalidJson = false, networkError = false, analyticsThrows = false, errorMessage = 'Mock rejection' } = {}) {
   const states = [[], [], []];
   const events = [];
   const requests = [];
@@ -86,7 +86,7 @@ async function submit({ responseOk = true, accepted = true, invalidJson = false,
     fetch: async (url, options) => {
       requests.push({ url, options });
       if (networkError) throw new Error('mock network unavailable');
-      return { ok: responseOk, json: async () => { if (invalidJson) throw new Error('mock invalid JSON'); return { accepted, error: 'Mock rejection' }; } };
+      return { ok: responseOk, json: async () => { if (invalidJson) throw new Error('mock invalid JSON'); return { accepted, error: errorMessage }; } };
     }
   }, (name) => {
     if (name === 'react') return fakeReact;
@@ -132,4 +132,14 @@ test('delivery and network failures retain fields and emit no lead', async () =>
     assert.equal(result.states[0].at(-1), 'error');
     assert.equal(result.resets, 0);
   }
+});
+
+test('provider uncertainty receipt reaches the actual form without reset, lead or retry', async () => {
+  const errorMessage = 'We could not confirm that your enquiry was sent. Please contact the clinic before submitting again.';
+  const result = await submit({ responseOk: false, accepted: false, errorMessage });
+  assert.equal(result.states[1].at(-1), errorMessage);
+  assert.equal(result.states[0].at(-1), 'error');
+  assert.equal(result.resets, 0);
+  assert.equal(result.events.length, 0);
+  assert.equal(result.requests.length, 1);
 });

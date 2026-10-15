@@ -4,6 +4,9 @@ export const runtime = 'nodejs';
 
 const MAX_MESSAGE_LENGTH = 2000;
 const MAX_FIELD_LENGTH = 200;
+// Bound the provider wait; an aborted request can still have been accepted upstream.
+const EMAIL_PROVIDER_TIMEOUT_MS = 15000;
+const UNCONFIRMED_ENQUIRY = 'We could not confirm that your enquiry was sent. Please contact the clinic before submitting again.';
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const ALLOWED_ORIGINS = new Set([
   'https://www.drjeremysun.com',
@@ -149,6 +152,7 @@ export async function POST(request: NextRequest) {
   try {
     resendResponse = await fetch('https://api.resend.com/emails', {
       method: 'POST',
+      signal: AbortSignal.timeout(EMAIL_PROVIDER_TIMEOUT_MS),
       headers: {
         Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json'
@@ -161,14 +165,15 @@ export async function POST(request: NextRequest) {
         html
       })
     });
-  } catch (error) {
-    console.error('Resend email request failed', error);
-    return formError('The enquiry could not be sent. Please try again later.', 502);
+  } catch {
+    console.error('Resend email request failed');
+    return formError(UNCONFIRMED_ENQUIRY, 502);
   }
 
   if (!resendResponse.ok) {
-    console.error('Resend email failed', await resendResponse.text());
-    return formError('The enquiry could not be sent. Please try again later.', 502);
+    // Error-body consumption can stall or expose provider details; status is enough here.
+    console.error('Resend email failed', resendResponse.status);
+    return formError(UNCONFIRMED_ENQUIRY, 502);
   }
 
   if (isBrowserFormPost && redirectSuccess) return NextResponse.redirect(redirectSuccess, { status: 303 });
