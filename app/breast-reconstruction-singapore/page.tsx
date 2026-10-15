@@ -112,7 +112,7 @@ const medicalPageJsonLd = {
         { '@type': 'MedicalProcedure', name: 'DIEP flap breast reconstruction' },
         { '@type': 'MedicalProcedure', name: 'Oncoplastic breast reconstruction' }
       ],
-      dateModified: '2026-10-14',
+      dateModified: '2026-10-16',
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
@@ -219,7 +219,43 @@ export default function BreastReconstructionPage() {
               Further patient information: <a href="https://www.saps.org.sg/breast-reconstruction-types">Singapore Association of Plastic Surgeons: types of breast reconstruction</a> and <a href="https://www.saps.org.sg/microsurgery">Singapore Association of Plastic Surgeons: microsurgery</a>.
             </p>
 
-            <h3>Implant-based breast reconstruction</h3>
+            <p id="options-summary-note">This overview summarises the options below, not a recommendation. Suitability depends on cancer treatment plans, anatomy, medical factors and patient priorities.</p>
+            <div className="article-comparison-wrap" role="region" aria-label="Breast reconstruction options comparison" aria-describedby="options-summary-note" tabIndex={0}>
+              <table className="article-comparison-table">
+                <caption>Breast reconstruction options: a consultation overview</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Option — read the details</th>
+                    <th scope="col">What it uses or addresses</th>
+                    <th scope="col">Planning considerations</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><a href="#implant-reconstruction">Implant-based reconstruction</a></th>
+                    <td>A breast implant restores volume; a tissue expander may be used first.</td>
+                    <td>Skin and soft-tissue coverage, implant-related risks, radiotherapy and possible future revision.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#diep-reconstruction">DIEP flap reconstruction</a></th>
+                    <td>Lower-abdominal skin and fat, with abdominal muscles preserved and blood vessels reconnected using microsurgery.</td>
+                    <td>Suitable abdominal tissue, a larger operation and recovery at both the chest and donor site.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#other-flap-options">Other flap options</a></th>
+                    <td>Tissue from the back, thigh or other donor sites may sometimes be considered when the abdomen is unsuitable.</td>
+                    <td>Donor-site choice depends on anatomy and reconstructive needs.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><a href="#oncoplastic-reconstruction">Oncoplastic or partial reconstruction</a></th>
+                    <td>Reshaping the remaining breast tissue after breast-conserving surgery.</td>
+                    <td>Tumour location, breast size, expected tissue removal, radiotherapy plans and symmetry.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h3 id="implant-reconstruction">Implant-based breast reconstruction</h3>
             <p>
               Implant-based reconstruction uses a breast implant to restore breast volume. In some cases, a tissue expander may be used first to gradually create space before placement of a final implant. The implant may be placed in front of or behind the chest muscle depending on anatomy, skin quality and surgical planning.
             </p>
@@ -227,7 +263,7 @@ export default function BreastReconstructionPage() {
               Implant reconstruction may involve shorter surgery and no separate tissue donor site. It may be suitable for selected patients, particularly when the skin envelope and soft-tissue coverage are favourable. Limitations include implant-related risks, possible need for future revision surgery, infection, capsular contracture, implant visibility or rippling, and the effect of radiotherapy on implant outcomes.
             </p>
 
-            <h3>DIEP flap breast reconstruction</h3>
+            <h3 id="diep-reconstruction">DIEP flap breast reconstruction</h3>
             <p>
               DIEP flap reconstruction uses skin and fat from the lower abdomen to reconstruct the breast while preserving the abdominal muscles. The tissue is transferred with its blood vessels and reconnected to blood vessels in the chest using microsurgery.
             </p>
@@ -235,12 +271,12 @@ export default function BreastReconstructionPage() {
               DIEP flap reconstruction can provide a more natural-feeling reconstruction for selected patients and avoids a breast implant. It is a larger operation than implant reconstruction and requires suitable abdominal tissue, microsurgical expertise and a longer recovery period. Potential considerations include abdominal donor-site recovery, wound healing, flap blood supply, abdominal weakness or bulge risk, and the possibility that further revision or symmetry procedures may be needed.
             </p>
 
-            <h3>Other flap options</h3>
+            <h3 id="other-flap-options">Other flap options</h3>
             <p>
               When the abdomen is not suitable, other tissue-based options may sometimes be considered. These may include tissue from the back, thigh or other donor sites depending on the patient’s anatomy and reconstructive needs. The choice of donor site should be individualised and discussed in detail during consultation.
             </p>
 
-            <h3>Oncoplastic and partial breast reconstruction</h3>
+            <h3 id="oncoplastic-reconstruction">Oncoplastic and partial breast reconstruction</h3>
             <p>
               Some patients undergoing breast-conserving surgery may benefit from oncoplastic reconstruction. This uses plastic surgery principles to reshape the remaining breast tissue, reduce contour deformity, or improve symmetry after tumour removal.
             </p>

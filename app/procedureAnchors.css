@@ -1,4 +1,5 @@
 .article-page h2[id],
+.article-page h3[id],
 .article-page section[id] {
   scroll-margin-top: 96px;
 }
