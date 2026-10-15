@@ -1,0 +1,354 @@
+[
+  {
+    "id": "b7f47c8",
+    "elType": "container",
+    "settings": {
+      "flex_direction": "row",
+      "flex_gap": {
+        "unit": "px",
+        "size": 0,
+        "column": "0",
+        "row": "0"
+      },
+      "min_height": {
+        "unit": "px",
+        "size": 500,
+        "sizes": []
+      },
+      "background_background": "classic",
+      "background_image": {
+        "url": "https://lymphedasia.com/wp-content/uploads/2024/12/Lymph-Node-Transfer-Lymph-Vessel-Flaps-1.jpg",
+        "id": 2153,
+        "size": "",
+        "alt": "Lymph Node Transfer & Lymph Vessel Flaps (1)",
+        "source": "library"
+      },
+      "background_position": "center center",
+      "background_repeat": "no-repeat",
+      "background_size": "cover",
+      "background_overlay_background": "classic",
+      "__globals__": {
+        "background_overlay_color": "globals/colors?id=astglobalcolor8"
+      }
+    },
+    "elements": [
+      {
+        "id": "80ab525",
+        "elType": "container",
+        "settings": {
+          "flex_direction": "column",
+          "content_width": "full",
+          "width": {
+            "unit": "%",
+            "size": 60
+          },
+          "flex_justify_content": "center"
+        },
+        "elements": [
+          {
+            "id": "dd4cc84",
+            "elType": "widget",
+            "settings": {
+              "title": "Lymph Node Transfer & Lymph Vessel Flaps",
+              "header_size": "h1",
+              "__globals__": {
+                "title_color": "globals/colors?id=astglobalcolor4"
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "ce946ca",
+            "elType": "widget",
+            "settings": {
+              "editor": "<p class=\"body-large\" dir=\"auto\">Lymph node transfer is a surgical procedure where healthy lymph nodes are moved from one part of the body to an area affected by lymphedema, aiming to alleviate swelling and improve lymphatic function.</p><p class=\"body-large\" dir=\"auto\">Lymph vessel flap is transplant of skin and fat with its accompanying lymphatic vessels from one region of the body into a defect where a major lymphatic gap exists.</p>",
+              "typography_typography": "custom",
+              "typography_font_family": "Roboto",
+              "typography_font_size": {
+                "unit": "px",
+                "size": 18,
+                "sizes": []
+              },
+              "typography_font_weight": "400",
+              "__globals__": {
+                "text_color": "globals/colors?id=astglobalcolor4"
+              }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }
+        ],
+        "isInner": true
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "b26546f",
+    "elType": "container",
+    "settings": {
+      "content_width": "boxed",
+      "margin": {
+        "unit": "px",
+        "top": "20",
+        "right": "0",
+        "bottom": "10",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "ca3d59b",
+        "elType": "widget",
+        "settings": {
+          "html": "<div class=\"lymphedasia-medical-review-box\" style=\"border:1px solid #d9e2ec;border-radius:8px;background:#f8fbfb;margin:24px auto 32px;padding:16px;max-width:1080px;\"><p><strong>Clinically reviewed by Dr Jeremy Sun Mingfa.</strong> Dr Sun is a Senior Consultant Plastic and Reconstructive Surgeon in Singapore with dedicated fellowship-level training in lymphatic surgery, lymphovenous bypass (LVA), ICG lymphography and supermicrosurgical lymphatic reconstruction. This page is intended for general education and does not replace personalised medical assessment.</p></div>"
+        },
+        "elements": [],
+        "widgetType": "html"
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "4c5df18",
+    "elType": "container",
+    "settings": {
+      "flex_direction": "row",
+      "flex_gap": {
+        "unit": "px",
+        "size": 0,
+        "column": "0",
+        "row": "0"
+      },
+      "margin": {
+        "unit": "px",
+        "top": "050",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "4654bfd",
+        "elType": "container",
+        "settings": {
+          "flex_direction": "column",
+          "content_width": "full",
+          "width": {
+            "unit": "%",
+            "size": "50"
+          },
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "20",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "3626947",
+            "elType": "widget",
+            "settings": {
+              "title": "Lymph node transfers",
+              "__globals__": {
+                "title_color": "globals/colors?id=astglobalcolor2"
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "1cc08cd",
+            "elType": "widget",
+            "settings": {
+              "editor": "<p class=\"body\" dir=\"auto\">Vascularized lymph node transfer (VLNT) is a surgical procedure considered for individuals experiencing more severe forms of lymphedema, where other treatments may not have been effective. In this procedure, healthy lymph nodes are transferred from one area of your body to the affected area to help improve lymphatic function and reduce swelling.</p><p class=\"body\" dir=\"auto\">It's important to note that this procedure is a bit more complex and involves a longer recovery period compared to other treatments. The surgery is more extensive, which means it might take a greater toll on your body, requiring more time to heal and recover.</p><p class=\"body\" dir=\"auto\">Despite its more morbid nature and extended downtime of 2 to 3 weeks, it can offer significant relief for those grappling with advanced lymphedema, potentially improving both comfort and mobility. It is important to remember that the de-swelling effect of VLNT takes months to years to stabilise. Patience is often required when treating with VLNT. Before deciding on this treatment, a <a href=\"https://lymphedasia.com/private-lymphedema-consultation-singapore/\">detailed discussion with your healthcare provider</a> can help you weigh the benefits and considerations to determine if it's the right option for you.</p><p class=\"body\" dir=\"auto\">Related reading: <a href=\"https://lymphedasia.com/lva-vs-vlnt-vs-liposuction-lymphedema-surgery/\">compare LVA, VLNT and liposuction for lymphedema</a>.</p>",
+              "__globals__": {
+                "text_color": "globals/colors?id=secondary"
+              }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }
+        ],
+        "isInner": true
+      },
+      {
+        "id": "94e0a97",
+        "elType": "container",
+        "settings": {
+          "flex_direction": "column",
+          "content_width": "full",
+          "width": {
+            "unit": "%",
+            "size": "50"
+          }
+        },
+        "elements": [
+          {
+            "id": "2acdeb4",
+            "elType": "widget",
+            "settings": {
+              "title": "Sites of lymph node harvest",
+              "__globals__": {
+                "title_color": "globals/colors?id=astglobalcolor2"
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "1bae874",
+            "elType": "widget",
+            "settings": {
+              "editor": "<p class=\"body\" dir=\"auto\">Absolutely! In a Vascularized Lymph Node Transfer (VLNT) procedure, the donor sites are carefully chosen areas from where healthy lymph nodes can be harvested for transfer. Common donor sites include:</p><p class=\"body\" dir=\"auto\">1. <strong>Submental Region</strong>: Located under the jaw, this area is often chosen due to the presence of a good number of lymph nodes and minimal associated morbidity.</p><p class=\"body\" dir=\"auto\">2. <strong>Supraclavicular Region</strong>: Situated above the collarbone, this site is favored for its rich lymph node concentration and the relatively straightforward surgical access it offers.</p><p class=\"body\" dir=\"auto\">3. <strong>Groin</strong>: The groin area is another common donor site, chosen for its ample lymph nodes. However, it's used with caution to prevent the potential onset of lower limb lymphedema.</p><p class=\"body\" dir=\"auto\">4. <strong>Axillary Region</strong>: Found in the armpit, this site is sometimes used, although it's generally reserved to avoid the risk of developing lymphedema in the arm.</p><p class=\"body\" dir=\"auto\">5. <strong>Omental Lymph Nodes</strong>: These are found in the abdomen, associated with the stomach. They are chosen for their rich supply of lymph nodes and large surface area. They can be harvested using minimally invasive keyhole surgical techniques, thereby reducing the appearance of scars on the abdomen. A significant benefit of utilizing this site is the high concentration of lymph nodes present within this flap, enabling the surgeon to divide the flap for application across various areas of the affected body part. Moreover, its substantial surface area enhances its ability to function as a \"pump,\" facilitating efficient lymph fluid drainage.</p><p class=\"body\" dir=\"auto\">It's important to note that the selection of the donor site is a critical aspect of the procedure, and surgeons take into consideration various factors including the patient's individual health condition, the location of lymphedema, and the potential risks and benefits associated with each site. It's always best to have a detailed discussion with your surgeon to understand an appropriate approach for your case.</p>",
+              "_padding": {
+                "unit": "px",
+                "top": "0",
+                "right": "0",
+                "bottom": "0",
+                "left": "20",
+                "isLinked": false
+              },
+              "__globals__": {
+                "text_color": "globals/colors?id=secondary"
+              }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }
+        ],
+        "isInner": true
+      }
+    ],
+    "isInner": false
+  },
+  {
+    "id": "4e05294",
+    "elType": "container",
+    "settings": {
+      "flex_direction": "row",
+      "flex_gap": {
+        "unit": "px",
+        "size": 0,
+        "column": "0",
+        "row": "0"
+      },
+      "margin": {
+        "unit": "px",
+        "top": "050",
+        "right": "0",
+        "bottom": "50",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "c609fc5",
+        "elType": "container",
+        "settings": {
+          "flex_direction": "column",
+          "content_width": "full",
+          "width": {
+            "unit": "%",
+            "size": "50"
+          },
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "20",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "6e2fcfc",
+            "elType": "widget",
+            "settings": {
+              "title": "Lymph vessel flaps ",
+              "__globals__": {
+                "title_color": "globals/colors?id=astglobalcolor2"
+              }
+            },
+            "elements": [],
+            "widgetType": "heading"
+          },
+          {
+            "id": "db2946e",
+            "elType": "widget",
+            "settings": {
+              "editor": "<p class=\"body\" dir=\"auto\">The lymph vessel flap technique, a relatively recent innovation, embodies a refined concept where skin and soft tissue, along with their primary lymphatic channels, are microsurgically transferred to address soft tissue defects. Dr. Yamamoto further enhanced this method by integrating it with lymph axiality, culminating in the development of the lymph-interpositional-flap transfer (LIFT). This approach leverages the body's remarkable healing capabilities, even for severed lymph vessels, enabling surgeons to alleviate swelling in lymphedematous body parts without the necessity of supermicrosurgery.</p>",
+              "__globals__": {
+                "text_color": "globals/colors?id=secondary"
+              }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }
+        ],
+        "isInner": true
+      },
+      {
+        "id": "27c5632",
+        "elType": "container",
+        "settings": {
+          "flex_direction": "column",
+          "content_width": "full",
+          "width": {
+            "unit": "%",
+            "size": "50"
+          }
+        },
+        "elements": [
+          {
+            "id": "f8f3eb7",
+            "elType": "widget",
+            "settings": {
+              "image": {
+                "url": "https://lymphedasia.com/wp-content/uploads/2024/12/Lymph-vessel-flaps.jpg",
+                "id": 2155,
+                "alt": "Lymph vessel flaps",
+                "source": "library",
+                "size": ""
+              }
+            },
+            "elements": [],
+            "widgetType": "image"
+          },
+          {
+            "id": "a846c25",
+            "elType": "widget",
+            "settings": {
+              "editor": "<section id=\"z3FuhR\" class=\"block\" data-v-43d5e18a=\"\"><div class=\"block-layout block-layout--layout\" data-v-43d5e18a=\"\"><div class=\"layout-element layout-element--layout layout-element transition transition--scale\" data-v-f5dd3112=\"\" data-animation-state=\"active\"><div id=\"zNaNKD\" class=\"text-box layout-element__component layout-element__component--GridTextBox\" data-v-f5dd3112=\"\" data-qa=\"gridtextbox:znankd\"><p class=\"body\" dir=\"auto\">Lymph vessels in green are transfered with skin and soft tissue into the defect (scrotum) to bridge the gap in the lymphatics</p></div></div></div></section>",
+              "__globals__": {
+                "text_color": "globals/colors?id=text"
+              },
+              "align": "center",
+              "typography_typography": "custom",
+              "typography_font_family": "Roboto",
+              "typography_font_weight": "400",
+              "typography_line_height": {
+                "unit": "px",
+                "size": 19,
+                "sizes": []
+              }
+            },
+            "elements": [],
+            "widgetType": "text-editor"
+          }
+        ],
+        "isInner": true
+      }
+    ],
+    "isInner": false
+  }
+]
