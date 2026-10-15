@@ -565,7 +565,7 @@ export default function ProcedureArticlePage({ article }: Props) {
             {article.slug === 'eyebag-removal-lower-blepharoplasty-singapore' ? (
               <>
                 <p>Anatomy reference: <a href="https://pubmed.ncbi.nlm.nih.gov/22634656/">Wong, Hsieh and Mendelson: the tear trough ligament and its anatomical relationship to the lower-eyelid groove</a> (Plastic and Reconstructive Surgery, 2012). This anatomical study explains tissue attachments; it does not predict an individual treatment result.</p>
-                <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/eyelid-surgery/procedure">ASPS eyelid surgery approaches</a> and <a href="https://www.plasticsurgery.org/cosmetic-procedures/eyelid-surgery/safety">ASPS eyelid surgery risks</a>.</p>
+                <p>Further patient information: <a href="https://www.saps.org.sg/lower-eyelid-surgery">Singapore Association of Plastic Surgeons: lower eyelid surgery</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/eyelid-surgery/procedure">ASPS eyelid surgery approaches</a> and <a href="https://www.plasticsurgery.org/cosmetic-procedures/eyelid-surgery/safety">ASPS eyelid surgery risks</a>. These general resources do not determine individual suitability.</p>
               </>
             ) : null}
 
