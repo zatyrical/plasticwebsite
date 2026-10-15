@@ -1005,7 +1005,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'lower-limb-reconstruction-singapore': {
     slug: 'lower-limb-reconstruction-singapore',
-    modifiedIso: '2026-10-10',
+    modifiedIso: '2026-10-15',
     title: 'Lower Limb Reconstruction in Singapore',
     eyebrow: 'Lower limb reconstruction',
     lead: 'Patient information on reconstruction for lower limb wounds, trauma, infection, cancer defects and complex soft-tissue problems.',
@@ -1020,7 +1020,21 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     ],
     sections: [
       { id: 'indications', heading: 'When lower limb reconstruction may be needed', paragraphs: ['Reconstruction may be considered when a wound cannot heal safely with dressings alone or when important structures need coverage.'], items: ['open fractures or traumatic soft-tissue loss', 'exposed bone, tendon, metalwork or vessels', 'infection-related wounds after debridement', 'cancer or tumour excision defects', 'diabetic or vascular-related wounds in selected cases after optimisation', 'unstable scars or chronic wounds'] },
-      { id: 'assessment', heading: 'Assessment and multidisciplinary planning', paragraphs: ['Assessment includes wound cause, blood supply, sensation, infection control, bone stability, tendon function, patient mobility, diabetes control, smoking status and rehabilitation needs.', 'Vascular assessment is especially important. A technically good flap may still fail if blood supply, infection or pressure issues are not addressed.'] },
+      {
+        id: 'assessment',
+        heading: 'Assessment and multidisciplinary planning',
+        paragraphs: ['Assessment includes wound cause, blood supply, sensation, infection control, bone stability, tendon function, patient mobility, diabetes control, smoking status and rehabilitation needs.', 'Vascular assessment is especially important. A technically good flap may still fail if blood supply, infection or pressure issues are not addressed.'],
+        comparison: {
+          caption: 'Questions to prepare for a lower-limb reconstruction consultation',
+          columns: ['Planning area', 'What assessment considers', 'Question to discuss'],
+          rows: [
+            { label: 'Wound and coverage', values: ['Wound cause, defect size and location, exposed structures and infection control.', 'What needs coverage, and which reconstructive options are being considered?'] },
+            { label: 'Blood supply and health', values: ['Blood supply, diabetes control, smoking status and other patient factors.', 'What needs assessment or optimisation before a reconstruction plan can be made?'] },
+            { label: 'Function', values: ['Bone stability, tendon function, sensation and mobility.', 'How does the original injury affect the goals and limits of reconstruction?'] },
+            { label: 'Rehabilitation', values: ['Wound care, restricted weight-bearing, physiotherapy and staged return to walking.', 'What restrictions and rehabilitation support would apply to my individual plan?'] }
+          ]
+        }
+      },
       { id: 'options', heading: 'Reconstructive options', paragraphs: ['Options range from skin grafting to complex flap reconstruction. Local tissue may be used when suitable. Free flap reconstruction transfers tissue from another body area and reconnects its blood vessels using microsurgery.', 'The simplest safe option that provides durable coverage is usually preferred. The choice depends on defect size, location, exposed structures, blood supply and patient factors.'] },
       { id: 'recovery', heading: 'Recovery and rehabilitation', paragraphs: ['Recovery may involve hospital monitoring, wound care, elevation, restricted weight-bearing, splints, physiotherapy and staged return to walking. The timeline depends on the injury, reconstruction type and associated bone or tendon problems.', 'Long-term outcomes depend not only on the flap but also on nerve, tendon, bone, joint and vascular recovery.'] },
       { id: 'risks', heading: 'Risks and limitations', paragraphs: ['Risks include bleeding, infection, wound breakdown, flap or graft loss, donor-site problems, scarring, stiffness, pain, altered sensation, prolonged rehabilitation, need for further surgery and amputation in severe cases. Outcomes vary with injury severity and medical factors.'] }
