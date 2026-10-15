@@ -94,9 +94,25 @@ async function submit({ responseOk = true, accepted = true, invalidJson = false,
     if (name === './contactAnalytics') return analytics;
     throw new Error(`Unexpected module: ${name}`);
   }).default;
-  await component({}).props.onSubmit({ preventDefault: () => {}, currentTarget: form });
-  return { states, events, requests, resets };
+  const rendered = component({});
+  await rendered.props.onSubmit({ preventDefault: () => {}, currentTarget: form });
+  return { states, events, requests, resets, formProps: rendered.props };
 }
+
+test('actual form has a native POST fallback with fixed private-data-free receipt URLs', async () => {
+  const { formProps } = await submit();
+  assert.equal(formProps.method, 'post');
+  assert.equal(formProps.action, '/api/contact');
+  const hidden = formProps.children.filter(node => node?.type === 'input' && node.props.type === 'hidden');
+  const field = name => hidden.find(node => node.props.name === name)?.props.value;
+  assert.equal(field('redirectSuccess'), 'https://www.drjeremysun.com/enquiry-response/received');
+  assert.equal(field('redirectError'), 'https://www.drjeremysun.com/enquiry-response/unconfirmed');
+  for (const name of ['redirectSuccess', 'redirectError']) {
+    const url = new URL(field(name));
+    assert.equal(url.search, '');
+    assert.equal(url.hash, '');
+  }
+});
 
 test('actual component retains the accepted receipt when analytics throws', async () => {
   const result = await submit({ analyticsThrows: true });
@@ -142,4 +158,40 @@ test('provider uncertainty receipt reaches the actual form without reset, lead o
   assert.equal(result.resets, 0);
   assert.equal(result.events.length, 0);
   assert.equal(result.requests.length, 1);
+});
+
+function receiptModule() {
+  const element = (type, props) => ({ type, props });
+  return loadModule('app/enquiry-response/[status]/page.tsx', {}, name => {
+    if (name === 'next/link') return { __esModule: true, default: 'a' };
+    if (name === 'next/navigation') return { notFound: () => { throw new Error('mock 404'); } };
+    if (name === 'react/jsx-runtime') return { jsx: element, jsxs: element };
+    throw new Error(`Unexpected receipt dependency: ${name}`);
+  });
+}
+
+function visibleText(node) {
+  if (Array.isArray(node)) return node.map(visibleText).join(' ');
+  if (node && typeof node === 'object') return visibleText(node.props?.children);
+  return typeof node === 'string' ? node : '';
+}
+
+test('operational receipt routes are static, noindex, and have no lead emitter', async () => {
+  const receipt = receiptModule();
+  assert.equal(receipt.metadata.robots.index, false);
+  assert.equal(receipt.dynamicParams, false);
+  assert.deepEqual(JSON.parse(JSON.stringify(receipt.generateStaticParams())), [{ status: 'received' }, { status: 'unconfirmed' }]);
+  const text = visibleText(await receipt.default({ params: Promise.resolve({ status: 'received' }) }));
+  assert.match(text, /accepted by the enquiry service/);
+  assert.match(text, /not an appointment confirmation/);
+  assert.match(text, /opened this page directly/);
+  assert.doesNotMatch(fs.readFileSync('app/enquiry-response/[status]/page.tsx', 'utf8'), /generate_lead|gtag|trackAcceptedEnquiry/);
+});
+
+test('unconfirmed receipt cautions before resubmission; unknown route cannot claim success', async () => {
+  const receipt = receiptModule();
+  const text = visibleText(await receipt.default({ params: Promise.resolve({ status: 'unconfirmed' }) }));
+  assert.match(text, /contact the clinic before submitting again/);
+  assert.doesNotMatch(text, /accepted by the enquiry service|Thank you for your enquiry/);
+  await assert.rejects(receipt.default({ params: Promise.resolve({ status: 'unknown' }) }), /mock 404/);
 });

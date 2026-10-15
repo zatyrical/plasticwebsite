@@ -54,7 +54,7 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
   }
 
   return (
-    <form className="contact-form" onSubmit={handleSubmit}>
+    <form className="contact-form" action="/api/contact" method="post" onSubmit={handleSubmit}>
       <div className="form-row">
         <label>
           Name (required)
@@ -90,6 +90,8 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
         <input name="website" type="text" tabIndex={-1} autoComplete="off" />
       </label>
       <input name="pageUrl" type="hidden" value={pageUrl} readOnly />
+      <input name="redirectSuccess" type="hidden" value="https://www.drjeremysun.com/enquiry-response/received" readOnly />
+      <input name="redirectError" type="hidden" value="https://www.drjeremysun.com/enquiry-response/unconfirmed" readOnly />
       <button className="btn btn-primary" type="submit" disabled={status === 'sending'}>
         {status === 'sending' ? 'Sending…' : 'Submit enquiry'}
       </button>
