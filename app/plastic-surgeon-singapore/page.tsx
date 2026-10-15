@@ -85,7 +85,7 @@ const jsonLd = {
         'choosing a plastic surgeon'
       ],
       datePublished: lastReviewedIso,
-      dateModified: '2026-10-11',
+      dateModified: '2026-10-15',
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
@@ -191,6 +191,7 @@ export default function PlasticSurgeonSingaporePage() {
                 <li>Check current specialist registration through the <a href="https://prs.moh.gov.sg/prs/internet/profSearch/main.action?hpe=SMC" target="_blank" rel="noreferrer">official “Search for a medical specialist” service</a>, then review the surgeon’s plastic surgery training background.</li>
                 <li>Ask about relevant reconstructive and aesthetic experience for the procedure being considered.</li>
                 <li>Clarify where surgery would be performed, the anaesthesia plan, follow-up arrangements and safety protocols.</li>
+                <li>Check the healthcare service provider separately using the <a href="https://eservices.healthhub.sg/healthhubng/public/services/directory">HealthHub directory of licensed healthcare service providers in Singapore</a> (JavaScript required).</li>
                 <li>Discuss realistic benefits, limitations, scars, recovery, possible complications and non-surgical or alternative options.</li>
                 <li>Be cautious with advertising that implies assured outcomes or unsupported “best” or “top” claims.</li>
               </ul>
