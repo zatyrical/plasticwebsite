@@ -417,6 +417,13 @@ export default function ProcedureArticlePage({ article }: Props) {
                     </table>
                   </div>
                 ) : null}
+                {article.slug === 'lower-limb-reconstruction-singapore' && section.id === 'options' ? (
+                  <aside className="reviewer-card" aria-label="Lower-limb reconstruction research and patient information">
+                    <strong>Related published research</strong>
+                    <p>Dr Jeremy Sun, listed as Jeremy Mingfa Sun, is a coauthor of <a href="https://pubmed.ncbi.nlm.nih.gov/38645632/">Utilizing the Subunit Concept to Achieve Better Outcomes in Lower Limb Reconstruction: A Clinical Experience in an Asian Population</a> (PRS Global Open, 2024). The PubMed record identifies the authors and study. This research reference does not predict an individual patient&apos;s outcome or establish which operation is suitable.</p>
+                    <p>For a separate Singapore patient overview, see the <a href="https://www.saps.org.sg/limb-reconstruction">Singapore Association of Plastic Surgeons: limb reconstruction</a>.</p>
+                  </aside>
+                ) : null}
                 {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'risks' ? (
                   <>
                     <p>Serious complications can include blood clots in the legs or lungs, fluid-related problems affecting the lungs, and injury to deeper tissues or internal organs. Individual risk depends on the treatment extent, medical history and surgical plan and should be discussed before consent.</p>
