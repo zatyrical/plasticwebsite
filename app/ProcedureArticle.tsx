@@ -427,6 +427,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'risks' ? (
                   <>
                     <p>Serious complications can include blood clots in the legs or lungs, fluid-related problems affecting the lungs, and injury to deeper tissues or internal organs. Individual risk depends on the treatment extent, medical history and surgical plan and should be discussed before consent.</p>
+                    <p>Singapore patient information: <a href="https://www.saps.org.sg/liposuction">Singapore Association of Plastic Surgeons: liposuction</a>.</p>
                     <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/safety">ASPS liposuction risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/candidates">ASPS liposuction suitability</a>, and <a href="https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/liposuction/">NHS liposuction overview</a>.</p>
                   </>
                 ) : null}
@@ -470,7 +471,10 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>Further patient information: <a href="https://www.singhealth.com.sg/tests-procedures/fat-injection">SingHealth: fat injection / fat grafting</a>, <a href="https://www.saps.org.sg/facial-fat-grafting">Singapore Association of Plastic Surgeons: facial fat grafting</a>, and <a href="https://www.saps.org.sg/fat-transfer-breast-augmentation62823491">Singapore Association of Plastic Surgeons: fat-transfer breast augmentation</a>.</p>
                 ) : null}
                 {article.slug === 'face-neck-lift-singapore' && section.id === 'risks' ? (
-                  <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/safety">ASPS facelift risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/recovery">ASPS facelift recovery guidance</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/safety">ASPS neck lift risks and safety</a>.</p>
+                  <>
+                    <p>Singapore patient information: <a href="https://www.saps.org.sg/face-lift">Singapore Association of Plastic Surgeons: face lift</a> and <a href="https://www.saps.org.sg/neck-lift">Singapore Association of Plastic Surgeons: neck lift</a>.</p>
+                    <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/safety">ASPS facelift risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/recovery">ASPS facelift recovery guidance</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/safety">ASPS neck lift risks and safety</a>.</p>
+                  </>
                 ) : null}
                 {article.slug === 'eyebag-removal-lower-blepharoplasty-singapore' && section.id === 'consultation' ? (
                   <p>For separate upper-eyelid crease concerns, read the <Link href="/asian-eyelid-surgery-singapore">Asian eyelid surgery guide</Link>. If the concern is part of broader facial rejuvenation planning, the <Link href="/face-neck-lift-singapore#anatomy">face and neck assessment guide</Link> explains how eyelid, volume and lifting decisions are separated. Reading these guides does not mean procedures need to be combined.</p>
