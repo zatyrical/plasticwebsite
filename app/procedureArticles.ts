@@ -1047,7 +1047,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'head-neck-reconstruction-singapore': {
     slug: 'head-neck-reconstruction-singapore',
-    modifiedIso: '2026-10-10',
+    modifiedIso: '2026-10-16',
     title: 'Head and Neck Reconstruction in Singapore',
     eyebrow: 'Head and neck reconstruction',
     lead: 'Patient information on reconstruction after head and neck cancer, trauma or complex facial defects.',
@@ -1062,7 +1062,18 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     ],
     sections: [
       { id: 'indications', heading: 'When reconstruction may be needed', paragraphs: ['Head and neck reconstruction may be considered after removal of tumours, traumatic tissue loss, complex infection, facial wounds, burns or previous surgery complications.'], items: ['skin and soft-tissue defects of the face or scalp', 'oral cavity, tongue, jaw or throat defects after cancer surgery', 'facial trauma with tissue loss', 'exposed bone, tendon, vessels or hardware', 'scar contracture or contour deformity after previous treatment'] },
-      { id: 'planning', heading: 'Functional and aesthetic planning', paragraphs: ['The plan depends on the location and tissues involved. For example, reconstruction of the mouth must consider speech and swallowing, while scalp or facial reconstruction must consider durable coverage and visible contour.', 'When cancer treatment is involved, reconstruction should support safe tumour clearance, timely recovery and coordination with radiotherapy or other treatments.'] },
+      {
+        id: 'planning',
+        heading: 'Functional and aesthetic planning',
+        paragraphs: ['The plan depends on the location and tissues involved. For example, reconstruction of the mouth must consider speech and swallowing, while scalp or facial reconstruction must consider durable coverage and visible contour.', 'When cancer treatment is involved, reconstruction should support safe tumour clearance, timely recovery and coordination with radiotherapy or other treatments.'],
+        image: {
+          src: '/images/reconstructive-tiles/head-neck-planning-map.svg',
+          alt: 'Planning map: defect and tissues, function and appearance, and cancer treatment when relevant inform an individual reconstructive plan and rehabilitation.',
+          caption: 'Educational overview of the planning topics explained on this page. This is not a procedure-selection guide or a fixed treatment sequence; individual assessment and team coordination are needed.',
+          width: 640,
+          height: 1420
+        }
+      },
       { id: 'options', heading: 'Reconstructive options', paragraphs: ['Options may include local flaps, skin grafts, regional flaps or microsurgical free flaps. Some defects require tissue with skin, muscle, fascia or bone. The best option depends on defect needs and patient factors.', 'Microsurgical reconstruction may be needed for larger or three-dimensional defects where local tissue is insufficient.'] },
       { id: 'recovery', heading: 'Recovery and rehabilitation', paragraphs: ['Recovery varies widely. Patients may need wound care, flap monitoring, swallowing or speech therapy, dental planning, nutritional support and staged revisions.', 'Scars and contour changes mature over time. Additional refinements may be considered after healing and after any cancer treatment is completed.'] },
       { id: 'risks', heading: 'Risks and limitations', paragraphs: ['Risks include bleeding, infection, wound breakdown, flap or graft loss, fistula, scarring, contour irregularity, altered sensation, speech or swallowing difficulties, donor-site issues, need for further surgery and cancer-treatment related delays or complications.'] }
