@@ -1,0 +1,30 @@
+{
+  "post_id": 3986,
+  "base_main": "af19ab8567e98807dbfc19088939b37f2097d28f",
+  "patches": [
+    {
+      "old_content": "<li>clear information on early symptoms;</li>",
+      "new_content": "<li>clear information on <a href=\"https://lymphedasia.com/early-signs-of-lymphedema/\">early symptoms</a>;</li>"
+    },
+    {
+      "old_content": "<li>access to trained lymphedema therapists;</li>",
+      "new_content": "<li>access to <a href=\"https://lymphedasia.com/lymphedema-therapy/\">trained lymphedema therapists</a>;</li>"
+    },
+    {
+      "old_content": "<li>appropriate compression garments and follow-up;</li>",
+      "new_content": "<li>appropriate <a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">compression garments</a> and follow-up;</li>"
+    },
+    {
+      "old_content": "<li>education on cellulitis warning signs;</li>",
+      "new_content": "<li>education on <a href=\"https://lymphedasia.com/lymphedema-and-cellulitis/\">cellulitis warning signs</a>;</li>"
+    },
+    {
+      "old_content": "<li>specialist assessment for persistent or progressive swelling.</li>",
+      "new_content": "<li><a href=\"https://lymphedasia.com/private-lymphedema-consultation-singapore/\">specialist assessment</a> for persistent or progressive swelling.</li>"
+    },
+    {
+      "old_content": "<h2>Frequently asked questions</h2>",
+      "new_content": "<p>For a Singapore peer-support resource, see the <a href=\"https://www.lymphatics.sg/\">Lymphatics Association of Singapore</a>.</p>\n\n<h2>Frequently asked questions</h2>"
+    }
+  ]
+}
