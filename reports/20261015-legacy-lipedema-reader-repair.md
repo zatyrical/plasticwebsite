@@ -37,7 +37,7 @@ No slug, canonical, indexability, consolidation, schema, tracking, clinician cre
 | --- | --- | --- | --- | --- |
 | 1 | Legacy comparison URL above | Substantive legacy diagnostic/staging/treatment claims flagged in prior reports; current clinical source not enough to resolve nuances | HELD for clinician wording; editorial/link repair complete; no consolidation or medical rewrite | When clinician input arrives |
 | 2 | /lipedema-singapore/ | Maintained assessment/comparison navigation already present; staging attribution remains clinical-input question | Existing path candidate CLOSED; substantive staging clarification HELD | When clinician input arrives |
-| 3 | /lymphedema-in-older-adults/ (actual post 4288, as prior report) | Original clinician quote/outcome provenance not supplied | HELD; no invented attribution/outcome | When provenance arrives |
+| 3 | /lymphedema-elderly-patients/ (actual post 4288, as prior report) | Original clinician quote/outcome provenance not supplied | HELD; no invented attribution/outcome | When provenance arrives |
 | 4 | /consultation/ asset delivery | Earlier same-day mobile lab inspection; global builder/Autoptimize assets; no safe supported reversible PHP release path | HELD conditional asset trial; preserve 11 builder pages; need supported deployment and mobile/desktop fixtures | When safe path available |
 | 5 | Both GSC/GA4 properties | Existing entitlement/access blocker, not zero traffic or zero conversions | WAITING authorised access/export; no repeated paid or hourly retry | 16 October; final 17 October |
 | 6 | Eyebag guide / surgeon profile crawl | 72-hour cadence | WAITING, no repeated inspection | 16 October >=09:00 SGT |
