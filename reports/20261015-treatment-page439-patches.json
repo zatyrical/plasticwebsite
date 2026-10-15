@@ -1,0 +1,32 @@
+[
+  {
+    "id": "toc",
+    "old_content": "<li><a href=\"#when-should-you-see-a-lymphedema-specialist\">When should you see a lymphedema specialist?</a></li>",
+    "new_content": "<li><a href=\"#when-should-you-see-a-lymphedema-specialist\">When should you see a lymphedema specialist?</a></li>\n<li><a href=\"#lymphatic-surgery-background\">Dr Jeremy Sun’s lymphatic surgery background</a></li>\n<li><a href=\"#treatment-faq\">Frequently asked questions</a></li>\n<li><a href=\"#next-steps\">Next steps and cost planning</a></li>"
+  },
+  {
+    "id": "anchor-lymphatic-surgery-background",
+    "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Dr Jeremy Sun’s lymphatic surgery background</h2>\n<!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading {\"anchor\":\"lymphatic-surgery-background\"} -->\n<h2 class=\"wp-block-heading\" id=\"lymphatic-surgery-background\">Dr Jeremy Sun’s lymphatic surgery background</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "id": "anchor-treatment-faq",
+    "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Frequently asked questions</h2>\n<!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading {\"anchor\":\"treatment-faq\"} -->\n<h2 class=\"wp-block-heading\" id=\"treatment-faq\">Frequently asked questions</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "id": "anchor-next-steps",
+    "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Next steps</h2>\n<!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading {\"anchor\":\"next-steps\"} -->\n<h2 class=\"wp-block-heading\" id=\"next-steps\">Next steps</h2>\n<!-- /wp:heading -->"
+  },
+  {
+    "id": "training-evidence",
+    "old_content": "MOH Health Manpower Development Plan fellowship in Tokyo",
+    "new_content": "<a href=\"/dedicated-lymphedema-surgery-training-hmdp/\">MOH Health Manpower Development Plan fellowship in Tokyo</a>"
+  },
+  {
+    "id": "cost-planning",
+    "old_content": "<!-- wp:paragraph -->\n<p><a href=\"/private-lymphedema-consultation-singapore/\"><strong>Learn about private lymphedema consultation in Singapore</strong></a>.</p>\n<!-- /wp:paragraph -->",
+    "new_content": "<!-- wp:paragraph -->\n<p><a href=\"/private-lymphedema-consultation-singapore/\"><strong>Learn about private lymphedema consultation in Singapore</strong></a>.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:paragraph -->\n<p>For practical planning, read the <a href=\"/lymphedema-surgery-cost/\">lymphedema surgery cost guide</a> for cost components and questions to ask about an itemised quotation.</p>\n<!-- /wp:paragraph -->"
+  }
+]
