@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node --test scripts/contact-api.test.cjs scripts/contact-form-analytics.test.cjs scripts/navigation-interactions.test.cjs && node scripts/audit-credential-terminology.mjs && next build && node scripts/audit-llms-source.mjs && node scripts/audit-internal-fragments.mjs && node scripts/audit-navigation-accessibility.mjs",
+    "build": "node --test scripts/contact-api.test.cjs scripts/contact-form-analytics.test.cjs scripts/navigation-interactions.test.cjs && node scripts/audit-credential-terminology.mjs && next build && node scripts/audit-llms-source.mjs && node scripts/audit-internal-fragments.mjs && node scripts/audit-navigation-accessibility.mjs && node scripts/audit-comparison-accessibility.mjs",
     "test:contact-api": "node --test scripts/contact-api.test.cjs",
     "test:navigation": "node --test scripts/navigation-interactions.test.cjs",
     "test:contact-analytics": "node --test scripts/contact-form-analytics.test.cjs",
@@ -15,6 +15,7 @@
     "audit:llms-source": "node scripts/audit-llms-source.mjs",
     "audit:internal-fragments": "node scripts/audit-internal-fragments.mjs",
     "audit:navigation-accessibility": "node scripts/audit-navigation-accessibility.mjs",
+    "audit:comparison-accessibility": "node scripts/audit-comparison-accessibility.mjs",
     "audit:sitemap-date-parity": "node scripts/audit-sitemap-date-parity.mjs"
   },
   "dependencies": {
