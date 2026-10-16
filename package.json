@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "node --test scripts/contact-api.test.cjs scripts/contact-form-analytics.test.cjs scripts/navigation-interactions.test.cjs && node scripts/audit-credential-terminology.mjs && next build && node scripts/audit-llms-source.mjs && node scripts/audit-internal-fragments.mjs && node scripts/audit-navigation-accessibility.mjs && node scripts/audit-comparison-accessibility.mjs",
+    "build": "node --test scripts/contact-api.test.cjs scripts/contact-form-analytics.test.cjs scripts/navigation-interactions.test.cjs scripts/motion-observer.test.cjs && node scripts/audit-credential-terminology.mjs && next build && node scripts/audit-llms-source.mjs && node scripts/audit-internal-fragments.mjs && node scripts/audit-navigation-accessibility.mjs && node scripts/audit-comparison-accessibility.mjs",
     "test:contact-api": "node --test scripts/contact-api.test.cjs",
     "test:navigation": "node --test scripts/navigation-interactions.test.cjs",
+    "test:motion": "node --test scripts/motion-observer.test.cjs",
     "test:contact-analytics": "node --test scripts/contact-form-analytics.test.cjs",
     "start": "next start",
     "lint": "tsc --noEmit",
