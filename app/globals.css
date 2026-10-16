@@ -817,4 +817,11 @@
 /* Small labels need text contrast on light surfaces; retain accent gold elsewhere. */
 .article-hero .eyebrow,
 .related-card small,
-.treatment-pathway-section .card small{color:var(--gold-text)}
+.treatment-pathway-section .card small,
+.blog-card small,
+.mentor-content small,
+.media-card small,
+.media-feature-card small,
+.blog-card.linked-card > span,
+.media-card.linked-card > span,
+.media-feature-card.linked-card > span{color:var(--gold-text)}
