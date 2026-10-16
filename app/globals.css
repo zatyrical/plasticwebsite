@@ -571,7 +571,8 @@
   transform-style:preserve-3d;
   backface-visibility:hidden;
 }
-.motion-js .motion-card.motion-in{
+.motion-js .motion-card.motion-in,
+.motion-js .motion-card:focus-within{
   opacity:1;
   transform:perspective(900px) translateY(0) rotateX(0deg) rotateY(0deg) scale(1)!important;
   filter:blur(0);
@@ -585,7 +586,8 @@
   .motion-js .motion-card{
     transform:perspective(850px) translateY(52px) rotateX(-78deg) rotateY(-15deg) scale(.86)!important;
   }
-  .motion-js .motion-card.motion-in{
+  .motion-js .motion-card.motion-in,
+  .motion-js .motion-card:focus-within{
     transform:perspective(850px) translateY(0) rotateX(0deg) rotateY(0deg) scale(1)!important;
   }
 }
