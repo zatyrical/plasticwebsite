@@ -825,3 +825,6 @@
 .blog-card.linked-card > span,
 .media-card.linked-card > span,
 .media-feature-card.linked-card > span{color:var(--gold-text)}
+
+/* The homepage identity sits over multiple gradient and overlay layers. */
+.hero .eyebrow{color:var(--emerald)}
