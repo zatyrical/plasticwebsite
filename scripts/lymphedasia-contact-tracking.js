@@ -43,16 +43,16 @@
           body: JSON.stringify(payload)
         });
         var result = await response.json().catch(function () { return null; });
-        if (!response.ok || !result || result.ok !== true) {
-          show('Your enquiry could not be confirmed. Your details are still here. Please try again later or contact Astrid using the links below.', 'error');
+        if (!response.ok || !result || result.ok !== true || typeof result.accepted !== 'boolean') {
+          show('We could not confirm that your enquiry was sent. Your details are still here. Please contact Astrid using the links below before submitting again.', 'error');
           return;
         }
         sent = true;
         form.reset();
         show('Thank you. Your enquiry has been received. The clinic team will respond through the contact details provided.', 'sent');
-        track('generate_lead', 'lymphedasia_contact_form');
+        if (result.accepted === true) track('generate_lead', 'lymphedasia_contact_form');
       } catch (_) {
-        show('We could not confirm that your enquiry was sent. Your details are still here. Please check your connection or contact Astrid using the links below.', 'error');
+        show('We could not confirm that your enquiry was sent. Your details are still here. Please contact Astrid using the links below before submitting again.', 'error');
       } finally {
         sending = false;
         button.disabled = sent;

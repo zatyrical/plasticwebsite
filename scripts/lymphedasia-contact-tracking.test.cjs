@@ -21,7 +21,7 @@ function setup(fetchResponse, overrides = {}) {
   return { form, button, status, events, requests, handlers, context, submit: () => handlers.submit({ preventDefault() {} }) };
 }
 test('counts exactly one accepted enquiry, with fixed parameters and no submitted personal data', async () => {
-  const s = setup({ ok: true, json: async () => ({ ok: true }) });
+  const s = setup({ ok: true, json: async () => ({ ok: true, accepted: true }) });
   await s.submit(); await s.submit();
   assert.equal(s.requests.length, 1); assert.equal(s.events.length, 1); assert.equal(s.form.resets, 1);
   assert.equal(s.events[0][1], 'generate_lead'); assert.equal(s.events[0][2].send_to, 'G-B2Z67J9YDP');
@@ -42,11 +42,11 @@ for (const [label, response] of [
 test('concurrent submission is ignored', async () => {
   let resolve; const waiting = new Promise(r => { resolve = r; });
   const s = setup(() => waiting); const first = s.submit(); await s.submit();
-  assert.equal(s.requests.length, 1); resolve({ ok: true, json: async () => ({ ok: true }) }); await first;
+  assert.equal(s.requests.length, 1); resolve({ ok: true, json: async () => ({ ok: true, accepted: true }) }); await first;
   assert.equal(s.events.length, 1);
 });
 test('analytics failure does not turn an accepted enquiry into an error', async () => {
-  const s = setup({ ok: true, json: async () => ({ ok: true }) }, { window: { gtag() { throw Error('blocked'); } } });
+  const s = setup({ ok: true, json: async () => ({ ok: true, accepted: true }) }, { window: { gtag() { throw Error('blocked'); } } });
   await s.submit(); assert.equal(s.status.className, 'la-form-status sent'); assert.equal(s.form.resets, 1);
 });
 test('honeypot does not submit or count', async () => {
@@ -57,7 +57,7 @@ test('unsupported fetch preserves native HTML form submission', () => {
   const s = setup(null, { window: { fetch: undefined } }); assert.equal(s.handlers.submit, undefined);
 });
 test('duplicate script does not attach another listener', async () => {
-  const s = setup({ ok: true, json: async () => ({ ok: true }) }); const handler = s.handlers.submit;
+  const s = setup({ ok: true, json: async () => ({ ok: true, accepted: true }) }); const handler = s.handlers.submit;
   vm.runInContext(source, s.context); assert.equal(s.handlers.submit, handler);
 });
 test('contact link clicks stay separate from enquiries', () => {
@@ -66,4 +66,48 @@ test('contact link clicks stay separate from enquiries', () => {
     s.handlers.click({ target: { closest: () => ({ href }) } });
   }
   assert.deepEqual(s.events.map(e => e[1]), ['whatsapp_click', 'external_contact_click']);
+});
+
+test('explicit non-acceptance retains a generic anti-spam receipt without counting a lead', async () => {
+  const s = setup({ ok: true, json: async () => ({ ok: true, accepted: false }) });
+  await s.submit(); await s.submit();
+  assert.equal(s.events.length, 0);
+  assert.equal(s.requests.length, 1);
+  assert.equal(s.form.resets, 1);
+  assert.equal(s.status.className, 'la-form-status sent');
+  assert.match(s.status.textContent, /Your enquiry has been received/);
+  assert.equal(s.button.disabled, true);
+});
+
+test('unknown or malformed acceptance keeps fields and never counts or asserts receipt', async () => {
+  for (const result of [
+    { ok: true },
+    ...[null, 'true', 'false', 1, 0, {}, []].map(accepted => ({ ok: true, accepted })),
+    { accepted: true },
+    { ok: false, accepted: true }
+  ]) {
+    const s = setup({ ok: true, json: async () => result });
+    await s.submit();
+    assert.equal(s.events.length, 0, JSON.stringify(result));
+    assert.equal(s.form.resets, 0, JSON.stringify(result));
+    assert.equal(s.requests.length, 1);
+    assert.equal(s.status.className, 'la-form-status error');
+    assert.match(s.status.textContent, /before submitting again/);
+    assert.doesNotMatch(s.status.textContent, /has been received/);
+    assert.equal(s.button.disabled, false);
+  }
+});
+
+test('HTTP and transport uncertainty ask for confirmation before another submission', async () => {
+  for (const response of [
+    { ok: false, json: async () => ({ error: 'We could not confirm that your enquiry was sent.' }) },
+    { ok: true, json: async () => { throw Error('truncated JSON'); } },
+    async () => { throw Error('lost connection'); }
+  ]) {
+    const s = setup(response); await s.submit();
+    assert.equal(s.events.length, 0); assert.equal(s.form.resets, 0);
+    assert.equal(s.requests.length, 1);
+    assert.match(s.status.textContent, /before submitting again/);
+    assert.doesNotMatch(s.status.textContent, /try again later/);
+  }
 });
