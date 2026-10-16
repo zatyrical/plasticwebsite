@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 
-// Deliberately scoped to three known light-surface labels, not a CSS engine or
+// Deliberately scoped to known light-surface card text, not a CSS engine or
 // a whole-site accessibility certificate. Values come from the actual stylesheet.
 const css = fs.readFileSync(new URL('../app/globals.css', import.meta.url), 'utf8');
 const rules = [...css.replace(/\/\*[\s\S]*?\*\//g, '').matchAll(/([^{}]+)\{([^{}]*)\}/g)].map((match) => ({
@@ -41,17 +41,30 @@ assert.ok(declaration('.article-hero', 'background').includes('#f1eee7'));
 assert.equal(declaration('.related-card', 'background'), '#fff');
 assert.equal(declaration('.card', 'background'), 'var(--card)');
 assert.equal(tokens['--card'], '#ffffff');
+assert.equal(declaration('.mentor-card', 'background'), 'white');
+assert.equal(declaration('.media-card', 'background'), 'rgba(255,255,255,.88)');
+assert.equal(declaration('.media-feature-card', 'background'), 'rgba(255,255,255,.88)');
+// An 88% white card over black bounds the darkest possible background,
+// irrespective of its current light parent. Labels are outside image overlays.
+const mediaFloor = composite('#ffffff', '#000000', 0.88);
 const checks = [
   { selector: '.article-hero .eyebrow', fallback: '.eyebrow', background: '#fbfaf7' },
   { selector: '.article-hero .eyebrow', fallback: '.eyebrow', background: '#f1eee7' },
   { selector: '.article-hero .eyebrow', fallback: '.eyebrow', background: composite(tokens['--gold'], '#f1eee7', 0.16) },
   { selector: '.related-card small', background: '#ffffff' },
-  { selector: '.treatment-pathway-section .card small', background: tokens['--card'] }
+  { selector: '.treatment-pathway-section .card small', background: tokens['--card'] },
+  { selector: '.blog-card small', background: tokens['--card'] },
+  { selector: '.mentor-content small', background: '#ffffff' },
+  { selector: '.media-card small', background: mediaFloor },
+  { selector: '.media-feature-card small', background: mediaFloor },
+  { selector: '.blog-card.linked-card > span', fallback: '.linked-card span', background: tokens['--card'] },
+  { selector: '.media-card.linked-card > span', fallback: '.linked-card span', background: mediaFloor },
+  { selector: '.media-feature-card.linked-card > span', fallback: '.linked-card span', background: mediaFloor }
 ].map((check) => {
   const foreground = resolve(declaration(check.selector, 'color') || declaration(check.fallback, 'color'));
   return { selector: check.selector, foreground, background: check.background, ratio: contrast(foreground, check.background) };
 });
-console.log(JSON.stringify({ scope: 'three light-surface label families only', checks }, null, 2));
+console.log(JSON.stringify({ scope: 'known light-surface labels and card actions only', checks }, null, 2));
 for (const check of checks) {
   assert.ok(check.ratio >= 4.5, `${check.selector}: ${check.ratio}:1 is below 4.5:1`);
 }
@@ -61,5 +74,7 @@ assert.ok(css.includes(':where(a,button):focus-visible{outline:3px solid var(--g
 const textTokenRules = rules.filter((rule) => rule.declarations.includes('color:var(--gold-text)'));
 assert.equal(textTokenRules.length, 1);
 assert.deepEqual(textTokenRules[0].selectors, [
-  '.article-hero .eyebrow', '.related-card small', '.treatment-pathway-section .card small'
+  '.article-hero .eyebrow', '.related-card small', '.treatment-pathway-section .card small',
+  '.blog-card small', '.mentor-content small', '.media-card small', '.media-feature-card small',
+  '.blog-card.linked-card > span', '.media-card.linked-card > span', '.media-feature-card.linked-card > span'
 ]);
