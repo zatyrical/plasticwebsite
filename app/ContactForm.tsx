@@ -37,6 +37,12 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
 
       const data = await response.json().catch(() => null);
 
+      if (response.ok && typeof data?.accepted !== 'boolean') {
+        setStatus('error');
+        setMessage('We could not confirm that your enquiry was sent. Your details are still here. Please contact the clinic before submitting again.');
+        return;
+      }
+
       if (response.ok) {
         form.reset();
         setStatus('sent');

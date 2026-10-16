@@ -59,7 +59,7 @@ test('analytics exception is contained', () => {
   assert.doesNotThrow(() => tracker({ location, gtag: () => { throw new Error('mock analytics unavailable'); } })(true, { accepted: true }));
 });
 
-async function submit({ responseOk = true, accepted = true, invalidJson = false, networkError = false, analyticsThrows = false, errorMessage = 'Mock rejection' } = {}) {
+async function submit({ responseOk = true, accepted = true, invalidJson = false, missingAcknowledgement = false, networkError = false, analyticsThrows = false, errorMessage = 'Mock rejection' } = {}) {
   const states = [[], [], []];
   const events = [];
   const requests = [];
@@ -86,7 +86,7 @@ async function submit({ responseOk = true, accepted = true, invalidJson = false,
     fetch: async (url, options) => {
       requests.push({ url, options });
       if (networkError) throw new Error('mock network unavailable');
-      return { ok: responseOk, json: async () => { if (invalidJson) throw new Error('mock invalid JSON'); return { accepted, error: errorMessage }; } };
+      return { ok: responseOk, json: async () => { if (invalidJson) throw new Error('mock invalid JSON'); return missingAcknowledgement ? {} : { accepted, error: errorMessage }; } };
     }
   }, (name) => {
     if (name === 'react') return fakeReact;
@@ -132,12 +132,26 @@ test('clinic payload retains enquiry category while analytics excludes it', asyn
   assert.equal('message' in result.events[0][2], false);
 });
 
-test('honeypot or missing JSON acknowledgement keeps generic receipt but no lead', async () => {
-  for (const options of [{ accepted: false }, { invalidJson: true }]) {
+test('explicit honeypot acknowledgement keeps generic receipt but no lead', async () => {
+  const result = await submit({ accepted: false });
+  assert.equal(result.events.length, 0);
+  assert.equal(result.states[0].at(-1), 'sent');
+  assert.match(result.states[1].at(-1), /Your enquiry has been received/);
+  assert.equal(result.resets, 1);
+  assert.equal(result.requests.length, 1);
+});
+
+test('unknown successful-response acknowledgement retains fields without receipt, lead or retry', async () => {
+  for (const options of [{ invalidJson: true }, { missingAcknowledgement: true }, ...[null, 'true', 'false', 1, 0].map(accepted => ({ accepted }))]) {
     const result = await submit(options);
     assert.equal(result.events.length, 0);
-    assert.equal(result.states[0].at(-1), 'sent');
-    assert.equal(result.resets, 1);
+    assert.equal(result.states[0].at(-1), 'error');
+    assert.match(result.states[1].at(-1), /could not confirm that your enquiry was sent/);
+    assert.match(result.states[1].at(-1), /Your details are still here/);
+    assert.match(result.states[1].at(-1), /contact the clinic before submitting again/);
+    assert.doesNotMatch(result.states[1].at(-1), /Your enquiry has been received/);
+    assert.equal(result.resets, 0);
+    assert.equal(result.requests.length, 1);
   }
 });
 
