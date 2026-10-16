@@ -184,7 +184,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
 
             <section id="what-it-changes">
               <h2>What rapid recovery changes — and what it does not mean</h2>
-              <div className="article-comparison-wrap">
+              <div className="article-comparison-wrap" tabIndex={0} role="region" aria-label="Rapid recovery breast augmentation comparison">
                 <table className="article-comparison-table">
                   <caption>How to interpret rapid recovery breast augmentation language</caption>
                   <thead>
