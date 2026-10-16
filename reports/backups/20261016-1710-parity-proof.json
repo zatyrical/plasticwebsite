@@ -1,0 +1,38 @@
+[
+  {
+    "id": 3093,
+    "patches": 1,
+    "afterExact": true,
+    "reverseExact": true,
+    "clinicalTextParity": true,
+    "nonContentParity": true,
+    "modified": "2026-10-16T09:02:51"
+  },
+  {
+    "id": 3022,
+    "patches": 3,
+    "afterExact": true,
+    "reverseExact": true,
+    "clinicalTextParity": true,
+    "nonContentParity": true,
+    "modified": "2026-10-16T09:03:55"
+  },
+  {
+    "id": 3085,
+    "patches": 7,
+    "afterExact": true,
+    "reverseExact": true,
+    "clinicalTextParity": true,
+    "nonContentParity": true,
+    "modified": "2026-10-16T09:09:00"
+  },
+  {
+    "id": 3099,
+    "patches": 3,
+    "afterExact": true,
+    "reverseExact": true,
+    "clinicalTextParity": true,
+    "nonContentParity": true,
+    "modified": "2026-10-16T09:10:02"
+  }
+]
