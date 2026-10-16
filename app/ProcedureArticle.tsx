@@ -398,7 +398,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                   </figure>
                 ) : null}
                 {section.comparison ? (
-                  <div className="article-comparison-wrap">
+                  <div className="article-comparison-wrap" tabIndex={0} role="region" aria-label={section.comparison.caption}>
                     <table className="article-comparison-table">
                       <caption>{section.comparison.caption}</caption>
                       <thead>
