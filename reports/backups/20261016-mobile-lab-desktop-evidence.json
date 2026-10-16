@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-16",
+  "requestedDomain": "www.drjeremysun.com",
+  "device": "MOBILE",
+  "initialResponse": {
+    "done": true,
+    "report": {
+      "MOBILE": {
+        "status": "ok",
+        "lab_metrics": {
+          "First Contentful Paint": "3.4 s",
+          "Speed Index": "5.2 s",
+          "Time to Interactive": "6.0 s",
+          "Largest Contentful Paint": "6.0 s",
+          "Cumulative Layout Shift": "0",
+          "Total Blocking Time": "36 ms"
+        },
+        "opportunities": [
+          {
+            "opportunity": "Unused Javascript",
+            "estimated_savings": "450 ms",
+            "size_reduction_kb": 99
+          },
+          {
+            "opportunity": "Redirects",
+            "estimated_savings": "1.5 s",
+            "size_reduction_kb": null
+          }
+        ]
+      }
+    }
+  },
+  "refreshRequestedResponse": {
+    "done": true,
+    "report": {
+      "MOBILE": {
+        "status": "ok",
+        "lab_metrics": {
+          "Largest Contentful Paint": "3.2 s",
+          "First Contentful Paint": "2.1 s",
+          "Speed Index": "2.1 s",
+          "Cumulative Layout Shift": "0",
+          "Total Blocking Time": "13 ms",
+          "Time to Interactive": "5.2 s"
+        },
+        "opportunities": [
+          {
+            "opportunity": "Redirects",
+            "estimated_savings": "1.1 s",
+            "size_reduction_kb": null
+          },
+          {
+            "opportunity": "Unused Javascript",
+            "estimated_savings": "150 ms",
+            "size_reduction_kb": 99
+          }
+        ]
+      }
+    }
+  },
+  "limits": [
+    "No backend fetch timestamp, requested/final tested URL, LCP element, waterfall, CrUX field metrics or INP returned.",
+    "These two lab responses are not a before/after intervention comparison."
+  ],
+  "browser": {
+    "viewport": {
+      "width": 1363,
+      "height": 936
+    },
+    "homepageFocusedCard": {
+      "opacity": "1",
+      "filter": "blur(0px)",
+      "outline": "rgb(184, 154, 94) solid 3px"
+    },
+    "asianRhinoplastyComparison": {
+      "clientWidth": 774,
+      "scrollWidth": 774,
+      "tabFocus": true,
+      "outline": "rgb(14, 58, 51) solid 3px",
+      "tabExitHref": "/rib-rhinoplasty-singapore"
+    },
+    "notTested": [
+      "mobile viewport",
+      "horizontal arrow-key scrolling",
+      "screen reader",
+      "missing observer APIs in real browser"
+    ]
+  },
+  "wordpress": {
+    "checkedAtSGT": "2026-10-16T11:00:10+08:00",
+    "used": 97,
+    "limit": 100,
+    "remaining": 3,
+    "plugin": "1.20.1",
+    "wordpress": "6.9.10",
+    "writesAttempted": 0,
+    "nextCapacityCheckSGT": "2026-10-16T13:00:00+08:00"
+  }
+}
