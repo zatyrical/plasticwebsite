@@ -41,15 +41,15 @@
     <g font-family="Arial, Helvetica, sans-serif">
       <circle cx="190" cy="139" r="24" fill="#765522"/>
       <text x="190" y="147" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">1</text>
-      <path d="M165 139 H78" stroke="#a86f2b" stroke-width="3"/>
-      <text x="56" y="125" fill="#17342e" font-size="20" font-weight="700">Hairline area</text>
-      <text x="56" y="151" fill="#4b5c57" font-size="16">A broad planning zone</text>
+      <path d="M190 115 V98 H56" fill="none" stroke="#a86f2b" stroke-width="3"/>
+      <text x="34" y="60" fill="#17342e" font-size="20" font-weight="700">Hairline area</text>
+      <text x="34" y="86" fill="#4b5c57" font-size="16">A broad planning zone</text>
 
       <circle cx="438" cy="305" r="24" fill="#765522"/>
       <text x="438" y="313" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">2</text>
-      <path d="M463 305 H548" stroke="#a86f2b" stroke-width="3"/>
-      <text x="440" y="288" fill="#17342e" font-size="18" font-weight="700">Around the ear</text>
-      <text x="440" y="330" fill="#4b5c57" font-size="16">Exact route varies</text>
+      <path d="M463 305 H560 V408 H405" fill="none" stroke="#a86f2b" stroke-width="3"/>
+      <text x="405" y="438" fill="#17342e" font-size="18" font-weight="700">Around the ear</text>
+      <text x="405" y="464" fill="#4b5c57" font-size="16">Exact route varies</text>
 
       <rect x="76" y="514" width="458" height="54" rx="16" fill="#f3eadc"/>
       <text x="305" y="548" fill="#314843" font-size="17" text-anchor="middle">Highlighted areas are zones, not a surgical marking.</text>
