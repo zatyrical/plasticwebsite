@@ -830,3 +830,8 @@
 
 /* The homepage identity sits over multiple gradient and overlay layers. */
 .hero .eyebrow{color:var(--emerald)}
+
+/* Keep keyboard focus distinct from the enquiry fields' subtle pointer-focus shadow. */
+.contact-form input:focus-visible,
+.contact-form select:focus-visible,
+.contact-form textarea:focus-visible{outline:3px solid var(--emerald);outline-offset:3px}
