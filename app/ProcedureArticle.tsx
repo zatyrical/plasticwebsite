@@ -394,7 +394,14 @@ export default function ProcedureArticlePage({ article }: Props) {
                       height={section.image.height}
                       sizes="(max-width: 820px) calc(100vw - 44px), 776px"
                     />
-                    <figcaption>{section.image.caption}</figcaption>
+                    <figcaption>
+                      {section.image.caption}
+                      {section.image.src.endsWith('.svg') ? (
+                        <a className="article-diagram-fullsize" href={section.image.src} target="_blank" rel="noreferrer" aria-label={`Open full-size educational diagram: ${section.heading} (new tab)`}>
+                          Open full-size educational diagram (new tab)
+                        </a>
+                      ) : null}
+                    </figcaption>
                   </figure>
                 ) : null}
                 {section.comparison ? (
