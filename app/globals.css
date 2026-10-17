@@ -607,6 +607,8 @@
 .article-material-figure{margin:24px 0 32px;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:white}
 .article-material-figure img{display:block;width:100%;height:auto}
 .article-material-figure figcaption{padding:16px 18px;color:#31413d;font-size:14px;line-height:1.55}
+.article-diagram-fullsize{display:flex;align-items:center;width:fit-content;max-width:100%;min-height:44px;margin-top:8px;padding:10px 0;color:#17342e;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.article-diagram-fullsize:focus-visible{outline:3px solid var(--emerald);outline-offset:4px;border-radius:3px}
 .article-comparison-wrap{margin:24px 0 32px;overflow-x:auto;border:1px solid var(--line);border-radius:18px;background:#fff;box-shadow:0 14px 36px rgba(16,32,29,.06)}
 .article-comparison-wrap:focus-visible{outline:3px solid var(--emerald);outline-offset:3px}
 .article-comparison-table{width:100%;min-width:680px;border-collapse:collapse;text-align:left}
