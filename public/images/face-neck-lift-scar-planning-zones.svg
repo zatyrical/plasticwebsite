@@ -16,7 +16,7 @@
   </defs>
 
   <rect width="1400" height="900" rx="42" fill="url(#bg)"/>
-  <text x="74" y="75" fill="#a97732" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3">SCAR-PLANNING GUIDE</text>
+  <text x="74" y="75" fill="#765522" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3">SCAR-PLANNING GUIDE</text>
   <text x="74" y="124" fill="#10201d" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Where facelift scar planning is discussed</text>
   <text x="74" y="160" fill="#4b5c57" font-family="Arial, Helvetica, sans-serif" font-size="20">Broad zones—not a promised incision path. The individual plan depends on examination.</text>
 
@@ -39,13 +39,13 @@
     </g>
 
     <g font-family="Arial, Helvetica, sans-serif">
-      <circle cx="190" cy="139" r="24" fill="#a86f2b"/>
+      <circle cx="190" cy="139" r="24" fill="#765522"/>
       <text x="190" y="147" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">1</text>
       <path d="M165 139 H78" stroke="#a86f2b" stroke-width="3"/>
       <text x="56" y="125" fill="#17342e" font-size="20" font-weight="700">Hairline area</text>
       <text x="56" y="151" fill="#4b5c57" font-size="16">A broad planning zone</text>
 
-      <circle cx="438" cy="305" r="24" fill="#a86f2b"/>
+      <circle cx="438" cy="305" r="24" fill="#765522"/>
       <text x="438" y="313" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">2</text>
       <path d="M463 305 H548" stroke="#a86f2b" stroke-width="3"/>
       <text x="440" y="288" fill="#17342e" font-size="18" font-weight="700">Around the ear</text>
@@ -58,21 +58,21 @@
 
   <g transform="translate(718 213)" font-family="Arial, Helvetica, sans-serif" filter="url(#shadow)">
     <rect x="0" y="0" width="608" height="156" rx="24" fill="#ffffff" stroke="#10201d" stroke-opacity=".10"/>
-    <circle cx="53" cy="52" r="25" fill="#a86f2b"/>
+    <circle cx="53" cy="52" r="25" fill="#765522"/>
     <text x="53" y="60" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">1</text>
     <text x="94" y="49" fill="#10201d" font-size="25" font-weight="700">Hairline planning</text>
     <text x="34" y="94" fill="#40504c" font-size="18">Planning considers the patient’s existing hairline and the</text>
     <text x="34" y="122" fill="#40504c" font-size="18">areas being treated; a diagram cannot set the individual path.</text>
 
     <rect x="0" y="186" width="608" height="156" rx="24" fill="#ffffff" stroke="#10201d" stroke-opacity=".10"/>
-    <circle cx="53" cy="238" r="25" fill="#a86f2b"/>
+    <circle cx="53" cy="238" r="25" fill="#765522"/>
     <text x="53" y="246" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">2</text>
     <text x="94" y="235" fill="#10201d" font-size="25" font-weight="700">Around-ear anatomy</text>
     <text x="34" y="280" fill="#40504c" font-size="18">Scar placement is planned around ear anatomy and varies with</text>
     <text x="34" y="308" fill="#40504c" font-size="18">the technique, anatomy, goals and direction of tissue movement.</text>
 
     <rect x="0" y="372" width="608" height="156" rx="24" fill="#ffffff" stroke="#10201d" stroke-opacity=".10"/>
-    <circle cx="53" cy="424" r="25" fill="#a86f2b"/>
+    <circle cx="53" cy="424" r="25" fill="#765522"/>
     <text x="53" y="432" fill="#ffffff" font-size="21" font-weight="700" text-anchor="middle">3</text>
     <text x="94" y="421" fill="#10201d" font-size="25" font-weight="700">Scar maturation</text>
     <text x="34" y="466" fill="#40504c" font-size="18">Scars change over months. Placement aims to reduce visibility</text>
