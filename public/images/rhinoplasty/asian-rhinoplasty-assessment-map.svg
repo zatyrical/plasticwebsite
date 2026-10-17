@@ -33,19 +33,19 @@
     <text x="76" y="558" fill="#4c625d" font-size="21">Projection, definition, shape,</text>
     <text x="76" y="587" fill="#4c625d" font-size="21">width and visible asymmetry.</text>
 
-    <circle cx="840" cy="162" r="20" fill="#b57a37"/>
+    <circle cx="840" cy="162" r="20" fill="#765522"/>
     <text x="840" y="170" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">4</text>
     <text x="874" y="160" fill="#17342e" font-size="27" font-weight="700">Skin &amp; support</text>
     <text x="840" y="202" fill="#4c625d" font-size="21">Skin thickness, cartilage strength</text>
     <text x="840" y="231" fill="#4c625d" font-size="21">and existing structural support.</text>
 
-    <circle cx="840" cy="340" r="20" fill="#b57a37"/>
+    <circle cx="840" cy="340" r="20" fill="#765522"/>
     <text x="840" y="348" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">5</text>
     <text x="874" y="338" fill="#17342e" font-size="27" font-weight="700">Breathing &amp; septum</text>
     <text x="840" y="380" fill="#4c625d" font-size="21">Airway symptoms and septal</text>
     <text x="840" y="409" fill="#4c625d" font-size="21">deviation or structural narrowing.</text>
 
-    <circle cx="840" cy="518" r="20" fill="#b57a37"/>
+    <circle cx="840" cy="518" r="20" fill="#765522"/>
     <text x="840" y="526" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">6</text>
     <text x="874" y="516" fill="#17342e" font-size="27" font-weight="700">Previous treatment</text>
     <text x="840" y="558" fill="#4c625d" font-size="21">Prior fillers, implants, grafts or</text>
