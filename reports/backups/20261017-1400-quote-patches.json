@@ -1,0 +1,36 @@
+[
+  {
+    "forward": {
+      "target_type": "post",
+      "post_id": 4283,
+      "field": "post_content",
+      "old_content": "<!-- wp:table -->\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>DR. SUN'S CLINICAL PERSPECTIVE</strong><em>\"In my practice, I see a consistent pattern: patients arrive having managed their swelling alone for months or years, often because they were told there was nothing more to be done. By that point, the psychological toll is frequently as significant as the physical one - sometimes more so. They have stopped going to social events. They have changed careers. Some have withdrawn from relationships entirely. This means for patients that the emotional burden of lymphedema is not a side effect - it is a core part of the condition, and it deserves exactly the same clinical attention as limb volume or skin health. When we treat lymphedema effectively - whether through compression, microsurgery, or a combination of both - we routinely see improvements in mood, confidence, and daily function that patients genuinely did not expect. Quality of life is a measurable outcome, not a vague feeling. It should be tracked, treated, and reported at every appointment.\"</em><strong>- Dr Jeremy Sun, Lymphedema Microsurgery Specialist, Singapore</strong></td></tr></tbody></table></figure>\n<!-- /wp:table -->",
+      "new_content": ""
+    },
+    "reverse": {
+      "target_type": "post",
+      "post_id": 4283,
+      "field": "post_content",
+      "old_content": "ry psychological burden on caregivers - one that rarely surfaces in a clinical appointment but significantly affects the household.</p>\n<!-- /wp:paragraph -->\n\n\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\"><strong>What Does the Evidence Say About the Impact on Work and Social Life?</strong></h2>\n<!-- /wp:heading -",
+      "new_content": "ry psychological burden on caregivers - one that rarely surfaces in a clinical appointment but significantly affects the household.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:table -->\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>DR. SUN'S CLINICAL PERSPECTIVE</strong><em>\"In my practice, I see a consistent pattern: patients arrive having managed their swelling alone for months or years, often because they were told there was nothing more to be done. By that point, the psychological toll is frequently as significant as the physical one - sometimes more so. They have stopped going to social events. They have changed careers. Some have withdrawn from relationships entirely. This means for patients that the emotional burden of lymphedema is not a side effect - it is a core part of the condition, and it deserves exactly the same clinical attention as limb volume or skin health. When we treat lymphedema effectively - whether through compression, microsurgery, or a combination of both - we routinely see improvements in mood, confidence, and daily function that patients genuinely did not expect. Quality of life is a measurable outcome, not a vague feeling. It should be tracked, treated, and reported at every appointment.\"</em><strong>- Dr Jeremy Sun, Lymphedema Microsurgery Specialist, Singapore</strong></td></tr></tbody></table></figure>\n<!-- /wp:table -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\"><strong>What Does the Evidence Say About the Impact on Work and Social Life?</strong></h2>\n<!-- /wp:heading -"
+    },
+    "modified": "2026-08-13T16:24:07"
+  },
+  {
+    "forward": {
+      "target_type": "post",
+      "post_id": 4288,
+      "field": "post_content",
+      "old_content": "<!-- wp:table -->\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>DR. SUN'S CLINICAL PERSPECTIVE</strong><em>\"In my practice, I see many older patients who have been living with progressive leg swelling for years - sometimes a decade or more - before they receive a lymphedema diagnosis. By that stage, the skin has often changed significantly, the fibrosis is more advanced, and the management is harder than it would have been earlier. The reason they were not diagnosed sooner is almost always the same: the swelling was attributed to age, heart disease, or poor circulation, and lymphedema was never considered. This means for patients that if you are over 60 and have swelling that has not fully resolved with standard treatment for heart or vein problems, ask specifically whether lymphedema has been ruled out. The two conditions frequently coexist - and treating one while missing the other is one of the most common reasons older patients do not improve as expected.\"</em><strong>- Dr Jeremy Sun, Lymphedema Microsurgery Specialist, Singapore</strong></td></tr></tbody></table></figure>\n<!-- /wp:table -->",
+      "new_content": ""
+    },
+    "reverse": {
+      "target_type": "post",
+      "post_id": 4288,
+      "field": "post_content",
+      "old_content": " lymphedema regardless of other contributing factors. But this test is not widely taught outside of lymphedema specialist settings.</p>\n<!-- /wp:paragraph -->\n\n\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\"><strong>How Do Comorbidities Change the Management Picture for Older Adults?</strong></h2>\n<!-- /wp:heading -",
+      "new_content": " lymphedema regardless of other contributing factors. But this test is not widely taught outside of lymphedema specialist settings.</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:table -->\n<figure class=\"wp-block-table\"><table class=\"has-fixed-layout\"><tbody><tr><td><strong>DR. SUN'S CLINICAL PERSPECTIVE</strong><em>\"In my practice, I see many older patients who have been living with progressive leg swelling for years - sometimes a decade or more - before they receive a lymphedema diagnosis. By that stage, the skin has often changed significantly, the fibrosis is more advanced, and the management is harder than it would have been earlier. The reason they were not diagnosed sooner is almost always the same: the swelling was attributed to age, heart disease, or poor circulation, and lymphedema was never considered. This means for patients that if you are over 60 and have swelling that has not fully resolved with standard treatment for heart or vein problems, ask specifically whether lymphedema has been ruled out. The two conditions frequently coexist - and treating one while missing the other is one of the most common reasons older patients do not improve as expected.\"</em><strong>- Dr Jeremy Sun, Lymphedema Microsurgery Specialist, Singapore</strong></td></tr></tbody></table></figure>\n<!-- /wp:table -->\n\n<!-- wp:heading -->\n<h2 class=\"wp-block-heading\"><strong>How Do Comorbidities Change the Management Picture for Older Adults?</strong></h2>\n<!-- /wp:heading -"
+    },
+    "modified": "2026-08-24T16:42:55"
+  }
+]
