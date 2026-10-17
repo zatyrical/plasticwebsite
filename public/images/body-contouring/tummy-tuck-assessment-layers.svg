@@ -24,14 +24,14 @@
   <g font-family="Arial, Helvetica, sans-serif">
     <g>
       <rect x="580" y="124" width="550" height="112" rx="20" fill="#ffffff" stroke="#d9d1c4" stroke-width="2"/>
-      <circle cx="625" cy="166" r="22" fill="#b57a37"/>
+      <circle cx="625" cy="166" r="22" fill="#765522"/>
       <text x="625" y="174" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">1</text>
       <text x="664" y="163" fill="#17342e" font-size="27" font-weight="700">Skin &amp; scars</text>
       <text x="625" y="204" fill="#4c625d" font-size="20">Loose skin, folds, stretch-related excess and scar tethering.</text>
     </g>
     <g>
       <rect x="580" y="254" width="550" height="112" rx="20" fill="#ffffff" stroke="#d9d1c4" stroke-width="2"/>
-      <circle cx="625" cy="296" r="22" fill="#e0a63e"/>
+      <circle cx="625" cy="296" r="22" fill="#765522"/>
       <text x="625" y="304" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">2</text>
       <text x="664" y="293" fill="#17342e" font-size="27" font-weight="700">Superficial fat</text>
       <text x="625" y="334" fill="#4c625d" font-size="20">Distribution of localised fat and the skin’s ability to recoil.</text>
@@ -45,7 +45,7 @@
     </g>
     <g>
       <rect x="580" y="514" width="550" height="112" rx="20" fill="#ffffff" stroke="#d9d1c4" stroke-width="2"/>
-      <circle cx="625" cy="556" r="22" fill="#7aa79b"/>
+      <circle cx="625" cy="556" r="22" fill="#2f7d6d"/>
       <text x="625" y="564" fill="#ffffff" font-size="23" font-weight="700" text-anchor="middle">4</text>
       <text x="664" y="553" fill="#17342e" font-size="27" font-weight="700">Deeper fullness</text>
       <text x="625" y="594" fill="#4c625d" font-size="20">Visceral or internal fullness is distinct from superficial fat.</text>

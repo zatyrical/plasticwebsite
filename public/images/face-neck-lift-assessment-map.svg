@@ -19,7 +19,7 @@
   <circle cx="292" cy="355" r="238" fill="url(#portrait)"/>
   <circle cx="292" cy="355" r="214" fill="none" stroke="#b89a5e" stroke-opacity=".22" stroke-width="2" stroke-dasharray="7 11"/>
 
-  <text x="72" y="72" fill="#b08946" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="3">CONSULTATION MAP</text>
+  <text x="72" y="72" fill="#765522" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" letter-spacing="3">CONSULTATION MAP</text>
   <text x="72" y="113" fill="#10201d" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700">Start with the concern, not a procedure label</text>
 
   <g fill="none" stroke="#173d36" stroke-linecap="round" stroke-linejoin="round">
@@ -35,22 +35,22 @@
 
   <g font-family="Arial, Helvetica, sans-serif">
     <g>
-      <circle cx="356" cy="276" r="22" fill="#b89a5e"/>
+      <circle cx="356" cy="276" r="22" fill="#765522"/>
       <text x="356" y="283" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">1</text>
       <path d="M379 276 C486 276 500 178 594 178" fill="none" stroke="#b89a5e" stroke-width="3" stroke-linecap="round"/>
     </g>
     <g>
-      <circle cx="377" cy="407" r="22" fill="#b89a5e"/>
+      <circle cx="377" cy="407" r="22" fill="#765522"/>
       <text x="377" y="414" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">2</text>
       <path d="M400 407 C486 407 512 317 594 317" fill="none" stroke="#b89a5e" stroke-width="3" stroke-linecap="round"/>
     </g>
     <g>
-      <circle cx="331" cy="482" r="22" fill="#b89a5e"/>
+      <circle cx="331" cy="482" r="22" fill="#765522"/>
       <text x="331" y="489" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">3</text>
       <path d="M354 482 C464 482 501 456 594 456" fill="none" stroke="#b89a5e" stroke-width="3" stroke-linecap="round"/>
     </g>
     <g>
-      <circle cx="278" cy="553" r="22" fill="#b89a5e"/>
+      <circle cx="278" cy="553" r="22" fill="#765522"/>
       <text x="278" y="560" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">4</text>
       <path d="M301 553 C446 553 500 595 594 595" fill="none" stroke="#b89a5e" stroke-width="3" stroke-linecap="round"/>
     </g>
