@@ -9,7 +9,7 @@ const title = 'Compression Garments, Foam and Lymphatic Massage After Liposuctio
 const description = 'Patient guide to compression garments, foam padding, short-stretch bandages and lymphatic drainage massage after liposuction, including swelling, contour support and safety warnings.';
 const articleUrl = `${baseUrl}/${slug}`;
 const reviewedDate = '2026-09-15';
-const modifiedDate = '2026-10-11';
+const modifiedDate = '2026-10-18';
 const foamImage = '/images/body-contouring/post-liposuction-compression-garment-foam-recovery-pad.jpg';
 
 export const metadata: Metadata = {
@@ -247,6 +247,7 @@ export default function LiposuctionCompressionFoamMassagePage() {
               <h2>When not to massage and when to call your surgeon</h2>
               <p>Do not continue massage or tighten garments/bandages if symptoms are worsening or concerning. Seek medical advice promptly if you develop severe or increasing pain, spreading redness, fever, wound discharge, marked one-sided swelling, calf pain, shortness of breath, chest pain, fainting or sudden deterioration.</p>
               <p>After liposuction, recovery support should be adjusted to the patient rather than forced through pain. If a garment, foam pad or bandage is causing focal pain, numbness or skin changes, it should be reviewed.</p>
+              <p>Further general recovery information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/recovery">ASPS liposuction recovery guidance</a> and the <a href="https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/liposuction/">NHS liposuction overview</a>. These resources do not replace your treating surgeon&apos;s individual instructions for garments, activity and follow-up.</p>
             </section>
 
             <section id="how-they-work-together">
