@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import ContactForm from '../ContactForm';
-import { baseUrl, lastReviewedIso, physicianId, physicianJsonLd } from '../seoIdentity';
+import { baseUrl, lastReviewedIso, profileModifiedIso, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const pageUrl = `${baseUrl}/plastic-surgeon-singapore`;
 const socialImage = '/images/dr-jeremy-sun-hero.jpg';
@@ -85,7 +85,7 @@ const jsonLd = {
         'choosing a plastic surgeon'
       ],
       datePublished: lastReviewedIso,
-      dateModified: '2026-10-15',
+      dateModified: profileModifiedIso,
       lastReviewed: lastReviewedIso,
       author: { '@id': physicianId },
       reviewedBy: { '@id': physicianId },
