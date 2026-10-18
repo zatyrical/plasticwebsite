@@ -34,6 +34,9 @@ const sitemapRows = [...sitemap.matchAll(/<url>\s*<loc>([^<]+)<\/loc>([\s\S]*?)<
   .filter((row) => row.lastModified);
 
 const results = [];
+const profileDateIssues = [];
+let profilePagesChecked = 0;
+const zonedDateTime = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/;
 for (const row of sitemapRows) {
   const url = new URL(row.url);
   const route = url.pathname.replace(/^\//, "").replace(/\/$/, "");
@@ -49,6 +52,19 @@ for (const row of sitemapRows) {
         return [];
       }
     });
+
+  for (const node of nodes) {
+    const types = [].concat(node['@type'] ?? []);
+    if (!types.includes('ProfilePage')) continue;
+    profilePagesChecked += 1;
+    for (const field of ['dateCreated', 'dateModified']) {
+      if (!(field in node)) continue;
+      const value = node[field];
+      if (typeof value !== 'string' || !zonedDateTime.test(value) || !Number.isFinite(Date.parse(value))) {
+        profileDateIssues.push({ route: url.pathname, field, value });
+      }
+    }
+  }
 
   const pageDates = [...new Set(
     nodes
@@ -67,4 +83,5 @@ for (const row of sitemapRows) {
 }
 
 console.log(JSON.stringify(results, null, 2));
-if (results.some((result) => !result.matches)) process.exitCode = 1;
+console.log(JSON.stringify({ profilePagesChecked, profileDateIssues }, null, 2));
+if (results.some((result) => !result.matches) || profileDateIssues.length) process.exitCode = 1;
