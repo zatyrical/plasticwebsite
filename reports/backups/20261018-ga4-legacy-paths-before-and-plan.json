@@ -1,0 +1,1314 @@
+{
+  "captured_at": "2026-10-18T08:10:05Z",
+  "site": "https://lymphedasia.com",
+  "base_main": "50ad64db49f92c44ae94b3b3de2ac5d5a585e5c3",
+  "scope": "Two supported permanent URL recoveries; no clinical content, review date, tracking, or existing rule changes.",
+  "ga4_discovery": {
+    "property": "410145787",
+    "report": "Pages and screens",
+    "dates": "2026-09-20 to 2026-10-17",
+    "filter": "Page title and screen class contains Page Not Found",
+    "secondary_dimensions_checked": [
+      "Page path and screen class",
+      "Hostname"
+    ],
+    "totals": {
+      "views": 366,
+      "active_users": 372,
+      "average_engagement": "1s",
+      "key_events": 0
+    },
+    "hostname": "lymphedasia.com",
+    "caveat": "Unfiltered all-traffic historical error-title events; not current HTTP error count, Singapore organic sessions, confirmed humans, lost enquiries, or ranking evidence.",
+    "selected_path_views": {
+      "/difference-between-lymphedema-and-lipedema/": 9,
+      "/lymphedema-precox-vs-tarda/": 7
+    }
+  },
+  "source_guard": {
+    "live_statuses": {
+      "/difference-between-lymphedema-and-lipedema/": 404,
+      "/lymphedema-precox-vs-tarda/": 404
+    },
+    "wp_posts_status_any": [],
+    "wp_pages_status_any": [],
+    "existing_exact_rules": []
+  },
+  "target_guard": [
+    {
+      "url": "https://lymphedasia.com/lipedema-vs-lymphedema-singapore/",
+      "status": 200,
+      "redirects": 0,
+      "canonical": "https://lymphedasia.com/lipedema-vs-lymphedema-singapore/",
+      "noindex": false,
+      "h1": "Lipedema vs Lymphedema: Differences, Diagnosis and Treatment in Singapore",
+      "intent": "Maintained specific comparison guide matches old difference-between path; search cache also retains the old comparison title."
+    },
+    {
+      "url": "https://lymphedasia.com/hereditary-lymphedema-milroy-disease/",
+      "status": 200,
+      "redirects": 0,
+      "canonical": "https://lymphedasia.com/hereditary-lymphedema-milroy-disease/",
+      "noindex": false,
+      "h1": "Hereditary Lymphedema: Milroy, Meige and Genetic Forms",
+      "intent": "Existing body explicitly explains historical congenital, praecox and tarda age-of-onset classification. No new clinical statement added."
+    }
+  ],
+  "all_redirects_before": {
+    "items": [
+      {
+        "id": 46,
+        "url": "/lymphatic-health-for-lymphedema-prevention/",
+        "match_url": "/lymphatic-health-for-lymphedema-prevention",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/how-to-prevent-lymphedema/"
+        },
+        "match_type": "url",
+        "title": "Consolidate unsupported prevention overlap — 13 October 2026",
+        "hits": 22,
+        "regex": false,
+        "group_id": 1,
+        "position": 45,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 45,
+        "url": "/lymphedema-and-heart-health/",
+        "match_url": "/lymphedema-and-heart-health",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/lymphedema-vs-edema-difference/"
+        },
+        "match_type": "url",
+        "title": "Consolidate unsupported heart-health overlap — 12 October 2026",
+        "hits": 31,
+        "regex": false,
+        "group_id": 1,
+        "position": 44,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 44,
+        "url": "/lymphedema-tree-bark-skin-on-legs/",
+        "match_url": "/lymphedema-tree-bark-skin-on-legs",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/understanding-the-4-stages-of-lymphedema/"
+        },
+        "match_type": "url",
+        "title": "Recover advanced-skin patient path — 8 October 2026",
+        "hits": 13,
+        "regex": false,
+        "group_id": 1,
+        "position": 43,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 43,
+        "url": "/services/",
+        "match_url": "/services",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/"
+        },
+        "match_type": "url",
+        "title": "Recover retired services gateway — 8 October 2026",
+        "hits": 18,
+        "regex": false,
+        "group_id": 1,
+        "position": 42,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 42,
+        "url": "/congenital-lymphedema-causes/",
+        "match_url": "/congenital-lymphedema-causes",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/hereditary-lymphedema-milroy-disease/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC genetics patient path — 8 October 2026",
+        "hits": 15,
+        "regex": false,
+        "group_id": 1,
+        "position": 41,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 41,
+        "url": "/lymphedema-genetic-testing/",
+        "match_url": "/lymphedema-genetic-testing",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/hereditary-lymphedema-milroy-disease/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC genetics patient path — 8 October 2026",
+        "hits": 24,
+        "regex": false,
+        "group_id": 1,
+        "position": 40,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 40,
+        "url": "/lymphedema-leg-exercises/",
+        "match_url": "/lymphedema-leg-exercises",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 23,
+        "regex": false,
+        "group_id": 1,
+        "position": 39,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 39,
+        "url": "/lymphedema-physical-therapy-exercises/",
+        "match_url": "/lymphedema-physical-therapy-exercises",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 27,
+        "regex": false,
+        "group_id": 1,
+        "position": 38,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 38,
+        "url": "/top-3-exercises-for-leg-lymphedema/",
+        "match_url": "/top-3-exercises-for-leg-lymphedema",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 4,
+        "regex": false,
+        "group_id": 1,
+        "position": 37,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 37,
+        "url": "/lymphedema-exercises/",
+        "match_url": "/lymphedema-exercises",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 9,
+        "regex": false,
+        "group_id": 1,
+        "position": 36,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 36,
+        "url": "/lymphedema-education/",
+        "match_url": "/lymphedema-education",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/educational-resources/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 20,
+        "regex": false,
+        "group_id": 1,
+        "position": 35,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 35,
+        "url": "/lymphedema-diagnosis-and-treatment/",
+        "match_url": "/lymphedema-diagnosis-and-treatment",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/lymphedema-treatment/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 19,
+        "regex": false,
+        "group_id": 1,
+        "position": 34,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 34,
+        "url": "/lymphedema-singapore/",
+        "match_url": "/lymphedema-singapore",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/lymphedema-treatment/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 7,
+        "regex": false,
+        "group_id": 1,
+        "position": 33,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 33,
+        "url": "/lymphedema-surgical-treatment/",
+        "match_url": "/lymphedema-surgical-treatment",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/lymphedema-surgery-singapore/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 13,
+        "regex": false,
+        "group_id": 1,
+        "position": 32,
+        "last_access": "October 16, 2026",
+        "enabled": true
+      },
+      {
+        "id": 32,
+        "url": "/lymphedema-surgery-treatment/",
+        "match_url": "/lymphedema-surgery-treatment",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/lymphedema-surgery-singapore/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 18,
+        "regex": false,
+        "group_id": 1,
+        "position": 31,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 31,
+        "url": "/difference-between-primary-and-secondary-lymphedema/",
+        "match_url": "/difference-between-primary-and-secondary-lymphedema",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/primary-vs-secondary-lymphedema/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 34,
+        "regex": false,
+        "group_id": 1,
+        "position": 30,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 30,
+        "url": "/combined-decongestive-therapy/",
+        "match_url": "/combined-decongestive-therapy",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/lymphedema-therapy/"
+        },
+        "match_type": "url",
+        "title": "Recover GSC missing patient path — 7 October 2026",
+        "hits": 16,
+        "regex": false,
+        "group_id": 1,
+        "position": 29,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 29,
+        "url": "/resource-library-for-lymphedema-education/",
+        "match_url": "/resource-library-for-lymphedema-education",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/educational-resources/"
+        },
+        "match_type": "url",
+        "title": "Restore retired resource library URL — 10 September 2026",
+        "hits": 53,
+        "regex": false,
+        "group_id": 1,
+        "position": 28,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 28,
+        "url": "/lymphedema-treatment-in-singapore/",
+        "match_url": "/lymphedema-treatment-in-singapore",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/lymphedema-treatment/"
+        },
+        "match_type": "url",
+        "title": "Restore retired Singapore treatment URL — 10 September 2026",
+        "hits": 32,
+        "regex": false,
+        "group_id": 1,
+        "position": 27,
+        "last_access": "October 14, 2026",
+        "enabled": true
+      },
+      {
+        "id": 27,
+        "url": "/lymphovenous-bypass/",
+        "match_url": "/lymphovenous-bypass",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "https://lymphedasia.com/lva-surgery-singapore/"
+        },
+        "match_type": "url",
+        "title": "Restore retired lymphovenous bypass URL to equivalent LVA guide — 10 September 2026",
+        "hits": 72,
+        "regex": false,
+        "group_id": 1,
+        "position": 26,
+        "last_access": "October 16, 2026",
+        "enabled": true
+      },
+      {
+        "id": 26,
+        "url": "/when-is-lva-too-late-lymphedema-surgery/",
+        "match_url": "/when-is-lva-too-late-lymphedema-surgery",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/when-is-lva-surgery-too-late/"
+        },
+        "match_type": "url",
+        "title": "SEO 500 rescue / consolidation: when-is-lva-too-late-lymphedema-surgery",
+        "hits": 5,
+        "regex": false,
+        "group_id": 1,
+        "position": 25,
+        "last_access": "September 8, 2026",
+        "enabled": true
+      },
+      {
+        "id": 25,
+        "url": "/lva-success-rates/",
+        "match_url": "/lva-success-rates",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lva-surgery-singapore/"
+        },
+        "match_type": "url",
+        "title": "SEO 500 rescue / consolidation: lva-success-rates",
+        "hits": 40,
+        "regex": false,
+        "group_id": 1,
+        "position": 24,
+        "last_access": "September 12, 2026",
+        "enabled": true
+      },
+      {
+        "id": 24,
+        "url": "/lymphovenous-anastomosis-lva-surgery-success-rates/",
+        "match_url": "/lymphovenous-anastomosis-lva-surgery-success-rates",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lva-surgery-singapore/"
+        },
+        "match_type": "url",
+        "title": "SEO 500 rescue / consolidation: lymphovenous-anastomosis-lva-surgery-success-rates",
+        "hits": 38,
+        "regex": false,
+        "group_id": 1,
+        "position": 23,
+        "last_access": "September 12, 2026",
+        "enabled": true
+      },
+      {
+        "id": 23,
+        "url": "/lymphedema-specialist/",
+        "match_url": "/lymphedema-specialist",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/dr-jeremy-sun-lymphedema-specialist/"
+        },
+        "match_type": "url",
+        "title": "SEO 500 rescue / consolidation: lymphedema-specialist",
+        "hits": 125,
+        "regex": false,
+        "group_id": 1,
+        "position": 22,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 22,
+        "url": "/lymphedema-specialist-singapore/",
+        "match_url": "/lymphedema-specialist-singapore",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/dr-jeremy-sun-lymphedema-specialist/"
+        },
+        "match_type": "url",
+        "title": "SEO 500 rescue / consolidation: lymphedema-specialist-singapore",
+        "hits": 80,
+        "regex": false,
+        "group_id": 1,
+        "position": 21,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 21,
+        "url": "/lymphovenous-bypass-singapore/",
+        "match_url": "/lymphovenous-bypass-singapore",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lva-surgery-singapore/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: broken lymphovenous bypass Singapore to LVA page",
+        "hits": 86,
+        "regex": false,
+        "group_id": 1,
+        "position": 20,
+        "last_access": "October 16, 2026",
+        "enabled": true
+      },
+      {
+        "id": 20,
+        "url": "/lymphedema-treatment-singapore/",
+        "match_url": "/lymphedema-treatment-singapore",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-treatment/"
+        },
+        "match_type": "url",
+        "title": "Fix broken treatment Singapore slug to canonical treatment page",
+        "hits": 4,
+        "regex": false,
+        "group_id": 1,
+        "position": 19,
+        "last_access": "August 10, 2026",
+        "enabled": true
+      },
+      {
+        "id": 19,
+        "url": "/how-to-treat-lymphedema-related-infections/",
+        "match_url": "/how-to-treat-lymphedema-related-infections",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-and-cellulitis/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: how-to-treat-lymphedema-related-infections",
+        "hits": 84,
+        "regex": false,
+        "group_id": 1,
+        "position": 18,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 18,
+        "url": "/preventing-infections-in-lymphedema/",
+        "match_url": "/preventing-infections-in-lymphedema",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-and-cellulitis/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: preventing-infections-in-lymphedema",
+        "hits": 116,
+        "regex": false,
+        "group_id": 1,
+        "position": 17,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 17,
+        "url": "/lymphedema-and-infection/",
+        "match_url": "/lymphedema-and-infection",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-and-cellulitis/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: lymphedema-and-infection",
+        "hits": 191,
+        "regex": false,
+        "group_id": 1,
+        "position": 16,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 16,
+        "url": "/recent-advances-in-lymphedema-treatment/",
+        "match_url": "/recent-advances-in-lymphedema-treatment",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-treatment/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: recent-advances-in-lymphedema-treatment",
+        "hits": 149,
+        "regex": false,
+        "group_id": 1,
+        "position": 15,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 15,
+        "url": "/understanding-lymphedema-and-treatment-options/",
+        "match_url": "/understanding-lymphedema-and-treatment-options",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-treatment/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: understanding-lymphedema-and-treatment-options",
+        "hits": 141,
+        "regex": false,
+        "group_id": 1,
+        "position": 14,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 14,
+        "url": "/choosing-the-expert-lymphedema-surgeon/",
+        "match_url": "/choosing-the-expert-lymphedema-surgeon",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/dr-jeremy-sun-lymphedema-specialist/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: choosing-the-expert-lymphedema-surgeon",
+        "hits": 125,
+        "regex": false,
+        "group_id": 1,
+        "position": 13,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 13,
+        "url": "/how-to-find-a-professional-lymphedema-surgeon/",
+        "match_url": "/how-to-find-a-professional-lymphedema-surgeon",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/dr-jeremy-sun-lymphedema-specialist/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: how-to-find-a-professional-lymphedema-surgeon",
+        "hits": 98,
+        "regex": false,
+        "group_id": 1,
+        "position": 12,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 12,
+        "url": "/dr-jeremy-sun/",
+        "match_url": "/dr-jeremy-sun",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/dr-jeremy-sun-lymphedema-specialist/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: dr-jeremy-sun",
+        "hits": 201,
+        "regex": false,
+        "group_id": 1,
+        "position": 11,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 11,
+        "url": "/dr-jeremy-sun-mingfa/",
+        "match_url": "/dr-jeremy-sun-mingfa",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/dr-jeremy-sun-lymphedema-specialist/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: dr-jeremy-sun-mingfa",
+        "hits": 285,
+        "regex": false,
+        "group_id": 1,
+        "position": 10,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 10,
+        "url": "/how-to-manage-lymphedema/",
+        "match_url": "/how-to-manage-lymphedema",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-treatment/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: how-to-manage-lymphedema",
+        "hits": 72,
+        "regex": false,
+        "group_id": 1,
+        "position": 9,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 9,
+        "url": "/lymphedema-management-treatments/",
+        "match_url": "/lymphedema-management-treatments",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-treatment/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: lymphedema-management-treatments",
+        "hits": 41,
+        "regex": false,
+        "group_id": 1,
+        "position": 8,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 8,
+        "url": "/cellulitis-in-lymphoedema/",
+        "match_url": "/cellulitis-in-lymphoedema",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-and-cellulitis/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: cellulitis-in-lymphoedema",
+        "hits": 249,
+        "regex": false,
+        "group_id": 1,
+        "position": 7,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 7,
+        "url": "/prevent-lymphedema-related-infections/",
+        "match_url": "/prevent-lymphedema-related-infections",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-and-cellulitis/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: prevent-lymphedema-related-infections",
+        "hits": 193,
+        "regex": false,
+        "group_id": 1,
+        "position": 6,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 6,
+        "url": "/cellulitis-in-lymphedema-patients/",
+        "match_url": "/cellulitis-in-lymphedema-patients",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-and-cellulitis/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: cellulitis-in-lymphedema-patients",
+        "hits": 160,
+        "regex": false,
+        "group_id": 1,
+        "position": 5,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 5,
+        "url": "/guide-to-lymphedema-treatment-options/",
+        "match_url": "/guide-to-lymphedema-treatment-options",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-treatment/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: guide-to-lymphedema-treatment-options",
+        "hits": 126,
+        "regex": false,
+        "group_id": 1,
+        "position": 4,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 4,
+        "url": "/lymphedema-treatment-options/",
+        "match_url": "/lymphedema-treatment-options",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lymphedema-treatment/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: lymphedema-treatment-options",
+        "hits": 153,
+        "regex": false,
+        "group_id": 1,
+        "position": 3,
+        "last_access": "October 17, 2026",
+        "enabled": true
+      },
+      {
+        "id": 3,
+        "url": "/how-to-choose-the-right-lymphedema-specialist/",
+        "match_url": "/how-to-choose-the-right-lymphedema-specialist",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/dr-jeremy-sun-lymphedema-specialist/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: how-to-choose-the-right-lymphedema-specialist",
+        "hits": 211,
+        "regex": false,
+        "group_id": 1,
+        "position": 2,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 2,
+        "url": "/success-of-lymphovenous-bypass-surgery/",
+        "match_url": "/success-of-lymphovenous-bypass-surgery",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/lva-surgery-singapore/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: success-of-lymphovenous-bypass-surgery",
+        "hits": 166,
+        "regex": false,
+        "group_id": 1,
+        "position": 1,
+        "last_access": "October 18, 2026",
+        "enabled": true
+      },
+      {
+        "id": 1,
+        "url": "/lymphedema-surgery-how-to-fine-a-qualified-surgeon/",
+        "match_url": "/lymphedema-surgery-how-to-fine-a-qualified-surgeon",
+        "match_data": {
+          "source": {
+            "flag_query": "exact",
+            "flag_case": true,
+            "flag_trailing": true,
+            "flag_regex": false
+          }
+        },
+        "action_code": 301,
+        "action_type": "url",
+        "action_data": {
+          "url": "/dr-jeremy-sun-lymphedema-specialist/"
+        },
+        "match_type": "url",
+        "title": "SEO consolidation: lymphedema-surgery-how-to-fine-a-qualified-surgeon",
+        "hits": 109,
+        "regex": false,
+        "group_id": 1,
+        "position": 0,
+        "last_access": "October 16, 2026",
+        "enabled": true
+      }
+    ],
+    "total": 46
+  },
+  "planned_create_requests": [
+    {
+      "status": "enabled",
+      "position": 46,
+      "url": "/difference-between-lymphedema-and-lipedema/",
+      "regex": false,
+      "match_type": "url",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "title": "Recover legacy lipedema comparison path — 18 October 2026",
+      "group_id": 1,
+      "action_type": "url",
+      "action_code": 301,
+      "action_data": {
+        "url": "https://lymphedasia.com/lipedema-vs-lymphedema-singapore/"
+      }
+    },
+    {
+      "status": "enabled",
+      "position": 47,
+      "url": "/lymphedema-precox-vs-tarda/",
+      "regex": false,
+      "match_type": "url",
+      "match_data": {
+        "source": {
+          "flag_query": "exact",
+          "flag_case": true,
+          "flag_trailing": true,
+          "flag_regex": false
+        }
+      },
+      "title": "Recover legacy praecox and tarda path — 18 October 2026",
+      "group_id": 1,
+      "action_type": "url",
+      "action_code": 301,
+      "action_data": {
+        "url": "https://lymphedasia.com/hereditary-lymphedema-milroy-disease/"
+      }
+    }
+  ],
+  "rollback": {
+    "method": "POST",
+    "route": "/redirection/v1/bulk/redirect/disable",
+    "instruction": "Set items to only the returned newly created IDs, global:false. Do not restore all rules or delete existing ones."
+  },
+  "references": [
+    "https://redirection.me/developer/rest-api/",
+    "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+    "https://developers.google.com/crawling/docs/troubleshooting/http-status-codes"
+  ]
+}
