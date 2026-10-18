@@ -4,6 +4,9 @@ export const physicianId = `${baseUrl}/#physician`;
 
 export const lastReviewedIso = '2026-09-06';
 
+// Recorded profile edit a439417; ProfilePage requires a timezone-bearing DateTime.
+export const profileModifiedIso = '2026-10-15T20:07:02+08:00';
+
 export const physicianSameAs = [
   'https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy',
   'https://www.linkedin.com/in/dr-jeremy-sun',
