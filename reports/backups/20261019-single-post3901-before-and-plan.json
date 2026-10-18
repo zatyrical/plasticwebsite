@@ -1,5 +1,4 @@
 {
-  "capturedAt": "2026-10-19T06:04:00+08:00",
   "templateBefore": {
     "id": 3901,
     "date": "2025-09-12T17:06:23",
@@ -805,5 +804,7 @@
         "isInner": false
       }
     ]
-  }
+  },
+  "checkpointDate": "2026-10-19",
+  "guardedAtUtc": "2026-10-18T22:00:14Z"
 }
