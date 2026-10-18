@@ -1,4 +1,4 @@
-# Lymphology pathway readability and actual navigation checks —19October2026
+# Lymphology readability, truthful overview title and navigation checks —19October2026
 
 Started18October23:56SGT; published WordPress change19October00:02SGT. Base main `257ad4bd81fdf6d8cce8fca99bfb77db849a1662`, branch `seo/lymphology-pathway-readability-20261019`, issue7 checkpoint6252020901. Fresh main/clean worktree, current issue7 through6251442702 and PR248 report read; open-PR list empty. PR248 and the unpublished survivorship draft were not repeated.
 
@@ -52,9 +52,21 @@ Current Google link guidance read18/19October:
 https://developers.google.com/search/docs/crawling-indexing/links-crawlable
 It supports descriptive relevant native links and explicitly gives no magical ideal count. The elective SEO playbook guided actual journey testing, preservation of useful routes and duplicate prevention; its design dependency did not cause an unrelated theme change.
 
+## Published: truthful overview title on4052
+
+https://lymphedasia.com/lymphedema-treatment-and-lymphatic-disease-review/
+
+After the first repair, investigated this queued candidate independently. Fresh full raw shows a2855-character general treatment overview, with no presented patient case or original case-report results. Actual live H1 and WordPress title nevertheless said **Lymphedema Treatment and Lymphatic Disease: Case Report &amp; Review**. The public SEO browser title was already the more generic **Lymphedema Treatment and Lymphatic Disease Review**; do not claim that the browser title had contained a case-report claim.
+
+Changed only the core post title to **Lymphedema Treatment and Lymphatic Disease: An Overview** through a short scalar REST update. This removes unsupported case-report framing; it is not keyword/description churn, a newly written case or approval of the wider medical claims.
+
+Full BEFORE+plan/rollback archived8a7c3207cd73edd9d0e0af2b8c9b1f2ac9752ddf before mutation; exact source/modified/title/status/meta guard passed. AFTERa5a18ae3091e1190c0f70bf5d3ae143bb40388e3 confirms expected title and byte-identical raw body; status/author/media/excerpt/template/meta/slug/link/categories/tags identical. Modified18October16:06:33UTC =19October00:06:33SGT is operational. August2026 review remains unchanged. Existing SEO browser title left unchanged; no custom metadata/URL change. Live200/selfcanonical/expected singleH1/oldreview verified.
+
+Backups `reports/backups/20261019-overview4052-{before-and-plan,after}.json`. Rollback: reconcile actual current title/body/meta; restore archived old title through supported short scalar REST, then readback/live verify, preserving later changes. Git revert alone does not undo WP.
+
 ## Release validation
 
-Three repository evidence files only: this report, BEFORE and AFTER. JSON parse, unique expected/reverse raw, metadata parity, unique destination parity, Gutenberg comment-inventory equality, diff whitespace and exact allowlist required. No application/dependency/media change or unnecessary repeated local full build. Use exact-head preview/GitHub success, fresh main/mergeability, expected-head merge and exact-main productionREADY. Proof in issue7. No protected-preview bypass/share-link.
+Five repository evidence files only: this report, both posts' BEFORE and AFTER. JSON parse, unique expected/reverse raw, metadata parity, unique destination parity, Gutenberg comment-inventory equality, diff whitespace and exact allowlist required. No application/dependency/media change or unnecessary repeated local full build. Use exact-head preview/GitHub success, fresh main/mergeability, expected-head merge and exact-main productionREADY. Proof in issue7. No protected-preview bypass/share-link.
 
 ## Ranked READY / WAITING queue
 
@@ -62,11 +74,11 @@ Three repository evidence files only: this report, BEFORE and AFTER. JSON parse,
 | --- | --- | --- |
 |1 /what-is-lymphology/4280|Repeated opening routes; retained full structured pathway|COMPLETE; recheck only concrete fault|
 |2 Homepage /aesthetic-surgery → lower-eyelid guide|Desktop path works; hero12actions/no overflow; mobile not emulated|Desktop defect candidate CLOSED. Narrow-mobile visual test WAITING supported device/viewport; no speculative redesign|
-|3 /lymphedema-treatment-and-lymphatic-disease-review/4052|Inventory identifies a case-report/review title; original attribution/current reader paths not investigated in this batch|READY distinct provenance/navigation investigation against reports and fresh raw; title alone is not evidence of a fault or approval to invent a case|
+|3 /lymphedema-treatment-and-lymphatic-disease-review/4052|Current body/live inspected; unsupported case-report H1 replaced with An Overview; body byte-identical|COMPLETE; no new case, wider clinical endorsement or URL/SEO metadata change|
 |4 Survivorship education draft|Complete draft in PR248; publisher combined percentages differ|HELD clinician review/source reconciliation before public new clinical prose; no repeated draft/article|
 |5 Direct/referral origin|GA4 source/hostname/event composition complete|Only actual Lymphedasia hosting access/request-log correlation is independent; no bot assertion/exclusion. Repeat components>=19Oct20:30SGT|
 |6 Matched outcomes|18October daily results already complete|WAITING DrGSC>=19Oct15:01,GA4acquisition>=19Oct16:20,LymphGSC>=19Oct17:30SGT; no midnight repeat|
 |7 Profile validation / crawl|Fix live/ValidationStarted18Oct; tummy index request already done|Validation19Oct; routine tummy>=21Oct15:01,UTM>=21Oct17:30 absent actual fault; no reclick|
 |8 GBP / authority / AI|Windsor facts/5LIVEposts verified18Oct22:04; pending metadataNULL; SCSsentonce,NLN/ALAunsent|GBP>=19Oct22:05. No duplicate posts/outreach; native fixed-prompt AI responses unavailable; referrals not citations|
 
-Other new clinical protocols, legacy-prevention/compression rewrites and exact404 equivalence require original evidence/approval. No credentials repurposed, paid subscription, quota reset, automation creation/disable, synthetic event, enquiry or email. No ranking, qualified-enquiry, consultation, nativeAI citation or performance gain claimed. This is a published readability batch, not a no-implementation checkpoint.
+Other new clinical protocols, legacy-prevention/compression rewrites and exact404 equivalence require original evidence/approval. No credentials repurposed, paid subscription, quota reset, automation creation/disable, synthetic event, enquiry or email. No ranking, qualified-enquiry, consultation, nativeAI citation or performance gain claimed. This is a published two-page readability/title-accuracy batch, not a no-implementation checkpoint. Next independent READY patient journey: inspect current /lymphedema-treatment-symptoms-expert-care/4060 against prior reports and maintained diagnosis/treatment resources; no defect assumed from its title and no duplicate overview article.
