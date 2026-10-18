@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { procedureArticleList } from './procedureArticles';
 import { procedurePagePresentation } from './procedurePagePresentation';
+import { profileModifiedIso } from './seoIdentity';
 
 const baseUrl = 'https://www.drjeremysun.com';
 const updatedAt = '2026-10-03';
@@ -38,7 +39,7 @@ const latestModifiedPaths = new Map([
   ['/tummy-tuck-singapore', '2026-10-14'],
   ['/face-neck-lift-singapore', '2026-10-16'],
   ['/mommy-makeover-singapore', '2026-10-14'],
-  ['/plastic-surgeon-singapore', '2026-10-15'],
+  ['/plastic-surgeon-singapore', profileModifiedIso],
   ['/publications', '2026-10-07'],
   ['/training-and-fellowships', '2026-10-04'],
     ['/eyebag-removal-lower-blepharoplasty-singapore', '2026-10-15'],
