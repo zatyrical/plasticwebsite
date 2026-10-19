@@ -444,6 +444,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'recovery' ? (
                   <p>For a focused explanation of garments, foam padding, short-stretch bandages and manual lymphatic drainage, read the <Link href="/compression-foam-lymphatic-massage-after-liposuction">compression and recovery after liposuction guide</Link>. The exact recovery plan should follow the treating surgeon&apos;s instructions.</p>
                 ) : null}
+                {article.slug === 'eyebag-removal-lower-blepharoplasty-singapore' && section.id === 'recovery' ? (
+                  <p>For general questions to discuss about aftercare, activity and follow-up, see the <a href="https://www.plasticsurgery.org/cosmetic-procedures/eyelid-surgery/recovery">ASPS eyelid surgery recovery resource</a>. This general information does not replace your surgical team&apos;s individual instructions.</p>
+                ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.saps.org.sg/tummy-tuck">Singapore Association of Plastic Surgeons: tummy tuck / abdominoplasty</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/safety">ASPS tummy tuck risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/candidates">ASPS tummy tuck suitability</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a>.</p>
                 ) : null}
