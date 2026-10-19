@@ -838,3 +838,7 @@
 .contact-form button:focus-visible,
 .contact-form a:focus-visible{outline:3px solid var(--emerald);outline-offset:3px}
 .contact-form .form-note a{text-decoration:underline;text-underline-offset:3px}
+
+/* Make links recognisable within article prose without restyling navigation or buttons. */
+.article-content p a[href]:not(.btn):not([role="button"]):not(nav a),
+.article-content li a[href]:not(.btn):not([role="button"]):not(nav a){text-decoration-line:underline;text-underline-offset:3px}
