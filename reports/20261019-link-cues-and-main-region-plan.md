@@ -50,11 +50,29 @@ Disposition: **candidate, not blindly executable**. Recovery capacity alone is i
 
 W3C G183 re-opened19Oct; its link-versus-surrounding-text distinction supports a non-colour link cue, not a mandate to add unrelated heading/list spacing. The playbook led to testing a concrete patient-readability defect and rejecting an assumed minimal change. No app build repeated for report-only evidence; `git diff --check` and one-file scope apply to this update. Live AFTER and rollback have not been exercised because no write occurred.
 
+## Narrow alternative documented —19October12:03SGT session
+
+Current fetched main is now `0bbe3c513b2fa0733f69d701bb908f0788f90cf4` after completedPR253. Same draftPR252 was reconciled at7a6c694a before this report-only update; no live save or competing branch. The12:03 ordinary capacity probe still reports99/100, remaining1. No further WordPress calls were made.
+
+Official Elementor help inspected19October:
+- https://elementor.com/help/how-to-add-custom-css/ (displayed update15September2026) documents individual-element Custom CSS under Advanced, separately from page/site CSS. It explicitly restricts availability by plan.
+- https://elementor.com/help/css-selectors-in-elementor/ documents the element-scoped `selector` shortcut and warns against using that shortcut at page/site level.
+
+This establishes a documented **conditional alternative**, not availability on this installation: a native element-level styling field on post-content widgetc6e5c72 could apply only link decoration, leaving heading/list/container layout untouched. Current live control exposure, feature entitlement, installed-version behaviour and save-field identity have NOT been verified. An installed Pro plugin or a public help article does not prove access to every feature. Do not guess a JSON field or infer entitlement; do not buy/upgrade a plan, activate features, inject an HTML/style widget, use disabled snippets or write theme files as a workaround.
+
+Next targeted investigation when ordinary capacity returns: inspect the current widget's exposed controls for an available native element-level Custom CSS field and supported value format. If absent/locked, record that narrow blocker and stop this option. If available, archive fresh raw/meta/conditions and exact unique forward/reverse before writing. Preserve any pre-existing field value and concurrent changes; do not replace it blindly. Re-read constant builder instructions as needed without redundant broad discovery.
+
+The intended candidate would target ordinary article-text anchors inside this one widget, retain link colours/focus behaviour, exclude button-like controls, and change only text decoration. Do not target the entire template, TOC, reviewer, header/footer, unrelated pages or global theme. Actual anchors and table/list/media/button cases must determine the final selector, not a guessed universal selector. No CSS rule or save payload for this alternative is yet approved or tested.
+
+**Preferred next decision:** verify the documented narrow control before reviving the broader entry-content class. The archived class-addition save bodies remain historical candidate evidence, NOT an instruction to execute. If a new narrow patch is supported, create and remotely archive its own exact fresh plan/rollback; the old class plan is not its backup. Actual AFTER must demonstrate underlined article links AND unchanged measured spacing/widths, button exclusions, metadata/conditions and clinical text/review dates. Keep recovery reserve. No live/browser DOM simulation or after result is claimed.
+
+Three consecutive sessions since completedPR253 have produced no live implementation: WP recovery capacity remains insufficient; cosmetic candidates tested already had useful answers/navigation; new clinical expansions lack original clinician input. This is a specific diagnosis, not exhaustion of all READY investigations. This report refinement is preparation, not a published accessibility fix. Next ordinary capacity check>=19Oct14:00SGT or known recovery, not a promised reset.
+
 ## Why no live mutation
 
 Latest ordinary WPVibe usage notice was95/100 at targeted schema read, followed by site-info and current-template reads. Call counting/aging is not assumed exact. There is not verified headroom for fresh guard + supported save + authenticated readback + possible rollback/recovery. Do not spend a reset, buy a plan, change accounts or attempt an uncertain write. No WP mutation has been attempted in this batch.
 
-The19Oct08:04 ordinary capacity check returned99/100 (remaining1). Next ordinary check at/after19Oct10:00SGT, or known available capacity; not a promise of hourly quota reset. Before publication:
+The19Oct08:04,10:04 and12:03 ordinary capacity checks each returned99/100 (remaining1). Next ordinary check at/after19Oct14:00SGT, or known available capacity; not a promise of hourly quota reset. Before publication:
 1. Reconcile issue7/main/open draft and fresh current3901 with this plan; preserve concurrent changes and rearchive fresh backup/unique reverse before mutation.
 2. Verify sufficient ordinary capacity for guard/save/readback AND recovery. Do not consume it on repeated discovery.
 3. Resolve the cascade/layout-scope decision above before any write. If the native class is retained, use supported Elementor save-template with original current type/conditions and only the native class addition. Inspect warnings; never retry a timed-out save before reconciling real state.
@@ -78,7 +96,7 @@ Primary W3C inspected19Oct:
 
 Elective-seo-playbook guided an observed non-clinical reader fault rather than keyword/metadata churn. Astra documentation led to diagnosing the enabled rule and avoiding an ineffective toggle; builder/live controls support the native-class candidate. Publication pauses for recovery capacity, not a claim that independent work or all website access is blocked.
 
-READY investigation: resolve narrow link-decoration versus broader native article-layout scope using the new baseline; do not repeat discovery of the already-enabled option. Native class publication WAITING on ordinary capacity, fresh guard AND layout-scope decision. Second no-live-implementation session after completedPR251: narrow cause is recovery headroom plus demonstrated potential CSS side effects, not exhaustion of all website work.
+READY investigation: verify current availability of the documented native element-level styling control, then prepare an exact link-decoration-only patch if supported. Do not repeat discovery of the already-enabled Astra option or assume a JSON field/paid feature. All publication WAITING on ordinary capacity, fresh guard, actual control support AND scope/regression decision. Historical class candidate and three-session diagnosis are explained above; no blanket website-work exhaustion.
 WAITING: DrGSC19Oct>=15:01SGT; GA4acquisition>=16:20; LymphGSC>=17:30 (4052/4060/hub exact query/page overlap decision); source/hostname/events>=20:30. Profilevalidation19Oct/no repeatedValidateFix; routine tummy21Oct>=15:01/UTM>=17:30; GBP19Oct>=22:05.
 HELD: missing-main wrapper solution, original survivorship draft clinician/source review, exact operator/clinical policies. Existing outreach boundaries unchanged; native AI responses unavailable.
 
