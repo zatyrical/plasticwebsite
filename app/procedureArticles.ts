@@ -589,7 +589,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'who-this-is-for',
         heading: 'Rhinoplasty in Singapore: who this page is for',
-        paragraphs: ['Patients searching for rhinoplasty in Singapore may be comparing nose surgery, nose-job clinics, Asian rhinoplasty, revision rhinoplasty, tip rhinoplasty, implant-free rhinoplasty and rib-cartilage techniques. This page is for patients who want to understand how the nose is assessed before deciding whether surgery is appropriate.', 'The useful starting point is not a preferred implant or technique. Consultation should clarify bridge height, tip projection, nostril shape, airway symptoms, skin thickness, previous fillers or surgery, and whether the patient’s goals can be met safely.']
+        paragraphs: ['This guide is for patients who want to understand how the nose is assessed before deciding whether surgery is appropriate.', 'The useful starting point is not a preferred implant or technique. Consultation should clarify bridge height, tip projection, nostril shape, airway symptoms, skin thickness, previous fillers or surgery, and whether the patient’s goals can be met safely.']
       },
       {
         id: 'assessment',
@@ -716,7 +716,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'who-this-is-for',
         heading: 'Rib rhinoplasty in Singapore: who this page is for',
-        paragraphs: ['This page is for patients searching for rhinoplasty Singapore, nose surgery, nose job, Asian rhinoplasty, rib rhinoplasty or rib cartilage rhinoplasty and trying to understand why different materials may be discussed.', 'The key question is not whether rib cartilage is “better”. The consultation should ask what needs to be changed, whether the nose needs stronger structural support, whether simpler options are adequate, and whether donor-site risks are acceptable.']
+        paragraphs: ['This guide explains why different graft or implant materials may be discussed during rhinoplasty planning.', 'The key question is not whether rib cartilage is “better”. The consultation should ask what needs to be changed, whether the nose needs stronger structural support, whether simpler options are adequate, and whether donor-site risks are acceptable.']
       },
       {
         id: 'who-may-suit-rhinoplasty',
