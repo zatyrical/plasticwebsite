@@ -42,7 +42,7 @@ const latestModifiedPaths = new Map([
   ['/plastic-surgeon-singapore', profileModifiedIso],
   ['/publications', '2026-10-07'],
   ['/training-and-fellowships', '2026-10-04'],
-    ['/eyebag-removal-lower-blepharoplasty-singapore', '2026-10-15'],
+    ['/eyebag-removal-lower-blepharoplasty-singapore', '2026-10-19'],
   ['/llms.txt', '2026-10-11'],
 ]);
 const updatedPaths = new Set([
