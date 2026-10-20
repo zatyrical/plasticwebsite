@@ -1,0 +1,600 @@
+{
+  "recorded_at": "2026-10-20T00:04:00Z",
+  "purpose": "Fresh full selected raw/meta/envelope backup before supported Elementor save-page; later duplicate legacy HTML IDs only.",
+  "source_route": "/wp/v2/pages/721?context=edit",
+  "before": {
+    "id": 721,
+    "date": "2024-05-31T10:31:40",
+    "date_gmt": "2024-05-31T10:31:40",
+    "modified": "2026-10-06T22:09:02",
+    "modified_gmt": "2026-10-06T22:09:02",
+    "slug": "manual-lymphatic-drainage-and-compression",
+    "status": "publish",
+    "type": "page",
+    "link": "https://lymphedasia.com/manual-lymphatic-drainage-and-compression/",
+    "title": {
+      "raw": "Manual Lymphatic Drainage and Compression",
+      "rendered": "Manual Lymphatic Drainage and Compression"
+    },
+    "content": {
+      "raw": "<h1>Manual Lymphatic Drainage and Compression\n</h1>\t\t\t\t\n\t\t<section id=\"z-UdK4\" data-v-43d5e18a=\"\"><p dir=\"auto\">Imagine your body is a bustling city, and the lymphatic system is its sophisticated waste management facility, tirelessly working to keep things clean and orderly. Now, sometimes this system needs a bit of a helping hand, and that's where Complete Decongestive Therapy (CDT) steps in, like a team of super-specialized sanitation engineers!</p></section><section id=\"zIcpYj\" data-v-43d5e18a=\"\"></section>\t\t\n\t\t\t\t\t<p><strong>Clinically reviewed by Dr Jeremy Sun Mingfa.</strong> Dr Sun is a Senior Consultant Plastic and Reconstructive Surgeon in Singapore with dedicated fellowship-level training in lymphatic surgery, lymphovenous bypass (LVA), ICG lymphography and supermicrosurgical lymphatic reconstruction. This page is intended for general education and does not replace personalised medical assessment.</p>\t\t\t\t\n\t\t\t\t\t<h2>Manual Lymphatic Drainage</h2>\t\t\t\t\n\t\t<p dir=\"auto\">MLD is a gentle, rhythmic massage technique that guides the trapped lymph fluid to alternate routes and detours, ensuring a smooth flow. It's like having a skilled traffic officer gently directing the \"vehicles\" (lymph fluids) with expert hand movements, encouraging them to move in the right direction, avoiding the \"traffic jams\" and promoting a free-flowing \"highway.\"</p><p dir=\"auto\">If the main pathway to the armpit (axilla) is obstructed (for eg. because of lymph node clearance during breast cancer removal), then the therapist can work the excess fluid towards alternative pathways like the Mascagni-Sappey pathway that drains into the neck region (red arrows). This effectively bypasses the blockage in the axilla (red X) and helps drain the limb.</p><p dir=\"auto\">Sometimes, specially designed machines can be used to administer MLD treatment. This is especially useful when the patient requires frequent sessions to decongest the limb quickly. However, a proper consult with the therapist and doctor should always precede the first session.</p>\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://lymphedasia.com/wp-content/uploads/2024/12/Manual-Lymphatic-Drainage.jpg\" title=\"\" alt=\"Manual Lymphatic Drainage\" loading=\"lazy\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<h2>Compression</h2>\t\t\t\t\n\t\t<p dir=\"auto\">Compression therapy is a cornerstone in the management of lymphedema, offering a practical and effective way to control swelling and promote the healthy flow of lymph fluid. This therapy primarily utilizes two tools: garments and wrapping.</p><p dir=\"auto\"><a href=\"https://lymphedasia.com/lymphedema-compression-garments/\">Compression garments</a> are specially designed pieces of clothing such as sleeves, stockings, and gloves that apply consistent pressure to the affected limbs. These garments are crafted to exert a graduated pressure, which is tighter at the extremities and decreases gradually towards the body, facilitating the upward flow of lymph fluid back towards the heart. They may be bought off the shelf or custom-made</p><p dir=\"auto\">On the other hand, compression wrapping involves the use of bandages to create a supportive wrap around the affected area. This technique allows for a more customised approach to managing lymphedema, as the pressure and focus areas can be adjusted according to individual needs. It's a method often used in the initial treatment phases, helping reduce swelling and maintain skin health.</p>\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://lymphedasia.com/wp-content/uploads/2024/12/Compression-therapy.jpg\" title=\"\" alt=\"Compression therapy\" loading=\"lazy\" />\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t<h2>Synergy with Surgery\n</h2>\t\t\t\t\n\t\t<ul dir=\"auto\"><li><p dir=\"auto\"><strong>Enhanced Surgical Effect</strong>: The combination of MLD and compression therapy can enhance the effectiveness of lymphatic surgeries like lymphovenous bypass or lymph node transfer by creating a supportive environment that encourages the success of the surgical interventions.</p></li><li><p dir=\"auto\"><strong>Holistic Approach</strong>: This trio forms a holistic approach to lymphedema management, where surgery addresses structural issues, and MLD and compression therapy assist in functional recovery and long-term maintenance.</p></li></ul>",
+      "rendered": "\t\t<div data-elementor-type=\"wp-page\" data-elementor-id=\"721\" class=\"elementor elementor-721\">\n\t\t\t\t<div class=\"elementor-element elementor-element-1eb6734 e-flex e-con-boxed e-con e-parent\" data-id=\"1eb6734\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-111ca7a e-con-full e-flex e-con e-child\" data-id=\"111ca7a\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-ec56c9c elementor-widget elementor-widget-heading\" data-id=\"ec56c9c\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h1 class=\"elementor-heading-title elementor-size-default\">Manual Lymphatic Drainage and Compression\n</h1>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-6f710b2 elementor-widget elementor-widget-text-editor\" data-id=\"6f710b2\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<section id=\"z-UdK4\" class=\"block block--desktop-first-visible block--mobile-first-visible\" data-v-43d5e18a=\"\"><div class=\"block-layout block-layout--layout\" data-v-43d5e18a=\"\"><div class=\"layout-element layout-element--layout layout-element transition transition--scale\" data-v-f5dd3112=\"\" data-animation-state=\"active\"><div id=\"zzdP5e\" class=\"text-box layout-element__component layout-element__component--GridTextBox\" data-v-f5dd3112=\"\" data-qa=\"gridtextbox:zzdp5e\"><p class=\"body\" dir=\"auto\">Imagine your body is a bustling city, and the lymphatic system is its sophisticated waste management facility, tirelessly working to keep things clean and orderly. Now, sometimes this system needs a bit of a helping hand, and that&#8217;s where Complete Decongestive Therapy (CDT) steps in, like a team of super-specialized sanitation engineers!</p></div></div></div></section><section id=\"zIcpYj\" class=\"block\" data-v-43d5e18a=\"\"></section>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-bf74d86 e-con-boxed e-flex e-con e-parent\" data-id=\"bf74d86\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t\t\t<div class=\"elementor-element elementor-element-f11b1b2 elementor-widget elementor-widget-html\" data-id=\"f11b1b2\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"html.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<div class=\"lymphedasia-medical-review-box\" style=\"border:1px solid #d9e2ec;border-radius:8px;background:#f8fbfb;margin:24px auto 32px;padding:16px;max-width:1080px;\"><p><strong>Clinically reviewed by Dr Jeremy Sun Mingfa.</strong> Dr Sun is a Senior Consultant Plastic and Reconstructive Surgeon in Singapore with dedicated fellowship-level training in lymphatic surgery, lymphovenous bypass (LVA), ICG lymphography and supermicrosurgical lymphatic reconstruction. This page is intended for general education and does not replace personalised medical assessment.</p></div>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-76cb930 e-flex e-con-boxed e-con e-parent\" data-id=\"76cb930\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-4db2a99 e-con-full e-flex e-con e-child\" data-id=\"4db2a99\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-af925b2 elementor-widget elementor-widget-heading\" data-id=\"af925b2\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Manual Lymphatic Drainage</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-b0bfaaa elementor-widget elementor-widget-text-editor\" data-id=\"b0bfaaa\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<div class=\"layout-element layout-element--layout layout-element transition transition--scale\" data-v-f5dd3112=\"\" data-animation-state=\"active\"><div id=\"zrJEPA\" class=\"text-box layout-element__component layout-element__component--GridTextBox\" data-v-f5dd3112=\"\" data-qa=\"gridtextbox:zrjepa\"><p class=\"body\" dir=\"auto\">MLD is a gentle, rhythmic massage technique that guides the trapped lymph fluid to alternate routes and detours, ensuring a smooth flow. It&#8217;s like having a skilled traffic officer gently directing the &#8220;vehicles&#8221; (lymph fluids) with expert hand movements, encouraging them to move in the right direction, avoiding the &#8220;traffic jams&#8221; and promoting a free-flowing &#8220;highway.&#8221;</p></div></div><div class=\"layout-element layout-element--layout layout-element transition transition--scale\" data-v-f5dd3112=\"\" data-animation-state=\"active\"><div id=\"zMzmn-\" class=\"text-box layout-element__component layout-element__component--GridTextBox\" data-v-f5dd3112=\"\" data-qa=\"gridtextbox:zmzmn-\"><p class=\"body\" dir=\"auto\">If the main pathway to the armpit (axilla) is obstructed (for eg. because of lymph node clearance during breast cancer removal), then the therapist can work the excess fluid towards alternative pathways like the Mascagni-Sappey pathway that drains into the neck region (red arrows). This effectively bypasses the blockage in the axilla (red X) and helps drain the limb.</p><p class=\"body\" dir=\"auto\">Sometimes, specially designed machines can be used to administer MLD treatment. This is especially useful when the patient requires frequent sessions to decongest the limb quickly. However, a proper consult with the therapist and doctor should always precede the first session.</p></div></div>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-f05f13d e-con-full e-flex e-con e-child\" data-id=\"f05f13d\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-b72aaf4 elementor-widget elementor-widget-image\" data-id=\"b72aaf4\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img decoding=\"async\" src=\"https://lymphedasia.com/wp-content/uploads/2024/12/Manual-Lymphatic-Drainage.jpg\" title=\"\" alt=\"Manual Lymphatic Drainage\" loading=\"lazy\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-83db150 e-flex e-con-boxed e-con e-parent\" data-id=\"83db150\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-7c70ac7 e-con-full e-flex e-con e-child\" data-id=\"7c70ac7\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-3342199 elementor-widget elementor-widget-heading\" data-id=\"3342199\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Compression</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-6bc6c44 elementor-widget elementor-widget-text-editor\" data-id=\"6bc6c44\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<div class=\"layout-element layout-element--layout layout-element transition transition--scale\" data-v-f5dd3112=\"\" data-animation-state=\"active\"><div id=\"zrJEPA\" class=\"text-box layout-element__component layout-element__component--GridTextBox\" data-v-f5dd3112=\"\" data-qa=\"gridtextbox:zrjepa\"><p class=\"body\" dir=\"auto\">Compression therapy is a cornerstone in the management of lymphedema, offering a practical and effective way to control swelling and promote the healthy flow of lymph fluid. This therapy primarily utilizes two tools: garments and wrapping.</p><p dir=\"auto\"><a href=\"https://lymphedasia.com/lymphedema-compression-garments/\">Compression garments</a> are specially designed pieces of clothing such as sleeves, stockings, and gloves that apply consistent pressure to the affected limbs. These garments are crafted to exert a graduated pressure, which is tighter at the extremities and decreases gradually towards the body, facilitating the upward flow of lymph fluid back towards the heart. They may be bought off the shelf or custom-made</p><p class=\"body\" dir=\"auto\">On the other hand, compression wrapping involves the use of bandages to create a supportive wrap around the affected area. This technique allows for a more customised approach to managing lymphedema, as the pressure and focus areas can be adjusted according to individual needs. It&#8217;s a method often used in the initial treatment phases, helping reduce swelling and maintain skin health.</p></div></div>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-461fc23 e-con-full e-flex e-con e-child\" data-id=\"461fc23\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-0923c70 elementor-widget elementor-widget-image\" data-id=\"0923c70\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"image.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<img decoding=\"async\" src=\"https://lymphedasia.com/wp-content/uploads/2024/12/Compression-therapy.jpg\" title=\"\" alt=\"Compression therapy\" loading=\"lazy\">\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t<div class=\"elementor-element elementor-element-6c07aaf e-flex e-con-boxed e-con e-parent\" data-id=\"6c07aaf\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t\t<div class=\"e-con-inner\">\n\t\t<div class=\"elementor-element elementor-element-c64be2d e-con-full e-flex e-con e-child\" data-id=\"c64be2d\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-c5e210d elementor-widget elementor-widget-heading\" data-id=\"c5e210d\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t<h2 class=\"elementor-heading-title elementor-size-default\">Synergy with Surgery\n</h2>\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"elementor-element elementor-element-49789a9 elementor-widget elementor-widget-text-editor\" data-id=\"49789a9\" data-element_type=\"widget\" data-e-type=\"widget\" data-widget_type=\"text-editor.default\">\n\t\t\t\t<div class=\"elementor-widget-container\">\n\t\t\t\t\t\t\t\t\t<ul dir=\"auto\"><li><p class=\"body\" dir=\"auto\"><strong>Enhanced Surgical Effect</strong>: The combination of MLD and compression therapy can enhance the effectiveness of lymphatic surgeries like lymphovenous bypass or lymph node transfer by creating a supportive environment that encourages the success of the surgical interventions.</p></li><li><p class=\"body\" dir=\"auto\"><strong>Holistic Approach</strong>: This trio forms a holistic approach to lymphedema management, where surgery addresses structural issues, and MLD and compression therapy assist in functional recovery and long-term maintenance.</p></li></ul>\t\t\t\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t",
+      "protected": false,
+      "block_version": 0
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>Manual Lymphatic Drainage and Compression Imagine your body is a bustling city, and the lymphatic system is its sophisticated waste [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 5,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "elementor_header_footer",
+    "meta": {
+      "_uag_custom_page_level_css": "",
+      "site-sidebar-layout": "no-sidebar",
+      "site-content-layout": "",
+      "ast-site-content-layout": "full-width-container",
+      "site-content-style": "default",
+      "site-sidebar-style": "default",
+      "ast-global-header-display": "",
+      "ast-banner-title-visibility": "",
+      "ast-main-header-display": "",
+      "ast-hfb-above-header-display": "",
+      "ast-hfb-below-header-display": "",
+      "ast-hfb-mobile-header-display": "",
+      "site-post-title": "disabled",
+      "ast-breadcrumbs-content": "",
+      "ast-featured-img": "disabled",
+      "footer-sml-layout": "",
+      "ast-disable-related-posts": "",
+      "theme-transparent-header-meta": "",
+      "adv-header-id-meta": "",
+      "stick-header-meta": "",
+      "header-above-stick-meta": "",
+      "header-main-stick-meta": "",
+      "header-below-stick-meta": "",
+      "astra-migrate-meta-layouts": "default",
+      "ast-page-background-enabled": "default",
+      "ast-page-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "ast-content-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "footnotes": "",
+      "_elementor_edit_mode": "builder",
+      "_elementor_template_type": "wp-page",
+      "_elementor_data": "[{\"id\":\"1eb6734\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"row\",\"flex_gap\":{\"unit\":\"px\",\"size\":0,\"column\":\"0\",\"row\":\"0\"},\"min_height\":{\"unit\":\"px\",\"size\":500,\"sizes\":[]},\"background_background\":\"classic\",\"background_image\":{\"url\":\"https:\\/\\/lymphedasia.com\\/wp-content\\/uploads\\/2024\\/12\\/Manual-Lymphatic-Drainage-and-Compression.jpg\",\"id\":2159,\"size\":\"\",\"alt\":\"Manual Lymphatic Drainage and Compression\",\"source\":\"library\"},\"background_overlay_background\":\"classic\",\"background_overlay_opacity\":{\"unit\":\"px\",\"size\":0.76,\"sizes\":[]},\"__globals__\":{\"background_overlay_color\":\"globals\\/colors?id=astglobalcolor8\"},\"background_position\":\"center center\",\"background_repeat\":\"no-repeat\",\"background_size\":\"cover\"},\"elements\":[{\"id\":\"111ca7a\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"column\",\"content_width\":\"full\",\"width\":{\"unit\":\"%\",\"size\":80},\"flex_justify_content\":\"center\"},\"elements\":[{\"id\":\"ec56c9c\",\"elType\":\"widget\",\"settings\":{\"title\":\"Manual Lymphatic Drainage and Compression\\n\",\"header_size\":\"h1\",\"__globals__\":{\"title_color\":\"globals\\/colors?id=astglobalcolor4\"}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"6f710b2\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<section id=\\\"z-UdK4\\\" class=\\\"block block--desktop-first-visible block--mobile-first-visible\\\" data-v-43d5e18a=\\\"\\\"><div class=\\\"block-layout block-layout--layout\\\" data-v-43d5e18a=\\\"\\\"><div class=\\\"layout-element layout-element--layout layout-element transition transition--scale\\\" data-v-f5dd3112=\\\"\\\" data-animation-state=\\\"active\\\"><div id=\\\"zzdP5e\\\" class=\\\"text-box layout-element__component layout-element__component--GridTextBox\\\" data-v-f5dd3112=\\\"\\\" data-qa=\\\"gridtextbox:zzdp5e\\\"><p class=\\\"body\\\" dir=\\\"auto\\\">Imagine your body is a bustling city, and the lymphatic system is its sophisticated waste management facility, tirelessly working to keep things clean and orderly. Now, sometimes this system needs a bit of a helping hand, and that's where Complete Decongestive Therapy (CDT) steps in, like a team of super-specialized sanitation engineers!<\\/p><\\/div><\\/div><\\/div><\\/section><section id=\\\"zIcpYj\\\" class=\\\"block\\\" data-v-43d5e18a=\\\"\\\"><\\/section>\",\"__globals__\":{\"text_color\":\"globals\\/colors?id=astglobalcolor4\"},\"typography_typography\":\"custom\",\"typography_font_family\":\"Roboto\",\"typography_font_size\":{\"unit\":\"px\",\"size\":18,\"sizes\":[]},\"typography_font_weight\":\"400\"},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":true}],\"isInner\":false},{\"id\":\"bf74d86\",\"elType\":\"container\",\"settings\":{\"content_width\":\"boxed\",\"margin\":{\"unit\":\"px\",\"top\":\"20\",\"right\":\"0\",\"bottom\":\"10\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"f11b1b2\",\"elType\":\"widget\",\"settings\":{\"html\":\"<div class=\\\"lymphedasia-medical-review-box\\\" style=\\\"border:1px solid #d9e2ec;border-radius:8px;background:#f8fbfb;margin:24px auto 32px;padding:16px;max-width:1080px;\\\"><p><strong>Clinically reviewed by Dr Jeremy Sun Mingfa.<\\/strong> Dr Sun is a Senior Consultant Plastic and Reconstructive Surgeon in Singapore with dedicated fellowship-level training in lymphatic surgery, lymphovenous bypass (LVA), ICG lymphography and supermicrosurgical lymphatic reconstruction. This page is intended for general education and does not replace personalised medical assessment.<\\/p><\\/div>\"},\"elements\":[],\"widgetType\":\"html\"}],\"isInner\":false},{\"id\":\"76cb930\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"row\",\"flex_gap\":{\"unit\":\"px\",\"size\":0,\"column\":\"0\",\"row\":\"0\"},\"margin\":{\"unit\":\"px\",\"top\":\"80\",\"right\":\"0\",\"bottom\":\"50\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"4db2a99\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"column\",\"content_width\":\"full\",\"width\":{\"unit\":\"%\",\"size\":\"50\"},\"flex_justify_content\":\"center\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"20\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"af925b2\",\"elType\":\"widget\",\"settings\":{\"title\":\"Manual Lymphatic Drainage\",\"__globals__\":{\"title_color\":\"globals\\/colors?id=astglobalcolor2\"}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"b0bfaaa\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<div class=\\\"layout-element layout-element--layout layout-element transition transition--scale\\\" data-v-f5dd3112=\\\"\\\" data-animation-state=\\\"active\\\"><div id=\\\"zrJEPA\\\" class=\\\"text-box layout-element__component layout-element__component--GridTextBox\\\" data-v-f5dd3112=\\\"\\\" data-qa=\\\"gridtextbox:zrjepa\\\"><p class=\\\"body\\\" dir=\\\"auto\\\">MLD is a gentle, rhythmic massage technique that guides the trapped lymph fluid to alternate routes and detours, ensuring a smooth flow. It's like having a skilled traffic officer gently directing the \\\"vehicles\\\" (lymph fluids) with expert hand movements, encouraging them to move in the right direction, avoiding the \\\"traffic jams\\\" and promoting a free-flowing \\\"highway.\\\"<\\/p><\\/div><\\/div><div class=\\\"layout-element layout-element--layout layout-element transition transition--scale\\\" data-v-f5dd3112=\\\"\\\" data-animation-state=\\\"active\\\"><div id=\\\"zMzmn-\\\" class=\\\"text-box layout-element__component layout-element__component--GridTextBox\\\" data-v-f5dd3112=\\\"\\\" data-qa=\\\"gridtextbox:zmzmn-\\\"><p class=\\\"body\\\" dir=\\\"auto\\\">If the main pathway to the armpit (axilla) is obstructed (for eg. because of lymph node clearance during breast cancer removal), then the therapist can work the excess fluid towards alternative pathways like the Mascagni-Sappey pathway that drains into the neck region (red arrows). This effectively bypasses the blockage in the axilla (red X) and helps drain the limb.<\\/p><p class=\\\"body\\\" dir=\\\"auto\\\">Sometimes, specially designed machines can be used to administer MLD treatment. This is especially useful when the patient requires frequent sessions to decongest the limb quickly. However, a proper consult with the therapist and doctor should always precede the first session.<\\/p><\\/div><\\/div>\",\"__globals__\":{\"text_color\":\"globals\\/colors?id=secondary\"}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":true},{\"id\":\"f05f13d\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"column\",\"content_width\":\"full\",\"width\":{\"unit\":\"%\",\"size\":\"50\"},\"flex_justify_content\":\"center\",\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"b72aaf4\",\"elType\":\"widget\",\"settings\":{\"image\":{\"url\":\"https:\\/\\/lymphedasia.com\\/wp-content\\/uploads\\/2024\\/12\\/Manual-Lymphatic-Drainage.jpg\",\"id\":2161,\"alt\":\"Manual Lymphatic Drainage\",\"source\":\"library\",\"size\":\"\"}},\"elements\":[],\"widgetType\":\"image\"}],\"isInner\":true}],\"isInner\":false},{\"id\":\"83db150\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"row\",\"flex_gap\":{\"unit\":\"px\",\"size\":0,\"column\":\"0\",\"row\":\"0\"},\"margin\":{\"unit\":\"px\",\"top\":\"80\",\"right\":\"0\",\"bottom\":\"50\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"7c70ac7\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"column\",\"content_width\":\"full\",\"width\":{\"unit\":\"%\",\"size\":\"50\"},\"flex_justify_content\":\"center\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"20\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"3342199\",\"elType\":\"widget\",\"settings\":{\"title\":\"Compression\",\"__globals__\":{\"title_color\":\"globals\\/colors?id=astglobalcolor2\"}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"6bc6c44\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<div class=\\\"layout-element layout-element--layout layout-element transition transition--scale\\\" data-v-f5dd3112=\\\"\\\" data-animation-state=\\\"active\\\"><div id=\\\"zrJEPA\\\" class=\\\"text-box layout-element__component layout-element__component--GridTextBox\\\" data-v-f5dd3112=\\\"\\\" data-qa=\\\"gridtextbox:zrjepa\\\"><p class=\\\"body\\\" dir=\\\"auto\\\">Compression therapy is a cornerstone in the management of lymphedema, offering a practical and effective way to control swelling and promote the healthy flow of lymph fluid. This therapy primarily utilizes two tools: garments and wrapping.<\\/p><p dir=\\\"auto\\\"><a href=\\\"https:\\/\\/lymphedasia.com\\/lymphedema-compression-garments\\/\\\">Compression garments<\\/a>\\u00a0are specially designed pieces of clothing such as sleeves, stockings, and gloves that apply consistent pressure to the affected limbs. These garments are crafted to exert a graduated pressure, which is tighter at the extremities and decreases gradually towards the body, facilitating the upward flow of lymph fluid back towards the heart. They may be bought off the shelf or custom-made<\\/p><p class=\\\"body\\\" dir=\\\"auto\\\">On the other hand, compression wrapping involves the use of bandages to create a supportive wrap around the affected area. This technique allows for a more customised approach to managing lymphedema, as the pressure and focus areas can be adjusted according to individual needs. It's a method often used in the initial treatment phases, helping reduce swelling and maintain skin health.<\\/p><\\/div><\\/div>\",\"__globals__\":{\"text_color\":\"globals\\/colors?id=secondary\"}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":true},{\"id\":\"461fc23\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"column\",\"content_width\":\"full\",\"width\":{\"unit\":\"%\",\"size\":\"50\"},\"flex_justify_content\":\"center\",\"margin\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"0923c70\",\"elType\":\"widget\",\"settings\":{\"image\":{\"url\":\"https:\\/\\/lymphedasia.com\\/wp-content\\/uploads\\/2024\\/12\\/Compression-therapy.jpg\",\"id\":2162,\"alt\":\"Compression therapy\",\"source\":\"library\",\"size\":\"\"}},\"elements\":[],\"widgetType\":\"image\"}],\"isInner\":true}],\"isInner\":false},{\"id\":\"6c07aaf\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"row\",\"flex_gap\":{\"unit\":\"px\",\"size\":0,\"column\":\"0\",\"row\":\"0\"},\"margin\":{\"unit\":\"px\",\"top\":\"80\",\"right\":\"0\",\"bottom\":\"50\",\"left\":\"0\",\"isLinked\":false},\"boxed_width\":{\"unit\":\"px\",\"size\":900,\"sizes\":[]}},\"elements\":[{\"id\":\"c64be2d\",\"elType\":\"container\",\"settings\":{\"flex_direction\":\"column\",\"content_width\":\"full\",\"width\":{\"unit\":\"%\",\"size\":100},\"flex_justify_content\":\"center\",\"padding\":{\"unit\":\"px\",\"top\":\"0\",\"right\":\"20\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[{\"id\":\"c5e210d\",\"elType\":\"widget\",\"settings\":{\"title\":\"Synergy with Surgery\\n\",\"__globals__\":{\"title_color\":\"globals\\/colors?id=astglobalcolor2\"},\"align\":\"center\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"49789a9\",\"elType\":\"widget\",\"settings\":{\"editor\":\"<ul dir=\\\"auto\\\"><li><p class=\\\"body\\\" dir=\\\"auto\\\"><strong>Enhanced Surgical Effect<\\/strong>: The combination of MLD and compression therapy can enhance the effectiveness of lymphatic surgeries like lymphovenous bypass or lymph node transfer by creating a supportive environment that encourages the success of the surgical interventions.<\\/p><\\/li><li><p class=\\\"body\\\" dir=\\\"auto\\\"><strong>Holistic Approach<\\/strong>: This trio forms a holistic approach to lymphedema management, where surgery addresses structural issues, and MLD and compression therapy assist in functional recovery and long-term maintenance.<\\/p><\\/li><\\/ul>\",\"__globals__\":{\"text_color\":\"globals\\/colors?id=secondary\"},\"_margin\":{\"unit\":\"px\",\"top\":\"15\",\"right\":\"0\",\"bottom\":\"0\",\"left\":\"0\",\"isLinked\":false}},\"elements\":[],\"widgetType\":\"text-editor\"}],\"isInner\":true}],\"isInner\":false}]",
+      "_elementor_page_settings": null,
+      "_elementor_conditions": []
+    }
+  },
+  "planned_changes": [
+    {
+      "widget": "6bc6c44",
+      "key": "editor",
+      "from": "id=\"zrJEPA\"",
+      "to": "id=\"zrJEPA-6bc6c44\""
+    }
+  ],
+  "planned_elementor_data": [
+    {
+      "id": "1eb6734",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "row",
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        },
+        "min_height": {
+          "unit": "px",
+          "size": 500,
+          "sizes": []
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://lymphedasia.com/wp-content/uploads/2024/12/Manual-Lymphatic-Drainage-and-Compression.jpg",
+          "id": 2159,
+          "size": "",
+          "alt": "Manual Lymphatic Drainage and Compression",
+          "source": "library"
+        },
+        "background_overlay_background": "classic",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.76,
+          "sizes": []
+        },
+        "__globals__": {
+          "background_overlay_color": "globals/colors?id=astglobalcolor8"
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover"
+      },
+      "elements": [
+        {
+          "id": "111ca7a",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 80
+            },
+            "flex_justify_content": "center"
+          },
+          "elements": [
+            {
+              "id": "ec56c9c",
+              "elType": "widget",
+              "settings": {
+                "title": "Manual Lymphatic Drainage and Compression\n",
+                "header_size": "h1",
+                "__globals__": {
+                  "title_color": "globals/colors?id=astglobalcolor4"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "6f710b2",
+              "elType": "widget",
+              "settings": {
+                "editor": "<section id=\"z-UdK4\" class=\"block block--desktop-first-visible block--mobile-first-visible\" data-v-43d5e18a=\"\"><div class=\"block-layout block-layout--layout\" data-v-43d5e18a=\"\"><div class=\"layout-element layout-element--layout layout-element transition transition--scale\" data-v-f5dd3112=\"\" data-animation-state=\"active\"><div id=\"zzdP5e\" class=\"text-box layout-element__component layout-element__component--GridTextBox\" data-v-f5dd3112=\"\" data-qa=\"gridtextbox:zzdp5e\"><p class=\"body\" dir=\"auto\">Imagine your body is a bustling city, and the lymphatic system is its sophisticated waste management facility, tirelessly working to keep things clean and orderly. Now, sometimes this system needs a bit of a helping hand, and that's where Complete Decongestive Therapy (CDT) steps in, like a team of super-specialized sanitation engineers!</p></div></div></div></section><section id=\"zIcpYj\" class=\"block\" data-v-43d5e18a=\"\"></section>",
+                "__globals__": {
+                  "text_color": "globals/colors?id=astglobalcolor4"
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Roboto",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 18,
+                  "sizes": []
+                },
+                "typography_font_weight": "400"
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "bf74d86",
+      "elType": "container",
+      "settings": {
+        "content_width": "boxed",
+        "margin": {
+          "unit": "px",
+          "top": "20",
+          "right": "0",
+          "bottom": "10",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "f11b1b2",
+          "elType": "widget",
+          "settings": {
+            "html": "<div class=\"lymphedasia-medical-review-box\" style=\"border:1px solid #d9e2ec;border-radius:8px;background:#f8fbfb;margin:24px auto 32px;padding:16px;max-width:1080px;\"><p><strong>Clinically reviewed by Dr Jeremy Sun Mingfa.</strong> Dr Sun is a Senior Consultant Plastic and Reconstructive Surgeon in Singapore with dedicated fellowship-level training in lymphatic surgery, lymphovenous bypass (LVA), ICG lymphography and supermicrosurgical lymphatic reconstruction. This page is intended for general education and does not replace personalised medical assessment.</p></div>"
+          },
+          "elements": [],
+          "widgetType": "html"
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "76cb930",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "row",
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        },
+        "margin": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "50",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "4db2a99",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": "50"
+            },
+            "flex_justify_content": "center",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "20",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "af925b2",
+              "elType": "widget",
+              "settings": {
+                "title": "Manual Lymphatic Drainage",
+                "__globals__": {
+                  "title_color": "globals/colors?id=astglobalcolor2"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "b0bfaaa",
+              "elType": "widget",
+              "settings": {
+                "editor": "<div class=\"layout-element layout-element--layout layout-element transition transition--scale\" data-v-f5dd3112=\"\" data-animation-state=\"active\"><div id=\"zrJEPA\" class=\"text-box layout-element__component layout-element__component--GridTextBox\" data-v-f5dd3112=\"\" data-qa=\"gridtextbox:zrjepa\"><p class=\"body\" dir=\"auto\">MLD is a gentle, rhythmic massage technique that guides the trapped lymph fluid to alternate routes and detours, ensuring a smooth flow. It's like having a skilled traffic officer gently directing the \"vehicles\" (lymph fluids) with expert hand movements, encouraging them to move in the right direction, avoiding the \"traffic jams\" and promoting a free-flowing \"highway.\"</p></div></div><div class=\"layout-element layout-element--layout layout-element transition transition--scale\" data-v-f5dd3112=\"\" data-animation-state=\"active\"><div id=\"zMzmn-\" class=\"text-box layout-element__component layout-element__component--GridTextBox\" data-v-f5dd3112=\"\" data-qa=\"gridtextbox:zmzmn-\"><p class=\"body\" dir=\"auto\">If the main pathway to the armpit (axilla) is obstructed (for eg. because of lymph node clearance during breast cancer removal), then the therapist can work the excess fluid towards alternative pathways like the Mascagni-Sappey pathway that drains into the neck region (red arrows). This effectively bypasses the blockage in the axilla (red X) and helps drain the limb.</p><p class=\"body\" dir=\"auto\">Sometimes, specially designed machines can be used to administer MLD treatment. This is especially useful when the patient requires frequent sessions to decongest the limb quickly. However, a proper consult with the therapist and doctor should always precede the first session.</p></div></div>",
+                "__globals__": {
+                  "text_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "f05f13d",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": "50"
+            },
+            "flex_justify_content": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "b72aaf4",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://lymphedasia.com/wp-content/uploads/2024/12/Manual-Lymphatic-Drainage.jpg",
+                  "id": 2161,
+                  "alt": "Manual Lymphatic Drainage",
+                  "source": "library",
+                  "size": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "image"
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "83db150",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "row",
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        },
+        "margin": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "50",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "7c70ac7",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": "50"
+            },
+            "flex_justify_content": "center",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "20",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "3342199",
+              "elType": "widget",
+              "settings": {
+                "title": "Compression",
+                "__globals__": {
+                  "title_color": "globals/colors?id=astglobalcolor2"
+                }
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "6bc6c44",
+              "elType": "widget",
+              "settings": {
+                "editor": "<div class=\"layout-element layout-element--layout layout-element transition transition--scale\" data-v-f5dd3112=\"\" data-animation-state=\"active\"><div id=\"zrJEPA-6bc6c44\" class=\"text-box layout-element__component layout-element__component--GridTextBox\" data-v-f5dd3112=\"\" data-qa=\"gridtextbox:zrjepa\"><p class=\"body\" dir=\"auto\">Compression therapy is a cornerstone in the management of lymphedema, offering a practical and effective way to control swelling and promote the healthy flow of lymph fluid. This therapy primarily utilizes two tools: garments and wrapping.</p><p dir=\"auto\"><a href=\"https://lymphedasia.com/lymphedema-compression-garments/\">Compression garments</a> are specially designed pieces of clothing such as sleeves, stockings, and gloves that apply consistent pressure to the affected limbs. These garments are crafted to exert a graduated pressure, which is tighter at the extremities and decreases gradually towards the body, facilitating the upward flow of lymph fluid back towards the heart. They may be bought off the shelf or custom-made</p><p class=\"body\" dir=\"auto\">On the other hand, compression wrapping involves the use of bandages to create a supportive wrap around the affected area. This technique allows for a more customised approach to managing lymphedema, as the pressure and focus areas can be adjusted according to individual needs. It's a method often used in the initial treatment phases, helping reduce swelling and maintain skin health.</p></div></div>",
+                "__globals__": {
+                  "text_color": "globals/colors?id=secondary"
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": true
+        },
+        {
+          "id": "461fc23",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": "50"
+            },
+            "flex_justify_content": "center",
+            "margin": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "0923c70",
+              "elType": "widget",
+              "settings": {
+                "image": {
+                  "url": "https://lymphedasia.com/wp-content/uploads/2024/12/Compression-therapy.jpg",
+                  "id": 2162,
+                  "alt": "Compression therapy",
+                  "source": "library",
+                  "size": ""
+                }
+              },
+              "elements": [],
+              "widgetType": "image"
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    },
+    {
+      "id": "6c07aaf",
+      "elType": "container",
+      "settings": {
+        "flex_direction": "row",
+        "flex_gap": {
+          "unit": "px",
+          "size": 0,
+          "column": "0",
+          "row": "0"
+        },
+        "margin": {
+          "unit": "px",
+          "top": "80",
+          "right": "0",
+          "bottom": "50",
+          "left": "0",
+          "isLinked": false
+        },
+        "boxed_width": {
+          "unit": "px",
+          "size": 900,
+          "sizes": []
+        }
+      },
+      "elements": [
+        {
+          "id": "c64be2d",
+          "elType": "container",
+          "settings": {
+            "flex_direction": "column",
+            "content_width": "full",
+            "width": {
+              "unit": "%",
+              "size": 100
+            },
+            "flex_justify_content": "center",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "20",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "c5e210d",
+              "elType": "widget",
+              "settings": {
+                "title": "Synergy with Surgery\n",
+                "__globals__": {
+                  "title_color": "globals/colors?id=astglobalcolor2"
+                },
+                "align": "center"
+              },
+              "elements": [],
+              "widgetType": "heading"
+            },
+            {
+              "id": "49789a9",
+              "elType": "widget",
+              "settings": {
+                "editor": "<ul dir=\"auto\"><li><p class=\"body\" dir=\"auto\"><strong>Enhanced Surgical Effect</strong>: The combination of MLD and compression therapy can enhance the effectiveness of lymphatic surgeries like lymphovenous bypass or lymph node transfer by creating a supportive environment that encourages the success of the surgical interventions.</p></li><li><p class=\"body\" dir=\"auto\"><strong>Holistic Approach</strong>: This trio forms a holistic approach to lymphedema management, where surgery addresses structural issues, and MLD and compression therapy assist in functional recovery and long-term maintenance.</p></li></ul>",
+                "__globals__": {
+                  "text_color": "globals/colors?id=secondary"
+                },
+                "_margin": {
+                  "unit": "px",
+                  "top": "15",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": [],
+              "widgetType": "text-editor"
+            }
+          ],
+          "isInner": true
+        }
+      ],
+      "isInner": false
+    }
+  ],
+  "checks": {
+    "reverse_exact_parsed_tree": true,
+    "original_first_id_kept": true,
+    "no_text_link_node_order_change": true
+  },
+  "rollback": "On fresh current tree, require each exact suffixed id once in original owning text-editor; reverse only planned id substitutions through Elementor save-page. Never replay whole stale page. Readback and ordinary live verification required."
+}
