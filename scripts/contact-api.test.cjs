@@ -174,7 +174,10 @@ test('patient languages, overseas contacts and ordinary medical/referral links r
     'Please review this referral https://www.sgh.com.sg/patient-care/',
     'Can I discuss imaging? https://medical.ru/clinical-study/',
     'I am recovering from lymph node surgery and my skin is dry.',
-    'Reference https://nanmed.ru.example.org/medical-report/'
+    'Reference https://nanmed.ru.example.org/medical-report/',
+    'Can I choose one of these? https://clinic.invalid.test/appointments/available-slots/',
+    'Professional history https://medical.invalid.test/aviator-medical/',
+    'Research reference https://journal.invalid.test/cashman-review/'
   ];
   for (const message of messages) {
     const api = handler({ fetch: async () => ({ ok: true }) });

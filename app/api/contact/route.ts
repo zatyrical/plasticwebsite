@@ -12,7 +12,7 @@ const MAX_ABUSE_ENTRIES = 4096;
 // Keep only short-lived digests, never enquiry text or contact details in this cache or logs.
 const abuseEntries = new Map<string, { count: number; expires: number }>();
 const REPORTED_SPAM_HOSTS = new Set(['volgograd.ru', 'nanmed.ru', 'nashipesni.ru']);
-const GAMBLING_LINK = /(?:^|[\W_])(?:casinos?|slots?|sportsbook|pokies|1xbet|cashman|aviator|promokod(?:y)?)(?:$|[\W_])/i;
+const GAMBLING_LINK = /(?:^|[\W_])(?:casinos?|sportsbook|pokies|1xbet|promokod(?:y)?|slot[-_]?machines?|online[-_]?slots|slots[-_]?games)(?:$|[\W_])/i;
 // Bound the provider wait; an aborted request can still have been accepted upstream.
 const EMAIL_PROVIDER_TIMEOUT_MS = 15000;
 const UNCONFIRMED_ENQUIRY = 'We could not confirm that your enquiry was sent. Please contact the clinic before submitting again.';
