@@ -1,0 +1,46 @@
+{
+  "base_commit": "e33b69cb1139560a6e53999c3c5d39ccdbfcd0a5",
+  "source_path": "app/procedureArticles.ts",
+  "article_slug": "breast-augmentation-singapore",
+  "before_intro": [
+    "Breast augmentation is surgery to increase or restore breast volume and refine breast shape. In Singapore, patients may consider breast augmentation for naturally small breast volume, postpartum volume loss, asymmetry, body proportion concerns or reconstruction-related goals.",
+    "The safest plan is not simply choosing a cup size. Breast augmentation planning should consider breast base width, soft-tissue thickness, chest wall shape, nipple position, skin quality, implant dimensions, incision, implant plane, recovery needs and long-term follow-up.",
+    "Patients searching for breast implant surgery in Singapore often compare implant placement, implant shape, projection, profile and brands such as Motiva. These choices should be narrowed by measurements and safety considerations rather than marketing labels alone.",
+    "This page explains the main decisions patients should understand before breast augmentation, including implant selection, Motiva implant discussions, selected fat grafting alternatives, 24-hour rapid recovery principles and reasons breast screening or additional medical assessment may be needed before elective surgery."
+  ],
+  "after_intro": [
+    "Breast augmentation is surgery to increase or restore breast volume and refine breast shape. In Singapore, patients may consider breast augmentation for naturally small breast volume, postpartum volume loss, asymmetry, body proportion concerns or reconstruction-related goals.",
+    "The safest plan is not simply choosing a cup size. Breast augmentation planning should consider breast base width, soft-tissue thickness, chest wall shape, nipple position, skin quality, implant dimensions, incision, implant plane, recovery needs and long-term follow-up."
+  ],
+  "removed_paragraphs": [
+    "Patients searching for breast implant surgery in Singapore often compare implant placement, implant shape, projection, profile and brands such as Motiva. These choices should be narrowed by measurements and safety considerations rather than marketing labels alone.",
+    "This page explains the main decisions patients should understand before breast augmentation, including implant selection, Motiva implant discussions, selected fat grafting alternatives, 24-hour rapid recovery principles and reasons breast screening or additional medical assessment may be needed before elective surgery."
+  ],
+  "clinical_coverage_preserved": {
+    "implant_choice_and_brand_limits": "implant-choices",
+    "measurement_based_planning": "consultation",
+    "fat_graft_and_lift": "fat-grafting-lift",
+    "rapid_recovery": "rapid-recovery",
+    "screening_and_assessment": "screening-safety"
+  },
+  "rollback": "After current-source guard, restore only two archived intro strings after retained first two; do not overwrite concurrent edits. Git revert of isolated merge is suitable only after checking later edits. No database mutation.",
+  "date_policy": "Leave all existing metadata, modification/schema/sitemap and clinical-review dates unchanged; small copy shortening is not a new clinical review or freshness signal.",
+  "live_before": {
+    "url": "https://www.drjeremysun.com/breast-augmentation-singapore",
+    "status": 200,
+    "canonical": [
+      "https://www.drjeremysun.com/breast-augmentation-singapore"
+    ],
+    "h1": [
+      "Breast Augmentation Singapore"
+    ],
+    "robots": [],
+    "intro": [
+      "Breast augmentation is surgery to increase or restore breast volume and refine breast shape. In Singapore, patients may consider breast augmentation for naturally small breast volume, postpartum volume loss, asymmetry, body proportion concerns or reconstruction-related goals.",
+      "The safest plan is not simply choosing a cup size. Breast augmentation planning should consider breast base width, soft-tissue thickness, chest wall shape, nipple position, skin quality, implant dimensions, incision, implant plane, recovery needs and long-term follow-up.",
+      "Patients searching for breast implant surgery in Singapore often compare implant placement, implant shape, projection, profile and brands such as Motiva. These choices should be narrowed by measurements and safety considerations rather than marketing labels alone.",
+      "This page explains the main decisions patients should understand before breast augmentation, including implant selection, Motiva implant discussions, selected fat grafting alternatives, 24-hour rapid recovery principles and reasons breast screening or additional medical assessment may be needed before elective surgery."
+    ],
+    "paragraphs": 62
+  }
+}
