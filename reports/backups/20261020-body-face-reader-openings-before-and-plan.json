@@ -1,0 +1,34 @@
+{
+  "base_commit": "b15131570c415f5259922bff7626992280848ad2",
+  "source_path": "app/procedureArticles.ts",
+  "base_blob": "7ef2a47cf52ac9054d7689da7f60fcc507a29f3f",
+  "field": "sections[who-this-is-for].paragraphs[0]",
+  "changes": [
+    {
+      "slug": "body-contouring-liposuction-singapore",
+      "old": "Patients searching for liposuction in Singapore are often comparing fat-removal clinics, body sculpting devices, VASER liposuction claims, price ranges, recovery time and whether a plastic surgeon is needed. This page is intended for patients who want an assessment-led discussion rather than a package based only on the number of areas treated.",
+      "new": "This page is intended for patients who want an assessment-led discussion rather than a package based only on the number of areas treated.",
+      "live_before": {
+        "status": 200,
+        "canonical": [
+          "https://www.drjeremysun.com/body-contouring-liposuction-singapore"
+        ],
+        "old_present": true
+      }
+    },
+    {
+      "slug": "face-neck-lift-singapore",
+      "old": "Patients searching for facelift in Singapore are often comparing surgical face lift, neck lift, thread lift, fillers, lasers and device-based tightening. This page is intended for patients who want to understand whether the visible concern is skin laxity, deeper tissue descent, jowls, neck bands, volume loss or skin quality before choosing treatment.",
+      "new": "This page is intended for patients who want to understand whether the visible concern is skin laxity, deeper tissue descent, jowls, neck bands, volume loss or skin quality before choosing treatment.",
+      "live_before": {
+        "status": 200,
+        "canonical": [
+          "https://www.drjeremysun.com/face-neck-lift-singapore"
+        ],
+        "old_present": true
+      }
+    }
+  ],
+  "date_policy": "Keep modification/schema/sitemap and clinical-review dates unchanged; minor clarity edit is not a new clinical review.",
+  "rollback": "Fresh-current unique guard on each new paragraph, then replace ONLY it with archived old string; rebuild/test/guarded merge/live verify. Never overwrite unrelated source or replay old whole file."
+}
