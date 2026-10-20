@@ -43,6 +43,11 @@
           body: JSON.stringify(payload)
         });
         var result = await response.json().catch(function () { return null; });
+        if (!response.ok && [400, 403, 409, 413, 422, 429].indexOf(response.status) !== -1 &&
+            result && typeof result.error === 'string' && result.error.trim() && 400 >= result.error.length) {
+          show(result.error.trim() + ' Your details are still here. You can also contact Astrid using the links below.', 'error');
+          return;
+        }
         if (!response.ok || !result || result.ok !== true || typeof result.accepted !== 'boolean') {
           show('We could not confirm that your enquiry was sent. Your details are still here. Please contact Astrid using the links below before submitting again.', 'error');
           return;

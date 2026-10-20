@@ -111,3 +111,46 @@ test('HTTP and transport uncertainty ask for confirmation before another submiss
     assert.doesNotMatch(s.status.textContent, /try again later/);
   }
 });
+
+test('definite validation, blocked-link, duplicate and throttling responses explain the next step without losing fields or counting a lead', async () => {
+  for (const [code, error] of [
+    [400, 'Please provide a valid email address.'],
+    [403, 'Please submit your enquiry from the clinic website.'],
+    [409, 'A matching enquiry was submitted recently. Please contact the clinic before sending it again.'],
+    [413, 'Invalid enquiry format or size.'],
+    [422, 'This message contains a promotional link that cannot be submitted. Please remove it or contact the clinic using the contact details below.'],
+    [429, 'Too many enquiries were submitted recently. Please wait 15 minutes or contact the clinic directly.']
+  ]) {
+    const s = setup({ ok: false, status: code, json: async () => ({ error }) });
+    await s.submit();
+    assert.ok(s.status.textContent.startsWith(error));
+    assert.match(s.status.textContent, /Your details are still here/);
+    assert.equal(s.status.className, 'la-form-status error');
+    assert.equal(s.form.resets, 0);
+    assert.equal(s.button.disabled, false);
+    assert.equal(s.requests.length, 1);
+    assert.equal(s.events.length, 0);
+  }
+});
+
+test('server error suggestions remain plain text, never executable markup', async () => {
+  const text = '<img src=x onerror=alert(1)>Remove the link.';
+  const s = setup({ ok: false, status: 422, json: async () => ({ error: text }) });
+  await s.submit();
+  assert.ok(s.status.textContent.startsWith(text));
+  assert.equal(s.status.innerHTML, undefined);
+  assert.equal(s.form.resets, 0);
+  assert.equal(s.events.length, 0);
+});
+
+test('unknown, oversized or provider errors retain the existing cautious contact message', async () => {
+  for (const [code, error] of [[502, 'Private provider detail'], [503, 'Unavailable'], [401, 'Unexpected'], [429, 'x'.repeat(401)], [422, {}], [400, '   ']]) {
+    const s = setup({ ok: false, status: code, json: async () => ({ error }) });
+    await s.submit();
+    assert.match(s.status.textContent, /could not confirm/);
+    assert.match(s.status.textContent, /before submitting again/);
+    assert.equal(s.form.resets, 0);
+    assert.equal(s.button.disabled, false);
+    assert.equal(s.events.length, 0);
+  }
+});
