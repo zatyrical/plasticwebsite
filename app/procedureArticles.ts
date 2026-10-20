@@ -355,9 +355,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
     backLabel: 'Back to aesthetic surgery',
     intro: [
       'Breast augmentation is surgery to increase or restore breast volume and refine breast shape. In Singapore, patients may consider breast augmentation for naturally small breast volume, postpartum volume loss, asymmetry, body proportion concerns or reconstruction-related goals.',
-      'The safest plan is not simply choosing a cup size. Breast augmentation planning should consider breast base width, soft-tissue thickness, chest wall shape, nipple position, skin quality, implant dimensions, incision, implant plane, recovery needs and long-term follow-up.',
-      'Patients searching for breast implant surgery in Singapore often compare implant placement, implant shape, projection, profile and brands such as Motiva. These choices should be narrowed by measurements and safety considerations rather than marketing labels alone.',
-      'This page explains the main decisions patients should understand before breast augmentation, including implant selection, Motiva implant discussions, selected fat grafting alternatives, 24-hour rapid recovery principles and reasons breast screening or additional medical assessment may be needed before elective surgery.'
+      'The safest plan is not simply choosing a cup size. Breast augmentation planning should consider breast base width, soft-tissue thickness, chest wall shape, nipple position, skin quality, implant dimensions, incision, implant plane, recovery needs and long-term follow-up.'
     ],
     sections: [
       {
