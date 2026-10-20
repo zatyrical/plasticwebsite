@@ -172,7 +172,7 @@
     "actual_tree_exactly_equals_planned_tree": true,
     "no_builder_normalisation": true,
     "fallback_exact_after_reversing_only_id_changes": true,
-    "envelope_unchanged_except_modified_rendered_and_elementor_data": true
+    "selected_envelope_unchanged_except_modified_content_and_elementor_data": true
   },
   "live_before": {
     "id": 721,
@@ -219,6 +219,36 @@
       "zrJEPA-6bc6c44"
     ],
     "duplicate_ids": {},
+    "scope_without_ids_sha256": "e7bd936343c5692e5975c2411b3946ef457f359e4361ae3d2e1c1e62ade9ea1d",
+    "text_sha256": "48a64eec85ecd63b662bfc02a3c0e6bbd81fe709da7ae5fd69bb0eead2462c75",
+    "links_sha256": "b07241f8176bfbfbb57587acf208283eb76be97ba4be8afa95d413b84e7947e0",
+    "images_sha256": "ebe0001e10cd648f587b34b8cf7af42c7f74a82b3fe80aa896724dc9b0e9cdf0",
+    "references_sha256": "849fe57afe0a07fbab126874a1f127b2d64874f81e71278e2075aa89fc81c7f9",
+    "canonical": [
+      "https://lymphedasia.com/manual-lymphatic-drainage-and-compression/"
+    ],
+    "robots": [
+      "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    ],
+    "h1": [
+      "Manual Lymphatic Drainage and Compression"
+    ]
+  },
+  "whole_document_live_check": {
+    "id": 721,
+    "url": "https://lymphedasia.com/manual-lymphatic-drainage-and-compression/",
+    "status": 200,
+    "scope_roots": 1,
+    "ids": [
+      "z-UdK4",
+      "zzdP5e",
+      "zIcpYj",
+      "zrJEPA",
+      "zMzmn-",
+      "zrJEPA-6bc6c44"
+    ],
+    "duplicate_ids": {},
+    "whole_document_duplicate_ids": {},
     "scope_without_ids_sha256": "e7bd936343c5692e5975c2411b3946ef457f359e4361ae3d2e1c1e62ade9ea1d",
     "text_sha256": "48a64eec85ecd63b662bfc02a3c0e6bbd81fe709da7ae5fd69bb0eead2462c75",
     "links_sha256": "b07241f8176bfbfbb57587acf208283eb76be97ba4be8afa95d413b84e7947e0",
