@@ -2,6 +2,7 @@
 
 import { FormEvent, useEffect, useState } from 'react';
 import { trackAcceptedEnquiry } from './contactAnalytics';
+import EnquiryBotCheck from './EnquiryBotCheck';
 
 type Status = 'idle' | 'sending' | 'sent' | 'error';
 
@@ -56,6 +57,9 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
     } catch {
       setStatus('error');
       setMessage('We could not confirm that your enquiry was sent. Your details are still here. Please check your connection or contact Astrid using the WhatsApp link below.');
+    } finally {
+      // Siteverify tokens are single use, including when email delivery fails.
+      form.dispatchEvent(new Event('enquiry-bot-reset'));
     }
   }
 
@@ -98,6 +102,7 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
       <input name="pageUrl" type="hidden" value={pageUrl} readOnly />
       <input name="redirectSuccess" type="hidden" value="https://www.drjeremysun.com/enquiry-response/received" readOnly />
       <input name="redirectError" type="hidden" value="https://www.drjeremysun.com/enquiry-response/unconfirmed" readOnly />
+      <EnquiryBotCheck />
       <button className="btn btn-primary" type="submit" disabled={status === 'sending'}>
         {status === 'sending' ? 'Sending…' : 'Submit enquiry'}
       </button>

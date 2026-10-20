@@ -246,3 +246,98 @@ test('multipart and no-JavaScript native forms retain normal success/error route
   assert.equal(blocked.location, native.redirectError);
   assert.equal(api.calls.length, 1);
 });
+
+const botEnv = { RESEND_API_KEY: 'mock-only', CONTACT_TO_EMAIL: 'clinic@invalid.test', CONTACT_BOT_CHECK: 'turnstile', TURNSTILE_SECRET_KEY: 'mock-secret' };
+const challenged = { ...valid, 'cf-turnstile-response': 'mock-single-use-token' };
+const passed = { success: true, hostname: 'www.drjeremysun.com', action: 'clinic_enquiry' };
+
+test('enforced challenge rejects missing/oversized tokens before any external call', async () => {
+  const api = handler({ env: botEnv, fetch: async () => { throw Error('must not call'); } });
+  for (const token of [undefined, '', ' ', 'x'.repeat(2049)]) {
+    const payload = { ...valid };
+    if (token !== undefined) payload['cf-turnstile-response'] = token;
+    assert.equal((await api.post(payload)).status, 422);
+  }
+  assert.equal(api.calls.length, 0);
+});
+
+test('verification gates email for both sites and JSON/native/multipart including absent Origin', async () => {
+  for (const hostname of ['www.drjeremysun.com', 'drjeremysun.com', 'lymphedasia.com', 'www.lymphedasia.com']) {
+    for (const format of [{}, { native: true }, { multipart: true }, { headers: { origin: '' } }]) {
+      const api = handler({ env: botEnv, fetch: async (url, options) => {
+        if (url.includes('siteverify')) {
+          assert.deepEqual(JSON.parse(options.body), { secret: 'mock-secret', response: challenged['cf-turnstile-response'] });
+          assert.ok(options.signal instanceof AbortSignal);
+          return { ok: true, json: async () => ({ ...passed, hostname }) };
+        }
+        assert.equal(url, 'https://api.resend.com/emails');
+        return { ok: true };
+      } });
+      assert.equal((await api.post(challenged, { ...format, headers: { origin: 'https://' + hostname, ...format.headers } })).body.accepted, true);
+      assert.deepEqual(api.deadlines, [8000, 15000]);
+      assert.equal(api.calls.length, 2);
+    }
+  }
+});
+
+test('forged, replayed, expired, wrong hostname/action or malformed verification cannot send mail', async () => {
+  for (const result of [null, {}, { ...passed, success: 'true' }, { ...passed, success: false, 'error-codes': ['timeout-or-duplicate'] }, { ...passed, hostname: 'evil.invalid.test' }, { ...passed, hostname: 'lymphedasia.com' }, { ...passed, action: 'other' }]) {
+    const api = handler({ env: botEnv, fetch: async () => ({ ok: true, json: async () => result }) });
+    assert.equal((await api.post(challenged)).status, 422);
+    assert.equal(api.calls.length, 1);
+  }
+});
+
+test('verification outage, malformed JSON, timeout or missing configuration fails closed without retry or private logs', async () => {
+  for (const fetch of [async () => ({ ok: false }), async () => { throw Error('mock-secret'); }, async () => ({ ok: true, json: async () => { throw Error('invalid JSON'); } })]) {
+    const api = handler({ env: botEnv, fetch });
+    const response = await api.post(challenged);
+    assert.equal(response.status, 503);
+    assert.match(response.body.error, /No enquiry was sent/);
+    assert.equal(api.calls.length, 1);
+    assert.equal(api.logs.length, 0);
+  }
+  for (const env of [{ ...botEnv, TURNSTILE_SECRET_KEY: '' }, { ...botEnv, CONTACT_BOT_CHECK: 'typo' }]) {
+    const api = handler({ env, fetch: async () => { throw Error('must not call'); } });
+    assert.equal((await api.post(challenged)).status, 503);
+    assert.equal(api.calls.length, 0);
+  }
+});
+
+test('native challenge failure preserves the fixed error redirect and never reaches email', async () => {
+  const api = handler({ env: botEnv, fetch: async () => { throw Error('must not call'); } });
+  const result = await api.post({ ...valid, redirectError: 'https://lymphedasia.com/enquiry-response/unconfirmed/' }, { native: true });
+  assert.equal(result.status, 303);
+  assert.equal(result.location, 'https://lymphedasia.com/enquiry-response/unconfirmed/');
+  assert.equal(api.calls.length, 0);
+});
+
+test('Siteverify rejects reuse before a different enquiry can reach email', async () => {
+  let checked = false, emails = 0;
+  const api = handler({ env: botEnv, fetch: async (url) => {
+    if (url.includes('siteverify')) {
+      const success = !checked; checked = true;
+      return { ok: true, json: async () => ({ ...passed, success }) };
+    }
+    emails++; return { ok: true };
+  } });
+  assert.equal((await api.post(challenged)).body.accepted, true);
+  assert.equal((await api.post({ ...challenged, message: 'Different mock enquiry' })).status, 422);
+  assert.equal(emails, 1);
+});
+
+test('Siteverify deadline abort stops before provider and never retries', async () => {
+  const controller = new AbortController();
+  const api = handler({ env: botEnv, signalFactory: () => controller.signal,
+    fetch: async (url, { signal }) => {
+      assert.match(url, /siteverify$/);
+      return new Promise((resolve, reject) => {
+        signal.addEventListener('abort', () => reject(signal.reason), { once: true });
+        queueMicrotask(() => controller.abort(Error('mock timeout')));
+      });
+    }
+  });
+  assert.equal((await api.post(challenged)).status, 503);
+  assert.deepEqual(api.deadlines, [8000]);
+  assert.equal(api.calls.length, 1);
+});
