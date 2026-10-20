@@ -71,7 +71,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'who-this-is-for',
         heading: 'Liposuction in Singapore: who this page is for',
-        paragraphs: ['Patients searching for liposuction in Singapore are often comparing fat-removal clinics, body sculpting devices, VASER liposuction claims, price ranges, recovery time and whether a plastic surgeon is needed. This page is intended for patients who want an assessment-led discussion rather than a package based only on the number of areas treated.', 'A useful consultation should clarify whether the concern is localised fat, loose skin, muscle separation, cellulite, weight fluctuation or a combination. These distinctions matter because liposuction, tummy tuck, skin excision, non-surgical body contouring and no procedure solve different problems.']
+        paragraphs: ['This page is intended for patients who want an assessment-led discussion rather than a package based only on the number of areas treated.', 'A useful consultation should clarify whether the concern is localised fat, loose skin, muscle separation, cellulite, weight fluctuation or a combination. These distinctions matter because liposuction, tummy tuck, skin excision, non-surgical body contouring and no procedure solve different problems.']
       },
       {
         id: 'suitability',
@@ -802,7 +802,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'who-this-is-for',
         heading: 'Facelift in Singapore: who this page is for',
-        paragraphs: ['Patients searching for facelift in Singapore are often comparing surgical face lift, neck lift, thread lift, fillers, lasers and device-based tightening. This page is intended for patients who want to understand whether the visible concern is skin laxity, deeper tissue descent, jowls, neck bands, volume loss or skin quality before choosing treatment.', 'The right plan may be a face lift, neck lift, combined procedure, non-surgical treatment, staged treatment or no procedure. A consultation should make that selection process clear rather than presenting facelift as the answer for every ageing concern.']
+        paragraphs: ['This page is intended for patients who want to understand whether the visible concern is skin laxity, deeper tissue descent, jowls, neck bands, volume loss or skin quality before choosing treatment.', 'The right plan may be a face lift, neck lift, combined procedure, non-surgical treatment, staged treatment or no procedure. A consultation should make that selection process clear rather than presenting facelift as the answer for every ageing concern.']
       },
       {
         id: 'suitability',
