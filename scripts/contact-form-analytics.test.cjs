@@ -64,6 +64,7 @@ async function submit({ responseOk = true, accepted = true, invalidJson = false,
   const events = [];
   const requests = [];
   let resets = 0;
+  let botResets = 0;
   let hook = 0;
   const browser = { location, gtag: (...args) => { if (analyticsThrows) throw new Error('mock analytics unavailable'); events.push(args); } };
   const analytics = loadModule('app/contactAnalytics.ts', { window: browser });
@@ -77,12 +78,14 @@ async function submit({ responseOk = true, accepted = true, invalidJson = false,
     entries() { return Object.entries(this.fields)[Symbol.iterator](); }
   }
   const form = {
+    dispatchEvent: (event) => { if (event.type === 'enquiry-bot-reset') botResets++; },
     fields: { name: 'Synthetic test', email: 'example@invalid.test', message: 'Mock only', enquiryType: 'Lymphedema / LVA surgery', website: '' },
     reset: () => { resets++; }
   };
   const component = loadModule('app/ContactForm.tsx', {
     window: browser,
     FormData: MockFormData,
+    Event,
     fetch: async (url, options) => {
       requests.push({ url, options });
       if (networkError) throw new Error('mock network unavailable');
@@ -92,11 +95,12 @@ async function submit({ responseOk = true, accepted = true, invalidJson = false,
     if (name === 'react') return fakeReact;
     if (name === 'react/jsx-runtime') return { jsx: element, jsxs: element };
     if (name === './contactAnalytics') return analytics;
+    if (name === './EnquiryBotCheck') return { __esModule: true, default: 'mock-bot-check' };
     throw new Error(`Unexpected module: ${name}`);
   }).default;
   const rendered = component({});
   await rendered.props.onSubmit({ preventDefault: () => {}, currentTarget: form });
-  return { states, events, requests, resets, formProps: rendered.props };
+  return { states, events, requests, resets, botResets, formProps: rendered.props };
 }
 
 test('actual form has a native POST fallback with fixed private-data-free receipt URLs', async () => {
@@ -120,6 +124,7 @@ test('actual component retains the accepted receipt when analytics throws', asyn
   assert.match(result.states[1].at(-1), /Your enquiry has been received/);
   assert.equal(result.resets, 1);
   assert.equal(result.requests.length, 1);
+  assert.equal(result.botResets, 1);
 });
 
 test('clinic payload retains enquiry category while analytics excludes it', async () => {
@@ -151,6 +156,7 @@ test('unknown successful-response acknowledgement retains fields without receipt
     assert.match(result.states[1].at(-1), /contact the clinic before submitting again/);
     assert.doesNotMatch(result.states[1].at(-1), /Your enquiry has been received/);
     assert.equal(result.resets, 0);
+    assert.equal(result.botResets, 1);
     assert.equal(result.requests.length, 1);
   }
 });

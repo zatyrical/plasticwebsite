@@ -9,6 +9,7 @@ function setup(fetchResponse, overrides = {}) {
   const status = { hidden: true };
   const payload = { name: 'Mock person', email: 'mock@example.test', message: 'Mock enquiry', website: '', ...overrides.payload };
   const form = { dataset: {}, action: 'https://www.drjeremysun.com/api/contact', resets: 0,
+    botResets: 0, dispatchEvent(event) { if (event.type === 'enquiry-bot-reset') this.botResets++; },
     querySelector: () => button, reportValidity: () => true, contains: () => true,
     reset() { this.resets++; }, addEventListener(name, callback) { handlers[name] = callback; } };
   const window = { location: { origin: 'https://lymphedasia.com', pathname: '/contact/', href: 'https://lymphedasia.com/contact/?private=ignored' },
@@ -16,7 +17,7 @@ function setup(fetchResponse, overrides = {}) {
     FormData: class { entries() { return Object.entries(payload); } },
     gtag: (...args) => events.push(args), ...overrides.window };
   const document = { readyState: 'complete', getElementById: id => id === 'la-contact-form' ? form : status };
-  const context = vm.createContext({ window, document, FormData: window.FormData, URL });
+  const context = vm.createContext({ window, document, FormData: window.FormData, URL, Event });
   vm.runInContext(source, context);
   return { form, button, status, events, requests, handlers, context, submit: () => handlers.submit({ preventDefault() {} }) };
 }
@@ -28,6 +29,7 @@ test('counts exactly one accepted enquiry, with fixed parameters and no submitte
   assert.equal(s.events[0][2].page_location, 'https://lymphedasia.com/contact/');
   for (const key of ['name', 'email', 'phone', 'message', 'enquiryType', 'enquiry_type']) assert.equal(key in s.events[0][2], false);
   assert.equal(s.status.className, 'la-form-status sent'); assert.equal(s.button.disabled, true);
+  assert.equal(s.form.botResets, 1);
 });
 for (const [label, response] of [
   ['HTTP rejection', { ok: false, json: async () => ({ error: 'failed' }) }],
@@ -38,6 +40,7 @@ for (const [label, response] of [
   const s = setup(response); await s.submit();
   assert.equal(s.events.length, 0); assert.equal(s.form.resets, 0); assert.equal(s.button.disabled, false);
   assert.equal(s.status.className, 'la-form-status error');
+  assert.equal(s.form.botResets, 1);
 });
 test('concurrent submission is ignored', async () => {
   let resolve; const waiting = new Promise(r => { resolve = r; });

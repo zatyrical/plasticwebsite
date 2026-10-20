@@ -59,6 +59,7 @@
       } catch (_) {
         show('We could not confirm that your enquiry was sent. Your details are still here. Please contact Astrid using the links below before submitting again.', 'error');
       } finally {
+        form.dispatchEvent(new Event('enquiry-bot-reset'));
         sending = false;
         button.disabled = sent;
         button.textContent = sent ? 'Enquiry received' : 'Submit enquiry';

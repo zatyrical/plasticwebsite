@@ -219,6 +219,38 @@ export async function POST(request: NextRequest) {
     return formError('The enquiry form is not configured yet. Please try again later.', 503);
   }
 
+  // Enable only after both sites have the matching public widget. Never trust a
+  // browser-only check, Origin header or pageUrl as proof of a completed challenge.
+  if (process.env.CONTACT_BOT_CHECK === 'turnstile') {
+    const secret = process.env.TURNSTILE_SECRET_KEY;
+    if (!secret) return formError('The security check is temporarily unavailable. Please contact the clinic directly.', 503);
+    const token = payload['cf-turnstile-response'];
+    if (typeof token !== 'string' || !token.trim() || token.length > 2048) {
+      return formError('Please complete the security check before submitting your enquiry.', 422);
+    }
+    try {
+      const verification = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        signal: AbortSignal.timeout(8000),
+        body: JSON.stringify({ secret, response: token })
+      });
+      if (!verification.ok) throw new Error('verification unavailable');
+      const result = await verification.json();
+      const hostnames = new Set([...ALLOWED_ORIGINS].map((allowed) => new URL(allowed).hostname));
+      if (result?.success !== true || result.action !== 'clinic_enquiry' || !hostnames.has(result.hostname) ||
+          (origin && new URL(origin).hostname !== result.hostname)) {
+        return formError('The security check expired or was unsuccessful. Please complete a fresh check and submit again.', 422);
+      }
+    } catch {
+      // No retry, token/secret logging, fail-open mail delivery or accepted lead.
+      return formError('The security check could not be verified. No enquiry was sent. Please try a fresh check or contact the clinic directly.', 503);
+    }
+  } else if (process.env.CONTACT_BOT_CHECK) {
+    // A misspelled activation value must not silently switch protection off.
+    return formError('The security check is temporarily unavailable. Please contact the clinic directly.', 503);
+  }
+
   // Vercel supplies this header itself; do not use a client-provided IP on other hosts.
   const clientIp = process.env.VERCEL === '1'
     ? (request.headers.get('x-vercel-forwarded-for') || '').split(',')[0].trim()
