@@ -172,7 +172,7 @@
     "actual_tree_exactly_equals_planned_tree": true,
     "no_builder_normalisation": true,
     "fallback_exact_after_reversing_only_id_changes": true,
-    "envelope_unchanged_except_modified_rendered_and_elementor_data": true
+    "selected_envelope_unchanged_except_modified_content_and_elementor_data": true
   },
   "live_before": {
     "id": 443,
@@ -249,6 +249,49 @@
       "zyjZxH-71cbe54"
     ],
     "duplicate_ids": {},
+    "scope_without_ids_sha256": "b1c7ff576d33e965985d03351aca8e7fe12ebef02cbaf8afcbe9b1cf59c61bdf",
+    "text_sha256": "6770fa5a8c7863650dd1e25a6b109c7a74132c35a8c271eba98d233ec581f11f",
+    "links_sha256": "c64e1bbc63cf6279bd1fd2d4e6a793ffd43f452186e2a90c78a679766e5017f1",
+    "images_sha256": "7da25bf4f3bd9bdf32ccae0d9ac98db48d4af1a3f4389f28ad8f357503d4a41c",
+    "references_sha256": "0dd3bc3afe2e42f7482d0e22daa9694a607e893db3b87dfe105927db3f40b8f9",
+    "canonical": [
+      "https://lymphedasia.com/educational-resources/"
+    ],
+    "robots": [
+      "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+    ],
+    "h1": [
+      "Educational Resources"
+    ]
+  },
+  "whole_document_live_check": {
+    "id": 443,
+    "url": "https://lymphedasia.com/educational-resources/",
+    "status": 200,
+    "scope_roots": 1,
+    "ids": [
+      "resource-lymphovenous-shunts",
+      "z7ibDE",
+      "z-OyqY",
+      "zVGqK6",
+      "z2I89H",
+      "zyjZxH",
+      "resource-genital-elephantiasis",
+      "z7ibDE-c5305c8",
+      "z-OyqY-c5305c8",
+      "zVGqK6-c5305c8",
+      "zrAA6t",
+      "zyjZxH-c5305c8",
+      "resource-surgical-prevention",
+      "z7ibDE-71cbe54",
+      "z-OyqY-71cbe54",
+      "zVGqK6-71cbe54",
+      "zrAA6t-71cbe54",
+      "z0hE5w",
+      "zyjZxH-71cbe54"
+    ],
+    "duplicate_ids": {},
+    "whole_document_duplicate_ids": {},
     "scope_without_ids_sha256": "b1c7ff576d33e965985d03351aca8e7fe12ebef02cbaf8afcbe9b1cf59c61bdf",
     "text_sha256": "6770fa5a8c7863650dd1e25a6b109c7a74132c35a8c271eba98d233ec581f11f",
     "links_sha256": "c64e1bbc63cf6279bd1fd2d4e6a793ffd43f452186e2a90c78a679766e5017f1",
