@@ -492,6 +492,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'eyebag-removal-lower-blepharoplasty-singapore' && section.id === 'consultation' ? (
                   <p>For separate upper-eyelid crease concerns, read the <Link href="/asian-eyelid-surgery-singapore">Asian eyelid surgery guide</Link>. If the concern is part of broader facial rejuvenation planning, the <Link href="/face-neck-lift-singapore#anatomy">face and neck assessment guide</Link> explains how eyelid, volume and lifting decisions are separated. Reading these guides does not mean procedures need to be combined.</p>
                 ) : null}
+                {article.slug === 'eyebag-removal-lower-blepharoplasty-singapore' && section.id === 'questions' ? (
+                  <p>Use the <Link href="/plastic-surgeon-singapore#evaluate">credential-evaluation checklist</Link> and <Link href="/plastic-surgeon-singapore#consultation">broader consultation questions</Link> alongside the lower-eyelid-specific questions above.</p>
+                ) : null}
                 {article.slug === 'lasers-injectables-singapore' && section.id === 'options' ? (
                   <p>If your search was about “LVA laser treatment”, read the <Link href="/lymphovenous-bypass-lva-surgery-singapore">LVA / LVB lymphovenous bypass surgery guide</Link> instead. LVA is not a laser treatment; it is a supermicrosurgical lymphatic bypass procedure considered after lymphedema assessment.</p>
                 ) : null}
