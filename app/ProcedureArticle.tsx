@@ -510,6 +510,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'rib-rhinoplasty-singapore' && section.id === 'revision-planning' ? (
                   <p>See the <Link href="/asian-rhinoplasty-singapore#revision-fillers">previous surgery and filler discussion</Link> and the <Link href="#recovery">nasal and rib donor-site recovery section</Link> when preparing questions for assessment.</p>
                 ) : null}
+                {article.slug === 'rib-rhinoplasty-singapore' && section.id === 'questions' ? (
+                  <p>Use the <Link href="/plastic-surgeon-singapore#evaluate">credential-evaluation checklist</Link> and <Link href="/plastic-surgeon-singapore#consultation">broader consultation questions</Link> alongside the rib-rhinoplasty-specific questions above.</p>
+                ) : null}
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'revision-fillers' ? (
                   <p>If rib cartilage is being discussed for revision, read the <Link href="/rib-rhinoplasty-singapore#revision-planning">revision rib-cartilage planning questions</Link> alongside the <Link href="/rib-rhinoplasty-singapore#alternatives">graft alternatives</Link>.</p>
                 ) : null}
