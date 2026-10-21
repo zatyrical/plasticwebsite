@@ -1,0 +1,319 @@
+{
+  "captured_at_sgt": "2026-10-22 05:05",
+  "source": "Authenticated WPVibe GET /wp/v2/posts/4044?context=edit",
+  "before": {
+    "id": 4044,
+    "date": "2025-11-05T07:24:28",
+    "date_gmt": "2025-11-05T07:24:28",
+    "guid": {
+      "rendered": "https://lymphedasia.com/?p=4044",
+      "raw": "https://lymphedasia.com/?p=4044"
+    },
+    "modified": "2026-10-18T13:59:37",
+    "modified_gmt": "2026-10-18T13:59:37",
+    "password": "",
+    "slug": "lymphedema-compression-garments-for-swelling",
+    "status": "publish",
+    "type": "post",
+    "link": "https://lymphedasia.com/lymphedema-compression-garments-for-swelling/",
+    "title": {
+      "raw": "Lymphedema: Compression Garments for Swelling",
+      "rendered": "Lymphedema: Compression Garments for Swelling"
+    },
+    "content": {
+      "raw": "<p><strong>Short answer:</strong> Compression garments help control lymphedema by supporting tissues and reducing fluid re-accumulation. They work best when properly measured, comfortable enough to use, and combined with movement and skin care.</p>\n<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026. This article is for education only and does not replace personalised medical assessment.</em></p>\n<h2>Why fit matters</h2>\n<p>A garment that is too loose may not control swelling; one that is too tight, folded or painful can damage skin or create pressure points. Refitting is needed when limb size changes or the garment loses elasticity.</p>\n<h2>Choosing and using garments</h2>\n<ul><li>Use the compression class and style prescribed by your therapist or doctor.</li><li>Put garments on early in the day if swelling builds later.</li><li>Keep fabric smooth without rolling bands.</li><li>Replace garments according to wear and manufacturer guidance.</li><li>Ask about donning aids if hand strength or flexibility is limited.</li></ul>\n<h2>When garments are difficult</h2>\n<p>Heat, discomfort, cost, skin irritation and work demands are common barriers. Rather than stopping completely, discuss alternative fabrics, styles, liners, nighttime options or <a href=\"https://lymphedasia.com/compression-bandaging-in-lymphedema-management/\">bandaging</a> with your therapist.</p>\n<h2>Compression and surgery</h2>\n<p>Compression remains important even when LVA/LVB is considered. In selected patients, successful surgery may reduce symptoms or compression burden, but garment changes should be supervised.</p>\n<h2>Frequently asked questions</h2>\n<h3>Can I buy compression online?</h3><p>It is safer to be measured and prescribed, especially for established lymphedema.</p>\n<h3>Should compression hurt?</h3><p>No. Pain, numbness, colour change or skin injury means the garment should be reviewed.</p>\n<h3>Do I wear compression forever?</h3><p>Many patients need long-term compression, though intensity may change with treatment response.</p>\n<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite appropriate conservative care, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>",
+      "rendered": "<p><strong>Short answer:</strong> Compression garments help control lymphedema by supporting tissues and reducing fluid re-accumulation. They work best when properly measured, comfortable enough to use, and combined with movement and skin care.</p>\n<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026. This article is for education only and does not replace personalised medical assessment.</em></p>\n<h2>Why fit matters</h2>\n<p>A garment that is too loose may not control swelling; one that is too tight, folded or painful can damage skin or create pressure points. Refitting is needed when limb size changes or the garment loses elasticity.</p>\n<h2>Choosing and using garments</h2>\n<ul>\n<li>Use the compression class and style prescribed by your therapist or doctor.</li>\n<li>Put garments on early in the day if swelling builds later.</li>\n<li>Keep fabric smooth without rolling bands.</li>\n<li>Replace garments according to wear and manufacturer guidance.</li>\n<li>Ask about donning aids if hand strength or flexibility is limited.</li>\n</ul>\n<h2>When garments are difficult</h2>\n<p>Heat, discomfort, cost, skin irritation and work demands are common barriers. Rather than stopping completely, discuss alternative fabrics, styles, liners, nighttime options or <a href=\"https://lymphedasia.com/compression-bandaging-in-lymphedema-management/\">bandaging</a> with your therapist.</p>\n<h2>Compression and surgery</h2>\n<p>Compression remains important even when LVA/LVB is considered. In selected patients, successful surgery may reduce symptoms or compression burden, but garment changes should be supervised.</p>\n<h2>Frequently asked questions</h2>\n<h3>Can I buy compression online?</h3>\n<p>It is safer to be measured and prescribed, especially for established lymphedema.</p>\n<h3>Should compression hurt?</h3>\n<p>No. Pain, numbness, colour change or skin injury means the garment should be reviewed.</p>\n<h3>Do I wear compression forever?</h3>\n<p>Many patients need long-term compression, though intensity may change with treatment response.</p>\n<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite appropriate conservative care, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>\n",
+      "protected": false,
+      "block_version": 0
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>Short answer: Compression garments help control lymphedema by supporting tissues and reducing fluid re-accumulation. They work best when properly measured, [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 5,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_uag_custom_page_level_css": "",
+      "site-sidebar-layout": "default",
+      "site-content-layout": "",
+      "ast-site-content-layout": "default",
+      "site-content-style": "default",
+      "site-sidebar-style": "default",
+      "ast-global-header-display": "",
+      "ast-banner-title-visibility": "",
+      "ast-main-header-display": "",
+      "ast-hfb-above-header-display": "",
+      "ast-hfb-below-header-display": "",
+      "ast-hfb-mobile-header-display": "",
+      "site-post-title": "",
+      "ast-breadcrumbs-content": "",
+      "ast-featured-img": "",
+      "footer-sml-layout": "",
+      "ast-disable-related-posts": "",
+      "theme-transparent-header-meta": "",
+      "adv-header-id-meta": "",
+      "stick-header-meta": "",
+      "header-above-stick-meta": "",
+      "header-main-stick-meta": "",
+      "header-below-stick-meta": "",
+      "astra-migrate-meta-layouts": "default",
+      "ast-page-background-enabled": "default",
+      "ast-page-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "ast-content-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "footnotes": "",
+      "_elementor_edit_mode": "",
+      "_elementor_template_type": "",
+      "_elementor_data": "",
+      "_elementor_page_settings": null,
+      "_elementor_conditions": []
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "permalink_template": "https://lymphedasia.com/%postname%/",
+    "generated_slug": "lymphedema-compression-garments-for-swelling",
+    "class_list": [
+      "post-4044",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-blog"
+    ],
+    "uagb_featured_image_src": {
+      "full": false,
+      "thumbnail": false,
+      "medium": false,
+      "medium_large": false,
+      "large": false,
+      "1536x1536": false,
+      "2048x2048": false
+    },
+    "uagb_author_info": {
+      "display_name": "Dr Jeremy Sun Mingfa",
+      "author_link": "https://lymphedasia.com/author/jeremy-sun/"
+    },
+    "uagb_comment_info": 0,
+    "uagb_excerpt": "Short answer: Compression garments help control lymphedema by supporting tissues and reducing fluid re-accumulation. They work best when properly measured, [&hellip;]",
+    "_links": {
+      "self": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/users/5"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/comments?post=4044"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 3,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 5513,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044/revisions/5513"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/media?parent=4044"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/categories?post=4044"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/tags?post=4044"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044"
+        }
+      ],
+      "wp:action-sticky": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044"
+        }
+      ],
+      "wp:action-assign-author": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044"
+        }
+      ],
+      "wp:action-create-categories": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044"
+        }
+      ],
+      "wp:action-assign-categories": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044"
+        }
+      ],
+      "wp:action-create-tags": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044"
+        }
+      ],
+      "wp:action-assign-tags": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/4044"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "patch": {
+    "target_type": "post",
+    "post_id": 4044,
+    "field": "post_content",
+    "old_content": "<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite appropriate conservative care, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>",
+    "new_content": "<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite <a href=\"https://lymphedasia.com/lymphedema-therapy/\">appropriate conservative care</a>, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>"
+  },
+  "rollback": {
+    "old_content": "<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite <a href=\"https://lymphedasia.com/lymphedema-therapy/\">appropriate conservative care</a>, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>",
+    "new_content": "<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite appropriate conservative care, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>"
+  },
+  "scope": "One existing-word link; fresh guard required before rollback."
+}
