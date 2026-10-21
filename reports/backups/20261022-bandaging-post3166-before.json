@@ -1,0 +1,314 @@
+{
+  "capturedAt": "2026-10-22T06:00:30+08:00",
+  "before": {
+    "id": 3166,
+    "date": "2025-03-01T14:46:05",
+    "date_gmt": "2025-03-01T14:46:05",
+    "guid": {
+      "rendered": "https://lymphedasia.com/?p=3166",
+      "raw": "https://lymphedasia.com/?p=3166"
+    },
+    "modified": "2026-10-15T03:07:58",
+    "modified_gmt": "2026-10-15T03:07:58",
+    "password": "",
+    "slug": "compression-bandaging-in-lymphedema-management",
+    "status": "publish",
+    "type": "post",
+    "link": "https://lymphedasia.com/compression-bandaging-in-lymphedema-management/",
+    "title": {
+      "raw": "Understanding Compression Bandaging in Lymphedema Management",
+      "rendered": "Understanding Compression Bandaging in Lymphedema Management"
+    },
+    "content": {
+      "raw": "<p><strong>Short answer:</strong> Compression bandaging can reduce swelling in selected lymphedema patients, especially during intensive therapy. It must be applied correctly because poor technique can cause pain, pressure injury or worsening problems.</p>\n\n<p class=\"notice-text\">Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026. This article is for education only and does not replace personalised medical assessment.</p>\n\n<h2>What compression bandaging does</h2>\n<p>Bandaging applies controlled external pressure to help reduce swelling and support tissue decongestion. It is often used in complete decongestive therapy before transition to <a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">maintenance garments</a>.</p>\n<h2>Who may need bandaging?</h2>\n<ul><li>patients with significant limb swelling needing volume reduction;</li><li>patients whose limb shape does not fit standard garments;</li><li>patients undergoing intensive lymphedema therapy;</li><li>selected patients with fluctuating swelling under therapist guidance.</li></ul>\n<h2>Safety issues</h2>\n<p>Bandaging must avoid excessive pressure, skin folds, tourniquet effects and pressure points. Patients with arterial disease, neuropathy, diabetes, wounds, fragile skin or pain need careful review.</p>\n<h2>When to remove and seek help</h2>\n<p>Remove bandaging and seek advice if there is numbness, blue or cold toes/fingers, severe pain, new wounds, worsening swelling above the bandage, fever or spreading redness.</p>\n<h2>Frequently asked questions</h2>\n<h3>Is bandaging the same as compression stockings?</h3><p>No. Bandaging is often used for reduction; garments are often used for maintenance.</p>\n<h3>Can I bandage myself?</h3><p>Some patients can after training, but initial fitting and instruction should be by a trained clinician or therapist.</p>\n<h3>Can bandaging cure lymphedema?</h3><p>No. It can reduce and control swelling but does not restore a normal lymphatic system.</p>\n\n<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite appropriate conservative care, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>\n",
+      "rendered": "<p><strong>Short answer:</strong> Compression bandaging can reduce swelling in selected lymphedema patients, especially during intensive therapy. It must be applied correctly because poor technique can cause pain, pressure injury or worsening problems.</p>\n<p class=\"notice-text\">Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026. This article is for education only and does not replace personalised medical assessment.</p>\n<h2>What compression bandaging does</h2>\n<p>Bandaging applies controlled external pressure to help reduce swelling and support tissue decongestion. It is often used in complete decongestive therapy before transition to <a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">maintenance garments</a>.</p>\n<h2>Who may need bandaging?</h2>\n<ul>\n<li>patients with significant limb swelling needing volume reduction;</li>\n<li>patients whose limb shape does not fit standard garments;</li>\n<li>patients undergoing intensive lymphedema therapy;</li>\n<li>selected patients with fluctuating swelling under therapist guidance.</li>\n</ul>\n<h2>Safety issues</h2>\n<p>Bandaging must avoid excessive pressure, skin folds, tourniquet effects and pressure points. Patients with arterial disease, neuropathy, diabetes, wounds, fragile skin or pain need careful review.</p>\n<h2>When to remove and seek help</h2>\n<p>Remove bandaging and seek advice if there is numbness, blue or cold toes/fingers, severe pain, new wounds, worsening swelling above the bandage, fever or spreading redness.</p>\n<h2>Frequently asked questions</h2>\n<h3>Is bandaging the same as compression stockings?</h3>\n<p>No. Bandaging is often used for reduction; garments are often used for maintenance.</p>\n<h3>Can I bandage myself?</h3>\n<p>Some patients can after training, but initial fitting and instruction should be by a trained clinician or therapist.</p>\n<h3>Can bandaging cure lymphedema?</h3>\n<p>No. It can reduce and control swelling but does not restore a normal lymphatic system.</p>\n<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite appropriate conservative care, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>\n",
+      "protected": false,
+      "block_version": 0
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>Short answer: Compression bandaging can reduce swelling in selected lymphedema patients, especially during intensive therapy. It must be applied correctly [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 5,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+      "_uag_custom_page_level_css": "",
+      "site-sidebar-layout": "default",
+      "site-content-layout": "",
+      "ast-site-content-layout": "default",
+      "site-content-style": "default",
+      "site-sidebar-style": "default",
+      "ast-global-header-display": "",
+      "ast-banner-title-visibility": "",
+      "ast-main-header-display": "",
+      "ast-hfb-above-header-display": "",
+      "ast-hfb-below-header-display": "",
+      "ast-hfb-mobile-header-display": "",
+      "site-post-title": "disabled",
+      "ast-breadcrumbs-content": "",
+      "ast-featured-img": "",
+      "footer-sml-layout": "",
+      "ast-disable-related-posts": "",
+      "theme-transparent-header-meta": "",
+      "adv-header-id-meta": "",
+      "stick-header-meta": "",
+      "header-above-stick-meta": "",
+      "header-main-stick-meta": "",
+      "header-below-stick-meta": "",
+      "astra-migrate-meta-layouts": "default",
+      "ast-page-background-enabled": "default",
+      "ast-page-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "ast-content-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "footnotes": "",
+      "_elementor_edit_mode": "",
+      "_elementor_template_type": "",
+      "_elementor_data": "",
+      "_elementor_page_settings": null,
+      "_elementor_conditions": []
+    },
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "permalink_template": "https://lymphedasia.com/%postname%/",
+    "generated_slug": "understanding-compression-bandaging-in-lymphedema-management",
+    "class_list": [
+      "post-3166",
+      "post",
+      "type-post",
+      "status-publish",
+      "format-standard",
+      "hentry",
+      "category-blog"
+    ],
+    "uagb_featured_image_src": {
+      "full": false,
+      "thumbnail": false,
+      "medium": false,
+      "medium_large": false,
+      "large": false,
+      "1536x1536": false,
+      "2048x2048": false
+    },
+    "uagb_author_info": {
+      "display_name": "Dr Jeremy Sun Mingfa",
+      "author_link": "https://lymphedasia.com/author/jeremy-sun/"
+    },
+    "uagb_comment_info": 0,
+    "uagb_excerpt": "Short answer: Compression bandaging can reduce swelling in selected lymphedema patients, especially during intensive therapy. It must be applied correctly [&hellip;]",
+    "_links": {
+      "self": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/types/post"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/users/5"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/comments?post=3166"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 4,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166/revisions"
+        }
+      ],
+      "predecessor-version": [
+        {
+          "id": 5435,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166/revisions/5435"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/media?parent=3166"
+        }
+      ],
+      "wp:term": [
+        {
+          "taxonomy": "category",
+          "embeddable": true,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/categories?post=3166"
+        },
+        {
+          "taxonomy": "post_tag",
+          "embeddable": true,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/tags?post=3166"
+        }
+      ],
+      "wp:action-publish": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166"
+        }
+      ],
+      "wp:action-unfiltered-html": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166"
+        }
+      ],
+      "wp:action-sticky": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166"
+        }
+      ],
+      "wp:action-assign-author": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166"
+        }
+      ],
+      "wp:action-create-categories": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166"
+        }
+      ],
+      "wp:action-assign-categories": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166"
+        }
+      ],
+      "wp:action-create-tags": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166"
+        }
+      ],
+      "wp:action-assign-tags": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/posts/3166"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  "patch": {
+    "old_content": "<p>Bandaging applies controlled external pressure to help reduce swelling and support tissue decongestion. It is often used in complete decongestive therapy before transition to <a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">maintenance garments</a>.</p>",
+    "new_content": "<p>Bandaging applies controlled external pressure to help reduce swelling and support tissue decongestion. It is often used in <a href=\"https://lymphedasia.com/lymphedema-therapy/\">complete decongestive therapy</a> before transition to <a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">maintenance garments</a>.</p>"
+  },
+  "reverse": {
+    "old_content": "<p>Bandaging applies controlled external pressure to help reduce swelling and support tissue decongestion. It is often used in <a href=\"https://lymphedasia.com/lymphedema-therapy/\">complete decongestive therapy</a> before transition to <a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">maintenance garments</a>.</p>",
+    "new_content": "<p>Bandaging applies controlled external pressure to help reduce swelling and support tissue decongestion. It is often used in complete decongestive therapy before transition to <a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">maintenance garments</a>.</p>"
+  }
+}
