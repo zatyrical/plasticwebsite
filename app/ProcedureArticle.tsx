@@ -159,7 +159,7 @@ export default function ProcedureArticlePage({ article }: Props) {
   const findSection = (ids: string[]) => ids.map((id) => article.sections.find((section) => section.id === id)).find(Boolean)
     ?? article.sections.find((section) => ids.some((id) => section.id.includes(id)));
   const shortcutSections = [
-    { label: 'Suitability', section: findSection(['suitability', 'who-this-is-for', 'candidate']) },
+    { label: 'Suitability', section: findSection(['suitability', 'who-may-suit-rhinoplasty', 'who-this-is-for', 'candidate']) },
     { label: 'Consultation', section: findSection(['consultation', 'assessment', 'planning']) },
     { label: 'Cost factors', section: findSection(['cost-quotation']) },
     { label: 'Recovery', section: findSection(['recovery']) },
