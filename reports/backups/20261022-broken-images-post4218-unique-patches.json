@@ -1,0 +1,13 @@
+{
+  "patches": [
+    {
+      "old_content": "<!-- wp:image {\"id\":4221,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://lymphedasia.com/wp-content/uploads/2026/05/Can-You-Live-a-Full-Life-with-Lymphedema-1024x538.jpg\" alt=\"Illustration accompanying an explanation of lymphedema and lymphatic drainage\" class=\"wp-image-4221\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Lymphedema (also spelt <strong>lymphoedema</strong>) is a chronic condition where lymph fluid builds up in your body's soft tissues, ",
+      "new_content": "\n\n<!-- wp:paragraph -->\n<p>Lymphedema (also spelt <strong>lymphoedema</strong>) is a chronic condition where lymph fluid builds up in your body's soft tissues, "
+    },
+    {
+      "old_content": "<!-- wp:image {\"id\":4222,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} -->\n<figure class=\"wp-block-image size-large\"><img src=\"https://lymphedasia.com/wp-content/uploads/2026/05/What-Exactly-Is-Lymphedema-and-Whats-Happening-Inside-Your-Body-1024x538.jpg\" alt=\"Illustration accompanying guidance on living with and managing lymphedema\" class=\"wp-image-4222\"/></figure>\n<!-- /wp:image -->\n\n<!-- wp:paragraph -->\n<p>Yes, with the right management, most people with lymphedema live active, full lives. But lymphedema is not a condition you manage for",
+      "new_content": "\n\n<!-- wp:paragraph -->\n<p>Yes, with the right management, most people with lymphedema live active, full lives. But lymphedema is not a condition you manage for"
+    }
+  ],
+  "rollback": "Each new_content is a preserved unique following context; freshly guard it before reversing to old_content. The full pre-image-removal source is separately archived."
+}
