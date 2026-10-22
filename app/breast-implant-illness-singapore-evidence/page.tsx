@@ -210,6 +210,7 @@ export default function BreastImplantIllnessPage() {
               <p>Some patients report meaningful improvement after implant removal. For a patient who strongly believes implants are contributing to symptoms, explantation may be part of a shared decision after proper counselling.</p>
               <p>But explantation should not be marketed as an assured treatment for systemic symptoms. Studies vary in design, patient selection, symptom measurement, capsulectomy technique, follow-up duration and expectation effects. Some women improve, some partially improve, and some may continue to have symptoms because another condition is contributing.</p>
               <p>The decision should consider implant-related findings such as rupture, capsular contracture, pain, cosmetic concerns, anxiety about implants, personal values and the risks of further surgery.</p>
+              <p>For definitions of the different capsule-removal procedures, see the <a href="https://www.plasticsurgery.org/documents/medical-professionals/BSCC-Capsulectomy-Terminology-Management-Consensus-Statement.pdf">Breast Surgery Collaborative Community capsulectomy terminology statement (PDF)</a>.</p>
             </section>
 
             <section id="before-augmentation">
