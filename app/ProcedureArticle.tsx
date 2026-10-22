@@ -384,7 +384,17 @@ export default function ProcedureArticlePage({ article }: Props) {
             {article.sections.map((section) => (
               <section className="article-reading-section" key={section.id}>
                 <h2 id={section.id}>{section.heading}</h2>
-                {section.paragraphs?.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+                {section.paragraphs?.map((paragraph) => {
+                  const evidenceLabel = 'breast implant illness in Singapore';
+                  const evidenceIndex = article.slug === 'breast-augmentation-singapore' && section.id === 'screening-safety'
+                    ? paragraph.indexOf(evidenceLabel)
+                    : -1;
+                  return (
+                    <p key={paragraph}>
+                      {evidenceIndex < 0 ? paragraph : <>{paragraph.slice(0, evidenceIndex)}<Link href="/breast-implant-illness-singapore-evidence">{evidenceLabel}</Link>{paragraph.slice(evidenceIndex + evidenceLabel.length)}</>}
+                    </p>
+                  );
+                })}
                 {section.image ? (
                   <figure className="article-material-figure">
                     <Image
