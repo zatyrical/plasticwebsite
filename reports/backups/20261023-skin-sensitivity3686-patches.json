@@ -1,0 +1,71 @@
+{
+  "post": 3686,
+  "forward": [
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Overview of Skin Sensitivity</h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Overview of Skin Sensitivity</h2>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Importance of Understanding the Relationship Between Lymphedema and Skin Sensitivity</h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Importance of Understanding the Relationship Between Lymphedema and Skin Sensitivity</h2>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">FAQs</h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">FAQs</h2>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>1. Can skin sensitivity in lymphedema be reversed?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">1. Can skin sensitivity in lymphedema be reversed?</h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>2. What are the best moisturizers for sensitive skin in lymphedema?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">2. What are the best moisturizers for sensitive skin in lymphedema?</h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>3. How often should I wear compression garments?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">3. How often should I wear compression garments?</h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>4. Can exercise help with skin sensitivity in lymphedema?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">4. Can exercise help with skin sensitivity in lymphedema?</h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>5. What is the risk of infection with lymphedema?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">5. What is the risk of infection with lymphedema?</h3>\n<!-- /wp:heading -->"
+    }
+  ],
+  "reverse": [
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">5. What is the risk of infection with lymphedema?</h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>5. What is the risk of infection with lymphedema?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">4. Can exercise help with skin sensitivity in lymphedema?</h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>4. Can exercise help with skin sensitivity in lymphedema?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">3. How often should I wear compression garments?</h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>3. How often should I wear compression garments?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">2. What are the best moisturizers for sensitive skin in lymphedema?</h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>2. What are the best moisturizers for sensitive skin in lymphedema?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">1. Can skin sensitivity in lymphedema be reversed?</h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>1. Can skin sensitivity in lymphedema be reversed?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">FAQs</h2>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">FAQs</h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Importance of Understanding the Relationship Between Lymphedema and Skin Sensitivity</h2>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Importance of Understanding the Relationship Between Lymphedema and Skin Sensitivity</h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">Overview of Skin Sensitivity</h2>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">Overview of Skin Sensitivity</h3>\n<!-- /wp:heading -->"
+    }
+  ]
+}
