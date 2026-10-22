@@ -512,7 +512,10 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>For a focused discussion of cartilage harvest, donor-site scars and alternatives, read the <Link href="/rib-rhinoplasty-singapore">rib cartilage rhinoplasty guide</Link>.</p>
                 ) : null}
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'choosing-surgeon' ? (
+                  <>
                   <p>When comparing surgeons, use the <Link href="/plastic-surgeon-singapore#evaluate">credential-evaluation checklist</Link> and the <Link href="/plastic-surgeon-singapore#consultation">broader consultation questions</Link> alongside the rhinoplasty-specific points above.</p>
+                  <p>Patient reading: <a href="https://www.plasticsurgery.org/news/articles/can-you-trust-that-transformation-reading-before-and-after-photos-in-the-age-of-ai">American Society of Plastic Surgeons: interpreting before-and-after photographs and AI editing</a>. This is general information about evaluating images.</p>
+                  </>
                 ) : null}
                 {article.slug === 'breast-augmentation-singapore' && section.id === 'choosing-surgeon' ? (
                   <p>For a broader comparison, use the <Link href="/plastic-surgeon-singapore#evaluate">credential-evaluation checklist</Link> and the <Link href="/plastic-surgeon-singapore#consultation">consultation questions</Link> alongside the breast-augmentation-specific points above.</p>
