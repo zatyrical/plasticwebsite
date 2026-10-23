@@ -1,0 +1,486 @@
+{
+  "before_sha256": "869a9e7e3cf58f668792b249e1cbc475025b330723973593784d86ef8c2f0319",
+  "after_sha256": "b7cf7ff9984dee6613b41773262f48952393bf37ab62c9901130e97d233ea5f3",
+  "h1": 1,
+  "canonical": [
+    "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/"
+  ],
+  "faqs": [
+    {
+      "tag": "h3",
+      "text": "Q1: How does lymphedema affect mobility?"
+    },
+    {
+      "tag": "h3",
+      "text": "Q2: Can exercise help with lymphedema and mobility?"
+    },
+    {
+      "tag": "h3",
+      "text": "Q3: What is the most effective way to manage lymphedema for improved mobility?"
+    },
+    {
+      "tag": "h3",
+      "text": "Q4: Can assistive devices help with mobility issues related to lymphedema?"
+    },
+    {
+      "tag": "h3",
+      "text": "Q5: How can I stay motivated when lymphedema limits my mobility?"
+    }
+  ],
+  "text_parity": true,
+  "hrefs": [
+    "https://lymphedasia.com/diet-and-nutrition-for-lymphedema-management/",
+    "https://lymphedasia.com/lymphedema-physical-therapy-exercises/",
+    "https://lymphedasia.com/lymphedema-and-posture/",
+    "https://lymphedasia.com/private-lymphedema-consultation-singapore/",
+    "https://en.wikipedia.org/wiki/Lymphedema"
+  ],
+  "jsonld_before": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Place",
+          "@id": "https://lymphedasia.com/#place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "290 Orchard Road #09-01/02",
+            "addressLocality": "Singapore",
+            "postalCode": "238859",
+            "addressCountry": "SG"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://lymphedasia.com/#organization",
+          "name": "Lymphedema Asia",
+          "url": "https://lymphedasia.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "290 Orchard Road #09-01/02",
+            "addressLocality": "Singapore",
+            "postalCode": "238859",
+            "addressCountry": "SG"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://lymphedasia.com/#logo",
+            "url": "https://lymphedasia.com/wp-content/uploads/2024/06/cropped-Lymphedasia.jpg",
+            "contentUrl": "https://lymphedasia.com/wp-content/uploads/2024/06/cropped-Lymphedasia.jpg",
+            "caption": "Lymphedema Asia",
+            "inLanguage": "en-US",
+            "width": "401",
+            "height": "467"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+65 6530 3573",
+              "contactType": "customer support"
+            }
+          ],
+          "location": {
+            "@id": "https://lymphedasia.com/#place"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://lymphedasia.com/#website",
+          "url": "https://lymphedasia.com",
+          "name": "Lymphedema Asia",
+          "publisher": {
+            "@id": "https://lymphedasia.com/#organization"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": "1",
+              "item": {
+                "@id": "https://lymphedasia.com",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "2",
+              "item": {
+                "@id": "https://lymphedasia.com/category/blog/",
+                "name": "Blog"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "3",
+              "item": {
+                "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/",
+                "name": "Lymphedema and How It Affects Your Mobility"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#webpage",
+          "url": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/",
+          "name": "Lymphedema and Its Impact on Patient Mobility",
+          "datePublished": "2025-07-08T06:37:08+00:00",
+          "dateModified": "2026-10-09T21:04:07+00:00",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/#website"
+          },
+          "inLanguage": "en-US",
+          "breadcrumb": {
+            "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#breadcrumb"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://lymphedasia.com/author/jeremy-sun/",
+          "name": "Dr Jeremy Sun Mingfa",
+          "description": "Dr Jeremy Sun Mingfa is a Singapore-based plastic surgeon whose reconstructive specialty is in lymphatic surgery and supermicrosurgical lymphatic reconstruction. Chairman of the Chapter of Plastic, Reconstructive and Aesthetic Surgeons, Academy of Medicine Singapore.",
+          "url": "https://lymphedasia.com/author/jeremy-sun/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/1bac6ab0b7b83736d51f014333e07b71042dae4050a974b8ae13ea87862608b5?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/1bac6ab0b7b83736d51f014333e07b71042dae4050a974b8ae13ea87862608b5?s=96&amp;d=mm&amp;r=g",
+            "caption": "Dr Jeremy Sun Mingfa",
+            "inLanguage": "en-US"
+          },
+          "sameAs": [
+            "https://lymphedasia.com",
+            "https://www.linkedin.com/in/jeremy-sun-9131aa61/",
+            "https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy",
+            "https://scholar.google.com/citations?user=lk55NMIAAAAJ",
+            "https://sciprofiles.com/profile/4625289",
+            "https://www.singhealthdukenus.com.sg/conference/sdc2025/our-speakers/Jeremy-Sun",
+            "https://www.asvs2025.com/faculty-involvement/"
+          ],
+          "worksFor": {
+            "@id": "https://lymphedasia.com/#organization"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Lymphedema and Its Impact on Patient Mobility",
+          "keywords": "Mobility",
+          "datePublished": "2025-07-08T06:37:08+00:00",
+          "dateModified": "2026-10-09T21:04:07+00:00",
+          "articleSection": "Blog",
+          "author": {
+            "@id": "https://lymphedasia.com/author/jeremy-sun/",
+            "name": "Dr Jeremy Sun Mingfa"
+          },
+          "publisher": {
+            "@id": "https://lymphedasia.com/#organization"
+          },
+          "description": "Lymphedema affects mobility, balance, and quality of life. Explore expert strategies to stay active and independent. Learn more from trusted insights.",
+          "name": "Lymphedema and Its Impact on Patient Mobility",
+          "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#richSnippet",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#webpage"
+          },
+          "inLanguage": "en-US",
+          "mainEntityOfPage": {
+            "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#webpage"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://lymphedasia.com/#website",
+          "url": "https://lymphedasia.com/",
+          "name": "LymphedAsia",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://lymphedasia.com/#dr-jeremy-sun",
+          "name": "Dr Jeremy Sun Mingfa",
+          "url": "https://www.drjeremysun.com/",
+          "sameAs": [
+            "https://www.drjeremysun.com/",
+            "https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/"
+          ],
+          "jobTitle": "Plastic, reconstructive and aesthetic surgeon",
+          "knowsAbout": [
+            "Lymphedema",
+            "Lymphovenous bypass",
+            "Lymphaticovenular anastomosis",
+            "ICG lymphography",
+            "Ultrasound localisation of lymphatic channels",
+            "Cellulitis risk in lymphedema",
+            "Compression therapy"
+          ]
+        },
+        {
+          "@type": "MedicalWebPage",
+          "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#medicalwebpage",
+          "url": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/",
+          "name": "Lymphedema and Its Impact on Patient Mobility",
+          "description": "Lymphedema can feel like carrying an extra weight you didn’t sign up for. That swollen arm or leg isn’t just a visual change—it can slow you down, make simple tasks more challenging,",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/#website"
+          },
+          "about": [
+            {
+              "@type": "MedicalCondition",
+              "name": "Lymphedema",
+              "alternateName": "Lymphoedema"
+            }
+          ],
+          "reviewedBy": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "author": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "publisher": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "dateModified": "2026-10-09T21:04:07+00:00",
+          "medicalAudience": {
+            "@type": "MedicalAudience",
+            "audienceType": "Patients and caregivers"
+          }
+        }
+      ]
+    }
+  ],
+  "jsonld_after": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Place",
+          "@id": "https://lymphedasia.com/#place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "290 Orchard Road #09-01/02",
+            "addressLocality": "Singapore",
+            "postalCode": "238859",
+            "addressCountry": "SG"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://lymphedasia.com/#organization",
+          "name": "Lymphedema Asia",
+          "url": "https://lymphedasia.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "290 Orchard Road #09-01/02",
+            "addressLocality": "Singapore",
+            "postalCode": "238859",
+            "addressCountry": "SG"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://lymphedasia.com/#logo",
+            "url": "https://lymphedasia.com/wp-content/uploads/2024/06/cropped-Lymphedasia.jpg",
+            "contentUrl": "https://lymphedasia.com/wp-content/uploads/2024/06/cropped-Lymphedasia.jpg",
+            "caption": "Lymphedema Asia",
+            "inLanguage": "en-US",
+            "width": "401",
+            "height": "467"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+65 6530 3573",
+              "contactType": "customer support"
+            }
+          ],
+          "location": {
+            "@id": "https://lymphedasia.com/#place"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://lymphedasia.com/#website",
+          "url": "https://lymphedasia.com",
+          "name": "Lymphedema Asia",
+          "publisher": {
+            "@id": "https://lymphedasia.com/#organization"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": "1",
+              "item": {
+                "@id": "https://lymphedasia.com",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "2",
+              "item": {
+                "@id": "https://lymphedasia.com/category/blog/",
+                "name": "Blog"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "3",
+              "item": {
+                "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/",
+                "name": "Lymphedema and How It Affects Your Mobility"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#webpage",
+          "url": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/",
+          "name": "Lymphedema and Its Impact on Patient Mobility",
+          "datePublished": "2025-07-08T06:37:08+00:00",
+          "dateModified": "2026-10-23T07:03:38+00:00",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/#website"
+          },
+          "inLanguage": "en-US",
+          "breadcrumb": {
+            "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#breadcrumb"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://lymphedasia.com/author/jeremy-sun/",
+          "name": "Dr Jeremy Sun Mingfa",
+          "description": "Dr Jeremy Sun Mingfa is a Singapore-based plastic surgeon whose reconstructive specialty is in lymphatic surgery and supermicrosurgical lymphatic reconstruction. Chairman of the Chapter of Plastic, Reconstructive and Aesthetic Surgeons, Academy of Medicine Singapore.",
+          "url": "https://lymphedasia.com/author/jeremy-sun/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/1bac6ab0b7b83736d51f014333e07b71042dae4050a974b8ae13ea87862608b5?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/1bac6ab0b7b83736d51f014333e07b71042dae4050a974b8ae13ea87862608b5?s=96&amp;d=mm&amp;r=g",
+            "caption": "Dr Jeremy Sun Mingfa",
+            "inLanguage": "en-US"
+          },
+          "sameAs": [
+            "https://lymphedasia.com",
+            "https://www.linkedin.com/in/jeremy-sun-9131aa61/",
+            "https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy",
+            "https://scholar.google.com/citations?user=lk55NMIAAAAJ",
+            "https://sciprofiles.com/profile/4625289",
+            "https://www.singhealthdukenus.com.sg/conference/sdc2025/our-speakers/Jeremy-Sun",
+            "https://www.asvs2025.com/faculty-involvement/"
+          ],
+          "worksFor": {
+            "@id": "https://lymphedasia.com/#organization"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Lymphedema and Its Impact on Patient Mobility",
+          "keywords": "Mobility",
+          "datePublished": "2025-07-08T06:37:08+00:00",
+          "dateModified": "2026-10-23T07:03:38+00:00",
+          "articleSection": "Blog",
+          "author": {
+            "@id": "https://lymphedasia.com/author/jeremy-sun/",
+            "name": "Dr Jeremy Sun Mingfa"
+          },
+          "publisher": {
+            "@id": "https://lymphedasia.com/#organization"
+          },
+          "description": "Lymphedema affects mobility, balance, and quality of life. Explore expert strategies to stay active and independent. Learn more from trusted insights.",
+          "name": "Lymphedema and Its Impact on Patient Mobility",
+          "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#richSnippet",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#webpage"
+          },
+          "inLanguage": "en-US",
+          "mainEntityOfPage": {
+            "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#webpage"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://lymphedasia.com/#website",
+          "url": "https://lymphedasia.com/",
+          "name": "LymphedAsia",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://lymphedasia.com/#dr-jeremy-sun",
+          "name": "Dr Jeremy Sun Mingfa",
+          "url": "https://www.drjeremysun.com/",
+          "sameAs": [
+            "https://www.drjeremysun.com/",
+            "https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/"
+          ],
+          "jobTitle": "Plastic, reconstructive and aesthetic surgeon",
+          "knowsAbout": [
+            "Lymphedema",
+            "Lymphovenous bypass",
+            "Lymphaticovenular anastomosis",
+            "ICG lymphography",
+            "Ultrasound localisation of lymphatic channels",
+            "Cellulitis risk in lymphedema",
+            "Compression therapy"
+          ]
+        },
+        {
+          "@type": "MedicalWebPage",
+          "@id": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/#medicalwebpage",
+          "url": "https://lymphedasia.com/lymphedema-and-how-it-affects-your-mobility/",
+          "name": "Lymphedema and Its Impact on Patient Mobility",
+          "description": "Lymphedema can feel like carrying an extra weight you didn’t sign up for. That swollen arm or leg isn’t just a visual change—it can slow you down, make simple tasks more challenging,",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/#website"
+          },
+          "about": [
+            {
+              "@type": "MedicalCondition",
+              "name": "Lymphedema",
+              "alternateName": "Lymphoedema"
+            }
+          ],
+          "reviewedBy": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "author": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "publisher": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "dateModified": "2026-10-23T07:03:38+00:00",
+          "medicalAudience": {
+            "@type": "MedicalAudience",
+            "audienceType": "Patients and caregivers"
+          }
+        }
+      ]
+    }
+  ]
+}
