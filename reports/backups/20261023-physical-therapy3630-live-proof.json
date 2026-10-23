@@ -1,0 +1,42 @@
+{
+  "url": "https://lymphedasia.com/lymphedema-physical-therapy/",
+  "http_status": 200,
+  "h1_count": 1,
+  "questions": [
+    [
+      "h3",
+      "Q1: Can physical therapy cure lymphedema?"
+    ],
+    [
+      "h3",
+      "Q2: How long does physical therapy for lymphedema take?"
+    ],
+    [
+      "h3",
+      "Q3: Is manual lymphatic drainage painful?"
+    ],
+    [
+      "h3",
+      "Q4: Can I do lymphatic drainage massage on my own at home?"
+    ],
+    [
+      "h3",
+      "Q5: What types of compression garments are best for lymphedema?"
+    ]
+  ],
+  "all_visible_article_text_unchanged": true,
+  "all_seven_links_unchanged": [
+    "https://lymphedasia.com/lymphedema-management-with-physical-activity/",
+    "https://lymphedasia.com/understanding-the-lymphatic-system/",
+    "https://lymphedasia.com/manual-lymphatic-drainage-and-compression/",
+    "https://lymphedasia.com/lymphedema-compression-garments-for-swelling/",
+    "https://lymphedasia.com/lymphedema-skin-wound-care/",
+    "https://lymphedasia.com/private-lymphedema-consultation-singapore/",
+    "https://lymphedasia.com/what-is-lymphedema/"
+  ],
+  "before_sha256": "48d86834ed38b8c51fa9bd6a0deeb9cb35d09ae1b78d69e80937ff970d85bb16",
+  "after_sha256": "83afd98e2b8d97e8410ccdfcf0c56cf75cd4c8a1c546adacea2af0094ee28a96",
+  "jsonld_equal": false,
+  "before_ld_count": 2,
+  "after_ld_count": 2
+}
