@@ -1,0 +1,47 @@
+{
+  "post_id": 3560,
+  "forward": [
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>Q1: How does lymphedema affect mobility?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q1: How does lymphedema affect mobility?</strong></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>Q2: Can exercise help with lymphedema and mobility?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q2: Can exercise help with lymphedema and mobility?</strong></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>Q3: What is the most effective way to manage lymphedema for improved mobility?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q3: What is the most effective way to manage lymphedema for improved mobility?</strong></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>Q4: Can assistive devices help with mobility issues related to lymphedema?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q4: Can assistive devices help with mobility issues related to lymphedema?</strong></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>Q5: How can I stay motivated when lymphedema limits my mobility?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q5: How can I stay motivated when lymphedema limits my mobility?</strong></h3>\n<!-- /wp:heading -->"
+    }
+  ],
+  "reverse": [
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q1: How does lymphedema affect mobility?</strong></h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>Q1: How does lymphedema affect mobility?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q2: Can exercise help with lymphedema and mobility?</strong></h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>Q2: Can exercise help with lymphedema and mobility?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q3: What is the most effective way to manage lymphedema for improved mobility?</strong></h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>Q3: What is the most effective way to manage lymphedema for improved mobility?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q4: Can assistive devices help with mobility issues related to lymphedema?</strong></h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>Q4: Can assistive devices help with mobility issues related to lymphedema?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q5: How can I stay motivated when lymphedema limits my mobility?</strong></h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>Q5: How can I stay motivated when lymphedema limits my mobility?</strong></p>\n<!-- /wp:paragraph -->"
+    }
+  ]
+}
