@@ -1,0 +1,23 @@
+{
+  "post_id": 3095,
+  "forward": [
+    {
+      "old_content": "<li>wear prescribed compression as advised;</li>",
+      "new_content": "<li>wear <a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">prescribed compression</a> as advised;</li>"
+    },
+    {
+      "old_content": "<li>keep follow-up with therapists or doctors when symptoms change.</li>",
+      "new_content": "<li>keep <a href=\"https://lymphedasia.com/lymphedema-therapy/\">follow-up with therapists</a> or doctors when symptoms change.</li>"
+    }
+  ],
+  "reverse": [
+    {
+      "old_content": "<li>keep <a href=\"https://lymphedasia.com/lymphedema-therapy/\">follow-up with therapists</a> or doctors when symptoms change.</li>",
+      "new_content": "<li>keep follow-up with therapists or doctors when symptoms change.</li>"
+    },
+    {
+      "old_content": "<li>wear <a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">prescribed compression</a> as advised;</li>",
+      "new_content": "<li>wear prescribed compression as advised;</li>"
+    }
+  ]
+}
