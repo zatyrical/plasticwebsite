@@ -1,0 +1,540 @@
+{
+  "before_sha256": "83ed10fb30f2657568aa6c0b45807415d360892b838397b30a4a465ed254abfc",
+  "after_sha256": "b324bcca506b74ed36888bc220d52896d3be0647062bdf793b7bbb7f38f5742f",
+  "h1": 1,
+  "canonical": [
+    "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/"
+  ],
+  "headings": [
+    {
+      "tag": "h2",
+      "text": "When to move from self-care tips to a lymphedema treatment plan"
+    },
+    {
+      "tag": "h2",
+      "text": "How exercise helps lymph flow"
+    },
+    {
+      "tag": "h2",
+      "text": "Safe exercise options"
+    },
+    {
+      "tag": "h2",
+      "text": "How to progress"
+    },
+    {
+      "tag": "h2",
+      "text": "When to pause"
+    },
+    {
+      "tag": "h2",
+      "text": "Frequently asked questions"
+    },
+    {
+      "tag": "h3",
+      "text": "Do I need compression during exercise?"
+    },
+    {
+      "tag": "h3",
+      "text": "Can weights make lymphedema worse?"
+    },
+    {
+      "tag": "h3",
+      "text": "What is the best exercise?"
+    },
+    {
+      "tag": "h3",
+      "text": "When should persistent swelling be assessed?"
+    }
+  ],
+  "text_parity": true,
+  "hrefs": [
+    "https://lymphedasia.com/complete-guide-to-lymphatic-drainage-and-relief/",
+    "https://lymphedasia.com/lymphedema-treatment/",
+    "https://lymphedasia.com/lva-surgery-singapore/",
+    "https://lymphedasia.com/private-lymphedema-consultation-singapore/",
+    "https://lymphedasia.com/lva-surgery-singapore/",
+    "https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/",
+    "https://lymphedasia.com/icg-lymphography-singapore/",
+    "https://lymphedasia.com/lva-surgery-singapore/",
+    "https://lymphedasia.com/lipedema-singapore/"
+  ],
+  "jsonld_before": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Place",
+          "@id": "https://lymphedasia.com/#place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "290 Orchard Road #09-01/02",
+            "addressLocality": "Singapore",
+            "postalCode": "238859",
+            "addressCountry": "SG"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://lymphedasia.com/#organization",
+          "name": "Lymphedema Asia",
+          "url": "https://lymphedasia.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "290 Orchard Road #09-01/02",
+            "addressLocality": "Singapore",
+            "postalCode": "238859",
+            "addressCountry": "SG"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://lymphedasia.com/#logo",
+            "url": "https://lymphedasia.com/wp-content/uploads/2024/06/cropped-Lymphedasia.jpg",
+            "contentUrl": "https://lymphedasia.com/wp-content/uploads/2024/06/cropped-Lymphedasia.jpg",
+            "caption": "Lymphedema Asia",
+            "inLanguage": "en-US",
+            "width": "401",
+            "height": "467"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+65 6530 3573",
+              "contactType": "customer support"
+            }
+          ],
+          "location": {
+            "@id": "https://lymphedasia.com/#place"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://lymphedasia.com/#website",
+          "url": "https://lymphedasia.com",
+          "name": "Lymphedema Asia",
+          "publisher": {
+            "@id": "https://lymphedasia.com/#organization"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://lymphedasia.com/wp-content/uploads/2024/07/5-Essential-Exercises-for-Lymphedema-Relief.jpg",
+          "url": "https://lymphedasia.com/wp-content/uploads/2024/07/5-Essential-Exercises-for-Lymphedema-Relief.jpg",
+          "width": "1024",
+          "height": "1024",
+          "caption": "5 Essential Exercises for Lymphedema Relief",
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": "1",
+              "item": {
+                "@id": "https://lymphedasia.com",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "2",
+              "item": {
+                "@id": "https://lymphedasia.com/category/blog/",
+                "name": "Blog"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "3",
+              "item": {
+                "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+                "name": "Practical Lymphedema Exercises for Daily Lymph Flow"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#webpage",
+          "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+          "name": "Practical Lymphedema Exercises for Lymph Flow",
+          "datePublished": "2024-07-03T18:32:24+00:00",
+          "dateModified": "2026-10-01T19:37:33+00:00",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://lymphedasia.com/wp-content/uploads/2024/07/5-Essential-Exercises-for-Lymphedema-Relief.jpg"
+          },
+          "inLanguage": "en-US",
+          "breadcrumb": {
+            "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#breadcrumb"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://lymphedasia.com/author/jeremy-sun/",
+          "name": "Dr Jeremy Sun Mingfa",
+          "description": "Dr Jeremy Sun Mingfa is a Singapore-based plastic surgeon whose reconstructive specialty is in lymphatic surgery and supermicrosurgical lymphatic reconstruction. Chairman of the Chapter of Plastic, Reconstructive and Aesthetic Surgeons, Academy of Medicine Singapore.",
+          "url": "https://lymphedasia.com/author/jeremy-sun/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/1bac6ab0b7b83736d51f014333e07b71042dae4050a974b8ae13ea87862608b5?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/1bac6ab0b7b83736d51f014333e07b71042dae4050a974b8ae13ea87862608b5?s=96&amp;d=mm&amp;r=g",
+            "caption": "Dr Jeremy Sun Mingfa",
+            "inLanguage": "en-US"
+          },
+          "sameAs": [
+            "https://lymphedasia.com",
+            "https://www.linkedin.com/in/jeremy-sun-9131aa61/",
+            "https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy",
+            "https://scholar.google.com/citations?user=lk55NMIAAAAJ",
+            "https://sciprofiles.com/profile/4625289",
+            "https://www.singhealthdukenus.com.sg/conference/sdc2025/our-speakers/Jeremy-Sun",
+            "https://www.asvs2025.com/faculty-involvement/"
+          ],
+          "worksFor": {
+            "@id": "https://lymphedasia.com/#organization"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Practical Lymphedema Exercises for Lymph Flow",
+          "keywords": "Best Exercises for Lymphatic Drainage and Lymphedema Relief",
+          "datePublished": "2024-07-03T18:32:24+00:00",
+          "dateModified": "2026-10-01T19:37:33+00:00",
+          "articleSection": "Blog",
+          "author": {
+            "@id": "https://lymphedasia.com/author/jeremy-sun/",
+            "name": "Dr Jeremy Sun Mingfa"
+          },
+          "publisher": {
+            "@id": "https://lymphedasia.com/#organization"
+          },
+          "description": "Gentle lymphedema exercises for daily lymph flow: breathing, walking, calf pumps and limb movements, with safety limits and when to seek assessment.",
+          "name": "Practical Lymphedema Exercises for Lymph Flow",
+          "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#richSnippet",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#webpage"
+          },
+          "image": {
+            "@id": "https://lymphedasia.com/wp-content/uploads/2024/07/5-Essential-Exercises-for-Lymphedema-Relief.jpg"
+          },
+          "inLanguage": "en-US",
+          "mainEntityOfPage": {
+            "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#webpage"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://lymphedasia.com/#website",
+          "url": "https://lymphedasia.com/",
+          "name": "LymphedAsia",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://lymphedasia.com/#dr-jeremy-sun",
+          "name": "Dr Jeremy Sun Mingfa",
+          "url": "https://www.drjeremysun.com/",
+          "sameAs": [
+            "https://www.drjeremysun.com/",
+            "https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/"
+          ],
+          "jobTitle": "Plastic, reconstructive and aesthetic surgeon",
+          "knowsAbout": [
+            "Lymphedema",
+            "Lymphovenous bypass",
+            "Lymphaticovenular anastomosis",
+            "ICG lymphography",
+            "Ultrasound localisation of lymphatic channels",
+            "Cellulitis risk in lymphedema",
+            "Compression therapy"
+          ]
+        },
+        {
+          "@type": "MedicalWebPage",
+          "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#medicalwebpage",
+          "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+          "name": "Practical Lymphedema Exercises for Lymph Flow",
+          "description": "Quick answer: Gentle movement, deep breathing, walking, calf-pump exercises, and guided limb exercises can support lymph flow. Exercises work best when matched to the cause of swelling and should not replace medical",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/#website"
+          },
+          "about": [
+            {
+              "@type": "MedicalCondition",
+              "name": "Lymphedema",
+              "alternateName": "Lymphoedema"
+            }
+          ],
+          "reviewedBy": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "author": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "publisher": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "dateModified": "2026-10-01T19:37:33+00:00",
+          "medicalAudience": {
+            "@type": "MedicalAudience",
+            "audienceType": "Patients and caregivers"
+          }
+        }
+      ]
+    }
+  ],
+  "jsonld_after": [
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Place",
+          "@id": "https://lymphedasia.com/#place",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "290 Orchard Road #09-01/02",
+            "addressLocality": "Singapore",
+            "postalCode": "238859",
+            "addressCountry": "SG"
+          }
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://lymphedasia.com/#organization",
+          "name": "Lymphedema Asia",
+          "url": "https://lymphedasia.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "290 Orchard Road #09-01/02",
+            "addressLocality": "Singapore",
+            "postalCode": "238859",
+            "addressCountry": "SG"
+          },
+          "logo": {
+            "@type": "ImageObject",
+            "@id": "https://lymphedasia.com/#logo",
+            "url": "https://lymphedasia.com/wp-content/uploads/2024/06/cropped-Lymphedasia.jpg",
+            "contentUrl": "https://lymphedasia.com/wp-content/uploads/2024/06/cropped-Lymphedasia.jpg",
+            "caption": "Lymphedema Asia",
+            "inLanguage": "en-US",
+            "width": "401",
+            "height": "467"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+65 6530 3573",
+              "contactType": "customer support"
+            }
+          ],
+          "location": {
+            "@id": "https://lymphedasia.com/#place"
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://lymphedasia.com/#website",
+          "url": "https://lymphedasia.com",
+          "name": "Lymphedema Asia",
+          "publisher": {
+            "@id": "https://lymphedasia.com/#organization"
+          },
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "ImageObject",
+          "@id": "https://lymphedasia.com/wp-content/uploads/2024/07/5-Essential-Exercises-for-Lymphedema-Relief.jpg",
+          "url": "https://lymphedasia.com/wp-content/uploads/2024/07/5-Essential-Exercises-for-Lymphedema-Relief.jpg",
+          "width": "1024",
+          "height": "1024",
+          "caption": "5 Essential Exercises for Lymphedema Relief",
+          "inLanguage": "en-US"
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": "1",
+              "item": {
+                "@id": "https://lymphedasia.com",
+                "name": "Home"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "2",
+              "item": {
+                "@id": "https://lymphedasia.com/category/blog/",
+                "name": "Blog"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": "3",
+              "item": {
+                "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+                "name": "Practical Lymphedema Exercises for Daily Lymph Flow"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#webpage",
+          "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+          "name": "Practical Lymphedema Exercises for Lymph Flow",
+          "datePublished": "2024-07-03T18:32:24+00:00",
+          "dateModified": "2026-10-23T08:57:58+00:00",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/#website"
+          },
+          "primaryImageOfPage": {
+            "@id": "https://lymphedasia.com/wp-content/uploads/2024/07/5-Essential-Exercises-for-Lymphedema-Relief.jpg"
+          },
+          "inLanguage": "en-US",
+          "breadcrumb": {
+            "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#breadcrumb"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://lymphedasia.com/author/jeremy-sun/",
+          "name": "Dr Jeremy Sun Mingfa",
+          "description": "Dr Jeremy Sun Mingfa is a Singapore-based plastic surgeon whose reconstructive specialty is in lymphatic surgery and supermicrosurgical lymphatic reconstruction. Chairman of the Chapter of Plastic, Reconstructive and Aesthetic Surgeons, Academy of Medicine Singapore.",
+          "url": "https://lymphedasia.com/author/jeremy-sun/",
+          "image": {
+            "@type": "ImageObject",
+            "@id": "https://secure.gravatar.com/avatar/1bac6ab0b7b83736d51f014333e07b71042dae4050a974b8ae13ea87862608b5?s=96&amp;d=mm&amp;r=g",
+            "url": "https://secure.gravatar.com/avatar/1bac6ab0b7b83736d51f014333e07b71042dae4050a974b8ae13ea87862608b5?s=96&amp;d=mm&amp;r=g",
+            "caption": "Dr Jeremy Sun Mingfa",
+            "inLanguage": "en-US"
+          },
+          "sameAs": [
+            "https://lymphedasia.com",
+            "https://www.linkedin.com/in/jeremy-sun-9131aa61/",
+            "https://www.cgh.com.sg/doctor/plastic-surgery/sun-mingfa-jeremy",
+            "https://scholar.google.com/citations?user=lk55NMIAAAAJ",
+            "https://sciprofiles.com/profile/4625289",
+            "https://www.singhealthdukenus.com.sg/conference/sdc2025/our-speakers/Jeremy-Sun",
+            "https://www.asvs2025.com/faculty-involvement/"
+          ],
+          "worksFor": {
+            "@id": "https://lymphedasia.com/#organization"
+          }
+        },
+        {
+          "@type": "BlogPosting",
+          "headline": "Practical Lymphedema Exercises for Lymph Flow",
+          "keywords": "Best Exercises for Lymphatic Drainage and Lymphedema Relief",
+          "datePublished": "2024-07-03T18:32:24+00:00",
+          "dateModified": "2026-10-23T08:57:58+00:00",
+          "articleSection": "Blog",
+          "author": {
+            "@id": "https://lymphedasia.com/author/jeremy-sun/",
+            "name": "Dr Jeremy Sun Mingfa"
+          },
+          "publisher": {
+            "@id": "https://lymphedasia.com/#organization"
+          },
+          "description": "Gentle lymphedema exercises for daily lymph flow: breathing, walking, calf pumps and limb movements, with safety limits and when to seek assessment.",
+          "name": "Practical Lymphedema Exercises for Lymph Flow",
+          "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#richSnippet",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#webpage"
+          },
+          "image": {
+            "@id": "https://lymphedasia.com/wp-content/uploads/2024/07/5-Essential-Exercises-for-Lymphedema-Relief.jpg"
+          },
+          "inLanguage": "en-US",
+          "mainEntityOfPage": {
+            "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#webpage"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://lymphedasia.com/#website",
+          "url": "https://lymphedasia.com/",
+          "name": "LymphedAsia",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://lymphedasia.com/#dr-jeremy-sun",
+          "name": "Dr Jeremy Sun Mingfa",
+          "url": "https://www.drjeremysun.com/",
+          "sameAs": [
+            "https://www.drjeremysun.com/",
+            "https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/"
+          ],
+          "jobTitle": "Plastic, reconstructive and aesthetic surgeon",
+          "knowsAbout": [
+            "Lymphedema",
+            "Lymphovenous bypass",
+            "Lymphaticovenular anastomosis",
+            "ICG lymphography",
+            "Ultrasound localisation of lymphatic channels",
+            "Cellulitis risk in lymphedema",
+            "Compression therapy"
+          ]
+        },
+        {
+          "@type": "MedicalWebPage",
+          "@id": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/#medicalwebpage",
+          "url": "https://lymphedasia.com/effective-exercises-for-lymphedema-relief/",
+          "name": "Practical Lymphedema Exercises for Lymph Flow",
+          "description": "Quick answer: Gentle movement, deep breathing, walking, calf-pump exercises, and guided limb exercises can support lymph flow. Exercises work best when matched to the cause of swelling and should not replace medical",
+          "inLanguage": "en-US",
+          "isPartOf": {
+            "@id": "https://lymphedasia.com/#website"
+          },
+          "about": [
+            {
+              "@type": "MedicalCondition",
+              "name": "Lymphedema",
+              "alternateName": "Lymphoedema"
+            }
+          ],
+          "reviewedBy": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "author": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "publisher": {
+            "@id": "https://lymphedasia.com/#dr-jeremy-sun"
+          },
+          "dateModified": "2026-10-23T08:57:58+00:00",
+          "medicalAudience": {
+            "@type": "MedicalAudience",
+            "audienceType": "Patients and caregivers"
+          }
+        }
+      ]
+    }
+  ]
+}
