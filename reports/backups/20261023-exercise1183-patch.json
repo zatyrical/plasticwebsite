@@ -1,0 +1,11 @@
+{
+  "post_id": 1183,
+  "forward": {
+    "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">When to move from self-care tips to a lymphedema treatment plan</h3>\n<!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">When to move from self-care tips to a lymphedema treatment plan</h2>\n<!-- /wp:heading -->"
+  },
+  "reverse": {
+    "old_content": "<!-- wp:heading -->\n<h2 class=\"wp-block-heading\">When to move from self-care tips to a lymphedema treatment plan</h2>\n<!-- /wp:heading -->",
+    "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">When to move from self-care tips to a lymphedema treatment plan</h3>\n<!-- /wp:heading -->"
+  }
+}
