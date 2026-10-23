@@ -473,7 +473,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>Comparing a surgical lift with threads? Read the <Link href="/thread-lifting-singapore">thread lifting guide</Link> for patient selection, recovery and limitations before your consultation.</p>
                 ) : null}
                 {article.slug === 'face-neck-lift-singapore' && section.id === 'anatomy' ? (
-                  <p>For the separate concerns mentioned above, explore <Link href="/fat-grafting-singapore">fat grafting and volume restoration</Link> or <Link href="/eyebag-removal-lower-blepharoplasty-singapore">eyebag removal and lower blepharoplasty</Link>. These guides explain their own assessment, risks and recovery; reading them does not mean a combined procedure is needed.</p>
+                  <p>For the separate concerns mentioned above, explore <Link href="/fat-grafting-singapore">fat grafting and volume restoration</Link>, <Link href="/eyebag-removal-lower-blepharoplasty-singapore">eyebag removal and lower blepharoplasty</Link>, or <Link href="/lasers-injectables-singapore#assessment">skin-treatment assessment</Link>. These guides explain their own assessment, risks and recovery; reading them does not mean a combined procedure is needed.</p>
                 ) : null}
                 {article.slug === 'face-neck-lift-singapore' && section.id === 'choosing-surgeon' ? (
                   <p>For a broader comparison, use the <Link href="/plastic-surgeon-singapore#evaluate">credential-evaluation checklist</Link> and the <Link href="/plastic-surgeon-singapore#consultation">consultation questions</Link> alongside the facelift-specific points above.</p>
