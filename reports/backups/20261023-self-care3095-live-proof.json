@@ -1,0 +1,25 @@
+{
+  "status": 200,
+  "text_parity": true,
+  "heading_parity": true,
+  "h1": 1,
+  "canonical": [
+    "https://lymphedasia.com/best-self-care-practices-for-managing-lymphedema/"
+  ],
+  "body_links": [
+    {
+      "href": "https://lymphedasia.com/lymphedema-compression-garments-for-swelling/",
+      "text": "prescribed compression"
+    },
+    {
+      "href": "https://lymphedasia.com/lymphedema-therapy/",
+      "text": "follow-up with therapists"
+    },
+    {
+      "href": "https://lymphedasia.com/lva-surgery-singapore/",
+      "text": "LVA surgery in Singapore: lymphovenous bypass for lymphedema"
+    }
+  ],
+  "sha256": "1fa995e13a8b173a9ca6c29dc20d76b43262e381899c015181219532f4e54810",
+  "destinations": "Both public200/oneH1/self-canonical; bodies inspected"
+}
