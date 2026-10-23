@@ -1,0 +1,47 @@
+{
+  "post_id": 3630,
+  "patches": [
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>Q1: Can physical therapy cure lymphedema?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q1: Can physical therapy cure lymphedema?</strong></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>Q2: How long does physical therapy for lymphedema take?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q2: How long does physical therapy for lymphedema take?</strong></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>Q3: Is manual lymphatic drainage painful?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q3: Is manual lymphatic drainage painful?</strong></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>Q4: Can I do lymphatic drainage massage on my own at home?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q4: Can I do lymphatic drainage massage on my own at home?</strong></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><strong>Q5: What types of compression garments are best for lymphedema?</strong></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q5: What types of compression garments are best for lymphedema?</strong></h3>\n<!-- /wp:heading -->"
+    }
+  ],
+  "reverse": [
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q1: Can physical therapy cure lymphedema?</strong></h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>Q1: Can physical therapy cure lymphedema?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q2: How long does physical therapy for lymphedema take?</strong></h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>Q2: How long does physical therapy for lymphedema take?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q3: Is manual lymphatic drainage painful?</strong></h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>Q3: Is manual lymphatic drainage painful?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q4: Can I do lymphatic drainage massage on my own at home?</strong></h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>Q4: Can I do lymphatic drainage massage on my own at home?</strong></p>\n<!-- /wp:paragraph -->"
+    },
+    {
+      "old_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><strong>Q5: What types of compression garments are best for lymphedema?</strong></h3>\n<!-- /wp:heading -->",
+      "new_content": "<!-- wp:paragraph -->\n<p><strong>Q5: What types of compression garments are best for lymphedema?</strong></p>\n<!-- /wp:paragraph -->"
+    }
+  ]
+}
