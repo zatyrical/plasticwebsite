@@ -449,7 +449,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'questions',
         heading: 'Questions to ask before breast augmentation',
-        items: ['Is my goal mainly volume increase, upper-pole fullness, symmetry, shape or correction of postpartum change?', 'What implant dimensions fit my breast base width and soft-tissue coverage?', 'Would implants, fat grafting, a breast lift or a staged plan best match my anatomy?', 'Do I need breast imaging or specialist review before elective surgery?', 'Where will the scar be and how may it mature?', 'What implant-specific risks and long-term follow-up should I understand?', 'How might future pregnancy or breastfeeding goals affect timing and planning?']
+        items: ['Is my goal mainly volume increase, upper-pole fullness, symmetry, shape or correction of postpartum change?', 'What implant dimensions fit my breast base width and soft-tissue coverage?', 'Would implants, fat grafting, a breast lift or a staged plan best match my anatomy?', 'Do I need breast imaging or specialist review before elective surgery?', 'Where will the scar be and how may it mature?', 'What implant-specific risks and long-term follow-up should I understand?', 'What written implant information and device records will I receive to keep for future follow-up?', 'How might future pregnancy or breastfeeding goals affect timing and planning?']
       }
     ],
     faqs: [
