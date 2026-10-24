@@ -110,7 +110,7 @@ const jsonLd = {
   name: 'Plastic Surgery Patient Education',
   description: metadata.description,
   inLanguage: 'en-SG',
-  dateModified: '2026-10-13',
+  dateModified: '2026-10-24',
   mainEntity: {
     '@type': 'ItemList',
     itemListElement: articles.map((article, index) => ({
@@ -146,8 +146,9 @@ export default function BlogIndex() {
         </div>
       </section>
 
-      <section className="section article-content">
+      <section className="section article-content" aria-labelledby="patient-guides-heading">
         <div className="container">
+          <h2 id="patient-guides-heading">All patient guides</h2>
           <p className="notice-text">These articles provide general medical information and do not replace consultation with a qualified medical practitioner. Suitability, risks, recovery and outcomes vary between individuals.</p>
           <div className="grid-3" id="articles">
             {articles.map((article) => (
