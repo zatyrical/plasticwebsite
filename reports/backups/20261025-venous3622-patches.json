@@ -1,0 +1,27 @@
+{
+  "post_id": 3622,
+  "url": "https://lymphedasia.com/lymphedema-and-venous-insufficiency/",
+  "patches": [
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><em>Q1: Can chronic venous insufficiency cause lymphedema?</em></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><em>Q1: Can chronic venous insufficiency cause lymphedema?</em></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><em>Q2: What are the most effective treatments for lymphedema and chronic venous insufficiency?</em></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><em>Q2: What are the most effective treatments for lymphedema and chronic venous insufficiency?</em></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><em>Q3: Is surgery ever needed for lymphedema and chronic venous insufficiency?</em></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><em>Q3: Is surgery ever needed for lymphedema and chronic venous insufficiency?</em></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><em>Q4: How can I prevent lymphedema and chronic venous insufficiency?</em></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><em>Q4: How can I prevent lymphedema and chronic venous insufficiency?</em></h3>\n<!-- /wp:heading -->"
+    },
+    {
+      "old_content": "<!-- wp:paragraph -->\n<p><em>Q5: Are there any lifestyle changes that can help manage lymphedema and CVI?</em></p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\"><em>Q5: Are there any lifestyle changes that can help manage lymphedema and CVI?</em></h3>\n<!-- /wp:heading -->"
+    }
+  ],
+  "rollback": "Reconcile fresh content then apply inverse patches in reverse order with supported content/edit; verify readback and public output. Git revert alone does not restore WordPress."
+}
