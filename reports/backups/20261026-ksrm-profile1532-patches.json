@@ -1,0 +1,34 @@
+[
+  {
+    "forward": {
+      "target_type": "post",
+      "post_id": 1532,
+      "field": "post_content",
+      "old_content": "<h2 id=\"assessment-before-surgery\">Assessment before deciding on surgery</h2>",
+      "new_content": "<h2 id=\"ksrm-2026-presentation\">Lymphoedema presentation at KSRM 2026</h2>\n<p>Dr Jeremy Sun presented at the 45th Congress of the Korean Society for Reconstructive Microsurgery (KSRM 2026), held at Sejong University Convention Center in Seoul on 23–24 October 2026. His talk, <em>Evolution in Lymphedema Management: An Algorithmic Approach from Mild to Advanced Disease</em>, was listed in the Lymphatics 1 (Advanced Lymphedema) session on 24 October. See the <a href=\"https://ksrm2026.com/scientificprogram\">official scientific programme</a> and <a href=\"https://ksrm2026.com/invitedspeakers\">invited-speaker listing</a>. This records a professional education contribution, not organiser endorsement of clinical services.</p>\n\n<h2 id=\"assessment-before-surgery\">Assessment before deciding on surgery</h2>"
+    },
+    "inverse": {
+      "target_type": "post",
+      "post_id": 1532,
+      "field": "post_content",
+      "old_content": "<h2 id=\"ksrm-2026-presentation\">Lymphoedema presentation at KSRM 2026</h2>\n<p>Dr Jeremy Sun presented at the 45th Congress of the Korean Society for Reconstructive Microsurgery (KSRM 2026), held at Sejong University Convention Center in Seoul on 23–24 October 2026. His talk, <em>Evolution in Lymphedema Management: An Algorithmic Approach from Mild to Advanced Disease</em>, was listed in the Lymphatics 1 (Advanced Lymphedema) session on 24 October. See the <a href=\"https://ksrm2026.com/scientificprogram\">official scientific programme</a> and <a href=\"https://ksrm2026.com/invitedspeakers\">invited-speaker listing</a>. This records a professional education contribution, not organiser endorsement of clinical services.</p>\n\n<h2 id=\"assessment-before-surgery\">Assessment before deciding on surgery</h2>",
+      "new_content": "<h2 id=\"assessment-before-surgery\">Assessment before deciding on surgery</h2>"
+    }
+  },
+  {
+    "forward": {
+      "target_type": "post",
+      "post_id": 1532,
+      "field": "post_content",
+      "old_content": "<li><a href=\"#assessment-before-surgery\">Assessment before deciding on surgery</a></li>",
+      "new_content": "<li><a href=\"#ksrm-2026-presentation\">KSRM 2026 lymphoedema presentation</a></li>\n<li><a href=\"#assessment-before-surgery\">Assessment before deciding on surgery</a></li>"
+    },
+    "inverse": {
+      "target_type": "post",
+      "post_id": 1532,
+      "field": "post_content",
+      "old_content": "<li><a href=\"#ksrm-2026-presentation\">KSRM 2026 lymphoedema presentation</a></li>\n<li><a href=\"#assessment-before-surgery\">Assessment before deciding on surgery</a></li>",
+      "new_content": "<li><a href=\"#assessment-before-surgery\">Assessment before deciding on surgery</a></li>"
+    }
+  }
+]
