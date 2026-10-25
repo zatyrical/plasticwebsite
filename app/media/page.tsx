@@ -69,6 +69,13 @@ const featuredMedia: MediaFeature[] = [
 
 const educationFeatures: MediaFeature[] = [
   {
+    source: 'Invited speaker · 24 October 2026',
+    title: 'Korean Society for Reconstructive Microsurgery — KSRM 2026',
+    description: 'Presented “Evolution in Lymphedema Management: An Algorithmic Approach from Mild to Advanced Disease” in the Advanced Lymphedema session in Seoul. The LymphedAsia profile entry links to the official programme and speaker listing.',
+    href: 'https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/#ksrm-2026-presentation',
+    label: 'View presentation details and sources'
+  },
+  {
     source: 'International congress lecture',
     title: 'World Congress for Plastic Surgeons of Chinese Descent',
     description: 'Conference lecture on lymphatic surgery decision-making and improving patient selection in breast cancer-related lymphedema.',
