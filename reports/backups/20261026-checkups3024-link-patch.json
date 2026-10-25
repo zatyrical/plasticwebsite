@@ -1,0 +1,16 @@
+{
+  "forward": {
+    "target_type": "post",
+    "post_id": 3024,
+    "field": "post_content",
+    "old_content": "<li>Cancer treatment, especially surgeries involving <a href=\"https://lymphedasia.com/lymph-node-transfer-and-lymph-vessel-flaps/\">lymph node</a> removal.</li>",
+    "new_content": "<li>Cancer treatment, especially surgeries involving lymph node removal.</li>"
+  },
+  "inverse": {
+    "target_type": "post",
+    "post_id": 3024,
+    "field": "post_content",
+    "old_content": "<li>Cancer treatment, especially surgeries involving lymph node removal.</li>",
+    "new_content": "<li>Cancer treatment, especially surgeries involving <a href=\"https://lymphedasia.com/lymph-node-transfer-and-lymph-vessel-flaps/\">lymph node</a> removal.</li>"
+  }
+}
