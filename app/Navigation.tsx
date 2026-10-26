@@ -32,7 +32,7 @@ export default function Navigation() {
   }
 
   return (
-    <nav className="nav" onKeyDown={handleKeyDown}>
+    <nav className="nav" aria-label="Primary" onKeyDown={handleKeyDown}>
       <div className="nav-inner">
         <Link href="/" className="brand" aria-label="Dr Sun Plastic Surgery home" onClick={closeMenu}>
           <Image src="/images/brand/dr-sun-logo-nav.jpg" alt="Dr Sun Plastic Surgery logo" width={150} height={150} sizes="(max-width: 900px) 40px, 46px" priority />
