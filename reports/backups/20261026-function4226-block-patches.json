@@ -1,0 +1,34 @@
+[
+  {
+    "forward": {
+      "target_type": "post",
+      "post_id": 4226,
+      "field": "post_content",
+      "old_content": "<!-- wp:table -->\n<!-- wp:paragraph -->\n<p>Persistent or unexplained swelling needs clinical assessment because lymphedema is one of several possible causes. The <a href=\"https://lymphedasia.com/lymphedema-diagnosis-report-explained/\">lymphedema diagnosis guide</a> explains how history, examination and selected imaging may contribute to that assessment.</p>\n<!-- /wp:paragraph -->\n<!-- /wp:table -->",
+      "new_content": "<!-- wp:paragraph -->\n<p>Persistent or unexplained swelling needs clinical assessment because lymphedema is one of several possible causes. The <a href=\"https://lymphedasia.com/lymphedema-diagnosis-report-explained/\">lymphedema diagnosis guide</a> explains how history, examination and selected imaging may contribute to that assessment.</p>\n<!-- /wp:paragraph -->"
+    },
+    "inverse": {
+      "target_type": "post",
+      "post_id": 4226,
+      "field": "post_content",
+      "old_content": "<!-- wp:paragraph -->\n<p>Persistent or unexplained swelling needs clinical assessment because lymphedema is one of several possible causes. The <a href=\"https://lymphedasia.com/lymphedema-diagnosis-report-explained/\">lymphedema diagnosis guide</a> explains how history, examination and selected imaging may contribute to that assessment.</p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:table -->\n<!-- wp:paragraph -->\n<p>Persistent or unexplained swelling needs clinical assessment because lymphedema is one of several possible causes. The <a href=\"https://lymphedasia.com/lymphedema-diagnosis-report-explained/\">lymphedema diagnosis guide</a> explains how history, examination and selected imaging may contribute to that assessment.</p>\n<!-- /wp:paragraph -->\n<!-- /wp:table -->"
+    }
+  },
+  {
+    "forward": {
+      "target_type": "post",
+      "post_id": 4226,
+      "field": "post_content",
+      "old_content": "<!-- wp:table -->\n<!-- wp:paragraph -->\n<p>For non-urgent consultation planning, review the <a href=\"https://lymphedasia.com/private-lymphedema-consultation-singapore/\">private lymphedema consultation pathway</a>.</p>\n<!-- /wp:paragraph -->\n<!-- /wp:table -->",
+      "new_content": "<!-- wp:paragraph -->\n<p>For non-urgent consultation planning, review the <a href=\"https://lymphedasia.com/private-lymphedema-consultation-singapore/\">private lymphedema consultation pathway</a>.</p>\n<!-- /wp:paragraph -->"
+    },
+    "inverse": {
+      "target_type": "post",
+      "post_id": 4226,
+      "field": "post_content",
+      "old_content": "<!-- wp:paragraph -->\n<p>For non-urgent consultation planning, review the <a href=\"https://lymphedasia.com/private-lymphedema-consultation-singapore/\">private lymphedema consultation pathway</a>.</p>\n<!-- /wp:paragraph -->",
+      "new_content": "<!-- wp:table -->\n<!-- wp:paragraph -->\n<p>For non-urgent consultation planning, review the <a href=\"https://lymphedasia.com/private-lymphedema-consultation-singapore/\">private lymphedema consultation pathway</a>.</p>\n<!-- /wp:paragraph -->\n<!-- /wp:table -->"
+    }
+  }
+]
