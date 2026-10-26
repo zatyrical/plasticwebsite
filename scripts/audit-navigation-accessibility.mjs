@@ -24,11 +24,11 @@ for (const file of htmlFiles) {
   const count = (pattern) => (html.match(pattern) || []).length;
   const result = {
     file: path.relative(appOutput, file),
-    primaryNavigation: count(/<nav class="nav">/g),
+    primaryNavigation: count(/<nav\b(?=[^>]*\bclass="nav")(?=[^>]*\baria-label="Primary")[^>]*>/g),
     skipLinks: count(/class="skip-link"/g),
     contentTargets: count(/id="main-content"/g)
   };
-  const navigationIndex = html.indexOf('<nav class="nav">');
+  const navigationIndex = html.search(/<nav\b(?=[^>]*\bclass="nav")(?=[^>]*\baria-label="Primary")[^>]*>/);
   const mainIndex = html.indexOf('<main');
 
   if (
