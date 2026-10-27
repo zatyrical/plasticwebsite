@@ -385,6 +385,13 @@ export default function ProcedureArticlePage({ article }: Props) {
               <section className="article-reading-section" key={section.id}>
                 <h2 id={section.id}>{section.heading}</h2>
                 {section.paragraphs?.map((paragraph) => {
+                  if (article.slug === 'tummy-tuck-singapore' && section.id === 'scars-belly-button') {
+                    const scarLabel = 'scar visibility';
+                    const scarIndex = paragraph.indexOf(scarLabel);
+                    if (scarIndex >= 0) {
+                      return <p key={paragraph}>{paragraph.slice(0, scarIndex)}<Link href="/scar-reconstruction-singapore#assessment">{scarLabel}</Link>{paragraph.slice(scarIndex + scarLabel.length)}</p>;
+                    }
+                  }
                   const evidenceLabel = 'breast implant illness in Singapore';
                   const evidenceIndex = article.slug === 'breast-augmentation-singapore' && section.id === 'screening-safety'
                     ? paragraph.indexOf(evidenceLabel)
