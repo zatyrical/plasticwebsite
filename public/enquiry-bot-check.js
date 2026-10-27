@@ -58,6 +58,7 @@
       form.addEventListener('enquiry-bot-reset', record.reset);
       load().then(function (turnstile) {
         if (records.get(node) !== record) return;
+        show('Please complete the security check before submitting.');
         record.id = turnstile.render(widget, {
           sitekey: node.dataset.sitekey,
           action: 'clinic_enquiry',
