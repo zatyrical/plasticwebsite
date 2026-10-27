@@ -1,0 +1,12 @@
+{
+  "post_id": 4118,
+  "field": "post_content",
+  "forward": {
+    "old_content": "<li>well-fitted compression where advised;</li>",
+    "new_content": "<li><a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">well-fitted compression</a> where advised;</li>"
+  },
+  "inverse": {
+    "old_content": "<li><a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">well-fitted compression</a> where advised;</li>",
+    "new_content": "<li>well-fitted compression where advised;</li>"
+  }
+}
