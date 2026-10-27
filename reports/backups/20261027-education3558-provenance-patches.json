@@ -1,0 +1,30 @@
+{
+  "patches": [
+    {
+      "old_content": "<p>One nurse I heard about admitted she felt lost when her patient asked about lymphedema after surgery. She’d never been taught how to guide them beyond basic wound care. Specialized education fills this void, giving professionals the confidence to handle cases they’d otherwise fumble. It’s not about memorizing facts—it’s about knowing how to act when a patient’s quality of life is on the line.</p>",
+      "new_content": "<p>Specialized education fills this void, giving professionals the confidence to handle cases they’d otherwise fumble. It’s not about memorizing facts—it’s about knowing how to act when a patient’s quality of life is on the line.</p>",
+      "removed": "One nurse I heard about admitted she felt lost when her patient asked about lymphedema after surgery. She’d never been taught how to guide them beyond basic wound care. "
+    },
+    {
+      "old_content": "<p>CDT is the gold standard for lymphedema treatment, combining manual lymph drainage, compression, exercise, and skincare. Training in CDT is hands-on, teaching providers how to perform gentle massages that redirect lymph fluid or fit compression garments that don’t pinch or irritate. It’s not just technique—education covers how to teach patients to do self-care at home. One therapist shared how her CDT training helped a patient reduce leg swelling enough to wear shoes comfortably again—a small victory with a significant impact.</p>",
+      "new_content": "<p>CDT is the gold standard for lymphedema treatment, combining manual lymph drainage, compression, exercise, and skincare. Training in CDT is hands-on, teaching providers how to perform gentle massages that redirect lymph fluid or fit compression garments that don’t pinch or irritate. It’s not just technique—education covers how to teach patients to do self-care at home. </p>",
+      "removed": "One therapist shared how her CDT training helped a patient reduce leg swelling enough to wear shoes comfortably again—a small victory with a significant impact."
+    },
+    {
+      "old_content": "<p>Lymphedema isn’t just physical, it affects mental health, relationships, and daily routines. Providers with proper training can address the whole picture. They might suggest <a href=\"https://lymphedasia.com/role-of-aquatic-therapy-in-lymphedema-management/\">aquatic therapy</a> for a patient who enjoys swimming or connect them to a support group to help ease isolation. One patient I read about said her therapist’s encouragement helped her wear shorts again, something she hadn’t done in years. Education empowers providers to make these life-changing moments possible.</p>",
+      "new_content": "<p>Lymphedema isn’t just physical, it affects mental health, relationships, and daily routines. Providers with proper training can address the whole picture. They might suggest <a href=\"https://lymphedasia.com/role-of-aquatic-therapy-in-lymphedema-management/\">aquatic therapy</a> for a patient who enjoys swimming or connect them to a support group to help ease isolation. Education empowers providers to make these life-changing moments possible.</p>",
+      "removed": "One patient I read about said her therapist’s encouragement helped her wear shorts again, something she hadn’t done in years. "
+    },
+    {
+      "old_content": "<p>Lymphedema care continues to evolve, with new research on therapies such as pneumatic compression and surgical options. Trained providers must stay up-to-date, which requires ongoing education. Conferences, webinars, and journals are helpful, but they need time. One doctor I know sets aside an hour a week to read up on lymphedema studies—it’s a small habit that keeps her sharp. Making continuing education accessible and engaging is key to long-term success.</p>",
+      "new_content": "<p>Lymphedema care continues to evolve, with new research on therapies such as pneumatic compression and surgical options. Trained providers must stay up-to-date, which requires ongoing education. Conferences, webinars, and journals are helpful, but they need time. Making continuing education accessible and engaging is key to long-term success.</p>",
+      "removed": "One doctor I know sets aside an hour a week to read up on lymphedema studies—it’s a small habit that keeps her sharp. "
+    },
+    {
+      "old_content": "<p>Patients feel the direct impact of educated providers. A well-trained professional doesn’t just treat swelling—they listen, explain, and adapt their approach. They know how to calm a patient’s fears about a new diagnosis or adjust a treatment plan when life gets in the way. One patient shared how her therapist’s training made all the difference—she went from feeling hopeless to managing her lymphedema with confidence. That’s what education does: it turns clinical care into human connection.</p>",
+      "new_content": "<p>Patients feel the direct impact of educated providers. A well-trained professional doesn’t just treat swelling—they listen, explain, and adapt their approach. They know how to calm a patient’s fears about a new diagnosis or adjust a treatment plan when life gets in the way. That’s what education does: it turns clinical care into human connection.</p>",
+      "removed": "One patient shared how her therapist’s training made all the difference—she went from feeling hopeless to managing her lymphedema with confidence. "
+    }
+  ],
+  "rollback": "Fresh read, preserve intervening changes, reverse patches in reverse order with unique paragraph guards using supported content/edit; readback and live verify. Git revert alone does not restore WordPress."
+}
