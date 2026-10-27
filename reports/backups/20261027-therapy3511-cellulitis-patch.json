@@ -1,0 +1,11 @@
+{
+  "forward": {
+    "old_content": "<li>Skin care to prevent cracks, fungal infection and cellulitis.</li>",
+    "new_content": "<li>Skin care to prevent cracks, fungal infection and <a href=\"https://lymphedasia.com/lymphedema-and-cellulitis/\">cellulitis</a>.</li>"
+  },
+  "inverse": {
+    "old_content": "<li>Skin care to prevent cracks, fungal infection and <a href=\"https://lymphedasia.com/lymphedema-and-cellulitis/\">cellulitis</a>.</li>",
+    "new_content": "<li>Skin care to prevent cracks, fungal infection and cellulitis.</li>"
+  },
+  "rollback": "Freshread3511/preserve intervening changes/apply unique supported inverse/readback/meta/live; Git revert alone does not restore WordPress."
+}
