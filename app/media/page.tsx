@@ -69,6 +69,13 @@ const featuredMedia: MediaFeature[] = [
 
 const educationFeatures: MediaFeature[] = [
   {
+    source: 'Organising co-chairperson · 2026',
+    title: 'PASM 2026 — Plastic Aesthetic Surgery Meeting',
+    description: 'Listed as an organising co-chairperson for PASM 2026 on the meeting’s official committee page. The meeting is scheduled for November 2026.',
+    href: 'https://www.pasm.sg/committee',
+    label: 'View official committee listing'
+  },
+  {
     source: 'Invited speaker · 24 October 2026',
     title: 'Korean Society for Reconstructive Microsurgery — KSRM 2026',
     description: 'Presented “Evolution in Lymphedema Management: An Algorithmic Approach from Mild to Advanced Disease” in the Advanced Lymphedema session in Seoul. The LymphedAsia profile entry links to the official programme and speaker listing.',
