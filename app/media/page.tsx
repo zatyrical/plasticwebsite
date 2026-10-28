@@ -80,7 +80,12 @@ const educationFeatures: MediaFeature[] = [
     title: 'Korean Society for Reconstructive Microsurgery — KSRM 2026',
     description: 'Presented “Evolution in Lymphedema Management: An Algorithmic Approach from Mild to Advanced Disease” in the Advanced Lymphedema session in Seoul. The LymphedAsia profile entry links to the official programme and speaker listing.',
     href: 'https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/#ksrm-2026-presentation',
-    label: 'View presentation details and sources'
+    label: 'View presentation details and sources',
+    image: '/images/media/ksrm-2026-jeremy-sun-podium.webp',
+    imageAlt: 'Dr Jeremy Sun speaking at the lectern at the 45th KSRM 2026 meeting',
+    imageWidth: 960,
+    imageHeight: 1280,
+    portrait: true
   },
   {
     source: 'International congress lecture',
