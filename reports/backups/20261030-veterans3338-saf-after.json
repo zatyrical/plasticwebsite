@@ -1,0 +1,153 @@
+{
+  "id": 3338,
+  "date": "2025-05-10T14:19:52",
+  "date_gmt": "2025-05-10T14:19:52",
+  "modified": "2026-10-30T02:01:04",
+  "modified_gmt": "2026-10-30T02:01:04",
+  "slug": "understanding-lymphedema-in-military-veterans",
+  "status": "publish",
+  "type": "post",
+  "link": "https://lymphedasia.com/understanding-lymphedema-in-military-veterans/",
+  "title": {
+    "raw": "Understanding Lymphedema in Military Veterans",
+    "rendered": "Understanding Lymphedema in Military Veterans"
+  },
+  "content": {
+    "raw": "<p><strong>Short answer:</strong> Veterans may develop chronic limb swelling from trauma, infection, surgery, reduced mobility, venous disease or other service-related injuries. Persistent swelling should be assessed carefully rather than assumed to be normal ageing or weight gain.</p>\n\n<p class=\"notice-text\">Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026. This article is for education only and does not replace personalised medical assessment.</p>\n\n<h2>Possible contributors in veterans</h2>\n<ul><li>limb trauma or surgery;</li><li>recurrent skin infection;</li><li>venous disease or previous clots;</li><li>reduced mobility after injury;</li><li>obesity or metabolic disease;</li><li>primary or secondary lymphatic drainage problems.</li></ul>\n<h2>Symptoms worth documenting</h2>\n<p>Useful documentation includes when swelling began, whether it improves overnight, infection episodes, wounds, pain, garment or boot fit, functional limits and photographs over time.</p>\n<h2>Treatment options</h2>\n<p>Care may include compression, wound care, skin care, exercise, venous assessment, lymphedema therapy and specialist review. Surgery is considered only for selected patients after diagnosis and imaging.</p>\n<h2>Administrative documentation</h2>\n<p>For benefit or compensation systems, patients often need clear medical records, diagnosis, treatment history and functional impact documentation. Requirements vary by country and agency.</p>\n<p><strong>Singapore SAF service-injury information:</strong> See <a href=\"https://www.cmpb.gov.sg/life-in-ns/saf/service-benefits-and-welfare/insurance-compensation-and-service-injury/\">CMPB’s official service-injury guidance</a>. This resource does not confirm individual eligibility or coverage for a private consultation. Check current arrangements with the relevant authority.</p>\n<h2>Frequently asked questions</h2>\n<h3>Is veteran leg swelling always lymphedema?</h3><p>No. Venous disease, heart or kidney disease, medications and mobility issues may also contribute.</p>\n<h3>Can old trauma cause swelling years later?</h3><p>It can contribute, but persistent swelling should be assessed for several possible causes.</p>\n<h3>What should I bring to clinic?</h3><p>Bring injury history, surgery records, infection history, photos, garment details and medication list.</p>\n\n<p class=\"notice-text\"><strong>Related surgical guide:</strong> If symptoms persist despite appropriate conservative care, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>\n"
+  },
+  "excerpt": {
+    "raw": ""
+  },
+  "author": 5,
+  "featured_media": 0,
+  "comment_status": "open",
+  "ping_status": "open",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "_uag_custom_page_level_css": "",
+    "site-sidebar-layout": "default",
+    "site-content-layout": "",
+    "ast-site-content-layout": "default",
+    "site-content-style": "default",
+    "site-sidebar-style": "default",
+    "ast-global-header-display": "",
+    "ast-banner-title-visibility": "",
+    "ast-main-header-display": "",
+    "ast-hfb-above-header-display": "",
+    "ast-hfb-below-header-display": "",
+    "ast-hfb-mobile-header-display": "",
+    "site-post-title": "disabled",
+    "ast-breadcrumbs-content": "",
+    "ast-featured-img": "",
+    "footer-sml-layout": "",
+    "ast-disable-related-posts": "",
+    "theme-transparent-header-meta": "",
+    "adv-header-id-meta": "",
+    "stick-header-meta": "",
+    "header-above-stick-meta": "",
+    "header-main-stick-meta": "",
+    "header-below-stick-meta": "",
+    "astra-migrate-meta-layouts": "default",
+    "ast-page-background-enabled": "default",
+    "ast-page-background-meta": {
+      "desktop": {
+        "background-color": "var(--ast-global-color-5)",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      },
+      "tablet": {
+        "background-color": "",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      },
+      "mobile": {
+        "background-color": "",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      }
+    },
+    "ast-content-background-meta": {
+      "desktop": {
+        "background-color": "var(--ast-global-color-4)",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      },
+      "tablet": {
+        "background-color": "var(--ast-global-color-4)",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      },
+      "mobile": {
+        "background-color": "var(--ast-global-color-4)",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      }
+    },
+    "footnotes": "",
+    "_elementor_edit_mode": "",
+    "_elementor_template_type": "",
+    "_elementor_data": "",
+    "_elementor_page_settings": null,
+    "_elementor_conditions": []
+  },
+  "categories": [
+    1
+  ],
+  "tags": []
+}
