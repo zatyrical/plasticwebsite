@@ -1,0 +1,153 @@
+{
+  "id": 3097,
+  "date": "2025-02-02T10:30:48",
+  "date_gmt": "2025-02-02T10:30:48",
+  "modified": "2026-10-30T11:03:08",
+  "modified_gmt": "2026-10-30T11:03:08",
+  "slug": "the-impact-of-lymphedema-on-mental-health",
+  "status": "publish",
+  "type": "post",
+  "link": "https://lymphedasia.com/the-impact-of-lymphedema-on-mental-health/",
+  "title": {
+    "raw": "The Impact of Lymphedema on Mental Health: Living with a Compromised Lymphatic System",
+    "rendered": "The Impact of Lymphedema on Mental Health: Living with a Compromised Lymphatic System"
+  },
+  "content": {
+    "raw": "<p><strong>Short answer:</strong> Living with lymphedema can affect mood, identity, relationships, work and sleep. These effects are real and should be managed alongside swelling, infections and physical function.</p>\n<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026. This article is for education only and does not replace personalised medical assessment.</em></p>\n<h2>Common emotional burdens</h2>\n<p>Patients may worry about visible swelling, odour, cellulitis, clothing, intimacy, travel or long-term progression. Some feel guilty or frustrated when the condition disrupts family and work routines.</p>\n<h2>What helps day to day</h2>\n<ul><li>Use a repeatable care routine instead of relying on motivation alone.</li><li>Plan garments, moisturiser and movement around real-life schedules.</li><li>Share specific needs with family or colleagues.</li><li>Ask for <a href=\"https://www.moh.gov.sg/seeking-healthcare/find-a-facility-or-service/mental-health-services/for-the-public/\">psychological support</a> if avoidance, anxiety or low mood persists.</li></ul>\n<h2>Avoiding isolation</h2>\n<p>Support groups, therapist follow-up and honest conversations can reduce the feeling of managing alone. Emotional support is not a sign that the condition is “only psychological”; it is part of comprehensive care.</p>\n<h2>When to seek urgent support</h2>\n<p>Thoughts of self-harm, severe depression, panic, inability to sleep or major social withdrawal should be discussed urgently with a doctor or mental health professional.</p>\n<h2>Frequently asked questions</h2>\n<h3>Is depression common with lymphedema?</h3><p>Emotional distress is common, especially when symptoms are visible, painful or unpredictable.</p>\n<h3>Can better swelling control improve mood?</h3><p>Often yes, because it restores function and confidence, but some patients still need dedicated mental health support.</p>\n<h3>Should I mention mental health to my lymphedema doctor?</h3><p>Yes. It affects adherence, quality of life and treatment planning.</p>\n<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite appropriate conservative care, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>"
+  },
+  "excerpt": {
+    "raw": ""
+  },
+  "author": 5,
+  "featured_media": 0,
+  "comment_status": "open",
+  "ping_status": "open",
+  "sticky": false,
+  "template": "",
+  "format": "standard",
+  "meta": {
+    "_uag_custom_page_level_css": "",
+    "site-sidebar-layout": "default",
+    "site-content-layout": "",
+    "ast-site-content-layout": "default",
+    "site-content-style": "default",
+    "site-sidebar-style": "default",
+    "ast-global-header-display": "",
+    "ast-banner-title-visibility": "",
+    "ast-main-header-display": "",
+    "ast-hfb-above-header-display": "",
+    "ast-hfb-below-header-display": "",
+    "ast-hfb-mobile-header-display": "",
+    "site-post-title": "disabled",
+    "ast-breadcrumbs-content": "",
+    "ast-featured-img": "",
+    "footer-sml-layout": "",
+    "ast-disable-related-posts": "",
+    "theme-transparent-header-meta": "",
+    "adv-header-id-meta": "",
+    "stick-header-meta": "",
+    "header-above-stick-meta": "",
+    "header-main-stick-meta": "",
+    "header-below-stick-meta": "",
+    "astra-migrate-meta-layouts": "default",
+    "ast-page-background-enabled": "default",
+    "ast-page-background-meta": {
+      "desktop": {
+        "background-color": "var(--ast-global-color-5)",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      },
+      "tablet": {
+        "background-color": "",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      },
+      "mobile": {
+        "background-color": "",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      }
+    },
+    "ast-content-background-meta": {
+      "desktop": {
+        "background-color": "var(--ast-global-color-4)",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      },
+      "tablet": {
+        "background-color": "var(--ast-global-color-4)",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      },
+      "mobile": {
+        "background-color": "var(--ast-global-color-4)",
+        "background-image": "",
+        "background-repeat": "repeat",
+        "background-position": "center center",
+        "background-size": "auto",
+        "background-attachment": "scroll",
+        "background-type": "",
+        "background-media": "",
+        "overlay-type": "",
+        "overlay-color": "",
+        "overlay-opacity": "",
+        "overlay-gradient": ""
+      }
+    },
+    "footnotes": "",
+    "_elementor_edit_mode": "",
+    "_elementor_template_type": "",
+    "_elementor_data": "",
+    "_elementor_page_settings": null,
+    "_elementor_conditions": []
+  },
+  "categories": [
+    1
+  ],
+  "tags": []
+}
