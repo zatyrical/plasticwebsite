@@ -569,6 +569,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'lasers-injectables-singapore' && section.id === 'safety' ? (
                   <p>Singapore consumer resource: <a href="https://www.hsa.gov.sg/announcements/dangers-diy-aesthetic-injectable-kits/">Health Sciences Authority: dangers of DIY aesthetic injectable kits</a>. This is general consumer safety information, not an endorsement of a clinic or treatment.</p>
                 ) : null}
+                {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'cost-quotation' ? (
+                  <p><strong>Can MediSave be used?</strong> CPF Board states that optional or cosmetic treatments generally cannot be paid from MediSave. Read <a href="https://www.cpf.gov.sg/service/article/can-i-use-my-medisave-for-optional-cosmetic-treatments-like-liposuction-orthodontics-treatment-or-laser-surgery-to-correct-short-sightedness">CPF Board's MediSave guidance for cosmetic treatments</a> and check with your attending doctor about the proposed treatment. This guide does not confirm individual claim eligibility.</p>
+                ) : null}
                 {article.slug === 'rib-rhinoplasty-singapore' && section.id === 'alternatives' ? (
                   <p>For the broader decision between nasal implants, septal cartilage, ear cartilage and rib cartilage, read the <Link href="/asian-rhinoplasty-singapore#materials">Asian rhinoplasty materials guide</Link>.</p>
                 ) : null}
