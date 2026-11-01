@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-01",
+  "scope": "Only existing garment donning words linked to maintained4044 guide; no clinical wording/review change",
+  "before": {
+    "id": 3990,
+    "date": "2025-09-24T22:40:46",
+    "date_gmt": "2025-09-24T22:40:46",
+    "modified": "2026-08-31T14:05:28",
+    "modified_gmt": "2026-08-31T14:05:28",
+    "status": "publish",
+    "slug": "lymphedema-fatigue-and-chronic-fatigue-syndrome",
+    "link": "https://lymphedasia.com/lymphedema-fatigue-and-chronic-fatigue-syndrome/",
+    "title": {
+      "raw": "Lymphedema, Fatigue, and the Lymphatic System: Overlap With CFS?",
+      "rendered": "Lymphedema, Fatigue, and the Lymphatic System: Overlap With CFS?"
+    },
+    "excerpt": {
+      "raw": "",
+      "rendered": "<p>Short answer: Lymphedema can contribute to fatigue through heaviness, effortful movement, poor sleep, infections and emotional strain. Chronic fatigue has [&hellip;]</p>\n",
+      "protected": false
+    },
+    "author": 5,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "format": "standard",
+    "categories": [
+      1
+    ],
+    "tags": [],
+    "template": "",
+    "meta": {
+      "_uag_custom_page_level_css": "",
+      "site-sidebar-layout": "default",
+      "site-content-layout": "",
+      "ast-site-content-layout": "default",
+      "site-content-style": "default",
+      "site-sidebar-style": "default",
+      "ast-global-header-display": "",
+      "ast-banner-title-visibility": "",
+      "ast-main-header-display": "",
+      "ast-hfb-above-header-display": "",
+      "ast-hfb-below-header-display": "",
+      "ast-hfb-mobile-header-display": "",
+      "site-post-title": "",
+      "ast-breadcrumbs-content": "",
+      "ast-featured-img": "",
+      "footer-sml-layout": "",
+      "ast-disable-related-posts": "",
+      "theme-transparent-header-meta": "",
+      "adv-header-id-meta": "",
+      "stick-header-meta": "",
+      "header-above-stick-meta": "",
+      "header-main-stick-meta": "",
+      "header-below-stick-meta": "",
+      "astra-migrate-meta-layouts": "default",
+      "ast-page-background-enabled": "default",
+      "ast-page-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-5)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "ast-content-background-meta": {
+        "desktop": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "tablet": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        },
+        "mobile": {
+          "background-color": "var(--ast-global-color-4)",
+          "background-image": "",
+          "background-repeat": "repeat",
+          "background-position": "center center",
+          "background-size": "auto",
+          "background-attachment": "scroll",
+          "background-type": "",
+          "background-media": "",
+          "overlay-type": "",
+          "overlay-color": "",
+          "overlay-opacity": "",
+          "overlay-gradient": ""
+        }
+      },
+      "footnotes": "",
+      "_elementor_edit_mode": "",
+      "_elementor_template_type": "",
+      "_elementor_data": "",
+      "_elementor_page_settings": null,
+      "_elementor_conditions": []
+    },
+    "content_raw": "<p><strong>Short answer:</strong> Lymphedema can contribute to fatigue through heaviness, effortful movement, poor sleep, infections and emotional strain. Chronic fatigue has many possible causes, so persistent tiredness should be assessed rather than attributed to lymphedema alone.</p>\n<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026. This article is for education only and does not replace personalised medical assessment.</em></p>\n<h2>Why lymphedema can be tiring</h2>\n<p>Carrying a heavy limb, managing compression, worrying about infection and coping with pain or stiffness can drain energy. Recurrent cellulitis can also cause prolonged fatigue after each episode.</p>\n<h2>Other causes to consider</h2>\n<p>Anaemia, thyroid disease, sleep apnoea, depression, medication effects, cancer treatment, heart or kidney disease and chronic fatigue syndrome may overlap. A broad medical review is important when fatigue is severe or new.</p>\n<h2>Practical energy strategies</h2>\n<ul><li>Pace activity rather than alternating overexertion and collapse.</li><li>Use compression and footwear that make movement easier.</li><li>Build gentle conditioning gradually.</li><li>Prioritise sleep, skin care and infection prevention.</li><li>Ask for help with garment donning if it consumes too much energy.</li></ul>\n<h2>When to seek review</h2>\n<p>Sudden severe fatigue, breathlessness, chest pain, fever, unexplained weight loss or rapidly worsening swelling needs medical attention. Persistent fatigue despite good lymphedema control deserves broader assessment.</p>\n<h2>Frequently asked questions</h2>\n<h3>Is fatigue a symptom of lymphedema?</h3><p>It can be, especially when swelling is heavy or infections recur.</p>\n<h3>Does exercise worsen fatigue?</h3><p>Sudden overexertion can, but gradual supervised exercise often improves stamina.</p>\n<h3>Can LVA reduce fatigue?</h3><p>If fatigue is driven partly by heaviness and swelling, selected patients may feel lighter after improved drainage, but outcomes vary.</p>\n<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite appropriate conservative care, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>\n\n<!-- wp:group {\"className\":\"lymphedasia-specialist-next-step\",\"style\":{\"border\":{\"color\":\"#d9e2ec\",\"width\":\"1px\",\"radius\":\"8px\"},\"spacing\":{\"padding\":{\"top\":\"16px\",\"right\":\"16px\",\"bottom\":\"16px\",\"left\":\"16px\"},\"margin\":{\"top\":\"24px\",\"bottom\":\"24px\"}},\"color\":{\"background\":\"#f8fbfd\"}}} -->\n<div class=\"wp-block-group lymphedasia-specialist-next-step has-background\" style=\"border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:24px;margin-bottom:24px;padding-top:16px;padding-right:16px;padding-bottom:16px;padding-left:16px\"><!-- wp:heading {\"level\":3} -->\n<h3 class=\"wp-block-heading\">When should persistent swelling be assessed?</h3>\n<!-- /wp:heading -->\n\n<!-- wp:paragraph -->\n<p>If swelling is persistent, progressive, one-sided, painful, associated with recurrent cellulitis, or difficult to explain, it may need specialist review rather than only home remedies. LymphedAsia has patient guides on <a href=\"https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/\">lymphedema specialist assessment in Singapore</a>, <a href=\"https://lymphedasia.com/icg-lymphography-singapore/\">ICG lymphography</a>, <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA / lymphovenous bypass surgery</a>, and <a href=\"https://lymphedasia.com/lipedema-singapore/\">lipedema diagnosis</a>.</p>\n<!-- /wp:paragraph --></div>\n<!-- /wp:group -->\n"
+  },
+  "source4044": {
+    "id": 4044,
+    "modified_gmt": "2026-10-21T21:05:33",
+    "link": "https://lymphedasia.com/lymphedema-compression-garments-for-swelling/",
+    "content": {
+      "raw": "<p><strong>Short answer:</strong> Compression garments help control lymphedema by supporting tissues and reducing fluid re-accumulation. They work best when properly measured, comfortable enough to use, and combined with movement and skin care.</p>\n<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026. This article is for education only and does not replace personalised medical assessment.</em></p>\n<h2>Why fit matters</h2>\n<p>A garment that is too loose may not control swelling; one that is too tight, folded or painful can damage skin or create pressure points. Refitting is needed when limb size changes or the garment loses elasticity.</p>\n<h2>Choosing and using garments</h2>\n<ul><li>Use the compression class and style prescribed by your therapist or doctor.</li><li>Put garments on early in the day if swelling builds later.</li><li>Keep fabric smooth without rolling bands.</li><li>Replace garments according to wear and manufacturer guidance.</li><li>Ask about donning aids if hand strength or flexibility is limited.</li></ul>\n<h2>When garments are difficult</h2>\n<p>Heat, discomfort, cost, skin irritation and work demands are common barriers. Rather than stopping completely, discuss alternative fabrics, styles, liners, nighttime options or <a href=\"https://lymphedasia.com/compression-bandaging-in-lymphedema-management/\">bandaging</a> with your therapist.</p>\n<h2>Compression and surgery</h2>\n<p>Compression remains important even when LVA/LVB is considered. In selected patients, successful surgery may reduce symptoms or compression burden, but garment changes should be supervised.</p>\n<h2>Frequently asked questions</h2>\n<h3>Can I buy compression online?</h3><p>It is safer to be measured and prescribed, especially for established lymphedema.</p>\n<h3>Should compression hurt?</h3><p>No. Pain, numbness, colour change or skin injury means the garment should be reviewed.</p>\n<h3>Do I wear compression forever?</h3><p>Many patients need long-term compression, though intensity may change with treatment response.</p>\n<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite <a href=\"https://lymphedasia.com/lymphedema-therapy/\">appropriate conservative care</a>, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>",
+      "rendered": "<p><strong>Short answer:</strong> Compression garments help control lymphedema by supporting tissues and reducing fluid re-accumulation. They work best when properly measured, comfortable enough to use, and combined with movement and skin care.</p>\n<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026. This article is for education only and does not replace personalised medical assessment.</em></p>\n<h2>Why fit matters</h2>\n<p>A garment that is too loose may not control swelling; one that is too tight, folded or painful can damage skin or create pressure points. Refitting is needed when limb size changes or the garment loses elasticity.</p>\n<h2>Choosing and using garments</h2>\n<ul>\n<li>Use the compression class and style prescribed by your therapist or doctor.</li>\n<li>Put garments on early in the day if swelling builds later.</li>\n<li>Keep fabric smooth without rolling bands.</li>\n<li>Replace garments according to wear and manufacturer guidance.</li>\n<li>Ask about donning aids if hand strength or flexibility is limited.</li>\n</ul>\n<h2>When garments are difficult</h2>\n<p>Heat, discomfort, cost, skin irritation and work demands are common barriers. Rather than stopping completely, discuss alternative fabrics, styles, liners, nighttime options or <a href=\"https://lymphedasia.com/compression-bandaging-in-lymphedema-management/\">bandaging</a> with your therapist.</p>\n<h2>Compression and surgery</h2>\n<p>Compression remains important even when LVA/LVB is considered. In selected patients, successful surgery may reduce symptoms or compression burden, but garment changes should be supervised.</p>\n<h2>Frequently asked questions</h2>\n<h3>Can I buy compression online?</h3>\n<p>It is safer to be measured and prescribed, especially for established lymphedema.</p>\n<h3>Should compression hurt?</h3>\n<p>No. Pain, numbness, colour change or skin injury means the garment should be reviewed.</p>\n<h3>Do I wear compression forever?</h3>\n<p>Many patients need long-term compression, though intensity may change with treatment response.</p>\n<p class=\"notice-text\"><strong>Related surgical guide:</strong> If swelling remains persistent despite <a href=\"https://lymphedasia.com/lymphedema-therapy/\">appropriate conservative care</a>, or if recurrent cellulitis is a major issue, read <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA surgery in Singapore: lymphovenous bypass for lymphedema</a>.</p>\n",
+      "protected": false,
+      "block_version": 0
+    }
+  },
+  "patch": {
+    "old_content": "<li>Ask for help with garment donning if it consumes too much energy.</li>",
+    "new_content": "<li>Ask for help with <a href=\"https://lymphedasia.com/lymphedema-compression-garments-for-swelling/\">garment donning</a> if it consumes too much energy.</li>"
+  },
+  "rollback": "Fresh full source/metadata guard; unique inverse through supported content/edit only, preserving later changes. Readback and ordinary live verification. Git revert alone does not restore WordPress."
+}
