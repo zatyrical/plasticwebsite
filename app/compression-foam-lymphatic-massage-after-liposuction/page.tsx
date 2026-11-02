@@ -137,8 +137,8 @@ export default function LiposuctionCompressionFoamMassagePage() {
                 <Link href="/body-contouring-liposuction-singapore" className="btn btn-ghost">Liposuction guide</Link>
               </div>
             </div>
-            <aside className="article-summary-card">
-              <h2>On this page</h2>
+            <nav className="article-summary-card" aria-labelledby="recovery-contents-heading">
+              <h2 id="recovery-contents-heading">On this page</h2>
               <ul>
                 <li><a href="#short-answer">Short answer</a></li>
                 <li><a href="#why-swelling-happens">Why swelling happens</a></li>
@@ -150,7 +150,7 @@ export default function LiposuctionCompressionFoamMassagePage() {
                 <li><a href="#when-to-call">When to call your surgeon</a></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
-            </aside>
+            </nav>
           </div>
         </section>
 
