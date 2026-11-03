@@ -1,0 +1,15 @@
+# Media sitemap lastmod alignment — 3 November 2026
+
+After actual user-authorised presentation/photo/link publication PR364 on3Nov, https://www.drjeremysun.com/sitemap.xml still reported /media lastmod2026-10-28. Ordinary publicGET2006970bytes/SHA25678ea47f08f2bac5e57b00e5c6675f25a108b1961d2d9f4de9cce54cd1db06cc8;40uniqueentries. Current fetchedmaine125b9ace160ba35fc4f65193748f80333cb8d4d app/sitemap.ts confirms that stale explicit literal. This is an actual content-publication date correction, not arbitrary freshness or a clinical-review-date change.
+
+Current Google primary guidance read3Nov:
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
+Its XML notes say lastmod should reflect the last significant main-content/structured-data/link update; accurate values may be used, while sitemap submission is only a hint. No indexing/ranking/enquiry guarantee.
+
+Fresh issue7/latest handoff/recentcomments through6595055020 and latest364report/open355257252 reconciled. All-comments wrapper returned Transport closed twice; bounded issue-comments REST read since03:40UTC succeeded, confirming closed364reservation/no newer overlap. No security/auth rejection/workaround or uncertain write. Fetched currentmain, isolated worktree seo/media-sitemap-date-20261103; preserved earlier checkout/uncommitted files. Reservation6595179010. Elective playbook source fidelity applied.
+
+Change ONLY app/sitemap.ts map literal ['/media','2026-10-28'] to ['/media','2026-11-03']; route membership/priority/changefreq/otherdates/maincontent/clinicalreviews/canonicals remain unchanged. Main e125b9a is exact BEFORE; inverse one-line replacement returns exact source. NoWordPress/GBP/measurement/cache mutation; the separate Lymph cached post-sitemap integration hold remains9Nov13:10/input/fault.
+
+Validation: source uniqueness/inverse/diff-check, TypeScript and direct execution of actual TypeScript sitemap module. Compared all40 derived entries against freshly fetched publicXML: ONLYmedia.lastmod changes;39otherentries and mediaotherfields exact. Existing mocked tests/pre-build audits passed. Local full productionbuild failed at Turbopack next/font Google resolver ('queries have exactly one entry'); do not describe it as a passing full local build or infer a live defect. No dependency/font/config/network-policy change to force it. Actual intended-project Vercel preview of source commitc4ef8b2ea05d623136d0495745a4bee70f393046 READY; finalhead/Vercelstatus/freshmain/mergeability/expectedhead/production and ordinary liveXML parity proof recorded in issue7 completion. No protectedpreview bypass, synthetic analytics or real test enquiry/email.
+
+Rollback: reconcile freshmain/concurrent edits, revert only this isolated literal/report PR or apply its exact inverse, build/deploy and verify liveXML. No CMS state to restore. Not a weekly substantial article, new content/rank/qualified-enquiry/AI-citation result.4Nov draft/6Novtarget/TWO355review gates/four-weekcalendar unchanged; daily reporting/GBP next4Nov00:11/00:08SGT, noWizard/rejected-origin retry/outbound/newautomation.
