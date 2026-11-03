@@ -69,6 +69,18 @@ const featuredMedia: MediaFeature[] = [
 
 const educationFeatures: MediaFeature[] = [
   {
+    source: 'Invited speaker · October 2026',
+    title: '36th Annual Meeting of ThPRS & ThSAPS 2026',
+    description: 'Presented on lymphovenous anastomosis (LVA) for lymphoedema at the joint annual meeting in Thailand.',
+    href: 'https://lymphedasia.com/publications/#thprs-thsaps-2026-lva',
+    label: 'View presentation photos and details',
+    image: '/images/media/thprs-thsaps-2026-jeremy-sun-lva-podium.jpg',
+    imageAlt: 'Dr Jeremy Sun presenting at the lectern at the 36th Annual Meeting of ThPRS and ThSAPS 2026 in Thailand',
+    imageWidth: 1152,
+    imageHeight: 1536,
+    portrait: true
+  },
+  {
     source: 'Organising co-chairperson · 2026',
     title: 'PASM 2026 — Plastic Aesthetic Surgery Meeting',
     description: 'Listed as an organising co-chairperson for PASM 2026 on the meeting’s official committee page. The meeting is scheduled for November 2026.',
