@@ -167,6 +167,13 @@ const educationFeatures: MediaFeature[] = [
     portrait: true
   },
   {
+    source: 'Webinar speaker · 9 May 2026',
+    title: '9th APRAS Education Committee Webinar — Lymphedema',
+    description: 'The official APRAS webinar archive lists Jeremy Sun Mingfa, Changi General Hospital (Singapore), as a speaker for the lymphoedema session on 9 May 2026.',
+    href: 'https://apras-asia.org/education/',
+    label: 'View official webinar listing'
+  },
+  {
     source: 'Invited speaker',
     title: 'SingHealth Duke-NUS Scientific Congress 2025',
     description: 'Professional speaker profile covering Dr Sun’s plastic, reconstructive, aesthetic and lymphatic surgery work.',
