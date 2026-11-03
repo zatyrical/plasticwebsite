@@ -339,14 +339,16 @@ export default function ProcedureArticlePage({ article }: Props) {
                   {article.heroImage.caption ? <figcaption>{article.heroImage.caption}</figcaption> : null}
                 </figure>
               ) : null}
-              <h2>On this page</h2>
-              <ul>
-                {article.sections.map((section) => (
-                  <li key={section.id}><a href={`#${section.id}`}>{section.heading}</a></li>
-                ))}
-                <li><a href="#faq">FAQs</a></li>
-                <li><a href="#related">Related pages</a></li>
-              </ul>
+              <nav aria-labelledby="procedure-contents-heading">
+                <h2 id="procedure-contents-heading">On this page</h2>
+                <ul>
+                  {article.sections.map((section) => (
+                    <li key={section.id}><a href={`#${section.id}`}>{section.heading}</a></li>
+                  ))}
+                  <li><a href="#faq">FAQs</a></li>
+                  <li><a href="#related">Related pages</a></li>
+                </ul>
+              </nav>
             </aside>
           </div>
         </section>
