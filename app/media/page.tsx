@@ -186,6 +186,13 @@ const educationFeatures: MediaFeature[] = [
     portrait: true
   },
   {
+    source: 'Programme listing · 30 August 2025',
+    title: 'ASVS 2025 — lymphatic surgery education',
+    description: 'The ASVS 2025 programme lists Jeremy Sun (Singapore) for “Lymphaticovenular anastomosis for lymphedema management” in its Lymphedema session.',
+    href: 'https://airdrive.eventsair.com/eventsairaueprod/production-themeetinglab-public/2676600ae0cb4f4a928e152277510725',
+    label: 'View conference programme (PDF)'
+  },
+  {
     source: 'ISAPS congress committee',
     title: 'ISAPS Olympiad Singapore 2025',
     description: 'Dr Jeremy Sun is listed on the Local Committee for the 2025 congress in the official ISAPS congress committee directory.',
