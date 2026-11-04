@@ -145,19 +145,21 @@ export default function AsianEyelidSurgeryPage() {
                 <Image src={socialImage} alt="Editorial-style image representing Asian eyelid surgery consultation and ptosis assessment" width={1024} height={1024} priority sizes="(max-width: 600px) calc(100vw - 78px), (max-width: 1180px) 420px, 276px" />
                 <figcaption>Illustrative image for patient education; not a before-and-after result.</figcaption>
               </figure>
-              <h2>On this page</h2>
-              <ul>
-                <li><a href="#what-is-asian-eyelid-surgery">What is Asian eyelid surgery?</a></li>
-                <li><a href="#suitability">Who may consider eyelid surgery?</a></li>
-                <li><a href="#double-eyelid-surgery">Double eyelid surgery</a></li>
-                <li><a href="#approaches">Incisional and non-incisional approaches</a></li>
-                <li><a href="#singapore-consultation">Singapore consultation planning</a></li>
-                <li><a href="#ptosis-assessment">Ptosis assessment</a></li>
-                <li><a href="#revision">Revision eyelid surgery</a></li>
-                <li><a href="#recovery">Recovery</a></li>
-                <li><a href="#risks">Risks and limitations</a></li>
-                <li><a href="#faq">FAQs</a></li>
-              </ul>
+              <nav aria-labelledby="article-contents-heading">
+                <h2 id="article-contents-heading">On this page</h2>
+                <ul>
+                  <li><a href="#what-is-asian-eyelid-surgery">What is Asian eyelid surgery?</a></li>
+                  <li><a href="#suitability">Who may consider eyelid surgery?</a></li>
+                  <li><a href="#double-eyelid-surgery">Double eyelid surgery</a></li>
+                  <li><a href="#approaches">Incisional and non-incisional approaches</a></li>
+                  <li><a href="#singapore-consultation">Singapore consultation planning</a></li>
+                  <li><a href="#ptosis-assessment">Ptosis assessment</a></li>
+                  <li><a href="#revision">Revision eyelid surgery</a></li>
+                  <li><a href="#recovery">Recovery</a></li>
+                  <li><a href="#risks">Risks and limitations</a></li>
+                  <li><a href="#faq">FAQs</a></li>
+                </ul>
+              </nav>
             </aside>
           </div>
         </section>
