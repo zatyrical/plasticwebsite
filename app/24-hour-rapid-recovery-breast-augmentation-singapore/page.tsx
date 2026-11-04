@@ -141,17 +141,19 @@ export default function RapidRecoveryBreastAugmentationPage() {
                 <Image src="/images/aesthetic-breast/recovery-planning-still-life.webp" alt="Recovery-planning still life with a supportive bra and appointment notebook for breast augmentation patient education" width={1254} height={1254} priority sizes="(max-width: 600px) calc(100vw - 78px), (max-width: 1180px) 420px, 276px" />
                 <figcaption>AI-generated editorial illustration of recovery planning; not a patient, treatment result or product endorsement.</figcaption>
               </figure>
-              <h2>On this page</h2>
-              <ul>
-                <li><a href="#short-answer">Short answer</a></li>
-                <li><a href="#what-it-changes">What the protocol changes</a></li>
-                <li><a href="#why-recovery-concerns-matter">Why recovery concerns matter</a></li>
-                <li><a href="#published-origins">Published origins and Dr Sun’s training</a></li>
-                <li><a href="#patient-selection">Who may be suitable</a></li>
-                <li><a href="#day-of-surgery">Same-day activity</a></li>
-                <li><a href="#not-a-promise">Why it is not a fixed timeline</a></li>
-                <li><a href="#faq">FAQs</a></li>
-              </ul>
+              <nav aria-labelledby="rapid-contents-heading">
+                <h2 id="rapid-contents-heading">On this page</h2>
+                <ul>
+                  <li><a href="#short-answer">Short answer</a></li>
+                  <li><a href="#what-it-changes">What the protocol changes</a></li>
+                  <li><a href="#why-recovery-concerns-matter">Why recovery concerns matter</a></li>
+                  <li><a href="#published-origins">Published origins and Dr Sun’s training</a></li>
+                  <li><a href="#patient-selection">Who may be suitable</a></li>
+                  <li><a href="#day-of-surgery">Same-day activity</a></li>
+                  <li><a href="#not-a-promise">Why it is not a fixed timeline</a></li>
+                  <li><a href="#faq">FAQs</a></li>
+                </ul>
+              </nav>
             </aside>
           </div>
         </section>
