@@ -293,6 +293,8 @@ export default function MediaPage() {
             ))}
           </div>
 
+          <p>For institutional context on the CLyVeB-AD-1 study, read <a href="https://www.cgh.com.sg/news/research/landmark-cgh-surgical-trial-explores-new-treatment-approach-for-persons-living-with-alzheimers-disease-and-their-families" target="_blank" rel="noreferrer">CGH’s research announcement (7 April 2026)</a>.</p>
+
           <h2>Areas of public education</h2>
           <p>Dr Sun’s public-facing education work is organised around practical, patient-relevant and professional topics in plastic surgery.</p>
           <ul>
