@@ -147,16 +147,18 @@ export default function BreastReconstructionPage() {
               </div>
             </div>
             <aside className="article-summary-card">
-              <h2>On this page</h2>
-              <ul>
-                <li><a href="#when-considered">When reconstruction may be considered</a></li>
-                <li><a href="#timing">Immediate versus delayed reconstruction</a></li>
-                <li><a href="#types">Implant and DIEP flap options</a></li>
-                <li><a href="#consultation">Consultation and planning</a></li>
-                <li><a href="#recovery">Recovery after reconstruction</a></li>
-                <li><a href="#risks">Risks and limitations</a></li>
-                <li><a href="#faq">FAQs</a></li>
-              </ul>
+              <nav aria-labelledby="article-contents-heading">
+                <h2 id="article-contents-heading">On this page</h2>
+                <ul>
+                  <li><a href="#when-considered">When reconstruction may be considered</a></li>
+                  <li><a href="#timing">Immediate versus delayed reconstruction</a></li>
+                  <li><a href="#types">Implant and DIEP flap options</a></li>
+                  <li><a href="#consultation">Consultation and planning</a></li>
+                  <li><a href="#recovery">Recovery after reconstruction</a></li>
+                  <li><a href="#risks">Risks and limitations</a></li>
+                  <li><a href="#faq">FAQs</a></li>
+                </ul>
+              </nav>
             </aside>
           </div>
         </section>
