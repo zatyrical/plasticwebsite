@@ -121,20 +121,22 @@ export default function PlasticSurgeonSingaporePage() {
               </div>
             </div>
             <aside className="article-summary-card">
-              <h2>On this page</h2>
-              <ul>
-                <li><a href="#dr-jeremy-sun">About Dr Jeremy Sun</a></li>
-                <li><a href="#lymphoedema-fellowship">Dedicated lymphoedema fellowship</a></li>
-                <li><a href="#evaluate">How to evaluate a surgeon</a></li>
-                <li><a href="#credentials">Credentials</a></li>
-                <li><a href="#aesthetic-reconstructive">Aesthetic and reconstructive training</a></li>
-                <li><a href="#assessment-process">Assessment process</a></li>
-                <li><a href="#scope">Scope of practice</a></li>
-                <li><a href="#consultation">Consultation questions</a></li>
-                <li><a href="#procedures">Related procedure pages</a></li>
-                <li><a href="#profiles">Professional profiles</a></li>
-                <li><a href="#faq">FAQs</a></li>
-              </ul>
+              <nav aria-labelledby="article-contents-heading">
+                <h2 id="article-contents-heading">On this page</h2>
+                <ul>
+                  <li><a href="#dr-jeremy-sun">About Dr Jeremy Sun</a></li>
+                  <li><a href="#lymphoedema-fellowship">Dedicated lymphoedema fellowship</a></li>
+                  <li><a href="#evaluate">How to evaluate a surgeon</a></li>
+                  <li><a href="#credentials">Credentials</a></li>
+                  <li><a href="#aesthetic-reconstructive">Aesthetic and reconstructive training</a></li>
+                  <li><a href="#assessment-process">Assessment process</a></li>
+                  <li><a href="#scope">Scope of practice</a></li>
+                  <li><a href="#consultation">Consultation questions</a></li>
+                  <li><a href="#procedures">Related procedure pages</a></li>
+                  <li><a href="#profiles">Professional profiles</a></li>
+                  <li><a href="#faq">FAQs</a></li>
+                </ul>
+              </nav>
             </aside>
           </div>
         </section>
