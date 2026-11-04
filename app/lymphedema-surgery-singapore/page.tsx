@@ -165,18 +165,20 @@ export default function LymphedemaSurgeryPage() {
               </div>
             </div>
             <aside className="article-summary-card">
-              <h2>On this page</h2>
-              <ul>
-                <li><a href="#treatment-pathway">Treatment pathway</a></li>
-                <li><a href="#what-is-lymphedema">What is lymphedema?</a></li>
-                <li><a href="#when-surgery">When surgery may be considered</a></li>
-                <li><a href="#types">Types of surgery</a></li>
-                <li><a href="#training">Dedicated training</a></li>
-                <li><Link href="/journey-to-lymphedema-surgery-japan">Why Japan training mattered</Link></li>
-                <li><Link href="/how-to-choose-lymphedema-surgeon-singapore">Choosing a surgeon</Link></li>
-                <li><a href="#education">Further education</a></li>
-                <li><a href="#faq">FAQs</a></li>
-              </ul>
+              <nav aria-labelledby="article-contents-heading">
+                <h2 id="article-contents-heading">On this page</h2>
+                <ul>
+                  <li><a href="#treatment-pathway">Treatment pathway</a></li>
+                  <li><a href="#what-is-lymphedema">What is lymphedema?</a></li>
+                  <li><a href="#when-surgery">When surgery may be considered</a></li>
+                  <li><a href="#types">Types of surgery</a></li>
+                  <li><a href="#training">Dedicated training</a></li>
+                  <li><Link href="/journey-to-lymphedema-surgery-japan">Why Japan training mattered</Link></li>
+                  <li><Link href="/how-to-choose-lymphedema-surgeon-singapore">Choosing a surgeon</Link></li>
+                  <li><a href="#education">Further education</a></li>
+                  <li><a href="#faq">FAQs</a></li>
+                </ul>
+              </nav>
             </aside>
           </div>
         </section>
