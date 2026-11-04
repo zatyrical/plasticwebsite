@@ -146,16 +146,18 @@ export default function ChooseLymphedemaSurgeonPage() {
               </div>
             </div>
             <aside className="article-summary-card">
-              <h2>On this page</h2>
-              <ul>
-                <li><a href="#specialised">Why training matters</a></li>
-                <li><a href="#training">What training to ask about</a></li>
-                <li><a href="#imaging">ICG and ultrasound localisation</a></li>
-                <li><a href="#treatment-options">Range of treatment options</a></li>
-                <li><a href="#questions">Questions to ask</a></li>
-                <li><a href="#red-flags">Caution signs</a></li>
-                <li><a href="#faq">Frequently asked questions</a></li>
-              </ul>
+              <nav aria-labelledby="article-contents-heading">
+                <h2 id="article-contents-heading">On this page</h2>
+                <ul>
+                  <li><a href="#specialised">Why training matters</a></li>
+                  <li><a href="#training">What training to ask about</a></li>
+                  <li><a href="#imaging">ICG and ultrasound localisation</a></li>
+                  <li><a href="#treatment-options">Range of treatment options</a></li>
+                  <li><a href="#questions">Questions to ask</a></li>
+                  <li><a href="#red-flags">Caution signs</a></li>
+                  <li><a href="#faq">Frequently asked questions</a></li>
+                </ul>
+              </nav>
             </aside>
           </div>
         </section>

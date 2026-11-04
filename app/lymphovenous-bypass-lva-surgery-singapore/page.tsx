@@ -179,18 +179,20 @@ export default function LvaSurgeryPage() {
               </div>
             </div>
             <aside className="article-summary-card">
-              <h2>On this page</h2>
-              <ul>
-                <li><a href="#what-is-lva">What is LVB / LVA?</a></li>
-                <li><a href="#suitability">Who may be suitable?</a></li>
-                <li><a href="#selection">How treatment is selected</a></li>
-                <li><a href="#cellulitis">Cellulitis and infection</a></li>
-                <li><a href="#recovery">Recovery and compression</a></li>
-                <li><a href="#training">Dedicated training</a></li>
-                <li><Link href="/journey-to-lymphedema-surgery-japan">Why Japan training mattered</Link></li>
-                <li><Link href="/how-to-choose-lymphedema-surgeon-singapore">Choosing a surgeon</Link></li>
-                <li><a href="#faq">FAQs</a></li>
-              </ul>
+              <nav aria-labelledby="article-contents-heading">
+                <h2 id="article-contents-heading">On this page</h2>
+                <ul>
+                  <li><a href="#what-is-lva">What is LVB / LVA?</a></li>
+                  <li><a href="#suitability">Who may be suitable?</a></li>
+                  <li><a href="#selection">How treatment is selected</a></li>
+                  <li><a href="#cellulitis">Cellulitis and infection</a></li>
+                  <li><a href="#recovery">Recovery and compression</a></li>
+                  <li><a href="#training">Dedicated training</a></li>
+                  <li><Link href="/journey-to-lymphedema-surgery-japan">Why Japan training mattered</Link></li>
+                  <li><Link href="/how-to-choose-lymphedema-surgeon-singapore">Choosing a surgeon</Link></li>
+                  <li><a href="#faq">FAQs</a></li>
+                </ul>
+              </nav>
             </aside>
           </div>
         </section>

@@ -140,15 +140,17 @@ export default function LymphedemaSurgeryJourneyPage() {
               </div>
             </div>
             <aside className="article-summary-card">
-              <h2>On this page</h2>
-              <ul>
-                <li><a href="#skepticism">Why I was skeptical</a></li>
-                <li><a href="#japan">What Japan changed</a></li>
-                <li><a href="#flow">LVA is about flow</a></li>
-                <li><a href="#algorithm">Algorithmic planning</a></li>
-                <li><a href="#current-approach">Current approach</a></li>
-                <li><a href="#faq">FAQs</a></li>
-              </ul>
+              <nav aria-labelledby="article-contents-heading">
+                <h2 id="article-contents-heading">On this page</h2>
+                <ul>
+                  <li><a href="#skepticism">Why I was skeptical</a></li>
+                  <li><a href="#japan">What Japan changed</a></li>
+                  <li><a href="#flow">LVA is about flow</a></li>
+                  <li><a href="#algorithm">Algorithmic planning</a></li>
+                  <li><a href="#current-approach">Current approach</a></li>
+                  <li><a href="#faq">FAQs</a></li>
+                </ul>
+              </nav>
             </aside>
           </div>
         </section>
