@@ -136,17 +136,19 @@ export default function BreastImplantIllnessPage() {
               </div>
             </div>
             <aside className="article-summary-card">
-              <h2>On this page</h2>
-              <ul>
-                <li><a href="#short-answer">Short answer</a></li>
-                <li><a href="#symptoms">Reported symptoms</a></li>
-                <li><a href="#fda">What regulators say</a></li>
-                <li><a href="#evidence">What studies show</a></li>
-                <li><a href="#explantation">Does explantation help?</a></li>
-                <li><a href="#before-augmentation">Before augmentation</a></li>
-                <li><a href="#when-to-seek-help">When to seek review</a></li>
-                <li><a href="#faq">FAQs</a></li>
-              </ul>
+              <nav aria-labelledby="article-contents-heading">
+                <h2 id="article-contents-heading">On this page</h2>
+                <ul>
+                  <li><a href="#short-answer">Short answer</a></li>
+                  <li><a href="#symptoms">Reported symptoms</a></li>
+                  <li><a href="#fda">What regulators say</a></li>
+                  <li><a href="#evidence">What studies show</a></li>
+                  <li><a href="#explantation">Does explantation help?</a></li>
+                  <li><a href="#before-augmentation">Before augmentation</a></li>
+                  <li><a href="#when-to-seek-help">When to seek review</a></li>
+                  <li><a href="#faq">FAQs</a></li>
+                </ul>
+              </nav>
             </aside>
           </div>
         </section>
