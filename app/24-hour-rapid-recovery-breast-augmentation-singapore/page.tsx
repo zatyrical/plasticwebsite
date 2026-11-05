@@ -230,6 +230,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
             <section id="why-recovery-concerns-matter">
               <h2>Why recovery concerns matter</h2>
               <p>Many women considering <Link href="/breast-augmentation-singapore">breast augmentation in Singapore</Link> are understandably concerned about postoperative pain, stiffness, time away from work, caring for children, exercise restrictions and whether they will feel dependent on others during recovery. These concerns are valid and should be discussed openly during consultation.</p>
+              <p>One question to ask before surgery: If I go home on the day of surgery, who should accompany me and what help should I arrange for that evening?</p>
               <p>The published rapid-recovery approach was developed to make breast augmentation more predictable and less traumatic where appropriate — from implant selection and pocket planning to gentle tissue handling, bleeding control and structured early movement after surgery.</p>
               <p>This does not mean surgery without discomfort or unrestricted activity after 24 hours. It means that, in selected patients, the operation and recovery plan are designed to reduce unnecessary downtime while still prioritising safety.</p>
             </section>
