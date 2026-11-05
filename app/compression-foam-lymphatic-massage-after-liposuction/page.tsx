@@ -146,8 +146,8 @@ export default function LiposuctionCompressionFoamMassagePage() {
                 <li><a href="#foam-padding">Foam padding</a></li>
                 <li><a href="#short-stretch-bandages">Short-stretch bandages</a></li>
                 <li><a href="#lymphatic-massage">Lymphatic massage</a></li>
-                <li><a href="#how-they-work-together">How the supports differ</a></li>
                 <li><a href="#when-to-call">When to call your surgeon</a></li>
+                <li><a href="#how-they-work-together">How the supports differ</a></li>
                 <li><a href="#faq">FAQs</a></li>
               </ul>
             </nav>
