@@ -505,6 +505,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'fat-grafting-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.singhealth.com.sg/tests-procedures/fat-injection">SingHealth: fat injection / fat grafting</a>, <a href="https://www.saps.org.sg/facial-fat-grafting">Singapore Association of Plastic Surgeons: facial fat grafting</a>, and <a href="https://www.saps.org.sg/fat-transfer-breast-augmentation62823491">Singapore Association of Plastic Surgeons: fat-transfer breast augmentation</a>.</p>
                 ) : null}
+                {article.slug === 'face-neck-lift-singapore' && section.id === 'procedure' ? (
+                  <p>If you are considering a neck lift, ask whether your plan would include a separate incision under the chin. For general background, see the <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/procedure">American Society of Plastic Surgeons&apos; guide to neck lift incisions</a>.</p>
+                ) : null}
                 {article.slug === 'face-neck-lift-singapore' && section.id === 'recovery' ? (
                   <p>For general information when planning aftercare, see <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/recovery">ASPS facelift recovery guidance</a> or <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/recovery">ASPS neck lift recovery guidance</a>.</p>
                 ) : null}
