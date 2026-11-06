@@ -133,7 +133,7 @@ export default function LiposuctionCompressionFoamMassagePage() {
               <h1>{title}</h1>
               <p className="lead">Compression after liposuction is not just about wearing a tight garment. Foam padding, short-stretch bandages and gentle lymphatic drainage massage may all have roles in selected patients when used safely and under surgeon guidance.</p>
               <div className="hero-actions">
-                <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
+                <a href="#enquire" className="btn btn-primary">Non-urgent consultation enquiry</a>
                 <Link href="/body-contouring-liposuction-singapore" className="btn btn-ghost">Liposuction guide</Link>
               </div>
             </div>
@@ -276,7 +276,7 @@ export default function LiposuctionCompressionFoamMassagePage() {
               </div>
             </section>
 
-            <h2 id="enquire">Enquire about assessment</h2>
+            <h2 id="enquire">Non-urgent consultation enquiry</h2>
             <p>If you are considering liposuction or want to understand a safe recovery plan for compression, foam padding, bandages and lymphatic drainage massage, a formal consultation is needed before personalised advice can be given.</p>
             <ContactForm defaultEnquiryType="Aesthetic surgery" />
           </div>
