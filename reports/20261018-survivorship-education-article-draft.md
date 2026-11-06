@@ -49,7 +49,17 @@ Patients can be grateful to have survived cancer and still struggle with what tr
 
 ---
 
-Editorial reference: Hing JX et al., *Defining breast cancer-related lymphedema (BCRL) prevalence and risk factors: A pragmatic approach to lymphedema surveillance*, Annals Singapore,28February2024. https://annals.edu.sg/defining-breast-cancer-related-lymphedema-bcrl-prevalence-and-risk-factors-a-pragmatic-approach-to-lymphedema-surveillance/
+## Editorial references and source limits
+
+The communication sources below were inspected for issue #7's source map on 31 October and checked again at the 2 November 2026 source-map milestone. This reference update does not constitute clinical sign-off.
+
+- National Cancer Institute, [Talking with Your Health Care Team](https://www.cancer.gov/about-cancer/coping/adjusting-to-cancer/talk-with-doctors). Supports the general information-burden framing, written questions, requests for simpler or repeated explanations, and identifying a follow-up contact.
+- Agency for Healthcare Research and Quality, [Communicate Clearly: Tool 4](https://www.ahrq.gov/health-literacy/improve/precautions/tool4.html), Health Literacy Universal Precautions Toolkit, third edition. Supports clear, prioritised explanations, reinforcement and inviting questions.
+- Agency for Healthcare Research and Quality, [Use the Teach-Back Method: Tool 5](https://www.ahrq.gov/health-literacy/improve/precautions/tool5.html). Supports checking and re-explaining information without treating the discussion as a test of the patient.
+
+These sources support general communication principles, not a BCRL-specific education outcome, a screening interval or a service supplied by Dr Sun's clinic. Their U.S.-specific legal, contact and recording provisions are not incorporated. They do not validate the adapted quotation/personal account or the clinical assessment interpretation; the existing publication gates below still apply.
+
+Assessment reference: Hing JX et al., *Defining breast cancer-related lymphedema (BCRL) prevalence and risk factors: A pragmatic approach to lymphedema surveillance*, Annals Singapore,28February2024. https://annals.edu.sg/defining-breast-cancer-related-lymphedema-bcrl-prevalence-and-risk-factors-a-pragmatic-approach-to-lymphedema-surveillance/
 
 ## Publication gate
 
