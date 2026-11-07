@@ -150,6 +150,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
                   <li><a href="#published-origins">Published origins and Dr Sun’s training</a></li>
                   <li><a href="#patient-selection">Who may be suitable</a></li>
                   <li><a href="#day-of-surgery">Same-day activity</a></li>
+                  <li><a href="#return-to-exercise">Return to exercise at around six weeks</a></li>
                   <li><a href="#not-a-promise">Why it is not a fixed timeline</a></li>
                   <li><a href="#faq">FAQs</a></li>
                 </ul>
@@ -261,6 +262,11 @@ export default function RapidRecoveryBreastAugmentationPage() {
               <h2>Why early controlled movement may be encouraged</h2>
               <p>Older breast augmentation recovery advice often emphasised prolonged rest and limited arm movement. In selected rapid recovery protocols, early controlled movement may be encouraged to reduce stiffness and help patients return to light routine activities sooner.</p>
               <p>This does not mean heavy lifting, gym exercise, contact sports or ignoring pain. The difference is between controlled normal-use movement and strenuous activity. Patients should follow the exact protocol given by their surgeon because instructions may differ based on implant plane, incision, bleeding risk and whether any additional procedure was performed.</p>
+            </section>
+
+            <section id="return-to-exercise">
+              <h2>Returning to exercise at around six weeks</h2>
+              <p>After uncomplicated first-time breast augmentation, the goal at around six weeks is to return to all types of exercise, including weight training and chest exercises, once Dr Sun confirms you are ready. If you have not been cleared, keep following the activity limits in your recovery plan.</p>
             </section>
 
             <section id="not-a-promise">

@@ -1,0 +1,7 @@
+# Clarify the six-week exercise milestone after breast augmentation
+
+7 November 2026, Singapore. Issue #7 reservation 6703976572; base main 2721aef7fdf7a6383bab81b35c14797d7e0ef917.
+
+The [rapid recovery guide](https://www.drjeremysun.com/24-hour-rapid-recovery-breast-augmentation-singapore#day-of-surgery) explains early controlled movement and warns against strenuous activity, but provides no later exercise milestone. Dr Sun confirmed that six weeks means return to all types of exercise. The [BAAPS postoperative leaflet](https://baaps.org.uk/_userfiles/pages/files/v13_bba_aftercare.pdf) describes a six-week return to full exercise; it is general corroboration, not personal clearance. The new section makes this a goal for uncomplicated first-time augmentation, including weight and chest training only once individually cleared by Dr Sun. Existing early restrictions and warnings apply. No driving, outing or dressing instructions changed. No clinical review date, schema, metadata, images, form or analytics changed.
+
+Ordinary before HTTP 200, HTML SHA256 2a6b48afca23385235c98af4c5da8aba801e886021bffc7b8907ea9c1dc0456c. Original page blob 14c16cb97a5145f3ba059f70250f30c0c3ee0629. To reverse, guard current main and remove the one return-to-exercise section and its one contents link, or revert the isolated PR without overwriting later work. Rebuild and verify the ordinary live page. Release evidence recorded in issue #7.
