@@ -535,6 +535,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'materials' ? (
                   <p>For a focused discussion of cartilage harvest, donor-site scars and alternatives, read the <Link href="/rib-rhinoplasty-singapore">rib cartilage rhinoplasty guide</Link>.</p>
                 ) : null}
+                {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'assessment' ? (
+                  <p>If you have diagnosed obstructive sleep apnoea, ask how it affects your surgical plan and how to manage any CPAP treatment during recovery. The <a href="https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1177/0194599816683153">AAO-HNSF rhinoplasty guideline</a> explains why this discussion matters.</p>
+                ) : null}
                 {article.slug === 'asian-rhinoplasty-singapore' && section.id === 'choosing-surgeon' ? (
                   <>
                   <p>When comparing surgeons, use the <Link href="/plastic-surgeon-singapore#evaluate">credential-evaluation checklist</Link> and the <Link href="/plastic-surgeon-singapore#consultation">broader consultation questions</Link> alongside the rhinoplasty-specific points above.</p>
