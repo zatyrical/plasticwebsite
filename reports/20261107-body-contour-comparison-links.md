@@ -1,0 +1,7 @@
+# Send body contouring readers directly to the comparison sections
+
+7 November 2026, Singapore. Issue #7 checkpoint 6706660642; base main 265b5ccb2b3b2a76efa6aaa15c793be44eea20b5.
+
+The [liposuction guide’s skin quality section](https://www.drjeremysun.com/body-contouring-liposuction-singapore#skin-quality) and [tummy tuck comparison](https://www.drjeremysun.com/tummy-tuck-singapore#liposuction-vs-tummy-tuck) already address loose skin and procedure limits, but their contextual links send patients to the top of the other guide. Point those two existing links directly to the uniquely verified relevant sections and align their labels with those destinations. Keep the general guide links, existing comparisons and all clinical wording. [Google’s link guidance](https://developers.google.com/search/docs/crawling-indexing/links-crawlable) supports descriptive, contextual internal links. No new advice, content page, medical review, FAQ, metadata or tracking change. No weekly article credit.
+
+Ordinary before HTTP 200 on both routes; HTML SHA256 liposuction c11c09ebccc182db49381f090667247ac1f87eb5b6c8d7c6a5d3a73366184dc0 and tummy tuck a93843d62b8f035ff9377658ef8176e3276bf50ffe78072decce02d680766dd2. Original source blob 0cd94ebfccfef43869079ecf2718a1e656ca667f. Rollback after guarding latest main: restore the two uniquely scoped original paragraphs from the base source or revert the isolated PR preserving later work, rebuild, and verify both ordinary pages.
