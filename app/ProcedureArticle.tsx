@@ -512,7 +512,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>If you are considering a neck lift, ask whether your plan would include a separate incision under the chin. For general background, see the <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/procedure">American Society of Plastic Surgeons&apos; guide to neck lift incisions</a>.</p>
                 ) : null}
                 {article.slug === 'face-neck-lift-singapore' && section.id === 'recovery' ? (
-                  <p>For general information when planning aftercare, see <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/recovery">ASPS facelift recovery guidance</a> or <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/recovery">ASPS neck lift recovery guidance</a>.</p>
+                  <p>If your work involves meeting people or appearing on camera, ask what visible swelling or bruising to plan for and when it is safe to wear makeup. For general information when planning aftercare, see <a href="https://www.plasticsurgery.org/cosmetic-procedures/facelift/recovery">ASPS facelift recovery guidance</a> or <a href="https://www.plasticsurgery.org/cosmetic-procedures/neck-lift/recovery">ASPS neck lift recovery guidance</a>.</p>
                 ) : null}
                 {article.slug === 'face-neck-lift-singapore' && section.id === 'risks' ? (
                   <>
