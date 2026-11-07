@@ -149,6 +149,7 @@ export default function RapidRecoveryBreastAugmentationPage() {
                   <li><a href="#why-recovery-concerns-matter">Why recovery concerns matter</a></li>
                   <li><a href="#published-origins">Published origins and Dr Sun’s training</a></li>
                   <li><a href="#patient-selection">Who may be suitable</a></li>
+                  <li><a href="#pain-relief">Pain relief at home</a></li>
                   <li><a href="#day-of-surgery">Same-day activity</a></li>
                   <li><a href="#return-to-exercise">Return to exercise at around six weeks</a></li>
                   <li><a href="#not-a-promise">Why it is not a fixed timeline</a></li>
@@ -256,6 +257,11 @@ export default function RapidRecoveryBreastAugmentationPage() {
                 <li>realistic expectations about pain, swelling, bruising and activity limits</li>
               </ul>
               <p>For the separate implant-planning discussion, read the <Link href="/breast-augmentation-singapore#consultation">breast augmentation consultation guide</Link>, including anatomy, implant dimensions, placement and screening.</p>
+            </section>
+
+            <section id="pain-relief">
+              <h2>How is pain managed at home after breast augmentation?</h2>
+              <p>For suitable patients, Dr Sun’s usual take-home pain relief plan uses paracetamol and a non-steroidal anti-inflammatory drug (NSAID). Opioid painkillers are not part of the routine plan. Follow the instructions given at discharge and contact your surgical team if your pain is not controlled.</p>
             </section>
 
             <section id="day-of-surgery">
