@@ -463,6 +463,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                 {['asian-rhinoplasty-singapore', 'rib-rhinoplasty-singapore', 'breast-augmentation-singapore', 'body-contouring-liposuction-singapore', 'tummy-tuck-singapore', 'face-neck-lift-singapore'].includes(article.slug) && section.id === 'recovery' ? (
                   <p>Comparing overseas clinics? Read the <Link href="/plastic-surgery-overseas-safety-singapore">plastic surgery in Korea and overseas follow-up checklist</Link> to prepare questions about anaesthesia arrangements, records and in-person care after returning to Singapore.</p>
                 ) : null}
+                {(article.slug === 'asian-rhinoplasty-singapore' || article.slug === 'rib-rhinoplasty-singapore') && section.id === 'recovery' ? (
+                  <p>If you wear glasses, ask how to manage them while your nose heals. For general background, see the <a href="https://www.singhealth.com.sg/symptoms-treatments/nose-rhinoplasty">SingHealth: nose (rhinoplasty)</a> and the <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/recovery">ASPS rhinoplasty recovery guidance</a>. Follow the instructions from your own surgical team.</p>
+                ) : null}
                 {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'recovery' ? (
                   <p>For a focused explanation of garments, foam padding, short-stretch bandages and manual lymphatic drainage, read the <Link href="/compression-foam-lymphatic-massage-after-liposuction">compression and recovery after liposuction guide</Link>. The exact recovery plan should follow the treating surgeon&apos;s instructions.</p>
                 ) : null}
@@ -479,7 +482,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/mommy-makeover/safety">ASPS mommy makeover risks and safety</a> and <a href="https://www.saps.org.sg/tummy-tuck">Singapore Association of Plastic Surgeons: tummy tuck / abdominoplasty</a>.</p>
                 ) : null}
                 {(article.slug === 'asian-rhinoplasty-singapore' || article.slug === 'rib-rhinoplasty-singapore') && section.id === 'risks' ? (
-                  <p>Further patient information: <a href="https://www.saps.org.sg/rhinoplasty">Singapore Association of Plastic Surgeons: rhinoplasty</a>, <a href="https://www.singhealth.com.sg/symptoms-treatments/nose-rhinoplasty">SingHealth: nose (rhinoplasty)</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/safety">ASPS rhinoplasty risks and safety</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/recovery">ASPS rhinoplasty recovery guidance</a>.</p>
+                  <p>Further patient information: <a href="https://www.saps.org.sg/rhinoplasty">Singapore Association of Plastic Surgeons: rhinoplasty</a> and <a href="https://www.plasticsurgery.org/cosmetic-procedures/rhinoplasty/safety">ASPS rhinoplasty risks and safety</a>.</p>
                 ) : null}
                 {article.slug === 'breast-augmentation-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/safety">ASPS breast augmentation risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/breast-augmentation/recovery">ASPS breast augmentation recovery guidance</a>, and the <a href="https://www.fda.gov/medical-devices/implants-and-prosthetics/breast-implants">FDA breast implant information hub</a>.</p>
