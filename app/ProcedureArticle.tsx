@@ -457,6 +457,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                     <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/safety">ASPS liposuction risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/candidates">ASPS liposuction suitability</a>, and <a href="https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/liposuction/">NHS liposuction overview</a>.</p>
                   </>
                 ) : null}
+                {article.slug === 'tummy-tuck-singapore' && section.id === 'recovery' ? (
+                  <p>If your plan includes a drain, ask who will show you how to care for it and whom to contact with questions. The <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a> gives general background; follow the instructions from your own surgical team.</p>
+                ) : null}
                 {['asian-rhinoplasty-singapore', 'rib-rhinoplasty-singapore', 'breast-augmentation-singapore', 'body-contouring-liposuction-singapore', 'tummy-tuck-singapore', 'face-neck-lift-singapore'].includes(article.slug) && section.id === 'recovery' ? (
                   <p>Comparing overseas clinics? Read the <Link href="/plastic-surgery-overseas-safety-singapore">plastic surgery in Korea and overseas follow-up checklist</Link> to prepare questions about anaesthesia arrangements, records and in-person care after returning to Singapore.</p>
                 ) : null}
@@ -470,7 +473,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>If you have a C-section scar, ask how it might affect the position of the new scar. For general background, see <a href="https://www.mayoclinic.org/tests-procedures/tummy-tuck/about/pac-20384892">Mayo Clinic&apos;s tummy tuck guide on previous C-section scars</a>.</p>
                 ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'risks' ? (
-                  <p>Further patient information: <a href="https://www.saps.org.sg/tummy-tuck">Singapore Association of Plastic Surgeons: tummy tuck / abdominoplasty</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/safety">ASPS tummy tuck risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/candidates">ASPS tummy tuck suitability</a>, and <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a>.</p>
+                  <p>Further patient information: <a href="https://www.saps.org.sg/tummy-tuck">Singapore Association of Plastic Surgeons: tummy tuck / abdominoplasty</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/safety">ASPS tummy tuck risks and safety</a> and <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/candidates">ASPS tummy tuck suitability</a>.</p>
                 ) : null}
                 {article.slug === 'mommy-makeover-singapore' && section.id === 'risks' ? (
                   <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/mommy-makeover/safety">ASPS mommy makeover risks and safety</a> and <a href="https://www.saps.org.sg/tummy-tuck">Singapore Association of Plastic Surgeons: tummy tuck / abdominoplasty</a>.</p>
