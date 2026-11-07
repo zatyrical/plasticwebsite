@@ -470,7 +470,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>For a focused explanation of garments, foam padding, short-stretch bandages and manual lymphatic drainage, read the <Link href="/compression-foam-lymphatic-massage-after-liposuction">compression and recovery after liposuction guide</Link>. The exact recovery plan should follow the treating surgeon&apos;s instructions.</p>
                 ) : null}
                 {article.slug === 'eyebag-removal-lower-blepharoplasty-singapore' && section.id === 'recovery' ? (
-                  <p>For general questions to discuss about aftercare, activity and follow-up, see the <a href="https://www.plasticsurgery.org/cosmetic-procedures/eyelid-surgery/recovery">ASPS eyelid surgery recovery resource</a>. This general information does not replace your surgical team&apos;s individual instructions.</p>
+                  <p>If you wear contact lenses, ask your surgical team when you can wear them again. For general questions to discuss about aftercare, activity and follow-up, see the <a href="https://www.plasticsurgery.org/cosmetic-procedures/eyelid-surgery/recovery">ASPS eyelid surgery recovery resource</a>. This general information does not replace your surgical team&apos;s individual instructions.</p>
                 ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'scars-belly-button' ? (
                   <p>If you have a C-section scar, ask how it might affect the position of the new scar. For general background, see <a href="https://www.mayoclinic.org/tests-procedures/tummy-tuck/about/pac-20384892">Mayo Clinic&apos;s tummy tuck guide on previous C-section scars</a>.</p>
