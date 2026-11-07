@@ -614,7 +614,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                   </>
                 ) : null}
                 {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'skin-quality' ? (
-                  <p>Compare the <Link href="/tummy-tuck-singapore">tummy tuck and abdominoplasty guide</Link> when discussing loose abdominal skin and abdominal wall concerns.</p>
+                  <p>Compare the <Link href="/tummy-tuck-singapore#liposuction-vs-tummy-tuck">tummy tuck versus liposuction section</Link> when discussing loose abdominal skin and abdominal wall concerns.</p>
                 ) : null}
                 {article.slug === 'body-contouring-liposuction-singapore' && section.id === 'procedure' ? (
                   <p>If fat transfer is part of the consultation discussion, the <Link href="/fat-grafting-singapore">fat grafting guide</Link> explains assessment of both the donor and recipient areas, recovery at both sites and important limitations. Reading it does not mean fat transfer is suitable or planned.</p>
@@ -623,7 +623,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>For a broader comparison, use the <Link href="/plastic-surgeon-singapore#evaluate">credential-evaluation checklist</Link> and the <Link href="/plastic-surgeon-singapore#consultation">consultation questions</Link> alongside the liposuction-specific points above.</p>
                 ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'liposuction-vs-tummy-tuck' ? (
-                  <p>Read the <Link href="/body-contouring-liposuction-singapore">liposuction and body contouring guide</Link> to compare treatment areas, skin quality and recovery considerations.</p>
+                  <p>Read the liposuction guide’s <Link href="/body-contouring-liposuction-singapore#skin-quality">section on skin quality and loose skin</Link> for more on the limits of fat removal.</p>
                 ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'post-pregnancy' ? (
                   <p>For a broader discussion of combined versus staged abdominal and breast procedures after pregnancy, read the <Link href="/mommy-makeover-singapore">mommy / mummy makeover planning guide</Link>.</p>
