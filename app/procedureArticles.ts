@@ -82,7 +82,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'not-weight-loss',
         heading: 'Liposuction is not weight-loss surgery',
-        paragraphs: ['Patients searching for liposuction in Singapore may be looking for abdominal, waist, arm, thigh, back or chin contouring. These are contour concerns, not substitutes for medical weight management.', 'If the main issue is general weight gain, unstable weight, visceral fat around the organs, or significant loose skin, liposuction alone may disappoint. In those situations, weight stabilisation, lifestyle treatment, abdominoplasty, skin excision or no procedure may be discussed instead.']
+        paragraphs: ['Patients searching for liposuction in Singapore may be looking for abdominal, waist, arm, thigh, back or chin contouring. These are contour concerns, not substitutes for medical weight management.', 'Liposuction removes selected fat beneath the skin. It does not remove visceral fat around the organs. If the main concern is general weight gain or unstable weight, weight stabilisation, lifestyle treatment or no procedure may be discussed. Significant loose skin is a separate concern: assessment may include a discussion of a tummy tuck, another skin-excision procedure or no surgery.']
       },
       {
         id: 'areas',
