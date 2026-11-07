@@ -1,0 +1,7 @@
+# Add a sleep apnoea question to rhinoplasty assessment
+
+8 November 2026 SGT. Issue #7 reservation 6711011388; base main 8216e81dd547c9039adb34bf132a1f91e5fe932a.
+
+Ordinary [Asian rhinoplasty](https://www.drjeremysun.com/asian-rhinoplasty-singapore#assessment) and [rib rhinoplasty](https://www.drjeremysun.com/rib-rhinoplasty-singapore) both returned 200 and already cover nasal breathing alongside appearance, revision and previous procedures. Neither mentions diagnosed sleep apnoea or CPAP. The [AAO-HNSF clinical practice guideline](https://aao-hnsfjournals.onlinelibrary.wiley.com/doi/10.1177/0194599816683153), key action statements 2 and 5, supports discussing diagnosed obstructive sleep apnoea during assessment and planning around surgery. Add one consultation prompt and source link in the existing Asian rhinoplasty assessment, with no local protocol, screening recommendation, device or pressure instruction, restart time, or outcome claim. Keep the rib guide unchanged and leave the scheduled substantive rib expansion separate.
+
+Ordinary before HTML SHA-256 02ded8a24ff379e5918e593e73009b774f21876adc3507cbb409b31f7387a7c9. Original shared component blob b270684351762b1835ef4e4ce04cd0a62020f896. Rollback: guard current main, remove the single conditional assessment paragraph or revert the isolated merge while preserving later work, rebuild and verify ordinary public pages. Clinical review dates, metadata, FAQ and enquiry paths are retained. No weekly article credit.
