@@ -1,0 +1,7 @@
+# Tummy tuck guide: reference for the diastasis and hernia distinction
+
+8 November 2026, Singapore. Scope: [tummy tuck guide, abdominal wall assessment](https://drjeremysun.com/tummy-tuck-singapore#diastasis). The public guide already distinguished muscle separation from a true hernia and mentioned separate or combined assessment. It did not offer a specific source beside that decision. The ordinary public tummy tuck, liposuction and mommy makeover pages were checked before editing; the existing comparison links were retained.
+
+Add one contextual link to the [European Hernia Society guideline on rectus diastasis](https://europeanherniasociety.eu/guidelines-for-management-of-rectus-diastasis/) (BJS 2021, DOI 10.1093/bjs/znab128). Questions 2 and 8 address assessment and the presence of a concomitant hernia; the guideline describes limitations in the evidence. The link introduces no treatment recommendation, threshold or outcome and does not update clinical review dates, metadata or forms.
+
+Baseline: main `83a1c1aefbb972ee1709d364b26afc686e90aa1d`, template blob `a509f300e19d22a22205078e319c6aa39e897cf8`; ordinary tummy tuck HTML SHA-256 `d136c5e7a239f23e716236fc16ca4803f26af9af40bd32ccfc93b63ab871b424`. Roll back by reverting this isolated PR or removing its single slug-and-section guarded paragraph. See issue #7 for the publication receipt and dated next actions. This maintenance is separate from the weekly patient education article.
