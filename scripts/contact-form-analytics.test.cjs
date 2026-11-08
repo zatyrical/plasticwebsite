@@ -70,6 +70,7 @@ async function submit({ responseOk = true, accepted = true, invalidJson = false,
   const analytics = loadModule('app/contactAnalytics.ts', { window: browser });
   const fakeReact = {
     useEffect: () => {},
+    useId: () => 'enquiry-message-test',
     useState: (initial) => { const index = hook++; return [initial, (value) => states[index].push(value)]; }
   };
   const element = (type, props) => ({ type, props });
