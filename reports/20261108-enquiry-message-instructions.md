@@ -1,0 +1,7 @@
+# Keep enquiry message instructions visible while typing
+
+8 November 2026 SGT. Issue #7 reservation 6717991176, base main 703c9e1df8bf9fe5eddf0a7a6eebc2d2f293d078.
+
+Ordinary homepage and face/neck lift pages returned HTTP 200. Their shared enquiry form placed the requested reason, preferred contact method and non-urgent caution in a placeholder, which disappears once a reader enters text. Preserve the exact instructions as visible help above the message field, associate them with the field using `aria-describedby`, and keep the explicit label and required state. React generates per-instance IDs. This follows the [W3C Forms Tutorial](https://www.w3.org/WAI/tutorials/forms/instructions/). The aesthetic hub's actual contact links go to the homepage contact section; the bare /contact path is not linked in the inspected first-party UI.
+
+Homepage and face/neck before HTML SHA-256: c3548a24900b75f268a0fa8c595a4046a58cd12b486666ec6d538ff78ce0afea and 67e6630389bed78b2dac21d24241418b59c25e5df6a1d96752f6401a28dba9ce. Original form/CSS blobs: da15d1377a9fa31c3a6aada1108e0f7ba23021d3 / 1e1b6f6c4c4d093cc03257e55c96fdced1b40916. Rollback: after fresh main guard, revert this isolated PR or restore the original field markup and remove only the new layout rule, rebuild and check public forms. Submission, API, tracking, bot checks, alternative contacts, medical copy, review dates and canonicals remain the same. No test enquiries or weekly article credit.

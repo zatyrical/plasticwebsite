@@ -1,6 +1,6 @@
 'use client';
 
-import { FormEvent, useEffect, useState } from 'react';
+import { FormEvent, useEffect, useId, useState } from 'react';
 import { trackAcceptedEnquiry } from './contactAnalytics';
 import EnquiryBotCheck from './EnquiryBotCheck';
 
@@ -13,6 +13,8 @@ type EnquiryType =
   | 'Lymphedema / LVA surgery';
 
 export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry' }: { defaultEnquiryType?: EnquiryType }) {
+  const messageId = useId();
+  const messageHintId = `${messageId}-hint`;
   const [status, setStatus] = useState<Status>('idle');
   const [message, setMessage] = useState('');
   const [pageUrl, setPageUrl] = useState('');
@@ -91,10 +93,11 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
           </select>
         </label>
       </div>
-      <label>
-        Message (required)
-        <textarea name="message" rows={5} required maxLength={2000} placeholder="Please include the reason for enquiry and preferred contact method. Do not include urgent medical information." />
-      </label>
+      <div className="form-message">
+        <label htmlFor={messageId}>Message (required)</label>
+        <p id={messageHintId} className="form-note">Please include the reason for enquiry and preferred contact method. Do not include urgent medical information.</p>
+        <textarea id={messageId} name="message" rows={5} required maxLength={2000} aria-describedby={messageHintId} />
+      </div>
       <label className="hp-field" aria-hidden="true">
         Leave this field blank
         <input name="website" type="text" tabIndex={-1} autoComplete="off" />
