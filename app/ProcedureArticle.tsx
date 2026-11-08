@@ -457,6 +457,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                     <p>Further patient information: <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/safety">ASPS liposuction risks and safety</a>, <a href="https://www.plasticsurgery.org/cosmetic-procedures/liposuction/candidates">ASPS liposuction suitability</a>, and <a href="https://www.nhs.uk/tests-and-treatments/cosmetic-procedures/cosmetic-surgery/liposuction/">NHS liposuction overview</a>.</p>
                   </>
                 ) : null}
+                {article.slug === 'tummy-tuck-singapore' && section.id === 'diastasis' ? (
+                  <p>For more on how abdominal muscle separation is assessed when a hernia may also be present, see the <a href="https://europeanherniasociety.eu/guidelines-for-management-of-rectus-diastasis/">European Hernia Society guideline on rectus diastasis</a>.</p>
+                ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'recovery' ? (
                   <p>If your plan includes a drain, ask who will show you how to care for it and whom to contact with questions. The <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a> gives general background; follow the instructions from your own surgical team.</p>
                 ) : null}
