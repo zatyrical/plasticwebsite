@@ -29,7 +29,7 @@ export default function ContactForm({ defaultEnquiryType = 'Consultation enquiry
     const formData = new FormData(form);
 
     setStatus('sending');
-    setMessage('');
+    setMessage('Please wait while we send your enquiry.');
 
     try {
       const response = await fetch('/api/contact', {
