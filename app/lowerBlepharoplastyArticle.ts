@@ -58,7 +58,7 @@ export const lowerBlepharoplastyArticle: ProcedureArticle = {
       "id": "suitability",
       "heading": "Is lower eyelid surgery appropriate for your concerns?",
       "paragraphs": [
-        "Discuss the changes you wish to address, previous eye or facial procedures, medications and eye symptoms. The consultation should explain which concerns the proposed operation may address and which may remain. Ask whether an alternative approach or no treatment would better fit your situation."
+        "Discuss the changes you wish to address, previous eye or facial procedures, medications and eye symptoms. If you already have dry eyes, tell your surgeon about your symptoms and any eye drops you use, and ask how this might affect your surgical plan. The consultation should explain which concerns the proposed operation may address and which may remain. Ask whether an alternative approach or no treatment would better fit your situation."
       ]
     },
     {
