@@ -92,7 +92,7 @@ const jsonLd = {
         width: 373,
         height: 373
       },
-      telephone: '+65 6530 3573',
+      telephone: '+65 6970 0730',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '290 Orchard Road, #09-01/02, Paragon Medical',
@@ -281,11 +281,11 @@ export default function Home() {
                 Paragon Medical<br />
                 Singapore 238859
               </address>
-              <p><strong>Clinic telephone</strong><br /><a href="tel:+6565303573">+65 6530 3573</a></p>
+              <p><strong>Clinic telephone</strong><br /><a href="tel:+6569700730">+65 6970 0730</a></p>
               <p><strong>Clinic hours</strong><br />Monday–Friday: 9am–5pm<br />Saturday: 9am–12:30pm<br />Sunday: Closed</p>
               <p>Consultations are by appointment. Please confirm Dr Sun’s availability and public holiday hours with the clinic before visiting.</p>
               <div className="hero-actions">
-                <a className="btn btn-primary" href="tel:+6565303573">Call the clinic</a>
+                <a className="btn btn-primary" href="tel:+6569700730">Call the clinic</a>
                 <a className="btn btn-ghost" href="https://wa.me/6587649219" target="_blank" rel="noreferrer">WhatsApp Astrid</a>
                 <a className="btn btn-ghost" href="https://www.google.com/maps/place/Dr+Jeremy+Sun/data=!4m2!3m1!1s0x0:0xcba381971e77822e" target="_blank" rel="noreferrer">View on Google Maps</a>
               </div>

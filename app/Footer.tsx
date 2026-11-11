@@ -14,7 +14,7 @@ export default function Footer() {
           <p>Private consultations at Astrid Plastic Surgery, Paragon Medical</p>
           <address style={{ fontStyle: 'normal', color: 'rgba(255,255,255,.74)', fontSize: '14px', lineHeight: 1.7 }}>
             <a href="https://www.google.com/maps/place/Dr+Jeremy+Sun/data=!4m2!3m1!1s0x0:0xcba381971e77822e" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', textUnderlineOffset: '4px' }}>290 Orchard Road, #09-01/02, Singapore 238859</a><br />
-            <a href="tel:+6565303573" style={{ textDecoration: 'underline', textUnderlineOffset: '4px' }}>+65 6530 3573</a><span aria-hidden="true"> • </span><a href="/#contact" style={{ textDecoration: 'underline', textUnderlineOffset: '4px' }}>Enquire</a>
+            <a href="tel:+6569700730" style={{ textDecoration: 'underline', textUnderlineOffset: '4px' }}>+65 6970 0730</a><span aria-hidden="true"> • </span><a href="/#contact" style={{ textDecoration: 'underline', textUnderlineOffset: '4px' }}>Enquire</a>
           </address>
         </div>
         <nav className="footer-socials" aria-label="Professional profiles">
