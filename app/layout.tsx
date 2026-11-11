@@ -80,7 +80,7 @@ const globalStructuredData = {
       },
       sameAs: physicianSameAs,
       medicalSpecialty: ['PlasticSurgery', 'ReconstructiveSurgery'],
-      telephone: '+65 6530 3573',
+      telephone: '+65 6970 0730',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '290 Orchard Road, #09-01/02, Paragon Medical',

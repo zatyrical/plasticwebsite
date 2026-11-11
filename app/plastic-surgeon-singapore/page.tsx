@@ -168,7 +168,7 @@ export default function PlasticSurgeonSingaporePage() {
                 <Link href="/tummy-tuck-singapore" className="related-card"><small>Abdominal surgery</small><strong>Tummy tuck / abdominoplasty</strong><span>Skin, abdominal wall and recovery considerations</span></Link>
               </div>
               <h3>Where can patients enquire about a private consultation?</h3>
-              <p>Private consultation enquiries are handled through Astrid Plastic Surgery at <strong>290 Orchard Road, #09-01/02, Paragon Medical, Singapore 238859</strong>. Call <a href="tel:+6565303573">+65 6530 3573</a> or use the <Link href="/#contact">consultation enquiry form</Link>. View <a href="https://www.google.com/maps/place/Dr+Jeremy+Sun/@1.3039053,103.8355763,17z/data=!3m1!4b1!4m6!3m5!1s0x31da19469f2612cd:0xcba381971e77822e!8m2!3d1.3039053!4d103.8355763!16s%2Fg%2F11nw796mdz?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D">Dr Jeremy Sun’s Google Maps listing</a> for directions.</p>
+              <p>Private consultation enquiries are handled through Astrid Plastic Surgery at <strong>290 Orchard Road, #09-01/02, Paragon Medical, Singapore 238859</strong>. Call <a href="tel:+6569700730">+65 6970 0730</a> or use the <Link href="/#contact">consultation enquiry form</Link>. View <a href="https://www.google.com/maps/place/Dr+Jeremy+Sun/@1.3039053,103.8355763,17z/data=!3m1!4b1!4m6!3m5!1s0x31da19469f2612cd:0xcba381971e77822e!8m2!3d1.3039053!4d103.8355763!16s%2Fg%2F11nw796mdz?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D">Dr Jeremy Sun’s Google Maps listing</a> for directions.</p>
             </section>
 
             <section id="lymphoedema-fellowship">
