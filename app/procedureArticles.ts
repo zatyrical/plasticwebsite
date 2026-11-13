@@ -1232,7 +1232,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'dr-sun-experience',
         heading: 'Dr Jeremy Sun’s FTM top surgery experience',
-        paragraphs: ['Dr Jeremy Sun has performed more than 50 FTM top surgery cases. He has also given talks in Seoul and Japan on optimising aesthetic outcomes in FTM top surgery.']
+        paragraphs: ['Dr Jeremy Sun has performed more than 50 FTM top surgery cases. He has given talks in Seoul and Japan on optimising aesthetic outcomes in female-to-male (FTM) top surgery. His Seoul presentation was at Aesthetic Plastic Surgery Korea (APS Korea) 2026.']
       },
       {
         id: 'what-it-addresses',
@@ -1320,7 +1320,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'dr-sun-experience',
         heading: 'Dr Jeremy Sun’s FTM top surgery experience',
-        paragraphs: ['Dr Jeremy Sun has performed more than 50 FTM top surgery cases. He has also given talks in Seoul and Japan on optimising aesthetic outcomes in FTM top surgery.']
+        paragraphs: ['Dr Jeremy Sun has performed more than 50 FTM top surgery cases. He has given talks in Seoul and Japan on optimising aesthetic outcomes in female-to-male (FTM) top surgery. His Seoul presentation was at Aesthetic Plastic Surgery Korea (APS Korea) 2026.']
       },
       { id: 'assessment', heading: 'Assessment and care planning', paragraphs: ['Assessment includes chest size and skin quality, nipple-areola position, asymmetry, previous surgery, medical history, smoking status, medications, support at home and the patient’s goals.', 'Depending on the clinical context and local requirements, documentation, mental health support or multidisciplinary input may be relevant. Patients should receive clear counselling before surgery.'] },
       { id: 'options', heading: 'Surgical options', paragraphs: ['Surgical options depend on anatomy. Some patients may be suitable for smaller-incision approaches, while others require double-incision techniques with nipple-areola grafting or repositioning. Liposuction may be used as an adjunct in selected cases.', 'The appropriate technique balances chest contour, skin excess, nipple position, scar pattern, sensation and revision risk.'] },
