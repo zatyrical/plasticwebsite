@@ -1214,7 +1214,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'ftm-top-surgery-singapore': {
     slug: 'ftm-top-surgery-singapore',
-    modifiedIso: '2026-10-12',
+    modifiedIso: '2026-11-13',
     title: 'FTM Top Surgery Singapore | Chest Masculinisation',
     eyebrow: 'Gender-affirming chest surgery',
     lead: 'A patient guide to FTM top surgery in Singapore, including female-to-male and transmasculine chest masculinisation, double-incision double-ellipse planning, nipple grafts, scar placement, dog-ear management, nerve blocks, day surgery and recovery.',
@@ -1229,6 +1229,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       'This page explains the principles behind that technique, including scar placement along the pectoralis major border, dog-ear control toward the axilla, a central inverted-V scar concept, small nipple-areola graft planning, nerve blocks, day-surgery recovery and limitations.'
     ],
     sections: [
+      {
+        id: 'dr-sun-experience',
+        heading: 'Dr Jeremy Sun’s FTM top surgery experience',
+        paragraphs: ['Dr Jeremy Sun has performed more than 50 FTM top surgery cases. He has also given talks in Seoul and Japan on optimising aesthetic outcomes in FTM top surgery.']
+      },
       {
         id: 'what-it-addresses',
         heading: 'What FTM top surgery aims to address',
@@ -1298,7 +1303,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'gender-affirming-chest-reconstruction-singapore': {
     slug: 'gender-affirming-chest-reconstruction-singapore',
-    modifiedIso: '2026-10-12',
+    modifiedIso: '2026-11-13',
     title: 'Gender-Affirming Chest Reconstruction in Singapore',
     eyebrow: 'Gender-affirming chest reconstruction',
     lead: 'Patient information on chest reconstruction planning, surgical options, recovery, scars, risks and multidisciplinary care.',
@@ -1312,6 +1317,11 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       'Patients should be assessed in a respectful, medically appropriate and safety-focused way, with attention to physical anatomy, mental health support, expectations, consent and aftercare.'
     ],
     sections: [
+      {
+        id: 'dr-sun-experience',
+        heading: 'Dr Jeremy Sun’s FTM top surgery experience',
+        paragraphs: ['Dr Jeremy Sun has performed more than 50 FTM top surgery cases. He has also given talks in Seoul and Japan on optimising aesthetic outcomes in FTM top surgery.']
+      },
       { id: 'assessment', heading: 'Assessment and care planning', paragraphs: ['Assessment includes chest size and skin quality, nipple-areola position, asymmetry, previous surgery, medical history, smoking status, medications, support at home and the patient’s goals.', 'Depending on the clinical context and local requirements, documentation, mental health support or multidisciplinary input may be relevant. Patients should receive clear counselling before surgery.'] },
       { id: 'options', heading: 'Surgical options', paragraphs: ['Surgical options depend on anatomy. Some patients may be suitable for smaller-incision approaches, while others require double-incision techniques with nipple-areola grafting or repositioning. Liposuction may be used as an adjunct in selected cases.', 'The appropriate technique balances chest contour, skin excess, nipple position, scar pattern, sensation and revision risk.'] },
       { id: 'recovery', heading: 'Recovery after chest reconstruction', paragraphs: ['Recovery may involve dressings, drains, compression garments, restricted arm movement and time away from strenuous activity. Swelling, bruising, tightness, altered sensation and scar maturation are expected.', 'Nipple-areola grafts or repositioned tissues require careful wound care and monitoring. Scar maturation takes months.'] },
