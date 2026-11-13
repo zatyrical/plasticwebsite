@@ -404,6 +404,9 @@ export default function ProcedureArticlePage({ article }: Props) {
                     </p>
                   );
                 })}
+                {(article.slug === 'ftm-top-surgery-singapore' || article.slug === 'gender-affirming-chest-reconstruction-singapore') && section.id === 'dr-sun-experience' ? (
+                  <p>Conference speaker listing: <a href="https://apskorea.or.kr/program/daily.php">APS Korea 2026 scientific programme</a>.</p>
+                ) : null}
                 {section.image ? (
                   <figure className="article-material-figure">
                     <Image
