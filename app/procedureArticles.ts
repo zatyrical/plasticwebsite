@@ -696,7 +696,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'rib-rhinoplasty-singapore': {
     slug: 'rib-rhinoplasty-singapore',
-    modifiedIso: '2026-10-13',
+    modifiedIso: '2026-11-14',
     title: 'Rhinoplasty Singapore | Rib Cartilage & Asian Nose Surgery',
     eyebrow: 'Rib rhinoplasty',
     lead: 'A patient guide to rib cartilage rhinoplasty in Singapore, including when rib cartilage may be considered, Asian nose surgery planning, donor-site scar, recovery, risks and alternatives.',
@@ -743,23 +743,22 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'consultation',
         heading: 'Consultation and planning for Asian rib rhinoplasty',
-        paragraphs: ['Assessment includes facial proportions, nasal bridge, nasal tip support, nostril shape, skin thickness, septum, airway symptoms, previous fillers or surgery, photographs and discussion of graft or implant options.', 'The appointment pathway is assessment-led: define the nasal concern first, then decide whether septal cartilage, ear cartilage, implant-based planning, rib cartilage, limited refinement, revision surgery or no procedure is most appropriate.', 'Patients should understand the donor site as well as the nose. Rib harvest creates a chest-wall scar and can cause discomfort, contour changes or other donor-site issues.']
+        paragraphs: ['Assessment includes facial proportions, nasal bridge, nasal tip support, nostril shape, skin thickness, septum, airway symptoms, previous fillers or surgery, photographs and discussion of graft or implant options.', 'The appointment pathway is assessment-led: define the nasal concern first, then decide whether septal cartilage, ear cartilage, implant-based planning, rib cartilage, limited refinement, revision surgery or no procedure is most appropriate.', 'If your own rib cartilage is being considered, discuss the donor site as well as the nose. Taking cartilage from the rib creates a chest-wall scar and can cause discomfort, contour changes or other donor-site issues.', 'Previous chest surgery does not automatically rule out harvesting rib cartilage. Calcification is an important planning consideration because it can make the cartilage more difficult to prepare. Cadaveric rib cartilage, meaning cartilage from a donor, is another option to discuss during consultation.']
       },
       {
         id: 'revision-planning',
         heading: 'Rib cartilage for revision rhinoplasty: what changes in the plan?',
-        paragraphs: ['Previous surgery, nasal implants, grafts, fillers and scar tissue can change the anatomy and blood supply. Revision planning may therefore be more complex than a first operation, and previous treatments or skin thickness can limit what is safely achievable.', 'Rib cartilage may be discussed when available septal or ear cartilage is insufficient or stronger support is needed. It is not automatically needed for every revision. The discussion should cover the nose, the chest-wall donor site, alternatives and realistic recovery.'],
-        items: ['Which concern is being assessed: appearance, breathing or both?', 'How do previous surgery, implants or fillers affect the safe limits of change?', 'Is rib cartilage needed, or are other graft sources, limited refinement or no surgery reasonable?', 'What separate donor-site scar and recovery should be considered?']
+        paragraphs: ['Start with the concern that matters to you now: the shape of the bridge or tip, breathing, or both. A photograph can help explain an appearance concern, while the examination also looks at nasal support, skin and the airway. Before comparing grafts, ask what needs support and what may be safer to leave alone.', 'Tell the surgeon about previous operations, implants, grafts or fillers. If you know which filler was used, when it was injected or whether there were complications, mention those details. If you are unsure, ask which information would help. Prior treatment and scar tissue can change the anatomy and blood supply. Together with skin thickness, these factors can limit what can safely be changed.', 'Rib cartilage may be discussed if suitable septal or ear cartilage is limited or stronger support is needed. A revision does not automatically require a rib graft. Discuss the proposed change alongside alternatives such as a more limited operation, staged treatment or no surgery. If your own rib is being considered, ask which part of the nose the graft would support and what separate chest recovery would involve.', 'Dr Sun usually considers staged revision when the skin and soft-tissue envelope is compromised, particularly when its blood supply is affected. In this situation, work on the cartilage framework may need to be separated from correction of the covering skin and soft tissues. The plan is individual; this does not mean every revision needs more than one operation.']
       },
       {
         id: 'cost-quotation',
         heading: 'Rib rhinoplasty cost factors in Singapore',
-        paragraphs: ['Cost can vary because rib rhinoplasty may involve additional operative time, cartilage harvest, structural grafting, revision work, anaesthesia, facility, medications and follow-up. Revision cases are often more complex than primary surgery.', 'A quotation should follow assessment and should explain whether rib cartilage is genuinely needed, what alternatives exist, what is included and what factors may change the plan.']
+        paragraphs: ['Cost can vary with operative time, whether cartilage needs to be harvested, structural grafting, revision work, anaesthesia, facility, medications and follow-up. Revision cases are often more complex than primary surgery.', 'A quotation should follow assessment and should explain whether rib cartilage is genuinely needed, what alternatives exist, what is included and what factors may change the plan.']
       },
       {
         id: 'recovery',
         heading: 'Recovery after rib cartilage rhinoplasty',
-        paragraphs: ['Recovery includes nasal swelling and a separate rib donor-site recovery. Nasal tip swelling can take months to settle, especially in thicker skin or revision surgery. The rib donor site may be sore during movement, coughing or deep breathing early on.', 'Patients should follow wound care, activity restrictions and follow-up instructions closely. Final nasal refinement takes time and cannot be judged in the early swelling phase.']
+        paragraphs: ['Nasal tip swelling can take months to settle, especially in thicker skin or revision surgery. If cartilage is taken from your own rib, there is also a separate chest donor site to recover from. It may be sore during movement, coughing or deep breathing early on.', 'Patients should follow wound care, activity restrictions and follow-up instructions closely. Final nasal refinement takes time and cannot be judged in the early swelling phase.']
       },
       {
         id: 'risks',
@@ -769,15 +768,15 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'questions',
         heading: 'Questions to ask before rib rhinoplasty',
-        items: ['Why is rib cartilage being considered in my case?', 'Are septal cartilage, ear cartilage, implant-based planning or no surgery reasonable alternatives?', 'Where will the rib scar be and what donor-site symptoms can occur?', 'How will bridge and tip support be planned?', 'How does previous filler or surgery affect the plan?', 'What would make revision surgery more likely?']
+        items: ['Is the priority appearance, breathing or both, and what does the examination show needs support?', 'What limits do my previous treatments place on the changes I want?', 'Why consider rib cartilage in my case, and what are the realistic alternatives, including no surgery?', 'Where would the proposed graft come from? If it is my own rib, what should I know about the chest scar and recovery?', 'What might make a smaller change or staged treatment worth discussing?', 'What would make another revision more likely?', 'What does the quote include and what could change it?']
       }
     ],
     faqs: [
       { question: 'What is rib rhinoplasty?', answer: 'Rib rhinoplasty is nose surgery where rib cartilage is used as graft material for selected bridge, tip or structural support needs. It is sometimes discussed in Asian rhinoplasty and revision rhinoplasty.' },
       { question: 'Do all Asian rhinoplasty patients need rib cartilage?', answer: 'No. Some patients may be suitable for septal cartilage, ear cartilage, implant-based planning, limited refinement or no surgery. Rib cartilage is considered when stronger or larger-volume structural support is needed.' },
       { question: 'Is rib cartilage better than an implant?', answer: 'There is no single better option for every patient. Rib cartilage and implants have different roles, benefits and risks. The choice depends on anatomy, goals, skin thickness, infection risk, revision history and the need for structural support.' },
-      { question: 'How much does rib rhinoplasty cost in Singapore?', answer: 'Cost varies with primary versus revision surgery, complexity, cartilage harvest, anaesthesia, facility and follow-up. A quotation should follow assessment and should explain whether rib cartilage is necessary.' },
-      { question: 'Will there be a rib scar?', answer: 'Yes. Rib cartilage harvest requires a chest-wall incision, so a scar is expected. Scar length, position and maturation should be discussed during consultation.' },
+      { question: 'How much does rib rhinoplasty cost in Singapore?', answer: 'Cost varies with primary versus revision surgery, complexity, whether cartilage needs to be harvested, anaesthesia, facility and follow-up. A quotation should follow assessment and should explain whether rib cartilage is necessary.' },
+      { question: 'Will there be a rib scar?', answer: 'If cartilage is taken from your own rib, the chest-wall incision leaves a scar. Discuss scar length, position and maturation during consultation.' },
       { question: 'Is revision rhinoplasty with rib cartilage more complex?', answer: 'Often yes. Previous surgery, implants, fillers, grafts and scar tissue can alter anatomy and blood supply, making revision planning more complex and sometimes limiting what can be safely changed.' }
     ]
   },

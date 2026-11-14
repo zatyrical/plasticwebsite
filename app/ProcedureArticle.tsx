@@ -554,7 +554,10 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>For a broader comparison, use the <Link href="/plastic-surgeon-singapore#evaluate">credential-evaluation checklist</Link> and the <Link href="/plastic-surgeon-singapore#consultation">consultation questions</Link> alongside the breast-augmentation-specific points above.</p>
                 ) : null}
                 {article.slug === 'rib-rhinoplasty-singapore' && section.id === 'revision-planning' ? (
-                  <p>See the <Link href="/asian-rhinoplasty-singapore#revision-fillers">previous surgery and filler discussion</Link> and the <Link href="#recovery">nasal and rib donor-site recovery section</Link> when preparing questions for assessment.</p>
+                  <>
+                    <p>See the <Link href="/asian-rhinoplasty-singapore#revision-fillers">previous surgery and filler discussion</Link> and the <Link href="#recovery">nasal and rib donor-site recovery section</Link> when preparing questions for assessment.</p>
+                    <p>If your earlier surgery was overseas, see <Link href="/plastic-surgery-overseas-safety-singapore#follow-up">which operation records and implant details to request</Link>.</p>
+                  </>
                 ) : null}
                 {article.slug === 'rib-rhinoplasty-singapore' && section.id === 'questions' ? (
                   <p>Use the <Link href="/plastic-surgeon-singapore#evaluate">credential-evaluation checklist</Link> and <Link href="/plastic-surgeon-singapore#consultation">broader consultation questions</Link> alongside the rib-rhinoplasty-specific questions above.</p>
