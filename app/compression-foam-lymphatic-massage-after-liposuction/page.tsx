@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import ContactForm from '../ContactForm';
+import '../procedureAnchors.css';
 import { baseUrl, physicianId, physicianJsonLd } from '../seoIdentity';
 
 const slug = 'compression-foam-lymphatic-massage-after-liposuction';
