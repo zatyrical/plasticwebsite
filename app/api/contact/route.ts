@@ -186,7 +186,8 @@ export async function POST(request: NextRequest) {
   const email = clean(payload.email, 160).toLowerCase();
   const phone = clean(payload.phone, 60);
   const enquiryType = clean(payload.enquiryType, 120) || 'Website enquiry';
-  const message = clean(payload.message, MAX_MESSAGE_LENGTH);
+  // Native form encodings use CRLF; textarea maxlength counts each newline once.
+  const message = clean(String(payload.message || '').replace(/\r\n?/g, '\n'), MAX_MESSAGE_LENGTH);
   const pageUrl = clean(payload.pageUrl, 300);
   const redirectSuccess = safeRedirect(payload.redirectSuccess);
   const redirectError = safeRedirect(payload.redirectError);
