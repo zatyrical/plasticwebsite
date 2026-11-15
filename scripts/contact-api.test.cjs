@@ -6,6 +6,22 @@ const ts = require('typescript');
 
 const valid = { name: 'Synthetic test', email: 'example@invalid.test', message: 'Mock only', enquiryType: 'Website enquiry' };
 
+test('multiline messages at the textarea limit retain their ending across JSON and native encodings', async () => {
+  const message = 'First\n' + 'x'.repeat(1990) + '\nEND';
+  assert.equal(message.length, 2000);
+  for (const [payloadMessage, format] of [
+    [message, {}],
+    [message.replaceAll('\n', '\r\n'), { native: true }],
+    [message, { multipart: true }]
+  ]) {
+    const api = handler({ fetch: async () => ({ ok: true }) });
+    const response = await api.post({ ...valid, message: payloadMessage }, format);
+    assert.equal(response.status, 200);
+    assert.equal(api.calls.length, 1);
+    assert.ok(JSON.parse(api.calls[0][1].body).html.includes(`<p>${message.replaceAll('\n', '<br />')}</p>`));
+  }
+});
+
 function handler({ fetch, env = { RESEND_API_KEY: 'mock-only', CONTACT_TO_EMAIL: 'clinic@invalid.test' }, signalFactory = (delay) => AbortSignal.timeout(delay), now = () => Date.now() } = {}) {
   const calls = [];
   const logs = [];
