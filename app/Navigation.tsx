@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRef, useState, type KeyboardEvent } from 'react';
+import './mobileNavigation.css';
 
 const navItems = [
   { href: '/plastic-surgeon-singapore', label: 'About' },
