@@ -1,10 +1,10 @@
 # Lymphoscintigraphy for lymphoedema: how the scan fits into assessment
 
-**EDITORIAL DRAFT — not published; final wording pending Dr Jeremy Sun's review.**
+**EDITORIAL DRAFT — not published; four clinical review decisions completed by Dr Jeremy Sun on 17 November 2026 (SGT).**
 
 Owner: Lymphedasia only. Proposed URL: `/lymphoscintigraphy-for-lymphedema/`. This currently missing requested path is not proof that an original dedicated article existed. This draft is a proposed new resource, not restoration of a verified old page. Do not redirect to ICG or publish automatically.
 
-Original clinical contribution: Dr Sun's direct pointers supplied19October2026 at22:13SGT. These establish the supplied practice perspective below; they do not approve every sentence of this draft. No clinical-review date, publication date, personal outcome, scan-availability promise or institutional referral arrangement has been assigned.
+Original clinical contribution: Dr Sun's direct pointers supplied19October2026 at22:13SGT. The four outstanding clinical decisions were reviewed by voice and confirmed on 17 November 2026 (SGT), with the SPECT/CT addition and comparative-performance wording recorded below. This records the reviewed scope, not approval of unreviewed future changes. No publication date, personal outcome, scan-availability promise or institutional referral arrangement has been assigned.
 
 ---
 
@@ -35,7 +35,7 @@ These differences make the tests complementary rather than automatically interch
 
 The main imaging limitation is spatial resolution: it does not show the same fine detail of superficial lymphatic vessels as ICG lymphography. It also requires a radioactive tracer, specialised equipment and access to a nuclear-medicine service.
 
-Comparative studies have found ICG lymphography more sensitive for detecting early lymphoedema in particular patient groups. However, it would be too broad to say that lymphoscintigraphy always has lower sensitivity and specificity. Performance depends on the clinical question, disease stage, protocol and the standard used to judge the result. In one small early upper-limb study, specificity was the same for both tests, while ICG detected more affected limbs.[1,2]
+Comparative studies have shown that ICG lymphography can detect early lymphoedema more sensitively and with greater diagnostic accuracy than lymphoscintigraphy.[1,2]
 
 ### What useful information can it still provide?
 
@@ -47,7 +47,7 @@ Seeing tracer reach a lymph node helps describe drainage to that node; it is not
 
 SPECT stands for single-photon emission computed tomography. It produces three-dimensional nuclear-medicine images of tracer distribution. When combined with CT, the examination is called **SPECT/CT**: the CT component helps locate the tracer findings relative to the body's anatomy.
 
-This can help distinguish the location of deeper and more superficial drainage. Not every lymphoscintigraphy examination includes SPECT/CT; whether it adds useful information depends on the assessment and available imaging protocol.
+SPECT/CT can be more useful than planar lymphoscintigraphy alone when anatomical localisation is needed, particularly to distinguish deeper from superficial drainage. Not every lymphoscintigraphy examination includes SPECT/CT; whether it adds useful information depends on the assessment and available imaging protocol.
 
 ### When does Dr Jeremy Sun find it useful?
 
@@ -86,19 +86,22 @@ The purpose of imaging is to answer a clinical question and support an appropria
 - The2013 lower-limb primary study was read at abstract level:29women/58limbs after gynaecological cancer treatment, higher ICG diagnostic accuracy, including early disease. Full methods were not appraised; no pooled estimate or universal superiority claim is made.
 - The2013 Akita comparison (PMID23523168) used lymphoscintigraphy as a comparison reference. Do not misread its ICG sensitivity/specificity as an independent estimate establishing that lymphoscintigraphy is uniformly less specific. It is not used to support such a claim.
 - Current SGH general nuclear-medicine page was inspected19October. It lists lymphoedema assessment separately from sentinel-node cancer mapping. It is not evidence that Dr Sun performs this scan at Paragon, owns a nuclear-medicine facility or has a particular referral arrangement. No generic departmental scan timings, preparation or report turnaround imported.
--2024 Sakai paper DOI10.1089/lrb.2023.0051 was located, but publisher retrieval failed and the PubMed view returned no usable body.2023 Scientific Reports SPECT/CT paper DOI10.1038/s41598-023-44471-2 publisher retrieval failed; its PMC page presented a CAPTCHA. Stopped that access, with no challenge or alternate-client bypass.2026 Sakai paper DOI10.1097/RLU.0000000000006425 has only a bibliographic record/no abstract in the accessible PubMed view. These are source candidates, not claimed full-text appraisals or bases for performance/outcome statistics. The SPECT/CT section currently rests on Dr Sun's contribution and requires his wording review.
+-2024 Sakai paper DOI10.1089/lrb.2023.0051 was located, but publisher retrieval failed and the PubMed view returned no usable body.2023 Scientific Reports SPECT/CT paper DOI10.1038/s41598-023-44471-2 publisher retrieval failed; its PMC page presented a CAPTCHA. Stopped that access, with no challenge or alternate-client bypass.2026 Sakai paper DOI10.1097/RLU.0000000000006425 has only a bibliographic record/no abstract in the accessible PubMed view. These are source candidates, not claimed full-text appraisals or bases for performance/outcome statistics. The SPECT/CT section rests on Dr Sun's contribution; he confirmed the description on 17 November 2026 and requested an explicit comparison with planar lymphoscintigraphy alone for anatomical localisation.
 
-### Remaining review points
+### Clinical review completed — 17 November 2026 (SGT)
 
-1. Confirm that the practice paragraph accurately reflects how Dr Sun selects the scan, especially the tissue-depth/higher-BMI explanation. No BMI threshold has been invented.
-2. Confirm the nodal wording: tracer transport/uptake as functional drainage information, not a promise to assess all lymph-node functions.
-3. Confirm the SPECT/CT description and its superficial/deep localisation wording; no claim that every planar scan resolves deep and superficial anatomy equally well.
-4. Accept or refine the qualified sensitivity/specificity paragraph rather than an unqualified claim that ICG always outperforms both metrics.
-5. Keep appointment preparation, doses, costs, contraindication screening, facility/referral arrangements and result-management protocols out unless original approved details are supplied.
+Source: direct voice review with Dr Jeremy Sun in the ongoing SEO conversation. These decisions supersede earlier outstanding-review reminders for the same four passages in PR #257, including the 15 November review map. Do not chase these four decisions again unless later substantive changes need review.
+
+1. **Confirmed:** higher-BMI/tissue-depth scan selection; individualised decision, no universal BMI cutoff. Dr Sun answered, “Yes, that does.” Existing practice paragraphs retained.
+2. **Confirmed:** tracer transport/nodal uptake as drainage information, without assessing every aspect of lymph-node function. Dr Sun answered, “Yes.” Existing nodal paragraphs retained.
+3. **Confirmed with addition:** SPECT/CT anatomical localisation and deep/superficial distinction. Dr Sun requested that it be described as more useful than lymphoscintigraphy alone; the reviewed addition specifies the anatomical-localisation context and planar comparator. Patient section updated above.
+4. **Confirmed revised wording:** “Comparative studies have shown that ICG lymphography can detect early lymphoedema more sensitively and with greater diagnostic accuracy than lymphoscintigraphy.” After the evidence distinction between sensitivity, overall accuracy and specificity was explained, Dr Sun instructed, “Yes, please lock that in.” Patient section updated above with references [1,2]. Higher specificity was not verified and is not claimed; no further specificity confirmation is required to use this approved sentence.
+
+Continue omitting unprovided appointment preparation, tracer doses, costs, contraindication screening, facility/referral arrangements and result-management protocols. This exclusion is not a fifth outstanding clinical review.
 
 ### Implementation boundary
 
-Topic approved and original pointers received19October; exact final prose is still for review. DRAFT ONLY. No WordPress draft/published post, redirect, clinical-review date, schema, sitemap, GBP or tracking change made. Do not auto-publish this file in a later unattended run solely because the topic/pointers were approved. Once final text is approved, use supported WP creation/save with backups/readback/live verification and recovery capacity. The existing requested404path may then host the new article, but no existing article has been proven to have moved there/from there.
+Topic approved and original pointers received19October; the four outstanding clinical decisions were completed on 17 November 2026 (SGT), as recorded above. DRAFT ONLY; this repository update is not a WordPress publication. No WordPress draft/published post, redirect, schema, sitemap, GBP or tracking change made. Do not treat the old four clinical reminders as pending or require duplicate approval. Continue the existing authorised editorial workflow toward the 20 November publication target: reconcile the approved text and source fidelity, then use supported WP creation/save with backups/readback/live verification and recovery capacity. Keep editorial notes out of patient copy. This approval does not authorise unrelated changes or bypass technical publication checks. The existing requested404path may then host the new article, but no existing article has been proven to have moved there/from there.
 
 The dedicated article's distinct contribution is Dr Sun's explanation of what additional information he seeks, especially when superficial imaging is limited. It must not become a second generic ICG guide, report glossary or cross-domain copy. Existing brief ICG-versus-scan FAQ remains useful; no new search-volume, ranking, enquiry or citation outcome is claimed.
 
