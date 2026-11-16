@@ -1,0 +1,283 @@
+{
+  "capturedAt": "2026-11-16T08:35:00Z",
+  "reason": "User explicitly requested website phone update; preserve raw content and metadata before mutation",
+  "pages": [
+    {
+      "id": 5034,
+      "modified_gmt": "2026-10-20T13:58:20",
+      "status": "publish",
+      "link": "https://lymphedasia.com/contact/",
+      "content": {
+        "raw": "<!-- wp:html -->\n<style>\n  .la-contact{--ink:#2b2638;--muted:#615d66;--purple:#432e58;--line:#e4dde8;--cream:#fbfaf6;max-width:980px;margin:0 auto;padding:48px 22px;color:var(--ink)}\n  .la-contact-hero{display:grid;grid-template-columns:1fr .9fr;gap:34px;align-items:start;margin-bottom:34px}.la-contact p{color:var(--muted);font-size:17px;line-height:1.62}.la-contact-card{background:var(--cream);border:1px solid var(--line);padding:24px;border-radius:2px}.la-contact-card strong{display:block;margin-bottom:8px}.la-contact-form{display:grid;gap:16px;background:#fff;border:1px solid var(--line);padding:28px;border-radius:2px}.la-form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.la-contact-form label{display:flex;flex-direction:column;gap:8px;color:#342d3e;font-size:13px;font-weight:700}.la-contact-form input,.la-contact-form select,.la-contact-form textarea{width:100%;border:1px solid var(--line);border-radius:2px;background:#fff;color:var(--ink);padding:13px 14px;font:inherit;font-size:15px;outline:none}.la-contact-form textarea{resize:vertical;min-height:140px}.la-contact-form input:focus,.la-contact-form select:focus,.la-contact-form textarea:focus{border-color:#8f78a4;box-shadow:0 0 0 4px rgba(67,46,88,.08)}.la-hp-field{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}.la-submit{appearance:none;border:0;background:var(--purple);color:#fff;border-radius:4px;padding:14px 20px;font-weight:800;font-size:15px;cursor:pointer;justify-self:start}.la-submit:disabled{opacity:.7;cursor:wait}.la-form-status{margin:0;padding:12px 14px;border-radius:2px;font-size:14px;line-height:1.5}.la-form-status.sent{background:#eef8f3;color:#164c3d}.la-form-status.error{background:#fff1ed;color:#8a2f20}.la-form-note{font-size:13px!important;color:#6d6672!important;margin:0}.la-form-note a{color:var(--purple);font-weight:700}@media(max-width:800px){.la-contact-hero,.la-form-row{grid-template-columns:1fr}.la-contact{padding:36px 18px}.la-contact-form{padding:20px}}\n</style>\n<div class=\"la-contact\">\n  <div class=\"la-contact-hero\">\n    <div>\n      <p>Use this form for non-urgent private consultation or referral enquiries about lymphoedema, lymphatic imaging, compression, LVA surgery or related swelling concerns. Enquiries are routed to Dr Jeremy Sun / Astrid Plastic Surgery's non-urgent appointment workflow.</p>\n    </div>\n    <div class=\"la-contact-card\">\n      <strong>For private appointments</strong>\n      <p>Private appointment enquiries should go through Astrid Plastic Surgery. Please mention that you would like to enquire about a consultation with Dr Jeremy Sun. Online information is general and does not replace personalised medical assessment.</p>\n      <p><strong>Clinic location</strong>Paragon Medical<br>290 Orchard Road, #09-01/02<br>Singapore 238859<br><a href=\"tel:+6565303573\">+65 6530 3573</a></p>\n      <p><strong>Clinic hours</strong>Monday–Friday: 9am–5pm<br>Saturday: 9am–12:30pm<br>Sunday: Closed</p>\n    </div>\n  </div>\n\n  <form class=\"la-contact-form\" id=\"la-contact-form\" method=\"post\" action=\"https://www.drjeremysun.com/api/contact\">\n    <div class=\"la-form-row\">\n      <label>Name\n        <input name=\"name\" type=\"text\" autocomplete=\"name\" required maxlength=\"120\">\n      </label>\n      <label>Email\n        <input name=\"email\" type=\"email\" autocomplete=\"email\" required maxlength=\"160\">\n      </label>\n    </div>\n    <div class=\"la-form-row\">\n      <label>Phone\n        <input name=\"phone\" type=\"tel\" autocomplete=\"tel\" maxlength=\"60\">\n      </label>\n      <label>Enquiry type\n        <select name=\"enquiryType\">\n          <option>Lymphedema / LVA surgery</option>\n          <option>Consultation enquiry</option>\n          <option>ICG lymphography / lymphatic imaging</option>\n          <option>Compression / conservative treatment</option>\n          <option>Referral / professional enquiry</option>\n        </select>\n      </label>\n    </div>\n    <label>Message\n      <textarea name=\"message\" rows=\"5\" required maxlength=\"2000\" placeholder=\"Please include the reason for enquiry, which limb or area is affected, and your preferred contact method. Do not include urgent medical information.\"></textarea>\n    </label>\n    <label class=\"la-hp-field\" aria-hidden=\"true\">Leave this field blank\n      <input name=\"website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\">\n    </label>\n    <input name=\"pageUrl\" type=\"hidden\" value=\"https://lymphedasia.com/contact/\">\n    <input name=\"redirectSuccess\" type=\"hidden\" value=\"https://lymphedasia.com/contact-thank-you/\">\n    <input name=\"redirectError\" type=\"hidden\" value=\"https://lymphedasia.com/contact/?form-error=1\">\n    <div data-enquiry-bot-check data-sitekey=\"0x4AAAAAAFdwoBrtLGwUE_r7\">\n      <div data-bot-widget></div>\n      <p data-bot-status role=\"status\" aria-live=\"polite\">Loading security check… If it does not load, please contact the clinic using the links below.</p>\n      <noscript>Please enable JavaScript to complete the security check, or contact the clinic using the links below.</noscript>\n    </div>\n    <button class=\"la-submit\" type=\"submit\">Submit enquiry</button>\n    <p class=\"la-form-status\" id=\"la-form-status\" role=\"status\" hidden></p>\n    <p class=\"la-form-note\">This form is routed to Dr Jeremy Sun / Astrid Plastic Surgery's non-urgent enquiry workflow. You may also <a href=\"https://wa.me/6587649219\" target=\"_blank\" rel=\"noopener\">message Astrid on WhatsApp</a> or <a href=\"https://www.astridplasticsurgery.com/contact-us/\" target=\"_blank\" rel=\"noopener\">use Astrid Plastic Surgery’s contact form</a>.</p>\n    <p class=\"la-form-note\">This form is for non-urgent enquiries only. It does not establish a doctor-patient relationship until a consultation has taken place.</p>\n  </form>\n</div>\n\n<script id=\"la-enquiry-tracking\">\n/* Installed in the existing Gutenberg HTML block on Lymphedasia contact page 5034. */\n(function () {\n  'use strict';\n  function initialise() {\n    var form = document.getElementById('la-contact-form');\n    if (!form || form.dataset.enquiryTracking === 'ready' || !window.fetch || !window.FormData) return;\n    var button = form.querySelector('button[type=\"submit\"]');\n    var status = document.getElementById('la-form-status');\n    if (!button || !status) return;\n    form.dataset.enquiryTracking = 'ready';\n    var sending = false;\n    var sent = false;\n    function track(name, method) {\n      try {\n        if (typeof window.gtag === 'function') window.gtag('event', name, {\n          send_to: 'G-B2Z67J9YDP',\n          method: method,\n          form_id: 'la-contact-form',\n          page_location: window.location.origin + window.location.pathname\n        });\n      } catch (_) {\n        // Analytics failure must not change the enquiry's acceptance status.\n      }\n    }\n    function show(message, state) {\n      status.textContent = message;\n      status.className = 'la-form-status ' + state;\n      status.hidden = false;\n    }\n    form.addEventListener('submit', async function (event) {\n      event.preventDefault();\n      if (sending || sent || !form.reportValidity()) return;\n      var payload = Object.fromEntries(new FormData(form).entries());\n      if (String(payload.website || '').trim()) return;\n      sending = true;\n      button.disabled = true;\n      button.textContent = 'Sending…';\n      show('Sending your enquiry…', 'sending');\n      try {\n        var response = await window.fetch(form.action, {\n          method: 'POST',\n          headers: { 'Content-Type': 'application/json' },\n          body: JSON.stringify(payload)\n        });\n        var result = await response.json().catch(function () { return null; });\n        if (!response.ok && [400, 403, 409, 413, 422, 429].indexOf(response.status) !== -1 &&\n            result && typeof result.error === 'string' && result.error.trim() && 400 >= result.error.length) {\n          show(result.error.trim() + ' Your details are still here. You can also contact Astrid using the links below.', 'error');\n          return;\n        }\n        if (!response.ok || !result || result.ok !== true || typeof result.accepted !== 'boolean') {\n          show('We could not confirm that your enquiry was sent. Your details are still here. Please contact Astrid using the links below before submitting again.', 'error');\n          return;\n        }\n        sent = true;\n        form.reset();\n        show('Thank you. Your enquiry has been received. The clinic team will respond through the contact details provided.', 'sent');\n        if (result.accepted === true) track('generate_lead', 'lymphedasia_contact_form');\n      } catch (_) {\n        show('We could not confirm that your enquiry was sent. Your details are still here. Please contact Astrid using the links below before submitting again.', 'error');\n      } finally {\n        form.dispatchEvent(new Event('enquiry-bot-reset'));\n        sending = false;\n        button.disabled = sent;\n        button.textContent = sent ? 'Enquiry received' : 'Submit enquiry';\n      }\n    });\n    form.addEventListener('click', function (event) {\n      var link = event.target.closest && event.target.closest('a[href]');\n      if (!link || !form.contains(link)) return;\n      var url = new URL(link.href, window.location.href);\n      if (url.hostname === 'wa.me') track('whatsapp_click', 'astrid_whatsapp');\n      else if (url.hostname === 'www.astridplasticsurgery.com' && url.pathname === '/contact-us/') track('external_contact_click', 'astrid_contact_form');\n    });\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initialise, { once: true });\n  else initialise();\n}());\n\n</script>\n<script src=\"https://www.drjeremysun.com/enquiry-bot-check.js\" defer></script>\n<!-- /wp:html -->",
+        "rendered": "\n<style>\n  .la-contact{--ink:#2b2638;--muted:#615d66;--purple:#432e58;--line:#e4dde8;--cream:#fbfaf6;max-width:980px;margin:0 auto;padding:48px 22px;color:var(--ink)}\n  .la-contact-hero{display:grid;grid-template-columns:1fr .9fr;gap:34px;align-items:start;margin-bottom:34px}.la-contact p{color:var(--muted);font-size:17px;line-height:1.62}.la-contact-card{background:var(--cream);border:1px solid var(--line);padding:24px;border-radius:2px}.la-contact-card strong{display:block;margin-bottom:8px}.la-contact-form{display:grid;gap:16px;background:#fff;border:1px solid var(--line);padding:28px;border-radius:2px}.la-form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}.la-contact-form label{display:flex;flex-direction:column;gap:8px;color:#342d3e;font-size:13px;font-weight:700}.la-contact-form input,.la-contact-form select,.la-contact-form textarea{width:100%;border:1px solid var(--line);border-radius:2px;background:#fff;color:var(--ink);padding:13px 14px;font:inherit;font-size:15px;outline:none}.la-contact-form textarea{resize:vertical;min-height:140px}.la-contact-form input:focus,.la-contact-form select:focus,.la-contact-form textarea:focus{border-color:#8f78a4;box-shadow:0 0 0 4px rgba(67,46,88,.08)}.la-hp-field{position:absolute!important;left:-9999px!important;width:1px!important;height:1px!important;overflow:hidden!important}.la-submit{appearance:none;border:0;background:var(--purple);color:#fff;border-radius:4px;padding:14px 20px;font-weight:800;font-size:15px;cursor:pointer;justify-self:start}.la-submit:disabled{opacity:.7;cursor:wait}.la-form-status{margin:0;padding:12px 14px;border-radius:2px;font-size:14px;line-height:1.5}.la-form-status.sent{background:#eef8f3;color:#164c3d}.la-form-status.error{background:#fff1ed;color:#8a2f20}.la-form-note{font-size:13px!important;color:#6d6672!important;margin:0}.la-form-note a{color:var(--purple);font-weight:700}@media(max-width:800px){.la-contact-hero,.la-form-row{grid-template-columns:1fr}.la-contact{padding:36px 18px}.la-contact-form{padding:20px}}\n</style>\n<div class=\"la-contact\">\n  <div class=\"la-contact-hero\">\n    <div>\n      <p>Use this form for non-urgent private consultation or referral enquiries about lymphoedema, lymphatic imaging, compression, LVA surgery or related swelling concerns. Enquiries are routed to Dr Jeremy Sun / Astrid Plastic Surgery&#8217;s non-urgent appointment workflow.</p>\n    </div>\n    <div class=\"la-contact-card\">\n      <strong>For private appointments</strong>\n      <p>Private appointment enquiries should go through Astrid Plastic Surgery. Please mention that you would like to enquire about a consultation with Dr Jeremy Sun. Online information is general and does not replace personalised medical assessment.</p>\n      <p><strong>Clinic location</strong>Paragon Medical<br>290 Orchard Road, #09-01/02<br>Singapore 238859<br><a href=\"tel:+6565303573\">+65 6530 3573</a></p>\n      <p><strong>Clinic hours</strong>Monday–Friday: 9am–5pm<br>Saturday: 9am–12:30pm<br>Sunday: Closed</p>\n    </div>\n  </div>\n\n  <form class=\"la-contact-form\" id=\"la-contact-form\" method=\"post\" action=\"https://www.drjeremysun.com/api/contact\">\n    <div class=\"la-form-row\">\n      <label>Name\n        <input name=\"name\" type=\"text\" autocomplete=\"name\" required maxlength=\"120\">\n      </label>\n      <label>Email\n        <input name=\"email\" type=\"email\" autocomplete=\"email\" required maxlength=\"160\">\n      </label>\n    </div>\n    <div class=\"la-form-row\">\n      <label>Phone\n        <input name=\"phone\" type=\"tel\" autocomplete=\"tel\" maxlength=\"60\">\n      </label>\n      <label>Enquiry type\n        <select name=\"enquiryType\">\n          <option>Lymphedema / LVA surgery</option>\n          <option>Consultation enquiry</option>\n          <option>ICG lymphography / lymphatic imaging</option>\n          <option>Compression / conservative treatment</option>\n          <option>Referral / professional enquiry</option>\n        </select>\n      </label>\n    </div>\n    <label>Message\n      <textarea name=\"message\" rows=\"5\" required maxlength=\"2000\" placeholder=\"Please include the reason for enquiry, which limb or area is affected, and your preferred contact method. Do not include urgent medical information.\"></textarea>\n    </label>\n    <label class=\"la-hp-field\" aria-hidden=\"true\">Leave this field blank\n      <input name=\"website\" type=\"text\" tabindex=\"-1\" autocomplete=\"off\">\n    </label>\n    <input name=\"pageUrl\" type=\"hidden\" value=\"https://lymphedasia.com/contact/\">\n    <input name=\"redirectSuccess\" type=\"hidden\" value=\"https://lymphedasia.com/contact-thank-you/\">\n    <input name=\"redirectError\" type=\"hidden\" value=\"https://lymphedasia.com/contact/?form-error=1\">\n    <div data-enquiry-bot-check data-sitekey=\"0x4AAAAAAFdwoBrtLGwUE_r7\">\n      <div data-bot-widget></div>\n      <p data-bot-status role=\"status\" aria-live=\"polite\">Loading security check… If it does not load, please contact the clinic using the links below.</p>\n      <noscript>Please enable JavaScript to complete the security check, or contact the clinic using the links below.</noscript>\n    </div>\n    <button class=\"la-submit\" type=\"submit\">Submit enquiry</button>\n    <p class=\"la-form-status\" id=\"la-form-status\" role=\"status\" hidden></p>\n    <p class=\"la-form-note\">This form is routed to Dr Jeremy Sun / Astrid Plastic Surgery&#8217;s non-urgent enquiry workflow. You may also <a href=\"https://wa.me/6587649219\" target=\"_blank\" rel=\"noopener\">message Astrid on WhatsApp</a> or <a href=\"https://www.astridplasticsurgery.com/contact-us/\" target=\"_blank\" rel=\"noopener\">use Astrid Plastic Surgery’s contact form</a>.</p>\n    <p class=\"la-form-note\">This form is for non-urgent enquiries only. It does not establish a doctor-patient relationship until a consultation has taken place.</p>\n  </form>\n</div>\n\n<script id=\"la-enquiry-tracking\">\n/* Installed in the existing Gutenberg HTML block on Lymphedasia contact page 5034. */\n(function () {\n  'use strict';\n  function initialise() {\n    var form = document.getElementById('la-contact-form');\n    if (!form || form.dataset.enquiryTracking === 'ready' || !window.fetch || !window.FormData) return;\n    var button = form.querySelector('button[type=\"submit\"]');\n    var status = document.getElementById('la-form-status');\n    if (!button || !status) return;\n    form.dataset.enquiryTracking = 'ready';\n    var sending = false;\n    var sent = false;\n    function track(name, method) {\n      try {\n        if (typeof window.gtag === 'function') window.gtag('event', name, {\n          send_to: 'G-B2Z67J9YDP',\n          method: method,\n          form_id: 'la-contact-form',\n          page_location: window.location.origin + window.location.pathname\n        });\n      } catch (_) {\n        // Analytics failure must not change the enquiry's acceptance status.\n      }\n    }\n    function show(message, state) {\n      status.textContent = message;\n      status.className = 'la-form-status ' + state;\n      status.hidden = false;\n    }\n    form.addEventListener('submit', async function (event) {\n      event.preventDefault();\n      if (sending || sent || !form.reportValidity()) return;\n      var payload = Object.fromEntries(new FormData(form).entries());\n      if (String(payload.website || '').trim()) return;\n      sending = true;\n      button.disabled = true;\n      button.textContent = 'Sending…';\n      show('Sending your enquiry…', 'sending');\n      try {\n        var response = await window.fetch(form.action, {\n          method: 'POST',\n          headers: { 'Content-Type': 'application/json' },\n          body: JSON.stringify(payload)\n        });\n        var result = await response.json().catch(function () { return null; });\n        if (!response.ok && [400, 403, 409, 413, 422, 429].indexOf(response.status) !== -1 &&\n            result && typeof result.error === 'string' && result.error.trim() && 400 >= result.error.length) {\n          show(result.error.trim() + ' Your details are still here. You can also contact Astrid using the links below.', 'error');\n          return;\n        }\n        if (!response.ok || !result || result.ok !== true || typeof result.accepted !== 'boolean') {\n          show('We could not confirm that your enquiry was sent. Your details are still here. Please contact Astrid using the links below before submitting again.', 'error');\n          return;\n        }\n        sent = true;\n        form.reset();\n        show('Thank you. Your enquiry has been received. The clinic team will respond through the contact details provided.', 'sent');\n        if (result.accepted === true) track('generate_lead', 'lymphedasia_contact_form');\n      } catch (_) {\n        show('We could not confirm that your enquiry was sent. Your details are still here. Please contact Astrid using the links below before submitting again.', 'error');\n      } finally {\n        form.dispatchEvent(new Event('enquiry-bot-reset'));\n        sending = false;\n        button.disabled = sent;\n        button.textContent = sent ? 'Enquiry received' : 'Submit enquiry';\n      }\n    });\n    form.addEventListener('click', function (event) {\n      var link = event.target.closest && event.target.closest('a[href]');\n      if (!link || !form.contains(link)) return;\n      var url = new URL(link.href, window.location.href);\n      if (url.hostname === 'wa.me') track('whatsapp_click', 'astrid_whatsapp');\n      else if (url.hostname === 'www.astridplasticsurgery.com' && url.pathname === '/contact-us/') track('external_contact_click', 'astrid_contact_form');\n    });\n  }\n  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initialise, { once: true });\n  else initialise();\n}());\n\n</script>\n<script src=\"https://www.drjeremysun.com/enquiry-bot-check.js\" defer></script>\n",
+        "protected": false,
+        "block_version": 1
+      },
+      "meta": {
+        "_uag_custom_page_level_css": "",
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "footnotes": "",
+        "_elementor_edit_mode": "",
+        "_elementor_template_type": "",
+        "_elementor_data": "",
+        "_elementor_page_settings": null,
+        "_elementor_conditions": []
+      }
+    },
+    {
+      "id": 4698,
+      "modified_gmt": "2026-10-14T10:02:45",
+      "status": "publish",
+      "link": "https://lymphedasia.com/private-lymphedema-consultation-singapore/",
+      "content": {
+        "raw": "<!-- wp:image {\"id\":4664,\"sizeSlug\":\"large\",\"className\":\"lymphasia-educational-image\"} -->\n<figure class=\"wp-block-image size-large lymphasia-educational-image\"><img src=\"https://lymphedasia.com/wp-content/uploads/2026/08/dr-jeremy-sun-consultation-lymphedema-assessment.jpg\" alt=\"Dr Jeremy Sun consultation image for lymphedema assessment in Singapore\" class=\"wp-image-4664\"/><figcaption>Specialist consultation focuses on diagnosis, imaging, treatment selection and long-term care planning.</figcaption></figure>\n<!-- /wp:image -->\n\n<div class=\"hermes-nassif-elective-pathway-20260927\" style=\"border:1px solid #d9e8e5;border-radius:18px;background:linear-gradient(135deg,#f8fcfb 0%,#eef7f4 100%);padding:20px;margin:24px 0;box-shadow:0 12px 28px rgba(14,58,51,.06)\">\n  <p style=\"margin:0 0 8px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#2f665e;font-weight:700\">Start here: assessment pathway</p>\n  <h2 style=\"margin:0 0 10px;font-size:28px;line-height:1.12\">Find the right lymphedema pathway before choosing a treatment</h2>\n  <p style=\"margin:0 0 14px;color:#304743;line-height:1.65\">Lymphedema care is not a single procedure decision. A useful first step is to clarify the cause and stage of swelling, whether compression or decongestive therapy has been optimised, whether cellulitis has occurred, and whether imaging such as ICG lymphography or ultrasound is needed before surgery is discussed.</p>\n  <div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px\">\n    <a href=\"https://lymphedasia.com/lymphedema-treatment/\" style=\"display:block;background:#fff;border:1px solid #e3eeeb;border-radius:14px;padding:14px;text-decoration:none;color:#153832\"><strong>Treatment overview</strong><br><span style=\"font-size:14px;color:#53635f\">CDT, compression, imaging and surgery options.</span></a>\n    <a href=\"https://lymphedasia.com/lva-surgery-singapore/\" style=\"display:block;background:#fff;border:1px solid #e3eeeb;border-radius:14px;padding:14px;text-decoration:none;color:#153832\"><strong>LVA / LVB surgery</strong><br><span style=\"font-size:14px;color:#53635f\">Suitability, limits, recovery and alternatives.</span></a>\n    <a href=\"https://lymphedasia.com/contact/\" style=\"display:block;background:#fff;border:1px solid #e3eeeb;border-radius:14px;padding:14px;text-decoration:none;color:#153832\"><strong>Assessment enquiry</strong><br><span style=\"font-size:14px;color:#53635f\">For non-urgent specialist consultation planning.</span></a>\n  </div>\n  <p style=\"margin:14px 0 0;color:#53635f;font-size:14px;line-height:1.55\">LymphedAsia is an educational resource. Online information does not replace personalised consultation, and suitability for surgery varies by individual assessment.</p>\n</div>\n\n<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026.</em></p>\n\n<p>Lymphedema can be difficult to navigate because swelling may be caused by several overlapping problems, including lymphatic obstruction, venous disease, cancer treatment, infection, surgery, obesity, lipedema or congenital lymphatic conditions. A specialist consultation can help clarify the likely cause, stage the condition, and identify whether conservative therapy, imaging or surgical assessment may be appropriate.</p>\n<div class=\"wp-block-group lymphedasia-medical-review-box has-background is-layout-flow wp-block-group-is-layout-flow\" style=\"border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:18px;margin-bottom:24px;padding:18px\">\n<p><strong>Private consultations are available:</strong> Dr Jeremy Sun consults at Astrid Plastic Surgery, Paragon Medical, 290 Orchard Road #09-01/02, Singapore 238859. Call <a href=\"tel:+6565303573\">+65 6530 3573</a>, or use the <a href=\"https://www.astridplasticsurgery.com/contact-us/\">Astrid appointment enquiry form</a>, <a href=\"https://wa.me/6587649219\">WhatsApp +65 8764 9219</a>, or email <a href=\"mailto:contact@astridplasticsurgery.com\">contact@astridplasticsurgery.com</a>. Online information does not replace personalised medical advice.</p>\n</div>\n\n<div class=\"la-note\"><p><strong>Dr Jeremy Sun profile:</strong> Patients who want to review Dr Sun’s broader plastic, reconstructive, aesthetic and lymphatic surgery background can visit <a href=\"https://www.drjeremysun.com/plastic-surgeon-singapore\">Dr Jeremy Sun — plastic surgeon in Singapore</a>. For LVA-specific information, see <a href=\"https://www.drjeremysun.com/lymphovenous-bypass-lva-surgery-singapore\">LVB / LVA lymphovenous bypass surgery in Singapore</a>.</p></div>\n\n<p>For questions to prepare before assessment, explore <a href=\"https://lymphedasia.com/am-i-candidate-for-lva-surgery/\">LVA suitability</a> and <a href=\"https://lymphedasia.com/lva-surgery-recovery-singapore/\">recovery and follow-up after LVA</a>. These guides support consultation preparation; they do not determine whether surgery is appropriate for you.</p>\n<!-- wp:group {\"className\":\"la-toc\"} -->\n<div class=\"wp-block-group la-toc\"><!-- wp:heading -->\n<h2 class=\"wp-block-heading\">On this page</h2>\n<!-- /wp:heading -->\n\n<!-- wp:list -->\n<ul class=\"wp-block-list\"><!-- wp:list-item -->\n<li><a href=\"#what-a-lymphedema-consultation-may-clarify\">What a lymphedema consultation may clarify</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"#when-to-seek-specialist-assessment\">When to seek specialist assessment</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"#how-this-page-will-change-after-the-private-practice-transit\">How to enquire about a private consultation</a></li>\n<!-- /wp:list-item -->\n\n<!-- wp:list-item -->\n<li><a href=\"#related-academic-and-technical-resources\">Related academic and technical resources</a></li>\n<!-- /wp:list-item --></ul>\n<!-- /wp:list -->\n</div>\n<!-- /wp:group -->\n\n<h2 id=\"what-a-lymphedema-consultation-may-clarify\">What a lymphedema consultation may clarify</h2>\n<ul>\n<li>whether swelling is likely to be lymphedema, edema, venous disease, lipedema or another condition;</li>\n<li>whether the pattern is primary, secondary, cancer-related, post-surgical, genital, limb-based or mixed;</li>\n<li>whether there are warning signs such as recurrent cellulitis, wounds, progressive fibrosis or functional limitation;</li>\n<li>whether compression, physiotherapy, manual lymphatic drainage or exercise programmes need adjustment;</li>\n<li>whether imaging such as ICG lymphography or lymphoscintigraphy may help guide treatment planning;</li>\n<li>whether surgical options such as LVA, vascularised lymph node transfer, liposuction or debulking surgery should be discussed.</li>\n</ul>\n<h2 id=\"when-to-seek-specialist-assessment\">When to seek specialist assessment</h2>\n<p>Specialist review may be useful when swelling is persistent, progressive, asymmetric, associated with heaviness or skin thickening, follows cancer treatment or lymph node surgery, or is complicated by recurrent infection. It may also be appropriate when symptoms affect work, mobility, clothing, exercise, intimacy or quality of life.</p>\n<h2 id=\"how-this-page-will-change-after-the-private-practice-transit\">How to enquire about a private consultation</h2>\n<p>Contact <strong>Astrid Plastic Surgery</strong> at Paragon Medical, 290 Orchard Road #09-01/02, Singapore 238859. Call <a href=\"tel:+6565303573\">+65 6530 3573</a>, use its <a href=\"https://www.astridplasticsurgery.com/contact-us/\">appointment enquiry form</a>, <a href=\"https://wa.me/6587649219\">WhatsApp +65 8764 9219</a>, or <a href=\"mailto:contact@astridplasticsurgery.com\">contact@astridplasticsurgery.com</a>. Please mention that you would like to enquire about a consultation with Dr Jeremy Sun. The clinic can confirm appointment availability, location and arrangements.</p>\n<p>Useful related pages: <a href=\"https://lymphedasia.com/lymphedema-treatment/\">Lymphedema Treatment in Singapore</a>, <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA Surgery in Singapore</a>, <a href=\"https://lymphedasia.com/lymphedema-surgery-cost/\">Lymphedema Surgery Cost in Singapore</a>, and <a href=\"https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/\">Dr Jeremy Sun’s lymphedema specialist profile</a>.</p>\n\n<!-- wp:group {\"className\":\"authority-links-card\"} -->\n<div class=\"wp-block-group authority-links-card\">\n<!-- wp:heading {\"anchor\":\"related-academic-and-technical-resources\"} --><h2 class=\"wp-block-heading\" id=\"related-academic-and-technical-resources\">Related academic and technical resources</h2><!-- /wp:heading -->\n<!-- wp:list --><ul class=\"wp-block-list\">\n<!-- wp:list-item -->\n<li><a href=\"https://lymphedasia.com/why-lva-quality-matters-lymphovenous-bypass/\">Why LVA quality matters: leakage, pressure and venous reflux</a></li>\n<!-- /wp:list-item -->\n<!-- wp:list-item -->\n<li><a href=\"https://lymphedasia.com/publications/\">Dr Jeremy Sun’s lymphedema surgery publications, training and media</a></li>\n<!-- /wp:list-item -->\n</ul><!-- /wp:list -->\n</div><!-- /wp:group -->\n\n<!-- wp:paragraph --><p><strong>Related:</strong> <a href=\"/ultrasound-mapping-lva-surgery-singapore/\">Ultrasound mapping for LVA surgery</a> explains why high-frequency ultrasound can identify lymphatic targets even when ICG linear patterns are absent in selected patients.</p><!-- /wp:paragraph -->\n\n<!-- wp:paragraph --><p><strong>Evidence-based pathway:</strong> Dr Jeremy Sun generally starts patients on appropriate complete decongestive therapy (CDT), compression optimisation, exercise, skin care and education, then reassesses response after about 3 to 6 months. Surgery is considered when swelling does not improve enough, worsens, remains functionally limiting, or recurrent cellulitis persists despite appropriate conservative care. See the full <a href=\"/lymphedema-treatment/\">lymphedema treatment in Singapore</a> pathway.</p><!-- /wp:paragraph -->\n\n\n",
+        "rendered": "\n<figure class=\"wp-block-image size-large lymphasia-educational-image\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1280\" height=\"853\" src=\"https://lymphedasia.com/wp-content/uploads/2026/08/dr-jeremy-sun-consultation-lymphedema-assessment.jpg\" alt=\"Dr Jeremy Sun consultation image for lymphedema assessment in Singapore\" class=\"wp-image-4664\" title=\"\" srcset=\"https://lymphedasia.com/wp-content/uploads/2026/08/dr-jeremy-sun-consultation-lymphedema-assessment.jpg 1280w, https://lymphedasia.com/wp-content/uploads/2026/08/dr-jeremy-sun-consultation-lymphedema-assessment-300x200.jpg 300w, https://lymphedasia.com/wp-content/uploads/2026/08/dr-jeremy-sun-consultation-lymphedema-assessment-1024x682.jpg 1024w, https://lymphedasia.com/wp-content/uploads/2026/08/dr-jeremy-sun-consultation-lymphedema-assessment-768x512.jpg 768w\" sizes=\"(max-width: 1280px) 100vw, 1280px\" /><figcaption>Specialist consultation focuses on diagnosis, imaging, treatment selection and long-term care planning.</figcaption></figure>\n\n\n<div class=\"hermes-nassif-elective-pathway-20260927\" style=\"border:1px solid #d9e8e5;border-radius:18px;background:linear-gradient(135deg,#f8fcfb 0%,#eef7f4 100%);padding:20px;margin:24px 0;box-shadow:0 12px 28px rgba(14,58,51,.06)\">\n  <p style=\"margin:0 0 8px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#2f665e;font-weight:700\">Start here: assessment pathway</p>\n  <h2 style=\"margin:0 0 10px;font-size:28px;line-height:1.12\">Find the right lymphedema pathway before choosing a treatment</h2>\n  <p style=\"margin:0 0 14px;color:#304743;line-height:1.65\">Lymphedema care is not a single procedure decision. A useful first step is to clarify the cause and stage of swelling, whether compression or decongestive therapy has been optimised, whether cellulitis has occurred, and whether imaging such as ICG lymphography or ultrasound is needed before surgery is discussed.</p>\n  <div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px\">\n    <a href=\"https://lymphedasia.com/lymphedema-treatment/\" style=\"display:block;background:#fff;border:1px solid #e3eeeb;border-radius:14px;padding:14px;text-decoration:none;color:#153832\"><strong>Treatment overview</strong><br><span style=\"font-size:14px;color:#53635f\">CDT, compression, imaging and surgery options.</span></a>\n    <a href=\"https://lymphedasia.com/lva-surgery-singapore/\" style=\"display:block;background:#fff;border:1px solid #e3eeeb;border-radius:14px;padding:14px;text-decoration:none;color:#153832\"><strong>LVA / LVB surgery</strong><br><span style=\"font-size:14px;color:#53635f\">Suitability, limits, recovery and alternatives.</span></a>\n    <a href=\"https://lymphedasia.com/contact/\" style=\"display:block;background:#fff;border:1px solid #e3eeeb;border-radius:14px;padding:14px;text-decoration:none;color:#153832\"><strong>Assessment enquiry</strong><br><span style=\"font-size:14px;color:#53635f\">For non-urgent specialist consultation planning.</span></a>\n  </div>\n  <p style=\"margin:14px 0 0;color:#53635f;font-size:14px;line-height:1.55\">LymphedAsia is an educational resource. Online information does not replace personalised consultation, and suitability for surgery varies by individual assessment.</p>\n</div>\n\n<p><em>Clinically reviewed by Dr Jeremy Sun Mingfa, Plastic, Reconstructive &amp; Lymphedema Surgeon in Singapore. Last reviewed: August 2026.</em></p>\n\n<p>Lymphedema can be difficult to navigate because swelling may be caused by several overlapping problems, including lymphatic obstruction, venous disease, cancer treatment, infection, surgery, obesity, lipedema or congenital lymphatic conditions. A specialist consultation can help clarify the likely cause, stage the condition, and identify whether conservative therapy, imaging or surgical assessment may be appropriate.</p>\n<div class=\"wp-block-group lymphedasia-medical-review-box has-background is-layout-flow wp-block-group-is-layout-flow\" style=\"border-color:#d9e2ec;border-width:1px;border-radius:8px;background-color:#f8fbfd;margin-top:18px;margin-bottom:24px;padding:18px\">\n<p><strong>Private consultations are available:</strong> Dr Jeremy Sun consults at Astrid Plastic Surgery, Paragon Medical, 290 Orchard Road #09-01/02, Singapore 238859. Call <a href=\"tel:+6565303573\">+65 6530 3573</a>, or use the <a href=\"https://www.astridplasticsurgery.com/contact-us/\" target=\"_blank\" rel=\"noopener\">Astrid appointment enquiry form</a>, <a href=\"https://wa.me/6587649219\" target=\"_blank\" rel=\"noopener\">WhatsApp +65 8764 9219</a>, or email <a href=\"mailto:contact@astridplasticsurgery.com\">contact@astridplasticsurgery.com</a>. Online information does not replace personalised medical advice.</p>\n</div>\n\n<div class=\"la-note\"><p><strong>Dr Jeremy Sun profile:</strong> Patients who want to review Dr Sun’s broader plastic, reconstructive, aesthetic and lymphatic surgery background can visit <a href=\"https://www.drjeremysun.com/plastic-surgeon-singapore\" target=\"_blank\" rel=\"noopener\">Dr Jeremy Sun — plastic surgeon in Singapore</a>. For LVA-specific information, see <a href=\"https://www.drjeremysun.com/lymphovenous-bypass-lva-surgery-singapore\" target=\"_blank\" rel=\"noopener\">LVB / LVA lymphovenous bypass surgery in Singapore</a>.</p></div>\n\n<p>For questions to prepare before assessment, explore <a href=\"https://lymphedasia.com/am-i-candidate-for-lva-surgery/\">LVA suitability</a> and <a href=\"https://lymphedasia.com/lva-surgery-recovery-singapore/\">recovery and follow-up after LVA</a>. These guides support consultation preparation; they do not determine whether surgery is appropriate for you.</p>\n\n<div class=\"wp-block-group la-toc is-layout-flow wp-block-group-is-layout-flow\">\n<h2 class=\"wp-block-heading\">On this page</h2>\n\n\n\n<ul class=\"wp-block-list\">\n<li><a href=\"#what-a-lymphedema-consultation-may-clarify\">What a lymphedema consultation may clarify</a></li>\n\n\n\n<li><a href=\"#when-to-seek-specialist-assessment\">When to seek specialist assessment</a></li>\n\n\n\n<li><a href=\"#how-this-page-will-change-after-the-private-practice-transit\">How to enquire about a private consultation</a></li>\n\n\n\n<li><a href=\"#related-academic-and-technical-resources\">Related academic and technical resources</a></li>\n</ul>\n\n</div>\n\n\n<h2 id=\"what-a-lymphedema-consultation-may-clarify\">What a lymphedema consultation may clarify</h2>\n<ul>\n<li>whether swelling is likely to be lymphedema, edema, venous disease, lipedema or another condition;</li>\n<li>whether the pattern is primary, secondary, cancer-related, post-surgical, genital, limb-based or mixed;</li>\n<li>whether there are warning signs such as recurrent cellulitis, wounds, progressive fibrosis or functional limitation;</li>\n<li>whether compression, physiotherapy, manual lymphatic drainage or exercise programmes need adjustment;</li>\n<li>whether imaging such as ICG lymphography or lymphoscintigraphy may help guide treatment planning;</li>\n<li>whether surgical options such as LVA, vascularised lymph node transfer, liposuction or debulking surgery should be discussed.</li>\n</ul>\n<h2 id=\"when-to-seek-specialist-assessment\">When to seek specialist assessment</h2>\n<p>Specialist review may be useful when swelling is persistent, progressive, asymmetric, associated with heaviness or skin thickening, follows cancer treatment or lymph node surgery, or is complicated by recurrent infection. It may also be appropriate when symptoms affect work, mobility, clothing, exercise, intimacy or quality of life.</p>\n<h2 id=\"how-this-page-will-change-after-the-private-practice-transit\">How to enquire about a private consultation</h2>\n<p>Contact <strong>Astrid Plastic Surgery</strong> at Paragon Medical, 290 Orchard Road #09-01/02, Singapore 238859. Call <a href=\"tel:+6565303573\">+65 6530 3573</a>, use its <a href=\"https://www.astridplasticsurgery.com/contact-us/\" target=\"_blank\" rel=\"noopener\">appointment enquiry form</a>, <a href=\"https://wa.me/6587649219\" target=\"_blank\" rel=\"noopener\">WhatsApp +65 8764 9219</a>, or <a href=\"mailto:contact@astridplasticsurgery.com\">contact@astridplasticsurgery.com</a>. Please mention that you would like to enquire about a consultation with Dr Jeremy Sun. The clinic can confirm appointment availability, location and arrangements.</p>\n<p>Useful related pages: <a href=\"https://lymphedasia.com/lymphedema-treatment/\">Lymphedema Treatment in Singapore</a>, <a href=\"https://lymphedasia.com/lva-surgery-singapore/\">LVA Surgery in Singapore</a>, <a href=\"https://lymphedasia.com/lymphedema-surgery-cost/\">Lymphedema Surgery Cost in Singapore</a>, and <a href=\"https://lymphedasia.com/dr-jeremy-sun-lymphedema-specialist/\">Dr Jeremy Sun’s lymphedema specialist profile</a>.</p>\n\n\n<div class=\"wp-block-group authority-links-card is-layout-flow wp-block-group-is-layout-flow\">\n<h2 class=\"wp-block-heading\" id=\"related-academic-and-technical-resources\">Related academic and technical resources</h2>\n<ul class=\"wp-block-list\">\n\n<li><a href=\"https://lymphedasia.com/why-lva-quality-matters-lymphovenous-bypass/\">Why LVA quality matters: leakage, pressure and venous reflux</a></li>\n\n\n<li><a href=\"https://lymphedasia.com/publications/\">Dr Jeremy Sun’s lymphedema surgery publications, training and media</a></li>\n\n</ul>\n</div>\n\n<p><strong>Related:</strong> <a href=\"/ultrasound-mapping-lva-surgery-singapore/\">Ultrasound mapping for LVA surgery</a> explains why high-frequency ultrasound can identify lymphatic targets even when ICG linear patterns are absent in selected patients.</p>\n\n<p><strong>Evidence-based pathway:</strong> Dr Jeremy Sun generally starts patients on appropriate complete decongestive therapy (CDT), compression optimisation, exercise, skin care and education, then reassesses response after about 3 to 6 months. Surgery is considered when swelling does not improve enough, worsens, remains functionally limiting, or recurrent cellulitis persists despite appropriate conservative care. See the full <a href=\"/lymphedema-treatment/\">lymphedema treatment in Singapore</a> pathway.</p>\n\n\n",
+        "protected": false,
+        "block_version": 1
+      },
+      "meta": {
+        "_uag_custom_page_level_css": "",
+        "site-sidebar-layout": "default",
+        "site-content-layout": "",
+        "ast-site-content-layout": "default",
+        "site-content-style": "default",
+        "site-sidebar-style": "default",
+        "ast-global-header-display": "",
+        "ast-banner-title-visibility": "",
+        "ast-main-header-display": "",
+        "ast-hfb-above-header-display": "",
+        "ast-hfb-below-header-display": "",
+        "ast-hfb-mobile-header-display": "",
+        "site-post-title": "",
+        "ast-breadcrumbs-content": "",
+        "ast-featured-img": "",
+        "footer-sml-layout": "",
+        "ast-disable-related-posts": "",
+        "theme-transparent-header-meta": "",
+        "adv-header-id-meta": "",
+        "stick-header-meta": "",
+        "header-above-stick-meta": "",
+        "header-main-stick-meta": "",
+        "header-below-stick-meta": "",
+        "astra-migrate-meta-layouts": "default",
+        "ast-page-background-enabled": "default",
+        "ast-page-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-5)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "ast-content-background-meta": {
+          "desktop": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "tablet": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          },
+          "mobile": {
+            "background-color": "var(--ast-global-color-4)",
+            "background-image": "",
+            "background-repeat": "repeat",
+            "background-position": "center center",
+            "background-size": "auto",
+            "background-attachment": "scroll",
+            "background-type": "",
+            "background-media": "",
+            "overlay-type": "",
+            "overlay-color": "",
+            "overlay-opacity": "",
+            "overlay-gradient": ""
+          }
+        },
+        "footnotes": "",
+        "_elementor_edit_mode": "",
+        "_elementor_template_type": "",
+        "_elementor_data": "",
+        "_elementor_page_settings": null,
+        "_elementor_conditions": []
+      }
+    }
+  ],
+  "widget": {
+    "id": "block-15",
+    "id_base": "block",
+    "sidebar": "footer-widget-3",
+    "instance": {
+      "raw": {
+        "content": "<!-- wp:uagb/icon-list {\"block_id\":\"ea4137e6\",\"classMigrate\":true,\"childMigrate\":true,\"alignMobile\":\"center\",\"parentIcon\":\"\",\"labelColor\":\"#ffffff\",\"labelHoverColor\":\"#ffffff\"} --> <div class=\"wp-block-uagb-icon-list uagb-block-ea4137e6\"><div class=\"uagb-icon-list__wrap\"><!-- wp:uagb/icon-list-child {\"block_id\":\"50e49639\",\"label\":\"Private appointments: contact@astridplasticsurgery.com\",\"label_color\":\"\",\"label_hover_color\":\"\",\"fromParentIcon\":\"\"} --> <div class=\"wp-block-uagb-icon-list-child uagb-block-50e49639\"><span class=\"uagb-icon-list__label\">Private appointments: contact@astridplasticsurgery.com</span></div> <!-- /wp:uagb/icon-list-child --> <!-- wp:uagb/icon-list-child {\"block_id\":\"1e3a7996\",\"label\":\"Paragon Medical, 290 Orchard Road #09-01/02, Singapore 238859\",\"label_color\":\"\",\"label_hover_color\":\"\",\"fromParentIcon\":\"\"} --> <div class=\"wp-block-uagb-icon-list-child uagb-block-1e3a7996\"><span class=\"uagb-icon-list__label\">Paragon Medical, 290 Orchard Road #09-01/02, Singapore 238859</span></div> <!-- /wp:uagb/icon-list-child --> <!-- wp:uagb/icon-list-child {\"block_id\":\"9c3842e2\",\"label\":\"+65 6530 3573\",\"label_color\":\"\",\"label_hover_color\":\"\",\"fromParentIcon\":\"\"} --> <div class=\"wp-block-uagb-icon-list-child uagb-block-9c3842e2\"><span class=\"uagb-icon-list__label\">+65 6530 3573</span></div> <!-- /wp:uagb/icon-list-child --></div></div> <!-- /wp:uagb/icon-list -->"
+      }
+    }
+  },
+  "rollback": "Use unique inverse scoped phone changes against fresh native raw. Pages also retain WordPress revisions. Restore widget instance.raw.content through existing widget controller; never restore stale whole options or change sidebar."
+}
