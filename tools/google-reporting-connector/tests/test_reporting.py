@@ -7,7 +7,7 @@ import httpx
 from cryptography.fernet import Fernet
 from starlette.testclient import TestClient
 from reporting import Reports, window
-from server import build_server, identity_allowed
+from server import build_server, identity_allowed, redis_connection_url
 
 class ReportingTests(unittest.IsolatedAsyncioTestCase):
     async def asyncSetUp(self):
@@ -77,6 +77,19 @@ class ReportingTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(len(calls), 1)
 
 class AuthBoundaryTests(unittest.TestCase):
+    def test_upstash_integration_name_and_explicit_override(self):
+        with patch.dict(os.environ, {"REPORTING_REDIS_REDIS_URL": "rediss://integration.example:6379"}, clear=True):
+            self.assertEqual(redis_connection_url(), "rediss://integration.example:6379")
+            os.environ["REPORTING_REDIS_URL"] = "rediss://explicit.example:6379"
+            self.assertEqual(redis_connection_url(), "rediss://explicit.example:6379")
+
+    def test_redis_configuration_rejects_plaintext_without_echoing_credentials(self):
+        for key in ["REPORTING_REDIS_URL", "REPORTING_REDIS_REDIS_URL"]:
+            with patch.dict(os.environ, {key: "redis://private-test-password@localhost:6379"}, clear=True):
+                with self.assertRaisesRegex(ValueError, "verified TLS") as error:
+                    redis_connection_url()
+                self.assertNotIn("private-test-password", str(error.exception))
+
     def test_identity_requires_exact_verified_email(self):
         self.assertTrue(identity_allowed({"email": "Owner@example.com", "email_verified": True}, "owner@example.com"))
         for claims in [{}, {"email": "owner@example.com"}, {"email": "owner@example.com", "email_verified": False}, {"email": "other@example.com", "email_verified": True}]:

@@ -29,14 +29,20 @@ class OwnerOnlyGoogle(GoogleProvider):
             return verified
         return None
 
+def redis_connection_url() -> str:
+    # Vercel's Upstash integration appends REDIS_URL to the chosen prefix.
+    # Read the server-side secret directly; never copy it into source or logs.
+    redis_url = os.environ.get("REPORTING_REDIS_URL") or os.environ["REPORTING_REDIS_REDIS_URL"]
+    if not redis_url.startswith("rediss://"):
+        raise ValueError("Persistent Redis must use verified TLS (rediss).")
+    return redis_url
+
 def build_server():
     base = os.environ["REPORTING_BASE_URL"].rstrip("/")
     parsed = urlsplit(base)
     if parsed.scheme != "https" or not parsed.hostname or parsed.path or parsed.query or parsed.fragment or parsed.username:
         raise ValueError("REPORTING_BASE_URL must be an HTTPS origin.")
-    redis_url = os.environ["REPORTING_REDIS_URL"]
-    if not redis_url.startswith("rediss://"):
-        raise ValueError("Persistent Redis must use verified TLS (rediss).")
+    redis_url = redis_connection_url()
     signing = os.environ["REPORTING_JWT_SIGNING_KEY"]
     if len(signing) < 43:
         raise ValueError("Use a newly generated high-entropy signing key.")
