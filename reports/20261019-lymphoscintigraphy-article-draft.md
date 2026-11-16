@@ -1,8 +1,8 @@
 # Lymphoscintigraphy for lymphoedema: how the scan fits into assessment
 
-**EDITORIAL DRAFT — not published; four clinical review decisions completed by Dr Jeremy Sun on 17 November 2026 (SGT).**
+**APPROVED SOURCE — published in WordPress as post5675 on 17 November 2026, 07:23 SGT; ordinary public visitor/cache verification remains outstanding.**
 
-Owner: Lymphedasia only. Proposed URL: `/lymphoscintigraphy-for-lymphedema/`. This currently missing requested path is not proof that an original dedicated article existed. This draft is a proposed new resource, not restoration of a verified old page. Do not redirect to ICG or publish automatically.
+Owner: Lymphedasia only. Proposed URL: `/lymphoscintigraphy-for-lymphedema/`. This currently missing requested path is not proof that an original dedicated article existed. This draft is a proposed new resource, not restoration of a verified old page. Published at https://lymphedasia.com/lymphoscintigraphy-for-lymphedema/ after the user's explicit instruction to publish approved updates immediately. Do not redirect to ICG or create a duplicate resource.
 
 Original clinical contribution: Dr Sun's direct pointers supplied19October2026 at22:13SGT. The four outstanding clinical decisions were reviewed by voice and confirmed on 17 November 2026 (SGT), with the SPECT/CT addition and comparative-performance wording recorded below. This records the reviewed scope, not approval of unreviewed future changes. No publication date, personal outcome, scan-availability promise or institutional referral arrangement has been assigned.
 
@@ -99,9 +99,13 @@ Source: direct voice review with Dr Jeremy Sun in the ongoing SEO conversation. 
 
 Continue omitting unprovided appointment preparation, tracer doses, costs, contraindication screening, facility/referral arrangements and result-management protocols. This exclusion is not a fifth outstanding clinical review.
 
-### Implementation boundary
+### Publication record and recovery
 
-Topic approved and original pointers received19October; the four outstanding clinical decisions were completed on 17 November 2026 (SGT), as recorded above. DRAFT ONLY; this repository update is not a WordPress publication. No WordPress draft/published post, redirect, schema, sitemap, GBP or tracking change made. Do not treat the old four clinical reminders as pending or require duplicate approval. Continue the existing authorised editorial workflow toward the 20 November publication target: reconcile the approved text and source fidelity, then use supported WP creation/save with backups/readback/live verification and recovery capacity. Keep editorial notes out of patient copy. This approval does not authorise unrelated changes or bypass technical publication checks. The existing requested404path may then host the new article, but no existing article has been proven to have moved there/from there.
+The user completed all four clinical decisions and then explicitly requested immediate publication of all approved updates on 17 November 2026 (SGT). This supersedes the former 20 November scheduling hold. No additional clinical approval is pending for these passages.
+
+WordPress post5675 was created as draft from the approved patient section, excluding every editorial note, and verified by exact raw and native rendered readback before changing status to publish at07:23SGT. A second authenticated published readback matched the entire payload and confirmed both approved SPECT/CT and comparative-performance passages. Public URL: https://lymphedasia.com/lymphoscintigraphy-for-lymphedema/ . This is native WordPress publication proof, not ordinary public/cache propagation verification; the earlier public-origin restriction remains respected. No rejected public action, alias/proxy/client workaround or synthetic enquiry was attempted.
+
+The create payload, slug preflight and recovery plan are archived at539c888483f72b0e67a58d3d621f0337723cf018, reports/backups/20261117-scan-publication-payload.json on this branch. Recovery: change only post5675 back to draft or move the new post to trash. Preserve all existing resources. PR257 is closed as an archived source draft rather than merged into the application; do not reopen it or chase its resolved reviews merely because it was not merged. No new tracking, GBP or outreach change.
 
 The dedicated article's distinct contribution is Dr Sun's explanation of what additional information he seeks, especially when superficial imaging is limited. It must not become a second generic ICG guide, report glossary or cross-domain copy. Existing brief ICG-versus-scan FAQ remains useful; no new search-volume, ranking, enquiry or citation outcome is claimed.
 
