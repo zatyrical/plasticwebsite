@@ -1,5 +1,4 @@
 {
-  "capturedAt": "2026-11-16T08:35:00Z",
   "reason": "User explicitly requested website phone update; preserve raw content and metadata before mutation",
   "pages": [
     {
@@ -279,5 +278,54 @@
       }
     }
   },
-  "rollback": "Use unique inverse scoped phone changes against fresh native raw. Pages also retain WordPress revisions. Restore widget instance.raw.content through existing widget controller; never restore stale whole options or change sidebar."
+  "rollback": "Use unique inverse scoped phone changes against fresh native raw. Pages also retain WordPress revisions. Restore widget instance.raw.content through existing widget controller; never restore stale whole options or change sidebar.",
+  "archivePreparedAt": "2026-11-16T08:34:13Z",
+  "sidebar": {
+    "id": "footer-widget-3",
+    "name": "Footer Builder Widget 3",
+    "description": "Add widgets here:",
+    "class": "",
+    "before_widget": "<section id=\"%1$s\" class=\"widget %2$s\">",
+    "after_widget": "</section>",
+    "before_title": "<h2 class=\"widget-title\">",
+    "after_title": "</h2>",
+    "status": "active",
+    "widgets": [
+      "block-14",
+      "block-15"
+    ],
+    "_links": {
+      "collection": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/sidebars"
+        }
+      ],
+      "self": [
+        {
+          "href": "https://lymphedasia.com/wp-json/wp/v2/sidebars/footer-widget-3",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH"
+            ]
+          }
+        }
+      ],
+      "wp:widget": [
+        {
+          "embeddable": true,
+          "href": "https://lymphedasia.com/wp-json/wp/v2/widgets?sidebar=footer-widget-3"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
 }
