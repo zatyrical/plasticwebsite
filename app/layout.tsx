@@ -1,18 +1,12 @@
 import type { Metadata } from 'next';
-import { Space_Grotesk } from 'next/font/google';
 import Footer from './Footer';
+import HeadingFontPreload from './HeadingFontPreload';
 import Navigation from './Navigation';
 import MotionObserver from './MotionObserver';
 import GaTracker from './GaTracker';
 import { physicianSameAs } from './seoIdentity';
+import './heading-font.css';
 import './globals.css';
-
-const headingFont = Space_Grotesk({
-  subsets: ['latin'],
-  weight: ['500', '600', '700'],
-  display: 'swap',
-  variable: '--font-space-grotesk'
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.drjeremysun.com'),
@@ -109,8 +103,9 @@ const globalStructuredData = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={headingFont.variable}>
+    <html lang="en">
       <body>
+        <HeadingFontPreload />
         <a className="skip-link" href="#main-content">Skip to main content</a>
         <script
           type="application/ld+json"

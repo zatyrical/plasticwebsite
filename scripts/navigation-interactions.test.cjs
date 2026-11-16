@@ -33,6 +33,7 @@ function navigation() {
     if (name === 'react') return react;
     if (name === 'react/jsx-runtime') return { jsx: element, jsxs: element };
     if (name === 'next/link' || name === 'next/image') return { default: name };
+    if (name === './mobileNavigation.css') return {};
     throw new Error(`Unexpected dependency: ${name}`);
   } });
   function all(node) {
