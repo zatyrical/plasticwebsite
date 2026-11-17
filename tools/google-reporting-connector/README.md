@@ -45,3 +45,39 @@ Primary documentation inspected16Nov2026:
 - https://gofastmcp.com/docs/servers/auth/oauth-proxy
 
 Framework is an implementation library, not a third-party analytics-data intermediary. Google remains the reporting source; the privately hosted connector and its encrypted OAuth storage are new access infrastructure requiring explicit setup/approval.
+
+
+## Stored-index inspection extension — prepared 17 November 2026
+
+`gsc_url_inspection(site, url)` reads Google's stored index verdict for a single
+public canonical HTTPS page on the selected approved site. Only exact bare/www
+hosts are accepted; credentials, alternate ports, queries, fragments, controls
+and cross-site URLs are rejected before the network call. The client sends the
+URL as data to the fixed official Google inspection endpoint; it does not fetch
+that page, follow redirects, request indexing or run a live test. Google source
+fields (including absent values) are preserved without inventing an indexed flag.
+
+`gsc_sitemaps(site)` reads submitted sitemap metadata from the fixed Google API.
+This is not a complete URL inventory or Page Indexing coverage report. Neither
+method submits/deletes sitemaps or modifies tracking/content. Existing owner-only
+OAuth, read-only scopes, two-site allowlist, encrypted TLS Redis and secret
+handling are unchanged. No new consent scope or subscription is required by the
+implementation. Actual production capability and authenticated access must still
+be verified after a separately reconciled connector deployment/tool refresh.
+
+Keep index verdicts, canonicals, last crawl, dated observations and detailed
+exports private. Use a small dated rotating inspection queue, not an all-URL
+loop; honour the existing daily/per-URL limits. New publication delay is not
+itself a defect. The API exposes Google's indexed version, not a live test or a
+ranking guarantee. Do not infer coverage totals from inspection samples or the
+sitemaps response. The full Page Indexing report remains a direct-UI dependency.
+
+Primary references checked 17 November 2026:
+- https://developers.google.com/webmaster-tools/v1/urlInspection.index/inspect
+- https://developers.google.com/webmaster-tools/v1/sitemaps/list
+
+Source-only status: prepared and mocked tests required; not deployed, no Google
+inspection has yet been measured with these added methods. This extension belongs
+to the separate reporting service, never a patient-site main merge. Roll back the
+extension by restoring the preceding connector deployment/source; existing data
+and OAuth grants need no change.

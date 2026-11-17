@@ -91,4 +91,16 @@ def build_server():
         async with httpx.AsyncClient() as client:
             return await Reports(client, token()).gsc(site, start, end, dimensions, query_regex, exclude_regex, page, limit, start_row)
 
+    @mcp.tool(annotations={"readOnlyHint": True, "destructiveHint": False, "openWorldHint": True})
+    async def gsc_url_inspection(site: Site, url: str) -> dict:
+        """Read Google's stored index status for one canonical page on the selected approved site. No live test or indexing request. Respect the dated inspection queue; never loop over every URL."""
+        async with httpx.AsyncClient() as client:
+            return await Reports(client, token()).inspect_url(site, url)
+
+    @mcp.tool(annotations={"readOnlyHint": True, "destructiveHint": False, "openWorldHint": True})
+    async def gsc_sitemaps(site: Site) -> dict:
+        """Read submitted sitemap metadata for one approved property. Not full coverage or page-indexing proof; never submit or delete sitemaps."""
+        async with httpx.AsyncClient() as client:
+            return await Reports(client, token()).sitemaps(site)
+
     return mcp

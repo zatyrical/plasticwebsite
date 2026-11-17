@@ -76,6 +76,68 @@ class ReportingTests(unittest.IsolatedAsyncioTestCase):
         self.assertNotIn("secret-test", str(error.exception))
         self.assertEqual(len(calls), 1)
 
+    async def test_inspection_fixed_endpoint_property_and_exact_url(self):
+        for site, url, prop in [
+            ("drsun", "https://www.drjeremysun.com/rib-rhinoplasty-singapore", "sc-domain:drjeremysun.com"),
+            ("lymphedasia", "https://lymphedasia.com/lymphoscintigraphy-for-lymphedema/", "sc-domain:lymphedasia.com"),
+        ]:
+            result = await self.reports.inspect_url(site, url)
+            request = self.requests[-1]
+            self.assertEqual(request.method, "POST")
+            self.assertEqual(str(request.url), "https://searchconsole.googleapis.com/v1/urlInspection/index:inspect")
+            self.assertEqual(json.loads(request.content), {"inspectionUrl": url, "siteUrl": prop, "languageCode": "en-US"})
+            self.assertEqual((result["property"], result["url"]), (prop, url))
+            self.assertIn("checkedAtUtc", result)
+            self.assertEqual(result["source"], {"rows": []})
+            self.assertNotIn("indexed", result)  # No invented verdict from missing provider fields.
+
+    async def test_inspection_rejects_cross_property_and_unsafe_urls_before_network(self):
+        for url in ["https://lymphedasia.com/", "https://www.drjeremysun.com.evil.example/",
+                    "http://www.drjeremysun.com/", "https://127.0.0.1/", "https://user@www.drjeremysun.com/",
+                    "https://www.drjeremysun.com:443/", "https://www.drjeremysun.com",
+                    "https://www.drjeremysun.com/?token=private", "https://www.drjeremysun.com/?",
+                    "https://www.drjeremysun.com/#contact", "https://www.drjeremysun.com/#",
+                    "https://www.drjeremysun.com/white space", "https://www.drjeremysun.com/\\evil",
+                    "https://www.drjeremysun.com/" + "a" * 2048]:
+            with self.subTest(url=url), self.assertRaises(ValueError):
+                await self.reports.inspect_url("drsun", url)
+        with self.assertRaises(KeyError):
+            await self.reports.inspect_url("other", "https://www.drjeremysun.com/")
+        self.assertEqual(self.requests, [])
+
+    async def test_sitemaps_read_is_fixed_property_get_with_no_mutation(self):
+        for site, prop in [("drsun", "drjeremysun.com"), ("lymphedasia", "lymphedasia.com")]:
+            result = await self.reports.sitemaps(site)
+            request = self.requests[-1]
+            self.assertEqual(request.method, "GET")
+            self.assertEqual(str(request.url), "https://www.googleapis.com/webmasters/v3/sites/sc-domain%3A" + prop + "/sitemaps")
+            self.assertEqual(request.content, b"")
+            self.assertEqual(result["source"], {"rows": []})
+            self.assertNotIn("indexed", result)
+        with self.assertRaises(KeyError):
+            await self.reports.sitemaps("other")
+        self.assertEqual(len(self.requests), 2)
+
+    async def test_inspection_retains_google_verdict_canonicals_and_absent_fields(self):
+        source = {"inspectionResult": {"indexStatusResult": {"verdict": "NEUTRAL",
+                  "coverageState": "Crawled - currently not indexed", "lastCrawlTime": "2026-11-15T00:00:00Z",
+                  "googleCanonical": "https://www.drjeremysun.com/", "userCanonical": "https://www.drjeremysun.com/example"}}}
+        async with httpx.AsyncClient(transport=httpx.MockTransport(lambda r: httpx.Response(200, json=source))) as client:
+            result = await Reports(client, "test-only").inspect_url("drsun", "https://www.drjeremysun.com/example")
+        self.assertEqual(result["source"], source)
+        self.assertNotIn("sitemap", result["source"]["inspectionResult"]["indexStatusResult"])
+
+    async def test_inspection_redirects_are_not_followed_and_errors_are_redacted(self):
+        calls = []
+        def respond(request):
+            calls.append(request)
+            return httpx.Response(302, headers={"Location": "https://elsewhere.example/"}, json={"error": "private detail"})
+        async with httpx.AsyncClient(transport=httpx.MockTransport(respond), follow_redirects=True) as client:
+            with self.assertRaisesRegex(RuntimeError, "HTTP 302") as error:
+                await Reports(client, "private-test-token").inspect_url("drsun", "https://www.drjeremysun.com/")
+        self.assertEqual(len(calls), 1)
+        self.assertNotIn("private", str(error.exception))
+
 class AuthBoundaryTests(unittest.TestCase):
     def test_upstash_integration_name_and_explicit_override(self):
         with patch.dict(os.environ, {"REPORTING_REDIS_REDIS_URL": "rediss://integration.example:6379"}, clear=True):
