@@ -83,7 +83,7 @@ const educationFeatures: MediaFeature[] = [
   {
     source: 'Organising co-chairperson · 2026',
     title: 'PASM 2026 — Plastic Aesthetic Surgery Meeting',
-    description: 'Listed as an organising co-chairperson for PASM 2026 on the meeting’s official committee page. The meeting is scheduled for November 2026.',
+    description: 'The official PASM 2026 committee page lists Dr Jeremy Sun as an organising co-chairperson. In its 10 November preview, MedTech Spectrum quoted him on the partnership for surgical education.',
     href: 'https://www.pasm.sg/committee',
     label: 'View official committee listing'
   },
