@@ -324,7 +324,11 @@ export default function ProcedureArticlePage({ article }: Props) {
               <p className="lead">{article.lead}</p>
               <div className="hero-actions">
                 <a href="#enquire" className="btn btn-primary">Enquire about assessment</a>
-                <Link href={hubHref} className="btn btn-ghost">{article.backLabel}</Link>
+                {article.slug === 'breast-augmentation-singapore' ? (
+                  <a href="#rapid-recovery" className="btn btn-ghost">Read the first-day recovery guide</a>
+                ) : (
+                  <Link href={hubHref} className="btn btn-ghost">{article.backLabel}</Link>
+                )}
               </div>
               <div className="article-trust-strip" aria-label="What this page is designed to answer">
                 <span>Specialist plastic surgery assessment</span>
@@ -464,7 +468,10 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>For more on how abdominal muscle separation is assessed when a hernia may also be present, see the <a href="https://europeanherniasociety.eu/guidelines-for-management-of-rectus-diastasis/">European Hernia Society guideline on rectus diastasis</a>.</p>
                 ) : null}
                 {article.slug === 'tummy-tuck-singapore' && section.id === 'recovery' ? (
-                  <p>If your plan includes a drain, ask who will show you how to care for it and whom to contact with questions. The <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a> gives general background; follow the instructions from your own surgical team.</p>
+                  <>
+                    <p>If your plan includes a drain, ask who will show you how to care for it and whom to contact with questions. Follow your surgical team’s instructions and see the <a href="https://www.plasticsurgery.org/cosmetic-procedures/tummy-tuck/recovery">ASPS tummy tuck recovery guidance</a> for general background.</p>
+                    <p><a href="#enquire">Enquire about a tummy tuck assessment</a> to discuss how recovery may fit around your work and childcare.</p>
+                  </>
                 ) : null}
                 {['asian-rhinoplasty-singapore', 'rib-rhinoplasty-singapore', 'breast-augmentation-singapore', 'body-contouring-liposuction-singapore', 'tummy-tuck-singapore', 'face-neck-lift-singapore'].includes(article.slug) && section.id === 'recovery' ? (
                   <p>Comparing overseas clinics? Read the <Link href="/plastic-surgery-overseas-safety-singapore">plastic surgery in Korea and overseas follow-up checklist</Link> to prepare questions about anaesthesia arrangements, records and in-person care after returning to Singapore.</p>
@@ -605,7 +612,7 @@ export default function ProcedureArticlePage({ article }: Props) {
                   <p>For the broader decision between nasal implants, septal cartilage, ear cartilage and rib cartilage, read the <Link href="/asian-rhinoplasty-singapore#materials">Asian rhinoplasty materials guide</Link>.</p>
                 ) : null}
                 {article.slug === 'breast-augmentation-singapore' && section.id === 'rapid-recovery' ? (
-                  <p>Read the <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore">rapid recovery breast augmentation guide</Link> for patient selection, early movement and activity limits.</p>
+                  <p>Read the <Link href="/24-hour-rapid-recovery-breast-augmentation-singapore">full breast augmentation recovery guide</Link> or <a href="#enquire">enquire about an assessment</a> to discuss a recovery plan for your procedure.</p>
                 ) : null}
                 {article.slug === 'breast-augmentation-singapore' && section.id === 'fat-grafting-lift' ? (
                   <p>If avoiding an implant or discussing modest contour refinement is part of the consultation, the <Link href="/fat-grafting-singapore">fat grafting guide</Link> explains donor- and recipient-site assessment, recovery at both sites and important volume limitations. Reading it does not mean fat transfer is suitable or planned.</p>

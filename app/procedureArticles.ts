@@ -168,7 +168,7 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
   },
   'tummy-tuck-singapore': {
     slug: 'tummy-tuck-singapore',
-    modifiedIso: '2026-10-14',
+    modifiedIso: '2026-11-24',
     title: 'Abdominoplasty Singapore | Tummy Tuck Surgery & Diastasis Repair',
     eyebrow: 'Tummy tuck & abdominoplasty',
     lead: 'A patient guide to abdominoplasty and tummy tuck surgery in Singapore, including loose abdominal skin, diastasis recti or divarication repair, mini versus full abdominoplasty, liposuction, recovery, scars and risks.',
@@ -244,7 +244,13 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       {
         id: 'recovery',
         heading: 'Recovery after tummy tuck surgery',
-        paragraphs: ['Recovery is more involved than liposuction alone. Patients may need dressings, drains in selected cases, compression garments, a flexed posture initially, time away from work and help at home, especially if caring for young children.', 'Swelling, tightness, bruising, altered sensation and scar maturation are expected. Heavy lifting, strenuous exercise and abdominal strain are usually restricted until cleared. Final contour and scar maturation take months.']
+        paragraphs: ['Plan time away from work and help at home before surgery. Your recovery plan depends on the extent of the operation, whether abdominal wall repair is included and how you are healing. You may need dressings, a drain, a compression garment or to walk slightly bent forward initially.', 'Swelling, tightness, bruising and changes in sensation are common early in recovery. Final contour and scar maturation take months.'],
+        items: [
+          'Desk work: Discuss when you may be comfortable sitting through a workday, taking breaks and managing the commute. Ask whether a phased return is appropriate.',
+          'Driving: Follow your discharge instructions. Resume only when your surgical team clears you, you are off sedating medicines, and you can wear a seatbelt, turn and make an emergency stop comfortably.',
+          'Childcare: Arrange help with lifting children, car seats and heavy household tasks during early recovery.',
+          'Exercise: Ask when to start gentle walks and how to build up activity. Wait for your surgical team’s clearance before strenuous exercise, heavy lifting or abdominal training.'
+        ]
       },
       {
         id: 'risks',
@@ -344,10 +350,10 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
 
   'breast-augmentation-singapore': {
     slug: 'breast-augmentation-singapore',
-    modifiedIso: '2026-10-13',
+    modifiedIso: '2026-11-24',
     title: 'Breast Augmentation Singapore | Breast Implant Surgery & Motiva Planning',
     eyebrow: 'Breast augmentation & implants',
-    lead: 'A patient guide to breast augmentation in Singapore, including implant selection, Motiva implant planning, fat grafting alternatives, recovery, screening, risks and long-term implant follow-up.',
+    lead: 'A guide to breast augmentation in Singapore, from implant selection and cost factors to what the first evening and next day of recovery may look like.',
     description: 'Breast augmentation Singapore guide: breast implant surgery, Motiva implant planning, implant placement/profile, cost factors, recovery, screening, risks and long-term follow-up.',
     keywords: ['breast augmentation Singapore', 'breast implant Singapore', 'breast implants Singapore', 'breast enlargement Singapore', 'Motiva implants Singapore', 'Motiva breast augmentation Singapore', 'breast implant placement Singapore', 'breast implant shapes Singapore', 'boob job Singapore', 'aesthetic breast surgery Singapore'],
     heroImage: { src: '/images/aesthetic-breast/breast-implants-motiva-consultation-singapore.jpg', alt: 'Breast implant sizers and Motiva implant samples used during breast augmentation consultation planning in Singapore', caption: 'Breast implant samples used for patient education during consultation; not a before-and-after result or product endorsement.' },
@@ -358,6 +364,15 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
       'The safest plan is not simply choosing a cup size. Breast augmentation planning should consider breast base width, soft-tissue thickness, chest wall shape, nipple position, skin quality, implant dimensions, incision, implant plane, recovery needs and long-term follow-up.'
     ],
     sections: [
+      {
+        id: 'rapid-recovery',
+        heading: 'Breast augmentation recovery in the first 24 hours',
+        paragraphs: [
+          'For selected patients having first-time breast augmentation, Dr Sun uses a 24-hour recovery approach he learnt directly from Dr William P. Adams Jr. It combines careful surgical planning with guidance on pain relief and early movement.',
+          'In Dr Sun’s practice, some patients have felt well enough to wash their hair or go out for dinner on the evening of surgery. Follow your discharge instructions and arrange for an adult to accompany you if you go out. Your activity plan depends on the operation, how you recover from anaesthesia and how you feel.',
+          'Driving may be possible the next day if at least 24 hours have passed after general anaesthesia or sedation, your surgical team has cleared you, you are off sedating medicines and you can steer and make an emergency stop comfortably.'
+        ]
+      },
       {
         id: 'who-this-is-for',
         heading: 'Breast augmentation in Singapore: who this page is for',
@@ -430,11 +445,6 @@ export const procedureArticles: Record<string, ProcedureArticle> = {
         id: 'pregnancy-breastfeeding',
         heading: 'Future pregnancy and breastfeeding after breast augmentation',
         paragraphs: ['Future pregnancy and breastfeeding goals should be discussed before breast augmentation because breast surgery may affect milk production in some patients. Some women can breastfeed after augmentation and some cannot, so future breastfeeding should not be guaranteed.', 'Pregnancy, breastfeeding, weight change and ageing can also change the breast tissues and cosmetic result over time. Patients planning a future pregnancy should discuss timing, expectations and the possibility that later revision may be considered rather than assuming the result will remain unchanged.']
-      },
-      {
-        id: 'rapid-recovery',
-        heading: '24-hour rapid recovery breast augmentation principles',
-        paragraphs: ['For selected primary breast augmentation patients, Dr Sun may discuss rapid recovery principles learnt directly from Dr William Adams during aesthetic breast surgery training. These principles emphasise careful planning, gentle tissue handling, pocket control, bleeding control and structured early movement.', 'This should not be understood as an assured 24-hour timeline for every patient. Suitability depends on anatomy, implant choice, surgical plan, anaesthesia recovery, symptoms, confidence with early movement and individual healing.']
       },
       {
         id: 'recovery',

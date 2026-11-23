@@ -11,8 +11,8 @@ export const procedurePagePresentation: Record<string, { heading: string; title:
   },
   "breast-augmentation-singapore": {
     "heading": "Breast Augmentation Singapore",
-    "title": "Breast Augmentation Singapore | Breast Implant Surgery",
-    "description": "Breast augmentation Singapore guide: breast implant surgery, Motiva planning, implant placement/profile, cost factors, recovery, screening and risks."
+    "title": "Breast Augmentation Singapore | Implants & Recovery",
+    "description": "Learn about breast augmentation in Singapore, from implant options and cost factors to first-day recovery, driving, exercise and consultation with Dr Jeremy Sun."
   },
   "24-hour-rapid-recovery-breast-augmentation-singapore": {
     "heading": "24-Hour Rapid Recovery Breast Augmentation in Singapore",
@@ -32,6 +32,6 @@ export const procedurePagePresentation: Record<string, { heading: string; title:
   "tummy-tuck-singapore": {
     "heading": "Abdominoplasty and Tummy Tuck Surgery in Singapore",
     "title": "Tummy Tuck Singapore | Abdominoplasty & Diastasis Repair",
-    "description": "Abdominoplasty Singapore and tummy tuck surgery guide: loose skin, diastasis/divarication repair, mini vs full surgery, scars and recovery."
+    "description": "Considering a tummy tuck in Singapore? Compare mini and full abdominoplasty, diastasis repair, cost factors and recovery for work, driving and childcare."
   }
 };
