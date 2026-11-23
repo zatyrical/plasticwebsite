@@ -10,7 +10,7 @@ const slug = '24-hour-rapid-recovery-breast-augmentation-singapore';
 const title = '24-Hour Rapid Recovery Breast Augmentation in Singapore';
 const description = procedurePagePresentation[slug].description;
 const articleUrl = `${baseUrl}/${slug}`;
-const modifiedIso = '2026-10-14';
+const modifiedIso = '2026-11-24';
 const socialImage = '/images/aesthetic-breast/recovery-planning-still-life.webp';
 const socialImageAlt = 'Recovery-planning still life for breast augmentation patient education';
 
@@ -267,6 +267,9 @@ export default function RapidRecoveryBreastAugmentationPage() {
             <section id="day-of-surgery">
               <h2>Why early controlled movement may be encouraged</h2>
               <p>Older breast augmentation recovery advice often emphasised prolonged rest and limited arm movement. In selected rapid recovery protocols, early controlled movement may be encouraged to reduce stiffness and help patients return to light routine activities sooner.</p>
+              <p>In Dr Sun’s practice, some patients have felt well enough to wash their hair or go out for dinner on the evening of surgery. Follow your discharge instructions and arrange for an adult to accompany you if you go out.</p>
+              <h3>When can I drive again?</h3>
+              <p>Driving may be possible the next day if at least 24 hours have passed after general anaesthesia or sedation, your surgical team has cleared you, you are off sedating medicines and you can steer and make an emergency stop comfortably. See <a href="https://www.skh.com.sg/ward-stay/admissions/what-to-do-before-surgery">Sengkang General Hospital’s day surgery guidance</a> for general anaesthesia precautions.</p>
               <p>This does not mean heavy lifting, gym exercise, contact sports or ignoring pain. The difference is between controlled normal-use movement and strenuous activity. Patients should follow the exact protocol given by their surgeon because instructions may differ based on implant plane, incision, bleeding risk and whether any additional procedure was performed.</p>
             </section>
 
