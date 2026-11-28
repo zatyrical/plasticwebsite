@@ -58,7 +58,9 @@ export const lowerBlepharoplastyArticle: ProcedureArticle = {
       "id": "suitability",
       "heading": "Is lower eyelid surgery appropriate for your concerns?",
       "paragraphs": [
-        "Discuss the changes you wish to address, previous eye or facial procedures, medications and eye symptoms. If you already have dry eyes, tell your surgeon about your symptoms and any eye drops you use, and ask how this might affect your surgical plan. The consultation should explain which concerns the proposed operation may address and which may remain. Ask whether an alternative approach or no treatment would better fit your situation."
+        "Discuss the changes you wish to address, previous eye or facial procedures, medications and eye symptoms. If you already have dry eyes, tell your surgeon about your symptoms and any eye drops you use, and ask how this might affect your surgical plan. The consultation should explain which concerns the proposed operation may address and which may remain. Ask whether an alternative approach or no treatment would better fit your situation.",
+        "An eye bag caused by protruding orbital fat and a festoon, a fold over the upper cheek, can occur together. During examination, Dr Jeremy Sun may ask you to squeeze your eyelids shut. If the cheek fold smooths, this suggests that looseness of the muscle around the eye contributes. Orbital fat can also shift or flatten during the squeeze, so Dr Sun considers this finding alongside the rest of the examination.",
+        "Repositioning the fat can improve the eye bag while the cheek fold remains visible. If the fold is your main concern, Dr Sun will discuss whether lifting or redraping the loose tissue during lower blepharoplasty could improve it."
       ]
     },
     {
